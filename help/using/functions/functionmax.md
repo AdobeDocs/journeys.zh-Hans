@@ -1,0 +1,95 @@
+---
+title: max
+description: 了解函数max
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+
+---
+
+# max{#max}
+
+返回一组表达式中的最大值，该值以列表或两个表达式的形式给出。 忽略空值。
+
+## 类别
+
+聚合
+
+## 函数语法
+
+`max(<parameter>)`
+
+## 参数
+
+* listDuration
+* listInteger
+* listDecimal
+* listDateTime
+* listDateTimeOnly
+* 持续时间
+* 整数
+* 小数点
+* dateTime
+* dateTimeOnly
+
+## 签名和返回的类型
+
+`max(<listDuration>)`
+
+返回持续时间。
+
+`max(<listInteger>)`
+
+返回持续时间。
+
+`max(<listDateTimeOnly>)`
+
+返回不考虑时区的日期时间。
+
+`max(<listDateTime>)`
+
+返回日期时间。
+
+`max(<listDecimal>)`
+
+返回小数点。
+
+`max(<decimal>,<decimal>)`
+
+返回小数点。
+
+`max(<duration>,<duration>)`
+
+返回持续时间。
+
+`max(<dateTime>,<dateTime>)`
+
+返回日期时间。
+
+`max(<dateTimeOnly>,<dateTimeOnly>)`
+
+返回不考虑时区的日期时间。
+
+`max(<integer>,<integer>)`
+
+返回整数。
+
+## 示例
+
+`max(@{BarBeacon.inventory},5)`
+
+`max([10,3,8])`
+
+返回10。
+
+`max([10,null,8])`
+
+返回10。
