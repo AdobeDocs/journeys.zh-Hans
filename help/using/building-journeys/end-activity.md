@@ -1,0 +1,23 @@
+---
+title: 结束活动
+description: 了解最终活动
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+
+---
+
+
+# 结束活动{#section_vqp_4ft_dgb}
+
+该 **[!UICONTROL End]**活动允许您标记旅程中每条路径的结尾。 它不是强制性的，但建议使用它以实现视觉清晰度。 事实上，如果旅程中有几个结束活动，我们建议您为每个结束添加一个标签，以便更轻松地阅读报告。 请参见[](../reporting/about-journey-reports.md)。
+
+![](../assets/journey54.png)
