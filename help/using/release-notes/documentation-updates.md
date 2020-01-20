@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
+source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 ---
 
@@ -20,6 +20,11 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 
 本页列出了旅程安排的所有文档更新。
 您还可以参阅旅程安排发 [行说明](../release-notes/release-notes.md)。
+
+## 2020年1月 {#january-2020}
+
+* 已为体验事件和区段添 [加了获取](../datasource/adobe-experience-platform-data-source.md)[限制](../functions/functioninsegment.md)。
+* getBestSendTime [文档已更新](../functions/functiongetbestsendtime.md) 。
 
 ## 2019年12月 {#december-2019}
 
@@ -32,4 +37,3 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 * [条件说明](../expression/conditional-instruction.md) 和 [](../expression/collection-management-functions.md) 集合管理部分已移动和更新。
 * 函 [数部分](../expression/functions.md) 已更新为新示例。
 * toDateTime [函数文档已更新](../functions/functiontodatetime.md) ，以反映时区语法的更改。
-
