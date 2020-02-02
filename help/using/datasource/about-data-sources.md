@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # 关于数据源 {#concept_s1s_dqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_datasources&quot;
+>title=&quot;关于数据源&quot;
+>abstract=&quot;数据源配置始终由技术用户执行。 数据源配置允许您定义与系统的连接，以检索将在您的旅程中使用的其他信息，例如：条件定义、操作中的参数和个性化数据、自定义等待定义、自定义时区定义。”
 
 数据源配置始终由技术用户 **执行**。
 
