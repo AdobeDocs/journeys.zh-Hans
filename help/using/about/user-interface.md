@@ -9,12 +9,20 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # 用户界面 {#concept_rcq_lqt_52b}
+
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_home&quot;
+>title=&quot;关于旅程列表&quot;
+>abstract=&quot;旅程列表允许您同时查看所有旅程，查看其状态并执行基本操作。 您可以复制、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法停止或删除已停止的旅程。 您还可以使用搜索栏搜索旅程。”
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
+
 
 >[!NOTE]
 >
