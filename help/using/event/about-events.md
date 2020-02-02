@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # 关于活动 {#concept_gfj_fqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_events&quot;
+>title=&quot;关于活动&quot;
+>abstract=&quot;活动与人关联。 它与人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者某个人（例如，一个人达到10 000个忠诚度积分）的相关事件。 这就是旅程编排将在旅程中倾听的内容，以编排最佳的下一步行动。”
 
 活动与人员相关联。 它与人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者某个人（例如，一个人达到10 000个忠诚度积分）的相关事件。 这就是旅程编排将在旅程中倾听的内容，以编排最佳的下一步行动。
 
@@ -32,7 +37,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 有效负荷包含Streaming Ingestion API需要的工作信息（在标题中）和Journey Orchestration需要的工作信息（事件ID，有效负荷主体的一部分）以及要在旅程中使用的信息（在正文中，例如放弃的购物车数量）。 流摄取有两种模式：已验证和未验证。 有关流摄取API的详细信息，请参 [阅此链接](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)。
 
-在通过Streaming Ingestion API到达后，事件会流入称为Pipeline的内部服务，然后流入数据平台。 如果事件架构启用了实时客户配置文件服务标志，并且有数据集ID也具有实时客户配置文件标志，则该活动架构将流入实时客户配置文件服务。
+在通过Streaming Ingestion API到达后，事件会流入称为Pipeline的内部服务，然后流入数据平台。 如果事件架构启用了实时客户配置文件服务标志，并且具有实时客户配置文件标志的数据集ID，则该活动架构将流入实时客户配置文件服务。
 
 “管道”过滤由“旅程编排”提供并包含在事件有效负荷中的有效负荷包含“旅程编排”eventID（请参阅下面的事件创建过程）的事件。 这些活动通过旅程安排进行聆听，并触发相应的旅程。
 
