@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
+source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 >[!CONTEXTUALHELP]
 >id=&quot;jo_actions&quot;
 >title=&quot;About actions&quot;
->abstract=&quot;这是您定义与将发送消息的系统的连接的位置。 此处定义的操作随后将显示在旅程的左侧调色板中“操作”类别中。
+>abstract=&quot;这是您定义与将发送消息的系统的连接的位置。 此处定义的操作随后将显示在旅程左侧的“操作”类别中。 &quot;
 
 自定义操作的配置始终由技术用户 **执行**。
 
