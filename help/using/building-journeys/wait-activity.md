@@ -11,14 +11,14 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # 等待活动{#section_rlm_nft_dgb}
 
-如果要在执行路径中的下一个活动之前等待，则可以使用活 **[!UICONTROL Wait]**动。 它允许您定义执行下一个活动的时间。 有四个选项可用：
+如果要在执行路径中的下一个活动之前等待，则可以使用活 **[!UICONTROL Wait]** 动。 它允许您定义执行下一个活动的时间。 有四个选项可用：
 
 * [持续时间](#duration)
 * [固定日期](#fixed_date)
@@ -37,7 +37,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >最长等待时间为30天。
 >
->在测试模式下，所有等待活动都会自动设置为最后5秒。 这样，您就可以快速访问测试结果。
+>在测试模式中，“ **在测试中等待时间** ”参数允许您定义每个等待活动将持续的时间。 默认时间为10秒。 这将确保您快速获得测试结果。 See [](../building-journeys/testing-the-journey.md)
 
 ## 持续等待{#duration}
 
@@ -75,10 +75,10 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >旅程的第一个事件必须有一个命名空间。
 >
->此功能仅在活动后可 **[!UICONTROL Email]**用。 您需要安装Adobe Campaign Standard。
+>此功能仅在活动后可 **[!UICONTROL Email]** 用。 您需要安装Adobe Campaign Standard。
 
-1. 在字段 **[!UICONTROL Amount of time]**中，定义要考虑优化电子邮件发送的小时数。
-1. 在字段 **[!UICONTROL Optimization type]**中，选择优化应增加单击还是打开。
+1. 在字段 **[!UICONTROL Amount of time]** 中，定义要考虑优化电子邮件发送的小时数。
+1. 在字段 **[!UICONTROL Optimization type]** 中，选择优化应增加单击还是打开。
 1. 在“默 **认时间** ”字段中，定义当预测发送时间得分不可用时要等待的默认时间。
 
    >[!NOTE]
