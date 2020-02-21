@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;关于旅程列表&quot;
->abstract=&quot;旅程列表允许您同时查看所有旅程，查看其状态并执行基本操作。 您可以复制、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法停止或删除已停止的旅程。 您还可以使用搜索栏搜索旅程。”
+>abstract=&quot;旅程列表允许您同时查看所有旅程，查看其状态并执行基本操作。 您可以复制、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法停止或删除已完成的旅程。 您还可以使用搜索栏搜索旅程。”
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
 
 
@@ -32,27 +32,31 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ## 了解界面{#section_jsq_zr1_ffb}
 
-要访问Journey Orcheration的界面，请单击右 **[!UICONTROL App Selector]**上角的图标。 然后，**[!UICONTROL Journey Orchestration]**&#x200B;单击右侧“Experience Platform”下方的。
+要访问Journey Orcheration的界面，请单击右 **[!UICONTROL App Selector]** 上角的图标。 然后， **[!UICONTROL Journey Orchestration]**&#x200B;单击右侧“Experience Platform”下方的。
 
 ![](../assets/journey1.png)
 
-您还可以从Experience cloud主页中的部分访问旅程安排 **[!UICONTROL Quick access]**。
+您还可以从Experience cloud主页中的部分访问旅程安排 **[!UICONTROL Quick access]** 。
 
 ![](../assets/journey1bis.png)
 
-顶级菜单允许您浏览旅程编排的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**,**[!UICONTROL Actions]**.
+顶级菜单允许您浏览旅程编排的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
+单击 ![](../assets/icon-context.png) 屏幕右上角的图标以显示上下文帮助。 它可跨不同的旅程安排列表屏幕（旅程、事件、操作和数据源）使用。 这允许您查看当前功能的快速说明并访问相关文章和视频。
+
+![](../assets/journey2bis.png)
+
 ## 搜索和筛选{#section_lgm_hpz_pgb}
 
-在、 **[!UICONTROL Home]****[!UICONTROL Data Sources]****[!UICONTROL Events]**和列表**[!UICONTROL Actions]** 中，搜索栏允许您搜索项目。
+在、 **[!UICONTROL Home]****[!UICONTROL Data Sources]****[!UICONTROL Events]** 和列表 **[!UICONTROL Actions]** 中，搜索栏允许您搜索项目。
 
-单 **[!UICONTROL Filters]**击列表左上角的过滤器图标可访问。 过滤器菜单允许您根据不同的条件过滤显示的元素。 您可以选择仅显示特定类型或状态的元素、您创建的元素或最近30天内修改的元素。
+单 **[!UICONTROL Filters]** 击列表左上角的过滤器图标可访问。 过滤器菜单允许您根据不同的条件过滤显示的元素。 您可以选择仅显示特定类型或状态的元素、您创建的元素或最近30天内修改的元素。
 
-在和列 **[!UICONTROL Data Sources]**表中，**[!UICONTROL Events]** 使用“创 **[!UICONTROL Actions]**建”过滤器****，按创建日期和用户进行过滤。 例如，您可以选择仅显示您在过去30天中创建的事件。
+在和列 **[!UICONTROL Data Sources]**&#x200B;表中， **[!UICONTROL Events]** 使用“创 **[!UICONTROL Actions]** 建”过滤器 **** ，按创建日期和用户进行过滤。 例如，您可以选择仅显示您在过去30天中创建的事件。
 
-在旅程列表(下 **[!UICONTROL Home]**)中，除了“旅程”**[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据所显示的旅程的状态和版本(**[!UICONTROL Status and version filters]**)筛选这些旅程。 您还可以选择仅显示使用特定事件、字段组或操作（和）的**[!UICONTROL Activity filters]** 旅程 **[!UICONTROL Data filters]**。 允许您**[!UICONTROL Publication filters]** 选择发布日期或用户。 例如，您可以选择仅显示昨天发布的最新版本实时旅程。 请参见 [](../building-journeys/using-the-journey-designer.md)。
+在旅程列表(下 **[!UICONTROL Home]**)中，除了“旅程” **[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据所显示的旅程的状态和版本(**[!UICONTROL Status and version filters]**)筛选这些旅程。 您还可以选择仅显示使用特定事件、字段组或操作（和）的&#x200B;**[!UICONTROL Activity filters]** 旅程 **[!UICONTROL Data filters]**。 允许您 **[!UICONTROL Publication filters]** 选择发布日期或用户。 例如，您可以选择仅显示昨天发布的最新版本实时旅程。 请参见 [](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
@@ -60,7 +64,7 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ![](../assets/journey74.png)
 
-在事件、数据源和操作配置窗格中，字 **[!UICONTROL Used in]**段显示使用该特定事件、字段组或操作的旅程数。 您可以单击该**[!UICONTROL View journeys]** 按钮以显示相应旅程列表。
+在事件、数据源和操作配置窗格中，字 **[!UICONTROL Used in]** 段显示使用该特定事件、字段组或操作的旅程数。 您可以单击该 **[!UICONTROL View journeys]** 按钮以显示相应旅程列表。
 
 ![](../assets/journey3bis.png)
 
@@ -80,19 +84,19 @@ _在旅程中配置活动时：_
 
 画布会自动保存。 您可以在画布的左上角看到保存状态。
 
-* 按 **Esc** 可关闭配置窗格并放弃所做的更改。 这相当于按 **[!UICONTROL Cancel]**钮。
-* 按 **[!UICONTROL Enter]**或单击窗格外部以关闭配置窗格。 更改已保存。 这相当于按**[!UICONTROL Ok]** 钮。
-* 如果按或 **[!UICONTROL Delete]**Backspace**&#x200B;键&#x200B;**，则可以按以**[!UICONTROL Enter]** 确认删除。
+* 按 **Esc** 可关闭配置窗格并放弃所做的更改。 这相当于按 **[!UICONTROL Cancel]** 钮。
+* 按 **[!UICONTROL Enter]** 或单击窗格外部以关闭配置窗格。 更改已保存。 这相当于按 **[!UICONTROL Ok]** 钮。
+* 如果按或 **[!UICONTROL Delete]** Backspace **键**，则可以按以 **[!UICONTROL Enter]** 确认删除。
 
 _弹出窗口中：_
 
 * 按 **Escape** ，关闭它(相当于“ **Cancel** ”按钮)。
-* 按 **[!UICONTROL Enter]**以保存或确认(相当于**[!UICONTROL Ok]** 或 **[!UICONTROL Save]**按钮)。
+* 按 **[!UICONTROL Enter]** 以保存或确认(相当于 **[!UICONTROL Ok]** 或 **[!UICONTROL Save]** 按钮)。
 
 _在事件、数据源或操作配置窗格中：_
 
 * 按 **Esc** ，关闭配置窗格而不保存。
-* 按 **[!UICONTROL Enter]**以保存修改并关闭配置窗格。
+* 按 **[!UICONTROL Enter]** 以保存修改并关闭配置窗格。
 * 按 **Tab** ，在不同字段之间跳转以进行配置。
 
 _在简单的表达式编辑器中_
@@ -114,5 +118,5 @@ _在具有搜索栏的屏幕中：_
 _在旅程的画布中：_
 
 * 使用 **Ctrl/Command + a组合键** ，选择所有活动。
-* 选择一个或多个活动后，按 **[!UICONTROL Delete]**或**&#x200B;空格&#x200B;**，删除它们。 然后，您可以**[!UICONTROL Enter]** 在确认弹出窗口中按确认。
+* 选择一个或多个活动后，按 **[!UICONTROL Delete]** 或 **空格** ，删除它们。 然后，您可以 **[!UICONTROL Enter]** 在确认弹出窗口中按确认。
 * 从左侧调色板中双击某个活动，将其添加到第一个可用位置（从上到下）。
