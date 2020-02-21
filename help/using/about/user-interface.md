@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;关于旅程列表&quot;
->abstract=&quot;旅程列表允许您同时查看所有旅程，查看其状态并执行基本操作。 您可以复制、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法停止或删除已完成的旅程。 您还可以使用搜索栏搜索旅程。”
+>abstract=&quot;旅程列表允许您同时查看所有旅程，查看其状态并执行基本操作。 您可以复制、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法停止或删除已停止的旅程。 您还可以使用搜索栏搜索旅程。”
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
 
 
@@ -43,10 +43,6 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 顶级菜单允许您浏览旅程编排的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
-
-单击 ![](../assets/icon-context.png) 屏幕右上角的图标以显示上下文帮助。 它可跨不同的旅程安排列表屏幕（旅程、事件、操作和数据源）使用。 这允许您查看当前功能的快速说明并访问相关文章和视频。
-
-![](../assets/journey2bis.png)
 
 ## 搜索和筛选{#section_lgm_hpz_pgb}
 
