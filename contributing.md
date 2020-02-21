@@ -20,7 +20,7 @@ translation-type: tm+mt
 
 ## 参与者许可协议
 
-所有第三方对此项目的捐款都必须随附一份签字的捐款许可协议。 这将允许 Adobe 在项目中再次分发您的贡献。[签署CLA](https://opensource.adobe.com/cla.html)。 您只需提交一次Adobe CLA，因此，如果您之前已提交过一个CLA，您就可以了！
+所有第三方对此项目的捐款都必须随附一份签字的捐款许可协议。 这将允许 Adobe 在项目中再次分发您的贡献。[签署CLA](http://opensource.adobe.com/cla.html)。 您只需提交一次Adobe CLA，因此，如果您之前已提交过一个CLA，您就可以了！
 
 ## 代码审阅
 
