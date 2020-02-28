@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 以下是创建和发布旅程的主要步骤。
 
-1. 在顶部菜单中，单击选 **[!UICONTROL Home]**项卡。
+1. 在顶部菜单中，单击选 **[!UICONTROL Home]** 项卡。
 
    将显示旅程列表。 有关 [](../building-journeys/using-the-journey-designer.md) 该界面的详细信息，请参阅。
 
    ![](../assets/journey30.png)
 
-1. 单击 **[!UICONTROL Create]**以创建新旅程。
+1. 单击 **[!UICONTROL Create]** 以创建新旅程。
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
    ![](../assets/journey32.png)
 
 1. 首先将事件活动从调色板拖放到画布中。 您还可以双击活动以将其添加到画布。
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
    ![](../assets/journey36.png)
 
-## 结束旅程{#ending_a_journey}
+## 结束旅程 {#ending_a_journey}
 
 结束旅程有两种方式：
 
@@ -64,4 +63,3 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 * 该人到达条件活动（或具有条件的等待活动），且与任何条件不匹配。
 
 如果允许重新进入，则人员可以重新进入旅程。 请参见 [](../building-journeys/changing-properties.md)。
-
