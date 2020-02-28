@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
 
 ![](../assets/journey4.png)
 
-## 显示XDM字段名称{#friendly-names-display}
+## 浏览数据平台字段 {#friendly-names-display}
 
-在表达式编辑器中定义事件有效负荷、字段组有效负荷和选择字段时，XDM字段名称在架 [构中的字段名称和显示名](../event/defining-the-payload-fields.md)称下定义 [](../datasource/field-groups.md)[](../expression/expressionadvanced.md)。
-选择字段时，将显示其技术名称以及更易用的字段名称。
+定义事 [件有效负荷](../event/defining-the-payload-fields.md)、字段 [组有效负荷和在表达式编辑器中选择字段时](../datasource/field-groups.md)[](../expression/expressionadvanced.md)，除字段名称外，还显示显示名称。 此信息是从体验数据模型中的架构定义中检索的。
 
-在设置架构以定义将替换显示名称的友好名称时，可以提供描述符，如“xdm:alternateDisplayInfo”。 它还允许您修改架构字段的“标题”和“描述”值。
-
-如果有友好名称可用，则字段将显示为 `<friendly-name>(<name>)`。 例如，如果没有可用的友好名称，将显示显示名称 `<display-name>(<name>)`。 如果未定义这些字段，则只显示字段的技术名称 `<name>`。
-
-您可以通过API调用配置易记名称描述符。 有关详细信息，请参阅“架 [构注册表”开发人员指南](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)。
+如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”的描述符，则用户友好名称将替换显示名称。 在使用“eVar”和通用字段时，此功能尤其有用。您可以通过API调用配置易记名称描述符。 有关详细信息，请参阅“架构注 [册”开发人员指南](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)。
 
 ![](../assets/xdm-from-descriptors.png)
+
+如果有友好名称可用，则字段将显示为 `<friendly-name>(<name>)`。 例如，如果没有可用的友好名称，将显示显示名称 `<display-name>(<name>)`。 如果未定义这些字段，则只显示字段的技术名称 `<name>`。
 
 >[!NOTE]
 >
