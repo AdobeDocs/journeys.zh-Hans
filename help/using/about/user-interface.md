@@ -9,20 +9,19 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
 
 ---
 
 
-# 用户界面 {#concept_rcq_lqt_52b}
+# 用户界面{#concept_rcq_lqt_52b}
 
 
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;关于旅程列表&quot;
->abstract=&quot;旅程列表允许您同时查看所有旅程，查看其状态并执行基本操作。 您可以复制、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法停止或删除已停止的旅程。 您还可以使用搜索栏搜索旅程。”
+>abstract=&quot;旅程列表允许您同时查看所有旅程，查看其状态并执行基本操作。 您可以复制、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法停止或删除已完成的旅程。 您还可以使用搜索栏搜索旅程。”
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
-
 
 >[!NOTE]
 >
@@ -44,6 +43,10 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ![](../assets/journey2.png)
 
+单击 ![](../assets/icon-context.png) 屏幕右上角的图标以显示上下文帮助。 它可跨不同的旅程安排列表屏幕（旅程、事件、操作和数据源）使用。 这允许您查看当前功能的快速说明并访问相关文章和视频。
+
+![](../assets/journey2bis.png)
+
 ## 搜索和筛选{#section_lgm_hpz_pgb}
 
 在、 **[!UICONTROL Home]****[!UICONTROL Data Sources]****[!UICONTROL Events]** 和列表 **[!UICONTROL Actions]** 中，搜索栏允许您搜索项目。
@@ -52,11 +55,13 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 在和列 **[!UICONTROL Data Sources]**&#x200B;表中， **[!UICONTROL Events]** 使用“创 **[!UICONTROL Actions]** 建”过滤器 **** ，按创建日期和用户进行过滤。 例如，您可以选择仅显示您在过去30天中创建的事件。
 
-在旅程列表(下 **[!UICONTROL Home]**)中，除了“旅程” **[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据所显示的旅程的状态和版本(**[!UICONTROL Status and version filters]**)筛选这些旅程。 您还可以选择仅显示使用特定事件、字段组或操作（和）的&#x200B;**[!UICONTROL Activity filters]** 旅程 **[!UICONTROL Data filters]**。 允许您 **[!UICONTROL Publication filters]** 选择发布日期或用户。 例如，您可以选择仅显示昨天发布的最新版本实时旅程。 请参见 [](../building-journeys/using-the-journey-designer.md)。
+在旅程列表(下 **[!UICONTROL Home]**)中，除了“旅程” **[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据所显示的旅程的状态和版本(**[!UICONTROL Status and version filters]**)筛选这些旅程。 您还可以选择仅显示使用特定事件、字段组或操作(和&#x200B;**[!UICONTROL Activity filters]** )的旅程。您可 **[!UICONTROL Data filters]****[!UICONTROL Publication filters]** 以选择发布日期或用户。 例如，您可以选择仅显示昨天发布的最新版本实时旅程。 请参见 [](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
 >请注意，使用列表右上角的配置按钮可以个性化显示的列。 为每个用户保存个性化。
+
+通过 **[!UICONTROL Last update]** 和 **[!UICONTROL Last update by]** 列，可显示您的旅程的上次更新时间以及操作该旅程的用户。
 
 ![](../assets/journey74.png)
 
@@ -67,6 +72,23 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 在不同的列表中，您可以对每个元素执行基本操作。 例如，您可以复制或删除项目。
 
 ![](../assets/journey4.png)
+
+## 显示XDM字段名称{#friendly-names-display}
+
+在表达式编辑器中定义事件有效负荷、字段组有效负荷和选择字段时，XDM字段名称在架 [构中的字段名称和显示名](../event/defining-the-payload-fields.md)称下定义 [](../datasource/field-groups.md)[](../expression/expressionadvanced.md)。
+选择字段时，将显示其技术名称以及更易用的字段名称。
+
+在设置架构以定义将替换显示名称的友好名称时，可以提供描述符，如“xdm:alternateDisplayInfo”。 它还允许您修改架构字段的“标题”和“描述”值。
+
+如果有友好名称可用，则字段将显示为 `<friendly-name>(<name>)`。 例如，如果没有可用的友好名称，将显示显示名称 `<display-name>(<name>)`。 如果未定义这些字段，则只显示字段的技术名称 `<name>`。
+
+您可以通过API调用配置易记名称描述符。 有关详细信息，请参阅“架 [构注册表”开发人员指南](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)。
+
+![](../assets/xdm-from-descriptors.png)
+
+>[!NOTE]
+>
+>当您从架构的联合中选择字段时，不检索友好名称。
 
 ## 使用不同的快捷键{#section_ksq_zr1_ffb}
 
