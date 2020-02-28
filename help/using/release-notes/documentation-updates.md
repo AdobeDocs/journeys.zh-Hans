@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 
 ---
 
@@ -20,6 +20,21 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 本页列出了旅程安排的所有文档更新。
 您还可以参阅旅程安排发 [行说明](../release-notes/release-notes.md)。
+
+## 2020年3月 {#march-2020}
+
+* 多个事件的触发已添加到测试模式部分阅读 [更多](../building-journeys/testing-the-journey.md#firing_events)
+* “测试”模式部分已更新，其中涉及测试参 **数中的新等待时间** 。 [阅读更多](../building-journeys/testing-the-journey.md)
+* 测试日志部分已更新为外部调用错误代码和响应。 [阅读更多](../building-journeys/testing-the-journey.md#viewing_logs)
+* 时区管理现在集中在旅程属性面板中。 在此处和 [此处阅读](../building-journeys/changing-properties.md#timezone) 更 [多](../building-journeys/timezone-management.md)
+* “旅程设计人员”部分已更新以反映最近的增强功能。 [阅读更多](../building-journeys/using-the-journey-designer.md)
+* 界面描述已更新，其中包含有关上下文帮助的信息。 [阅读更多](../about/user-interface.md#section_ksq_zr1_ffb)
+* 浏览 **XDM字段时**，现在显示友好名称。 相关章节已更新。 [阅读更多](../about/user-interface.md#friendly-names-display)
+
+
+## 2020年2月 {#february-2020}
+
+* 快捷键部分已更新。 使用 **C** 键盘快捷键可在所有列表屏幕中创建新项目。 [阅读更多](../about/user-interface.md#section_ksq_zr1_ffb)
 
 ## 2020年1月 {#january-2020}
 
