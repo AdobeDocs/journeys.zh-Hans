@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -25,6 +25,10 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 出现错误时，画布上的活动本身会显示一个警告符号。 将光标放在感叹号上以显示错误消息。 如果单击活动，您应看到错误行并显示警告。 例如，如果必填字段为空，则会显示错误。
 
 ![](../assets/journey63.png)
+
+例如，在画布中，当两个活动断开连接时，将显示一条警告消息。
+
+![](../assets/canvas-disconnected.png)
 
 在切换和 **[!UICONTROL Test]** 按钮旁 **[!UICONTROL Publish]** 边，可显示警告符号。 此警告符号显示系统检测到的错误并阻止测试模式激活或旅程发布。 大多数时间，系统检测到的错误都与活动上可见的错误相关联，但有时它们也与其他问题相关联。 在这种情况下，您可以显示这些错误，尝试使用错误说明来识别问题。 如果无法识别问题，您可以复制详细信息并将其发送给管理员或提供支持。 请注意，阻止测试的错误和阻止发布的错误是相似的。
 
