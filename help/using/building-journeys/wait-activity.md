@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >
 >最长等待时间为30天。
 >
->在测试模式下，所有等待活动都会自动设置为最后5秒。 这样，您就可以快速访问测试结果。
+>在测试模式中，“ **在测试中等待时间** ”参数允许您定义每个等待活动将持续的时间。 默认时间为10秒。 这将确保您快速获得测试结果。 See [](../building-journeys/testing-the-journey.md)
 
 ## 持续等待{#duration}
 
@@ -47,19 +47,19 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ## 修复了等待日期{#fixed_date}
 
-选择执行下一个活动的日期。 定义固定日期时，必须指定时区。 请参见 [](../building-journeys/timezone-management.md)。
+选择执行下一个活动的日期。
 
 ![](../assets/journey56.png)
 
 ## 自定义等待{#custom}
 
-通过此选项，您可以使用基于来自事件或数据源的字段的高级表达式定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参见 [](../expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参阅 [](../expression/data-types.md)
+通过此选项，您可以使用基于来自事件或数据源的字段的高级表达式定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参见 [](../expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参阅 [](../expression/data-types.md)。
 
 >[!NOTE]
 >
 >您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段为2016-08-12T09:46:06格式。
 >
->时 **** 区应位于自定义等待配置窗格的其他位置。 因此，如2016-08-12T09:46:06.982-05那样，今天不可能从界面直接指向完全ISO-8601时间戳混合时间和时区偏移。 请参见 [](../building-journeys/timezone-management.md)。
+>您 **的旅程** ，时区应该在您的旅程中显示。 因此，如2016-08-12T09:46:06.982-05那样，今天不可能从界面直接指向完全ISO-8601时间戳混合时间和时区偏移。 请参见 [](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
