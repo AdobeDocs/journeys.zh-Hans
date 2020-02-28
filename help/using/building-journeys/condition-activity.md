@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 关于“条件”活动 {#about_condition}
 
-如果 **[!UICONTROL Add a path]**要定义多个条件，请单击。 对于每个条件，在活动之后的画布中会添加新路径。
+如果 **[!UICONTROL Add a path]** 要定义多个条件，请单击。 对于每个条件，在活动之后的画布中会添加新路径。
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ![](../assets/journey48.png)
 
-您可以通过选中为不符合定义条件的受众创建其他路径 **[!UICONTROL Show path for other cases than the one(s) above]**。 请注意，此选项在拆分条件中不可用。 请参[阅拆分百分比](#percentage_split)。
+您可以通过选中为不符合定义条件的受众创建其他路径 **[!UICONTROL Show path for other cases than the one(s) above]**。 请注意，此选项在拆分条件中不可用。 请参 [阅拆分百分比](#percentage_split)。
 
 简单模式允许您基于字段组合执行简单查询。 所有可用字段都显示在屏幕的左侧。 将字段拖放到主区域。 要组合不同的元素，请将它们彼此互锁以创建不同的组和／或组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
@@ -58,7 +58,11 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 时间条件{#time_condition}
 
-这允许您根据一天中的某小时和／或一周中的某天执行不同的操作。 例如，您可以决定在白天发送SMS消息，在工作日晚上发送电子邮件。 您可以为此条件定义特定时区。 请参见 [](../building-journeys/timezone-management.md)。
+这允许您根据一天中的某小时和／或一周中的某天执行不同的操作。 例如，您可以决定在白天发送SMS消息，在工作日晚上发送电子邮件。
+
+>[!NOTE]
+>
+>时区不再特定于某个条件，现在在旅程属性的旅程级别定义。 请参见 [](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey51.png)
 
@@ -75,6 +79,10 @@ source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 
 ## 日期条件 {#date_condition}
 
-这允许您根据日期定义不同的流。 例如，如果人员在“销售”期间进入步骤，您将向他发送特定消息。 在一年的其余时间，您会再发送一条消息。 定义日期条件时，必须指定时区。 请参见 [](../building-journeys/timezone-management.md)。
+这允许您根据日期定义不同的流。 例如，如果人员在“销售”期间进入步骤，您将向他发送特定消息。 在一年的其余时间，您会再发送一条消息。
+
+>[!NOTE]
+>
+>时区不再特定于某个条件，现在在旅程属性的旅程级别定义。 请参见 [](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey53.png)
