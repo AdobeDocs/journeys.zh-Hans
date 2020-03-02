@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
 
@@ -79,7 +79,7 @@ source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 <td>
 <p>旅程 <strong>设计人员左侧的旅程调色板</strong>，已得到增强：</p>
 <ul>
-<li>在**搜索**栏旁边有一个新图标，它允许您隐藏或显示调色板中不可用的元素，例如使用与旅程中使用的不同命名空间的事件。 默认情况下，不可用的项目是隐藏的。</li>
+<li>“搜索”栏旁的新图标允许您隐藏或显示调色板中不可用的元素，例如，使用与旅程中使用的不同命名空间的事件。 <strong></strong> 默认情况下，不可用的项目是隐藏的。</li>
 <li>使用“搜 <strong>索</strong> ”字段时，现在会显示每个画布活动类别的结果数。</li>
 <li>改进了不同活动类别之间的导航。</li>
 </ul>
