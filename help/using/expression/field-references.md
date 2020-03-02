@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -47,7 +47,6 @@ source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
 
 默认值可以与字段名称相关联。 语法如下：
 
-
 ```
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
@@ -71,7 +70,9 @@ source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**引用地图中定义的字段**&#x200B;为了检索地图中的元素，我们使用带有给定键的条目函数。 例如，根据所选的命名空间定义事件的键时使用它。 请参阅选择命名空间。 For more information, see [](../event/selecting-the-namespace.md).
+**对地图中定义的字段的引用**
+
+为了在地图中检索元素，我们使用带给定键的条目函数。 例如，根据所选的命名空间定义事件的键时使用它。 请参阅选择命名空间。 For more information, see [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
