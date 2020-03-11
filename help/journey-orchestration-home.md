@@ -4,7 +4,7 @@ solution: Journeys
 title: 旅程安排产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
+source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ## 开始
 
-* **[什么是旅程安排？](using/action/working-with-adobe-campaign.md)**<br/>进一步了解旅程安排。
+* **[什么是旅程安排？](using/about/about-journey-orchestration.md)**<br/>进一步了解旅程安排。
 
 * **[构建您的第一个旅](using/about/get-started.md)**<br/>程探索设置旅程安排和构建您的第一个旅程的主要步骤。
 
@@ -34,7 +34,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/about/troubleshooting.md"><strong>故障排除</strong></a>
     </div>
-    <em></em>了解可用于排除旅程故障的各种工具。
+    <em>了解可用于排除旅程故障的各种工具。</em>
     <br>
   </td>
   <td valign="top">
@@ -44,7 +44,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>用例</strong></a>
     </div>
-    <em></em>了解如何分步创建高级旅程。
+    <em>了解如何分步创建高级旅程。</em>
     <br>
   </td>
   <td valign="top">
