@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 以下是创建和配置新外部数据源的主要步骤：
 
-1. 从数据源列表中，单击以 **[!UICONTROL Add]** 创建新的外部数据源。
+1. 在数据源列表中，单 **[!UICONTROL Add]** 击以创建新的外部数据源。
 
    ![](../assets/journey25.png)
 
@@ -79,7 +79,7 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 如果GET调用需要参数，则在字段中输入这些参 **[!UICONTROL Parameters]** 数，这些参数将在调用结束时自动添加。 如果发生开机自检呼叫，您需要：
 
-* 在字段中列出调用时要传递的 **[!UICONTROL Parameter]** 参数(在以下示例中：“标识符”)。
+* 列表字段中调用时要传递的 **[!UICONTROL Parameter]** 参数(在以下示例中：“标识符”)。
 * 在已发送的有效负荷的正文中，也使用完全相同的语法指定它们。 为此，您需要添加：“param”:“您的参数名称”(在以下示例中：“标识符”)。 请按照以下语法操作：
 
    ```
@@ -94,7 +94,12 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 ## 自定义身份验证模式{#section_wjp_nl5_nhb}
 
-此身份验证模式用于复杂的身份验证，通常用于调用OAuth2等API封装协议，以检索要插入实际HTTP请求中的访问令牌以执行操作。
+>[!CONTEXTUALHELP]
+>id=&quot;jo_authentication_payload&quot;
+>title=&quot;关于自定义身份验证&quot;
+>abstract=&quot;自定义身份验证模式用于调用OAuth2等API封装协议的复杂身份验证。 操作执行是一个分两步的过程。 首先，执行对端点的调用以生成访问令牌。 然后，访问令牌会注入到操作的HTTP请求中。”
+
+此身份验证模式用于复杂的身份验证，通常用于调用OAuth2等API封装协议，以检索要注入到实际HTTP请求中的访问令牌以执行操作。
 
 配置自定义身份验证时，您可以单击下面的按钮检查自定义身份验证有效负荷是否正确配置。
 
@@ -107,7 +112,7 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 通过此身份验证，操作执行分为两个步骤：
 
 1. 调用端点以生成访问令牌。
-1. 通过以正确的方式注入访问令牌来调用REST API。
+1. 通过以正确的方式注入访问令牌，调用REST API。
 
 此身份验证分为两部分。
 
@@ -120,13 +125,13 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
    * “form”:这意味着内容类型将为application/x-www-form-urlencoded(charset UTF-8)，并且键／值对将按如下方式进行序列化：key1=value1&amp;key2=value2&amp;...
    * “json”:这意味着内容类型将是application/json(charset UTF-8)，并且键值对将按原样序列化为json对象： _{ &quot;key1&quot;:&quot;value1&quot;, &quot;key2&quot;:&quot;value2&quot;, ...}_
 
-在操作的HTTP请求中必须注入访问令牌的方式的定义：
+动作的HTTP请求中必须注入访问令牌的方式的定义：
 
-* authorizationType:定义在动作的HTTP调用中必须注入生成的访问令牌的方式。 可能的值有：
+* authorizationType:定义如何在动作的HTTP调用中注入生成的访问令牌。 可能的值有：
 
-   * 载体：指示必须在授权标头中插入访问令牌，例如：授 _权：Bearer &lt;access token>_
+   * 载体：指示访问令牌必须注入Authorization头，如：授 _权：Bearer &lt;访问令牌>_
    * header:指示必须将访问令牌作为头插入，即由属性tokenTarget定义的头名。 例如，如果tokenTarget是myHeader，则访问令牌将作为标头插入： _myHeader:&lt;访问令牌>_
-   * queryParam:指示必须将访问令牌作为queryParam插入，该查询参数名称由属性tokenTarget定义。 例如，如果tokenTarget是myQueryParam，则操作调用的URL将为： _&lt;url>?myQueryParam=&lt;access token>_
+   * queryParam:指示访问令牌必须作为queryParam插入，即由属性tokenTarget定义的查询参数名称。 例如，如果tokenTarget是myQueryParam，则操作调用的URL将为： _&lt;url>?myQueryParam=&lt;访问令牌>_
 
 * tokenInResponse:指示如何从身份验证调用中提取访问令牌。 此属性可以是：
    * &#39;response&#39;:指示HTTP响应是访问令牌
