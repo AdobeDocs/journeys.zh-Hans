@@ -23,6 +23,7 @@ source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 
 ## 2020年3月 {#march-2020}
 
+* 在测试日志部分 _中为actionExecutionErrors__和fetchErrors_ 添加了参数描述。 [阅读更多](../action/testing-the-journey.md#viewing_logs)
 * 对旅程中使用的自定义操作的限制已更新。 您还可以修改 **URL字段** ，以及身份 **验证参数** 。 [阅读更多](../action/about-custom-action-configuration.md)
 * 已添加新的上下文帮助条目。 自定义身份验证有效负荷窗格（在操作和数据源中）现在包括链接到此部分的帮助 [图标](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
 * 已完成的旅程现在可以停止。 [阅读更多](../building-journeys/using-the-journey-designer.md)
