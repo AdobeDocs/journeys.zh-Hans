@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18f5d56e77958fc33c8e5e7e9d450943207a6017
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -21,12 +21,6 @@ source-git-commit: 18f5d56e77958fc33c8e5e7e9d450943207a6017
 旅程“主页”菜单允许您视图旅 **程的列表**。 创建新的旅程或单击现有的旅程以打开旅 **程设计人员的界面**。 设计人员由以下区域组成：调色板、画布和活动配置窗格。
 
 ## 旅程列表 {#journey_list}
-
->[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;关于旅程列表&quot;
->abstract=&quot;旅程列表允许您同时视图所有旅程，查看其状态并执行基本操作。 您可以重复、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法删除或重新开始已完成的旅程。 您可以从中创建新版本或对其进行重复。 您还可以使用搜索栏搜索旅程。”
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
 
 旅 **程列表** ，您可以同时视图所有旅程，查看其状态并执行基本操作。 您可以重复、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法删除或重新开始已完成的旅程。 您可以从中创建新版本或对其进行重复。 您还可以使用搜索栏搜索旅程。
 
