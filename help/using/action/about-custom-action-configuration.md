@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -44,4 +44,4 @@ source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
 
    >[!NOTE]
    >
-   >在旅程版本中使用自定义操作时，大多数参数都是只读的。 您只能修改、 **[!UICONTROL Name]**、 **[!UICONTROL Description]**、 **[!UICONTROL URL]** 字段和章 **[!UICONTROL Authentication]** 节。
+   >在旅程中使用自定义操作时，大多数参数都是只读的。 您只能修改、 **[!UICONTROL Name]**、 **[!UICONTROL Description]**、 **[!UICONTROL URL]** 字段和章 **[!UICONTROL Authentication]** 节。
