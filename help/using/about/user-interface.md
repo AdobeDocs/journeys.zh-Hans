@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -35,10 +35,10 @@ source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 ## 了解界面{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;关于旅程列表&quot;
->abstract=&quot;旅程列表允许您同时视图所有旅程，查看其状态并执行基本操作。 您可以重复、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法删除或重新开始已完成的旅程。 您可以从中创建新版本或对其进行重复。 您还可以使用搜索栏搜索旅程。”
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;观看演示视频&quot;
+>id="jo_home"
+>title="关于旅程列表"
+>abstract="旅程列表允许您同时视图所有旅程，查看其状态并执行基本操作。 您可以重复、停止或删除您的旅程。 根据旅程，某些操作可能不可用。 例如，您无法删除或重新开始已完成的旅程。 您可以从中创建新版本或对其进行重复。 您还可以使用搜索栏搜索旅程。"
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="观看演示视频"
 
 顶级菜单允许您浏览旅程编排的不同功能： **[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
@@ -78,7 +78,7 @@ source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 
 在定义 [事件有效负荷](../event/defining-the-payload-fields.md)、字段组有效负荷 [，以及在](../datasource/field-groups.md) 表达式编辑器中选择字段时 [](../expression/expressionadvanced.md)，除字段名称外，还会显示显示名称。 此信息是从体验数据模型中的模式定义中检索的。
 
-如果在设置模式时提供了诸如“xdm:alternateDisplayInfo”的描述符，则用户友好名称将替换显示名称。 在使用“eVar”和通用字段时，此功能尤其有用。您可以通过API调用配置易记名称描述符。 有关详细信息，请参阅 [模式注册开发人员指南](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)。
+如果在设置模式时提供了诸如“xdm:alternateDisplayInfo”的描述符，则用户友好名称将替换显示名称。 在使用“eVar”和通用字段时，此功能尤其有用。您可以通过API调用配置易记名称描述符。 有关详细信息，请参阅 [模式注册开发人员指南](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)。
 
 ![](../assets/xdm-from-descriptors.png)
 
