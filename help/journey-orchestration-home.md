@@ -3,8 +3,8 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Journey Orchestration 产品文档
 topic: Premium
-translation-type: ht
-source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
+translation-type: tm+mt
+source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ---
 
@@ -22,6 +22,8 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 * **[配置事件](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>了解如何配置您的旅程将侦听的事件。
 
 * **[授予对 Journey Orchestration 的访问权](using/about/access-management.md)**<br/>了解如何使用产品配置文件和权限管理用户的访问权。
+
+* **[了解新增功能了](using/release-notes/release-notes.md)**<br/>解有关最新版本的详细信息。
 
 ## 热门页面
 
@@ -62,9 +64,9 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ## 其他资源
 
-* [Experience Platform](https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html)
-* [实时客户资料](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Experience Cloud XDM 字段定义](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [标识命名空间](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [流式引入 API](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Adobe Campaign Standard 事务性消息传递](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Experience Platform文档](https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html)
+* [实时客户用户档案文档](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Experience Cloud XDM 字段定义](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
+* [身份命名空间文档](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
+* [流式引入 API](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
+* [Campaign Standard交易消息文档](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
