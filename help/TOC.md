@@ -1,10 +1,10 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journey Orchestration Help
+user-guide-title: Journey Orchestration 帮助
 index: true
-translation-type: ht
-source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
+translation-type: tm+mt
+source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
    + [故障排除](using/about/troubleshooting.md)
 + 配置事件 {#events-journeys}
    + [关于事件](using/event/about-events.md)
+   + [关于ExperienceEvent模式](using/event/experience-event-schema.md)
    + [定义有效负载字段](using/event/defining-the-payload-fields.md)
    + [选择命名空间](using/event/selecting-the-namespace.md)
    + [定义事件键](using/event/defining-the-event-key.md)
@@ -72,6 +73,7 @@ source-git-commit: 22569d66acb1637efc346f77864302b9e2cb6070
       + [字段引用](using/expression/field-references.md)
       + [集合管理函数](using/expression/collection-management-functions.md)
       + [运算符](using/expression/operators.md)
+      + [示例](using/expression/advanced-editor-use-cases.md)
    + 函数 {#main-functions-journey}
       + [主要函数](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
