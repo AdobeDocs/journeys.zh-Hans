@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
@@ -24,26 +24,26 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="jo_actions"
 >title="关于操作"
->abstract="这是您定义与将发送消息的系统的连接的位置。 此处定义的操作随后将显示在旅程左侧的“操作”类别中。 "
+>abstract="您可以在此处定义与将发送消息的系统的连接。此处定义的操作随后将显示在旅程左侧面板的“操作”类别中。 "
 
-行动是指您通过这些联系向客户提供个性化的实时体验，如推送通知、电子邮件、短信，或您在业务中使用的任何其他数字互动方式。
+行动是指您通过这些连接向客户提供个性化的实时体验，如推送通知、电子邮件、短信，或您在业务中使用的任何其他数字互动方式。
 
-自定义操作允许您配置第三方系统的连接以发送消息或API调用。 可以使用任何提供商提供的任何服务配置操作，这些服务可以通过REST API调用，并且JSON格式的有效负荷。
+通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
 
-这些操作在旅程左侧的类别中可 **[!UICONTROL Action]** 用(请参 [](../building-journeys/about-action-activities.md) 阅)。
+这些操作在旅程左侧面板的 **[!UICONTROL Action]**&#x200B;类别中可用（请参阅 [](../building-journeys/about-action-activities.md)）。
 
 >[!NOTE]
 >
->自定义操作的配置始终由技术用户 **执行**。
+>自定义操作的配置始终由&#x200B;**技术用户**&#x200B;执行。
 
-在“操作 **列表**”中，您可以按c创建新旅程、操作、数据源或事件。 有关旅程编排中的快捷键的更多信息，请参阅 [](../about/user-interface.md#section_ksq_zr1_ffb)。
+在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新旅程、操作、数据源或事件。有关 Journey Orchestration 中快捷键的更多信息，请参阅 [](../about/user-interface.md#section_ksq_zr1_ffb)。
 
-要视图操作列表或配置新操作，请单 **[!UICONTROL Actions]** 击顶部菜单。 将显示操作列表。 有关 [](../about/user-interface.md) 该界面的详细信息，请参见。
+要查看操作列表或配置新操作，请单击顶部菜单中的&#x200B;**[!UICONTROL Actions]**。将显示操作列表。有关该界面的详细信息，请参见 [](../about/user-interface.md)。
 
 ![](../assets/custom1.png)
 
-如果您拥有Adobe Campaign标准，您需要配置开箱即用的操作，以使用Adobe Campaign标准的交易消息功能发送电子邮件、推送通知和短信。 请参阅[](../action/working-with-adobe-campaign.md)。
+如果您拥有 Adobe Campaign Standard，您需要配置开箱即用的操作，以使用 Adobe Campaign Standard 的事务性消息传送功能发送电子邮件、推送通知和短信。请参阅[](../action/working-with-adobe-campaign.md)。
 
-如果您使用第三方系统发送消息，如Epsilon、Facebook、Adobe.io、Firebase等，则需要添加和配置自定义操作。 请参阅[](../action/about-custom-action-configuration.md)。
+如果您使用第三方系统发送消息，如 Epsilon、Facebook、Adobe.io、Firebase 等，则需要添加和配置自定义操作。请参阅[](../action/about-custom-action-configuration.md)。
 
-有关如何配置“旅程编排操作”以及如何在旅程中使用它的更多信息，请观看此视 [频教程](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html)。
+有关如何配置 Journey Orchestration 操作以及如何在旅程中使用的更多信息，请观看此[视频教程](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html)。
