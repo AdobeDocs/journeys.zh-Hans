@@ -3,8 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration 帮助
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
    + [故障排除](using/about/troubleshooting.md)
 + 配置事件 {#events-journeys}
    + [关于事件](using/event/about-events.md)
-   + [关于ExperienceEvent模式](using/event/experience-event-schema.md)
+   + [关于 ExperienceEvent 架构](using/event/experience-event-schema.md)
    + [定义有效负载字段](using/event/defining-the-payload-fields.md)
    + [选择命名空间](using/event/selecting-the-namespace.md)
    + [定义事件键](using/event/defining-the-event-key.md)
