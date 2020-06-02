@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration 帮助
 index: true
-translation-type: ht
-source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 87%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
       + [自定义操作限制](using/action/custom-action-limitations.md)
       + [URL 配置](using/action/url-configuration.md)
       + [定义消息参数](using/action/defining-the-message-parameters.md)
++ 使用平台区段 {#configuring-segment}
+   + [关于平台区段](using/segment/about-segments.md)
+   + [创建区段](using/segment/creating-a-segment.md)
+   + [在条件中使用细分](using/segment/using-a-segment.md)
 + 构建旅程 {#building-journeys}
    + 关于旅程构建 {#about-journey-building}
       + [创建旅程](using/building-journeys/journey.md)
@@ -67,6 +71,13 @@ ht-degree: 100%
          + [使用自定义操作](using/building-journeys/using-custom-actions.md)
    + [测试旅程](using/building-journeys/testing-the-journey.md)
    + [发布旅程](using/building-journeys/publishing-the-journey.md)
+   + 使用平台共享旅程步骤 {#sharing-journey-steps}
+      + [旅程步骤共享概述](using/building-journeys/sharing-overview.md)
+      + [旅程步骤事件常用字段](using/building-journeys/sharing-common-fields.md)
+      + [旅程步骤事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
+      + [journeyStep事件数据提取字段](using/building-journeys/sharing-fetch-fields.md)
+      + [journeyStep事件身份字段](using/building-journeys/sharing-identity-fields.md)
+      + [旅程场](using/building-journeys/sharing-journey-fields.md)
 + 使用高级表达式编辑器 {#building-advanced-conditions-journeys}
    + [关于高级表达式编辑器](using/expression/expressionadvanced.md)
    + 语法 {#syntax}
@@ -163,4 +174,6 @@ ht-degree: 100%
       + [配置数据源](using/usecase/configuring-the-data-sources.md)
       + [构建旅程](using/usecase/building-the-journey.md)
    + [利用疲劳分数](using/usecase/leveraging-fatigue-scores.md)
++ 使用 API{#working-with-apis}
+   + [限制API](using/api/capping.md)
 
