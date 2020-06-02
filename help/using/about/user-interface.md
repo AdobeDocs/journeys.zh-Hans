@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: ht
-source-wordcount: '995'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->为了充分利用 Journey Orchestration，我们建议将 Chrome 用作您的 Internet 浏览器。
+>为了充分利用 Journey Orchestration，我们建议将 Chrome 用作您的 Internet 浏览器。接口以IMS中定义的语言显示。 如果您的IMS语言不受旅程编排支持，则界面将以英语显示。
 >
 >此文档经常更新以反映产品中的最新更改。但是，某些屏幕截图可能与产品的界面略有不同。
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="关于旅程列表"
->abstract="旅程列表允许您同时查看所有旅程、查看其状态并执行基本操作。您可以重复、停止或删除您的旅程。某些操作可能不可用，具体取决于旅程。例如，您无法删除或重新启动已完成的旅程。您可以从中创建新版本或进行重复。您还可以使用搜索栏搜索旅程。"
+>abstract="旅程列表允许您同时查看所有旅程、查看其状态并执行基本操作。您可以重复、停止或删除您的旅程。某些操作可能不可用，具体取决于旅程。例如，您无法删除或重新启动已关闭的旅程。 您可以从中创建新版本或进行重复。您还可以使用搜索栏搜索旅程。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="观看演示视频"
 
 通过顶部菜单，您可以浏览 Journey Orchestration 的不同功能：**[!UICONTROL Home]**（旅程）**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**、**[!UICONTROL Actions]**。
