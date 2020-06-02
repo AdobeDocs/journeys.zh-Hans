@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="关于数据源"
->abstract="数据源配置操作必须始终由技术用户执行。数据源配置允许您定义与系统的连接，以检索将在您的旅程中使用的其他信息，例如：条件定义、操作中的参数和个性化数据、自定义等待定义、自定义时区定义。"
+>abstract="数据源配置操作必须始终由技术用户执行。数据源配置允许您定义与系统的连接，以检索将在您的旅程中使用的其他信息，例如： 条件定义、操作中的参数和个性化数据、自定义等待定义、时区定义。"
 
 数据源配置允许您定义与系统的连接，以检索将在您的旅程中使用的其他信息，例如：
 
 * [条件定义](../building-journeys/condition-activity.md)
 * [操作](../action/action.md)中的参数和个性化数据
 * [自定义等待定义](../building-journeys/wait-activity.md#custom)
-* [自定义时区定义](../building-journeys/timezone-management.md)
+* [时区定义](../building-journeys/timezone-management.md)
 
 如果您的旅程只利用来自事件有效负载的本地数据，则不需要此配置。例如，如果您的旅程由一个事件组成，后跟一个只使用事件数据的电子邮件活动，则无需配置数据源。
 
