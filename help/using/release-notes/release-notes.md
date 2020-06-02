@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,72 @@ ht-degree: 100%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以参阅[文档更新](../release-notes/documentation-updates.md)。
+
+## 第2季度版本- 2020年6月 {#q2-release---june-2020}
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Platform集成增强功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>已进行以下平台集成增强：</p>
+<ul>
+<li><p>新活动允许监听平台细分入口／出口，让人们进入或前进旅程。 <a href="../building-journeys/event-activities.md#segment-qualification">阅读更多</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>借助新的“区段”选项卡，现在无需离开“旅程安排”界面即可创建和编辑 <strong>平台</strong> 区段。 有效可用性： 2020年6月15日。 <a href="../segment/about-segments.md">阅读更多</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>在简单的表达式编辑器中，平台区段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于区段A?”。 <a href="../segment/using-a-segment.md">阅读更多</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li><p>旅程编排现在自动传递到Adobe数据平台，让个人在旅程中遵循步骤。 这包括遇到的潜在错误。 此信息可用于分析或分段用途。 <a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
+<img src="../assets/rn-sharing.png"/>
+</li>
+<li><p>旅程编排现在可以连接到生产和非生产平台沙箱。 有效可用性： 2020年6月15日。 <a href="../about/access-management.md#sandboxes">阅读更多</a></p>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>旅程设计人员和测试模式增强功能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>对旅程设计人员和测试模式进行了以下增强：</p>
+<ul>
+<li><p>您现在可以将粘贴活动从一个旅程复制到另一个旅程，选择1个或N个旅程活动。 <a href="../building-journeys/using-the-journey-designer.md#copy-paste">阅读更多</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+<li><p>在发射事件以使测试用户档案进入旅程后，您现在可以看到其在旅程中的进度，这要归功于彩色的视觉流。 如果旅程中出错，还会显示错误的详细信息。 <a href="../building-journeys/testing-the-journey.md#firing_events">阅读更多</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+<li>已完成 <strong>的旅程</strong> 状态已更名为“ <strong>已关闭”（无入口）</strong> ，以更好地反映此状态的含义。</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+**其他改进**
+
+为避免向第三方系统发送过多API调用，我们引入了新的公共API来设置“限制”规则。 限制规则允许定义每毫秒对API端点的最大调用数。 [阅读更多](../api/capping.md)
+
+访问控制现在允许在用户访问管理中实现更大粒度。 有效可用性： 2020年6月15日。 [阅读更多](../about/access-management.md#create-product-profile)
+
+现在可在APAC（澳大利亚数据中心）使用旅程安排。 有效可用性： 2020年6月15日
+
+旅程编排界面提供日语版。
 
 ## 第 1 季度发行 - 2020 年 3 月{#q1-release---march-2020}
 
