@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 72%
+source-wordcount: '1094'
+ht-degree: 71%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 72%
 <li><p>在简单的表达式编辑器中，平台区段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于区段A?”。 <a href="../segment/using-a-segment.md">阅读更多</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>旅程编排现在自动传递到Adobe数据平台，让个人在旅程中遵循步骤。 这包括遇到的潜在错误。 此信息可用于分析或分段用途。 <a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
-<img src="../assets/rn-sharing.png"/>
+<li><p>旅程编排现在会自动将旅程中执行的步骤传递给Adobe数据平台。 这包括遇到的潜在错误。 此信息可用于针对特定旅程或所有旅程执行旅程步骤报告，从而实现查询和故障排除。 <a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
+<img src="../assets/rn-journeystepevent.png"/>
 </li>
 <li><p>旅程编排现在可以连接到生产和非生产平台沙箱。 有效可用性： 2020年6月15日。 <a href="../about/access-management.md#sandboxes">阅读更多</a></p>
 </li>
