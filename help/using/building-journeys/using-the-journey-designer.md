@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1339'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 单击 **调色板中的活动** ，将显示活动配置窗格。 填写必填字段。 单击该图 **[!UICONTROL Delete]** 标以删除活动。 单击可 **[!UICONTROL Cancel]** 取消修改或进 **[!UICONTROL Ok]** 行确认。 要删除活动，您还可以选择一个活动（或多个）并按背景键。 按转义键将关闭活动配置窗格。
 
-在画布中，您的操作和事件活动由图标表示，该图标下方显示有事件或操作的名称。 在活动配置窗格中，可以使 **[!UICONTROL Label]** 用字段向活动名称添加后缀。 这些标签将帮助您将事件和动作的使用情境化，尤其是当您在旅程中多次使用相同的事件或动作时。 您还将能够看到您在“旅程编排”报告中添加的标签。
+在画布中，您的操作和事件活动由图标表示，该图标下方显示有事件或操作的名称。 在活动配置窗格中，可以使 **[!UICONTROL Label]** 用字段向活动名称添加后缀。 这些标签将帮助您将事件和动作的使用情境化，尤其是当您在旅程中多次使用相同的事件或动作时。 您还可以看到您在报告中添加的标 [!DNL Journey Orchestration] 签。
 
 ![](../assets/journey59bis.png)
 
