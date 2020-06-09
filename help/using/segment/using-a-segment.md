@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 
 # 在条件中使用细分 {#using-a-segment}
-
->“旅程编排”中的“区段”选项卡以及区段的创建／修改将在6月15日发布。
 
 本节介绍如何在旅程条件中使用区段。
 要了解如何在旅程中使 **用细分资格** 事件，请参阅 [事件活动](../building-journeys/event-activities.md#segment-qualification)。
