@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f28bdc0e74359ff9f8d84961769b84973ae3f39
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 简介
 
-旅程编排的API支持5000事件/秒，但某些外部系统或API的吞吐量不能相等。 因此，旅程编排附带一个称为Capping API的专用功能，用于监控和限制我们对外部系统的速率。
+[!DNL Journey Orchestration]s API支持5000事件/秒，但某些外部系统或API无法具有同等的吞吐量。 因此，我们附 [!DNL Journey Orchestration] 带一个名为Capping API的专用功能来监视和限制我们对外部系统的速率。
 
 在数据源配置过程中，您将定义到系统的连接以检索将在您的旅程中使用的其他信息，或者为操作定义，您将配置第三方系统的连接以发送消息或API调用。 每次由旅程执行API调用时，将查询限制API，该调用将通过API引擎进行。 如果定义了限制，则会拒绝该调用，并且外部系统不会过载。
 
@@ -30,9 +30,9 @@ ht-degree: 1%
 
 ## 资源
 
-此处提供的Swagger文件中介绍了旅程编排限制 [API](https://adobedocs.github.io/JourneyAPI/docs/)。
+此处 [!DNL Journey Orchestration] 提供的Swagger文件中对封顶API进行 [了说明](https://adobedocs.github.io/JourneyAPI/docs/)。
 
-要将此API与您的旅程编排实例一起使用，您需要使用AdobeIO控制台。 您可以通过以下方式进行开始 [：按照Adobe开发人员控制](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 台快速入门，然后使用本页中的各个部分。
+要将此API与您的 [!DNL Journey Orchestration] 实例一起使用，您需要使用AdobeIO控制台。 您可以通过以下方式进行开始 [：按照Adobe开发人员控制](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 台快速入门，然后使用本页中的各个部分。
 
 要测试和准备集成，此处提供Postman [集合](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
@@ -40,14 +40,14 @@ ht-degree: 1%
 
 ### 设置 API 访问
 
-旅程安排API访问通过以下步骤设置。 Adobe IO文档中详细介绍了这 [些步骤](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
+[!DNL Journey Orchestration] 通过以下步骤设置API访问。 Adobe IO文档中详细介绍了这 [些步骤](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
 
 >[!CAUTION]
 >
 >要管理Adobe IO中的证书，请确保您对组 <b>织或管理控制台</b> 中的开发人 <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">员帐户拥有</a> “系统管理员”权限。
 
 1. **检查您有数字证书**，或根据需要创建数字证书。 在以下步骤中需要随证书提供的公钥和私钥。
-1. **在Adobe IO中创建与旅程编排服务的新集成** ，并对其进行配置。 旅程编排和Adobe Experience Platform需要产品用户档案访问。 随后将生成您的凭据（API密钥、客户端机密……）。
+1. **在Adobe IO中创建与[!DNL Journey Orchestration]Service** 的新集成并进行配置。 Adobe Experience Platform需要产品 [!DNL Journey Orchestration] 用户档案访问权限。 随后将生成您的凭据（API密钥、客户端机密……）。
 1. **从先前生成的凭据创建JSON Web** Token(JWT)，然后使用您的私钥对其进行签名。 JWT会对Adobe验证您的身份并授予您对API的访问权限时所需的所有身份和安全信息进行编码。 此步骤详见本 [节](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **通过POST请求或通过开发人员** 控制台界面将您的JWT交换为访问令牌。 此访问令牌必须用于API请求的每个头中。
 
@@ -67,7 +67,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ACCESS_TOKEN>**: 您的个人访问令牌，通过POST请求交换JWT时检索到。
 
-* **&lt;API_KEY>**: 您的个人API密钥。 在创建与旅程编排服务的新集成后，它在Adobe I/O中提供。
+* **&lt;API_KEY>**: 您的个人API密钥。 它在创建与服务的新集成后在Adobe I/O中提 [!DNL Journey Orchestration] 供。
 
 
 
@@ -164,14 +164,14 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## 用例
 
-在本节中，您将找到在旅程编排中管理上限设置配置时可执行的五个主要用例。
+在本节中，您将找到管理中的上限设置配置时可执行的五个主要用例 [!DNL Journey Orchestration]。
 
 为了帮助您进行测试和配置，此处提供了Postman [集合](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 此邮递员集合已设置为共享通过 __[Adobe I/O控制台的“集成”](https://console.adobe.io/integrations)__>“试用”>“下载邮递员”生成的邮递员变量集合，该集合生成具有选定集成值的邮递员环境文件。
 
 下载并上传到Postman后，您需要添加两个变量： `{JO_HOST}` 和 `{Base_Path}`。
-* `{JO_HOST}` : 旅程安排网关URL
+* `{JO_HOST}` : [!DNL Journey Orchestration] 网关URL
 * `{BASE_PATH}` : 入口点。 值为“/authoring”
 
 
