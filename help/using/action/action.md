@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
-workflow-type: ht
-source-wordcount: '289'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 >
 >自定义操作的配置始终由&#x200B;**技术用户**&#x200B;执行。
 
-在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新旅程、操作、数据源或事件。有关 Journey Orchestration 中快捷键的更多信息，请参阅 [](../about/user-interface.md#section_ksq_zr1_ffb)。
+在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新旅程、操作、数据源或事件。For more information on shortcuts in [!DNL Journey Orchestration], see [](../about/user-interface.md#section_ksq_zr1_ffb).
 
 要查看操作列表或配置新操作，请单击顶部菜单中的&#x200B;**[!UICONTROL Actions]**。将显示操作列表。有关该界面的详细信息，请参见 [](../about/user-interface.md)。
 
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 如果您使用第三方系统发送消息，如 Epsilon、Facebook、Adobe.io、Firebase 等，则需要添加和配置自定义操作。请参阅[](../action/about-custom-action-configuration.md)。
 
-有关如何配置 Journey Orchestration 操作以及如何在旅程中使用的更多信息，请观看此[视频教程](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html)。
+For more information on how to configure an Action for [!DNL Journey Orchestration] and how to use it in a journey, watch this [video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
