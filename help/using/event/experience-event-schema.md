@@ -11,31 +11,34 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b8d4bebe024e90733cb1ae6d31b36fb6ce4b606
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 
 
 
-# 关于旅程编排的ExperienceEvent模式事件
+# 关于适用于事件的ExperienceEvent模式 [!DNL Journey Orchestration]
 
-旅程编排事件是通过流摄取发送到Adobe Experience Platform的XDM体验事件。
+[!DNL Journey Orchestration] 事件是通过流摄取发送到Adobe Experience Platform的XDM体验事件。
 
-因此，设置旅程编排事件的一个重要先决条件是您熟悉平台的体验数据模型(XDM)、如何构建XDM体验事件模式，以及如何将XDM格式化的数据流式传输到平台。
+因此，设置事件的一个重要先决条件是 [!DNL Journey Orchestration] 您熟悉平台的体验事件模型（或XDM），以及如何构建XDM体验模式，以及如何将XDM格式的数据流式传输到平台。
 
-## 模式旅程编排事件要求
+## 模式要求 [!DNL Journey Orchestration] 事件
 
-设置旅程编排事件的第一步是确保您定义了用于表示事件的XDM模式，并创建了用于在平台上记录事件实例的数据集。 为事件建立数据集并非绝对必要，但将事件发送到特定数据集将允许您保留用户的事件历史记录，以供将来参考和分析，因此这始终是个好主意。 如果您还没有适合您的模式的事件和数据集，则可以在平台Web界面中执行这两个任务。
+设置事件的第一步是确 [!DNL Journey Orchestration] 保您定义了一个XDM模式来表示事件，并创建了一个数据集来记录平台上事件的实例。 为事件建立数据集并非绝对必要，但将事件发送到特定数据集将允许您保留用户的事件历史记录，以供将来参考和分析，因此这始终是个好主意。 如果您还没有适合您的模式的事件和数据集，则可以在平台Web界面中执行这两个任务。
 
 ![](../assets/schema1.png)
 
-将用于旅程安排事件的任何XDM模式都应满足以下要求：
+将用于模式的任何XDM事件 [!DNL Journey Orchestration] 均应满足以下要求：
 
 * 模式必须是XDM ExperienceEvent类。
 
 ![](../assets/schema2.png)
 
-* 模式必须包括Orchestration eventID mixin。 旅程编排使用此字段来识别旅程中使用的事件。
+* 模式必须包括Orchestration eventID mixin。 [!DNL Journey Orchestration] 使用此字段识别旅程中使用的事件。
 
 ![](../assets/schema3.png)
 
