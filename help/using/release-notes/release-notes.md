@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 71%
+source-wordcount: '1098'
+ht-degree: 70%
 
 ---
 
@@ -40,16 +40,17 @@ ht-degree: 71%
 <li><p>新活动允许监听平台细分入口／出口，让人们进入或前进旅程。 <a href="../building-journeys/event-activities.md#segment-qualification">阅读更多</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>借助新的“区段”选项卡，现在无需离开“旅程安排”界面即可创建和编辑 <strong>平台</strong> 区段。 有效可用性： 2020年6月15日。 <a href="../segment/about-segments.md">阅读更多</a></p>
+<li><p>借助新的“区段”选项卡，现在无需离开“旅程安排”界面即可创建和编辑 <strong>平台</strong> 区段。<a href="../segment/about-segments.md">阅读更多</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>在简单的表达式编辑器中，平台区段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于区段A?”。 <a href="../segment/using-a-segment.md">阅读更多</a></p>
+<li><p>在简单的表达式编辑器中，平台区段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于区段A?”。<a href="../segment/using-a-segment.md">阅读更多</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>旅程编排现在会自动将旅程中执行的步骤传递给Adobe数据平台。 这包括遇到的潜在错误。 此信息可用于针对特定旅程或所有旅程执行旅程步骤报告，从而实现查询和故障排除。 <a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>旅程编排现在可以连接到生产和非生产平台沙箱。 有效可用性： 2020年6月15日。 <a href="../about/access-management.md#sandboxes">阅读更多</a></p>
+</li>
+<li><p>旅程编排现在可以连接到制作和非制作平台沙箱。 请注意，沙箱是测试版功能。 有效可用性： 2020年6月30日。 <a href="../about/access-management.md#sandboxes">阅读更多</a></p>
 </li>
 </td>
 </tr>
@@ -73,7 +74,7 @@ ht-degree: 71%
 <li><p>在发射事件以使测试用户档案进入旅程后，您现在可以看到其在旅程中的进度，这要归功于彩色的视觉流。 如果旅程中出错，还会显示错误的详细信息。 <a href="../building-journeys/testing-the-journey.md#firing_events">阅读更多</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>已完成 <strong>的旅程</strong> 状态已更名为“ <strong>已关闭”（无入口）</strong> ，以更好地反映此状态的含义。</li>
+<li>已完成 <strong>的旅程</strong> 状态已更名为“已 <strong>关闭”（无入口）</strong> ，以更好地反映此状态的含义。</li>
 </ul>
 </td>
 </tr>
@@ -84,9 +85,9 @@ ht-degree: 71%
 
 为避免向第三方系统发送过多API调用，我们引入了新的公共API来设置“限制”规则。 限制规则允许定义每毫秒对API端点的最大调用数。 [阅读更多](../api/capping.md)
 
-访问控制现在允许在用户访问管理中实现更大粒度。 有效可用性： 2020年6月15日。 [阅读更多](../about/access-management.md#create-product-profile)
+访问控制现在允许在用户访问管理中实现更大粒度。 有效可用性： 2020年6月30日。 [阅读更多](../about/access-management.md#create-product-profile)
 
-现在可在APAC（澳大利亚数据中心）使用旅程安排。 有效可用性： 2020年6月15日
+现在可在APAC（澳大利亚数据中心）使用旅程安排。 有效可用性： 2020年6月30日
 
 旅程编排界面提供日语版。
 
