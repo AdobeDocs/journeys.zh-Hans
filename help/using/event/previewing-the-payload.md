@@ -1,5 +1,5 @@
 ---
-title: 预览有效负荷
+title: 预览有效负载
 description: 了解如何预览有效负荷
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,21 +11,24 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 6%
 
 ---
 
 
 
-# 预览有效负荷 {#concept_jgf_4yk_4fb}
+# 预览有效负载 {#concept_jgf_4yk_4fb}
 
 有效负荷预览允许您验证有效负荷定义。
 
 >[!NOTE]
 >
->创建活动时，在查看有效负荷预览之前，请保存活动并重新打开它。 需要此步骤才能在有效负荷中生成事件ID。
+>创建事件时，在查看有效负荷预览之前，请保存事件并重新打开它。 需要此步骤才能在有效负荷中生成事件ID。
 
-1. 单击该 **[!UICONTROL View Payload]**图标可预览系统预期的有效负荷。
+1. 单击该 **[!UICONTROL View Payload]** 图标以预览系统预期的有效负荷。
 
    ![](../assets/journey13.png)
 
@@ -35,4 +38,4 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 1. 检查预览以验证有效负荷定义。
 
-1. 然后，您可以将有效负荷预览共享给负责事件发送的人员。 此有效负荷可帮助他设计推向旅程编排的活动的设置。 请参见 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然后，您可以将有效负荷预览共享给负责事件发送的人员。 此负载可帮助他设计推向的事件的设置 [!DNL Journey Orchestration]。 请参见 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
