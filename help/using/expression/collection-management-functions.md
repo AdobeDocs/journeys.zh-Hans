@@ -1,5 +1,5 @@
 ---
-title: 集合管理功能
+title: 集合管理函数
 description: 了解集合管理功能中的数据类型
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,16 +11,19 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 1%
 
 ---
 
 
-# 集合管理功能 {#collection-management-functions}
+# 集合管理函数 {#collection-management-functions}
 
-表达式语言还引入了一组用于查询集合的函数。
+表达式语言还为查询集合引入了一组功能。
 
-这些功能如下所述。 在以下示例中，让我们使用包含集合的事件有效负荷：
+这些功能在下面进行说明。 在以下示例中，让我们使用包含集合的事件有效负荷：
 
 ```
                 { 
@@ -64,19 +67,19 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 **函数“all(`<condition>`)”**
 
-该函 **[!UICONTROL all]** 数通过使用布尔表达式来允许在给定集合上定义过滤器。
+该函 **[!UICONTROL all]** 数通过使用布尔表达式启用给定集合上的筛选器的定义。
 
 ```
 <listExpression>.all(<condition>)
 ```
 
-例如，在所有应用程序用户中，您都可以获得使用IOS 13的用户（布尔表达式“app used == IOS 13”）。 此函数的结果是包含与布尔表达式匹配的项目的筛选列表(示例：app user 1, app user 34, app user 432)。
+例如，在所有应用程序用户中，您都可以使用IOS 13(布尔表达式“已使用的应用程序== IOS 13”)获取这些用户。 此函数的结果是筛选列表，其中包含与布尔表达式匹配的项目(例如： 应用程序用户1、应用程序用户34、应用程序用户432)。
 
-在“数据源条件”活动中，您可以检查函数的结 **[!UICONTROL all]** 果是否为null。 您还可以将此函数 **[!UICONTROL all]** 与其他函数（如）组合 **[!UICONTROL count]**。 有关详细信息，请参 [阅数据源条件活动](../building-journeys/condition-activity.md#data_source_condition)。
+在“数据源条件”活动中，您可以检查函数的 **[!UICONTROL all]** 结果是否为null。 您还可以将此函数 **[!UICONTROL all]** 与其他函数(如 **[!UICONTROL count]**)组合。 有关详细信息，请参 [阅数据源条件活动](../building-journeys/condition-activity.md#data_source_condition)。
 
 **示例1:**
 
-我们想检查用户是否已安装特定版本的应用程序。 为此，我们获得与版本为1.0的移动应用程序关联的所有推送通知令牌。然后，利用该函数执行一个条件， **[!UICONTROL count]** 检查返回的令牌列表是否包含至少一个元素。
+我们希望检查用户是否已安装特定版本的应用程序。 为此，我们将获得与版本为1.0的移动应用程序关联的所有推送通知令牌。然后，我们使用该函数执行一个条件，以检查令牌的返回列表是否包含至少一个元素。 **[!UICONTROL count]**
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -86,7 +89,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **示例2:**
 
-在此，我们使用 **[!UICONTROL count]** 函数检查集合中是否存在推送通知令牌。
+在此，我们使用 **[!UICONTROL count]** 该函数检查集合中是否有推送通知令牌。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -114,23 +117,23 @@ Note that when the condition in the **all()** function is empty, the filter will
 
 In both cases, the result of the expression is **3**.
 
-A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journey Orchestration sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
+A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->当all()函数中的过 **滤条件为空** ，过滤器将返回列表中的所有元素。 **但是，要计算集合的元素数，不需要全部函数。**
+>当all()函数中的 **过滤条件** 为空时，过滤器将返回列表中的所有元素。 **但是，为了计算集合的元素数，不需要全部函数。**
 
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-表达结果为 **3**。
+表达式结果是 **3**。
 
 **示例3:**
 
-在此，我们检查过去24小时内是否有人未收到任何通信。 我们使用两个基于两个元素的表达式来过滤从ExperiencePlatform数据源检索的体验事件集合。 特别是，将事件的时间戳与函数返回的dateTime进行比 **[!UICONTROL nowWithDelta]** 较。
+在此，我们检查某人在过去24小时内是否未收到任何通信。 我们使用两个基于两个事件的表达式来过滤从ExperiencePlatform数据源检索到的体验集合。 特别是，将事件的时间戳与函数返回的dateTime进行比 **[!UICONTROL nowWithDelta]** 较。
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -138,11 +141,11 @@ count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
 ```
 
-如果没有与这两个条件匹配的体验事件，则结果为true。
+如果没有与这两个条件匹配的体验事件，则结果将为真。
 
 **示例4:**
 
-在此，我们要检查个人在过去7天中是否至少启动了一个应用程序，以便例如触发推送通知，邀请他开始教程。
+这里，我们要检查个人在过去7天中是否至少启动了一次应用程序，例如触发推送通知，邀请他开始教程。
 
 ```
 count(
@@ -170,14 +173,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** 仅在操作事件集合和currentDataPackField时 **可用**
->操作数据源集合时。 在处理集合时， **[!UICONTROL all]**&#x200B;我们 **[!UICONTROL first]** 会 **[!UICONTROL last]**和
->循环。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
->与所环绕的元件相对应。
+>**[!UICONTROL currentEventField]** 仅在处理事件集合和currentDataPackField时 **可用**
+>处理数据源集合时。 在处理集合时， **[!UICONTROL all]**&#x200B;我们 **[!UICONTROL first]** 会 **[!UICONTROL last]**提供
+>逐个循环访问集合的每个元素。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
+>与所环绕的元素相对应。
 
 **函数“first(`<condition>`)”和“last(`<condition>`)”**
 
-该和 **[!UICONTROL first]** 函 **[!UICONTROL last]** 数还允许在返回满足筛选器的列表的第一个／最后一个元素时定义集合上的筛选器。
+该 **[!UICONTROL first]** 和函 **[!UICONTROL last]** 数还允许在返回满足筛选器的列表的第一个／最后一个元素时定义集合上的筛选器。
 
 _`<listExpression>.first(<condition>)`_
 
@@ -185,34 +188,34 @@ _`<listExpression>.last(<condition>)`_
 
 **示例1:**
 
-此表达式返回与版本为1.0的手机应用程序关联的第一个推送通知令牌。
+此表达式返回与版本为1.0的移动应用程序关联的第一个推送通知令牌。
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
 ```
 
-结果是“token_1”。
+结果为“token_1”。
 
 **示例2:**
 
-此表达式返回与版本为1.0的手机应用程序关联的最后一个推送通知令牌。
+此表达式返回与版本为1.0的移动应用程序关联的最后一个推送通知令牌。
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
 ```
 
-结果是“token_2”。
+结果为“token_2”。
 
 >[!NOTE]
 >
->体验事件从Experience Platform中以相反的时间顺序作为集合检索，因此：
+>体验事件从Experience Platform中以相反的时间顺序作为集合进行检索，因此：
 >* **[!UICONTROL first]** 函数将返回最近的事件
 >* **[!UICONTROL last]** 函数将返回最旧的函数。
 
 
 **示例3:**
 
-我们检查DMA ID值为非零的第一个（最新的）Adobe Analytics事件是否具有等于602的值。
+我们检查DMA ID值为非零的第一个（最新的）Adobe Analytics事件的值是否等于602。
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
@@ -221,7 +224,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函数“at(`<index>`)”**
 
-该函 **[!UICONTROL at]** 数允许您根据索引引用集合中的特定元素。
+函 **[!UICONTROL at]** 数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_
@@ -234,4 +237,4 @@ _`<listExpression>`.at(`<index>`)_
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
-结果是“token_2”。
+结果为“token_2”。
