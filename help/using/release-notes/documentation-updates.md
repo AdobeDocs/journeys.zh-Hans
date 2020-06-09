@@ -11,18 +11,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 77%
+source-wordcount: '494'
+ht-degree: 74%
 
 ---
 
 
 # 文档更新
 
-此页面列出了 Journey Orchestration 的所有文档更新。
-您还可以参阅 Journey Orchestration [发行说明](../release-notes/release-notes.md)。
+This page lists all the documentation updates for [!DNL Journey Orchestration].
+You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
 ## 2020年6月 {#june-2020}
 
@@ -31,10 +31,10 @@ ht-degree: 77%
 * 添加了有关如何为界面定义语言的信息。 [阅读更多](../about/user-interface.md)
 * 个人旅程的状态列表已移至“测试模 [式日志”部分](../building-journeys/testing-the-journey.md#viewing_logs) 。
 
-## 2020年4月 {#april-2020}
+## 2020 年 4 月 {#april-2020}
 
 * 添加了有关体验事件模式定义的新部分，以帮助用户配置其第一个事件。 [阅读更多](../event/experience-event-schema.md)
-* 旅程编排主页文档已更新，其中包含其他有用的链接。 [阅读更多](../../journey-orchestration-home.md)
+* 文档主页 [!DNL Journey Orchestration] 已更新，并包含其他有用链接。 [阅读更多](../../journey-orchestration-home.md)
 
 ## 2020 年 3 月 {#march-2020}
 
