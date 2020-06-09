@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26246bd44407a818afba8b80513cb62da9cf6ebd
+source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 0%
 >默认情况下，数据集不会为实时用户档案服务打开。 如果要在用户档案服务中创建数据集，则需要打开它(**用户档案** 切换)。 请注意，大量事件将占用配额中的存储。 在激活用户档案数据集之前，请仔细执行
 >
 >![](../assets/sharing4.png)
+
+>[!]
+>
+>旅程还可以决定是否将旅程步骤用户档案事件发送到平台。  旅程可以通过技术切换来决定这一点。
+>
+>![](../assets/techtoggle.png)
 
 旅程以流方式在数据发生时发送数据。 您可以使用查询服务查询此数据。 您可以连接到客户旅程分析或其他BI工具，以视图与这些步骤相关的数据。
 
