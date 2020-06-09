@@ -4,22 +4,22 @@ audience: end-user
 user-guide-title: Journey Orchestration 帮助
 index: true
 translation-type: tm+mt
-source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 87%
+source-wordcount: '351'
+ht-degree: 85%
 
 ---
 
 
-# Journey Orchestration 帮助 {#using}
+# [!DNL Journey Orchestration] 帮助 {#using}
 
 + [产品文档](journey-orchestration-home.md)
 + 新增内容 {#release-notes}
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
-+ Journey Orchestration 入门 {#starting-with-journeys}
-   + [关于 Journey Orchestration](using/about/about-journey-orchestration.md)
++ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
+   + [关于[!DNL旅程编排]](using/about/about-journey-orchestration.md)
    + [入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
    + [访问管理](using/about/access-management.md)
