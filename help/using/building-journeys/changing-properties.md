@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 如果您的旅程对时间很敏感， **[!UICONTROL Timeout and error]** 我们建议您定义一个非常短的值(例如： 对人的实时位置做出响应)，因为您不能将操作延迟超过几秒钟。 如果您的旅程对时间不太敏感，您可以使用较长的值为调用的系统提供更多时间，以发送有效的响应。
 
-旅程安排还使用全局超时。 请参阅下 [一节](#global_timeout)。
+[!DNL Journey Orchestration] 还使用全局超时。 请参阅下 [一节](#global_timeout)。
 
 ## 全局旅程超时 {#global_timeout}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->旅程安排不会直接对隐私选择退出、访问或删除请求做出响应。 但是，全局超时可确保个人在任何旅程中停留不超过30天。
+>[!DNL Journey Orchestration] 不会直接对隐私选择退出、访问或删除请求做出响应。 但是，全局超时可确保个人在任何旅程中停留不超过30天。
 
 由于30天的旅程超时，当旅程重新进入不被允许时，我们无法确保重新进入的阻塞将工作超过30天。 事实上，当我们删除所有关于在他们进入旅程30天后进入旅程的人员的信息时，我们无法知道之前输入的人员，超过30天前。
 
