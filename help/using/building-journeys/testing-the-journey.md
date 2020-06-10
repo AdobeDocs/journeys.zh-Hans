@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 在测试中打开旅程时，显示的路径与执行的上次测试相对应。
 
-仅当在事件配置屏幕中定义发送到旅程的事件时，才会显示可视流。 如果在外部定义事件（例如，使用Postman），则不显示可视流。
+无论事件是通过界面触发还是通过外部触发（例如，使用Postman），可视流都有效。
 
 ## 查看日志 {#viewing_logs}
 
