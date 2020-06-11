@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1084'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,13 @@ ht-degree: 1%
 
 ## 资源
 
-此处 [!DNL Journey Orchestration] 提供的Swagger文件中对封顶API进行 [了说明](https://adobedocs.github.io/JourneyAPI/docs/)。
+>[!NOTE]
+>
+>此处 [!DNL Journey Orchestration] 提供的Swagger文件中对封顶API进行 [了说明](https://adobedocs.github.io/JourneyAPI/docs/)。
 
 要将此API与您的 [!DNL Journey Orchestration] 实例一起使用，您需要使用AdobeIO控制台。 您可以通过以下方式进行开始 [：按照Adobe开发人员控制](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 台快速入门，然后使用本页中的各个部分。
 
-要测试和准备集成，此处提供Postman [集合](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
+要测试和准备集成，此处提供Postman [集合](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 ## 身份验证
 
@@ -44,7 +46,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->要管理Adobe IO中的证书，请确保您对组 <b>织或管理控制台</b> 中的开发人 <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">员帐户拥有</a> “系统管理员”权限。
+>要管理Adobe IO中的证书，请确保您对组 <b>织或管理控制台</b> 中的开发人 [员帐户拥有](https://helpx.adobe.com/enterprise/using/manage-developers.html) “系统管理员”权限。
 
 1. **检查您有数字证书**，或根据需要创建数字证书。 在以下步骤中需要随证书提供的公钥和私钥。
 1. **在Adobe IO中创建与[!DNL Journey Orchestration]Service** 的新集成并进行配置。 Adobe Experience Platform需要产品 [!DNL Journey Orchestration] 用户档案访问权限。 随后将生成您的凭据（API密钥、客户端机密……）。
@@ -166,7 +168,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 在本节中，您将找到管理中的上限设置配置时可执行的五个主要用例 [!DNL Journey Orchestration]。
 
-为了帮助您进行测试和配置，此处提供了Postman [集合](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
+为了帮助您进行测试和配置，此处提供了Postman [集合](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 此邮递员集合已设置为共享通过 __[Adobe I/O控制台的“集成”](https://console.adobe.io/integrations)__>“试用”>“下载邮递员”生成的邮递员变量集合，该集合生成具有选定集成值的邮递员环境文件。
 
@@ -174,7 +176,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * `{JO_HOST}` : [!DNL Journey Orchestration] 网关URL
 * `{BASE_PATH}` : 入口点。 值为“/authoring”
 
-
+在以下部分中，您将找到Rest API调用的有序列表以执行用例。
 
 用例n°1: **创建和部署新的上限配置**
 
