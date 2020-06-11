@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
+source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 70%
@@ -74,7 +74,7 @@ ht-degree: 70%
 <li><p>在发射事件以使测试用户档案进入旅程后，您现在可以看到其在旅程中的进度，这要归功于彩色的视觉流。 如果旅程中出错，还会显示错误的详细信息。 <a href="../building-journeys/testing-the-journey.md#firing_events">阅读更多</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>已完成 <strong>的旅程</strong> 状态已更名为“已 <strong>关闭”（无入口）</strong> ，以更好地反映此状态的含义。</li>
+<li>已完成 <strong>的旅程</strong> 状态已更名为“ <strong>已关闭”（无入口）</strong> ，以更好地反映此状态的含义。</li>
 </ul>
 </td>
 </tr>
