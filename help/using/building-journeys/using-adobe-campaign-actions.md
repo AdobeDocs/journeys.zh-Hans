@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '820'
 ht-degree: 4%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 4%
 
 # 使用 Adobe Campaign 操作 {#using_campaign_action}
 
-如果您有Adobe Campaign标准，可以使用以下现成操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。
+如果您有Adobe Campaign Standard，可以使用以下现成操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。
 
 >[!NOTE]
 >
 >为此，您需要配置内置操作。 请参阅[](../action/working-with-adobe-campaign.md)。
 
-对于这些渠道中的每个，您都可以选择Adobe Campaign标准事务消息 **模板**。 事实上， [!DNL Journey Orchestration] 这并不是传递解决方案的信息。 对于内置电子邮件、短信和推送渠道，我们依靠交易消息来执行消息发送。 这意味着，如果要在旅程中使用特定消息模板，则必须在Adobe Campaign标准中发布该模板。 请参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) ，了解如何使用此功能。
+对于这些渠道中的每个，您都可以选择Adobe Campaign Standard事务消息 **传递模板**。 事实上， [!DNL Journey Orchestration] 这并不是传递解决方案的信息。 对于内置电子邮件、短信和推送渠道，我们依靠交易消息来执行消息发送。 这意味着，如果要在旅程中使用特定消息模板，则必须以Adobe Campaign Standard发布该模板。 请参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) ，了解如何使用此功能。
 
 ![](../assets/journey59.png)
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->当我们发送实时事务性消息(rtEvent)或通过自定义操作与第三方系统发送消息时，对于疲劳、黑名单或退订管理，需要特定设置。 例如，如果“黑名单”或“取消订阅”属性存储在平台或第三方系统中，则必须在发送消息之前添加一个条件，才能检查此条件。
+>当我们发送实时事务性消息(rtEvent)或通过自定义操作与第三方系统发送消息时，对于疲劳、块列表或退订管理，需要特定设置。 例如，如果“取消订阅”属性存储在Platform或第三方系统中，则必须在发送消息之前添加一个条件以检查此条件。
 
 当您选择模板时，消息有效负荷中预期的所有字段将显示在活动配置窗格的和 **[!UICONTROL Address]** 下方 **[!UICONTROL Personalization Data]**。 您需要将每个字段与要使用的字段进行映射，事件或数据源中的字段。 您还可以使用高级表达式编辑器手动传递值，对检索到的信息执行数据处理（例如，将字符串转换为大写），或使用“if, then, else”等函数。 请参见 [](../expression/expressionadvanced.md)。
 
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->此类别仅在您选择“事件”事务性消息时才可见。 对于“用户档案”消息，系 **[!UICONTROL Address]** 统会从Adobe Campaign标准中自动检索该字段。
+>此类别仅在您选择“事件”事务性消息时才可见。 对于“用户档案”消息，系 **[!UICONTROL Address]** 统会从Adobe Campaign Standard中自动检索字段。
 
 这些字段是系统需要知道消息的发送位置的字段。 对于电子邮件模板，它是电子邮件地址。 对于SMS，它是手机号码。
 
@@ -71,7 +71,7 @@ ht-degree: 4%
 >
 >您无法在个性化数据中传递集合。 如果交易电子邮件或短信需要集合，则它将不起作用。 另请注意，个性化数据具有预期的格式(例如： 字符串、小数等)。 必须注意遵守这些预期格式。
 
-这些是“Adobe Campaign标准”消息所需的字段。 这些字段可用于个性化消息、应用条件格式或选择特定消息变体。
+这些是Adobe Campaign Standard消息应用的字段。 这些字段可用于个性化消息、应用条件格式或选择特定消息变体。
 
 ![](../assets/journey62.png)
 
@@ -89,7 +89,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->此类别仅在您选择事件消息时才可见。 对于用户档案消息，系 **[!UICONTROL Target]** 统会使用Adobe Campaign标准执行的对帐功能自动检索字段。
+>此类别仅在您选择事件消息时才可见。 对于用户档案消息， **[!UICONTROL Target]** 系统使用Adobe Campaign Standard执行的协调自动检索字段。
 
 在本节中，您需要定义 **[!UICONTROL Push platform]**。 下拉列表允许您选择( **[!UICONTROL Apple Push Notification Server]** iOS)或( **[!UICONTROL Firebase Cloud Messaging]** Android)。 您也可以从事件或数据源中选择特定字段，或定义高级表达式。
 
@@ -105,4 +105,4 @@ ht-degree: 4%
 >
 >您无法在个性化数据中传递集合。 如果交易推送需要集合，则它将不起作用。 另请注意，个性化数据具有预期的格式(例如： 字符串、小数等)。 必须注意遵守这些预期格式。
 
-这些是Adobe Campaign标准消息中使用的事务模板应用的字段。 这些字段可用于个性化您的消息、应用条件格式或选择特定的消息变体。
+这些字段是Adobe Campaign Standard消息中使用的事务模板应用的字段。 这些字段可用于个性化您的消息、应用条件格式或选择特定的消息变体。
