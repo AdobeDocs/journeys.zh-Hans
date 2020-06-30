@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 70%
+source-wordcount: '1095'
+ht-degree: 71%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 70%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Platform集成增强功能</strong><br/></th>
+<th><strong>Adobe Experience Platform集成增强</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -40,17 +40,17 @@ ht-degree: 70%
 <li><p>新活动允许监听平台细分入口／出口，让人们进入或前进旅程。 <a href="../building-journeys/event-activities.md#segment-qualification">阅读更多</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>借助新的“区段”选项卡，现在无需离开“旅程安排”界面即可创建和编辑 <strong>平台</strong> 区段。<a href="../segment/about-segments.md">阅读更多</a></p>
+<li><p>由于新增了“区段”选项卡，现在无需离开Journey Orchestration界面即可创建和编辑平 <strong>台区</strong> 段。<a href="../segment/about-segments.md">阅读更多</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>在简单的表达式编辑器中，平台区段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于区段A?”。<a href="../segment/using-a-segment.md">阅读更多</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>旅程编排现在会自动将旅程中执行的步骤传递给Adobe数据平台。 这包括遇到的潜在错误。 此信息可用于针对特定旅程或所有旅程执行旅程步骤报告，从而实现查询和故障排除。 <a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
+<li><p>Journey Orchestration现在会自动传递到Adobe Data Platform中旅程中执行的步骤。 这包括遇到的潜在错误。 此信息可用于针对特定旅程或所有旅程执行旅程步骤报告，从而实现查询和故障排除。 <a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>旅程编排现在可以连接到制作和非制作平台沙箱。 请注意，沙箱是测试版功能。 有效可用性： 2020年6月30日。 <a href="../about/access-management.md#sandboxes">阅读更多</a></p>
+<li><p>Journey Orchestration现在可以连接到生产和非生产平台沙箱。 请注意，沙箱是测试版功能。 <a href="../about/access-management.md#sandboxes">阅读更多</a></p>
 </li>
 </td>
 </tr>
@@ -87,9 +87,9 @@ ht-degree: 70%
 
 访问控制现在允许在用户访问管理中实现更大粒度。 有效可用性： 2020年6月30日。 [阅读更多](../about/access-management.md#create-product-profile)
 
-现在可在APAC（澳大利亚数据中心）使用旅程安排。 有效可用性： 2020年6月30日
+Journey Orchestration现已在APAC（澳大利亚数据中心）提供。 有效可用性： 2020年6月30日
 
-旅程编排界面提供日语版。
+Journey Orchestration界面提供日语版。
 
 ## 第 1 季度发行 - 2020 年 3 月{#q1-release---march-2020}
 
