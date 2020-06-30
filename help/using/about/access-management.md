@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 1%
    * 管理报告
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** 是唯一允许在Adobe Campaign标准中创建、编辑和发布交易消息（或消息模板）的产品用户档案。 如果您使用用户档案标准在旅程中发送消息，则需要此产品Adobe Campaign。
+   >**[!UICONTROL Administrators]** 是唯一允许在Adobe Campaign Standard中创建、编辑和发布交易消息（或消息模板）的产品用户档案。 如果您使用用户档案在旅程中发送消息，则需要此产品Adobe Campaign Standard。
 
 * **[!UICONTROL Standard User]**: 具有基本访问权限的用户，如旅程管理。 本产品用户档案包括以下权限：
    * 管理旅程
@@ -64,11 +64,13 @@ ht-degree: 1%
 
 [!DNL Journey Orchestration] 允许您创建自己的产品用户档案，并为用户分配一组权限和沙箱。 通过产品用户档案，您可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的更多信息，请参 [阅Adobe Experience Platform文档](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)。
+有关如何创建和管理沙箱的更多信息，请参阅 [Adobe Experience Platform文档](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)。
 
 要创建产品用户档案并分配一组权限和沙箱，请执行以下操作：
 
-1. 在管理控制台中，选择 **[!UICONTROL Journey Orchestration]**。 在选项卡 **[!UICONTROL Product profile]** 中，单击 **[!UICONTROL New Profile]**。
+1. 在Admin Console中，选择 **[!UICONTROL Journey Orchestration]**。 在选项卡 **[!UICONTROL Product profile]** 中，单击 **[!UICONTROL New Profile]**。
+
+   ![](../assets/user_management_5.png)
 
 1. 为新 **[!UICONTROL Profile Name]** 产品 **[!UICONTROL Description]** 用户档案添加和。 如果希望用户档案不 **[!UICONTROL Display name]** 同，请取消选 **[!UICONTROL Same as Profile Name]** 中并键入 **[!UICONTROL Display name]**。
 
@@ -76,23 +78,28 @@ ht-degree: 1%
 
 1. 完成后，单击 **[!UICONTROL Done]**。 您的新产品用户档案现已创建。
 
+   ![](../assets/user_management_6.png)
+
 1. 选择您的新产品用户档案以开始管理权限。 在选项卡 **[!UICONTROL Users]** 中，将用户添加到您的产品用户档案。 For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
 1. 执行与上述步骤相同的步骤，以添 **[!UICONTROL Admin]** 加到您的产品用户档案。
 
 1. 从选 **[!UICONTROL Permissions]** 项卡中，选择两个类别之一 **[!UICONTROL Sandbox]** ，或 **[!UICONTROL Authoring]** 者打开页面并添 **[!UICONTROL Edit Permissions]** 加或删除您的产品用户档案的权限。
 
-1. 在权 **[!UICONTROL Sandbox]** 限类别中，选择要分配给您的产品用户档案的沙箱。 在 **[!UICONTROL Available Permissions Items]**&#x200B;下，单击加号(+)图标，将沙箱分配给用户档案。
+   ![](../assets/user_management_7.png)
 
-   >[!NOTE]
-   >
-   >平台沙箱是测试版功能。
-   <br>有关沙箱的详细信息，请参阅此 [部分](../about/access-management.md#sandboxes)。
+1. 在权 **[!UICONTROL Sandbox]** 限类别中，选择要分配给您的产品用户档案的沙箱。 在 **[!UICONTROL Available Permissions Items]**&#x200B;下，单击加号(+)图标，将沙箱分配给用户档案。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+
+   ![](../assets/user_management_8.png)
 
 1. 如果需要，请在 **[!UICONTROL Included Permission Items]**&#x200B;下面单击删除您的产品用户档案权限旁边的X图标。
 
+   ![](../assets/user_management_9.png)
+
 1. 在权 **[!UICONTROL Authoring]** 限类别中，执行与上述步骤相同的步骤，向产品用户档案添加权限。
    <br>有关权限与不同功能之间的权 [!DNL Journey Orchestration]限和兼容性的详细信息，请参 [阅本节](../about/access-management.md#about-access-management)。
+
+   ![](../assets/user_management_10.png)
 
 1. 完成后，单击 **[!UICONTROL Save]**。
 
@@ -105,7 +112,7 @@ ht-degree: 1%
 
 要为用户分配产品用户档案以进行访问，请执行以下操 [!DNL Journey Orchestration]作：
 
-1. 在管理控制台中，选择 **[!UICONTROL Journey Orchestration]**。
+1. 在Admin Console中，选择 **[!UICONTROL Journey Orchestration]**。
 
    ![](../assets/user_management.png)
 
@@ -126,10 +133,6 @@ ht-degree: 1%
 随后，您的用户将收到一封重定向到您的实例的 [!DNL Journey Orchestration] 电子邮件。
 
 ## 使用沙箱 {#sandboxes}
-
->[!NOTE]
->
->平台沙箱是测试版功能。
 
 [!DNL Journey Orchestration] 允许您将实例分区为称为沙箱的分隔虚拟环境。
 沙箱通过管理控制台中的产品用户档案进行分配。 有关如何分配沙箱的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
