@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 1%
@@ -78,7 +78,7 @@ ht-degree: 1%
 
 1. 完成后，单击 **[!UICONTROL Done]**。 您的新产品用户档案现已创建。
 
-   ![](../assets/user_management_6.png)
+   ![](../assets/user_management_1.png)
 
 1. 选择您的新产品用户档案以开始管理权限。 在选项卡 **[!UICONTROL Users]** 中，将用户添加到您的产品用户档案。 For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
    ![](../assets/user_management_7.png)
 
-1. 在权 **[!UICONTROL Sandbox]** 限类别中，选择要分配给您的产品用户档案的沙箱。 在 **[!UICONTROL Available Permissions Items]**&#x200B;下，单击加号(+)图标，将沙箱分配给用户档案。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+1. 在权 **[!UICONTROL Sandboxes]** 限类别中，选择要分配给您的产品用户档案的沙箱。 在 **[!UICONTROL Available Permissions Items]**&#x200B;下，单击加号(+)图标，将沙箱分配给用户档案。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
    ![](../assets/user_management_8.png)
 
