@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 4%
+source-wordcount: '886'
+ht-degree: 3%
 
 ---
 
@@ -29,13 +29,17 @@ ht-degree: 4%
 
 对于这些渠道中的每个，您都可以选择Adobe Campaign Standard事务消息 **传递模板**。 事实上， [!DNL Journey Orchestration] 这并不是传递解决方案的信息。 对于内置电子邮件、短信和推送渠道，我们依靠交易消息来执行消息发送。 这意味着，如果要在旅程中使用特定消息模板，则必须以Adobe Campaign Standard发布该模板。 请参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) ，了解如何使用此功能。
 
+>[!NOTE]
+>
+>必须发布Campaign Standard事务性消息及其关联事件，才能用于Journey Orchestration。 如果事件已发布，但消息未发布，则Journey Orchestration界面中将不显示该消息。 如果消息已发布，但其关联的事件不可用，则消息将显示在Journey Orchestration界面中，但将不可用。
+
 ![](../assets/journey59.png)
 
 您可以使用事件（也称为实时）或用户档案事务消息模板。
 
 >[!NOTE]
 >
->当我们发送实时事务性消息(rtEvent)或通过自定义操作与第三方系统发送消息时，对于疲劳、块列表或退订管理，需要特定设置。 例如，如果“取消订阅”属性存储在Platform或第三方系统中，则必须在发送消息之前添加一个条件以检查此条件。
+>当我们发送实时事务性消息(rtEvent)或通过自定义操作与第三方系统发送消息时，对于疲劳、阻止列表或退订管理，需要特定设置。 例如，如果“取消订阅”属性存储在平台或第三方系统中，则必须在发送消息之前添加一个条件以检查此条件。
 
 当您选择模板时，消息有效负荷中预期的所有字段将显示在活动配置窗格的和 **[!UICONTROL Address]** 下方 **[!UICONTROL Personalization Data]**。 您需要将每个字段与要使用的字段进行映射，事件或数据源中的字段。 您还可以使用高级表达式编辑器手动传递值，对检索到的信息执行数据处理（例如，将字符串转换为大写），或使用“if, then, else”等函数。 请参见 [](../expression/expressionadvanced.md)。
 
