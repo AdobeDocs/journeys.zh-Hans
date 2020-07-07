@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Journey Orchestration 帮助
 index: true
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 85%
+source-wordcount: '373'
+ht-degree: 80%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [关于[!DNL旅程编排]](using/about/about-journey-orchestration.md)
+   + [关于[!DNLJourney Orchestration]](using/about/about-journey-orchestration.md)
    + [入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
    + [访问管理](using/about/access-management.md)
@@ -162,6 +162,10 @@ ht-degree: 85%
    + [关于旅程报告](using/reporting/about-journey-reports.md)
    + [创建旅程报告](using/reporting/creating-your-journey-reports.md)
    + [指标和维度](using/reporting/metrics-and-dimensions.md)
++ 与智能服务集成{#use-case-advanced}
+   + [关于AI集成](using/ai-services/ai-services-overview.md)
+   + [利用旅程AI](using/ai-services/leveraging-fatigue-scores.md)
+   + [利用客户人工智能](using/ai-services/leveraging-customer-ai.md)
 + 用例{#use-cases-journeys}
    + 简单用例{#use-case-simple}
       + [关于简单用例](using/usecase/about-the-simple-use-case.md)
@@ -173,7 +177,11 @@ ht-degree: 85%
       + [配置事件](using/usecase/configuring-the-events.md)
       + [配置数据源](using/usecase/configuring-the-data-sources.md)
       + [构建旅程](using/usecase/building-the-journey.md)
-   + [利用疲劳分数](using/usecase/leveraging-fatigue-scores.md)
 + 使用 API{#working-with-apis}
    + [限制API](using/api/capping.md)
++ Alpha功能 {#alpha}
+   + [Alpha功能概述](using/alpha/alpha-overview.md)
+   + [用户界面](using/alpha/alpha-interface.md)
+   + [区段触发活动](using/alpha/alpha-segment-trigger.md)
+   + [基于规则的事件](using/alpha/alpha-events.md)
 
