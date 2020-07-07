@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 74%
+source-wordcount: '649'
+ht-degree: 59%
 
 ---
 
@@ -23,6 +23,18 @@ ht-degree: 74%
 
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
+
+## 2020 年 7 月 {#july-2020}
+
+* 新增了Alpha功能的一节，这些功能在有限的一组客户中进行测试。 [阅读更多](../alpha/alpha-overview.md)
+* 添加了有关与智能服务集成的新部分。 [阅读更多](../ai-services/ai-services-overview.md)
+* 在创建测试用户档案时添加了新部分。 [阅读更多](../building-journeys/testing-the-journey.md#create-test-profile)。
+* 添加了有关如何在旅程条 **件或操作** 中使用SegmentQualification节点的信息。 [阅读更多](../building-journeys/event-activities.md#segment-qualification)。
+* 已在活动事务性消息和事件出版中添加注释。 请参阅 [](../action/working-with-adobe-campaign.md) 和 [](../building-journeys/using-adobe-campaign-actions.md)。
+* 已在测试Campaign Standard实例URL时执行的检查中添加了信息。 [阅读更多](../action/working-with-adobe-campaign.md)
+* 已添加有关与AWS或Azure服务器上托管的Campaign Standard实例兼容的反应事件的信息。 [阅读更多](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* 在处理Campaign Standard事务消息传递时，需要设置限制规则这一点已添加注释。 [阅读更多](../action/working-with-adobe-campaign.md)
+* 在使用测试模式触发事件时，在生成重新事件时添加了注释。 [阅读更多](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2020年6月 {#june-2020}
 
@@ -65,7 +77,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * 所有屏幕截图都已更新，以反映界面的更改。
 * 测试模式部分已更新。[阅读更多](../building-journeys/testing-the-journey.md)
-* 在[电子邮件发送时间优化](../building-journeys/wait-activity.md)和[预测性疲劳得分](../usecase/leveraging-fatigue-scores.md)部分添加了警告。这些功能只适用于使用 Adobe Campaign Standard 数据服务功能的客户。
+* 在[电子邮件发送时间优化](../building-journeys/wait-activity.md)和[预测性疲劳得分](../ai-services/leveraging-fatigue-scores.md)部分添加了警告。这些功能只适用于使用 Adobe Campaign Standard 数据服务功能的客户。
 * 现在可删除已停止的旅程。相关文档页面已更新。
 * 在旅程中检测到问题时，会显示两种颜色。红色表示错误，橙色表示警告。[阅读更多](../about/troubleshooting.md)
 * 高级表达式编辑器部分已更新。[阅读更多](../expression/expressionadvanced.md)。
