@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
+source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1151'
 ht-degree: 1%
 
 ---
@@ -50,16 +50,74 @@ ht-degree: 1%
 ## 重要说明 {#important_notes}
 
 * 提供一个接口，用于向测试旅程中的事件发射事件，但也可以由第三方系统发送，如Postman。
-* 只允许在实时客户用户档案服务中标为“测试用户档案”的个人进入测试旅程。 创建测试用户档案的过程与在数据平台中创建用户档案的过程相同。 您只需确保测试用户档案标志为真。 您可以使用数据平台界面中的“区段”部分在数据平台中创建测试用户档案的区段，并查看非完全列表。 目前无法显示完整列表。
+* 只允许在实时客户用户档案服务中标为“测试用户档案”的个人进入测试旅程。 请参见 [](../building-journeys/testing-the-journey.md#create-test-profile)。
 * 测试模式仅在使用命名空间的草稿旅程中可用。 事实上，测试模式需要检查进入旅程的人员是否是测试用户档案，因此必须能够访问数据平台。
 * 在测试会话期间，可以进入旅程的测试用户档案数最大为100。
 * 禁用测试模式后，它将从过去或当前已进入该模式的所有人员中抢占旅程。
 * 您可以根据需要多次启用／禁用测试模式。
 * 在激活测试模式时，您无法修改旅程。 在测试模式下时，您可以直接发布旅程，无需在之前取消激活测试模式。
 
+## 创建测试用户档案{#create-test-profile}
+
+创建测试用户档案的过程与在Experience Platform中创建用户档案的过程相同。 它通过API调用执行。 查看此 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
+
+必须使用包含“用户档案测试详细信息”混音的用户档案模式。 事实上，testProfile标志是此混音的一部分。
+
+创建用户档案时，请确保传递值： testprofile = true。
+
+请注意，您还可以更新现有用户档案，将其testProfile标志更改为“true”。
+
+以下是用于创建测试用户档案的API调用示例：
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## 发射事件 {#firing_events}
 
 通 **[!UICONTROL Trigger an event]** 过此按钮，您可以配置事件，使人员进入旅程。
+
+>[!NOTE]
+>
+>在测试模式下触发事件时，会生成一个真实的事件，这意味着它还会触及其他侦听此事件的旅程。
 
 作为入门项目，您必须知道哪些用户档案在数据平台中被标记为测试用户档案。 事实上，测试模式只允许旅程中的这些用户档案,事件必须包含ID。 所需的ID取决于事件配置。 例如，它可以是ECID。
 
