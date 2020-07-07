@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
+source-git-commit: 14c8828a8c8e223b58b3512f02f2ee06136b98c5
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 * 访问平台细分的列表。 请参 [阅创建区段](../segment/creating-a-segment.md)。
 * 直接以您使用 [!DNL Journey Orchestration] 分段服务创建区段的相同方式创建区段。 请参 [阅创建区段](../segment/creating-a-segment.md)。
-* 使用简单或高级表达式编辑器在旅程条件中利用细分。 请参 [阅在条件中使用区段](../segment/using-a-segment.md)。
+* 使用简单或高级的表达式编辑器在旅程条件中利用细分。 请参 [阅在条件中使用区段](../segment/using-a-segment.md)。
 * 在旅 **程中添加** “细分资格”事件，以便倾听平台细分中用户档案的进出口。 请参阅 [事件活动](../building-journeys/event-activities.md#segment-qualification)。
 
