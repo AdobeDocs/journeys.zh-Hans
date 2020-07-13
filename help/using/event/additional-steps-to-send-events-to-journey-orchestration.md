@@ -1,6 +1,6 @@
 ---
-title: 将事件发送到旅程编排的其他步骤
-description: 了解将事件发送到旅程编排的其他步骤
+title: 将事件发送到Journey Orchestration的其他步骤
+description: 了解将事件发送给Journey Orchestration的其他步骤
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a71378264e6cd8a13c616bb867723f827d6dca69
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
 1. 使用您从API调 [!DNL Journey Orchestration] 用的正文（“数据部分”）中复制的有效负荷到流摄取API。 请参见下面的示例
 1. 确定在何处获取有效负荷中存在的所有变量。 示例： 如果事件应传达地址，则粘贴的有效负荷将显示“地址”: “string”。 “string”应替换为将自动填充正确值（要向其发送消息的人员的电子邮件）的变量。 请注意，在有效负荷预览的部分， **[!UICONTROL Header]** 我们会自动填写许多值，以便您的工作。
 1. 选择“application/json”作为正文类型。
-1. 使用键“x-gw-ims-org-id”在标题中传递您的IMS ORG ID。 对于该值，请使用您的IMS ORG ID(“XXX@AdobeOrg”)。
+1. 使用键“x-gw-ims-org-id”在标题中传递您的IMS组织ID。 对于该值，请使用您的IMS组织ID(“XXX@AdobeOrg”)。
 
 以下是流摄取API事件的示例：
 
