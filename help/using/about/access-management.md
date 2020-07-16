@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
+source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
@@ -25,28 +25,34 @@ ht-degree: 1%
 
 可由有权访问管理控制台的管理员管理。 有关Admin Console的详细信息，请参阅此 [文档](https://helpx.adobe.com/enterprise/managing/user-guide.html)。
 
+要能够访问， [!DNL Journey Orchestration]用户必须：
+
+* 与权限关 [!DNL Journey Orchestration] 联 **[!UICONTROL product profile]** 的一 [!DNL Journey Orchestration] 部分。
+* 属于某个 [!DNL Adobe Experience Platform]**[!UICONTROL product profile]**。 没有强制许可。 用户应具有 **[!UICONTROL profile management]** 从界面创建和编辑平台段的权 [!DNL Journey Orchestration] 限。 For more on this, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console).
+
 在管理控制台中，您可以向用户分配以下现成的产品用户档案之一：
 
-* **[!UICONTROL Limited Access User]**: 具有对旅程和报告的只读访问权限的用户。 本产品用户档案包括以下权限：
+* **[!UICONTROL Limited Access User]**: 具有对旅程和报告的只读访问权限的用户。 此产品用户档案包括以下权限：
    * 阅读旅程
    * 阅读报告
 
-* **[!UICONTROL Administrators]**: 用户可访问管理菜单，并可以管理旅程、事件和报告。 本产品用户档案包括以下权限：
+* **[!UICONTROL Administrators]**: 用户可访问管理菜单，并可以管理旅程、事件和报告。 此产品用户档案包括以下权限：
    * 管理旅程
    * 发布旅程
    * 管理事件、数据源和操作
    * 管理报告
+
    >[!NOTE]
    >
    >**[!UICONTROL Administrators]** 是唯一允许在Adobe Campaign Standard中创建、编辑和发布交易消息（或消息模板）的产品用户档案。 如果您使用用户档案在旅程中发送消息，则需要此产品Adobe Campaign Standard。
 
-* **[!UICONTROL Standard User]**: 具有基本访问权限的用户，如旅程管理。 本产品用户档案包括以下权限：
+* **[!UICONTROL Standard User]**: 具有基本访问权限的用户，如旅程管理。 此产品用户档案包括以下权限：
    * 管理旅程
    * 发布旅程
    * 管理报告
 
 如果现成的用户档案不足以管理用户，您还可以创建自己的产品用户档案。
-用户必须始终链接到产品用户档案，以便您为其分配特定的内置权限，例如：
+用户必须始终链接到产品用户档案，以便您为他们分配特定的内置权限，例如：
 
 * **[!UICONTROL Read journeys]**
 * **[!UICONTROL Read reports]**
@@ -88,7 +94,7 @@ ht-degree: 1%
 
    ![](../assets/user_management_7.png)
 
-1. 在权 **[!UICONTROL Sandboxes]** 限类别中，选择要分配给您的产品用户档案的沙箱。 在 **[!UICONTROL Available Permissions Items]**&#x200B;下，单击加号(+)图标，将沙箱分配给用户档案。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+1. 在权 **[!UICONTROL Sandboxes]** 限类别中，选择要分配给产品用户档案的沙箱。 在 **[!UICONTROL Available Permissions Items]**&#x200B;下，单击加号(+)图标，将沙箱分配给用户档案。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
    ![](../assets/user_management_8.png)
 
@@ -97,7 +103,7 @@ ht-degree: 1%
    ![](../assets/user_management_9.png)
 
 1. 在权 **[!UICONTROL Authoring]** 限类别中，执行与上述步骤相同的步骤，向产品用户档案添加权限。
-   <br>有关权限与不同功能之间的权 [!DNL Journey Orchestration]限和兼容性的详细信息，请参 [阅本节](../about/access-management.md#about-access-management)。
+   <br>有关权限与权限之间的兼容性以及 [!DNL Journey Orchestration]不同功能的更多信息，请参 [阅本节](../about/access-management.md#about-access-management)。
 
    ![](../assets/user_management_10.png)
 
@@ -108,7 +114,7 @@ ht-degree: 1%
 ## 分配产品用户档案 {#assigning-product-profile}
 
 产品用户档案会分配给您组织内共享相同权限的一组用户。
-本部分提供每个具有分配权限的现成产品用户档案的列表。
+本部分提供每个现成产品用户档案的列表，这些已分配权限。
 
 要为用户分配产品用户档案以进行访问，请执行以下操 [!DNL Journey Orchestration]作：
 
