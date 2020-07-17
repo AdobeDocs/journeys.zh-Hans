@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 69809da5cb96099baa20ea130a3cf7650b26c094
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 * 菜单从界面的顶部移动到左侧，
 * 将管理功能分组到单个仪表板。
 
-本节介绍了如何在界面中使用和导航的全局概念(搜索和筛选、浏览数据平台字段和快捷 [键)](../about/user-interface.md)。
+本节介绍了如何在界面中使用和导航的全局概念(搜索和筛选、浏览Adobe Experience Platform字段和快捷 [键)](../about/user-interface.md)。
 
 ## 访问功 [!DNL Journey Orchestration] 能 {#accessing-journey-orchestration-functionalities}
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ![](../assets/interface-journeys.png)
 
-菜单 **[!UICONTROL Segments]** 允许您访问和创建Experience Platform段。 请参 [阅关于平台细分](../segment/about-segments.md)。
+菜单 **[!UICONTROL Segments]** 允许您访问和创建Adobe Experience Platform段。 请参 [阅关于Adobe Experience Platform段](../segment/about-segments.md)。
 
 ![](../assets/interface-segments.png)
 
