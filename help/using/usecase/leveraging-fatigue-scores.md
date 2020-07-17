@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '236'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 执行以下步骤以选择内置数据源中的疲劳分数字段：
 
-1. 在顶部菜单中，单击 **[!UICONTROL Data Sources]** 选项卡，然后选择内建Experience Platform数据源。
+1. 在顶部菜单中，单击 **[!UICONTROL Data Sources]** 选项卡，然后选择内建Adobe Experience Platform数据源。
 
    ![](../assets/journey23.png)
 
