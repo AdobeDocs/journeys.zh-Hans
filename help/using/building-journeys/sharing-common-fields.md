@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 此混音将由journeyStepEvent和journeyStepProfileEvent共享。
 
-这些是发送到Adobe Data Platform [!DNL Journey Orchestration] 的常见XDM字段。 在旅程中处理的每个步骤都会发送通用字段。 更多特定字段用于自定义操作和扩充。
+这些是发送到Adobe Experience Platform的 [!DNL Journey Orchestration] 常用XDM字段。 在旅程中处理的每个步骤都会发送通用字段。 更多特定字段用于自定义操作和扩充。
 
 其中有些字段仅在特定处理模式（操作执行、数据提取等）中可用 以限制事件的大小。
 
