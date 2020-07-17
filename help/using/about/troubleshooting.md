@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,15 @@ ht-degree: 0%
 
 旅程全局的错误和警告首先在列表中显示。 与特定活动相关的错误和警告按活动顺序或从左到右的旅程外观列出。 该按 **[!UICONTROL Copy details]** 钮可复制有关支持团队可用于进行故障诊断的旅程的技术信息。
 
+当操作或条件中发生错误时，单个旅程将停止。 使其继续的唯一方法是选中该框 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
+
 ## 检查事件是否正确发送{#section_rqz_11t_dgb}
 
 旅程的起点永远是事件。 您可以使用Postman等工具执行测试。
 
 您可以检查通过这些工具发送的API调用是否发送正确。 如果返回错误，则表示您的呼叫有问题。 再次检查有效负荷、标题（特别是组织ID）和目标URL。 您可以询问管理员要点击的正确URL。
 
-事件不会直接从源推送到 [!DNL Journey Orchestration]。 事实上， [!DNL Journey Orchestration] 它依赖于Experience Platform的流式摄取API。 因此，如果出现与事件相关的问题，您可以参阅本 [页](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) ，了解Streaminging Estion API疑难解答。
+事件不会直接从源推送到 [!DNL Journey Orchestration]。 的确， [!DNL Journey Orchestration] 依赖于Adobe Experience Platform的流式摄取API。 因此，如果出现与事件相关的问题，您可以参阅本 [页](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) ，了解Streaminging Estion API疑难解答。
 
 ## 检查人员是否进入旅程{#section_x4v_zzs_dgb}
 
