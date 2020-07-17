@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 71%
+source-wordcount: '1107'
+ht-degree: 66%
 
 ---
 
@@ -35,22 +35,22 @@ ht-degree: 71%
 <tbody>
 <tr>
 <td>
-<p>已进行以下平台集成增强：</p>
+<p>已进行以下Adobe Experience Platform集成增强：</p>
 <ul>
-<li><p>新活动允许监听平台细分入口／出口，让人们进入或前进旅程。 <a href="../building-journeys/event-activities.md#segment-qualification">阅读更多</a></p>
+<li><p>新活动允许监听Adobe Experience Platform段的入口／出口，让客户进入或前进旅程。 <a href="../building-journeys/segment-qualification-events.md">阅读更多</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>由于新增了“区段”选项卡，现在无需离开Journey Orchestration界面即可创建和编辑平 <strong>台区</strong> 段。<a href="../segment/about-segments.md">阅读更多</a></p>
+<li><p>Adobe Experience Platform区段现在无需离开Journey Orchestration界面即可创建和编辑，这要归功于新的“区 <strong>段</strong> ”选项卡。<a href="../segment/about-segments.md">阅读更多</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>在简单的表达式编辑器中，平台区段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于区段A?”。<a href="../segment/using-a-segment.md">阅读更多</a></p>
+<li><p>在简单的表达式编辑器中，Adobe Experience Platform段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于段A?”。<a href="../segment/using-a-segment.md">阅读更多</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration现在会自动传递到Adobe Data Platform中旅程中执行的步骤。 这包括遇到的潜在错误。 此信息可用于针对特定旅程或所有旅程执行旅程步骤报告，从而实现查询和故障排除。 <a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
+<li><p>Journey Orchestration现在自动将在旅程中执行的步骤传递给Adobe Experience Platform。 这包括遇到的潜在错误。 此信息可用于针对特定旅程或所有旅程执行旅程步骤报告，从而实现查询和故障排除。 <a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration现在可以连接到生产和非生产平台沙箱。 请注意，沙箱是测试版功能。 <a href="../about/access-management.md#sandboxes">阅读更多</a></p>
+<li><p>Journey Orchestration现在可以连接到生产和非生产Adobe Experience Platform沙箱。 请注意，沙箱是测试版功能。 <a href="../about/access-management.md#sandboxes">阅读更多</a></p>
 </li>
 </td>
 </tr>
@@ -130,7 +130,7 @@ Journey Orchestration界面提供日语版。
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li><strong>时区</strong>下拉列表允许您选择特定时区。默认情况下，使用浏览器的时区。 </li>
-<li>通过<strong>资料时区</strong>复选框，您可以使用进入旅程的人员的 Experience Platform 资料时区（如果可用）。如果不可用，则使用下拉列表中定义的时区。此功能与使用没有命名空间的事件的旅程不兼容。</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. 如果不可用，则使用下拉列表中定义的时区。此功能与使用没有命名空间的事件的旅程不兼容。</li>
 </ul>
 <p>有关更多信息，请参阅<a href="../building-journeys/changing-properties.md#timezone">更改属性</a>和<a href="../building-journeys/timezone-management.md">时区管理</a>部分。</p>
 </td>
@@ -189,7 +189,7 @@ Journey Orchestration界面提供日语版。
 
 * 您现在可以&#x200B;**删除**&#x200B;已停止的旅程。与这些已删除的旅程关联的报告将不可用。
 
-* 浏览 **Data Platform 字段**（XDM 格式）时，除了字段名称外，您现在还会看到显示名称。此信息可从体验数据模型中的架构定义中检索。当可用时，将显示替代显示名称。此用户友好型描述（在 eVar 字段中尤为有用）使您能够更轻松地识别字段。[阅读更多](../about/user-interface.md#friendly-names-display)
+* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. 此信息可从体验数据模型中的架构定义中检索。当可用时，将显示替代显示名称。此用户友好型描述（在 eVar 字段中尤为有用）使您能够更轻松地识别字段。[阅读更多](../about/user-interface.md#friendly-names-display)
 
 ## 正式全面发行 - 2019 年 12 月 {#ga-release---december-2019}
 
