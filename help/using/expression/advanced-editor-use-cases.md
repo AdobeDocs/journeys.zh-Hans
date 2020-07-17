@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28cb56e5f631acd8e2a49cf0bce55e7226892595
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 28cb56e5f631acd8e2a49cf0bce55e7226892595
 
 高级表达式编辑器是对时间序列执行查询(如购买列表或过去单击消息)的必备工具。 无法使用简单编辑器执行此类查询。
 
-体验事件从Experience Platform中以相反的时间顺序作为集合进行检索，因此：
+体验事件从Adobe Experience Platform中检索为按时间倒序排列的集合，因此：
 
 * 第一个函数将返回最近的事件
 * 最后一个函数将返回最旧的函数。
