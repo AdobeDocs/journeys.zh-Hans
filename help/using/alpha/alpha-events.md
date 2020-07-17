@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f146a22cec5ffbbc61b51f8fc3c875078b2ee6bf
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 4%
+source-wordcount: '356'
+ht-degree: 6%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 4%
 
 这种新方法对用户来说大多是透明的。 唯一的更改是事件定义屏幕中的新字段。
 
-1. 在左侧菜单中，单击“管 **理员** ”图标，然后单 **击事件**。 将显示事件列表。
+1. 从左侧菜单，单击图 **[!UICONTROL Admin]** 标，然后单击 **[!UICONTROL Events]**。 将显示事件列表。
 
    ![](../assets/alpha-event1.png)
 
-1. Click **Add** to create a new event. 事件配置窗格将在屏幕右侧打开。
+1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新事件。事件配置窗格将在屏幕右侧打开。
 
    ![](../assets/alpha-event2.png)
 
@@ -39,29 +39,29 @@ ht-degree: 4%
 
    ![](../assets/alpha-event3.png)
 
-1. 在新的 **事件ID类型** 字段中，选 **择规则**。
+1. 在新字段 **[!UICONTROL Event ID type]** 中，选择 **[!UICONTROL Rule Based]**。
 
    ![](../assets/alpha-event4.png)
 
    >[!NOTE]
    >
-   >“ **系统生成** ”类型是需要eventID的现有方法。 请参 [阅此部分](../event/about-events.md)。
+   >类 **[!UICONTROL System Generated]** 型是需要eventID的现有方法。 请参 [阅此部分](../event/about-events.md)。
 
-1. 定义 **模式** 和有效 **负荷字段**。 请参 [阅此部分](../event/defining-the-payload-fields.md)。
+1. 定义有 **[!UICONTROL Schema]** 效负荷 **[!UICONTROL Fields]**。 请参 [阅此部分](../event/defining-the-payload-fields.md)。
 
    ![](../assets/alpha-event5.png)
 
    >[!NOTE]
    >
-   >当您选择“系 **统生成”类型**&#x200B;时，只有具有eventID类型混音的模式可用。 当您选择基于 **规则的类** 型时，所有体验事件模式均可用。
+   >当您选择时， **[!UICONTROL System Generated type]**&#x200B;只有具有eventID类型mixin的模式才可用。 选择类型时， **[!UICONTROL Rule Based]** 所有体验事件模式均可用。
 
-1. 在事件ID条 **件字段内单击** 。 使用简单的表达式编辑器，定义系统将使用的条件，以识别将触发您旅程的事件。
+1. 在字段内 **[!UICONTROL Event ID condition]** 单击。 使用简单的表达式编辑器，定义系统将使用的条件，以识别将触发您旅程的事件。
 
    ![](../assets/alpha-event6.png)
 
-   在我们的例子中，我们根据用户档案的城市写了一个条件。 这意味着，每当系统收到与此条件(City **字段** 和Paris值 **)匹配** 的事件时，它都会将其传递给Journey Orchestration。
+   在我们的例子中，我们根据用户档案的城市写了一个条件。 这意味着，只要系统收到与此条件（字段和值）匹&#x200B;**[!UICONTROL City]** 配的事件 **[!UICONTROL Paris]** ，它就会将其传递给Journey Orchestration。
 
-1. 定义 **命名空间** 和 **密钥**。 请参 [阅选择命名空间](../event/selecting-the-namespace.md)[和定义事件键](../event/defining-the-event-key.md)。
+1. 定义 **[!UICONTROL Namespace]** 和 **[!UICONTROL Key]**。 请参 [阅选择命名空间](../event/selecting-the-namespace.md)[和定义事件键](../event/defining-the-event-key.md)。
 
    ![](../assets/alpha-event7.png)
 
