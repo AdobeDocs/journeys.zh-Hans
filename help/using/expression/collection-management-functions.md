@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,7 @@ Note that when the condition in the **all()** function is empty, the filter will
 
 In both cases, the result of the expression is **3**.
 
-A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
+A query of experience events recorded on the Adobe Experience Platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the Adobe Experience Platform. For example, when using the .all() syntax to query experience events from the Adobe Experience Platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
@@ -133,7 +133,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **示例3:**
 
-在此，我们检查某人在过去24小时内是否未收到任何通信。 我们使用两个基于两个事件的表达式来过滤从ExperiencePlatform数据源检索到的体验集合。 特别是，将事件的时间戳与函数返回的dateTime进行比 **[!UICONTROL nowWithDelta]** 较。
+在此，我们检查过去24小时内是否有个人未收到任何通信。 我们使用两个基于两个事件的表达式来过滤从ExperiencePlatform数据源检索到的体验集合。 特别是，将事件的时间戳与函数返回的dateTime进行比 **[!UICONTROL nowWithDelta]** 较。
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -208,14 +208,14 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->体验事件从Experience Platform中以相反的时间顺序作为集合进行检索，因此：
+>体验事件从Adobe Experience Platform中以相反的时间顺序检索为集合，因此：
 >* **[!UICONTROL first]** 函数将返回最近的事件
 >* **[!UICONTROL last]** 函数将返回最旧的函数。
 
 
 **示例3:**
 
-我们检查DMA ID值为非零的第一个（最新的）Adobe Analytics事件的值是否等于602。
+我们检查DMA ID的第一个值为非零的（最新的）AdobeAnalytics事件的值是否等于602。
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
