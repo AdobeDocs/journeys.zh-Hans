@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
 
 段名称必须是字符串常数。 它不能是字段引用或表达式。
 
-细分在 [Adobe Experience Platform中定义](https://platform.adobe.com/segment/overview)。 表达式编辑器提供了一个自动完成的区段列表。
+区段在Adobe Experience Platform中 [定义](https://platform.adobe.com/segment/overview)。 表达式编辑器提供区段的自动完成列表。
 
 >[!NOTE]
 >
@@ -54,4 +57,4 @@ Adobe Experience Platform
 
 说明：
 
-如果旅程实例 **[!UICONTROL true]**中的个人是名为“50岁以上的男性”的平台区段的一部分，则该函数将返回，否**[!UICONTROL false]** 则。
+如果旅程实例 **[!UICONTROL true]** 中的个人是名为“50岁以上的男性”的Adobe Experience Platform区段的一部分，则该函数将返回，否 **[!UICONTROL false]** 则。
