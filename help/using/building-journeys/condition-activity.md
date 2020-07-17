@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '708'
 ht-degree: 1%
 
 ---
@@ -49,12 +49,15 @@ ht-degree: 1%
 
 ![](../assets/journey64.png)
 
-如果您使用平台分 [段服务](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，以创建细分，您可以在旅程条件中利用这些细分。 请参阅在 [条件中使用区段](../segment/using-a-segment.md)。
+如果您使用 [Adobe Experience Platform细分服务](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，可以在旅程条件中利用这些细分。 请参阅在 [条件中使用区段](../segment/using-a-segment.md)。
 
 
 >[!NOTE]
 >
 >不能使用简单的编辑器对时间序列执行查询(例如，购买列表、过去单击消息)。 为此，您需要使用高级编辑器。 请参见 [](../expression/expressionadvanced.md)。
+
+
+当操作或条件中发生错误时，单个旅程将停止。 使其继续的唯一方法是选中该框 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 数据源条件 {#data_source_condition}
 
