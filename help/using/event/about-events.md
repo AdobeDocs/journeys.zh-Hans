@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 74%
+source-wordcount: '714'
+ht-degree: 71%
 
 ---
 
@@ -36,11 +36,11 @@ The event configuration allows you to define the information [!DNL Journey Orche
 
 ## 一般原则 {#section_r1f_xqt_pgb}
 
-事件是 POST API 调用。事件通过流式引入 API 发送到 Adobe Experience Cloud Data Platform。通过事务性消息传送 API 发送的事件的 URL 目标称为“入口”。事件的有效负载遵循 XDM 格式。
+事件是 POST API 调用。事件通过流式引入 API 发送到 Adobe Experience Platform。通过事务性消息传送 API 发送的事件的 URL 目标称为“入口”。事件的有效负载遵循 XDM 格式。
 
 The payload contains information required by Streaming Ingestion APIs to work (in the header) and the information required by [!DNL Journey Orchestration] to work (the event ID, part of the payload body) and information to be used in journeys (in the body, for example, the amount of an abandoned cart). 流式引入有两种模式，即验证和未验证。有关流式引入 API 的详细信息，请参阅[此链接](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/api/getting-started.html)。
 
-事件通过流式引入 API 到达后，会流入称为“Pipeline”的内部服务，然后流入 Data Platform。如果事件架构启用了实时客户资料服务标志，并且数据集 ID 也具有实时客户资料标志，则会流入实时客户资料服务。
+事件通过Streaming Ingestion API到达后，会流入称为Pipeline的内部服务，然后流入Adobe Experience Platform。 如果事件架构启用了实时客户资料服务标志，并且数据集 ID 也具有实时客户资料标志，则会流入实时客户资料服务。
 
 The Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. These events are listened by [!DNL Journey Orchestration] and the corresponding journey is triggered.
 
