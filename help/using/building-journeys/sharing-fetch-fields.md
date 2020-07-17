@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## fetchTypeInError
 
-定义提取错误是在平台上还是在自定义数据源上。
+定义提取错误是在Adobe Experience Platform上还是在自定义数据源上。
 
 类型： 字符串
 
@@ -93,13 +93,13 @@ ht-degree: 0%
 
 ## fetchPlatformTotalTime
 
-从数据平台获取数据所花费的总时间（以百万计）。 注释： 从引擎将扩充事件发送到扩充服务并接收响应的时间开始计算该时间量。
+从Adobe Experience Platform获取数据所花费的总时间（以百万计）。 注释： 从引擎将扩充事件发送到扩充服务并接收响应的时间开始计算该时间量。
 
 类型： 长
 
 ## fetchPlatformCount
 
-从平台获取数据的次数。
+从Adobe Experience Platform获取数据的次数。
 
 类型： 长
 
