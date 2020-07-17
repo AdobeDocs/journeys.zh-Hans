@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,6 @@ ht-degree: 0%
 
 时区在旅程级别定义。
 
-您可以输入固定时区或使用Experience Platform用户档案来定义旅程时区。
+您可以输入固定时区或使用Adobe Experience Platform用户档案定义旅程时区。
 
 有关时区管理的详细信息，请参阅 [](../building-journeys/timezone-management.md)。
