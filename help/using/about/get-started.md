@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 84%
+source-wordcount: '291'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,7 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
 1. **配置数据源**
 
-   您需要定义与系统的连接，以检索将在您的旅程中使用的其他信息，例如在您的条件中。内置的 Experience Platform 数据源也会在预配时进行配置。如果您仅利用旅程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。
+   您需要定义与系统的连接，以检索将在您的旅程中使用的其他信息，例如在您的条件中。内置Adobe Experience Platform数据源也在配置时配置。 如果您仅利用旅程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。
 
    有关详细信息，请参见 [](../datasource/about-data-sources.md)。
 
