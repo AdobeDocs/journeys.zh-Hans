@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Journey Orchestration 帮助
 index: true
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 80%
+source-wordcount: '382'
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 80%
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [关于[!DNLJourney Orchestration]](using/about/about-journey-orchestration.md)
+   + [关于 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
    + [访问管理](using/about/access-management.md)
@@ -59,7 +59,11 @@ ht-degree: 80%
       + [终止旅程](using/building-journeys/terminating-a-journey.md)
       + [时区管理](using/building-journeys/timezone-management.md)
    + 活动 {#about-journey-building}
-      + [事件活动](using/building-journeys/event-activities.md)
+      + 事件活动 {#events-activities}
+         + [关于事件活动](using/building-journeys/event-activities.md)
+         + [一般事件](using/building-journeys/general-events.md)
+         + [反应事件](using/building-journeys/reaction-events.md)
+         + [细分资格事件](using/building-journeys/segment-qualification-events.md)
       + 编排活动 {#orchestration-activities}
          + [关于编排活动](using/building-journeys/about-orchestration-activities.md)
          + [条件活动](using/building-journeys/condition-activity.md)
@@ -71,7 +75,7 @@ ht-degree: 80%
          + [使用自定义操作](using/building-journeys/using-custom-actions.md)
    + [测试旅程](using/building-journeys/testing-the-journey.md)
    + [发布旅程](using/building-journeys/publishing-the-journey.md)
-   + 使用平台共享旅程步骤 {#sharing-journey-steps}
+   + 使用Adobe Experience Platform共享旅程步骤 {#sharing-journey-steps}
       + [旅程步骤共享概述](using/building-journeys/sharing-overview.md)
       + [旅程步骤事件常用字段](using/building-journeys/sharing-common-fields.md)
       + [旅程步骤事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
