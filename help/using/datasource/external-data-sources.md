@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 95%
+source-wordcount: '1271'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 # 外部数据源 {#concept_t2s_kqt_52b}
 
-外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置的 Experience Platform 数据源不同，您可以根据需要创建尽可能多的外部数据源。
+外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置Adobe Experience Platform数据源相比，您可以创建所需数量的外部数据源。
 
 支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
 
@@ -67,6 +67,7 @@ ht-degree: 95%
    * **[!UICONTROL Value]**：“1234”（这是 API 密钥值）
    * **[!UICONTROL Name]**：“appid”（这是 API 密钥参数名称）
    * **[!UICONTROL Location]**：“查询参数”（API 密钥位于 URL 中）
+
    ![](../assets/journey28.png)
 
 1. 通过单击&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;为每个 API 参数集添加新字段组。请勿在字段组名称中使用空格或特殊字符。在我们的示例中，我们需要创建两个字段组，每个参数集（“city”和“long/lat”）各一个。
