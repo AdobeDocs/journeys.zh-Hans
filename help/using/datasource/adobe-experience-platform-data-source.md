@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '350'
 ht-degree: 10%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 10%
 
 # Adobe Experience Platform 数据源 {#concept_zrb_nqt_52b}
 
-Experience Platform数据源定义与实时客户用户档案服务的连接。 此数据源是内置的并且已预配置。 无法删除。 此数据源旨在从实时客户用户档案服务中检索和使用数据（例如，检查进入旅程的人是否为女性）。 它允许您使用用户档案数据和体验事件数据。 有关实时客户用户档案服务的详细信息，请参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)。
+Adobe Experience Platform数据源定义与实时客户用户档案服务的连接。 此数据源是内置的并且已预配置。 无法删除。 此数据源旨在从实时客户用户档案服务中检索和使用数据（例如，检查进入旅程的人是否为女性）。 它允许您使用用户档案数据和体验事件数据。 有关实时客户用户档案服务的详细信息，请参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Experience Platform数据源定义与实时客户用户档案服务的连接。 
 
 以下是向内置数据源添加字段组的主要步骤。
 
-1. 从数据源列表中，选择内置的Experience Platform数据源。
+1. 从列表数据源中，选择内置Adobe Experience Platform数据源。
 
    这将打开屏幕右侧的数据源配置窗格。
 
@@ -43,7 +43,7 @@ Experience Platform数据源定义与实时客户用户档案服务的连接。 
 
    ![](../assets/journey24.png)
 
-1. 从下拉菜单中选择 **[!UICONTROL Schema]** 一个模式。 此字段可列表用户档案和体验事件模式在平台中使用。 模式创建不在中执 [!DNL Journey Orchestration]行。 它在数据平台中执行。
+1. 从下拉菜单中选择 **[!UICONTROL Schema]** 一个模式。 此字段提供列表用户档案和体验事件模式。 模式创建不在中执 [!DNL Journey Orchestration]行。 它在Adobe Experience Platform中执行。
 1. 选择要使用的字段。
 1. 定义缓存持续时间。
 1. 单击 **[!UICONTROL Save]**。
