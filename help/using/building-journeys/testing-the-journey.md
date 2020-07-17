@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 
    ![](../assets/journeytest1.png)
 
-1. 使用左 **下角的** “Wait time in test（在测试中等待时间）”参数定义每个等待活动在测试模式下的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 此参数仅在您在旅程中丢弃了一个或多个等待活动时显示。
+1. 使用左 **[!UICONTROL Wait time in test]** 下角的参数定义每个等待活动在测试模式下的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 此参数仅在您在旅程中丢弃了一个或多个等待活动时显示。
 
    ![](../assets/journeytest_wait.png)
 
@@ -51,17 +51,17 @@ ht-degree: 1%
 
 * 提供一个接口，用于向测试旅程中的事件发射事件，但也可以由第三方系统发送，如Postman。
 * 只允许在实时客户用户档案服务中标为“测试用户档案”的个人进入测试旅程。 请参见 [](../building-journeys/testing-the-journey.md#create-test-profile)。
-* 测试模式仅在使用命名空间的草稿旅程中可用。 事实上，测试模式需要检查进入旅程的人员是否是测试用户档案，因此必须能够访问数据平台。
+* 测试模式仅在使用命名空间的草稿旅程中可用。 测试模式需要检查进入旅程的人员是否是测试用户档案，因此必须能够到达Adobe Experience Platform。
 * 在测试会话期间，可以进入旅程的测试用户档案数最大为100。
-* 禁用测试模式后，它将从过去或当前已进入该模式的所有人员中抢占旅程。
+* 禁用测试模式后，它将从过去或当前已进入该模式的所有人员中抢占旅程。 它还清除了报告。
 * 您可以根据需要多次启用／禁用测试模式。
 * 在激活测试模式时，您无法修改旅程。 在测试模式下时，您可以直接发布旅程，无需在之前取消激活测试模式。
 
 ## 创建测试用户档案{#create-test-profile}
 
-创建测试用户档案的过程与在Experience Platform中创建用户档案的过程相同。 它通过API调用执行。 查看此 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
+创建测试用户档案的过程与在Adobe Experience Platform中创建用户档案的过程相同。 它通过API调用执行。 查看此 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
 
-必须使用包含“用户档案测试详细信息”混音的用户档案模式。 事实上，testProfile标志是此混音的一部分。
+必须使用包含“用户档案测试详细信息”混音的用户档案模式。 testProfile标志是此混音的一部分。
 
 创建用户档案时，请确保传递值： testprofile = true。
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 
 ```
 curl -X POST \
-'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+'https://dcs.adobedc.net/collection/xxxxxxxxxxxxxx' \
 -H 'Cache-Control: no-cache' \
 -H 'Content-Type: application/json' \
 -H 'Postman-Token: xxxxx' \
@@ -119,7 +119,7 @@ curl -X POST \
 >
 >在测试模式下触发事件时，会生成一个真实的事件，这意味着它还会触及其他侦听此事件的旅程。
 
-作为入门项目，您必须知道哪些用户档案在数据平台中被标记为测试用户档案。 事实上，测试模式只允许旅程中的这些用户档案,事件必须包含ID。 所需的ID取决于事件配置。 例如，它可以是ECID。
+作为入门项目，您必须知道哪些用户档案在Adobe Experience Platform中被标记为测试用户档案。 事实上，测试模式只允许旅程中的这些用户档案,事件必须包含ID。 所需的ID取决于事件配置。 例如，它可以是ECID。
 
 如果您的旅程包含多个事件，请使用下拉列表选择事件。 然后，为每个事件配置所传递的字段和执行事件发送。 该接口可帮助您在事件有效负荷中传递正确的信息，并确保信息类型正确。 测试模式保存测试会话中使用的最后一个参数以供以后使用。
 
@@ -131,7 +131,7 @@ curl -X POST \
 
 技术用户也可以使用此界面来编写事件负载和触发事件，而无需使用第三方工具。
 
-单击“Send(发 **送** )”按钮时，测试开始。 旅程中个人的进度由视觉流表示。 当个人在旅程中移动时，路径逐渐变绿。 如果发生错误，则在相应步骤上显示警告符号。 可将光标放在它上以显示有关错误的详细信息并访问完整详细信息（如果有）。
+单击该按 **[!UICONTROL Send]** 钮时，测试开始。 旅程中个人的进度由视觉流表示。 当个人在旅程中移动时，路径逐渐变绿。 如果发生错误，则在相应步骤上显示警告符号。 可将光标放在它上以显示有关错误的详细信息并访问完整详细信息（如果有）。
 
 ![](../assets/journeytest6.png)
 
