@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 295112e2d18fd275a0fd2826aa8bd87a8ed12636
+source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 * 没有发送卷缓冲／平滑。
 * 在出现错误时系统地执行两个重试。 无法根据收到的错误消息调整重试数。
-* 内置事件 **[!UICONTROL Reaction]** 允许您对现成操作做出响应(请参阅 [](../building-journeys/event-activities.md))。 如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。
+* 内置事件 **[!UICONTROL Reaction]** 允许您对现成操作做出响应(请参阅 [](../building-journeys/reaction-events.md))。 如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。
 * 自定义操作URL不支持动态参数。
 * 仅支持POST和PUT调用方法。
 * 查询参数或标题的名称不能与“”开始。 或“$”。
