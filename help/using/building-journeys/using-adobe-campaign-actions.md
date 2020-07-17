@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '888'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->当我们发送实时事务性消息(rtEvent)或通过自定义操作与第三方系统发送消息时，对于疲劳、阻止列表或退订管理，需要特定设置。 例如，如果“取消订阅”属性存储在平台或第三方系统中，则必须在发送消息之前添加一个条件以检查此条件。
+>当我们发送实时事务性消息(rtEvent)或通过自定义操作与第三方系统发送消息时，对于疲劳、阻止列表或退订管理，需要特定设置。 例如，如果“取消订阅”属性存储在Adobe Experience Platform或第三方系统中，则必须在发送消息之前添加一个条件以检查此条件。
 
 当您选择模板时，消息有效负荷中预期的所有字段将显示在活动配置窗格的和 **[!UICONTROL Address]** 下方 **[!UICONTROL Personalization Data]**。 您需要将每个字段与要使用的字段进行映射，事件或数据源中的字段。 您还可以使用高级表达式编辑器手动传递值，对检索到的信息执行数据处理（例如，将字符串转换为大写），或使用“if, then, else”等函数。 请参见 [](../expression/expressionadvanced.md)。
 
