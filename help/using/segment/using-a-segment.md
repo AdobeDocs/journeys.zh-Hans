@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2dbcdae1284ef5932a8313d7ef169bc7073741f
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 0%
 
 # 在条件中使用细分 {#using-a-segment}
 
-本节介绍如何在旅程条件中使用区段。 要了解如何在旅程中使 **用细分资格** 事件，请参阅 [事件活动](../building-journeys/event-activities.md#segment-qualification)。
+本节介绍如何在旅程条件中使用区段。 要了解如何在旅程中 **[!UICONTROL Segment qualification]** 使用事件，请参阅 [事件活动](../building-journeys/segment-qualification-events.md)。
 
 要在旅程条件中使用区段，请执行以下步骤：
 
-1. 打开旅程，放置 **条件活动** ，然后选择 **数据源条件**。
+1. 打开旅程，放下 **[!UICONTROL Condition]** 活动，选择 **数据源条件**。
    ![](../assets/journey47.png)
 
-1. 单击 **添加每个需要** 的额外路径的路径。 对于每个路径，单击 **表达式** 字段。
+1. 单击 **[!UICONTROL Add a path]** 以获得所需的每个额外路径。 对于每个路径，单击 **[!UICONTROL Expression]** 字段。
 
    ![](../assets/segment3.png)
 
-1. 在左侧，展开“区 **段** ”节点。 拖放要用于您的条件的区段。 默认情况下，段上的条件为true。
+1. 在左侧，展开节 **[!UICONTROL Segments]** 点。 拖放要用于您的条件的区段。 默认情况下，段上的条件为true。
 
    ![](../assets/segment4.png)
 
