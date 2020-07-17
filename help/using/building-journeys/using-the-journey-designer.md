@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 >[!NOTE]
 >
->要在其他浏览器选项卡中打开旅程画布，请按住 **Control****或Command键** 并单击旅程。
+>要在其他浏览器选项卡中打开旅程画布，请 **按住Control****或Command键** 并单击旅程。
 
 ## 调色板 {#palette}
 
@@ -49,9 +49,9 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ![](../assets/journey38.png)
 
-左 **上角的** “显示禁用项目”图标允许您隐藏或显示调色板中不可用的元素，例如，使用与旅程中使用的命名空间不同的事件的。 默认情况下，不可用项目处于隐藏状态。如果选择显示它们，则它们将灰显。
+The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. 默认情况下，不可用项目处于隐藏状态。如果选择显示它们，则它们将灰显。
 
-使用“搜 **索** ”字段时，会为每个画布活动类别显示结果数。
+使用字段 **[!UICONTROL Search]** 时，将显示每个画布活动类别的结果数。
 
 ![](../assets/palette-filter.png)
 
