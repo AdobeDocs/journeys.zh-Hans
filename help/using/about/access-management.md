@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
+source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ ht-degree: 0%
 [!DNL Journey Orchestration] 允许您将实例分区为称为沙箱的分隔虚拟环境。
 沙箱通过管理控制台中的产品用户档案进行分配。 有关如何分配沙箱的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 反映为给定组织创建的平台沙箱。
-平台沙箱可以从您的Adobe Experience Platform实例创建或重置。 有关详细步 [骤，请参阅](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) “沙箱用户指南”。
+[!DNL Journey Orchestration] 反映为给定组织创建的Adobe Experience Platform沙箱。
+Adobe Experience Platform沙箱可以从Adobe Experience Platform实例创建或重置。 有关详细步 [骤，请参阅](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) “沙箱用户指南”。
 
 您可以在屏幕左上角找到沙箱切换器控件。 要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
