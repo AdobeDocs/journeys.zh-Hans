@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## 关于区段触发活动 {#about-segment-trigger-actvitiy}
 
-区段触发活动允许您让属于Experience Platform区段的所有个人进入旅程。 进入旅程可以执行一次，也可以定期执行。
+区段触发活动允许您让属于Adobe Experience Platform区段的所有个人进入旅程。 进入旅程可以执行一次，也可以定期执行。
 
-假设您在Experience Platform方面拥有黄金客户细分。 利用细分触发活动，您可以让黄金客户细分的所有个人进入旅程，并使其进入个性化旅程，利用所有旅程功能： 条件、计时器、事件、动作。
+假设您在Adobe Experience Platform方面拥有黄金客户细分。 利用细分触发活动，您可以让黄金客户细分的所有个人进入旅程，并使其进入个性化旅程，利用所有旅程功能： 条件、计时器、事件、动作。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 0%
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. 在字 **[!UICONTROL Segment]** 段中，选择将进入旅程的Experience Platform区段，然后单击 **[!UICONTROL Save]**。
+1. 在字 **[!UICONTROL Segment]** 段中，选择将进入旅程的Adobe Experience Platform区段，然后单击 **[!UICONTROL Save]**。
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -69,6 +69,6 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >请记住，Experience Platform细分每天计算一次(批&#x200B;**细分** )或实时计算(流&#x200B;**化细分** )。
+   >请记住，Adobe Experience Platform细分每天计算一次(批&#x200B;**细分** )或实时计算(流&#x200B;**化细分** )。
    >
-   >如果对所选区段进行流处理，属于此区段的个人可能会实时进入该旅程。 如果区段为批，则新符合此区段资格的人员将潜在地在对Experience Platform执行区段计算时进入旅程。
+   >如果对所选区段进行流处理，属于此区段的个人可能会实时进入该旅程。 如果区段为批，则新符合此区段资格的人员将潜在地在对Adobe Experience Platform执行区段计算时进入旅程。
