@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
+source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ ht-degree: 0%
 
 # 旅程步骤共享概述{#sharing-overview}
 
-[!DNL Journey Orchestration] 自动将旅程性能数据发送到Adobe Experience Platform，以便与其他数据结合使用，以便分析。
+[!DNL Journey Orchestration] 自动将旅程性能数据发送给Adobe Experience Platform，以便与其他数据结合，以便分析。
 
-例如，您已设置发送多个电子邮件的旅程。 此功能允许您将数据与 [!DNL Journey Orchestration] 下游事件数据相结合，如发生了多少转换、网站上发生了多少参与，或在商店中发生了多少交易。 旅程信息可以与平台上的数据相结合，无论是从其他数字资产还是离线资产，都可以提供更全面的性能视图。
+例如，您已设置发送多个电子邮件的旅程。 此功能允许您将数据与 [!DNL Journey Orchestration] 下游事件数据相结合，如发生了多少转换、网站上发生了多少参与，或在商店中发生了多少交易。 旅程信息可以与Adobe Experience Platform上的数据相结合，无论是从其他数字资产还是离线资产，都可以提供更全面的性能视图。
 
-[!DNL Journey Orchestration] 为个人在旅程中执行的每个步骤，自动创建必要的模式和流到数据集中。 步骤事件对应于旅程中从一个节点移动到另一个节点的个人。 例如，在具有事件、条件和操作的旅程中，将向平台发送三步事件。
+[!DNL Journey Orchestration] 为个人在旅程中执行的每一步自动创建必要的模式和流到Adobe Experience Platform集。 步骤事件对应于旅程中从一个节点移动到另一个节点的个人。 例如，在具有事件、条件和操作的旅程中，将向Adobe Experience Platform发送三步事件。
 
 传递的XDM字段的列表是全面的。 有些代码包含系统生成的代码，而另一些代码则具有易读的易用名称。 示例包括旅程活动的标签或步骤状态： 操作超时或以错误结束的次数。
 
 >[!CAUTION]
 >
->无法为实时用户档案服务打开数据集。 请确保关闭 **用户档案** 切换
+>无法为实时用户档案服务打开数据集。 请确保关闭 **[!UICONTROL Profile]** 了切换开关
 
-旅程以流方式在数据发生时发送数据。 您可以使用查询服务查询此数据。 您可以连接到客户旅程分析或其他BI工具，以视图与这些步骤相关的数据。
+旅程以流方式在数据发生时发送数据。 您可以使用查询服务查询此数据。 您可以连接到Customer Journey Analytics或其他BI工具，以视图与这些步骤相关的数据。
 
 将创建以下模式:
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ![](../assets/sharing3.png)
 
-传递到平台的XDM字段的列表详细信息如下：
+传递给Adobe Experience Platform的XDM字段的列表详见：
 
 * [旅程步骤事件常用字段](../building-journeys/sharing-common-fields.md)
 * [旅程步骤事件操作执行字段](../building-journeys/sharing-execution-fields.md)
@@ -61,3 +61,4 @@ ht-degree: 0%
 * [journeyStep事件身份字段](../building-journeys/sharing-identity-fields.md)
 * [旅程场](../building-journeys/sharing-journey-fields.md)
 
+有关将事件报告为Adobe Experience Platform的步骤的详细信息，请观看此教 [程视频](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
