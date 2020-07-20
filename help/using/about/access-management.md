@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
+source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 您可以在下面找到权限与不同功 [!DNL Journey Orchestration]能之间的兼容性。
 
-![](../assets/journey_permission.png)
+![](../assets/do-not-localize/journey_permission.png)
 
 ## 创建产品用户档案 {#create-product-profile}
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. 在Admin Console中，选择 **[!UICONTROL Journey Orchestration]**。 在选项卡 **[!UICONTROL Product profile]** 中，单击 **[!UICONTROL New Profile]**。
 
-   ![](../assets/user_management_5.png)
+   ![](../assets/do-not-localize/user_management_5.png)
 
 1. 为新 **[!UICONTROL Profile Name]** 产品 **[!UICONTROL Description]** 用户档案添加和。 如果希望用户档案不 **[!UICONTROL Display name]** 同，请取消选 **[!UICONTROL Same as Profile Name]** 中并键入 **[!UICONTROL Display name]**。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 1. 完成后，单击 **[!UICONTROL Done]**。 您的新产品用户档案现已创建。
 
-   ![](../assets/user_management_1.png)
+   ![](../assets/do-not-localize/user_management_1.png)
 
 1. 选择您的新产品用户档案以开始管理权限。 在选项卡 **[!UICONTROL Users]** 中，将用户添加到您的产品用户档案。 For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -92,20 +92,20 @@ ht-degree: 0%
 
 1. 从选 **[!UICONTROL Permissions]** 项卡中，选择两个类别之一 **[!UICONTROL Sandbox]** ，或 **[!UICONTROL Authoring]** 者打开页面并添 **[!UICONTROL Edit Permissions]** 加或删除您的产品用户档案的权限。
 
-   ![](../assets/user_management_7.png)
+   ![](../assets/do-not-localize/user_management_7.png)
 
 1. 在权 **[!UICONTROL Sandboxes]** 限类别中，选择要分配给产品用户档案的沙箱。 在 **[!UICONTROL Available Permissions Items]**&#x200B;下，单击加号(+)图标，将沙箱分配给用户档案。 For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
-   ![](../assets/user_management_8.png)
+   ![](../assets/do-not-localize/user_management_8.png)
 
 1. 如果需要，请在 **[!UICONTROL Included Permission Items]**&#x200B;下面单击删除您的产品用户档案权限旁边的X图标。
 
-   ![](../assets/user_management_9.png)
+   ![](../assets/do-not-localize/user_management_9.png)
 
 1. 在权 **[!UICONTROL Authoring]** 限类别中，执行与上述步骤相同的步骤，向产品用户档案添加权限。
    <br>有关权限与权限之间的兼容性以及 [!DNL Journey Orchestration]不同功能的更多信息，请参 [阅本节](../about/access-management.md#about-access-management)。
 
-   ![](../assets/user_management_10.png)
+   ![](../assets/do-not-localize/user_management_10.png)
 
 1. 完成后，单击 **[!UICONTROL Save]**。
 
@@ -120,21 +120,21 @@ ht-degree: 0%
 
 1. 在Admin Console中，选择 **[!UICONTROL Journey Orchestration]**。
 
-   ![](../assets/user_management.png)
+   ![](../assets/do-not-localize/user_management.png)
 
 1. 选择新用户将链接到的产品用户档案。
 
-   ![](../assets/user_management_2.png)
+   ![](../assets/do-not-localize/user_management_2.png)
 
 1. 单击 **[!UICONTROL Add user]**.
 
    您还可以将新用户添加到用户组以微调共享的权限集。 For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
-   ![](../assets/user_management_3.png)
+   ![](../assets/do-not-localize/user_management_3.png)
 
 1. 键入新用户的电子邮件地址，然后单击 **[!UICONTROL Save]**。
 
-   ![](../assets/user_management_4.png)
+   ![](../assets/do-not-localize/user_management_4.png)
 
 随后，您的用户将收到一封重定向到您的实例的 [!DNL Journey Orchestration] 电子邮件。
 
