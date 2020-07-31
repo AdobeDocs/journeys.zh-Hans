@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 * 两个 **[!UICONTROL Event]** 活动: &quot;LobbyBeacon&quot;和&quot;RestaurantBeacon&quot;
 * 两个 **[!UICONTROL Condition]** 活动
 * 三个 **[!UICONTROL Push]** 活动和一个 **[!UICONTROL Email]** 活动(使用Adobe Campaign Standard)
-* 活动 **[!UICONTROL Wait]**
+* a **[!UICONTROL Wait]** activity
 * 四个 **[!UICONTROL End]** 活动
 
 >[!NOTE]
@@ -138,8 +138,8 @@ ht-degree: 0%
 
       ```
       @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-      ``
-      
+      ```
+
 1. 定义推送通知个性化字段。 在我们的示例中： 名字和姓氏。
 
 1. 添加“RestaurantBeacon”事件。
