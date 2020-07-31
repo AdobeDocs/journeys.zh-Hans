@@ -1,6 +1,6 @@
 ---
 title: 区段触发活动
-description: 学习xxxx
+description: 进一步了解细分触发器
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,19 @@ ht-degree: 0%
 
 ## 关于区段触发活动 {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>如果在发布时间或测试模式Adobe Campaign Standard时画布中存在现成激活操作活动，则旅程将在每秒13个入口时进行限流。 <br>如果在发布时或测试模式Adobe Campaign Standard时画布中没有现成的活动，则旅程将以每秒1000事件限制。
+
 区段触发活动允许您让属于Adobe Experience Platform区段的所有个人进入旅程。 进入旅程可以执行一次，也可以定期执行。
 
 假设您在Adobe Experience Platform方面拥有黄金客户细分。 利用细分触发活动，您可以让黄金客户细分的所有个人进入旅程，并使其进入个性化旅程，利用所有旅程功能： 条件、计时器、事件、动作。
 
+## 配置活动 {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >由于细分导出延迟，无法在1小时以内的较短时间内触发基于细分的旅程。
-
-## 配置活动 {#configuring-segment-trigger-activity}
 
 1. 展开 **[!UICONTROL Orchestration]** 类别并将 **[!UICONTROL Segment Trigger]** 活动放入画布。
 
