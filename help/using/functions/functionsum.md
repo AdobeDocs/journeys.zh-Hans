@@ -1,5 +1,5 @@
 ---
-title: 和
+title: sum
 description: 了解函数和
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
 
-# 和 {#sum}
+# sum {#sum}
 
-返回一组表达式的值之和。 忽略空值。
+返回一组表达式的值之和。 忽略null值。
 
 ## 类别
 
@@ -34,13 +37,13 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 * listDecimal
 * 持续时间
 * 整数
-* 小数点
+* 小数
 
-## 签名和返回的类型
+## 签名和返回类型
 
 `sum(<listDecimal>)`
 
-返回小数点。
+返回十进制。
 
 `sum(<listInteger>)`
 
@@ -52,7 +55,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 `sum(<decimal>,<decimal>)`
 
-返回小数点。
+返回十进制。
 
 ## 示例
 
