@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # 旅程步骤共享概述{#sharing-overview}
 
-[!DNL Journey Orchestration] 自动将旅程性能数据发送给Adobe Experience Platform，以便与其他数据结合，以便分析。
+[!DNL Journey Orchestration] 自动将旅程性能数据发送给Adobe Experience Platform，以便与其他数据结合使用，以便分析。
 
 例如，您已设置发送多个电子邮件的旅程。 此功能允许您将数据与 [!DNL Journey Orchestration] 下游事件数据相结合，如发生了多少转换、网站上发生了多少参与，或在商店中发生了多少交易。 旅程信息可以与Adobe Experience Platform上的数据相结合，无论是从其他数字资产还是离线资产，都可以提供更全面的性能视图。
 
