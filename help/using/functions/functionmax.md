@@ -12,12 +12,15 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 4%
 
 ---
 
 # max{#max}
 
-返回一组表达式中的最大值，该值以列表或两个表达式的形式给出。 忽略空值。
+返回一组表达式中的最大值，该列表以或两个表达式的形式给定。 忽略null值。
 
 ## 类别
 
@@ -36,11 +39,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 * listDateTimeOnly
 * 持续时间
 * 整数
-* 小数点
+* 小数
 * dateTime
 * dateTimeOnly
 
-## 签名和返回的类型
+## 签名和返回类型
 
 `max(<listDuration>)`
 
@@ -52,7 +55,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `max(<listDateTimeOnly>)`
 
-返回不考虑时区的日期时间。
+返回日期时间，不考虑时区。
 
 `max(<listDateTime>)`
 
@@ -60,11 +63,11 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `max(<listDecimal>)`
 
-返回小数点。
+返回十进制。
 
 `max(<decimal>,<decimal>)`
 
-返回小数点。
+返回十进制。
 
 `max(<duration>,<duration>)`
 
@@ -76,7 +79,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-返回不考虑时区的日期时间。
+返回日期时间，不考虑时区。
 
 `max(<integer>,<integer>)`
 
