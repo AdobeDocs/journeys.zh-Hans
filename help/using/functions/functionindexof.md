@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
@@ -49,4 +52,4 @@ source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 说明：
 
-在“Hello”中，第一个出现的“l”位于位置2。
+在“Hello”中，第一个出现的“l”是位置2。
