@@ -12,15 +12,18 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 11%
 
 ---
 
 
 # in {#in}
 
-检查第一个参数值是否在列表中。 检查通过“等于”(Equal)对每个参数值执行。 如果找到参数值，则返回true，否则返回false。
+检查第一个参数值是否在列表中。 检查通过对每个参数值使用“相等”来执行。 如果找到参数值，则返回true，否则返回false。
 
-类型必须 `<expression>` 与列表项匹配。 列表中项目的类型必须相互匹配以作为提醒。
+类型必须 `<expression>` 与列表项匹配。 作为提醒，列表的项目类型必须相互匹配。
 
 ## 类别
 
@@ -35,9 +38,9 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| Boolean | Boolean |
+| 布尔值 | 布尔值 |
 | 整数 | 整数 |
-| 小数 | 小数 |
+| 十进制 | 十进制 |
 | 持续时间 | 持续时间 |
 | DateTime | DateTime |
 | DateTimeOnly | DateTimeOnly |
