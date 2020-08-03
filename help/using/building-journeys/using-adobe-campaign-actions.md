@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->对于电子邮件，如果您使用用户档案事务模板，则退订机制会通过Campaign Standard处理。 您只需在模板 **[!UICONTROL Unsubscription link]** 中添加内容块(了[解更多](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html))。 如果您使用基于事件的模板(rtEvent)，则需要在邮件中添加一个链接，该链接将人员的电子邮件传递到URL参数并指向退订登陆页。 您需要创建此登陆页，并确保将该人取消订阅的决定传输至Adobe。
+>对于电子邮件，如果您使用用户档案事务模板，则退订机制会通过Campaign Standard处理。 您只需在模板 **[!UICONTROL Unsubscription link]** 中添加内容块(了[解更多](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html))。 如果您使用基于事件的模板(rtEvent)，则需要在邮件中添加一个链接，该链接将人员的电子邮件传递到URL参数并指向退订登陆页。 您需要创建此登陆页，并确保将该人取消订阅的决定传输给Adobe。
 
 首先，您需要选择交易消息模板。 请参见 [](../building-journeys/about-action-activities.md)。
 
@@ -81,7 +81,7 @@ ht-degree: 3%
 
 ## 推送 {#section_im3_hvf_nhb}
 
-在使用推送活动之前，您的移动应用程序需要配置Campaign Standard以发送推送通知。 请阅读 [本文](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) ，为移动设备采取必要的实施步骤。
+在使用推送活动之前，您的移动应用程序需要配置Campaign Standard以发送推送通知。 请阅读 [本文](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html) ，为移动设备采取必要的实施步骤。
 
 首先，您需要从下拉列表和事务性消息中选择移动应用程序。 请参见 [](../building-journeys/about-action-activities.md)。
 
