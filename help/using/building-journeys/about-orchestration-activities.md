@@ -1,6 +1,6 @@
 ---
-title: 关于安排活动
-description: 了解安排活动
+title: 关于编排活动
+description: 了解业务流程活动
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: f57cc43d8f2a223c04cc4ccccb3b3c3e0bcadfc1
+workflow-type: tm+mt
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
 
-# 关于安排活动 {#concept_ksq_2rt_52b}
+# 关于编排活动 {#concept_ksq_2rt_52b}
 
-从屏幕左侧的调色板中，可以进行以下编排活动：
+从屏幕左侧的调色板中，可以使用以下业务流程活动:
 
 * [](../building-journeys/condition-activity.md)
 * [](../building-journeys/end-activity.md)
