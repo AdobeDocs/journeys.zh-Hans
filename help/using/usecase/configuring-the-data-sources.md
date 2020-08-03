@@ -43,7 +43,7 @@ ht-degree: 14%
 
    ![](../assets/journeyuc2_7.png)
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**。
 
 我们还需要检查该人在酒店预订系统中是否有预订。 技 **术用户** 需要配置第二个数据源以检索此字段。
 
@@ -77,6 +77,6 @@ ht-degree: 14%
 
    ![](../assets/journeyuc2_11.png)
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**。
 
    数据源现已配置好，可随时用于您的旅程。
