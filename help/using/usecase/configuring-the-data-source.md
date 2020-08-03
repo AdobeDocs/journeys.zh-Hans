@@ -36,6 +36,6 @@ ht-degree: 6%
    * _人>性别_
    * _personalEmail >地址_
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**。
 
 数据源现已配置好，可在您的旅程中使用。
