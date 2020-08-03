@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 ![](../assets/journey58.png)
 
-这些活动代表不同的可用通信渠道。 您可以将它们组合在一起，以创建跨渠道场景。
+这些活动代表各种的可用通信渠道。您可以将它们组合在一起，以创建跨渠道场景。
 
 如果您有Adobe Campaign Standard，可以使用以下现成操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 请参见 [](../building-journeys/using-adobe-campaign-actions.md)。
 
