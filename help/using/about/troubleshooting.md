@@ -1,5 +1,5 @@
 ---
-title: 故障排除
+title: 疑难解答
 description: 了解有关疑难解答的更多信息
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-# 故障排除{#concept_nlv_bcv_2fb}
+# 疑难解答{#concept_nlv_bcv_2fb}
 
 在本节中，您将在测试或发布之前找到如何排除故障的方法。 当旅程处于测试模式或旅程处于实时状态时，可以执行以下列出的所有检查。 建议在测试模式下进行以下所有检查，然后继续发布。 请参见 [](../building-journeys/testing-the-journey.md)。
 
