@@ -12,12 +12,15 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
 
 # 结束活动{#section_vqp_4ft_dgb}
 
-该 **[!UICONTROL End]**活动允许您标记旅程中每条路径的结尾。 它不是强制性的，但建议使用它以实现视觉清晰度。 事实上，如果旅程中有几个结束活动，我们建议您为每个结束添加一个标签，以便更轻松地阅读报告。 请参见[](../reporting/about-journey-reports.md)。
+活动 **[!UICONTROL End]** 允许您标记旅程中每条路径的结束。 它不是强制的，但建议使用它以实现视觉清晰度。 事实上，如果旅程有几个最终活动，我们建议您在每个结尾处添加一个标签，以便更轻松地阅读报告。 请参见 [](../reporting/about-journey-reports.md)。
 
 ![](../assets/journey54.png)
