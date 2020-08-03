@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 15%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| Boolean | Boolean |
+| 布尔值 | 布尔值 |
 | DateTimeOnly | DateTimeOnly |
 | 列表 | listString |
 | 列表 | listBoolean |
