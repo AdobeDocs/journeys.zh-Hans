@@ -1,5 +1,5 @@
 ---
-title: 随机
+title: random
 description: 了解函数随机性
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 5%
 
 ---
 
 
-# 随机 {#random}
+# random {#random}
 
 生成0到1之间的随机数。
 
@@ -32,10 +35,10 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `random()`
 
-返回小数点。
+返回十进制。
 
 ## 示例
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-说明：如果成功率没有值／为null，则将应用默认值，并将是介于0和1 * 100（即0到100）之间的随机数。
+说明： 如果成功率没有值／为null，则将应用默认值，并将是介于0和1 * 100（即0到100）之间的随机数。
