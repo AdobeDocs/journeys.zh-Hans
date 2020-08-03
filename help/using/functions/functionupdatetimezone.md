@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 4%
 
 ---
 
 
 # updateTimeZone {#updateTimeZone}
 
-返回新的日期时间，同时返回新的时区。
+返回新的日期时间，同时返回一个新时区。
 
 ## 类别
 
@@ -30,7 +33,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## 参数
 
-* 时区ID:字符串
+* 时区id: 字符串
 * dateTime
 
 ## 签名和返回类型
