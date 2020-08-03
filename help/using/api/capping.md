@@ -34,7 +34,7 @@ ht-degree: 1%
 >
 >此处 [!DNL Journey Orchestration] 提供的Swagger文件中对封顶API进行 [了说明](https://adobedocs.github.io/JourneyAPI/docs/)。
 
-要将此API用 [!DNL Journey Orchestration] 于您的实例，您需要使用AdobeI/O控制台。 您可以通过以下方式进行开始 [：按照Adobe开发人员控制](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 台快速入门，然后使用本页中的各个部分。
+要将此API用 [!DNL Journey Orchestration] 于您的实例，您需要使用AdobeI/O控制台。 您可以通过以下方式进行 [开始：开始使用Adobe开](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 发人员控制台，然后使用本页中的各个部分。
 
 要测试和准备集成，此处提供邮递员 [集合](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
@@ -42,18 +42,18 @@ ht-degree: 1%
 
 ### 设置 API 访问
 
-[!DNL Journey Orchestration] 通过以下步骤设置API访问。 Adobe I/O文档中详细介绍了 [每个步骤](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
+[!DNL Journey Orchestration] 通过以下步骤设置API访问。 这些步骤均详见 [AdobeI/O文档](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)。
 
 >[!CAUTION]
 >
->要在Adobe I/O中管理证书，请确保您对组织或 <b>管理控制台</b> 中的开发人员帐 [户拥有](https://helpx.adobe.com/enterprise/using/manage-developers.html) 系统管理员权限。
+>要在AdobeI/O中管理证书，请确保您对组织 <b>或Admin Console中的</b> System Administrator [权限](https://helpx.adobe.com/enterprise/using/manage-developers.html) ，或者拥有Developer帐户。
 
 1. **检查您有数字证书**，或根据需要创建数字证书。 在以下步骤中需要随证书提供的公钥和私钥。
-1. **在Adobe I/O中创建[!DNL Journey Orchestration]与** Service的新集成并进行配置。 需要产品用户档案访问，以 [!DNL Journey Orchestration] 及Adobe Experience Platform。 随后将生成您的凭据（API密钥、客户端机密……）。
-1. **从先前生成的凭据创建JSON Web** Token(JWT)，然后使用您的私钥对其进行签名。 JWT会对Adobe验证您的身份并授予您对API的访问权限时所需的所有身份和安全信息进行编码。 此步骤详见本 [节](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **通过POST请求或通过开发人员** 控制台界面将您的JWT交换为访问令牌。 此访问令牌必须用于API请求的每个头中。
+1. **在AdobeI/O中创[!DNL Journey Orchestration]建与** Service的新集成并进行配置。 需要产品用户档案访问，以 [!DNL Journey Orchestration] 及Adobe Experience Platform。 随后将生成您的凭据（API密钥、客户端机密……）。
+1. **从先前生成的凭据创建JSON Web** Token(JWT)，然后使用您的私钥对其进行签名。 JWT对Adobe验证您的身份并授予您对API的访问权限时所需的所有身份和安全信息进行编码。 此步骤详见本 [节](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
+1. **通过访问令牌请求或通过** “开发人员控制台界面”将JWT交换为POST。 此访问令牌必须用于API请求的每个头中。
 
-要建立安全的服务到服务Adobe I/O API会话，对Adobe服务的每个请求都必须在“授权”标题中包含以下信息。
+要建立安全的服务到服务AdobeI/O API会话，对Adobe服务的每个请求都必须在授权标头中包含以下信息。
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -65,11 +65,12 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;组织>**: 这是您的个人组织ID,Adobe为每个实例提供一个组织ID:
 
    * &lt;组织>: 您的生产实例
-   要获取您的组织ID值，请咨询您的管理员或Adobe技术联系人。 创建新集成时，您还可以在许可证列表(请参阅Adobe I/O文 <a href="https://www.adobe.io/authentication.html">档)中将其检索到Adobe</a>I/O。
+
+   要获取您的组织ID值，请咨询您的管理员或Adobe技术联系人。 创建新集成时，您还可以在许可证列表中将其检索到AdobeI/O中(请参阅 <a href="https://www.adobe.io/authentication.html">AdobeI/O文档</a>)。
 
 * **&lt;ACCESS_TOKEN>**: 您的个人访问令牌，通过POST请求交换JWT时检索到。
 
-* **&lt;API_KEY>**: 您的个人API密钥。 它在创建与服务的新集成后在Adobe I/O中提 [!DNL Journey Orchestration] 供。
+* **&lt;API_KEY>**: 您的个人API密钥。 在创建与服务的新集成后，它在AdobeI/O中 [!DNL Journey Orchestration] 提供。
 
 
 
@@ -114,7 +115,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 }
 ```
 
-### 例如：
+### 示例:
 
 ```
 `{
@@ -170,7 +171,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 为了帮助您进行测试和配置，此处提供了Postman [集合](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
-此邮递员集合已设置为共享通过 __[Adobe I/O控制台的“集成”](https://console.adobe.io/integrations)__>“试用”>“下载邮递员”生成的邮递员变量集合，该集合生成具有选定集成值的邮递员环境文件。
+此邮递员集合已设置为共享通过 __[AdobeI/O控制台的“集成”](https://console.adobe.io/integrations)__>“试用”>“下载邮递员”生成的邮递员变量集合，该集合生成具有选定集成值的邮递员环境文件。
 
 下载并上传到Postman后，您需要添加三个变量： `{JO_HOST}`,`{Base_Path}` and `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] 网关URL
