@@ -27,7 +27,7 @@ ht-degree: 17%
 
 [!DNL Journey Orchestration] 允许由事件的情境数据、Adobe Experience Platform 信息或第三方 API 服务数据提供支持的实时编排。如果您使用第三方系统发送消息，则可以配置自定义操作。 如果您有Adobe Campaign Standard，您将能够使用Adobe Campaign Standard的事务消息传递功能发送电子邮件、推送 [通知和短信](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
-在事件配置选项卡中，技术 **用户配置** 旅程中预期的事件。 传入事件的数据按照Adobe体验数据模型(XDM)进行标准化。 事件来自针对已验证和未验证的事件(如Adobe Mobile SDK事件)的Streaming Ingestion API。
+在事件配置选项卡中，技术 **用户配置** 旅程中预期的事件。 传入事件的数据按照Adobe体验数据模型(XDM)进行标准化。 事件来自针对已验证和未验证的事件(如AdobeMobile SDK事件)的Streaming Ingestion API。
 
 在数据源配置选项卡中，技术 **用户配置** :
 
