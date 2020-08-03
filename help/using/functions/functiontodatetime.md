@@ -1,6 +1,6 @@
 ---
 title: toDateTime
-description: 了解toDateTime函数
+description: 了解函数toDateTime
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 ## 类别
 
-转化
+转换
 
 ## 函数语法
 
@@ -32,7 +35,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 | 参数 | 类型 |
 |-----------|------------------|
 | ISO-8601格式的日期时间 | 字符串 |
-| 时区ID | 字符串 |
+| 时区id | 字符串 |
 | 无时区的日期时间 | dateTimeOnly |
 | 以毫秒为单位的整数值 | 整数 |
 
@@ -40,7 +43,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 >
 >时区ID必须是字符串常数。 它不能是字段引用或表达式。 有关数据类型的详细信息，请参阅 [](../expression/data-types.md)。
 
-## 签名和返回的类型
+## 签名和返回类型
 
 `toDateTime(<string>)`
 
