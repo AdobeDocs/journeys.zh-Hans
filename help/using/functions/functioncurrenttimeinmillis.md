@@ -1,6 +1,6 @@
 ---
 title: currentTimeInMillis
-description: 了解currentTimeInMillis函数
+description: 了解函数currentTimeInMillis
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-返回新纪元毫秒的当前时间。
+返回当前时间（以新纪元毫秒为单位）。
 
 ## 类别
 
