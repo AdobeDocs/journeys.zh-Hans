@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-如果第二个参数是第一个参数的前缀，而不考虑大小写，则返回true。
+如果第二个参数是第一个参数的前缀而不考虑大小写，则返回true。
 
 ## 类别
 
