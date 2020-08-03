@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 
 
 # inLastMonths {#inLastMonths}
 
-如果给定的日期或dateTime介于现在和现在——增量月间，则返回true。
+如果给定日期或dateTime介于现在和现在之间——增量月，则返回true。
 
 ## 类别
 
@@ -33,7 +36,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 | 参数 | 类型 |
 |-----------|------------------|
 | 日期时间 | dateTime |
-| δ | 整数 |
+| 三角洲 | 整数 |
 
 ## 签名和返回类型
 
