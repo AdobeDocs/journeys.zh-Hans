@@ -1,5 +1,5 @@
 ---
-title: 圆
+title: round
 description: 了解函数轮
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 7%
 
 ---
 
 
-# 圆 {#round}
+# round {#round}
 
-将最接近的整数值返回到参数，并将舍入绑定到正无穷大。
+返回与参数最接近的整数值，并将舍入与正无穷大联系起来。
 
 ## 类别
 
@@ -30,7 +33,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 ## 参数
 
-* 小数点
+* 小数
 * 整数
 
 ## 签名和返回类型
