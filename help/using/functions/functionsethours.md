@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 
 
 # setHours {#setHours}
 
-仅设置日期时间或日期时间的小时数。 例如，如果要等到明天某个小时，您可以强制该小时。
+仅设置日期时间或日期时间的小时数。 例如，如果要等到明天的某个小时，可以强制该小时。
 
 ## 类别
 
@@ -44,7 +47,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 `setHours(<dateTimeOnly>,<hours>)`
 
-返回不考虑时区的日期时间。
+返回日期时间，不考虑时区。
 
 ## 示例
 
