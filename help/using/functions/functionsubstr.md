@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
 
 
 # substr {#substr}
 
-返回开始索引和结束索引之间的字符串表达式的子字符串。 如果未定义结束索引，则它位于开始索引和结束索引之间。
+返回开始索引和结束索引之间的字符串表达式的子字符串。 如果未定义结束索引，则它介于开始索引和结束索引之间。
 
 ## 类别
 
@@ -30,7 +33,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 ## 参数
 
-| 参数 | type |
+| 参数 | 类型 |
 |-------------|----------|
 | 字符串 | 字符串 |
 | beginIndex | 整数 |
@@ -48,7 +51,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 `substr("Hello World",6)`
 
-返回“World”。
+返回“世界”。
 
 `substr("Hello World", 0, 5)`
 
