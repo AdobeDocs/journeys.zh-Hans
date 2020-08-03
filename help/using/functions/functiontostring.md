@@ -1,6 +1,6 @@
 ---
 title: toString
-description: 了解toString函数
+description: 了解函数toString
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 ## 类别
 
-转化
+转换
 
 ## 函数语法
 
@@ -32,13 +35,13 @@ source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 
 | 参数 | 说明 |
 |--- |--- |
-| dateTime | 转换UTC日期格式的日期 |
-| dateTimeOnly | 转换UTC日期格式的日期 |
+| dateTime | 以UTC日期格式转换日期 |
+| dateTimeOnly | 以UTC日期格式转换日期 |
 | 持续时间 | 以字符串形式转换为相应的毫秒数 |
-| 时区 | 转换为时区ID字符串表示(JODA ID) |
+| 时区 | 转换为时区id字符串表示法(JODA id) |
 | 整数 | 转换为值的字符串表示形式（1变为“1”） |
-| 小数点 | 转换为值的字符串表示形式（1.5变为“1.5”） |
-| 布尔值 | 如果为true，则将布尔值转换为“true”；如果为false，则将布尔值转换为“false” |
+| 小数 | 转换为值的字符串表示形式（1.5变为“1.5”） |
+| 布尔 | 如果为true，则将布尔值转换为“true”；如果为false，则将布尔值转换为“false” |
 
 ## 签名和返回类型
 
