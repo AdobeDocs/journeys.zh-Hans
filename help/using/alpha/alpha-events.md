@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 6%
 
    ![](../assets/alpha-event3.png)
 
-1. 在新字段 **[!UICONTROL Event ID type]** 中，选择 **[!UICONTROL Rule Based]**。
+1. In the new **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**.
 
    ![](../assets/alpha-event4.png)
 
    >[!NOTE]
    >
-   >类 **[!UICONTROL System Generated]** 型是需要eventID的现有方法。 请参 [阅此部分](../event/about-events.md)。
+   >类 **[!UICONTROL System Generated]** 型是需要eventID的现有方法。 请参阅[此章节](../event/about-events.md)。
 
-1. 定义有 **[!UICONTROL Schema]** 效负荷 **[!UICONTROL Fields]**。 请参 [阅此部分](../event/defining-the-payload-fields.md)。
+1. 定义有 **[!UICONTROL Schema]** 效负荷 **[!UICONTROL Fields]**。 请参阅[此章节](../event/defining-the-payload-fields.md)。
 
    ![](../assets/alpha-event5.png)
 
