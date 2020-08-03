@@ -1,5 +1,5 @@
 ---
-title: 排序
+title: sort
 description: 了解函数排序
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 10%
 
 ---
 
 
-# 排序 {#sort}
+# sort {#sort}
 
-按自然顺序对值列表进行排序。 第一个参数是值列表，第二个参数是指示排序是升序(true)还是降序(false)的布尔值。
+按自然顺序对列表值进行排序。 第一个参数是值的列表，第二个参数是指示排序是升序(true)还是降序(false)的布尔值。
 
 ## 类别
 
@@ -39,7 +42,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | 列表 | listDuration |
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
-| Boolean | Boolean |
+| 布尔值 | 布尔值 |
 
 ## 签名和返回类型
 
@@ -49,23 +52,23 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `sort(<listDecimal>,<boolean>)`
 
-返回小数位列表。
+返回一列表小数。
 
 `sort(<listString>,<boolean>)`
 
-返回字符串列表。
+返回一列表字符串。
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-返回不考虑时区的日期时间列表。
+返回日期时间列表，不考虑时区。
 
 `sort(<listDateTime>,<boolean>)`
 
-返回datetimes列表。
+返回datetimes的列表。
 
 `sort(<listBoolean>,<boolean>)`
 
-返回布尔值列表。
+返回一列表布尔语。
 
 ## 示例
 
