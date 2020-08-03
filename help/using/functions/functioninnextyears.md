@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1441402b50414443a6b6bb3087cf648cc74faa49
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 
 
 # inNextYears {#inNextYears}
 
-如果给定的日期或dateTime介于现在和现在+增量年间，则返回true。
+如果给定日期或dateTime介于现在和现在+增量年之间，则返回true。
 
 ## 类别
 
@@ -33,7 +36,7 @@ source-git-commit: 1441402b50414443a6b6bb3087cf648cc74faa49
 | 参数 | 类型 |
 |-----------|------------------|
 | 日期时间 | dateTime |
-| δ | 整数 |
+| 三角洲 | 整数 |
 
 ## 签名和返回类型
 
