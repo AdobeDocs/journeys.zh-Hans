@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
 
 # lastIndexOf {#lastIndexOf}
 
-返回第二个参数最后一个出现的位置（在第一个参数中）。 如果没有匹配项，则返回-1。
+返回第二个参数最后一次出现的位置（在第一个参数中）。 如果没有匹配项，则返回-1。
 
 ## 类别
 
@@ -49,4 +52,4 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 说明：
 
-在“Hello”中，最后一个出现的“l”位于位置3。
+在“Hello”中，“l”的最后一个出现位置是位置3。
