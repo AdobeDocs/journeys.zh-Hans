@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
 
 # setDays {#setDays}
 
-仅设置日期时间或日期时间的日期。 例如，如果要等到某月的某一天，您可以强制该天。
+仅设置日期时间或日期时间的日期。 例如，如果要等到某月的某一天，可以强制该天。
 
 ## 类别
 
@@ -44,7 +47,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 `setDays(<dateTimeOnly>,<days>)`
 
-返回不考虑时区的日期时间。
+返回日期时间，不考虑时区。
 
 ## 示例
 
