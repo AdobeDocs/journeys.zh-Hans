@@ -1,6 +1,6 @@
 ---
-title: 配置活动
-description: 了解如何为旅程简单用例配置活动
+title: 配置事件
+description: 了解如何为旅程简单用例配置事件
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,46 +12,49 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 2%
 
 ---
 
 
-# 配置活动{#concept_y44_hcy_w2b}
+# 配置事件{#concept_y44_hcy_w2b}
 
-在我们的场景中，每当一个人在位于Spa旁的信标附近走动时，我们都需要收到一个活动。 技 **术用户需要配置** ，系统将在我们的旅程中侦听的事件。
+在我们的场景中，每当一个人走近Spa旁边的信标时，我们都需要收到事件。 技 **术用户** 需要配置系统在旅程中将监听的事件。
 
-有关活动配置的其他信息，请参阅 [](../event/about-events.md)。
+有关事件配置的其他信息，请参阅 [](../event/about-events.md)。
 
-1. 在顶部菜单中，单击选 **[!UICONTROL Events]**项卡并单**[!UICONTROL Add]** 击以创建新活动。
+1. 在顶部菜单中，单击选 **[!UICONTROL Events]** 项卡并单 **[!UICONTROL Add]** 击以创建新事件。
 
    ![](../assets/journeyuc1_1.png)
 
-1. 我们输入名称时不带空格或特殊字符：“SpaBeacon”。
+1. 我们输入名称时不加空格或特殊字符： “SpaBeacon”。
 
    ![](../assets/journeyuc1_2.png)
 
    <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
-1. 然后，我们选择架构并定义此事件预期的有效负荷。 从XDM标准化模型中选取所需字段。 我们需要Experience Cloud ID来识别实时客户档案数据库中的人员： _endUserID > experience > mcid > id_。 此活动会自动生成ID。 此ID存储在字段中( **[!UICONTROL eventID]**体&#x200B;_验>营销活动>安排> eventID_)。 推送事件的系统不应生成ID，它应使用有效负荷预览中可用的ID。 在我们的用例中，此ID用于标识信标位置。 每当某人在spa信标附近行走时，将发送包含此特定事件ID的活动。 这使系统能够了解触发事件发送的信标。
+1. 然后，我们选择模式并定义此事件预期的有效负荷。 从XDM标准化模型中选取所需的字段。 我们需要Experience CloudID来识别实时客户用户档案数据库中的人： _endUserIDs > experience > mcid > id_。 此事件会自动生成ID。 此ID存储在字 **[!UICONTROL eventID]** 段(_体验>活动>业务流程>事件ID_)中。 推送事件的系统不应生成ID，它应使用有效负荷预览中可用的ID。 在我们的用例中，此ID用于标识信标位置。 每次有人在spa信标附近散步时，都会发送包含此特定事件ID的事件。 这使系统能够知道哪个信标触发了事件发送。
 
    ![](../assets/journeyuc1_3.png)
 
    >[!NOTE]
    >
-   >字段列表因架构而异。 根据架构定义，某些字段可能是必填的并且是预先选择的。
+   >字段的列表因模式而异。 根据模式定义，某些字段可能是必填字段并且是预选字段。
 
-1. 我们需要选择一个命名空间。 将根据架构属性预先选择命名空间。 您可以保持预选。 有关命名空间的详细信息，请参 [](../event/selecting-the-namespace.md)阅。
+1. 我们需要选择命名空间。 根据命名空间属性预先选择模式。 您可以保持该选项处于预选状态。 有关命名空间的详细信息，请参阅 [](../event/selecting-the-namespace.md)。
 
    ![](../assets/journeyuc1_6.png)
 
-1. 根据架构属性和选定的命名空间预选键。 你可以留着它。
+1. 根据模式属性和选定的命名空间预选键。 你可以留着它。
 
    ![](../assets/journeyuc1_5.png)
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**。
 
-1. 单击该 **[!UICONTROL View Payload]**图标可预览系统预期的有效负荷，并将其共享给负责事件发送的人员。 此负载需要在Mobile services管理控制台的回传中配置。
+1. 单击该 **[!UICONTROL View Payload]** 图标以预览系统预期的有效负荷，并将其共享给负责事件发送的人员。 此负载需要在Mobile Services管理控制台的回传中配置。
 
    ![](../assets/journeyuc1_7.png)
 
-   该活动已准备好用于您的旅程。 您现在需要配置移动应用程序，以便它能够将期望的有效负荷发送到流摄取API端点。 请参见 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   事件随时可用于您的旅程。 现在，您需要配置移动应用程序，以便它能够将期望的有效负荷发送到流摄取API端点。 请参见 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
