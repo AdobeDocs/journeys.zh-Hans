@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 1. 如果出现任何错误，请取消激活测试模式，修改您的旅程并再次测试它。 当测试结果确定时，您可以发布您的旅程。 请参见 [](../building-journeys/publishing-the-journey.md)。
 
-## 重要说明 {#important_notes}
+## 重要说明{#important_notes}
 
 * 提供一个接口，用于向测试旅程中的事件发射事件，但也可以由第三方系统发送，如Postman。
 * 只允许在实时客户用户档案服务中标为“测试用户档案”的个人进入测试旅程。 请参见 [](../building-journeys/testing-the-journey.md#create-test-profile)。
@@ -57,7 +57,7 @@ ht-degree: 1%
 * 您可以根据需要多次启用／禁用测试模式。
 * 在激活测试模式时，您无法修改旅程。 在测试模式下时，您可以直接发布旅程，无需在之前取消激活测试模式。
 
-## 创建测试用户档案{#create-test-profile}
+## Creating a test profile{#create-test-profile}
 
 创建测试用户档案的过程与在Adobe Experience Platform中创建用户档案的过程相同。 它通过API调用执行。 查看此 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
 
