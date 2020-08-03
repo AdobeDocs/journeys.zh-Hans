@@ -12,19 +12,22 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 60%
 
 ---
 
 
 # 函数 {#concept_p1r_qj5_dgb}
 
-一个函数可以具有不同的签名（一组不同的有序参数）。 函数签名可以具有0-N个表达式作为有序参数。
+函数可以具有不同的签名（一组不同的有序参数）。 函数签名可以具有0-N表达式作为有序参数。
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 每个函数都有一个特定的返回类型。
 
-以下是支持的函数列表。
+下面是受支持函数的列表。
 
 ## 主要功能
 
@@ -41,13 +44,13 @@ source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
 | 聚合 | [](../functions/functionmax.md) |
 | 聚合 | [](../functions/functionmin.md) |
 | 聚合 | [](../functions/functionsum.md) |
-| 转化 | [](../functions/functiontobool.md) |
-| 转化 | [](../functions/functiontodatetime.md) |
-| 转化 | [](../functions/functiontodatetimeonly.md) |
-| 转化 | [](../functions/functiontodecimal.md) |
-| 转化 | [](../functions/functiontoduration.md) |
-| 转化 | [](../functions/functiontointeger.md) |
-| 转化 | [](../functions/functiontostring.md) |
+| 转换 | [](../functions/functiontobool.md) |
+| 转换 | [](../functions/functiontodatetime.md) |
+| 转换 | [](../functions/functiontodatetimeonly.md) |
+| 转换 | [](../functions/functiontodecimal.md) |
+| 转换 | [](../functions/functiontoduration.md) |
+| 转换 | [](../functions/functiontointeger.md) |
+| 转换 | [](../functions/functiontostring.md) |
 | 日期 | [](../functions/functioncurrenttimeinmillis.md) |
 | 日期 | [](../functions/functioninlastdays.md) |
 | 日期 | [](../functions/functioninlasthours.md) |
