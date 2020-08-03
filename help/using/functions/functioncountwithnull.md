@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 23%
 
 ---
 
 
 # countWithNull {#countWithNull}
 
-计算列表中包括null值的所有元素。
+计算列表的所有元素，包括null值。
 
 ## 类别
 
