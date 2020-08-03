@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 
 
 # inNextDays {#inNextDays}
 
-如果给定的日期或dateTime介于现在和现在+增量天之间，则返回true。
+如果给定日期或dateTime介于现在和现在+增量天之间，则返回true。
 
 ## 类别
 
@@ -33,7 +36,7 @@ source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
 | 参数 | 类型 |
 |-----------|------------------|
 | 日期时间 | dateTime |
-| δ | 整数 |
+| 三角洲 | 整数 |
 
 ## 签名和返回类型
 
