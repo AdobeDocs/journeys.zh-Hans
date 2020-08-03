@@ -33,7 +33,7 @@ ht-degree: 3%
 
 然后，您需要配置事件系统，该数据系统使用您复制的负载将数据推送到Streaming Ingestion API:
 
-1. 设置对流摄取API URL（称为入口）的POST API调用。
+1. 设置对流摄取API URL（称为入口）的POSTAPI调用。
 1. 使用您从API调 [!DNL Journey Orchestration] 用的正文（“数据部分”）中复制的有效负荷到流摄取API。 请参见下面的示例
 1. 确定在何处获取有效负荷中存在的所有变量。 示例： 如果事件应传达地址，则粘贴的有效负荷将显示“地址”: “string”。 “string”应替换为将自动填充正确值（要向其发送消息的人员的电子邮件）的变量。 请注意，在有效负荷预览的部分， **[!UICONTROL Header]** 我们会自动填写许多值，以便您的工作。
 1. 选择“application/json”作为正文类型。
