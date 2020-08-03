@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 11%
 
 ---
 
 
 # distinctWithNull {#distinctWithNull}
 
-返回列表的不同值。 如果列表至少有一个null值，则返回的列表中将有一个null值。
+返回列表的不同值。 如果列表至少有一个null值，则返回的列表中将有null值。
 
 ## 类别
 
@@ -40,7 +43,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
 
-## 签名和返回的类型
+## 签名和返回类型
 
 `distinctWithNull(<listInteger>)`
 
@@ -48,23 +51,23 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `distinctWithNull(<listDecimal>)`
 
-返回小数位列表。
+返回一列表小数。
 
 `distinctWithNull(<listString>)`
 
-返回字符串列表。
+返回一列表字符串。
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-返回不考虑时区的日期时间列表。
+返回日期时间列表，不考虑时区。
 
 `distinctWithNull(<listDateTime>)`
 
-返回datetimes列表。
+返回datetimes的列表。
 
 `distinctWithNull(<listBoolean>)`
 
-返回布尔值列表。
+返回一列表布尔语。
 
 `distinctWithNull(<listDuration>)`
 
@@ -74,4 +77,4 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `distinctWithNull([10,2,10,null])`
 
-返 [回10, 2,null]
+返 [回10、2、null]
