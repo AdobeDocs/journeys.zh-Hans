@@ -3,9 +3,9 @@ keywords: Journeys;home;popular topics
 solution: Journeys
 title: Journey Orchestration 产品文档
 topic: Premium
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
