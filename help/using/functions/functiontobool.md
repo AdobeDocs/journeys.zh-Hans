@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
@@ -20,12 +23,12 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 根据参数值的类型，将参数值转换为布尔值。
 
-* 从字符串：尝试将字符串值转换为布尔值（如果字符串值为“true”，则从“true”转换为false），否则从“true”转换为“false”
-* 从数字：如果数值不等于0，则为true；否则为false
+* 从字符串： 尝试将字符串值转换为布尔值，如果字符串值为“true”，则从“true”转换为false，否则从“true”转换为“false”
+* 从数字： 如果数值不等于0，则为true；否则为false
 
 ## 类别
 
-转化
+转换
 
 ## 函数语法
 
@@ -33,12 +36,12 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## 参数
 
-* 小数点
-* 布尔值
+* 小数
+* 布尔
 * 字符串
 * 整数
 
-## 签名和返回的类型
+## 签名和返回类型
 
 `toBool(<decimal>)`
 
