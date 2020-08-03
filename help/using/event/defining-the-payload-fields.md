@@ -21,7 +21,7 @@ ht-degree: 6%
 
 # 定义有效负载字段 {#concept_yrw_3qt_52b}
 
-有效负荷定义允许您选择系统希望从旅程中的事件接收的信息，以及确定与事件关联的人员的键。 有效负荷基于Experience Cloud XDM字段定义。 有关XDM的详细信息，请参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html)。
+有效负荷定义允许您选择系统希望从旅程中的事件接收的信息，以及确定与事件关联的人员的键。 有效负荷基于Experience CloudXDM字段定义。 For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html).
 
 1. 从列表中选择一个XDM模式，然后单 **[!UICONTROL Payload]** 击字段或图 **[!UICONTROL Edit]** 标。
 
