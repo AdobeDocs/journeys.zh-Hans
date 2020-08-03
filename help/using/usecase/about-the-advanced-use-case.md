@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 4%
 * 内置的Adobe Experience Platform数据源，用于检索我们两个条件（忠诚会员资格和上次联系日期）的信息以及消息个性化信息。
 * 酒店预订系统，用于检索预订状态信息。
 
-## 先决条件 {#prerequisites}
+## 先决条件{#prerequisites}
 
 为了我们的用例，我们设计了三个Adobe Campaign Standard事务消息模板。 我们使用事件事务消息模板。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
