@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## 类别
 
-转化
+转换
 
 ## 函数语法
 
@@ -34,7 +37,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 |--- |--- |
 | 字符串 | 字符串值必须包含区域ID。 它可以是字段引用或表达式 |
 
-## 签名和返回的类型
+## 签名和返回类型
 
 `toTimeZone(<string>)`
 
