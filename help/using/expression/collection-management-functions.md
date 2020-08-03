@@ -133,7 +133,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **示例3:**
 
-在此，我们检查过去24小时内是否有个人未收到任何通信。 我们使用两个基于两个事件的表达式来过滤从ExperiencePlatform数据源检索到的体验集合。 特别是，将事件的时间戳与函数返回的dateTime进行比 **[!UICONTROL nowWithDelta]** 较。
+在此，我们检查某人在过去24小时内是否未收到任何通信。 我们使用两个基于两个事件的表达式来过滤从ExperiencePlatform数据源检索到的体验集合。 特别是，将事件的时间戳与函数返回的dateTime进行比 **[!UICONTROL nowWithDelta]** 较。
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -215,7 +215,7 @@ _`<listExpression>.last(<condition>)`_
 
 **示例3:**
 
-我们检查DMA ID的第一个值为非零的（最新的）AdobeAnalytics事件的值是否等于602。
+我们检查DMA ID值为非零的第一个（最新的）Adobe Analytics事件的值是否等于602。
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
@@ -229,7 +229,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 _`<listExpression>`.at(`<index>`)_
 
-**例如：**
+**示例:**
 
 此表达式返回列表的第二个推送通知令牌。
 
