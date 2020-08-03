@@ -23,7 +23,7 @@ ht-degree: 0%
 
 与智能服务的集成使您能够在客户体验使用案例中利用人工智能和机器学习的强大功能。 这使营销分析师能够使用业务级配置设置特定于公司需求的预测，而无需数据科学专业知识。
 
-有关智能服务的更多信息，请参阅 [文档](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html)。
+For more information on Intelligent Services, refer to the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html).
 
 此集成允许您利用：
 
