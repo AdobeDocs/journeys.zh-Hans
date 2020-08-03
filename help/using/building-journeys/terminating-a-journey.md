@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 
    ![](../assets/finish_drop_down_list.png)
 
-1. 单击 **[!UICONTROL Close to new entrances]**. 出现一个对话框。
+1. 单击 **[!UICONTROL Close to new entrances]**。出现一个对话框。
 1. Click **[!UICONTROL Close to new entrances]** to confirm.
 
 ## 停止旅程
@@ -64,5 +64,5 @@ ht-degree: 2%
 
 ![](../assets/finish_drop_down_list.png)
 
-1. 单击 **[!UICONTROL Stop]**. 出现一个对话框。
+1. 单击 **[!UICONTROL Stop]**。出现一个对话框。
 1. Click **[!UICONTROL Stop]** to confirm.
