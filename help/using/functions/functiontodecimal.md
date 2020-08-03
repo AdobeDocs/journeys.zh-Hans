@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
 
 # toDecimal {#toDecimal}
 
-根据参数值的类型，将参数值转换为小数值。
+根据参数值的类型，将参数值转换为十进制值。
 
 ## 类别
 
-转化
+转换
 
 ## 函数语法
 
@@ -32,12 +35,12 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 | 参数 | 说明 |
 |--- |--- |
-| 字符串 | 将字符串值转换为小数 |
+| 字符串 | 将字符串值转换为十进制 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
-| 布尔值 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
-| 整数 | 转换为小数（示例）。:1变为1.0) |
+| 布尔 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
+| 整数 | 转换为小数（示例）。: 1变为1.0) |
 
-## 签名和返回的类型
+## 签名和返回类型
 
 `toDecimal(<integer>)`
 
@@ -47,7 +50,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `toDecimal(<boolean>)`
 
-返回小数点。
+返回十进制。
 
 ## 示例
 
