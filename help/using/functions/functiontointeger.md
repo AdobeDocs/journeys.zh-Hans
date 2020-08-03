@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## 类别
 
-转化
+转换
 
 ## 函数语法
 
@@ -34,8 +37,8 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 |--- |--- |
 | 字符串 | 将字符串值转换为整数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
-| 小数点 | 通过删除小数部分转换为整数(示例：1.5变为1) |
-| 布尔值 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
+| 小数 | 通过删除小数部分转换为整数(示例： 1.5变为1) |
+| 布尔 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
 
 ## 签名和返回类型
 
