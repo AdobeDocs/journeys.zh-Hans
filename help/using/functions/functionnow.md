@@ -1,5 +1,5 @@
 ---
-title: 现在
+title: now
 description: 立即了解该功能
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
 
-# 现在 {#now}
+# now {#now}
 
 以日期时间格式返回当前日期。 有关数据类型的详细信息，请参阅 [](../expression/data-types.md)。
 
