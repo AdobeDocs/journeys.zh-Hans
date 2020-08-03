@@ -1,5 +1,5 @@
 ---
-title: 平均
+title: avg
 description: 了解函数平均值
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
 
-# 平均 {#avg}
+# avg {#avg}
 
-返回一组表达式中的平均值，以列表或两个表达式的形式给出。 忽略空值。
+返回一组表达式中的平均值，以列表或两个表达式的形式给定。 忽略null值。
 
 
 ## 类别
@@ -35,7 +38,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 * listInteger
 * listDecimal
-* 小数点
+* 小数
 * 整数
 
 ## 签名和返回类型
@@ -54,7 +57,7 @@ source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
 
 `avg(<integer>,<integer>)`
 
-返回小数点。
+返回十进制。
 
 ## 示例
 
