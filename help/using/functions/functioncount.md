@@ -1,5 +1,5 @@
 ---
-title: 计数
+title: count
 description: 了解函数计数
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 22%
 
 ---
 
 
-# 计数 {#count}
+# count {#count}
 
-计算列表的元素，但不考虑null值。
+计算列表的元素，而不考虑null值。
 
 ## 类别
 
