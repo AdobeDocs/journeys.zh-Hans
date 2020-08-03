@@ -1,6 +1,6 @@
 ---
-title: 不同
-description: 了解功能的独特性
+title: distinct
+description: 了解函数的独特性
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 13%
 
 ---
 
 
-# 不同 {#distinct}
+# distinct {#distinct}
 
-返回不带空值的列表的不同值。
+返回列表的不同值（不含null值）。
 
 ## 类别
 
@@ -40,7 +43,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
 
-## 签名和返回的类型
+## 签名和返回类型
 
 `distinct(<listInteger>)`
 
@@ -48,23 +51,23 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 `distinct(<listDecimal>)`
 
-返回小数位列表。
+返回一列表小数。
 
 `distinct(<listString>)`
 
-返回字符串列表。
+返回一列表字符串。
 
 `distinct(<listDateTimeOnly>)`
 
-返回不考虑时区的日期时间列表。
+返回日期时间列表，不考虑时区。
 
 `distinct(<listDateTime>)`
 
-返回datetimes列表。
+返回datetimes的列表。
 
 `distinct(<listBoolean>)`
 
-返回布尔值列表。
+返回一列表布尔语。
 
 `distinct(<listDuration>)`
 
