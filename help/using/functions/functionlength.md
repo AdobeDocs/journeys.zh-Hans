@@ -1,5 +1,5 @@
 ---
-title: 长度
+title: length
 description: 了解函数长度
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 11%
 
 ---
 
 
-# 长度 {#length}
+# length {#length}
 
 返回参数中字符串表达式的字符数。
 
