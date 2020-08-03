@@ -117,7 +117,7 @@ ht-degree: 1%
     .name} == &quot;Arlington&quot;
     &quot;
 
-说明： 这是严格字符串比较（区分大小写），等同于在简单模式下使用 `equal to` 选中 `Is sensitive` 项的查询。
+说明： 这是严格字符串比较（区分大小写），等同于在简单模式下使用选中项的 `equal to` 查询 `Is sensitive` 符。
 
 未选中的同一查询 `Is sensitive` 将在高级模式下生成以下表达式:
 
