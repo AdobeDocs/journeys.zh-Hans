@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 
@@ -21,13 +24,13 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 字段引用可附加到事件或字段组。 唯一有意义的信息是字段的名称及其路径。
 
-如果在字段中使用特殊字符，则需要使用双引号或简单引号。 以下是需要引号的情况：
+如果在字段中使用特殊字符，则需要使用多次引号或简单引号。 以下是需要引号的情况：
 
-* 字段以数字字符开头
-* 字段以“-”字符开头
-* 该字段包含除以下内容之外的任何内容： _a_-_z_, _A_-_z,_ A- _Z,A-Z,A-Z,_ A-Z,A-Z,A ___-Z-,A-Z,A-Z,A-Z-A-B,A-Z-A-Z,M-B-B-A-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-B-_
+* 具有数字特征的场开始
+* 带有“-”字符的字段开始
+* 该字段包含除以下内容之外的任何内容： _a_-z _、_ A _-_ Z、_0_- _,____, 9,_
 
-例如，如果字段为 _3h_:# _{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+例如，如果字段为 _3h_: _#{OpenWeather.weatherData.rain。&#39;3h&#39;} > 0_
 
 ```
 // event field
@@ -45,7 +48,7 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 **字段引用的默认值**
 
-默认值可以与字段名称相关联。 语法如下：
+默认值可以与字段名称关联。 语法如下：
 
 ```
 // event field
@@ -58,48 +61,48 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 >[!NOTE]
 >
->字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserID。_experience.emailid.id, defaultValue :2}将无效，因为默认值是整数，而预期值应为字符串。
+>字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id, defaultValue : 2}将无效，因为默认值是整数，而预期值应为字符串。
 
 **集合中字段的引用**
 
-集合中定义的元素使用特定函数全部、第一个和最后一个引用。 For more information, see [](../expression/collection-management-functions.md).
+集合中定义的元素使用特定函数all、first和last进行引用。 For more information, see [](../expression/collection-management-functions.md).
 
-例如：
+示例 :
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**对地图中定义的字段的引用**
+**在映射中定义的字段的引用**
 
-为了在地图中检索元素，我们使用带给定键的条目函数。 例如，根据所选的命名空间定义事件的键时使用它。 请参阅选择命名空间。 For more information, see [](../event/selecting-the-namespace.md).
+为了在地图中检索元素，我们使用带给定键的输入函数。 例如，根据所选事件定义命名空间的键时，会使用它。 请参阅选择命名空间。 For more information, see [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-在此表达式中，我们将获取活动“IdentityMap”字段的“Email”键条目。 “电子邮件”条目是一个集合，我们使用“first()”从中获取第一个元素中的“id”。 For more information, see [](../expression/collection-management-functions.md).
+在此表达式中，我们将获得事件“IdentityMap”字段的“Email”键。 “Email”条目是一个集合，我们从中使用“first()”获取第一个元素中的“id”。 For more information, see [](../expression/collection-management-functions.md).
 
 **数据源的参数值（数据源动态值）**
 
-如果从外部数据源中选择一个需要调用参数的字段，则右侧会显示一个新选项卡，允许您指定此参数。 请参见 [](../expression/expressionadvanced.md)。
+如果从外部数据源中选择一个需要调用参数的字段，则右侧会显示一个新选项卡，用于指定此参数。 请参见 [](../expression/expressionadvanced.md)。
 
-对于更复杂的用例，如果要将数据源的参数包含在主表达式中，则可以使用关键字参数定义其 _值_。 参数可以是任何有效的表达式，即使来自另一个也包含另一个参数的数据源也是如此。
+对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用关键字参数定义其 _值_。 参数可以是任何有效表达式，即使来自另一个数据源也可以是另一个参数。
 
 >[!NOTE]
 >
->在表达式中定义参数值时，右侧的选项卡会消失。
+>在表达式中定义参数值时，右侧的选项卡消失。
 
-请使用以下语法：
+使用以下语法：
 
 ```
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**:数据源中第一个参数的精确名称。
-* **`<params-1-value>`**:第一个参数的值。 它可以是任何有效的表达式。
+* **`<params-1-name>`**: 数据源中第一个参数的确切名称。
+* **`<params-1-value>`**: 第一个参数的值。 它可以是任何有效的表达式。
 
-例如：
+示例:
 
 ```
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
