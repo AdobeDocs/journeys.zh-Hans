@@ -1,6 +1,6 @@
 ---
 title: toDateTimeOnly
-description: 了解toDateTime函数
+description: 了解函数toDateTime
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 ## 类别
 
-转化
+转换
 
 ## 函数语法
 
@@ -35,7 +38,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 | ISO-8601格式中无时区的日期时间 | 字符串 |
 | dateTime | dateTime |
 
-## 签名和返回的类型
+## 签名和返回类型
 
 `toDateTimeOnly(<dateTime>)`
 
@@ -43,7 +46,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-返回日期时间而不考虑时区。
+返回日期时间，不考虑时区。
 
 ## 示例
 
