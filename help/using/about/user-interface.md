@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 77%
+ht-degree: 89%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. 接口以IMS中定义的语言显示。 如果IMS语言不受支持， [!DNL Journey Orchestration]则界面将以英语显示。
+>为了充分利用 [!DNL Journey Orchestration]，我们建议将 Chrome 用作您的 Internet 浏览器。接口以 IMS 中定义的语言显示。如果 IMS 语言不受 [!DNL Journey Orchestration] 支持，则界面将以英语显示。
 >
 >此文档经常更新以反映产品中的最新更改。但是，某些屏幕截图可能与产品的界面略有不同。
 
 ## 访问 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+要访问 [!DNL Journey Orchestration] 的界面，请单击右上角的 **[!UICONTROL App Selector]** 图标。Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
-You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
+您还可以从 Experience Cloud 主页的 **[!UICONTROL Quick access]** 部分访问 [!DNL Journey Orchestration]。
 
 ![](../assets/journey1bis.png)
 
@@ -40,14 +40,14 @@ You can also access [!DNL Journey Orchestration] from the Experience Cloud home 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="关于旅程列表"
->abstract="旅程列表允许您同时查看所有旅程、查看其状态并执行基本操作。您可以重复、停止或删除您的旅程。某些操作可能不可用，具体取决于旅程。例如，您无法删除或重新启动已关闭的旅程。 您可以从中创建新版本或进行重复。您还可以使用搜索栏搜索旅程。"
+>abstract="旅程列表允许您同时查看所有旅程、查看其状态并执行基本操作。您可以重复、停止或删除您的旅程。某些操作可能不可用，具体取决于旅程。例如，您无法删除或重新启动已关闭的旅程。您可以从中创建新版本或进行重复。您还可以使用搜索栏搜索旅程。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="观看演示视频"
 
-The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+通过顶部菜单，您可以浏览 [!DNL Journey Orchestration] 的不同功能：**[!UICONTROL Home]**（旅程）、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**、**[!UICONTROL Actions]**。
 
 ![](../assets/journey2.png)
 
-单击屏幕右上角的![](../assets/icon-context.png)图标以显示情景帮助。It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). 通过此情景帮助，您可以查看当前功能的快速说明，并访问相关文章和视频。
+单击屏幕右上角的![](../assets/icon-context.png)图标以显示情景帮助。它可以在不同的 [!DNL Journey Orchestration] 列表屏幕（旅程、事件、操作和数据源）中使用。通过此情景帮助，您可以查看当前功能的快速说明，并访问相关文章和视频。
 
 ![](../assets/journey2bis.png)
 
@@ -93,7 +93,7 @@ In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL 
 
 ## 使用不同的快捷键{#section_ksq_zr1_ffb}
 
-Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
+以下是 [!DNL Journey Orchestration] 界面中提供的不同快捷键。
 
 _在旅程、操作、数据源或事件列表中：_
 
