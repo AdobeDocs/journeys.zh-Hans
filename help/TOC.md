@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 + 新增内容 {#release-notes}
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
-+ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
++ [!DNL Journey Orchestration] 入门 {#starting-with-journeys}
    + [关于 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
@@ -46,10 +46,10 @@ ht-degree: 78%
       + [自定义操作限制](using/action/custom-action-limitations.md)
       + [URL 配置](using/action/url-configuration.md)
       + [定义消息参数](using/action/defining-the-message-parameters.md)
-+ 使用平台区段 {#configuring-segment}
-   + [关于平台区段](using/segment/about-segments.md)
++ 使用 Platform 区段 {#configuring-segment}
+   + [关于 Platform 区段](using/segment/about-segments.md)
    + [创建区段](using/segment/creating-a-segment.md)
-   + [在条件中使用细分](using/segment/using-a-segment.md)
+   + [在条件中使用区段](using/segment/using-a-segment.md)
 + 构建旅程 {#building-journeys}
    + 关于旅程构建 {#about-journey-building}
       + [创建旅程](using/building-journeys/journey.md)
@@ -77,10 +77,10 @@ ht-degree: 78%
    + [发布旅程](using/building-journeys/publishing-the-journey.md)
    + 使用Adobe Experience Platform共享旅程步骤 {#sharing-journey-steps}
       + [旅程步骤共享概述](using/building-journeys/sharing-overview.md)
-      + [旅程步骤事件常用字段](using/building-journeys/sharing-common-fields.md)
-      + [旅程步骤事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
-      + [journeyStep事件数据提取字段](using/building-journeys/sharing-fetch-fields.md)
-      + [journeyStep事件身份字段](using/building-journeys/sharing-identity-fields.md)
+      + [journeySteps 事件常用字段](using/building-journeys/sharing-common-fields.md)
+      + [journeyStep 事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
+      + [journeyStep 事件数据提取字段](using/building-journeys/sharing-fetch-fields.md)
+      + [journeyStep 事件身份字段](using/building-journeys/sharing-identity-fields.md)
       + [旅程场](using/building-journeys/sharing-journey-fields.md)
 + 使用高级表达式编辑器 {#building-advanced-conditions-journeys}
    + [关于高级表达式编辑器](using/expression/expressionadvanced.md)
@@ -167,9 +167,9 @@ ht-degree: 78%
    + [创建旅程报告](using/reporting/creating-your-journey-reports.md)
    + [指标和维度](using/reporting/metrics-and-dimensions.md)
 + 与智能服务集成{#use-case-advanced}
-   + [关于AI集成](using/ai-services/ai-services-overview.md)
-   + [利用旅程AI](using/ai-services/leveraging-fatigue-scores.md)
-   + [利用客户人工智能](using/ai-services/leveraging-customer-ai.md)
+   + [关于 AI 集成](using/ai-services/ai-services-overview.md)
+   + [利用旅程 AI](using/ai-services/leveraging-fatigue-scores.md)
+   + [利用客户 AI](using/ai-services/leveraging-customer-ai.md)
 + 用例{#use-cases-journeys}
    + 简单用例{#use-case-simple}
       + [关于简单用例](using/usecase/about-the-simple-use-case.md)
@@ -182,9 +182,9 @@ ht-degree: 78%
       + [配置数据源](using/usecase/configuring-the-data-sources.md)
       + [构建旅程](using/usecase/building-the-journey.md)
 + 使用 API{#working-with-apis}
-   + [限制API](using/api/capping.md)
-+ Alpha功能 {#alpha}
-   + [Alpha功能概述](using/alpha/alpha-overview.md)
+   + [API 上限](using/api/capping.md)
++ Alpha 功能 {#alpha}
+   + [Alpha 功能概述](using/alpha/alpha-overview.md)
    + [用户界面](using/alpha/alpha-interface.md)
    + [区段触发活动](using/alpha/alpha-segment-trigger.md)
    + [基于规则的事件](using/alpha/alpha-events.md)
