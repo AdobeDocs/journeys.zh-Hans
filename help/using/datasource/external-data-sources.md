@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 93%
 }
 ```
 
-您可以更改自定义身份验证数据源的令牌的缓存持续时间。 以下是自定义身份验证有效负荷的示例。 缓存持续时间在“cacheDuration”参数中定义。 它指定缓存中生成的令牌的保留持续时间。 单位可以是毫秒、秒、分钟、小时、天、月、年。
+您可以更改自定义身份验证数据源的令牌的缓存时间。以下是自定义身份验证有效负载的示例。缓存时间在“cacheDuration”参数中定义。它指定缓存中生成的令牌的保留持续时间。单位可以是毫秒、秒、分钟、小时、天、月、年。
 
 ```
 "authentication": {
