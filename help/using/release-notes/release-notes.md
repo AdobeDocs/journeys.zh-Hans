@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 66%
+ht-degree: 85%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 66%
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以参阅[文档更新](../release-notes/documentation-updates.md)。
 
-## 第2季度版本- 2020年6月 {#q2-release---june-2020}
+## 第 2 季度发行 - 2020 年 6 月 {#q2-release---june-2020}
 
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Platform集成增强</strong><br/></th>
+<th><strong>Adobe Experience Platform 集成增强</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -37,20 +37,20 @@ ht-degree: 66%
 <td>
 <p>已进行以下Adobe Experience Platform集成增强：</p>
 <ul>
-<li><p>新活动允许监听Adobe Experience Platform段的入口／出口，让客户进入或前进旅程。 <a href="../building-journeys/segment-qualification-events.md">了解更多</a></p>
+<li><p>新活动允许监听Adobe Experience Platform段的入口／出口，让客户进入或前进旅程。 <a href="../building-journeys/segment-qualification-events.md">阅读更多</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform区段现在无需离开Journey Orchestration界面即可创建和编辑，这要归功于新的“区 <strong>段</strong> ”选项卡。<a href="../segment/about-segments.md">了解更多</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">阅读更多</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>在简单的表达式编辑器中，Adobe Experience Platform段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于段A?”。<a href="../segment/using-a-segment.md">了解更多</a></p>
+<li><p>在简单的表达式编辑器中，Adobe Experience Platform段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于段A?”。<a href="../segment/using-a-segment.md">阅读更多</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration现在自动将在旅程中执行的步骤传递给Adobe Experience Platform。 这包括遇到的潜在错误。 此信息可用于针对特定旅程或所有旅程执行旅程步骤报告，从而实现查询和故障排除。 <a href="../building-journeys/sharing-overview.md">了解更多</a></p>
+<li><p>Journey Orchestration现在自动将在旅程中执行的步骤传递给Adobe Experience Platform。 这包括遇到的潜在错误。此信息可用于通过对特定旅程或所有旅程的旅程步骤事件执行查询，从而实现报告和故障排除。<a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration现在可以连接到生产和非生产Adobe Experience Platform沙箱。 请注意，沙箱是测试版功能。 <a href="../about/access-management.md#sandboxes">了解更多</a></p>
+<li><p>Journey Orchestration现在可以连接到生产和非生产Adobe Experience Platform沙箱。 请注意，沙箱是测试版功能。<a href="../about/access-management.md#sandboxes">阅读更多</a></p>
 </li>
 </td>
 </tr>
@@ -68,13 +68,13 @@ ht-degree: 66%
 <td>
 <p>对旅程设计人员和测试模式进行了以下增强：</p>
 <ul>
-<li><p>您现在可以将粘贴活动从一个旅程复制到另一个旅程，选择1个或N个旅程活动。 <a href="../building-journeys/using-the-journey-designer.md#copy-paste">了解更多</a></p>
+<li><p>您现在可以选中 1 个或 N 个旅程活动，将活动从一个旅程复制粘贴到另一个旅程。<a href="../building-journeys/using-the-journey-designer.md#copy-paste">阅读更多</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>在发射事件以使测试用户档案进入旅程后，您现在可以看到其在旅程中的进度，这要归功于彩色的视觉流。 如果旅程中出错，还会显示错误的详细信息。 <a href="../building-journeys/testing-the-journey.md#firing_events">了解更多</a></p>
+<li><p>在启动一个事件以使测试用户档案进入旅程后，您现在可以看到其在旅程中的进度，这用彩色的视觉流显示。如果旅程中出错，系统还会显示错误的详细信息。<a href="../building-journeys/testing-the-journey.md#firing_events">阅读更多</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>已完成 <strong>的旅程</strong> 状态已更名为“已 <strong>关闭”（无入口）</strong> ，以更好地反映此状态的含义。</li>
+<li><strong>已完成</strong>的旅程状态已更名为<strong>已关闭（禁止进入）</strong>，以更好地反映此状态的含义。</li>
 </ul>
 </td>
 </tr>
@@ -83,13 +83,13 @@ ht-degree: 66%
 
 **其他改进**
 
-为避免向第三方系统发送过多API调用，我们引入了新的公共API来设置“限制”规则。 限制规则允许定义每毫秒对API端点的最大调用数。 [了解更多](../api/capping.md)
+为避免向第三方系统发送过多 API 调用，我们引入了新的公共 API 来设置“上限”规则。上限规则允许定义每毫秒对 API 端点的最大调用数。[阅读更多](../api/capping.md)
 
-访问控制现在允许在用户访问管理中实现更大粒度。 有效可用性： 2020年6月30日。 [了解更多](../about/access-management.md#create-product-profile)
+访问控制现在允许在用户访问管理中实现更大粒度。可用起始日期：2020 年 6 月 30 日。[阅读更多](../about/access-management.md#create-product-profile)
 
-Journey Orchestration现已在APAC（澳大利亚数据中心）提供。 有效可用性： 2020年6月30日
+Journey Orchestration 现已在 APAC（澳大利亚数据中心）提供。可用起始日期：2020 年 6 月 30 日
 
-Journey Orchestration界面提供日语版。
+Journey Orchestration 界面提供日语版。
 
 ## 第 1 季度发行 - 2020 年 3 月{#q1-release---march-2020}
 
@@ -204,5 +204,5 @@ Journey Orchestration 允许由事件的情境数据、Adobe Experience Platform
 
 其他资源：
 
-* [教程](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [教程](https://docs.adobe.com/content/help/zh-Hans/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 * [社区](https://www.adobe.com/go/journeyorchestrationcommunity)
