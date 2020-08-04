@@ -12,16 +12,16 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
 
 # 入门{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration], there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. 用户访问权限通过产品资料和权限进行管理。请参阅 [](../about/access-management.md)以了解如何配置用户访问。
+在 [!DNL Journey Orchestration] 中，有两种用户，每种用户都执行特定任务：**技术用户**&#x200B;和&#x200B;**商业用户。**&#x200B;用户访问权限通过产品资料和权限进行管理。请参阅 [](../about/access-management.md)以了解如何配置用户访问。
 
-Here are the main steps to configure and use [!DNL Journey Orchestration]:
+以下是配置和使用 [!DNL Journey Orchestration] 的主要步骤：
 
 1. **配置事件**
 
@@ -41,7 +41,7 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
 1. **配置操作**
 
-   If you&#39;re using a third-party system to send your messages, you need to configure its connection with [!DNL Journey Orchestration]. 请参见 [](../action/about-custom-action-configuration.md)。
+   如果您使用第三方系统来发送消息，则需要配置其与 [!DNL Journey Orchestration] 的连接。请参见 [](../action/about-custom-action-configuration.md)。
 
    如果您使用 Adobe Campaign Standard 来发送消息，则需要配置内置操作。请参见 [](../action/working-with-adobe-campaign.md)。
 
