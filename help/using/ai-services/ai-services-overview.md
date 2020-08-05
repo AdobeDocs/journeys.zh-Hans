@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# 关于AI集成 {#ai-overview}
+# 关于 AI 集成 {#ai-overview}
 
 与智能服务的集成使您能够在客户体验使用案例中利用人工智能和机器学习的强大功能。 这使营销分析师能够使用业务级配置设置特定于公司需求的预测，而无需数据科学专业知识。
 
