@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# 在条件中使用细分 {#using-a-segment}
+# 在条件中使用区段 {#using-a-segment}
 
 本节介绍如何在旅程条件中使用区段。 要了解如何在旅程中 **[!UICONTROL Segment qualification]** 使用事件，请参阅 [事件活动](../building-journeys/segment-qualification-events.md)。
 
