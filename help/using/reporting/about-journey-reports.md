@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->投放数据和区段组件仅在您具有Adobe Campaign Standard时才会填充。
+>投放数据和区段组件仅在您拥有Adobe Campaign Standard时才会填充。
 
 本节将向您介绍如何访问和使用报告来衡量您的旅程的有效性。
 
