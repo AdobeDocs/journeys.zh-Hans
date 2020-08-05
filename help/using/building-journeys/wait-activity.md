@@ -72,13 +72,13 @@ ht-degree: 1%
 >
 >电子邮件发送时间优化功能仅适用于使用Adobe Campaign Standard数据服务功能的客户。
 
-此类等待使用在Adobe Experience Platform中计算的得分。 该得分会根据过去的行为计算将来单击或打开电子邮件的倾向。 请注意，计算得分的算法需要一定数量的数据才能工作。 因此，当数据不足时，将应用默认等待时间。 发布时，将通知您默认时间已应用。
+这种等待使用在Adobe Experience Platform计算的得分。 该得分会根据过去的行为计算将来单击或打开电子邮件的倾向。 请注意，计算得分的算法需要一定数量的数据才能工作。 因此，当数据不足时，将应用默认等待时间。 发布时，将通知您默认时间已应用。
 
 >[!NOTE]
 >
 >旅程的第一个事件必须有命名空间。
 >
->此功能仅在活动后可 **[!UICONTROL Email]** 用。 你需要Adobe Campaign Standard。
+>此功能仅在活动后可 **[!UICONTROL Email]** 用。 你得有Adobe Campaign Standard。
 
 1. 在字段 **[!UICONTROL Amount of time]** 中，定义要考虑优化电子邮件发送的小时数。
 1. 在字段 **[!UICONTROL Optimization type]** 中，选择优化应增加单击还是打开次数。
