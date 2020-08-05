@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 高级表达式编辑器是对时间序列执行查询(如购买列表或过去单击消息)的必备工具。 无法使用简单编辑器执行此类查询。
 
-体验事件从Adobe Experience Platform中检索为按时间倒序排列的集合，因此：
+体验事件从Adobe Experience Platform以相反的时间顺序作为集合进行检索，因此：
 
 * 第一个函数将返回最近的事件
 * 最后一个函数将返回最旧的函数。
@@ -117,7 +117,7 @@ ht-degree: 1%
     .name} == &quot;Arlington&quot;
     &quot;
 
-说明： 这是严格字符串比较（区分大小写），等同于在简单模式下使用选中项的 `equal to` 查询 `Is sensitive` 符。
+说明： 这是严格字符串比较（区分大小写），等同于在简单模式下使用 `equal to` 选中 `Is sensitive` 项的查询。
 
 未选中的同一查询 `Is sensitive` 将在高级模式下生成以下表达式:
 
