@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ## 使用用户档案定义旅程时区 {#timezone-from-profiles}
 
-如果旅程的进入事件具有命名空间，即旅程可以到达Adobe Experience Platform的实时客户用户档案服务，则时区将预定义为在旅程中流入的个人用户档案中指定的时区。
+如果旅程的进入事件具有命名空间，即旅程可以到达Adobe Experience Platform的实时客户用户档案服务，则时区将用流入旅程的个人用户档案中指定的时区进行预定义。
 
 如果在Adobe Experience Platform用户档案中定义了时区，则可以在旅程中检索该时区。
 
