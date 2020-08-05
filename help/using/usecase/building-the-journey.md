@@ -25,13 +25,13 @@ ht-degree: 1%
 
 * 两个 **[!UICONTROL Event]** 活动: &quot;LobbyBeacon&quot;和&quot;RestaurantBeacon&quot;
 * 两个 **[!UICONTROL Condition]** 活动
-* 三个 **[!UICONTROL Push]** 活动和一个 **[!UICONTROL Email]** 活动(使用Adobe Campaign Standard)
+* 三名 **[!UICONTROL Push]** 活动和一名 **[!UICONTROL Email]** 活动(使用Adobe Campaign Standard)
 * a **[!UICONTROL Wait]** activity
 * 四个 **[!UICONTROL End]** 活动
 
 >[!NOTE]
 >
->只有 **[!UICONTROL Push]** 具 **[!UICONTROL Email]** 有Adobe Campaign Standard时，调色板中才提供这些和活动。
+>只有在 **[!UICONTROL Push]** 您有 **[!UICONTROL Email]** Adobe Campaign Standard时，调色板中才提供这些和活动。
 
 有关如何构建旅程的其他信息，请参阅 [](../building-journeys/journey.md)。
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
    ![](../assets/journeyuc2_15.png)
 
-1. 单 **[!UICONTROL Advanced mode]** 击并根据Adobe Experience Platform数据源中的“timestamp”和“directMarketing.sends.value”字段定义以下条件。 表达式的语法为：
+1. 单 **[!UICONTROL Advanced mode]** 击并根据来自Adobe Experience Platform数据源的“timestamp”和“directMarketing.sends.value”字段定义以下条件。 表达式的语法为：
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
