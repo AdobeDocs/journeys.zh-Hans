@@ -33,7 +33,7 @@ ht-degree: 12%
 
 ## 先决条件{#prerequisites}
 
-为了我们的用例，我们设计了一个Adobe Campaign Standard的电子邮件交易消息模板。 我们使用事件事务消息模板。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+为了我们的用例，我们在Adobe Campaign Standard设计了一个电子邮件交易消息模板。 我们使用事件事务消息模板。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard配置为发送电子邮件。
 
