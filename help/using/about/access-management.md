@@ -142,7 +142,7 @@ ht-degree: 96%
 [!DNL Journey Orchestration] 允许您将实例分区为称为沙箱的分隔虚拟环境。
 沙箱通过 Admin Console 中的产品用户档案进行分配。有关如何分配沙箱的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 反映为给定组织创建的Adobe Experience Platform沙箱。
-Adobe Experience Platform沙箱可以从Adobe Experience Platform实例创建或重置。 有关详细步骤，请参阅[沙箱用户指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/sandbox/ui/user-guide.html)。
+[!DNL Journey Orchestration] 反映了为特定组织创建的Adobe Experience Platform沙箱。
+Adobe Experience Platform沙箱可以从您的Adobe Experience Platform实例创建或重置。 有关详细步骤，请参阅[沙箱用户指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/sandbox/ui/user-guide.html)。
 
 您可以在屏幕左上角找到沙箱切换器控件。要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
