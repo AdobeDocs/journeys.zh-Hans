@@ -75,7 +75,7 @@ ht-degree: 95%
          + [使用自定义操作](using/building-journeys/using-custom-actions.md)
    + [测试旅程](using/building-journeys/testing-the-journey.md)
    + [发布旅程](using/building-journeys/publishing-the-journey.md)
-   + 使用Adobe Experience Platform共享旅程步骤 {#sharing-journey-steps}
+   + 与Adobe Experience Platform共享旅程步骤 {#sharing-journey-steps}
       + [旅程步骤共享概述](using/building-journeys/sharing-overview.md)
       + [journeySteps 事件常用字段](using/building-journeys/sharing-common-fields.md)
       + [journeyStep 事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
