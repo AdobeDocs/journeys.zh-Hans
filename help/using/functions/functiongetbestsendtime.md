@@ -23,7 +23,7 @@ ht-degree: 2%
 
 为向个人发送电子邮件提供最佳时间的预测时间。
 
-此函数使用在Adobe Experience Platform中计算的得分。 该得分会根据过去的行为计算将来单击或打开电子邮件的倾向。 请注意，计算得分的算法需要一定数量的数据才能工作。 因此，当它没有足够的数据时，将应用默认时间。 For more information, see [](../building-journeys/wait-activity.md).
+此函数使用在Adobe Experience Platform计算的得分。 该得分会根据过去的行为计算将来单击或打开电子邮件的倾向。 请注意，计算得分的算法需要一定数量的数据才能工作。 因此，当它没有足够的数据时，将应用默认时间。 For more information, see [](../building-journeys/wait-activity.md).
 
 要使用此函数，需 [要命名空间](../event/selecting-the-namespace.md) 。
 
