@@ -87,7 +87,7 @@ ht-degree: 1%
 
 如果从外部数据源中选择一个需要调用参数的字段，则右侧会显示一个新选项卡，用于指定此参数。 请参见 [](../expression/expressionadvanced.md)。
 
-对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用关键字参数定义其 _值_。 参数可以是任何有效表达式，即使来自另一个数据源也可以是另一个参数。
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. 参数可以是任何有效表达式，即使来自另一个数据源也可以是另一个参数。
 
 >[!NOTE]
 >
