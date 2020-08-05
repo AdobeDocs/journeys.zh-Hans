@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果在发布时间或测试模式Adobe Campaign Standard时画布中存在现成激活操作活动，则旅程将在每秒13个入口时进行限流。 <br>如果在发布时或测试模式Adobe Campaign Standard时画布中没有现成的活动，则旅程将以每秒1000事件限制。
+>如果在发布时间或测试模式Adobe Campaign Standard时画布中存在激活现成的操作活动，则旅程将在每秒13个入口处被限制。 <br>如果在发布时间或测试模式Adobe Campaign Standard时画布中不存在激活现成操作活动，则旅程将以每秒1000事件限制。
 
 区段触发活动允许您让属于Adobe Experience Platform区段的所有个人进入旅程。 进入旅程可以执行一次，也可以定期执行。
 
-假设您在Adobe Experience Platform方面拥有黄金客户细分。 利用细分触发活动，您可以让黄金客户细分的所有个人进入旅程，并使其进入个性化旅程，利用所有旅程功能： 条件、计时器、事件、动作。
+假设您在Adobe Experience Platform拥有黄金客户细分。 利用细分触发活动，您可以让黄金客户细分的所有个人进入旅程，并使其进入个性化旅程，利用所有旅程功能： 条件、计时器、事件、动作。
 
 ## 配置活动 {#configuring-segment-trigger-activity}
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. 在字 **[!UICONTROL Segment]** 段中，选择将进入旅程的Adobe Experience Platform区段，然后单击 **[!UICONTROL Save]**。
+1. 在字段 **[!UICONTROL Segment]** 中，选择将进入旅程的Adobe Experience Platform区段，然后单击 **[!UICONTROL Save]**。
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -73,6 +73,6 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >请记住，Adobe Experience Platform细分每天计算一次(批&#x200B;**细分** )或实时计算(流&#x200B;**化细分** )。
+   >请记住，Adobe Experience Platform区段是每天计算一次(**批** 区段)或实时计算&#x200B;**(流** 区段)。
    >
-   >如果对所选区段进行流处理，属于此区段的个人可能会实时进入该旅程。 如果区段为批，则新符合此区段资格的人员将潜在地在对Adobe Experience Platform执行区段计算时进入旅程。
+   >如果对所选区段进行流处理，属于此区段的个人可能会实时进入该旅程。 如果区段为批，则新符合此区段资格的人员将潜在地在在Adobe Experience Platform执行区段计算时进入旅程。
