@@ -21,17 +21,17 @@ ht-degree: 2%
 
 # 使用 Adobe Campaign {#using_adobe_campaign_standard}
 
-您可以使用Adobe Campaign Standard的事务消息功能发送电子邮件、推送通知和短信。
+您可以使用Adobe Campaign Standard的交易消息功能发送电子邮件、推送通知和短信。
 
-[!DNL Journey Orchestration] 附带现成操作，允许连接到Adobe Campaign Standard。
+[!DNL Journey Orchestration] 附带现成操作，允许与Adobe Campaign Standard建立连接。
 
 必须发布Campaign Standard事务性消息及其关联事件，才能用于Journey Orchestration。 如果事件已发布，但消息未发布，则Journey Orchestration界面中将不显示该消息。 如果消息已发布，但其关联的事件不可用，则消息将显示在Journey Orchestration界面中，但将不可用。
 
 >[!NOTE]
 >
->为避免Adobe Campaign Standard事务消息传递过载，建议为Campaign Standard集 **成设置** 上限规则。
+>为避免超载Adobe Campaign Standard事务消息传递，建议为 **Campaign Standard集成设** 置上限规则。
 >
->阅读Adobe Campaign Standard产品说明，了解有关事务 [性消息SLA的更多信息](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。
+>阅读Adobe Campaign Standard产品说明，了解有关交易 [消息SLA的更多信息](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。
 
 下面是配置它的步骤：
 
