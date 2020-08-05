@@ -21,11 +21,11 @@ ht-degree: 14%
 
 # 配置数据源 {#concept_vml_hdy_w2b}
 
-在我们的使用案例中，我们希望将个性化数据用于我们的消息。 我们还需要检查此人是否是忠诚会员，且过去24小时内未联系过他。 此信息存储在实时客户用户档案库中。 技 **术用户** 需要配置Adobe Experience Platform数据源以检索这些字段。
+在我们的使用案例中，我们希望将个性化数据用于我们的消息。 我们还需要检查此人是否是忠诚会员，且过去24小时内未联系过他。 此信息存储在实时客户用户档案库中。 技 **术用户需** 要配置Adobe Experience Platform数据源以检索这些字段。
 
 有关数据源配置的其他信息，请参阅 [](../datasource/about-data-sources.md)。
 
-1. 在顶部菜单中，单击 **[!UICONTROL Data Sources]** 选项卡，然后选择内建Adobe Experience Platform数据源。
+1. 在顶部菜单中，单击选 **[!UICONTROL Data Sources]** 项卡并选择内置的Adobe Experience Platform数据源。
 
    ![](../assets/journey23.png)
 
@@ -43,7 +43,7 @@ ht-degree: 14%
 
    ![](../assets/journeyuc2_7.png)
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击 **[!UICONTROL Save]**.
 
 我们还需要检查该人在酒店预订系统中是否有预订。 技 **术用户** 需要配置第二个数据源以检索此字段。
 
@@ -77,6 +77,6 @@ ht-degree: 14%
 
    ![](../assets/journeyuc2_11.png)
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击 **[!UICONTROL Save]**.
 
    数据源现已配置好，可随时用于您的旅程。
