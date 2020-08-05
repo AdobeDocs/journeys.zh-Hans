@@ -26,7 +26,7 @@ ht-degree: 86%
 
 ## 2020 年 7 月 {#july-2020}
 
-* 添加了指向新教程视频的链接，该视频在步骤事件报告到Adobe Experience Platform。 [阅读更多](../building-journeys/sharing-overview.md)
+* 添加了一个链接，指向有关步骤事件报告到Adobe Experience Platform的新教程视频。 [阅读更多](../building-journeys/sharing-overview.md)
 * 事件活动部分已重新组织为每种事件的专用子部分。 [阅读更多](../building-journeys/event-activities.md)
 * 添加了最佳实践，以避免因细分质量而过载。 [阅读更多](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 添加了注释，以说明如何在操作或条件出现错误后继续旅程。 [阅读更多](../about/troubleshooting.md#section_h3q_kqk_fhb)
