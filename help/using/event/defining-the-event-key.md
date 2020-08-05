@@ -41,6 +41,6 @@ ht-degree: 4%
 
    ![](../assets/journey20.png)
 
-当收到事件时，密钥的值将允许系统识别与事件关联的人。 与命名空间关联(请参 [](../event/selecting-the-namespace.md)阅)，该密钥可用于对Adobe Experience Platform执行查询。 请参见 [](../building-journeys/about-orchestration-activities.md)。钥匙还用于检查某人是否在旅程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许在同一旅程的不同位置使用相同的密钥，例如密钥CRMID=3224。
+当收到事件时，密钥的值将允许系统识别与事件关联的人。 与命名空间关联(请参 [](../event/selecting-the-namespace.md)阅)，密钥可用于在Adobe Experience Platform上执行查询。 请参见 [](../building-journeys/about-orchestration-activities.md)。钥匙还用于检查某人是否在旅程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许在同一旅程的不同位置使用相同的密钥，例如密钥CRMID=3224。
 
 如果要执行其他操作，您还&#x200B;**[!UICONTROL Advanced mode]**&#x200B;有权访问高级表达式函数()。 这些函数允许您处理用于执行特定查询的值，例如更改格式、执行字段连接，只考虑字段的一部分（例如10个前字符）。 请参见 [](../expression/expressionadvanced.md)。
