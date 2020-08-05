@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ## Creating a test profile{#create-test-profile}
 
-创建测试用户档案的过程与在Adobe Experience Platform中创建用户档案的过程相同。 它通过API调用执行。 查看此 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
+创建测试用户档案的过程与在Adobe Experience Platform创建用户档案的过程相同。 它通过API调用执行。 See this [page](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
 
 必须使用包含“用户档案测试详细信息”混音的用户档案模式。 testProfile标志是此混音的一部分。
 
@@ -119,7 +119,7 @@ curl -X POST \
 >
 >在测试模式下触发事件时，会生成一个真实的事件，这意味着它还会触及其他侦听此事件的旅程。
 
-作为入门项目，您必须知道哪些用户档案在Adobe Experience Platform中被标记为测试用户档案。 事实上，测试模式只允许旅程中的这些用户档案,事件必须包含ID。 所需的ID取决于事件配置。 例如，它可以是ECID。
+作为入门项目，您必须知道哪些用户档案在Adobe Experience Platform标记为测试用户档案。 事实上，测试模式只允许旅程中的这些用户档案,事件必须包含ID。 所需的ID取决于事件配置。 例如，它可以是ECID。
 
 如果您的旅程包含多个事件，请使用下拉列表选择事件。 然后，为每个事件配置所传递的字段和执行事件发送。 该接口可帮助您在事件有效负荷中传递正确的信息，并确保信息类型正确。 测试模式保存测试会话中使用的最后一个参数以供以后使用。
 
