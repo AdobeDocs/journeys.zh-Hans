@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # 反应事件 {#section_dhx_gss_dgb}
 
-在调色板中提供的不同事件活动中，您会找到内置的 **[!UICONTROL Reactions]** 事件。 此活动允许您对与通过电子邮件、短信发送的消息相关的跟踪数据做出响应，或在同一旅程中推送活动。 此信息来自Adobe Campaign Standard中的交易消息传递。 我们会在与Adobe Experience Platform共享信息时实时捕获这些信息。 对于推送通知，您可以对单击、发送或失败的消息做出响应。 对于SMS消息，您可以对已发送或失败的消息做出响应。 对于电子邮件，您可以对单击、发送、打开或失败的消息做出响应。
+在调色板中提供的不同事件活动中，您会找到内置的 **[!UICONTROL Reactions]** 事件。 此活动允许您对与通过电子邮件、短信发送的消息相关的跟踪数据做出响应，或在同一旅程中推送活动。 此信息来自Adobe Campaign Standard的交易消息。 我们在与Adobe Experience Platform分享时实时捕获这些信息。 对于推送通知，您可以对单击、发送或失败的消息做出响应。 对于SMS消息，您可以对已发送或失败的消息做出响应。 对于电子邮件，您可以对单击、发送、打开或失败的消息做出响应。
 
 您还可以使用此机制在消息没有反应时执行操作。 为此，请创建与反应活动平行的第二条路径并添加等待活动。 如果在等待活动中定义的期间内没有反应，则将选择第二条路径。 例如，您可以选择发送后续消息。
 
@@ -40,7 +40,7 @@ See [About action activities](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
->反应事件可与Adobe Campaign Standard协作，无论其部署在AWS或Azure服务器上。
+>反应事件可以与Adobe Campaign Standard合作，无论是部署在AWS还是Azure服务器上。
 >
 >反应事件无法跟踪不同旅程中发生的电子邮件、短信或推送操作。
 >
