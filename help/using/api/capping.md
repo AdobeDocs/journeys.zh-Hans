@@ -36,7 +36,7 @@ ht-degree: 1%
 
 要将此API用 [!DNL Journey Orchestration] 于您的实例，您需要使用AdobeI/O控制台。 您可以通过以下方式进行 [开始：开始使用Adobe开](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 发人员控制台，然后使用本页中的各个部分。
 
-要测试和准备集成，此处提供邮递员 [集合](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
+要测试和准备集成，此处提供Postman [集合](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 ## 身份验证
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 >要在AdobeI/O中管理证书，请确保您对组织 <b>或Admin Console中的</b> System Administrator [权限](https://helpx.adobe.com/enterprise/using/manage-developers.html) ，或者拥有Developer帐户。
 
 1. **检查您有数字证书**，或根据需要创建数字证书。 在以下步骤中需要随证书提供的公钥和私钥。
-1. **在AdobeI/O中创[!DNL Journey Orchestration]建与** Service的新集成并进行配置。 需要产品用户档案访问，以 [!DNL Journey Orchestration] 及Adobe Experience Platform。 随后将生成您的凭据（API密钥、客户端机密……）。
+1. **在AdobeI/O中创[!DNL Journey Orchestration]建与** Service的新集成并进行配置。 产品用户档案访问对于和 [!DNL Journey Orchestration] Adobe Experience Platform。 随后将生成您的凭据（API密钥、客户端机密……）。
 1. **从先前生成的凭据创建JSON Web** Token(JWT)，然后使用您的私钥对其进行签名。 JWT对Adobe验证您的身份并授予您对API的访问权限时所需的所有身份和安全信息进行编码。 此步骤详见本 [节](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **通过访问令牌请求或通过** “开发人员控制台界面”将JWT交换为POST。 此访问令牌必须用于API请求的每个头中。
 
