@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 ## 旅程列表 {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. 您可以重复、停止或删除您的旅程。某些操作可能不可用，具体取决于旅程。例如，您无法删除或重新启动已关闭的旅程。 您可以从中创建新版本、重复或停止它。 您还可以使用搜索栏搜索旅程。
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. 您可以重复、停止或删除您的旅程。某些操作可能不可用，具体取决于旅程。例如，您无法删除或重新启动已关闭的旅程。您可以从中创建新版本、重复或停止它。 您还可以使用搜索栏搜索旅程。
 
 单击列表左上角的过滤器图标即可访问&#x200B;**[!UICONTROL Filters]**。过滤器菜单允许您根据不同的条件（状态、您创建的、在过去30天内修改的、仅限最新版本等）筛选显示的旅程。 您还可以选择仅显示使用特定事件、字段组或操作的旅程。 可以配置列表上显示的列。 所有过滤器和列均按用户保存。
 
