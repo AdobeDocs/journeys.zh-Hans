@@ -1,6 +1,6 @@
 ---
-title: journeyStep事件数据提取字段
-description: journeyStep事件数据提取字段
+title: journeyStep 事件数据提取字段
+description: journeyStep 事件数据提取字段
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# journeyStep事件数据提取字段 {#sharing-fetch-fields}
+# journeyStep 事件数据提取字段 {#sharing-fetch-fields}
 
 此混音将由journeyStepEvent和journeyStepProfileEvent共享。
 
