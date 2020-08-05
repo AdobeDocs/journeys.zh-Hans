@@ -27,7 +27,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->在此用例中，我们使用Adobe Campaign Standard发送消息。
+>在这种情况下，我们使用Adobe Campaign Standard发送消息。
 
 在此用例中，我们将了解如何在客户靠近特定信标时实时向其发送个性化消息。
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 
 ## 先决条件{#prerequisites}
 
-为了我们的用例，我们设计了三个Adobe Campaign Standard事务消息模板。 我们使用事件事务消息模板。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+为了我们的用例，我们设计了三个Adobe Campaign Standard交易消息模板。 我们使用事件事务消息模板。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard配置为发送电子邮件和推送通知。
 
