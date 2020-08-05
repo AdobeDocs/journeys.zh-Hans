@@ -35,22 +35,22 @@ ht-degree: 85%
 <tbody>
 <tr>
 <td>
-<p>已进行以下Adobe Experience Platform集成增强：</p>
+<p>已增强以下Adobe Experience Platform集成：</p>
 <ul>
-<li><p>新活动允许监听Adobe Experience Platform段的入口／出口，让客户进入或前进旅程。 <a href="../building-journeys/segment-qualification-events.md">阅读更多</a></p>
+<li><p>新活动允许您聆听Adobe Experience Platform区段入口／出口，让客户在旅程中进入或前进。 <a href="../building-journeys/segment-qualification-events.md">阅读更多</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
 <li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">阅读更多</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>在简单的表达式编辑器中，Adobe Experience Platform段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于段A?”。<a href="../segment/using-a-segment.md">阅读更多</a></p>
+<li><p>在简单的表达式编辑器中，Adobe Experience Platform区段现在直接列在导航树中，以便轻松设置条件，如“此人是否属于区段A?”。<a href="../segment/using-a-segment.md">阅读更多</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration现在自动将在旅程中执行的步骤传递给Adobe Experience Platform。 这包括遇到的潜在错误。此信息可用于通过对特定旅程或所有旅程的旅程步骤事件执行查询，从而实现报告和故障排除。<a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
+<li><p>Journey Orchestration现在自动传递到Adobe Experience Platform，在旅程中执行的步骤。 这包括遇到的潜在错误。此信息可用于通过对特定旅程或所有旅程的旅程步骤事件执行查询，从而实现报告和故障排除。<a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration现在可以连接到生产和非生产Adobe Experience Platform沙箱。 请注意，沙箱是测试版功能。<a href="../about/access-management.md#sandboxes">阅读更多</a></p>
+<li><p>Journey Orchestration现在可以连接到生产和非生产的Adobe Experience Platform沙箱。 请注意，沙箱是测试版功能。<a href="../about/access-management.md#sandboxes">阅读更多</a></p>
 </li>
 </td>
 </tr>
