@@ -208,7 +208,7 @@ _`<listExpression>.last(<condition>)`_
 
 >[!NOTE]
 >
->体验事件从Adobe Experience Platform中以相反的时间顺序检索为集合，因此：
+>体验事件从Adobe Experience Platform以相反的时间顺序作为集合进行检索，因此：
 >* **[!UICONTROL first]** 函数将返回最近的事件
 >* **[!UICONTROL last]** 函数将返回最旧的函数。
 
