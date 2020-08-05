@@ -21,7 +21,7 @@ ht-degree: 97%
 
 利用存储在事件或数据源中的情境数据构建实时编排用例。
 
-[!DNL Journey Orchestration] 是与Adobe Experience Platform集成的应用程序服务。
+[!DNL Journey Orchestration] 是与Adobe Experience Platform集成的应用服务。
 
 ![](../assets/journeydiagram.png)
 
