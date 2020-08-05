@@ -27,7 +27,7 @@ ht-degree: 9%
 
 这些活动代表各种的可用通信渠道。您可以将它们组合在一起，以创建跨渠道场景。
 
-如果您有Adobe Campaign Standard，可以使用以下现成操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 请参见 [](../building-journeys/using-adobe-campaign-actions.md)。
+如果您有Adobe Campaign Standard，可使用以下现成的操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 请参见 [](../building-journeys/using-adobe-campaign-actions.md)。
 
 如果已配置自定义操作，则它们也将显示在此处(请参 [](../building-journeys/using-custom-actions.md)阅)。
 
