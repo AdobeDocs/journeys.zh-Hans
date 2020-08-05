@@ -25,12 +25,12 @@ ht-degree: 4%
 
 * “SpaBeacon” **[!UICONTROL Event]**: 当一个人在spa信标附近走路时，系统将收到事件，而旅程将为该人开始。
 * 一 **[!UICONTROL Condition]** 名活动，检查此人是否是女人
-* 活动 **[!UICONTROL Email]** (使用Adobe Campaign Standard)
+* 活动( **[!UICONTROL Email]** 使用Adobe Campaign Standard)
 * an **[!UICONTROL End]** activity
 
 >[!NOTE]
 >
->只有 **[!UICONTROL Push]** 具 **[!UICONTROL Email]** 有Adobe Campaign Standard时，调色板中才提供这些和活动。
+>只有在 **[!UICONTROL Push]** 您有 **[!UICONTROL Email]** Adobe Campaign Standard时，调色板中才提供这些和活动。
 
 有关如何构建旅程的其他信息，请参阅 [](../building-journeys/journey.md)。
 
