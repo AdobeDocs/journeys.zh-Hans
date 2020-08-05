@@ -1,5 +1,5 @@
 ---
-title: Alpha功能概述
+title: Alpha 功能概述
 description: 进一步了解Alpha版Journey Orchestration。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Alpha功能概述
+# Alpha 功能概述
 
 Alpha项目优惠功能目前在有限的一组客户中进行测试。 这样，我们就可以根据收到的反馈来改进我们的产品。 并非所有Journey Orchestration客户都可使用这些功能。
 
