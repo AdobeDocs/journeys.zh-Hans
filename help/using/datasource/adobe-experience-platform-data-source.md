@@ -33,7 +33,7 @@ Adobe Experience Platform数据源定义与实时客户用户档案服务的连�
 
 以下是向内置数据源添加字段组的主要步骤。
 
-1. 从列表数据源中，选择内置Adobe Experience Platform数据源。
+1. 从数据源列表中，选择内置的Adobe Experience Platform数据源。
 
    这将打开屏幕右侧的数据源配置窗格。
 
@@ -43,7 +43,7 @@ Adobe Experience Platform数据源定义与实时客户用户档案服务的连�
 
    ![](../assets/journey24.png)
 
-1. 从下拉菜单中选择 **[!UICONTROL Schema]** 一个模式。 此字段提供列表用户档案和体验事件模式。 模式创建不在中执 [!DNL Journey Orchestration]行。 它在Adobe Experience Platform中执行。
+1. 从下拉菜单中选择 **[!UICONTROL Schema]** 一个模式。 此领域提供列表用户档案和体验事件模式(在Adobe Experience Platform)。 模式创建不在中执 [!DNL Journey Orchestration]行。 它在Adobe Experience Platform演出。
 1. 选择要使用的字段。
 1. 定义缓存持续时间。
 1. 单击 **[!UICONTROL Save]**。
