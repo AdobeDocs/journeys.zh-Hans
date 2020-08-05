@@ -21,13 +21,13 @@ ht-degree: 4%
 
 # 使用 Adobe Campaign 操作 {#using_campaign_action}
 
-如果您有Adobe Campaign Standard，可以使用以下现成操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。
+如果您有Adobe Campaign Standard，可使用以下现成的操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。
 
 >[!NOTE]
 >
 >为此，您需要配置内置操作。 请参阅[](../action/working-with-adobe-campaign.md)。
 
-对于这些渠道中的每个，您都可以选择Adobe Campaign Standard事务消息 **传递模板**。 事实上， [!DNL Journey Orchestration] 这并不是传递解决方案的信息。 对于内置电子邮件、短信和推送渠道，我们依靠交易消息来执行消息发送。 这意味着，如果要在旅程中使用特定消息模板，则必须以Adobe Campaign Standard发布该模板。 请参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) ，了解如何使用此功能。
+对于这些渠道，您选择一个Adobe Campaign Standard事务消息 **模板**。 事实上， [!DNL Journey Orchestration] 这并不是传递解决方案的信息。 对于内置电子邮件、短信和推送渠道，我们依靠交易消息来执行消息发送。 这意味着，如果要在旅程中使用特定消息模板，则必须在Adobe Campaign Standard发布该模板。 请参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) ，了解如何使用此功能。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->此类别仅在您选择“事件”事务性消息时才可见。 对于“用户档案”消息，系 **[!UICONTROL Address]** 统会从Adobe Campaign Standard中自动检索字段。
+>此类别仅在您选择“事件”事务性消息时才可见。 对于“用户档案”消息， **[!UICONTROL Address]** 系统将自动从Adobe Campaign Standard检索该字段。
 
 这些字段是系统需要知道消息的发送位置的字段。 对于电子邮件模板，它是电子邮件地址。 对于SMS，它是手机号码。
 
@@ -109,4 +109,4 @@ ht-degree: 4%
 >
 >您无法在个性化数据中传递集合。 如果交易推送需要集合，则它将不起作用。 另请注意，个性化数据具有预期的格式(例如： 字符串、小数等)。 必须注意遵守这些预期格式。
 
-这些字段是Adobe Campaign Standard消息中使用的事务模板应用的字段。 这些字段可用于个性化您的消息、应用条件格式或选择特定的消息变体。
+这些是您的Adobe Campaign Standard消息中使用的事务模板所需的字段。 这些字段可用于个性化您的消息、应用条件格式或选择特定的消息变体。
