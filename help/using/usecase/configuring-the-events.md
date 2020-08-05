@@ -55,7 +55,7 @@ ht-degree: 2%
 
    ![](../assets/journeyuc2_4bis.png)
 
-1. 单击 **[!UICONTROL Save]**。
+1. 单击 **[!UICONTROL Save]**.
 
 1. 单击该 **[!UICONTROL View Payload]** 图标以预览系统预期的有效负荷，并将其共享给负责事件发送的人员。  此负载需要在Mobile Services管理控制台的回传中配置。
 
