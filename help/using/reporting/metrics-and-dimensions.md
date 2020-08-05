@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->投放数据仅在您具有Adobe Campaign Standard时填充。
+>投放数据仅在您有Adobe Campaign Standard时填充。
 
 您可以在此处找到动态报表中每个可用组件的列表及其定义。
 
