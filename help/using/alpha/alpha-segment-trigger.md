@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
+source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 区段触发活动允许您让属于Adobe Experience Platform区段的所有个人进入旅程。 进入旅程可以执行一次，也可以定期执行。
 
-假设您在Adobe Experience Platform拥有黄金客户细分。 利用细分触发活动，您可以让黄金客户细分的所有个人进入旅程，并使其进入个性化旅程，利用所有旅程功能： 条件、计时器、事件、动作。
+假设您在Adobe Experience Platform拥有黄金客户细分。 利用细分触发活动，您可以让黄金客户细分的所有个人进入旅程，并使其进入个性化旅程，利用所有旅程功能：条件、计时器、事件、动作。
 
 ## 配置活动 {#configuring-segment-trigger-activity}
 
@@ -41,6 +41,8 @@ ht-degree: 1%
 
    活动必须定位为旅程的第一步。
 
+1. 添加 **[!UICONTROL Label]** 到活动。 此步骤是可选的。
+
 1. 配置活动 **[!UICONTROL Scheduler type]**。
 
    默认情况下，区段将进入旅程， **[!UICONTROL As soon as possible]**&#x200B;即在旅程发布后1小时进入。 如果要让区段在特定日期／时间或定期输入旅程，请从列表中选择所需的选项。
@@ -51,7 +53,17 @@ ht-degree: 1%
 
 1. 在字段 **[!UICONTROL Segment]** 中，选择将进入旅程的Adobe Experience Platform区段，然后单击 **[!UICONTROL Save]**。
 
+   >[!NOTE]
+   >
+   >请注意，您可以自定义列表中显示的列，并对其进行排序。
+
    ![](../assets/segment-trigger-segment-selection.png)
+
+   添加区段后，该按 **[!UICONTROL Copy]** 钮允许您复制其名称和ID:
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. 在字 **[!UICONTROL Namespace]** 段中，选择要使用的命名空间以识别个人。 For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 
