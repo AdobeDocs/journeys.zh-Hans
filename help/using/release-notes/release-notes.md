@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -181,7 +181,7 @@ Journey Orchestration 界面提供日语版。
 
 **其他改进**
 
-* 除美国以外，Journeys Orchestration 也在&#x200B;**欧洲、中东和非洲地区**&#x200B;提供。应用程序和文档提供法语和德语两个版本。
+* In addition to US, Journey Orchestration is now available in **EMEA**. 应用程序和文档提供法语和德语两个版本。
 
 * Experience League 现已集成到产品中。这简化了对相关内容的访问，并有助于您充分利用 Experience Cloud。直接访问“帮助”选项卡底部的 Journey Orchestration 文档。此外，单击“帮助”>“反馈”以报告问题或与 Adobe 分享您的想法。
 
