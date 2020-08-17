@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '590'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： toDateTimeOnly(@{事件.offerOpened.活动.endTime}),事件中的字段为2016-08-12T09:46:06。
+>您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{事件.offerOpened.活动.endTime}),事件中的字段为2016-08-12T09:46:06。
 >
 >您 **旅程的属** 性中应包含时区。 因此，今天无法从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参见 [](../building-journeys/timezone-management.md)。
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->电子邮件发送时间优化功能仅适用于使用Adobe Campaign Standard数据服务功能的客户。
+>电子邮件发送时间优化功能仅适用于使用Adobe Experience Platform数据连 [接器的客户](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
 
 这种等待使用在Adobe Experience Platform计算的得分。 该得分会根据过去的行为计算将来单击或打开电子邮件的倾向。 请注意，计算得分的算法需要一定数量的数据才能工作。 因此，当数据不足时，将应用默认等待时间。 发布时，将通知您默认时间已应用。
 
