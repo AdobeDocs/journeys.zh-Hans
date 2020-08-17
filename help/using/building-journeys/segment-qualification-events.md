@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
+source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,17 @@ ht-degree: 0%
 
 1. 单击字段 **[!UICONTROL Segment]** 并选择要利用的区段。
 
+   >[!NOTE]
+   >
+   >请注意，您可以自定义列表中显示的列，并对其进行排序。
+
    ![](../assets/segment6.png)
+
+   添加区段后，该按 **[!UICONTROL Copy]** 钮允许您复制其名称和ID:
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. 在字 **[!UICONTROL Behavior]** 段中，选择您要监听段入口、出口或两者。
 
@@ -59,7 +69,7 @@ ht-degree: 0%
 
 ![](../assets/segment8.png)
 
-## 细分的最佳实践 {#best-practices-segments}
+## 最佳做法 {#best-practices-segments}
 
 该活动 **[!UICONTROL Segment Qualification]** 使得在Adobe Experience Platform地区获得资格或被取消资格的个人的旅程能够立即进入。
 
@@ -73,7 +83,7 @@ ht-degree: 0%
 
 ### 流化细分{#streamed-speed-segment-qualification}
 
-当对流化分段使用分段资格时，由于持续评估分段，导致入口／出口出现较大高峰的风险较小。 但是，如果细分定义导致大量客户同时获得相应资格，则可能也会出现峰值。
+当对流化分段使用分段资格时，由于持续评估分段，导致入口／出口出现较大高峰的风险较小。 但是，如果细分定义导致大量客户同时获得资格，则可能也会出现峰值。
 
 ### 如何避免过载{#overloads-speed-segment-qualification}
 
