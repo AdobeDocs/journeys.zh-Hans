@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 | Dimension | 定义 |
 |--- |--- |
 | **操作** | 列表旅程中使&#x200B;**用的每个操作**（操作名称——操作标签），例如推送——注销确认、电子邮件——奖励保真度。 |
-| **数据源** | 列表用于&#x200B;**在旅程中**（例如Adobe Experience Platform, Reservation System）丰富数据的数据源（数据源名称）。 |
+| **数据源** | 列表用于在旅&#x200B;**程(如Adobe Experience Platform**，预订系统)中扩充数据的数据源（数据源名称）。 |
 | **[!UICONTROL Event]** | 列表旅程中使&#x200B;**用的每个事件(**&#x200B;事件名称-事件标签)，例如Geometrixx事件-Geometrixx结帐。 |
 | **字段组** | 列表用于&#x200B;**旅程中**(例如用户档案字段组、Geometrixx保留系统)的字段组（字段组名称）。 |
 | **旅程** | 列表测试&#x200B;**模式和实**&#x200B;时（如购物车废弃、酒店预订通知）中的每个旅程（旅程名称）。 |
