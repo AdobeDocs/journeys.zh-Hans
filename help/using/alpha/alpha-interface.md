@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ ht-degree: 0%
 
 ## 访问功 [!DNL Journey Orchestration] 能 {#accessing-journey-orchestration-functionalities}
 
+位于左侧的菜单栏允许您访问不同的功能。 单击图标可访问相应的菜单。 单击左下方的箭头可展开或折叠菜单栏。
+
+![](../assets/interface-journeys2.png)
+
 访问时， [!DNL Journey Orchestration]将显 **[!UICONTROL Journeys]** 示菜单，允许您访问现有旅程或创建新旅程。 See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
 
 ![](../assets/interface-journeys.png)
@@ -43,3 +47,4 @@ ht-degree: 0%
 该菜 **[!UICONTROL Admin]** 单对所有具有管理员权限的用户都可用(请参 [阅访问管](../about/access-management.md)理)。 它提供一个仪表板，允许您设 [置数据源](../datasource/about-data-sources.md)、 [事件](../event/about-events.md) 和 [操作](../action/action.md)。
 
 ![](../assets/interface-admin-dashboard.png)
+
