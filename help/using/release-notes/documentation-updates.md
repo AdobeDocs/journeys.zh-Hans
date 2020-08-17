@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 86%
+source-wordcount: '771'
+ht-degree: 78%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 86%
 
 此页面列出了
 [!DNL Journey Orchestration]的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+
+## 2020 年 8 月 {#august-2020}
+
+* 添加了有关如何排序和选择要在区段列表中显示的列的信息。 [阅读更多](../building-journeys/segment-qualification-events.md)
+* 添加了有关在选择区段后如何复制区段名称和ID的信息。 [阅读更多](../building-journeys/segment-qualification-events.md)
+* Experience Platform事件在不同的页面上得到了协调。
 
 ## 2020 年 7 月 {#july-2020}
 
@@ -81,7 +87,7 @@ ht-degree: 86%
 
 * 所有屏幕截图都已更新，以反映界面的更改。
 * 测试模式部分已更新。[阅读更多](../building-journeys/testing-the-journey.md)
-* 在[电子邮件发送时间优化](../building-journeys/wait-activity.md)和[预测性疲劳得分](../ai-services/leveraging-fatigue-scores.md)部分添加了警告。这些功能只适用于使用 Adobe Campaign Standard 数据服务功能的客户。
+* 在[电子邮件发送时间优化](../building-journeys/wait-activity.md)和[预测性疲劳得分](../ai-services/leveraging-fatigue-scores.md)部分添加了警告。这些功能仅适用于使用Adobe Experience Platform数据连 [接器的客户](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
 * 现在可删除已停止的旅程。相关文档页面已更新。
 * 在旅程中检测到问题时，会显示两种颜色。红色表示错误，橙色表示警告。[阅读更多](../about/troubleshooting.md)
 * 高级表达式编辑器部分已更新。[阅读更多](../expression/expressionadvanced.md)。
