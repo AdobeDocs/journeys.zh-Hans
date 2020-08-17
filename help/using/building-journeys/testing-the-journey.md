@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1154'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 必须使用包含“用户档案测试详细信息”混音的用户档案模式。 testProfile标志是此混音的一部分。
 
-创建用户档案时，请确保传递值： testprofile = true。
+创建用户档案时，请确保传递值：testprofile = true。
 
 请注意，您还可以更新现有用户档案，将其testProfile标志更改为“true”。
 
@@ -123,6 +123,10 @@ curl -X POST \
 
 如果您的旅程包含多个事件，请使用下拉列表选择事件。 然后，为每个事件配置所传递的字段和执行事件发送。 该接口可帮助您在事件有效负荷中传递正确的信息，并确保信息类型正确。 测试模式保存测试会话中使用的最后一个参数以供以后使用。
 
+>[!NOTE]
+>
+>请注意， **[!UICONTROL TIMESTAMP]**
+
 ![](../assets/journeytest4.png)
 
 该界面允许您传递简单的事件参数。 如果要在事件中传递集合或其他高级对象，可以单 **[!UICONTROL Code View]** 击查看有效负荷的整个代码并修改它。 例如，您可以复制和粘贴由技术用户准备的事件信息。
@@ -153,19 +157,19 @@ curl -X POST \
 
 此时会显示旅程中当前的个人数（技术上称为实例）。 以下是每个人显示的有用信息：
 
-* _ID_: 旅程中个人的内部ID。 这可用于调试目的。
-* _currentstep_: 个体在旅程中所处的步骤。 我们建议向活动添加标签，以便更轻松地识别它们。
-* _currentstep_ > phase: 个人旅程的状态（正在运行、已完成、错误或超时）。 有关更多信息，请参见下文。
-* _currentstep_ > _extraInfo_: 错误的描述和其他上下文信息。
-* _currentstep_ > _fetchErrors_: 有关此步骤期间发生的提取数据错误的信息。
-* _externalKeys_: 在事件中定义的键公式的值。
-* _exchedData_: 旅程使用数据源时已检索的数据。
-* _transitionHistory_: 个人遵循的步骤列表。 对于事件，将显示有效负荷。
-* _actionExecutionErrors_ : 错误的相关信息。
+* _ID_:旅程中个人的内部ID。 这可用于调试目的。
+* _currentstep_:个体在旅程中所处的步骤。 我们建议向活动添加标签，以便更轻松地识别它们。
+* _currentstep_ > phase:个人旅程的状态（正在运行、已完成、错误或超时）。 有关更多信息，请参见下文。
+* _currentstep_ > _extraInfo_:错误的描述和其他上下文信息。
+* _currentstep_ > _fetchErrors_:有关此步骤期间发生的提取数据错误的信息。
+* _externalKeys_:在事件中定义的键公式的值。
+* _exchedData_:旅程使用数据源时已检索的数据。
+* _transitionHistory_:个人遵循的步骤列表。 对于事件，将显示有效负荷。
+* _actionExecutionErrors_ :错误的相关信息。
 
 以下是个人旅程的不同状态：
 
-* _运行_: 这个人目前正在旅程中。
-* _完成_: 这个人在旅程的尽头。
-* _错误_: 由于出错，个人在旅程中被停止。
-* _超时_: 这个人因为走太多的路，而被停在旅途中。
+* _运行_:这个人目前正在旅程中。
+* _完成_:这个人在旅程的尽头。
+* _错误_:由于出错，个人在旅程中被停止。
+* _超时_:这个人因为走太多的路，而被停在旅途中。
