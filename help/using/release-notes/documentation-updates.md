@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 78%
+source-wordcount: '724'
+ht-degree: 80%
 
 ---
 
@@ -81,13 +81,14 @@ ht-degree: 78%
 ## 2020 年 1 月 {#january-2020}
 
 * 已为[体验事件](../datasource/adobe-experience-platform-data-source.md)和[区段](../functions/functioninsegment.md)添加“获取限制条件”。
-* [getBestSendTime 文档](../functions/functiongetbestsendtime.md)已更新。
+
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## 2019 年 12 月 {#december-2019}
 
 * 所有屏幕截图都已更新，以反映界面的更改。
 * 测试模式部分已更新。[阅读更多](../building-journeys/testing-the-journey.md)
-* 在[电子邮件发送时间优化](../building-journeys/wait-activity.md)和[预测性疲劳得分](../ai-services/leveraging-fatigue-scores.md)部分添加了警告。这些功能仅适用于使用Adobe Experience Platform数据连 [接器的客户](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * 现在可删除已停止的旅程。相关文档页面已更新。
 * 在旅程中检测到问题时，会显示两种颜色。红色表示错误，橙色表示警告。[阅读更多](../about/troubleshooting.md)
 * 高级表达式编辑器部分已更新。[阅读更多](../expression/expressionadvanced.md)。
