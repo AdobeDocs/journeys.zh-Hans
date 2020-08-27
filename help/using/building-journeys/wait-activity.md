@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 1%
+source-wordcount: '377'
+ht-degree: 2%
 
 ---
 
@@ -26,13 +26,14 @@ ht-degree: 1%
 * [持续时间](#duration)
 * [固定日期](#fixed_date)
 * [自定义](#custom)
-* [电子邮件发送时间优化](#email_send_time_optimization)
+
+<!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## 关于等待活动{#about_wait}
 
 以下是在您同时使用多个等待时，如何排定等待的优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则上述位置的等待将是优先顺序。 例如，第一次等待的条件是“女人”，而第二次并行等待的条件是“VIP”。 第一个等待活动将优先
 
-另请注意，如果两个不同的等待是并行的，则无论其垂直位置如何，都将优先排列第一个出现的等待。 例如，如果上方等待1小时，下方等待30分钟，则在30分钟后，将处理30分钟的等待。
+另请注意，如果两个不同的等待是并行的，则无论其垂直位置如何，都将优先排列第一个出现的等待。 例如，如果上面有1小时的等待，下面有30分钟的等待，30分钟后，将处理30分钟的等待。
 
 如果要将等待限制到特定人群，可以定义一个条件。
 
@@ -66,26 +67,26 @@ ht-degree: 1%
 
 ![](../assets/journey57.png)
 
-## 电子邮件发送时间优化{#email_send_time_optimization}
+<!--## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
->电子邮件发送时间优化功能仅适用于使用Adobe Experience Platform数据连 [接器的客户](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)。
+>The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-这种等待使用在Adobe Experience Platform计算的得分。 该得分会根据过去的行为计算将来单击或打开电子邮件的倾向。 请注意，计算得分的算法需要一定数量的数据才能工作。 因此，当数据不足时，将应用默认等待时间。 发布时，将通知您默认时间已应用。
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
 >[!NOTE]
 >
->旅程的第一个事件必须有命名空间。
+>The first event of your journey must have a namespace.
 >
->此功能仅在活动后可 **[!UICONTROL Email]** 用。 你得有Adobe Campaign Standard。
+>This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
 
-1. 在字段 **[!UICONTROL Amount of time]** 中，定义要考虑优化电子邮件发送的小时数。
-1. 在字段 **[!UICONTROL Optimization type]** 中，选择优化应增加单击还是打开次数。
-1. 在字 **[!UICONTROL Default time]** 段中，定义预测发送时间得分不可用时的默认等待时间。
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
 
-   >[!NOTE]
-   >
-   >请注意，发送时间得分可能不可用，因为没有足够的数据来执行计算。 在这种情况下，将在发布时通知您应用默认时间。
+    >[!NOTE]
+    >
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)
+![](../assets/journey57bis.png)-->
