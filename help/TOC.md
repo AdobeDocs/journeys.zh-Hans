@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Journey Orchestration 帮助
 index: true
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 95%
@@ -63,7 +63,7 @@ ht-degree: 95%
          + [关于事件活动](using/building-journeys/event-activities.md)
          + [一般事件](using/building-journeys/general-events.md)
          + [反应事件](using/building-journeys/reaction-events.md)
-         + [细分资格事件](using/building-journeys/segment-qualification-events.md)
+         + [区段鉴别事件](using/building-journeys/segment-qualification-events.md)
       + 编排活动 {#orchestration-activities}
          + [关于编排活动](using/building-journeys/about-orchestration-activities.md)
          + [条件活动](using/building-journeys/condition-activity.md)
@@ -184,6 +184,6 @@ ht-degree: 95%
 + Alpha 功能 {#alpha}
    + [Alpha 功能概述](using/alpha/alpha-overview.md)
    + [用户界面](using/alpha/alpha-interface.md)
-   + [区段触发活动](using/alpha/alpha-segment-trigger.md)
+   + [阅读细分活动](using/alpha/alpha-segment-trigger.md)
    + [基于规则的事件](using/alpha/alpha-events.md)
 
