@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1151'
 ht-degree: 2%
 
 ---
@@ -113,7 +113,7 @@ curl -X POST \
 
 ## 发射事件 {#firing_events}
 
-通 **[!UICONTROL Trigger an event]** 过此按钮，您可以配置事件，使人员进入旅程。
+通 **[!UICONTROL Trigger an event]** 过此按钮，您可以配置事件，让人员进入旅程。
 
 >[!NOTE]
 >
@@ -122,10 +122,6 @@ curl -X POST \
 作为入门项目，您必须知道哪些用户档案在Adobe Experience Platform标记为测试用户档案。 事实上，测试模式只允许旅程中的这些用户档案,事件必须包含ID。 所需的ID取决于事件配置。 例如，它可以是ECID。
 
 如果您的旅程包含多个事件，请使用下拉列表选择事件。 然后，为每个事件配置所传递的字段和执行事件发送。 该接口可帮助您在事件有效负荷中传递正确的信息，并确保信息类型正确。 测试模式保存测试会话中使用的最后一个参数以供以后使用。
-
->[!NOTE]
->
->请注意， **[!UICONTROL TIMESTAMP]**
 
 ![](../assets/journeytest4.png)
 
@@ -155,7 +151,7 @@ curl -X POST \
 >
 >在测试日志中，如果调用第三方系统（数据源或操作）时出错，则显示错误代码和错误响应。
 
-此时会显示旅程中当前的个人数（技术上称为实例）。 以下是每个人显示的有用信息：
+将显示旅程中当前的个人数（技术上称为实例）。 以下是每个人显示的有用信息：
 
 * _ID_:旅程中个人的内部ID。 这可用于调试目的。
 * _currentstep_:个体在旅程中所处的步骤。 我们建议向活动添加标签，以便更轻松地识别它们。
@@ -170,6 +166,6 @@ curl -X POST \
 以下是个人旅程的不同状态：
 
 * _运行_:这个人目前正在旅程中。
-* _完成_:这个人在旅程的尽头。
+* _完成_:这个人在旅程的终点。
 * _错误_:由于出错，个人在旅程中被停止。
 * _超时_:这个人因为走太多的路，而被停在旅途中。
