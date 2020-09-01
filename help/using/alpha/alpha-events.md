@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 9%
+source-wordcount: '619'
+ht-degree: 5%
 
 ---
 
@@ -26,6 +26,30 @@ ht-degree: 9%
 此新类型的事件不生成eventID。 使用简单的表达式编辑器，您现在只需定义一个规则，系统将使用该规则来识别将触发您旅程的相关事件。 此规则可以基于事件有效负荷中可用的任何字段，例如用户档案的位置或添加到用户档案购物车的项目数。
 
 这种新方法对用户来说大多是透明的。 唯一的更改是事件定义屏幕中的新字段。
+
+## 利用Adobe Analytics数据{#analytics-data}
+
+>[!NOTE]
+>
+>本条仅适用于需要使用Adobe Analytics数据的客户。
+
+您可以利用您已捕获的所有Adobe Analytics行为事件数据并将其流化到平台中，以触发旅程并为客户自动化体验。
+
+为了使此功能正常工作，您需要在Adobe Experience Platform激活要利用的报表包：
+
+1. 在Adobe Experience Platform，选 **[!UICONTROL Sources]** 择“ **[!UICONTROL Add data]** Adobe Analytics”部分。 将显示可用Adobe Analytics报表包的列表。
+
+1. 选择要启用的报表包，单击并 **[!UICONTROL Next]** 单击 **[!UICONTROL Finish]**。
+
+1. 与Alpha项目联系人共享源数据ID。
+
+这将启用该报表包的Analytics源连接器。 每当数据传入时，它都会转换为体验事件并发送到Adobe Experience Platform。
+
+![](../assets/alpha-event9.png)
+
+有关Adobe Analytics源连接器的详细信息，请参阅文 [档](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) 和 [教程](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
+
+## 配置基于规则的事件{#configuring-rule-based}
 
 1. 从左侧菜单，单击图 **[!UICONTROL Admin]** 标，然后单击 **[!UICONTROL Events]**。 将显示事件列表。
 
@@ -68,4 +92,14 @@ ht-degree: 9%
 事件配置和旅程创建的其他步骤保持不变。
 
 该事件现已配置好，可以像任何其他事件一样被丢弃到旅程中。 每次将与规则匹配的事件发送到系统时，都会将其传递给Journey Orchestration以触发您的旅程。
+
+## 基于规则的事件的测试模式{#test-rule-based}
+
+测试模式也适用于使用基于规则的事件的旅程。
+
+触发事件时， **事件配置** 屏幕允许您定义要通过测试的事件参数。 您可以单击右上角的工具提示图标来视图事件ID条件。 作为规则评估的一部分的每个字段旁边也会显示工具提示。
+
+![](../assets/alpha-event8.png)
+
+有关如何使用测试模式的详细信息，请参阅 [](../building-journeys/testing-the-journey.md)。
 
