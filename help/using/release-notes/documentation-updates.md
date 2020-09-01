@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 80%
@@ -28,7 +28,7 @@ ht-degree: 80%
 
 * 添加了有关如何排序和选择要在区段列表中显示的列的信息。 [阅读更多](../building-journeys/segment-qualification-events.md)
 * 添加了有关在选择区段后如何复制区段名称和ID的信息。 [阅读更多](../building-journeys/segment-qualification-events.md)
-* Experience Platform事件在不同的页面上得到了协调。
+* Experience Platform的发生情况在不同的页面上得到协调。
 
 ## 2020 年 7 月 {#july-2020}
 
