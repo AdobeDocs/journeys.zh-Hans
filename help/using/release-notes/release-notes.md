@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
+source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 84%
+source-wordcount: '1527'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,127 @@ ht-degree: 84%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以参阅[文档更新](../release-notes/documentation-updates.md)。
+
+## 2020年8月版 {#august-release}
+
+### GA更新{#august-ga-update}
+
+“区段资格”事件的有效负荷现在包含以下上下文信息，您可以在条件和操作中使用这些信息：行为（入口、退出）、资格时间戳和区段ID。 [阅读更多](../building-journeys/segment-qualification-events.md)
+
+### Alpha更新{#august-alpha-update}
+
+要发现Alpha的范围，请参阅此 [部分](../alpha/alpha-overview.md)。
+
+<table>
+<thead>
+<tr>
+<th><strong>区段触发活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>对段触发器活动进行了以下改进：
+</p>
+<ul>
+<li><p>活动的名称已更改为“读取段”。 </p>
+</li>
+<li><p>旅程调度程序的配置已从活动的属性中删除。 现在可从旅程的属性中直接访问该资源，该资源位于一个专用部分中，如果已将读取区段活动放入画布中，则会显示该资源。 </p>
+</li>
+<li><p>您现在可以在单一用户档案上测试旅程，并使用视觉流跟踪旅程的进度。</p>
+</li>
+</ul>
+<p>有关详细信息，请参阅<a href="../alpha/alpha-segment-trigger.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>基于规则的事件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>对基于规则的事件进行了以下改进：
+</p>
+<ul>
+<li><p>您现在可以利用您已捕获的所有Adobe Analytics行为事件数据并将其流化到平台中，以触发旅程并为客户自动化体验。 <a href="../alpha/alpha-events.md#analytics-data">阅读更多</a></p>
+</li>
+<li><p>在测试模式下触发基于规则的事件时，您现在可以直接视图事件ID条件。 此外，在规则评估的每个字段旁边都添加了工具提示。 <a href="../alpha/alpha-events.md#configuring-rule-based">阅读更多</a></p>
+</li>
+<li><p>基于规则的事件定义屏幕已重新组织，以改善体验。 <a href="../alpha/alpha-events.md#test-rule-based">阅读更多</a></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Alpha版本- 2020年7月 {#alpha-release---july-2020}
+
+Alpha项目优惠功能目前在有限的一组客户中进行测试。 这样，我们就可以根据收到的反馈来改进我们的产品。 并非所有Journey Orchestration客户都可使用这些功能。
+
+这些功能在专用部分中 [有介绍](../alpha/alpha-overview.md)。
+
+<table>
+<thead>
+<tr>
+<th><strong>增强的用户界面</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Orchestration菜单内的导航已得到增强，以便与Adobe Experience Platform提供一致的界面：
+</p>
+<ul>
+<li><p>菜单从界面的顶部移动到左侧。 </p>
+</li>
+<li><p>将管理功能分组到单个仪表板。</p>
+</li>
+</ul>
+<p>有关详细信息，请参阅<a href="../alpha/alpha-interface.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>区段触发活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>区段触发活动允许您让属于Adobe Experience Platform区段的所有个人进入旅程。 进入旅程可以执行一次，也可以定期执行。 <a href="../alpha/alpha-segment-trigger.md">阅读更多</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>基于规则的事件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>我们简化了您设置体验事件的方式。 我们引入了一种无需使用eventID的新方法。 在Journey Orchestration中设置事件时，您现在可以定义基于规则的事件。 <a href="../alpha/alpha-events.md">阅读更多</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 第 2 季度发行 - 2020 年 6 月 {#q2-release---june-2020}
 
@@ -49,9 +170,9 @@ ht-degree: 84%
 <li><p>Journey Orchestration现在自动传递到Adobe Experience Platform，在旅程中执行的步骤。 这包括遇到的潜在错误。此信息可用于通过对特定旅程或所有旅程的旅程步骤事件执行查询，从而实现报告和故障排除。<a href="../building-journeys/sharing-overview.md">阅读更多</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-</li>
 <li><p>Journey Orchestration现在可以连接到生产和非生产的Adobe Experience Platform沙箱。 请注意，沙箱是测试版功能。<a href="../about/access-management.md#sandboxes">阅读更多</a></p>
 </li>
+</ul>
 </td>
 </tr>
 </tbody>
