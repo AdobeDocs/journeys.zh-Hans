@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 86%
 
 数据源有两种类型：
 
-* 预配置的Adobe Experience Platform数据源，定义与实时客户用户档案服务的连接。 这是一种内置数据源。请参见 [](../datasource/adobe-experience-platform-data-source.md)。
+* 预配置的 Adobe Experience Platform 数据源，它定义与实时客户资料服务的连接。这是一种内置数据源。请参见 [](../datasource/adobe-experience-platform-data-source.md)。
 * 外部数据源，它允许您定义与外部系统的连接。这些是您可以创建的数据源。请参见 [](../datasource/external-data-sources.md)。
 
 对于每个数据源，您定义要使用字段组检索的信息。字段组是可从数据源检索的字段集。请参见 [](../datasource/field-groups.md)。
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/zh-Hans/journey-orchestration-learn/tutorials/configure-data-sources.html).
+有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在旅程中查找和使用数据的更多信息，请观看此[教程视频](https://docs.adobe.com/content/help/zh-Hans/journey-orchestration-learn/tutorials/configure-data-sources.html)。
 
 以下是主要的数据源配置步骤：
 
