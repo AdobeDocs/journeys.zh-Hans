@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 利用存储在事件或数据源中的情境数据构建实时编排用例。
 
-[!DNL Journey Orchestration] 是与Adobe Experience Platform集成的应用服务。
+[!DNL Journey Orchestration] 是与 Adobe Experience Platform 集成的应用程序服务。
 
 ![](../assets/journeydiagram.png)
 
