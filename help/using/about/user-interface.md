@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 ## 访问 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-要访问 [!DNL Journey Orchestration] 的界面，请单击右上角的 **[!UICONTROL App Selector]** 图标。Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+要访问 [!DNL Journey Orchestration] 的界面，请单击右上角的 **[!UICONTROL App Selector]** 图标。然后，单击右侧 **[!UICONTROL Experience Platform]** 下方的 **[!UICONTROL Journey Orchestration]**。
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ ht-degree: 89%
 
 单击列表左上角的过滤器图标即可访问&#x200B;**[!UICONTROL Filters]**。通过过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态、您创建的元素或最近 30 天内修改的元素。
 
-In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **[!UICONTROL Creation filters]** to filter on the creation date and user. 例如，您可以选择仅显示您在过去 30 天中创建的事件。
+在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，使用 **[!UICONTROL Creation filters]** 按创建日期和用户进行过滤。例如，您可以选择仅显示您在过去 30 天中创建的事件。
 
 在旅程列表（ **[!UICONTROL Home]**&#x200B;下）中，除了 **[!UICONTROL Creation filters]** 以外，您还可以根据显示的旅程状态和版本 (**[!UICONTROL Status and version filters]**) 筛选。您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的旅程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时旅程。请参见 [](../building-journeys/using-the-journey-designer.md)。
 
@@ -77,7 +77,7 @@ In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL 
 
 ![](../assets/journey4.png)
 
-## 浏览Adobe Experience Platform字段 {#friendly-names-display}
+## 浏览 Adobe Experience Platform 字段 {#friendly-names-display}
 
 在定义[事件有效负载](../event/defining-the-payload-fields.md)、[字段组有效负载](../datasource/field-groups.md)以及在[表达式编辑器](../expression/expressionadvanced.md)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
 
@@ -104,18 +104,18 @@ _在旅程中配置活动时：_
 画布会自动保存。您可以在画布的左上角看到其保存状态。
 
 * 按 **Esc** 键关闭配置窗格并放弃所做的更改。这等同于 **[!UICONTROL Cancel]**&#x200B;按钮。
-* Press **Enter** or click outside the pane to close the configuration pane. 更改已保存。这等同于 **[!UICONTROL Ok]**&#x200B;按钮。
-* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
+* 按 **Enter** 键或单击窗格外部以关闭配置窗格。更改已保存。这等同于 **[!UICONTROL Ok]**&#x200B;按钮。
+* 如果按 **Delete** 或 **Backspace** 键，则之后可以按 **Enter** 键以确认删除。
 
 _在弹出窗口中：_
 
-* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
-* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
+* 按 **Esc** 键将其关闭（等同于 **[!UICONTROL Cancel]** 按钮）。
+* 按 **Enter** 键保存或确认（等同于 **[!UICONTROL Ok]** 或 **[!UICONTROL Save]** 按钮）。
 
 _在事件、数据源或操作配置窗格中：_
 
 * 按 **Esc** 关闭配置窗格而不保存。
-* Press **Enter** to save modifications and close the configuration pane.
+* 按 **Enter** 键保存修改并关闭配置窗格。
 * 按 **Tab** 键在不同字段之间跳转以配置。
 
 _在简单的表达式编辑器中_
@@ -137,5 +137,5 @@ _在带有搜索栏的屏幕中：_
 _在旅程的画布中：_
 
 * 使用 **Ctrl/Command + A** 组合键选择所有活动。
-* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
+* 选择一个或多个活动后，按 **Delete** 或 **Backspace** 键以删除活动。然后，可以按 **Enter** 键以在确认弹出窗口中进行确认。
 * 双击左侧面板上的活动，将其添加到第一个可用位置（从上到下）。
