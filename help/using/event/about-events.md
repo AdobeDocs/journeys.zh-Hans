@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
 
 有效负载包含流式引入 API 工作所需的信息（在标题中）和 [!DNL Journey Orchestration] 工作所需的信息（事件 ID，有效负载主体的一部分）以及要在旅程中使用的信息（在主体中，例如放弃购物车的数量）。流式引入有两种模式，即验证和未验证。有关流式引入 API 的详细信息，请参阅[此链接](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/api/getting-started.html)。
 
-事件通过流摄取API到达后，流入名为Pipeline的内部服务，然后流入Adobe Experience Platform。 如果事件架构启用了实时客户资料服务标志，并且数据集 ID 也具有实时客户资料标志，则会流入实时客户资料服务。
+事件通过流式引入 API 到达后，会流入名为 Pipeline 的内部服务，然后流入 Adobe Experience Platform。如果事件架构启用了实时客户资料服务标志，并且数据集 ID 也具有实时客户资料标志，则会流入实时客户资料服务。
 
 Pipeline 过滤器事件的有效负载包含由 [!DNL Journey Orchestration] 提供并包含在事件有效负载中的 [!DNL Journey Orchestration] 事件 ID（请参阅以下事件创建流程）。这些事件通过 [!DNL Journey Orchestration] 侦听，并触发相应的旅程。
 
