@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1034'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 
 旅程全局的错误和警告首先在列表中显示。之后，与特定活动相关的错误和警告按活动顺序或在旅程中的出现顺序从左到右列出。**[!UICONTROL Copy details]** 按钮可复制有关旅程的技术信息，供支持团队用于进行故障排除。
 
-当操作或条件中发生错误时，单个旅程将停止。 使其继续的唯一方法是选中该框 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人旅程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 检查事件是否正确发送{#section_rqz_11t_dgb}
 
@@ -51,7 +51,7 @@ ht-degree: 96%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到 [!DNL Journey Orchestration]。Indeed, [!DNL Journey Orchestration] relies on Adobe Experience Platform’s streaming ingestion APIs. 因此，如果出现与事件相关的问题，您可以参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/streaming/troubleshooting.html)，了解流摄取 API 故障排除。
+事件不会直接从源推送到 [!DNL Journey Orchestration]。实际上，[!DNL Journey Orchestration] 依赖于 Adobe Experience Platform 的流摄取 API。因此，如果出现与事件相关的问题，您可以参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/streaming/troubleshooting.html)，了解流摄取 API 故障排除。
 
 ## 检查人员是否进入旅程{#section_x4v_zzs_dgb}
 
