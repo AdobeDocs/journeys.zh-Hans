@@ -9,9 +9,10 @@ tutorials-title: 教程
 tutorials-url: https://docs.adobe.com/content/help/zh-Hans/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/journeys.zh-Hans
 index: true
-translation-type: ht
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
-workflow-type: ht
+solution: Journey Orchestration
+translation-type: tm+mt
+source-git-commit: 13cc1fe1b35b570f893b4fc137d002ccf4a1b40c
+workflow-type: tm+mt
 source-wordcount: '31'
 ht-degree: 100%
 
