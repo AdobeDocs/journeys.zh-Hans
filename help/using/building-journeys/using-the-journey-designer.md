@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 27cd94ec9da9e89d62ec8e4f471dab43d2e9e657
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 # 使用旅程设计器 {#concept_m1g_5qt_52b}
 
-旅程“主页”菜单允许您视图 **旅程的列表**。 创建新旅程或单击现有旅程以打开旅 **程设计者的界面**。 设计人员由以下区域组成： 调色板、画布和活动配置窗格。
+旅程“主页”菜单允许您视图 **旅程的列表**。 创建新旅程或单击现有旅程以打开旅 **程设计者的界面**。 设计人员由以下区域组成：调色板、画布和活动配置窗格。
 
 ## 旅程列表 {#journey_list}
 
@@ -41,7 +41,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ## 调色板 {#palette}
 
-调 **色板** 位于屏幕的左侧。 所有可用活动均按多个类别进行分类： **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 和 **[!UICONTROL Actions]**。 您可以通过单击不同类别的名称展开／折叠其名称。 要在旅程中使用活动，请将其从调色板拖放到画布中。 您还可以在调色板中多次单击某个活动，将其添加到画布中，然后执行下一步操作。 在发布旅程之前，必须配置从调色板添加的每个活动。 如果将活动放在画布中，但未完成其配置，则该活动将保留在画布中，但会出现红色警告，指示该配置未完成。
+调 **色板** 位于屏幕的左侧。 所有可用活动均按多个类别进行分类： **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** 和 **[!UICONTROL Actions]**。 您可以通过单击不同类别的名称展开／折叠其名称。 要在旅程中使用活动，请将其从调色板拖放到画布中。 您还可以在调色板中多次单击某个活动，将其添加到画布中，然后执行下一步操作。 在发布旅程之前，必须配置从调色板添加的每个活动。 如果将活动放在画布中，但未完成其配置，则该活动将保留在画布中，但红色警告将指示该配置未完成。
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ The **[!UICONTROL Show disabled items]** icon in the top left corner allows you 
 
 单击 **调色板中的活动** ，将显示活动配置窗格。 填写必填字段。 单击该图 **[!UICONTROL Delete]** 标以删除活动。 单击可 **[!UICONTROL Cancel]** 取消修改或进 **[!UICONTROL Ok]** 行确认。 要删除活动，您还可以选择一个活动（或多个）并按背景键。 按转义键将关闭活动配置窗格。
 
-在画布中，您的操作和事件活动由图标表示，该图标下方显示有事件或操作的名称。 在活动配置窗格中，可以使 **[!UICONTROL Label]** 用字段向活动名称添加后缀。 这些标签将帮助您将事件和动作的使用情境化，尤其是当您在旅程中多次使用相同的事件或动作时。 您还可以看到您在报告中添加的标 [!DNL Journey Orchestration] 签。
+在画布中，您的操作和事件活动由图标表示，该图标下方显示有事件或操作的名称。 在活动配置窗格中，可以使 **[!UICONTROL Label]** 用字段向活动名称添加后缀。 这些标签将帮助您将事件和动作的使用情境化，尤其是当您在旅程中多次使用相同的事件或动作时。 您还可以看到您在报告中添加的标 [!DNL Journey Orchestration] 签。 您还可以为条件活动定义标签。
 
 ![](../assets/journey59bis.png)
 
