@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: ht
-source-wordcount: '724'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 100%
 
 此页面列出了
 [!DNL Journey Orchestration]的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+
+## 2020 年 9 月 {#september-2020}
+
+* 界面描述部分已更新，以反映新的“全 **部选择器** ”菜单。 [阅读更多](../about/user-interface.md)
+* 添加了关于基于细分的旅程的不重复的新版本的注释。 [阅读更多](../alpha/alpha-segment-trigger.md)
 
 ## 2020 年 8 月 {#august-2020}
 
