@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
+source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 要将此API用 [!DNL Journey Orchestration] 于您的实例，您需要使用AdobeI/O控制台。 您可以通过以下方式进行 [开始：开始使用Adobe开](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 发人员控制台，然后使用本页中的各个部分。
 
-要测试和准备集成，此处提供Postman [集合](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
+要测试和准备集成，此处提供邮递员 [集合](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)。
 
 ## 身份验证
 
@@ -62,15 +62,15 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;组织>**: 这是您的个人组织ID,Adobe为每个实例提供一个组织ID:
+* **&lt;组织>**:这是您的个人组织ID,Adobe为每个实例提供一个组织ID:
 
-   * &lt;组织>: 您的生产实例
+   * &lt;组织>:您的生产实例
 
    要获取您的组织ID值，请咨询您的管理员或Adobe技术联系人。 创建新集成时，您还可以在许可证列表中将其检索到AdobeI/O中(请参阅 <a href="https://www.adobe.io/authentication.html">AdobeI/O文档</a>)。
 
-* **&lt;ACCESS_TOKEN>**: 您的个人访问令牌，通过POST请求交换JWT时检索到。
+* **&lt;ACCESS_TOKEN>**:您的个人访问令牌，通过POST请求交换JWT时检索到。
 
-* **&lt;API_KEY>**: 您的个人API密钥。 在创建与服务的新集成后，它在AdobeI/O中 [!DNL Journey Orchestration] 提供。
+* **&lt;API_KEY>**:您的个人API密钥。 它在创建与服务的新集成后在AdobeI/O中提 [!DNL Journey Orchestration] 供。
 
 
 
@@ -82,12 +82,12 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 |---|---|---|
 | [!DNL POST] | 列表/endpointConfigs | 获取端点封顶配置的列表 |
 | [!DNL POST] | /endpointConfigs | 创建端点封顶配置 |
-| [!DNL POST] | /endpointConfigs/{uid}/deploy | 部署端点封顶配置 |
-| [!DNL POST] | /endpointConfigs/{uid}/undeploy | 取消部署端点上限设置配置 |
-| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | 检查是否可以部署终结点上限设置配置 |
-| [!DNL PUT] | /endpointConfigs/{uid} | 更新端点封顶配置 |
-| [!DNL GET] | /endpointConfigs/{uid} | 检索端点封闭配置 |
-| [!DNL DELETE] | /endpointConfigs/{uid} | 删除入点上限设置配置 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | 部署端点封顶配置 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | 取消部署端点上限设置配置 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 检查是否可以部署终结点上限设置配置 |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | 更新端点封顶配置 |
+| [!DNL GET] | /endpointConfigs/`{uid}` | 检索端点封闭配置 |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | 删除入点上限设置配置 |
 
 创建或更新配置时，将自动执行检查以确保有效负荷的语法和完整性。
 如果出现问题，操作会返回警告或错误以帮助您更正配置。
@@ -147,21 +147,21 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 潜在错误有：
 
-* **ERR_ENDPOINTCONFIG_100**: 上限配置： 缺少或无效url
-* **ERR_ENDPOINTCONFIG_101**: 上限配置： 格式错误的url
-* **ERR_ENDPOINTCONFIG_102**: 上限配置： 格式错误的url: host:port中不允许url中的通配符
-* **ERR_ENDPOINTCONFIG_103**: 上限配置： 缺少HTTP方法
-* **ERR_ENDPOINTCONFIG_104**: 上限配置： 未定义呼叫等级
-* **ERR_ENDPOINTCONFIG_107**: 上限配置： 最大调用计数无效(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: 上限配置： 最大调用计数无效(periodInMs)
-* **ERR_ENDPOINTCONFIG_111**: 上限配置： 无法创建终结点配置： 有效负荷
-* **ERR_ENDPOINTCONFIG_112**: 上限配置： 无法创建终结点配置： 需要JSON有效负荷
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: 服务名无效 <!--<given value>-->: 必须为“dataSource”或“action”
+* **ERR_ENDPOINTCONFIG_100**:上限配置：缺少或无效url
+* **ERR_ENDPOINTCONFIG_101**:上限配置：格式错误的url
+* **ERR_ENDPOINTCONFIG_102**:上限配置：格式错误的url:host:port中不允许url中的通配符
+* **ERR_ENDPOINTCONFIG_103**:上限配置：缺少HTTP方法
+* **ERR_ENDPOINTCONFIG_104**:上限配置：未定义呼叫等级
+* **ERR_ENDPOINTCONFIG_107**:上限配置：最大调用计数无效(maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**:上限配置：最大调用计数无效(periodInMs)
+* **ERR_ENDPOINTCONFIG_111**:上限配置：无法创建终结点配置：有效负荷
+* **ERR_ENDPOINTCONFIG_112**:上限配置：无法创建终结点配置：需要JSON有效负荷
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**:服务名无效 `<!--<given value>-->`:必须为“dataSource”或“action”
 
 
 潜在的警告是：
 
-**ERR_ENDPOINTCONFIG_106**: 上限配置： 未定义最大HTTP连接数： 默认情况下无限制
+**ERR_ENDPOINTCONFIG_106**:上限配置：未定义最大HTTP连接数：默认情况下无限制
 
 
 
@@ -175,8 +175,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 下载并上传到Postman后，您需要添加三个变量： `{JO_HOST}`,`{Base_Path}` and `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] 网关URL
-* `{BASE_PATH}` : 入口点。 值为“/authoring”
-* `{SANDBOX_NAME}` : 与执 **行API操作的沙箱名** （例如，“prod”）对应的标题x-sandbox-name。 有关更多 [信息，请参](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) 阅沙箱概述。
+* `{BASE_PATH}` :入口点。 值为“/authoring”
+* `{SANDBOX_NAME}` :与执 **行API操作的沙箱名** （例如，“prod”）对应的标题x-sandbox-name。 有关更多 [信息，请参](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) 阅沙箱概述。
 
 在以下部分中，您将找到Rest API调用的有序列表以执行用例。
 
