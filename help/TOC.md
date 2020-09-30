@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration 指南
 index: true
-translation-type: ht
-source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 97%
 
 ---
 
@@ -169,12 +169,12 @@ ht-degree: 100%
    + [关于 AI 集成](using/ai-services/ai-services-overview.md)
    + [利用客户 AI](using/ai-services/leveraging-customer-ai.md)
 + 用例{#use-cases-journeys}
-   + 简单用例{#use-case-simple}
+   + 发送个性化电子邮件{#use-case-simple}
       + [关于简单用例](using/usecase/about-the-simple-use-case.md)
       + [配置事件](using/usecase/configuring-the-event.md)
       + [配置数据源](using/usecase/configuring-the-data-source.md)
       + [构建旅程](using/usecase/simple-uc-building-the-journey.md)
-   + 高级用例{#use-case-advanced}
+   + Building a cross-channel journey{#use-case-advanced}
       + [关于高级用例](using/usecase/about-the-advanced-use-case.md)
       + [配置事件](using/usecase/configuring-the-events.md)
       + [配置数据源](using/usecase/configuring-the-data-sources.md)
