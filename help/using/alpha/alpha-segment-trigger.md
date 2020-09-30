@@ -1,5 +1,5 @@
 ---
-title: 阅读细分活动
+title: “读取区段”活动
 description: 进一步了解阅读区段活动。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 3%
 
 ---
 
 
-# 阅读细分活动 {#segment-trigger-activity}
+# “读取区段”活动{#segment-trigger-activity}
 
 ## 关于读取区段活动 {#about-segment-trigger-actvitiy}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >如果在发布时间或测试模式Adobe Campaign Standard时画布中存在激活现成的操作活动，则旅程将在每秒13个入口处被限制。 否则，旅程将以每秒1000事件的速度减速。
 
-阅读区段活动允许您让属于Adobe Experience Platform区段的所有个人进入旅程。 进入旅程可以执行一次，也可以定期执行。
+阅读区段活动允许您让属于Adobe Experience Platform区段的所有个人进入旅程。 进入旅程的操作可以执行一次，也可以定期执行。
 
 假设您在Adobe Experience Platform拥有黄金客户细分。 通过阅读细分活动，您可以让属于黄金客户细分的所有个人进入旅程，并让他们进入个性化旅程，利用所有旅程功能：条件、计时器、事件、动作。
 
@@ -83,14 +83,20 @@ ht-degree: 0%
 
 ![](../assets/segment-trigger-test-modes.png)
 
-然后，可以照常配置测试模式。 本节介绍如何测试旅程的详细 [步骤](../building-journeys/testing-the-journey.md)。
+然后，可以像往常一样配置和运行测试模式。 本节介绍如何测试旅程的详细 [步骤](../building-journeys/testing-the-journey.md)。
 
-请注意，一次使用最多100个用户档案测试旅程不允许您使用视觉流跟踪旅程中个人的进度。
+测试运行后，按 **[!UICONTROL Show logs]** 钮允许您根据选定的测试选项查看测试结果：
+
+* **[!UICONTROL Single profile at a time]**:测试日志显示与使用单一测试模式时相同的信息。 For more on this, refer to [this section](../building-journeys/testing-the-journey.md#viewing_logs)
+
+* **[!UICONTROL Up to 100 profiles at once]**:通过测试日志，您可以跟踪从Adobe Experience Platform出口区段的进度以及所有进入旅程的人员的个人进度。
+
+   请注意，一次使用最多100个用户档案测试旅程不允许您使用视觉流跟踪旅程中个人的进度。
+
+   ![](../assets/read-segment-log.png)
 
 测试成功后，您可以发布旅程(请参 [阅发布旅程](../building-journeys/publishing-the-journey.md))。 属于该区段的个人将在旅程的属性部分中指定的日期／时间进入旅 **[!UICONTROL Scheduler]** 程。
 
->[!IMPORTANT]
+>[!NOTE]
 >
->请记住，Adobe Experience Platform区段是每天计算一次(**批** 区段)或实时计算&#x200B;**(流** 区段)。
->
->如果对所选区段进行流处理，属于此区段的个人可能会实时进入该旅程。 如果区段为批，则新符合此区段资格的人员将潜在地在在Adobe Experience Platform执行区段计算时进入旅程。
+>在执行不再重复（尽快开始或“一次”）的基于细分的旅程的新版本时，之前进入该旅程的所有个人在发布该旅程时不会重新输入其新版本。 如果您希望允许他们重新进入，您应该重复旅程。
