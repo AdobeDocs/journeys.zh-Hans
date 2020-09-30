@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{事件.offerOpened.活动.endTime}),事件中的字段为2016-08-12T09:46:06。
+>您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```,事件中的字段为2016-08-12T09:46:06Z形式。
 >
 >您 **旅程的属** 性中应包含时区。 因此，今天无法从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参见 [](../building-journeys/timezone-management.md)。
 
