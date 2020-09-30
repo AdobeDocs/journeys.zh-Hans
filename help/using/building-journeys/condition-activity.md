@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 25d3c3062bca2151faf10d11e9636799c1331f24
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 5%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -32,11 +32,15 @@ ht-degree: 5%
 
 ## 关于条件活动 {#about_condition}
 
+在旅程中使用多个条件时，您可以为每个条件定义标签，以更轻松地识别它们。
+
 如果 **[!UICONTROL Add a path]** 要定义多个条件，请单击。 对于每个条件，在活动后，画布中会添加新路径。
 
 ![](../assets/journey47.png)
 
-请注意，旅程的设计对功能有影响。 当在条件后定义多个路径时，将只执行第一个符合条件的路径。 这意味着您可以通过将路径置于彼此之上或之下来改变路径的优先级。 例如，如果第一条路径的条件是“人是VIP”，而第二条路径的条件是“人是男性”。 如果符合这两个条件的人(VIP的男性)通过此步骤，则即使他也有资格获得第二条路径，也将选择第一条路径，因为第一条路径“高于”。 要更改此优先级，请按另一个垂直顺序移动活动。
+请注意，旅程的设计对功能有影响。 当在条件后定义多个路径时，将只执行第一个符合条件的路径。 这意味着您可以通过将路径置于彼此之上或之下来改变路径的优先级。
+
+例如，让我们举一个第一条路径的条件“人是VIP”和第二条路径的条件“人是男性”的例子。 如果符合这两个条件的人(VIP的男性)通过此步骤，则即使他也有资格获得第二条路径，也将选择第一条路径，因为第一条路径“高于”。 要更改此优先级，请按另一个垂直顺序移动活动。
 
 ![](../assets/journey48.png)
 
@@ -44,8 +48,8 @@ ht-degree: 5%
 
 简单模式允许您根据字段组合执行简单查询。 所有可用字段都显示在屏幕的左侧。 将字段拖放到主区域。 要组合不同的元素，请将它们互相联锁，以创建不同的组和／或组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
-* 和： 两个标准的交集。 只考虑与所有条件匹配的元素。
-* 或： 一合并两个标准。 考虑至少符合一个条件的元素。
+* 和：两个标准的交集。 只考虑与所有条件匹配的元素。
+* 或：一合并两个标准。 考虑至少符合一个条件的元素。
 
 ![](../assets/journey64.png)
 
@@ -57,7 +61,7 @@ ht-degree: 5%
 >不能使用简单的编辑器对时间序列执行查询(例如，购买列表、过去单击消息)。 为此，您需要使用高级编辑器。 请参见 [](../expression/expressionadvanced.md)。
 
 
-当操作或条件中发生错误时，单个旅程将停止。 使其继续的唯一方法是选中该框 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人旅程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 数据源条件 {#data_source_condition}
 
@@ -88,7 +92,7 @@ ht-degree: 5%
 
 ## 日期条件 {#date_condition}
 
-这允许您根据日期定义不同的流。 例如，如果人员在“销售”期间输入步骤，您将向其发送特定消息。 在年末，你会再发一条消息。
+这允许您根据日期定义不同的流。 例如，如果人员在“销售”期间输入步骤，您将向其发送特定消息。 在这一年的剩余时间，您将再发送一条消息。
 
 >[!NOTE]
 >
