@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '1653'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,54 @@ ht-degree: 100%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以参阅[文档更新](../release-notes/documentation-updates.md)。
+
+## 2020年9月版 {#september-release}
+
+### GA 更新{#september-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>条件活动改进</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>在将条件添加到旅程时，您现在可以定义标签。 如果您在旅程中使用多个条件，这可以更轻松地识别它们。
+</p>
+<p>有关详细信息，请参阅<a href="../building-journeys/condition-activity.md#about_condition">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Alpha 更新{#september-alpha-update}
+
+要发现 Alpha 的范围，请参阅此[部分](../alpha/alpha-overview.md)。
+
+<table>
+<thead>
+<tr>
+<th><strong>阅读细分活动改进</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>基于区段的旅程现在在画布上方显示，提醒您旅程的计划类型。 您可以单击此提醒以访问计划配置菜单。</p>
+</li>
+<li><p>测试模式日志的粒度已得到改进，可显示段导出进度状态。</p>
+</li>
+</ul>
+<p>有关阅读区段活动 <strong>的详细信</strong> 息，请参阅详 <a href="../alpha/alpha-segment-trigger.md">细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2020 年 8 月版 {#august-release}
 
