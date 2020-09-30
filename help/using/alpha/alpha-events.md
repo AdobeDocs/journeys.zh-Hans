@@ -11,21 +11,25 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
+source-git-commit: 9cdaa673dbe9247aa1e9c9aef58cfa003d014786
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 11%
 
 ---
 
 
 # 基于规则的事件{#simplified-events}
 
-我们简化了您设置体验事件的方式。 我们引入了一种无需使用eventID的新方法。 在Journey Orchestration中设置事件时，您现在可以定义基于规则的事件。
+我们简化了您设置体验事件的方式。我们正在引入一种无需使用 eventID 的新方法。在 Journey Orchestration 中设置事件时，现在可以定义基于规则的事件。
 
 此新类型的事件不生成eventID。 使用简单的表达式编辑器，您现在只需定义一个规则，系统将使用该规则来识别将触发您旅程的相关事件。 此规则可以基于事件有效负荷中可用的任何字段，例如用户档案的位置或添加到用户档案购物车的项目数。
 
 这种新方法对用户来说大多是透明的。 唯一的更改是事件定义屏幕中的新字段。
+
+>[!CAUTION]
+>
+>为基于规则的事件定义限制规则。 它将旅程可处理的合格事件数限制为每分钟40万。 请联系您的Alpha项目联系人以了解更多信息。
 
 ## 利用Adobe Analytics数据{#analytics-data}
 
@@ -101,5 +105,5 @@ ht-degree: 5%
 
 ![](../assets/alpha-event8.png)
 
-有关如何使用测试模式的详细信息，请参阅 [](../building-journeys/testing-the-journey.md)。
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
