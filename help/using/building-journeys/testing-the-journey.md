@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
+source-git-commit: 7cac949f2428f29bef1d01122e152429a93d0b1b
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
    ![](../assets/journeyuctest2.png)
 
-1. 如果出现任何错误，请取消激活测试模式，修改您的旅程并再次测试它。 当测试结果确定时，您可以发布您的旅程。 请参见 [](../building-journeys/publishing-the-journey.md)。
+1. 如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。当测试结果确定时，您可以发布您的旅程。 请参见 [](../building-journeys/publishing-the-journey.md)。
 
 ## 重要说明{#important_notes}
 
@@ -169,3 +169,18 @@ curl -X POST \
 * _完成_:这个人在旅程的终点。
 * _错误_:由于出错，个人在旅程中被停止。
 * _超时_:这个人因为走太多的路，而被停在旅途中。
+
+当使用测试模式触发事件时，将自动使用源的名称生成数据集。
+
+当使用测试模式触发事件时，将自动使用源的名称生成数据集。
+
+测试模式会自动创建一个体验事件，并将其发送到Adobe Experience Platform。 此体验事件的源名称为“Journey Orchestration测试事件”。
+
+对于从多个旅程触发的多个事件
+
+有一种情况是，从多个旅程发送多个事件，这些模式会不同。 模式能否映射到1个数据集？ 否则，我们将需要多个数据集。
+
+如果体验事件中不包含目标数据集，则会自动创建和命名这些数据集。 这就是为什么我们今天看到“自动为旅行者创建数据集”。
+
+源的命名驱动着自动创建。 如果我们有多个事件，则应连接并将其设置为“Journey Orchestration测试事件-模式名称”。 这将自动转为“自动为Journey Orchestration测试事件生成的数据集-模式名称”。
+
