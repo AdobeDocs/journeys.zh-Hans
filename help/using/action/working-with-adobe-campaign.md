@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
+source-git-commit: 4f7cc4da51a93019b5a296003c51d4bee6724498
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -47,12 +47,13 @@ ht-degree: 2%
    >
    >此测试验证：
    >
-   >* 主机为“.活动.adobe.com”或“.活动-沙箱。adobe.com”,
-   >* URL开始与https,
-   >* 与此Adobe Campaign Standard实例关联的ORG与Journey Orchestration的ORG相同。
+   >主机为“.活动.adobe.com”或“.活动-沙箱。adobe.com”,
+   >
+   >URL开始与https,
+   >
+   >与此Adobe Campaign Standard实例关联的ORG与Journey Orchestration的ORG相同。
 
-
-设计旅程时，类别中将提供三个操作： **[!UICONTROL Action]** **[!UICONTROL Email]**、 **[!UICONTROL Push]**(请 **[!UICONTROL SMS]** 参阅使 [用Adobe Campaign操作](../building-journeys/using-adobe-campaign-actions.md))。 **反应事件** 还允许您对消息点击、打开等做出反应。 (请参阅 [反应事件](../building-journeys/reaction-events.md))。
+设计旅程时，类别中将提供三个操作： **[!UICONTROL Action]****[!UICONTROL Email]**、 **[!UICONTROL Push]**(请 **[!UICONTROL SMS]** 参阅使 [用Adobe Campaign操作](../building-journeys/using-adobe-campaign-actions.md))。 **反应事件** 还允许您对消息点击、打开等做出反应。 (请参阅 [反应事件](../building-journeys/reaction-events.md))。
 
 ![](../assets/journey58.png)
 
