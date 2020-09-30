@@ -1,5 +1,5 @@
 ---
-title: 细分资格事件
+title: 区段鉴别事件
 description: 了解细分资格事件
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
 
-# 细分资格事件 {#segment-qualification}
+# 区段鉴别事件 {#segment-qualification}
 
 ## 关于细分资格事件{#about-segment-qualification}
 
@@ -29,7 +29,12 @@ ht-degree: 0%
 
 此类事件可定位为旅程的第一步或稍后步骤。
 
-如果使用Adobe Experience Platform的高频受众选项对片段进行流处理，则会实时听取入口和出口。 倘分部并非流化，则会于分部计算时考虑进入及退出。
+>[!IMPORTANT]
+>
+>请记住，Adobe Experience Platform区段是每天计算一次&#x200B;**(批** 区段)或实时计算(**流化段** ，使用Adobe Experience Platform的高频受众选项)。
+>
+>如果对所选区段进行流处理，属于此区段的个人可能会实时进入该旅程。 如果区段为批，则新符合此区段资格的人员将潜在地在在Adobe Experience Platform执行区段计算时进入旅程。
+
 
 1. 展开 **[!UICONTROL Events]** 类别并将 **[!UICONTROL Segment qualification]** 活动放入画布。
 
@@ -83,7 +88,7 @@ ht-degree: 0%
 
 ### 流化细分{#streamed-speed-segment-qualification}
 
-当对流化分段使用分段资格时，由于持续评估分段，导致入口／出口出现较大高峰的风险较小。 但是，如果细分定义导致大量客户同时获得资格，则可能也会出现峰值。
+当对流化分段使用分段资格时，由于持续评估分段，导致入口／出口出现较大高峰的风险较小。 但是，如果细分定义导致大量客户同时获得相应资格，则可能也会出现峰值。
 
 ### 如何避免过载{#overloads-speed-segment-qualification}
 
