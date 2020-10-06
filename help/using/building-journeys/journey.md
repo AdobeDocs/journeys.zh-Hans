@@ -1,6 +1,6 @@
 ---
 title: 关于旅程构建
-description: 了解如何构建旅程
+description: 作为企业用户，了解如何结合事件、编排和行动活动来构建旅程。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 10%
+source-wordcount: '376'
+ht-degree: 13%
 
 ---
 
@@ -42,7 +42,7 @@ This step is performed by the **business user**. 这是您创造旅程的地方�
 
    ![](../assets/journey31.png)
 
-1. 在右侧显示的配置窗格中编辑旅程的属性。 请参见 [](../building-journeys/changing-properties.md)。
+1. 编辑右侧显示的配置窗格中的旅程属性。请参见 [](../building-journeys/changing-properties.md)。
 
    ![](../assets/journey32.png)
 
