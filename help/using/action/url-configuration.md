@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 9%
@@ -31,7 +29,7 @@ ht-degree: 9%
    >
    >出于安全原因，我们强烈建议使用 HTTPS。我们不允许使用非公开的Adobe地址和IP地址。
 
-1. 选择呼叫 **[!UICONTROL Method]**: 它可以是 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**。
+1. 选择呼叫 **[!UICONTROL Method]**:它可以是 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**。
 1. 在部 **[!UICONTROL Headers]** 分中，单 **[!UICONTROL Add a header field]** 击以定义新键／值对。 它们与向外部服务发出的请求的HTTP头相对应。 要删除键／值对，请将光标放在字 **[!UICONTROL Headers]** 段上并单击该 **[!UICONTROL Delete]** 图标。
 
    **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 默认设置，不能删除或覆盖。
