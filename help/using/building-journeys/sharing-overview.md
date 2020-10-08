@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -27,7 +25,7 @@ ht-degree: 7%
 
 [!DNL Journey Orchestration] 自动为个人在旅程中执行的每个步骤创建必要的模式和流到Adobe Experience Platform的数据集中。 步骤事件对应于旅程中从一个节点移动到另一个节点的个人。 例如，在具有事件、条件和操作的旅程中，将向Adobe Experience Platform发送三步事件。
 
-传递的XDM字段的列表是全面的。 有些代码包含系统生成的代码，而另一些代码则具有易读的易用名称。 示例包括旅程活动的标签或步骤状态： 操作超时或以错误结束的次数。
+传递的XDM字段的列表是全面的。 有些代码包含系统生成的代码，而另一些代码则具有易读的易用名称。 示例包括旅程活动的标签或步骤状态：操作超时或以错误结束的次数。
 
 >[!CAUTION]
 >
