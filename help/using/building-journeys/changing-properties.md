@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -40,7 +38,7 @@ ht-degree: 0%
 
 授权值介于1到30秒之间。
 
-如果您的旅程对时间很敏感， **[!UICONTROL Timeout and error]** 我们建议您定义一个非常短的值(例如： 对人的实时位置做出响应)，因为您不能将操作延迟超过几秒钟。 如果您的旅程对时间不太敏感，您可以使用较长的值为调用的系统提供更多时间，以发送有效的响应。
+如果您的旅程对时间很敏感， **[!UICONTROL Timeout and error]** 我们建议您定义一个非常短的值(例如：对人的实时位置做出响应)，因为您不能将操作延迟超过几秒钟。 如果您的旅程对时间不太敏感，您可以使用较长的值为调用的系统提供更多时间，以发送有效的响应。
 
 [!DNL Journey Orchestration] 还使用全局超时。 请参阅下 [一节](#global_timeout)。
 
