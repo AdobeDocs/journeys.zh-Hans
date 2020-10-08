@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 9%
+ht-degree: 26%
 
 ---
 
@@ -25,7 +23,7 @@ ht-degree: 9%
 
 ![](../assets/journey58.png)
 
-这些活动代表各种的可用通信渠道。您可以将它们组合在一起，以创建跨渠道场景。
+这些活动代表各种的可用通信渠道。您可以合并它们，创建跨渠道场景。
 
 如果您有Adobe Campaign Standard，可使用以下现成的操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 请参见 [](../building-journeys/using-adobe-campaign-actions.md)。
 
@@ -35,4 +33,4 @@ ht-degree: 9%
 
 ![](../assets/journey59bis.png)
 
-当操作或条件中发生错误时，单个旅程将停止。 使其继续的唯一方法是选中该框 **[!UICONTROL Add an alternative path in case of a timeout or an error]**。 请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人旅程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
