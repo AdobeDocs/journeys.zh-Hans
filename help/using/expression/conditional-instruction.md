@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 0%
@@ -23,9 +21,9 @@ ht-degree: 0%
 
 高级编辑器中支持条件指令（如果，则为else）。 它允许定义更复杂的表达式。 它由以下元素组成：
 
-* **[!UICONTROL if]**: 要先评估的条件。
-* **[!UICONTROL then]**: 条件评估结果为真时要评估的表达式。
-* **[!UICONTROL else]**: 在条件评估结果为false时要评估的表达式。
+* **[!UICONTROL if]**:要先评估的条件。
+* **[!UICONTROL then]**:条件评估结果为真时要评估的表达式。
+* **[!UICONTROL else]**:在条件评估结果为false时要评估的表达式。
 
 >[!NOTE]
 >
