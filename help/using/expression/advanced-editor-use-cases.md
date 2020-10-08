@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
@@ -117,7 +115,7 @@ ht-degree: 2%
     .name} == &quot;Arlington&quot;
     &quot;
 
-说明： 这是严格字符串比较（区分大小写），等同于在简单模式下使用 `equal to` 选中 `Is sensitive` 项的查询。
+说明：这是严格字符串比较（区分大小写），等同于在简单模式下使用选中项的 `equal to` 查询 `Is sensitive` 符。
 
 未选中的同一查询 `Is sensitive` 将在高级模式下生成以下表达式:
 
@@ -148,6 +146,6 @@ ht-degree: 2%
     
     &quot;
 
-说明： 此示例使用 `substr` 和函 `lastIndexOf` 数删除花括号，该花括号用于将随移动应用程序启动事件传递的CRM ID括起来。
+说明：此示例使用 `substr` 和函 `lastIndexOf` 数删除花括号，该花括号用于将随移动应用程序启动事件传递的CRM ID括起来。
 
 有关如何使用高级表达式编辑器的更多信息，请观 [看此视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
