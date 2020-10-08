@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 4%
@@ -73,7 +71,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您无法在个性化数据中传递集合。 如果交易电子邮件或短信需要集合，则它将不起作用。 另请注意，个性化数据具有预期的格式(例如： 字符串、小数等)。 必须注意遵守这些预期格式。
+>您无法在个性化数据中传递集合。 如果交易电子邮件或短信需要集合，则它将不起作用。 另请注意，个性化数据具有预期的格式(例如：字符串、小数等)。 必须注意遵守这些预期格式。
 
 这些是Adobe Campaign Standard消息应用的字段。 这些字段可用于个性化消息、应用条件格式或选择特定消息变体。
 
@@ -107,6 +105,6 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您无法在个性化数据中传递集合。 如果交易推送需要集合，则它将不起作用。 另请注意，个性化数据具有预期的格式(例如： 字符串、小数等)。 必须注意遵守这些预期格式。
+>您无法在个性化数据中传递集合。 如果交易推送需要集合，则它将不起作用。 另请注意，个性化数据具有预期的格式(例如：字符串、小数等)。 必须注意遵守这些预期格式。
 
 这些是您的Adobe Campaign Standard消息中使用的事务模板所需的字段。 这些字段可用于个性化您的消息、应用条件格式或选择特定的消息变体。
