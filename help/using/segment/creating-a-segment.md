@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 7%
@@ -22,13 +20,13 @@ ht-degree: 7%
 
 # 创建区段 {#creating-a-segment}
 
-您可以使用Adobe Experience Platform细分服务 [创建区段](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，也可以直接在中访问和创建 [!DNL Journey Orchestration]。
+您可以使用Adobe Experience Platform分段服务创 [建区段](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，也可以直接在中访问和创建 [!DNL Journey Orchestration]。
 
 1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Segments]**&#x200B;选项卡。将显示Adobe Experience Platform区段的列表。 您可以在列表中搜索特定区段。
 
 ![](../assets/segment1.png)
 
-1. Click **[!UICONTROL Add]** to create a new segment. 区段定义屏幕允许您配置所有必需字段以定义您的区段。 配置与分段服务中的配置相同。 请参阅“ [Segment Builder”用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
+1. Click **[!UICONTROL Add]** to create a new segment. 区段定义屏幕允许您配置所有必需字段以定义您的区段。 配置与分段服务中的配置相同。 请参阅“Segment [Builder用户指南”](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
 
 ![](../assets/segment2.png)
 
