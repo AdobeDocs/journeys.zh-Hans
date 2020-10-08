@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -58,11 +56,11 @@ ht-degree: 7%
 
    ![](../assets/journeyuc2_14.png)
 
-1. 选择类 **[!UICONTROL Data Source Condition]** 型，然后在字段中 **[!UICONTROL Expression]** 单击。
+1. 选择 **[!UICONTROL Data Source Condition]** 类型，然后在 **[!UICONTROL Expression]** 字段中单击。
 
    ![](../assets/journeyuc3_2.png)
 
-1. 使用简单的表达式编辑器，找 **[!UICONTROL fatigueLevel]** 到字&#x200B;_段(ExperiencePlatformDataSource > JourneyAIScores >用户档案> journeyAI > emailScore >疲劳_)，将其放在右侧并创建以下条件：“fatugeLevel”等于“Low”。 单击 **[!UICONTROL Ok]**.
+1. 使用简单的表达式编辑器， **[!UICONTROL fatigueLevel]** 查找&#x200B;_字段(ExperiencePlatformDataSource > JourneyAIScores >用户档案> journeyAI > emailScore >疲劳_)，将其放在右侧并创建以下条件：“fatugeLevel”等于“Low”。 单击 **[!UICONTROL Ok]**.
 
    ![](../assets/journeyuc3_3.png)
 
