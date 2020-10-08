@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,10 +21,10 @@ ht-degree: 0%
 
 ## 关于Alpha版本界面 {#about-alpha-interface}
 
-菜单内 [!DNL Journey Orchestration] 的导航已得到增强，以便与Adobe Experience Platform提供一致的界面。 更改包括：
+Navigation within [!DNL Journey Orchestration] menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform. 更改包括：
 
 * 菜单从界面的顶部移动到左侧，
-* 将管理功能分组到单个仪表板。
+* 将管理功能分组到单个仪表板中。
 
 本节介绍了如何在界面中使用和导航的全局概念(搜索和筛选、浏览Adobe Experience Platform字段、快捷 [键)](../about/user-interface.md)。
 
