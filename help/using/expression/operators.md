@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 4%
@@ -22,7 +20,7 @@ ht-degree: 4%
 
 # 运算符 {#concept_wd5_pj5_dgb}
 
-操作符有两种： 一元运算符和二进制运算符。 有左一元运算符和右一元运算符。
+操作符有两种：一元运算符和二进制运算符。 有左一元运算符和右一元运算符。
 
 ```
     // left-hand unary operators
@@ -49,7 +47,7 @@ ht-degree: 4%
 </thead>
 <tbody>
 <tr >&gt;<td>和</td><td><p><pre>&lt;表达式1&gt;和&lt;表达式2&gt;</pre></p>&lt;表达式1&gt;和&lt;表达式2&gt;都必须是布尔值。 结果为布尔型。</td><td><pre>3.14 &gt; 2和3.15 &lt; 1</pre></td></tr>
-<tr ><td>或</td><td><p><pre>&lt;表达式1&gt;或&lt;表达式2&gt;</pre></p><p>&lt;表达式1&gt;和&lt;表达式2&gt;都必须是布尔值。</p><p> 结果为布尔型。</p></td><td><p><pre>3.14 &gt; 2或3.15 &lt; 1</pre></p></td></tr>
+<tr ><td>或者</td><td><p><pre>&lt;表达式1&gt;或&lt;表达式2&gt;</pre></p><p>&lt;表达式1&gt;和&lt;表达式2&gt;都必须是布尔值。</p><p> 结果为布尔型。</p></td><td><p><pre>3.14 &gt; 2或3.15 &lt; 1</pre></p></td></tr>
 <tr ><td>不</td><td><p><pre>不是&lt;表达式&gt;</pre></p><p>&lt;表达式&gt;必须是布尔型。</p><p> 结果为布尔型。</p></td><td><pre>不是3.15 &lt; 1</pre></td></tr>
 </tbody>
   </table>
