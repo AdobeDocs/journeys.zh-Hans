@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -73,7 +71,7 @@ ht-degree: 1%
 <listExpression>.all(<condition>)
 ```
 
-例如，在所有应用程序用户中，您都可以使用IOS 13(布尔表达式“已使用的应用程序== IOS 13”)获取这些用户。 此函数的结果是筛选列表，其中包含与布尔表达式匹配的项目(例如： 应用程序用户1、应用程序用户34、应用程序用户432)。
+例如，在所有应用程序用户中，您都可以使用IOS 13(布尔表达式“已使用的应用程序== IOS 13”)获取这些用户。 此函数的结果是筛选列表，其中包含与布尔表达式匹配的项(例如：应用程序用户1、应用程序用户34、应用程序用户432)。
 
 在“数据源条件”活动中，您可以检查函数的 **[!UICONTROL all]** 结果是否为null。 您还可以将此函数 **[!UICONTROL all]** 与其他函数(如 **[!UICONTROL count]**)组合。 有关详细信息，请参 [阅数据源条件活动](../building-journeys/condition-activity.md#data_source_condition)。
 
@@ -129,11 +127,11 @@ earlier timestamp) in order to only consider prior events.-->
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-表达式结果是 **3**。
+The result of the expression is **3**.
 
 **示例3:**
 
-在此，我们检查某人在过去24小时内是否未收到任何通信。 我们使用两个基于两个事件的表达式来过滤从ExperiencePlatform数据源检索到的体验集合。 特别是，将事件的时间戳与函数返回的dateTime进行比 **[!UICONTROL nowWithDelta]** 较。
+在此，我们检查过去24小时内是否有个人未收到任何通信。 我们使用两个基于两个事件的表达式来过滤从ExperiencePlatform数据源检索到的体验集合。 特别是，将事件的时间戳与函数返回的dateTime进行比 **[!UICONTROL nowWithDelta]** 较。
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
