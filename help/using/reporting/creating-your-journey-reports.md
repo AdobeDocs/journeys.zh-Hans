@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b87de729f48c4624554eb19b6d418cb3cf70b805
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 2%
@@ -105,11 +103,11 @@ ht-degree: 2%
 
    其 **[!UICONTROL Column settings]** 组成有：
 
-   * **[!UICONTROL Number]**: 允许您在列中显示或隐藏摘要编号。
-   * **[!UICONTROL Percent]**: 允许您在列中显示或隐藏百分比。
-   * **[!UICONTROL Interpret zero as no value]**: 允许您在值等于零时显示或隐藏。
-   * **[!UICONTROL Background]**: 允许您在单元格中显示或隐藏水平进度栏。
-   * **[!UICONTROL Include retries]**: 允许您在结果中包含重试。 仅可用于 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**。
+   * **[!UICONTROL Number]**:允许您在列中显示或隐藏摘要编号。
+   * **[!UICONTROL Percent]**:允许您在列中显示或隐藏百分比。
+   * **[!UICONTROL Interpret zero as no value]**:允许您在值等于零时显示或隐藏。
+   * **[!UICONTROL Background]**:允许您在单元格中显示或隐藏水平进度栏。
+   * **[!UICONTROL Include retries]**:允许您在结果中包含重试。 仅可用于 **[!UICONTROL Sent]** 和 **[!UICONTROL Bounces + Errors]**。
 
 1. 选择一行或多行，然后单击 **[!UICONTROL Visualize]** 图标。 将添加一个可视化，以反映您选择的行。
 
@@ -129,9 +127,9 @@ ht-degree: 2%
 
    组件表分为三个类别:
 
-   * **[!UICONTROL Dimensions]**: 从投放日志获取详细信息，如收件人的浏览器或域，或投放成功。
-   * **[!UICONTROL Metrics]**: 获取有关消息状态的详细信息。 例如，如果已传递消息，且用户已打开该消息。
-   * **[!UICONTROL Time]**: 为表设置时间段。
+   * **[!UICONTROL Dimensions]**:从投放日志获取详细信息，如收件人的浏览器或域，或投放成功。
+   * **[!UICONTROL Metrics]**:获取有关消息状态的详细信息。 例如，如果已传递消息，且用户已打开该消息。
+   * **[!UICONTROL Time]**:为表设置时间段。
 
 1. 将组件拖放到面板中以开始筛选数据。
 
@@ -146,19 +144,19 @@ ht-degree: 2%
    ![](../assets/dynamic_report_visualization_1.png)
 
 1. 在向面板中添加可视化后，您的报表将自动检测自由格式表中的数据。 选择可视化设置。
-1. 如果您有多个自由形式表，请选择可用的数据源，以在窗口的图形中添 **[!UICONTROL Data Source Settings]** 加。 单击可视化标题旁边的彩色点也可以使用此窗口。
+1. 如果您有多个自由形式表，请在窗口中选择要添加到图形中的可用数据 **[!UICONTROL Data Source Settings]** 源。 单击可视化标题旁边的彩色点也可以使用此窗口。
 
    ![](../assets/dynamic_report_visualization_2.png)
 
 1. 单击设 **[!UICONTROL Visualization]** 置按钮可直接更改图形类型或图形上显示的内容，如：
 
-   * **[!UICONTROL Percentages]**: 以百分比显示值。
-   * **[!UICONTROL Anchor Y Axis at Zero]**: 即使值范围超过零，也强制y轴为零。
-   * **[!UICONTROL Legend visible]**: 让您隐藏图例。
-   * **[!UICONTROL Normalization]**: 强制值匹配。
-   * **[!UICONTROL Display Dual Axis]**: 向图形添加另一个轴。
-   * **[!UICONTROL Limit Max Items]**: 限制显示的图形数。
-   * **[!UICONTROL Threshold]**: 允许您为图形设置阈值。 它显示为黑色虚线。
+   * **[!UICONTROL Percentages]**:以百分比显示值。
+   * **[!UICONTROL Anchor Y Axis at Zero]**:即使值范围超过零，也强制y轴为零。
+   * **[!UICONTROL Legend visible]**:让您隐藏图例。
+   * **[!UICONTROL Normalization]**:强制值匹配。
+   * **[!UICONTROL Display Dual Axis]**:向图形添加另一个轴。
+   * **[!UICONTROL Limit Max Items]**:限制显示的图形数。
+   * **[!UICONTROL Threshold]**:允许您为图形设置阈值。 它显示为黑色虚线。
 
    ![](../assets/dynamic_report_visualization_3.png)
 
