@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -33,7 +31,7 @@ ht-degree: 0%
 
 ![](../assets/journey33.png)
 
-## 高级使用： 事件并行等待{#section_vxv_h25_pgb}
+## 高级使用：事件并行等待{#section_vxv_h25_pgb}
 
 **你怎么能只在某段时间听事件?**
 
