@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 10%
@@ -29,7 +27,7 @@ Adobe Experience Platform数据源定义与实时客户用户档案服务的连�
 
 要允许与实时客户用户档案服务建立连接，我们必须使用密钥来识别人，以及将密钥与命名空间相结合。 因此，仅当您的旅程开始包含密钥和命名空间的事件时，才能使用此数据源。 请参见 [](../building-journeys/journey.md)。
 
-您可以编辑名为“ProfileFieldGroup”的预配置字段组，添加新字段组，并删除未在任何草稿或实时旅程中使用的字段组。 请参见 [](../datasource/field-groups.md)。
+您可以编辑名为“ProfileFieldGroup”的预配置字段组，添加新字段组，并删除任何草稿或实时旅程中未使用的字段组。 请参见 [](../datasource/field-groups.md)。
 
 以下是向内置数据源添加字段组的主要步骤。
 
