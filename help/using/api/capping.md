@@ -6,10 +6,8 @@ products: journeys
 audience: audiences
 content-type: reference
 topic-tags: journeys
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
