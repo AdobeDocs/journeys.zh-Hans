@@ -8,53 +8,51 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 4%
+ht-degree: 42%
 
 ---
 
 
 # 构建旅程{#concept_eyw_mcy_w2b}
 
-商 **业用户** 现在可以构建旅程。 我们的旅程将仅包含一条包含以下活动的路径：
+**业务用户**&#x200B;现在可以构建旅程。我们的旅程将仅包含一条包含以下活动的路径：
 
-* “SpaBeacon” **[!UICONTROL Event]**: 当一个人在spa信标附近走路时，系统将收到事件，而旅程将为该人开始。
+* “SpaBeacon” **[!UICONTROL Event]**:当一个人在spa信标附近走路时，系统将收到事件，而旅程将为该人开始。
 * 一 **[!UICONTROL Condition]** 名活动，检查此人是否是女人
 * 活动( **[!UICONTROL Email]** 使用Adobe Campaign Standard)
 * an **[!UICONTROL End]** activity
 
 >[!NOTE]
 >
->只有在 **[!UICONTROL Push]** 您有 **[!UICONTROL Email]** Adobe Campaign Standard时，调色板中才提供这些和活动。
+>仅当您具有 Adobe Campaign Standard 时，调色板中才提供 **[!UICONTROL Push]** 和 **[!UICONTROL Email]** 活动。
 
-有关如何构建旅程的其他信息，请参阅 [](../building-journeys/journey.md)。
+有关如何构建旅程的其他信息，请参阅[](../building-journeys/journey.md)。
 
-1. 在顶部菜单中，单击 **[!UICONTROL Home]** 选项卡 **[!UICONTROL Create]** 并创建新旅程。
+1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Home]**&#x200B;选项卡和&#x200B;**[!UICONTROL Create]**&#x200B;以创建新旅程。
 
    ![](../assets/journey31.png)
 
-1. 在右侧显示的配置窗格中编辑旅程的属性。 我们将它命名为“Spa旅程”，从12月1日到31日，将它设定为一个月。
+1. 编辑右侧显示的配置窗格中的旅程属性。我们将它命名为“Spa旅程”，从12月1日到31日，将它设定为一个月。
 
    ![](../assets/journeyuc1_8.png)
 
-1. 开始通过将“SpaBeacon”事件从调色板拖放到画布来设计您的旅程。 您还可以多次单击调色板中的事件，将其添加到画布。
+1. 开始通过将“SpaBeacon”事件从调色板拖放到画布来设计您的旅程。 您还可以双击调色板中的事件来将其添加到画布。
 
    ![](../assets/journeyuc1_9.png)
 
-1. 现在，我们添加一个条件来检查此人是否是女性。 将条件活动拖放到您的旅程中。
+1. 现在，我们添加一个条件来检查此人是否是女性。 将条件活动拖放到旅程中。
 
    ![](../assets/journeyuc1_10.png)
 
-1. 选择类 **[!UICONTROL Data Source Condition]** 型，然后在字段中 **[!UICONTROL Expression]** 单击。 您还可以定义将显示在画布中箭头上的条件标签。
+1. 选择 **[!UICONTROL Data Source Condition]** 类型，然后在 **[!UICONTROL Expression]** 字段中单击。您还可以定义将在画布中的箭头上显示的条件标签。
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用简单的表达式编辑器，查找性别字段(_人>性别_)并将其放在创建以下条件的权限下： &quot;性别等于&quot;女性&quot;。
+1. 使用简单的表达式编辑器，查找性别字段(_人>性别_)并将其放在创建以下条件的权限下：&quot;性别等于&quot;女性&quot;。
 
    ![](../assets/journeyuc1_12.png)
 
@@ -62,7 +60,7 @@ ht-degree: 4%
 
    ![](../assets/journeyuc1_13.png)
 
-1. 在字段内 **[!UICONTROL Email]** 单击，然后从数据源中选择电子邮件地址。
+1. Click inside the **[!UICONTROL Email]** field and select the email address from the data source.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -74,11 +72,11 @@ ht-degree: 4%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 单击切换 **[!UICONTROL Test]** 按钮，并使用测试用户档案测试您的旅程。 如果出现任何错误，请取消激活测试模式，修改您的旅程并再次测试它。 有关测试模式的详细信息，请参阅 [](../building-journeys/testing-the-journey.md)。
+1. 单击切换 **[!UICONTROL Test]** 按钮，并使用测试用户档案测试您的旅程。 如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。有关测试模式的详细信息，请参阅[](../building-journeys/testing-the-journey.md)。
 
    ![](../assets/journeyuc1_18bis.png)
 
-1. 当测试结果确定时，您可以从右上方的下拉菜单发布您的旅程。
+1. 当测试得出结果时，您可以从右上方的下拉菜单发布旅程。
 
    ![](../assets/journeyuc1_18.png)
 
