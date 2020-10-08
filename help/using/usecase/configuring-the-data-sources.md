@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 14%
@@ -35,7 +33,7 @@ ht-degree: 14%
    * _person > name > lastName_
    * _personalEmail >地址_
 
-1. 单 **[!UICONTROL Add a New Field Group]**&#x200B;击，选择 **[!UICONTROL Profiles]** 模式，并为我们的 **条件添加** “Loyalty member”字段。 Loyalty **成员** 字段是自定义字段，已添加到XDM中： &quot;_customer > marlton > loyaltyMember&quot;
+1. 单 **[!UICONTROL Add a New Field Group]**&#x200B;击，选择 **[!UICONTROL Profiles]** 模式，并为我们的 **条件添加** “Loyalty member”字段。 Loyalty **成员** 字段是自定义字段，已添加到XDM中：&quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
@@ -64,8 +62,8 @@ ht-degree: 14%
 1. 单 **[!UICONTROL Add a New Field Group]** 击以定义要检索的信息和API参数。 对于我们的示例，只有一个参数(id)，因此我们需要创建一个包含以下信息的字段组：
 
    * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
-   * **[!UICONTROL Cache duration]**: 这会根据API调用的频率而有所不同。 在我们的情况下，预订系统每10分钟更新一次。
-   * **[!UICONTROL Response Payload]**: 在字段中单 **[!UICONTROL Payload]** 击并粘贴有效负荷的示例。 验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。在我们的示例中，有效负荷仅包含保留状态：
+   * **[!UICONTROL Cache duration]**:这会根据API调用的频率而有所不同。 在我们的情况下，预订系统每10分钟更新一次。
+   * **[!UICONTROL Response Payload]**:在字段中单 **[!UICONTROL Payload]** 击并粘贴有效负荷的示例。 验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。在我们的示例中，有效负荷仅包含保留状态：
 
    ```
    {
@@ -73,7 +71,7 @@ ht-degree: 14%
    }
    ```
 
-   * **[!UICONTROL Dynamic Values]**: 在本例中输入与用于标识每个客户的键对应的参数“id”。 此参数的值将在旅程中定义。
+   * **[!UICONTROL Dynamic Values]**:在本例中输入与用于标识每个客户的键对应的参数“id”。 此参数的值将在旅程中定义。
 
    ![](../assets/journeyuc2_11.png)
 
