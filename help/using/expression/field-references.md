@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 1%
@@ -61,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id, defaultValue : 2}将无效，因为默认值是整数，而预期值应为字符串。
+>字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id, defaultValue :2}将无效，因为默认值是整数，而预期值应为字符串。
 
 **集合中字段的引用**
 
@@ -99,8 +97,8 @@ For more complex use cases, if you want to include the parameters of the data so
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: 数据源中第一个参数的确切名称。
-* **`<params-1-value>`**: 第一个参数的值。 它可以是任何有效的表达式。
+* **`<params-1-name>`**:数据源中第一个参数的确切名称。
+* **`<params-1-value>`**:第一个参数的值。 它可以是任何有效的表达式。
 
 示例:
 
