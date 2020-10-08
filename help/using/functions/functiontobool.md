@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 5%
@@ -23,8 +21,8 @@ ht-degree: 5%
 
 根据参数值的类型，将参数值转换为布尔值。
 
-* 从字符串： 尝试将字符串值转换为布尔值，如果字符串值为“true”，则从“true”转换为false，否则从“true”转换为“false”
-* 从数字： 如果数值不等于0，则为true；否则为false
+* 从字符串：尝试将字符串值转换为布尔值，如果字符串值为“true”，则从“true”转换为false，否则从“true”转换为“false”
+* 从数字：如果数值不等于0，则为true；否则为false
 
 ## 类别
 
