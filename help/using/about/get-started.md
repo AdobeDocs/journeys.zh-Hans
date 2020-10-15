@@ -1,6 +1,6 @@
 ---
 title: 入门
-description: 了解设置Journey Orchestration和构建您的第一个旅程的主要步骤。
+description: 了解设置 Journey Orchestration 和构建您的第一个历程的主要步骤。
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
