@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7bfe162783ef558ae86edb87ba01bb6d793246b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -34,24 +34,24 @@ ht-degree: 0%
 
 * 模式必须是XDM ExperienceEvent类。
 
-![](../assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * 模式必须包括Orchestration eventID mixin。 [!DNL Journey Orchestration] 使用此字段识别旅程中使用的事件。
 
-![](../assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * 声明标识字段以标识事件的主体。 如果未指定身份，则可以使用身份映射。 不建议这样做。
 
-![](../assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * 如果您希望此数据稍后在旅程中可供查阅，请标记模式和数据集以进行用户档案。
 
-![](../assets/schema5.png)
+   ![](../assets/schema5.png)
 
-![](../assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * 您可以随意包含数据字段以捕获要包含在事件中的任何其他上下文数据，如有关用户、从中生成事件的设备、位置或与事件相关的任何其他有意义的情况。
 
-![](../assets/schema7.png)
+   ![](../assets/schema7.png)
 
-![](../assets/schema8.png)
+   ![](../assets/schema8.png)
