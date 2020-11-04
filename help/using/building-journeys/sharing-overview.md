@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7a4d67af88827dfc852a281a7877efb2853facf
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '420'
 ht-degree: 7%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 7%
 
 [!DNL Journey Orchestration] 自动将旅程性能数据发送到Adobe Experience Platform，以便与其他数据结合，以便分析。
 
+>[!NOTE]
+>
+>默认情况下，该功能不会在所有新部署的实例上激活。 激活应要求。
+
 例如，您已设置发送多个电子邮件的旅程。 此功能允许您将数据与 [!DNL Journey Orchestration] 下游事件数据相结合，如发生了多少转换、网站上发生了多少参与，或在商店中发生了多少交易。 旅程信息可以与Adobe Experience Platform的数据相结合，无论是从其他数字资产还是离线资产，都可以提供更全面的性能视图。
 
 [!DNL Journey Orchestration] 自动为个人在旅程中执行的每个步骤创建必要的模式和流到Adobe Experience Platform的数据集中。 步骤事件对应于旅程中从一个节点移动到另一个节点的个人。 例如，在具有事件、条件和操作的旅程中，将向Adobe Experience Platform发送三步事件。
@@ -29,7 +33,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->无法为实时用户档案服务打开数据集。 请确保关闭 **[!UICONTROL Profile]** 了切换开关
+>无法为实时用户档案服务打开数据集。 请确保关闭 **[!UICONTROL Profile]** 了切换。
 
 旅程以流方式在数据发生时发送数据。 您可以使用查询服务查询此数据。 您可以连接到Customer Journey Analytics或其他BI工具，以视图与这些步骤相关的数据。
 
