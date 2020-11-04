@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bdec7addcadabac614f703c4ad719c13d044465f
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 93%
+source-wordcount: '1733'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,31 @@ ht-degree: 93%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以参阅[文档更新](../release-notes/documentation-updates.md)。
+
+## 2020年10月版 {#october-release}
+
+### GA 更新{#october-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>事件超时</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以为事件配置超时，以便仅在特定时间内让旅程侦听事件。 您不再需要添加与活动路径平行的等待事件来实现此目的。
+</p>
+<p>有关详细信息，请参阅<a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 其他改进{#october-other}
+
+* 当您发布旅程的新版本时，先前版本会自动结束并切换到“已关闭”状态。 [阅读更多](../building-journeys/journey-versions.md)
 
 ## 2020年9月版 {#september-release}
 
