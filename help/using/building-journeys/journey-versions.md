@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -43,4 +43,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->如果您有多个实时版本并且停止了最新版本，则用户不会返回到以前的实时版本。 旅程中不会有入口。
+>当您发布旅程的新版本时，先前版本会自动结束并切换到“已关闭 **** ”状态。 旅程中不会有入口。 即使您停止最新版本，旧版本也将保持关闭状态。
