@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 在我们的使用案例中，我们希望将个性化数据用于我们的消息。 我们还需要检查此人是否是忠诚会员，且过去24小时内未联系过他。 此信息存储在实时客户用户档案库中。 技 **术用户需** 要配置Adobe Experience Platform数据源以检索这些字段。
 
-有关数据源配置的其他信息，请参阅 [](../datasource/about-data-sources.md)。
+有关数据源配置的其他信息，请参 [阅本页](../datasource/about-data-sources.md)。
 
 1. 在顶部菜单中，单击选 **[!UICONTROL Data Sources]** 项卡并选择内置的Adobe Experience Platform数据源。
 
