@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 900b956799194e13ee01ca9aef3c786e9c5b04db
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1007'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONT
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，使用 **[!UICONTROL Creation filters]** 按创建日期和用户进行过滤。例如，您可以选择仅显示您在过去 30 天中创建的事件。
 
-在旅程列表（ **[!UICONTROL Home]**&#x200B;下）中，除了 **[!UICONTROL Creation filters]** 以外，您还可以根据显示的旅程状态和版本 (**[!UICONTROL Status and version filters]**) 筛选。您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的旅程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时旅程。请参见 [](../building-journeys/using-the-journey-designer.md)。
+在旅程列表（ **[!UICONTROL Home]**&#x200B;下）中，除了 **[!UICONTROL Creation filters]** 以外，您还可以根据显示的旅程状态和版本 (**[!UICONTROL Status and version filters]**) 筛选。您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的旅程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时旅程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
