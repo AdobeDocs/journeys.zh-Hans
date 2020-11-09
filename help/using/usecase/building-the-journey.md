@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '847'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 >
 >仅当您具有 Adobe Campaign Standard 时，调色板中才提供 **[!UICONTROL Push]** 和 **[!UICONTROL Email]** 活动。
 
-有关如何构建旅程的其他信息，请参阅[](../building-journeys/journey.md)。
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 ## 首要步骤{#section_ntb_ws1_ffb}
 
@@ -81,7 +81,7 @@ ht-degree: 100%
    >
    >在表达式的第二部分中，“用户档案”是可选的。
 
-1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的详细信息，请参阅[](../event/selecting-the-namespace.md)。
+1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
 在我们的用例中，我们只希望对这两种情况做出反应，因此不会选中 **[!UICONTROL Show path for other cases than the one(s) above]** 框。
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 从外部数据源中选择字段时，屏幕的右侧部分显示配置外部数据源时定义的参数列表（请参阅[](../usecase/configuring-the-data-sources.md)）。单击参数名称并定义预订系统键（在我们的示例中为 Experience Cloud ID）的值：
+1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [this page](../usecase/configuring-the-data-sources.md)). 单击参数名称并定义预订系统键（在我们的示例中为 Experience Cloud ID）的值：
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -172,7 +172,7 @@ ht-degree: 100%
 
 1. 添加 **[!UICONTROL End]** 活动。
 
-单击 **[!UICONTROL Test]** 切换并测试您的旅程。如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。有关测试模式的详细信息，请参阅[](../building-journeys/testing-the-journey.md)。
+单击 **[!UICONTROL Test]** 切换并测试您的旅程。如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 
