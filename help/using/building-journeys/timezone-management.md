@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 2%
 
 此时区将用于旅程中包含时间元素的每个活动，例如：
 
-* [](../building-journeys/condition-activity.md#time_condition)
-* [](../building-journeys/condition-activity.md#date_condition)
-* [](../building-journeys/wait-activity.md#custom)
-* [](../building-journeys/wait-activity.md#fixed_date)
+* [时间条件](../building-journeys/condition-activity.md#time_condition)
+* [日期条件](../building-journeys/condition-activity.md#date_condition)
+* [自定义等待](../building-journeys/wait-activity.md#custom)
+* [修复了日期等待](../building-journeys/wait-activity.md#fixed_date)
 
 您可以选择时区或选择使用用户用户档案中定义的时区。
 
