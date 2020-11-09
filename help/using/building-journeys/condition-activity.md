@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '743'
+ht-degree: 10%
 
 ---
 
@@ -56,14 +56,13 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->不能使用简单的编辑器对时间序列执行查询(例如，购买列表、过去单击消息)。 为此，您需要使用高级编辑器。 请参见 [](../expression/expressionadvanced.md)。
+>不能使用简单的编辑器对时间序列执行查询(例如，购买列表、过去单击消息)。 为此，您需要使用高级编辑器。 请参阅[此页](../expression/expressionadvanced.md)。
 
-
-当操作或条件中发生错误时，个人旅程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人旅程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
 
 ## 数据源条件 {#data_source_condition}
 
-这允许您根据数据源中的字段或之前位于旅程中的事件定义条件。 要了解如何使用表达式编辑器，请参阅 [](../expression/expressionadvanced.md)。 使用高级表达式编辑器，您可以设置更高级的条件处理集合或使用要求传递参数的数据源。 请参见 [](../datasource/external-data-sources.md)。
+这允许您根据数据源中的字段或之前位于旅程中的事件定义条件。 要了解如何使用表达式编辑器，请参 [阅此页](../expression/expressionadvanced.md)。 使用高级表达式编辑器，您可以设置更高级的条件处理集合或使用要求传递参数的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -73,7 +72,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->时区不再特定于某个条件，现在在旅程属性的旅程级别定义。 请参见 [](../building-journeys/timezone-management.md)。
+>时区不再特定于某个条件，现在在旅程属性的旅程级别定义。 请参见[此页面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey51.png)
 
@@ -85,7 +84,6 @@ ht-degree: 8%
 >
 >请注意，在百分比拆分条件中没有添加路径的按钮。 路径数取决于拆分数。 在拆分条件中，无法为其他情况添加路径，因为不能添加路径。 人们将始终进入一条分割路径。
 
-
 ![](../assets/journey52.png)
 
 ## 日期条件 {#date_condition}
@@ -94,6 +92,6 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->时区不再特定于某个条件，现在在旅程属性的旅程级别定义。 请参见 [](../building-journeys/timezone-management.md)。
+>时区不再特定于某个条件，现在在旅程属性的旅程级别定义。 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey53.png)
