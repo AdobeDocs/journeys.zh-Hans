@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1354'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ The **journey list** allows you to view all your journeys at once, see their sta
 
 ![](../assets/journey74.png)
 
-您的所有版本旅程都以版本号显示在列表中。 请参见 [](../building-journeys/journey-versions.md)。
+您的所有版本旅程都以版本号显示在列表中。 请参阅[此页](../building-journeys/journey-versions.md)。
 
 ![](../assets/journey37.png)
 
@@ -55,7 +55,7 @@ The **[!UICONTROL Show disabled items]** icon in the top left corner allows you 
 
 ## 画布 {#canvas}
 
-画 **布** 是旅程设计者的中心区域。 您可以在此区域中放置活动并进行配置。 单击画布中的活动进行配置。 这会打开右侧的活动配置窗格。 可使用右上方的“+”和“-”按钮进行放大和缩小。 在画布中，除了活动之外，所有活动都允许您在其后添加下一步 **[!UICONTROL End]** (请参阅 [](../building-journeys/end-activity.md))。
+画 **布** 是旅程设计者的中心区域。 您可以在此区域中放置活动并进行配置。 单击画布中的活动进行配置。 这会打开右侧的活动配置窗格。 可使用右上方的“+”和“-”按钮进行放大和缩小。 在画布中，所有活动都允许您在其后添加下一步，但活动除 **[!UICONTROL End]** 外(请 [参阅此页](../building-journeys/end-activity.md))。
 
 ![](../assets/journey39.png)
 
@@ -69,19 +69,19 @@ The **[!UICONTROL Show disabled items]** icon in the top left corner allows you 
 
 ## 顶栏操作 {#top_actions}
 
-根据旅程的状态，您可以使用右上角的按钮对旅程执行不同的操作： **[!UICONTROL Publish]**、 **[!UICONTROL Duplicate]**、 **[!UICONTROL Delete]**、 **[!UICONTROL Journey properties]**、 **[!UICONTROL Test]**。 未选择活动时，将显示这些按钮。 某些按钮将根据上下文显示。 在激活测试模式时，将显示测试模式日志按钮(请参 [](../building-journeys/testing-the-journey.md)阅)。 当旅程处于实时、停止或关闭状态时，将显示报告按钮。
+根据旅程的状态，您可以使用右上角的按钮对旅程执行不同的操作： **[!UICONTROL Publish]**、 **[!UICONTROL Duplicate]**、 **[!UICONTROL Delete]**、 **[!UICONTROL Journey properties]**、 **[!UICONTROL Test]**。 未选择活动时，将显示这些按钮。 某些按钮将根据上下文显示。 在激活测试模式时，将显示测试模式日志按钮(请 [参阅此页](../building-journeys/testing-the-journey.md))。 当旅程处于实时、停止或关闭状态时，将显示报告按钮。
 
 ![](../assets/journey41.png)
 
 ## 在画布中使用路径 {#paths}
 
-多个活动(**[!UICONTROL Condition]**&#x200B;活动 **[!UICONTROL Action]** )允许您定义在出现错误或超时时的回退操作。 在“活动配置”窗格中，选中复选框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 在活动后添加另一个路径。 超时持续时间在旅程的属性中定义(由管 [](../building-journeys/changing-properties.md) 理员用户查看)。 例如，如果电子邮件发送时间过长或出错，您可以决定发送SMS。
+多个活动(**[!UICONTROL Condition]**&#x200B;活动 **[!UICONTROL Action]** )允许您定义在出现错误或超时时的回退操作。 在“活动配置”窗格中，选中复选框： **[!UICONTROL Add an alternative path in case of a timeout or an error]**. 在活动后添加另一个路径。 超时持续时间在旅程的属性中定义(请 [由管理](../building-journeys/changing-properties.md) 员用户参阅此页)。 例如，如果电子邮件发送时间过长或出错，您可以决定发送SMS。
 
 ![](../assets/journey42.png)
 
 各种活动(事件、操作、等待)允许您在路径后添加多条路径。 为此，请将光标放在活动上并单击“+”符号。 只能同时设置事件和等待活动。 如果多个事件被并行设置，则所选路径将是第一个事件。
 
-在听取事件时，我们建议您不要无限期地等待事件。 它不是强制性的，只是一种最佳实践。 如果您只想在某个时间内聆听一个或多个事件，您将同时放置一个或多个事件和一个等待活动。 请参见 [](../building-journeys/event-activities.md#section_vxv_h25_pgb)。
+在听取事件时，我们建议您不要无限期地等待事件。 它不是强制性的，只是一种最佳实践。 如果您只想在某个时间内聆听一个或多个事件，您将同时放置一个或多个事件和一个等待活动。 请参阅[此章节](../building-journeys/event-activities.md#section_vxv_h25_pgb)。
 
 要删除路径，请将光标放在路径上并单击该 **[!UICONTROL Delete arrow]** 图标。
 
