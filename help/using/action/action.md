@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 89%
 
 ---
 
@@ -28,20 +28,20 @@ ht-degree: 100%
 
 通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
 
-这些操作在旅程左侧面板的 **[!UICONTROL Action]**&#x200B;类别中可用（请参阅 [](../building-journeys/about-action-activities.md)）。
+The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. 请参阅[此页](../building-journeys/about-action-activities.md)。
 
 >[!NOTE]
 >
 >自定义操作的配置始终由&#x200B;**技术用户**&#x200B;执行。
 
-在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新旅程、操作、数据源或事件。有关 [!DNL Journey Orchestration] 中快捷键的更多信息，请参阅 [](../about/user-interface.md#section_ksq_zr1_ffb)。
+在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新旅程、操作、数据源或事件。For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
 
-要查看操作列表或配置新操作，请单击顶部菜单中的&#x200B;**[!UICONTROL Actions]**。将显示操作列表。有关该界面的详细信息，请参见 [](../about/user-interface.md)。
+要查看操作列表或配置新操作，请单击顶部菜单中的&#x200B;**[!UICONTROL Actions]**。将显示操作列表。See [this page](../about/user-interface.md) for more information on the interface.
 
 ![](../assets/custom1.png)
 
-如果您拥有 Adobe Campaign Standard，您需要配置开箱即用的操作，以使用 Adobe Campaign Standard 的事务性消息传送功能发送电子邮件、推送通知和短信。请参阅[](../action/working-with-adobe-campaign.md)。
+如果您拥有 Adobe Campaign Standard，您需要配置开箱即用的操作，以使用 Adobe Campaign Standard 的事务性消息传送功能发送电子邮件、推送通知和短信。请参见[此页面](../action/working-with-adobe-campaign.md)。
 
-如果您使用第三方系统发送消息，如 Epsilon、Facebook、Adobe.io、Firebase 等，则需要添加和配置自定义操作。请参阅[](../action/about-custom-action-configuration.md)。
+如果您使用第三方系统发送消息，如 Epsilon、Facebook、Adobe.io、Firebase 等，则需要添加和配置自定义操作。请参见[此页面](../action/about-custom-action-configuration.md)。
 
 有关如何配置 [!DNL Journey Orchestration] 操作以及如何在旅程中使用的更多信息，请观看此[视频教程](https://docs.adobe.com/content/help/zh-Hans/journey-orchestration-learn/tutorials/configure-actions.html)。
