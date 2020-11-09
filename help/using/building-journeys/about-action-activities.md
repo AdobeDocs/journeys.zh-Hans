@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 26%
+source-wordcount: '173'
+ht-degree: 28%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 26%
 
 这些活动代表各种的可用通信渠道。您可以合并它们，创建跨渠道场景。
 
-如果您有Adobe Campaign Standard，可使用以下现成的操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 请参见 [](../building-journeys/using-adobe-campaign-actions.md)。
+如果您有Adobe Campaign Standard，可使用以下现成的操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 请参见[此页面](../building-journeys/using-adobe-campaign-actions.md)。
 
-如果已配置自定义操作，则它们也将显示在此处(请参 [](../building-journeys/using-custom-actions.md)阅)。
+如果已配置自定义操作，则它们也将显示在此处(请参 [阅此页](../building-journeys/using-custom-actions.md))。
 
 在画布中放置操作活动时，可以定义操作 **[!UICONTROL Label]**。 这允许您向将在画布中的活动下显示的操作名称添加后缀。 如果您在旅程中多次使用同一操作，并希望更轻松地识别它们，则此功能非常有用。 报告也更易于阅读。 您还可以添加可选项 **[!UICONTROL Description]**。
 
 ![](../assets/journey59bis.png)
 
-当操作或条件中发生错误时，个人旅程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参见 [](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人旅程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
