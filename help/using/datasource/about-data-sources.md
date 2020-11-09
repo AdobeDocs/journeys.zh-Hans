@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 88%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 100%
 
 数据源有两种类型：
 
-* 预配置的 Adobe Experience Platform 数据源，它定义与实时客户资料服务的连接。这是一种内置数据源。请参见 [](../datasource/adobe-experience-platform-data-source.md)。
-* 外部数据源，它允许您定义与外部系统的连接。这些是您可以创建的数据源。请参见 [](../datasource/external-data-sources.md)。
+* 预配置的 Adobe Experience Platform 数据源，它定义与实时客户资料服务的连接。这是一种内置数据源。请参阅[此页](../datasource/adobe-experience-platform-data-source.md)。
+* 外部数据源，它允许您定义与外部系统的连接。这些是您可以创建的数据源。请参阅[此页](../datasource/external-data-sources.md)。
 
-对于每个数据源，您定义要使用字段组检索的信息。字段组是可从数据源检索的字段集。请参见 [](../datasource/field-groups.md)。
+对于每个数据源，您定义要使用字段组检索的信息。字段组是可从数据源检索的字段集。请参阅[此页](../datasource/field-groups.md)。
 
 有关如何配置 Adobe Experience Platform 数据源和外部数据源以及如何在旅程中查找和使用数据的更多信息，请观看此[教程视频](https://docs.adobe.com/content/help/zh-Hans/journey-orchestration-learn/tutorials/configure-data-sources.html)。
 
@@ -50,11 +50,11 @@ ht-degree: 100%
 
 1. 在顶部菜单中，单击 **[!UICONTROL Data Sources]**&#x200B;选项卡。
 
-   将显示数据源列表。有关该界面的详细信息，请参见 [](../about/user-interface.md)。
+   将显示数据源列表。See [this page](../about/user-interface.md) for more information on the interface.
 
    ![](../assets/journey18.png)
 
-1. 然后，您可以将字段组添加到内置数据源（请参阅 [](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅 [](../datasource/external-data-sources.md)）和关联的字段组（请参阅 [](../datasource/field-groups.md)）。
+1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
