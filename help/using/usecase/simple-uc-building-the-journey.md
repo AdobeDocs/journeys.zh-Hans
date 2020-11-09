@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 42%
+source-wordcount: '395'
+ht-degree: 36%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 42%
 >
 >仅当您具有 Adobe Campaign Standard 时，调色板中才提供 **[!UICONTROL Push]** 和 **[!UICONTROL Email]** 活动。
 
-有关如何构建旅程的其他信息，请参阅[](../building-journeys/journey.md)。
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Home]**&#x200B;选项卡和&#x200B;**[!UICONTROL Create]**&#x200B;以创建新旅程。
 
@@ -72,7 +72,7 @@ ht-degree: 42%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 单击切换 **[!UICONTROL Test]** 按钮，并使用测试用户档案测试您的旅程。 如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。有关测试模式的详细信息，请参阅[](../building-journeys/testing-the-journey.md)。
+1. 单击切换 **[!UICONTROL Test]** 按钮，并使用测试用户档案测试您的旅程。 如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
