@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 在我们的场景中，每当一个人走近Spa旁边的信标时，我们都需要收到事件。 技 **术用户** 需要配置系统在旅程中将监听的事件。
 
-有关事件配置的其他信息，请参阅 [](../event/about-events.md)。
+有关事件配置的其他信息，请参 [阅本页](../event/about-events.md)。
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -39,7 +39,7 @@ ht-degree: 9%
    >
    >字段的列表因模式而异。 根据模式定义，某些字段可能是必填字段并且是预选字段。
 
-1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的详细信息，请参阅[](../event/selecting-the-namespace.md)。
+1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
@@ -53,4 +53,4 @@ ht-degree: 9%
 
    ![](../assets/journeyuc1_7.png)
 
-   事件随时可用于您的旅程。 现在，您需要配置移动应用程序，以便它能够将期望的有效负荷发送到流摄取API端点。 请参见 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   事件随时可用于您的旅程。 现在，您需要配置移动应用程序，以便它能够将期望的有效负荷发送到流摄取API端点。 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
