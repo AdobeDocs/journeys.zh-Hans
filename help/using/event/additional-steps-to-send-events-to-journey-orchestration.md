@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 6%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->创建事件时， [!DNL Journey Orchestration] 自动为此事件生成ID。 推送事件的系统不应生成ID，它应使用有效负荷预览中可用的ID。 请参见 [](../event/previewing-the-payload.md)。
+>创建事件时， [!DNL Journey Orchestration] 自动为此事件生成ID。 推送事件的系统不应生成ID，它应使用有效负荷预览中可用的ID。 请参阅[此页](../event/previewing-the-payload.md)。
 
 要配置要发送到的事件以 **[!UICONTROL Streaming Ingestion APIs]** 及要在中使用的 [!DNL Journey Orchestration]，您需要执行以下步骤：
 
 1. 从Adobe Experience PlatformAPI获取入口URL(请参 [阅流摄取API](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/streaming/overview.html))。
-1. 从菜单中的有效负荷预览复制有 **[!UICONTROL Event]** 效负荷。 请参见 [](../event/defining-the-payload-fields.md)。
+1. 从菜单中的有效负荷预览复制有 **[!UICONTROL Event]** 效负荷。 请参阅[此页](../event/defining-the-payload-fields.md)。
 
 然后，您需要配置事件系统，该数据系统使用您复制的负载将数据推送到Streaming Ingestion API:
 
