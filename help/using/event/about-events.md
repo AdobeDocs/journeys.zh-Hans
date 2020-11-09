@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 100%
+source-wordcount: '727'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Pipeline 过滤器事件的有效负载包含由 [!DNL Journey Orchestration] �
 
 以下是配置新事件的主要步骤：
 
-1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Events]**&#x200B;选项卡。将显示事件列表。有关该界面的详细信息，请参见 [](../about/user-interface.md)。
+1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Events]**&#x200B;选项卡。将显示事件列表。有关该 [界面的详](../about/user-interface.md) 细信息，请参阅本页。
 
    ![](../assets/journey5.png)
 
@@ -61,13 +61,13 @@ Pipeline 过滤器事件的有效负载包含由 [!DNL Journey Orchestration] �
    >请勿使用空格或特殊字符。请勿使用超过 30 个字符。
 
 1. 向事件添加描述。此步骤是可选的。
-1. 定义架构和有效负载字段：在这里，您可以选择 [!DNL Journey Orchestration] 预期接收的事件信息（通常称为有效负载）。然后，您便能够在旅程中使用这些信息。请参见 [](../event/defining-the-payload-fields.md)。
+1. 定义架构和有效负载字段：在这里，您可以选择 [!DNL Journey Orchestration] 预期接收的事件信息（通常称为有效负载）。然后，您便能够在旅程中使用这些信息。请参阅[此页](../event/defining-the-payload-fields.md)。
 1. 使用此事件的旅程数显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标，以显示使用此事件的旅程列表。
-1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参见 [](../event/selecting-the-namespace.md)。
-1. 定义键：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的个人。如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，[!DNL Journey Orchestration] 会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会自动选择电子邮件键）。请参见 [](../event/defining-the-event-key.md)。
-1. 添加条件。此步骤是可选的。这允许系统仅处理符合条件的事件。此条件只能基于事件中包含的信息。请参见 [](../event/adding-a-condition.md)。
+1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此页](../event/selecting-the-namespace.md)。
+1. 定义键：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的个人。如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，[!DNL Journey Orchestration] 会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会自动选择电子邮件键）。请参阅[此页](../event/defining-the-event-key.md)。
+1. 添加条件。此步骤是可选的。这允许系统仅处理符合条件的事件。此条件只能基于事件中包含的信息。请参阅[此页](../event/adding-a-condition.md)。
 1. 单击 **[!UICONTROL Save]**.
 
    ![](../assets/journey7.png)
 
-   事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参见 [](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   事件现已配置完毕，可随时投入旅程。还需要其他配置步骤以接收事件。请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
