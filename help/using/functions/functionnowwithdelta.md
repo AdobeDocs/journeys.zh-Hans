@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '109'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 # nowWithDelta {#nowWithDelta}
 
-返回包含偏移的当前日期时间。 如果指定了时区ID，则将应用时区偏移。 有关数据类型的详细信息，请参阅 [](../expression/data-types.md)。
+返回包含偏移的当前日期时间。 如果指定了时区ID，则将应用时区偏移。 For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## 类别
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 |--- |--- |
 | 三角洲 | 正整数值 |
 | 日期部分 | 年、月、日、小时、分钟或秒（字符串） |
-| 时区id | 时区值的字符串表示形式。 有关详细信息，请参阅 [](../expression/data-types.md)。 时区ID必须是字符串常数。 它不能是字段引用或表达式。 |
+| 时区id | 时区值的字符串表示形式。 有关详细信息，请参 [阅数据类型](../expression/data-types.md)。 时区ID必须是字符串常数。 它不能是字段引用或表达式。 |
 
 ## 签名和返回类型
 
