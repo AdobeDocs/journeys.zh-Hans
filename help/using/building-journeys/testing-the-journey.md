@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 # 测试旅程{#testing_the_journey}
 
-在能够测试旅程之前，您必须解决所有错误（如果有）。 请参见 [](../about/troubleshooting.md#section_h3q_kqk_fhb)。
+在能够测试旅程之前，您必须解决所有错误（如果有）。 请参阅[此章节](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
 您可以使用测试用户档案，在发布旅程之前对其进行测试。 这使您能够分析个人在旅程中的流动情况，并在发布前排除故障。
 
 要使用测试模式，请执行以下步骤：
 
-1. 在测试您的旅程之前，请验证该旅程是否有效，并且没有错误。 您将无法对存在错误的旅程进行测试。 请参见 [](../about/troubleshooting.md#section_h3q_kqk_fhb)。出错时显示警告符号。
+1. 在测试您的旅程之前，请验证该旅程是否有效，并且没有错误。 您将无法对存在错误的旅程进行测试。 请参阅[此章节](../about/troubleshooting.md#section_h3q_kqk_fhb)。出错时显示警告符号。
 
 1. 要激活测试模式，请单击位 **[!UICONTROL Test]** 于右上角的切换模式。
 
@@ -43,12 +43,12 @@ ht-degree: 3%
 
    ![](../assets/journeyuctest2.png)
 
-1. 如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。当测试结果确定时，您可以发布您的旅程。 请参见 [](../building-journeys/publishing-the-journey.md)。
+1. 如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。当测试结果确定时，您可以发布您的旅程。 请参阅[此页](../building-journeys/publishing-the-journey.md)。
 
 ## 重要说明{#important_notes}
 
 * 提供一个接口，用于向测试旅程中的事件发射事件，但也可以由第三方系统发送，如Postman。
-* 只允许在实时客户用户档案服务中标为“测试用户档案”的个人进入测试旅程。 请参见 [](../building-journeys/testing-the-journey.md#create-test-profile)。
+* 只允许在实时客户用户档案服务中标为“测试用户档案”的个人进入测试旅程。 请参阅[此章节](../building-journeys/testing-the-journey.md#create-test-profile)。
 * 测试模式仅在使用命名空间的草稿旅程中可用。 测试模式需要检查进入旅程的人员是否是测试用户档案，因此必须能够到达Adobe Experience Platform。
 * 在测试会话期间，可以进入旅程的测试用户档案数最大为100。
 * 禁用测试模式后，它将从过去或当前已进入该模式的所有人员中抢占旅程。 它还清除了报告。
