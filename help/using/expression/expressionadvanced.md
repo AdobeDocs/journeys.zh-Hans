@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ _高级表达式编辑器界面_
 
 **使用高级表达式编辑器构建条件时需要参数**
 
-如果您从外部数据源中选择字段，则需要调用一个参数（请参阅[](../datasource/external-data-sources.md)）。例如，在与天气相关的数据源中，常用的参数将为“city”。因此，必须选择要获取此城市参数的位置。还可以将函数应用于参数以执行格式更改或连接。
+If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). 例如，在与天气相关的数据源中，常用的参数将为“city”。因此，必须选择要获取此城市参数的位置。还可以将函数应用于参数以执行格式更改或连接。
 
 ![](../assets/journeyuc2_19.png)
 
