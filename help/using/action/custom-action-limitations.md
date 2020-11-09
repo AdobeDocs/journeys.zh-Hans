@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 * 没有发送卷缓冲／平滑。
 * 在出现错误时系统地执行两个重试。 无法根据收到的错误消息调整重试数。
-* 内置事件 **[!UICONTROL Reaction]** 允许您对现成操作做出响应(请参阅 [](../building-journeys/reaction-events.md))。 如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。
+* 内置事件 **[!UICONTROL Reaction]** 允许您对现成操作做出响应(请参阅 [本页](../building-journeys/reaction-events.md))。 如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。
 * 自定义操作URL不支持动态参数。
 * 仅支持POST和PUT调用方法。
 * 查询参数或标题的名称不能与“”开始。 或者 &quot;$&quot;.
