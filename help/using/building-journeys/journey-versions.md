@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 3%
 
 ---
 
 
 # 旅程版本{#concept_ldc_k55_zgb}
 
-在旅程列表中，所有旅程版本都显示版本号。 请参见 [](../building-journeys/using-the-journey-designer.md)。当您搜索旅程时，应用程序第一次打开时，最新版本显示在列表顶部。 然后，您可以定义所需的排序，应用程序会将其保留为用户首选项。 旅程版本还显示在旅程版本界面的顶部，位于画布上方。
+在旅程列表中，所有旅程版本都显示版本号。 请参阅[此页](../building-journeys/using-the-journey-designer.md)。当您搜索旅程时，应用程序第一次打开时，最新版本显示在列表顶部。 然后，您可以定义所需的排序，应用程序会将其保留为用户首选项。 旅程版本还显示在旅程版本界面的顶部，位于画布上方。
 
 ![](../assets/journeyversions1.png)
 
