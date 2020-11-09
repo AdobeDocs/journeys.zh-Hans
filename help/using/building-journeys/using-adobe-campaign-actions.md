@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 4%
+source-wordcount: '899'
+ht-degree: 5%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->为此，您需要配置内置操作。 请参阅[](../action/working-with-adobe-campaign.md)。
+>为此，您需要配置内置操作。 请参见[此页面](../action/working-with-adobe-campaign.md)。
 
-对于这些渠道，您选择一个Adobe Campaign Standard事务消息 **模板**。 事实上， [!DNL Journey Orchestration] 这并不是传递解决方案的信息。 对于内置电子邮件、短信和推送渠道，我们依靠交易消息来执行消息发送。 这意味着，如果要在旅程中使用特定消息模板，则必须在Adobe Campaign Standard发布该模板。 请参阅本 [页](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) ，了解如何使用此功能。
+对于这些渠道，您选择一个Adobe Campaign Standard事务消息 **模板**。 事实上， [!DNL Journey Orchestration] 这并不是传递解决方案的信息。 对于内置电子邮件、短信和推送渠道，我们依靠交易消息来执行消息发送。 这意味着，如果要在旅程中使用特定消息模板，则必须在Adobe Campaign Standard发布该模板。 请参阅 [本页](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) ，了解如何使用此功能。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 4%
 >
 >当我们发送实时事务性消息(rtEvent)或通过自定义操作与第三方系统发送消息时，对于疲劳、阻止列表或退订管理，需要特定设置。 例如，如果“取消订阅”属性存储在Adobe Experience Platform或第三方系统中，则必须在发送消息之前添加一个条件以检查此条件。
 
-当您选择模板时，消息有效负荷中预期的所有字段将显示在活动配置窗格的和 **[!UICONTROL Address]** 下方 **[!UICONTROL Personalization Data]**。 您需要将每个字段与要使用的字段进行映射，事件或数据源中的字段。 您还可以使用高级表达式编辑器手动传递值，对检索到的信息执行数据处理（例如，将字符串转换为大写），或使用“if, then, else”等函数。 请参见 [](../expression/expressionadvanced.md)。
+当您选择模板时，消息有效负荷中预期的所有字段将显示在活动配置窗格的和 **[!UICONTROL Address]** 下方 **[!UICONTROL Personalization Data]**。 您需要将每个字段与要使用的字段进行映射，事件或数据源中的字段。 您还可以使用高级表达式编辑器手动传递值，对检索到的信息执行数据处理（例如，将字符串转换为大写），或使用“if, then, else”等函数。 请参阅[此页](../expression/expressionadvanced.md)。
 
 ![](../assets/journey60.png)
 
@@ -51,11 +51,11 @@ ht-degree: 4%
 >
 >对于电子邮件，如果您使用用户档案事务模板，则退订机制会通过Campaign Standard处理。 您只需在模板 **[!UICONTROL Unsubscription link]** 中添加内容块(了[解更多](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html))。 如果您使用基于事件的模板(rtEvent)，则需要在邮件中添加一个链接，该链接将人员的电子邮件传递到URL参数并指向退订登陆页。 您需要创建此登陆页，并确保将该人取消订阅的决定传输给Adobe。
 
-首先，您需要选择交易消息模板。 请参见 [](../building-journeys/about-action-activities.md)。
+首先，您需要选择交易消息模板。 请参见[此页面](../building-journeys/about-action-activities.md)。
 
 提供两个类别: **[!UICONTROL Address]** 和 **[!UICONTROL Personalization Data]**。
 
-您可以使用界面轻松定义 **[!UICONTROL Address]** 检索 **[!UICONTROL Personalization Data]** 位置或位置。 您可以浏览事件和可用数据源的字段。 您还可以使用高级表达式编辑器来处理更高级的用例，如使用需要传递参数或执行操作的数据源。 请参见 [](../expression/expressionadvanced.md)。
+您可以使用界面轻松定义 **[!UICONTROL Address]** 检索 **[!UICONTROL Personalization Data]** 位置或位置。 您可以浏览事件和可用数据源的字段。 您还可以使用高级表达式编辑器来处理更高级的用例，如使用需要传递参数或执行操作的数据源。 请参阅[此页](../expression/expressionadvanced.md)。
 
 **[!UICONTROL Address]**
 
@@ -81,7 +81,7 @@ ht-degree: 4%
 
 在使用推送活动之前，您的移动应用程序需要配置Campaign Standard以发送推送通知。 请阅读 [本文](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html) ，为移动设备采取必要的实施步骤。
 
-首先，您需要从下拉列表和事务性消息中选择移动应用程序。 请参见 [](../building-journeys/about-action-activities.md)。
+首先，您需要从下拉列表和事务性消息中选择移动应用程序。 请参阅[此页](../building-journeys/about-action-activities.md)。
 
 ![](../assets/journey62bis.png)
 
