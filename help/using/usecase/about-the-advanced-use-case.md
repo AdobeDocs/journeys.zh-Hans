@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -40,12 +40,12 @@ ht-degree: 5%
 
 ![](../assets/journeyuc2_29.png)
 
-对于此用例，我们需要创建两个事件(请参 [](../usecase/configuring-the-events.md)阅):
+对于此用例，我们需要创建两个事件(请参 [阅此页](../usecase/configuring-the-events.md)):
 
 * 当客户进入酒店时将推送到系统的大堂信标事件。
 * 当客户进入餐馆时，将推送的餐馆信标事件。
 
-我们需要配置到两个数据源的连接(请参 [](../usecase/configuring-the-data-sources.md)阅):
+我们需要配置到两个数据源的连接(请参 [阅本页](../usecase/configuring-the-data-sources.md)):
 
 * 内置的Adobe Experience Platform数据源，用于检索我们两个条件（忠诚会员资格和上次联系日期）的信息以及消息个性化信息。
 * 酒店预订系统，用于检索预订状态信息。
