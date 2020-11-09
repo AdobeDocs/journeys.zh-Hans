@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 1%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 **集合中字段的引用**
 
-集合中定义的元素使用特定函数all、first和last进行引用。 For more information, see [](../expression/collection-management-functions.md).
+集合中定义的元素使用特定函数all、first和last进行引用。 有关详细信息，请参见[此页面](../expression/collection-management-functions.md)。
 
 示例 :
 
@@ -73,17 +73,17 @@ ht-degree: 1%
 
 **在映射中定义的字段的引用**
 
-为了在地图中检索元素，我们使用带给定键的输入函数。 例如，根据所选事件定义命名空间的键时，会使用它。 请参阅选择命名空间。 For more information, see [](../event/selecting-the-namespace.md).
+为了在地图中检索元素，我们使用带给定键的输入函数。 例如，根据所选事件定义命名空间的键时，会使用它。 请参阅选择命名空间。 有关详细信息，请参 [阅此页](../event/selecting-the-namespace.md)。
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-在此表达式中，我们将获得事件“IdentityMap”字段的“Email”键。 “Email”条目是一个集合，我们从中使用“first()”获取第一个元素中的“id”。 For more information, see [](../expression/collection-management-functions.md).
+在此表达式中，我们将获得事件“IdentityMap”字段的“Email”键。 “Email”条目是一个集合，我们从中使用“first()”获取第一个元素中的“id”。 有关详细信息，请参 [阅此页](../expression/collection-management-functions.md)。
 
 **数据源的参数值（数据源动态值）**
 
-如果从外部数据源中选择一个需要调用参数的字段，则右侧会显示一个新选项卡，用于指定此参数。 请参见 [](../expression/expressionadvanced.md)。
+如果从外部数据源中选择一个需要调用参数的字段，则右侧会显示一个新选项卡，用于指定此参数。 请参阅[此页](../expression/expressionadvanced.md)。
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. 参数可以是任何有效表达式，即使来自另一个数据源也可以是另一个参数。
 
