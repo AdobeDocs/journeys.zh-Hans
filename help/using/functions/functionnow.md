@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '49'
 ht-degree: 10%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 # now {#now}
 
-以日期时间格式返回当前日期。 有关数据类型的详细信息，请参阅 [](../expression/data-types.md)。
+以日期时间格式返回当前日期。 For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## 类别
 
