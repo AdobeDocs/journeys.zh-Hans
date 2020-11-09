@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 10%
 
 ## 配置事件 {#section_ptb_ws1_ffb}
 
-按照中所述的步骤操 [](../event/about-events.md)作。
+按照本页所述的 [步骤操作](../event/about-events.md)。
 
 ## 配置数据源 {#section_o3n_4yy_wfb}
 
@@ -46,7 +46,7 @@ ht-degree: 10%
 
 ## 构建旅程 {#section_uzm_pyy_wfb}
 
-要创建、验证和发布旅程，请按照中所述的步骤操作 [](../building-journeys/journey.md)。
+要创建、验证和发布旅程，请按照本页所述的 [步骤操作](../building-journeys/journey.md)。
 
 在我们的使用案例中，我们利用了这 **[!UICONTROL fatigueLevel]** 个领域。 您还可以使用该 **[!UICONTROL fatigueScore]** 字段。
 
