@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 2%
+source-wordcount: '384'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 >
 >最长等待时间为30天。
 >
->在测试模式下， **[!UICONTROL Wait time in test]** 该参数允许您定义每个等待活动将持续的时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 See [](../building-journeys/testing-the-journey.md)
+>在测试模式下， **[!UICONTROL Wait time in test]** 该参数允许您定义每个等待活动将持续的时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 See [this page](../building-journeys/testing-the-journey.md)
 
 ## 持续时间等待{#duration}
 
@@ -55,13 +55,13 @@ ht-degree: 2%
 
 ## 自定义等待{#custom}
 
-通过此选项，您可以根据来自事件或数据源的字段，使用高级表达式定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如，7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参见 [](../expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参阅 [](../expression/data-types.md)。
+通过此选项，您可以根据来自事件或数据源的字段，使用高级表达式定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如，7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](../expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参 [阅此页](../expression/data-types.md)。
 
 >[!NOTE]
 >
 >您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```,事件中的字段为2016-08-12T09:46:06Z形式。
 >
->您 **旅程的属** 性中应包含时区。 因此，今天无法从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参见 [](../building-journeys/timezone-management.md)。
+>您 **旅程的属** 性中应包含时区。 因此，今天无法从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
