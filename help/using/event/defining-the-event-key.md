@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 5%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 4%
 
    ![](../assets/journey20.png)
 
-当收到事件时，密钥的值将允许系统识别与事件关联的人。 与命名空间关联(请参 [](../event/selecting-the-namespace.md)阅)，密钥可用于在Adobe Experience Platform上执行查询。 请参见 [](../building-journeys/about-orchestration-activities.md)。钥匙还用于检查某人是否在旅程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许在同一旅程的不同位置使用相同的密钥，例如密钥CRMID=3224。
+当收到事件时，密钥的值将允许系统识别与事件关联的人。 与命名空间关联(请参 [阅本页](../event/selecting-the-namespace.md))，该密钥可用于在Adobe Experience Platform上执行查询。 请参阅[此页](../building-journeys/about-orchestration-activities.md)。钥匙还用于检查某人是否在旅程中。 事实上，一个人不可能在同一旅程中处于两个不同的位置。 因此，系统不允许在同一旅程的不同位置使用相同的密钥，例如密钥CRMID=3224。
 
-如果要执行其他操作，您还&#x200B;**[!UICONTROL Advanced mode]**&#x200B;有权访问高级表达式函数()。 这些函数允许您处理用于执行特定查询的值，例如更改格式、执行字段连接，只考虑字段的一部分（例如10个前字符）。 请参见 [](../expression/expressionadvanced.md)。
+如果要执行其他操作，您还&#x200B;**[!UICONTROL Advanced mode]**&#x200B;有权访问高级表达式函数()。 这些函数允许您处理用于执行特定查询的值，例如更改格式、执行字段连接，只考虑字段的一部分（例如10个前字符）。 请参阅[此页](../expression/expressionadvanced.md)。
