@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: ac2ca77e2ba7c56217199dbd487f57cfe207f7d7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 59%
+source-wordcount: '167'
+ht-degree: 73%
 
 ---
 
@@ -31,63 +31,63 @@ ht-degree: 59%
 
 | 类别 | 函数 |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functioninsegment.md) |
-| 聚合 | [](../functions/functionavg.md) |
-| 聚合 | [](../functions/functioncount.md) |
-| 聚合 | [](../functions/functioncountonlynull.md) |
-| 聚合 | [](../functions/functioncountwithnull.md) |
-| 聚合 | [](../functions/functiondistinctcount.md) |
-| 聚合 | [](../functions/functiondistinctcountwithnull.md) |
-| 聚合 | [](../functions/functionmax.md) |
-| 聚合 | [](../functions/functionmin.md) |
-| 聚合 | [](../functions/functionsum.md) |
-| 转换 | [](../functions/functiontobool.md) |
-| 转换 | [](../functions/functiontodatetime.md) |
-| 转换 | [](../functions/functiontodatetimeonly.md) |
-| 转换 | [](../functions/functiontodecimal.md) |
-| 转换 | [](../functions/functiontoduration.md) |
-| 转换 | [](../functions/functiontointeger.md) |
-| 转换 | [](../functions/functiontostring.md) |
-| 日期 | [](../functions/functioncurrenttimeinmillis.md) |
-| 日期 | [](../functions/functioninlastdays.md) |
-| 日期 | [](../functions/functioninlasthours.md) |
-| 日期 | [](../functions/functioninlastmonths.md) |
-| 日期 | [](../functions/functioninlastyears.md) |
-| 日期 | [](../functions/functioninnextdays.md) |
-| 日期 | [](../functions/functioninnexthours.md) |
-| 日期 | [](../functions/functioninnextmonths.md) |
-| 日期 | [](../functions/functioninnextyears.md) |
-| 日期 | [](../functions/functionnow.md) |
-| 日期 | [](../functions/functionnowwithdelta.md) |
-| 日期 | [](../functions/functionsethours.md) |
-| 日期 | [](../functions/functionsetdays.md) |
-| 列表 | [](../functions/functiondistinct.md) |
-| 列表 | [](../functions/functiondistinctcount.md) |
-| 列表 | [](../functions/functionin.md) |
-| 列表 | [](../functions/functionlistsize.md) |
-| 列表 | [](../functions/functionserializelist.md) |
-| 列表 | [](../functions/functionsort.md) |
-| 数学 | [](../functions/functionrandom.md) |
-| 数学 | [](../functions/functionround.md) |
-| 字符串 | [](../functions/functionconcat.md) |
-| 字符串 | [](../functions/functioncontain.md) |
-| 字符串 | [](../functions/functioncontainwithignorecase.md) |
-| 字符串 | [](../functions/functionendwith.md) |
-| 字符串 | [](../functions/functionendwithignorecase.md) |
-| 字符串 | [](../functions/functionequalignorecase.md) |
-| 字符串 | [](../functions/functionindexof.md) |
-| 字符串 | [](../functions/functionisempty.md) |
-| 字符串 | [](../functions/functionisnotempty.md) |
-| 字符串 | [](../functions/functionlastindexof.md) |
-| 字符串 | [](../functions/functionlength.md) |
-| 字符串 | [](../functions/functionlower.md) |
-| 字符串 | [](../functions/functionmatchregexp.md) |
-| 字符串 | [](../functions/functionnotequalignorecase.md) |
-| 字符串 | [](../functions/functionreplace.md) |
-| 字符串 | [](../functions/functionreplaceall.md) |
-| 字符串 | [](../functions/functionstartwith.md) |
-| 字符串 | [](../functions/functionstartwithignorecase.md) |
-| 字符串 | [](../functions/functionsubstr.md) |
-| 字符串 | [](../functions/functiontrim.md) |
-| 字符串 | [](../functions/functionupper.md) |
-| 字符串 | [](../functions/functionuuid.md) |
+| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| 聚合 | [avg](../functions/functionavg.md) |
+| 聚合 | [count](../functions/functioncount.md) |
+| 聚合 | [countOnlyNull](../functions/functioncountonlynull.md) |
+| 聚合 | [countWithNull](../functions/functioncountwithnull.md) |
+| 聚合 | [distinctCount](../functions/functiondistinctcount.md) |
+| 聚合 | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
+| 聚合 | [max](../functions/functionmax.md) |
+| 聚合 | [min](../functions/functionmin.md) |
+| 聚合 | [sum](../functions/functionsum.md) |
+| 转换 | [toBool](../functions/functiontobool.md) |
+| 转换 | [toDateTime](../functions/functiontodatetime.md) |
+| 转换 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
+| 转换 | [toDecimal](../functions/functiontodecimal.md) |
+| 转换 | [toDuration](../functions/functiontoduration.md) |
+| 转换 | [toInteger](../functions/functiontointeger.md) |
+| 转换 | [toString](../functions/functiontostring.md) |
+| 日期 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| 日期 | [inLastDays](../functions/functioninlastdays.md) |
+| 日期 | [inLastHours](../functions/functioninlasthours.md) |
+| 日期 | [inLastMonths](../functions/functioninlastmonths.md) |
+| 日期 | [inLastYears](../functions/functioninlastyears.md) |
+| 日期 | [inNextDays](../functions/functioninnextdays.md) |
+| 日期 | [inNextHours](../functions/functioninnexthours.md) |
+| 日期 | [inNextMonths](../functions/functioninnextmonths.md) |
+| 日期 | [inNextYears](../functions/functioninnextyears.md) |
+| 日期 | [now](../functions/functionnow.md) |
+| 日期 | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| 日期 | [setHours](../functions/functionsethours.md) |
+| 日期 | [setDays](../functions/functionsetdays.md) |
+| 列表 | [distinct](../functions/functiondistinct.md) |
+| 列表 | [distinctCount](../functions/functiondistinctcount.md) |
+| 列表 | [in](../functions/functionin.md) |
+| 列表 | [listSize](../functions/functionlistsize.md) |
+| 列表 | [serializeList](../functions/functionserializelist.md) |
+| 列表 | [sort](../functions/functionsort.md) |
+| 数学 | [random](../functions/functionrandom.md) |
+| 数学 | [round](../functions/functionround.md) |
+| 字符串 | [concat](../functions/functionconcat.md) |
+| 字符串 | [contain](../functions/functioncontain.md) |
+| 字符串 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| 字符串 | [endWith](../functions/functionendwith.md) |
+| 字符串 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+| 字符串 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| 字符串 | [indexOf](../functions/functionindexof.md) |
+| 字符串 | [isEmpty](../functions/functionisempty.md) |
+| 字符串 | [isNotEmpty](../functions/functionisnotempty.md) |
+| 字符串 | [lastIndexOf](../functions/functionlastindexof.md) |
+| 字符串 | [length](../functions/functionlength.md) |
+| 字符串 | [lower](../functions/functionlower.md) |
+| 字符串 | [matchRegExp](../functions/functionmatchregexp.md) |
+| 字符串 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| 字符串 | [replace](../functions/functionreplace.md) |
+| 字符串 | [replaceAll](../functions/functionreplaceall.md) |
+| 字符串 | [startWith](../functions/functionstartwith.md) |
+| 字符串 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+| 字符串 | [substr](../functions/functionsubstr.md) |
+| 字符串 | [trim](../functions/functiontrim.md) |
+| 字符串 | [upper](../functions/functionupper.md) |
+| 字符串 | [uuid](../functions/functionuuid.md) |
