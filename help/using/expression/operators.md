@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: eec6203f63fa6d7ea706595ea866d2b330d284a8
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 4%
@@ -46,11 +46,11 @@ ht-degree: 4%
 <tr><th>运算符</th><th>文本表达式</th><th>示例</th></tr>
 </thead>
 <tbody>
-<tr>&gt;<td>和</td><td><p><pre>&lt;表达式1&gt;和&lt;表达式2&gt;</pre></p>&lt;表达式1&gt;和&lt;表达式2&gt;都必须是布尔值。 结果为布尔型。</td><td><pre>3.14 &gt; 2和3.15 &lt; 1</pre></td></tr>
+<tr><td>和</td><td><p><pre>&lt;表达式1&gt;和&lt;表达式2&gt;</pre></p>&lt;表达式1&gt;和&lt;表达式2&gt;都必须是布尔值。 结果为布尔型。</td><td><pre>3.14 &gt; 2和3.15 &lt; 1</pre></td></tr>
 <tr><td>或者</td><td><p><pre>&lt;表达式1&gt;或&lt;表达式2&gt;</pre></p><p>&lt;表达式1&gt;和&lt;表达式2&gt;都必须是布尔值。</p><p> 结果为布尔型。</p></td><td><p><pre>3.14 &gt; 2或3.15 &lt; 1</pre></p></td></tr>
 <tr><td>不</td><td><p><pre>不是&lt;表达式&gt;</pre></p><p>&lt;表达式&gt;必须是布尔型。</p><p> 结果为布尔型。</p></td><td><pre>不是3.15 &lt; 1</pre></td></tr>
 </tbody>
-  </table>
+</table>
 
 ## 比较
 
@@ -88,11 +88,13 @@ ht-degree: 4%
 
 <table>
 <thead>
-<tr><th>运算符</th><th>文本表达式 </th><th>示例</th></tr>
+<tr><th>运算符</th><th>文本表达式</th><th>示例</th></tr>
 </thead>
 <tbody><tr><td>数字</td><td><p><pre>&lt;表达式&gt;是数字</pre></p><p>表达式的类型为整数或十进制。</p></td><td><pre>@是数字</pre></td></tr>
 <tr><td>integer</td><td><p><pre>&lt;表达式&gt;是整数</pre></p><p>表达式的类型是整数。</p></td><td><pre>@是整数</pre></td></tr>
 <tr><td>小数</td><td><p><pre>&lt;表达式&gt;为十进制</pre></p><p>表达式类型为十进制。</p></td><td><pre>@是小数</pre></td></tr>
+</tbody>
+</table>
 
 ## 字符串
 
