@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
 
 
-# 使用高级表达式编辑器
+# 高级表达式示例
 
 高级表达式编辑器可用于创建条件，以便在旅程中过滤用户。 通过这些条件，您可以按时间、日期、地点、持续时间或诸如购买或放弃购物车等操作目标用户，以便在旅程中重新定位用户。
 
@@ -54,24 +54,23 @@ ht-degree: 2%
 
 指定的时间戳用作日期时间值，第二个是天数。
 
-    &quot;
-    In(&quot;addToCart&quot;, #{ExperiencePlatformDataSource
-    .ExperienceEventFieldGroup
-    .experienceevent
-    .all(
-    在LastDays(currentDataPackField.timestamp, 7))
-    .productData
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .productInteraction})Not(In(&quot;completePurchase&quot;, #{ExperiencePlatformDataSourceFieldEventGroupExperienceJevent(CurrentDataPackField.7)ExperienceEventAll（在&quot;completePurchase&quot;中， #{ExperiencePlatformDataDataField.Group.Expexpereveleriencevent）。Aleve.D.All（在）}中)。
+```
+        In( “addToCart”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+        And
+        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+```
 
 此表达式返回布尔值。
 
@@ -107,44 +106,42 @@ ht-degree: 2%
 
 此条件仅检索在“Arlington”中触发的地理事件:
 
-    &quot;
-    @{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name} == &quot;Arlington&quot;
-    &quot;
+```
+        @{GeofenceEntry
+                    .placeContext
+                    .POIinteraction
+                    .POIDetail
+                    .name} == "Arlington"
+```
 
 说明：这是严格字符串比较（区分大小写），等同于在简单模式下使用选中项的 `equal to` 查询 `Is sensitive` 符。
 
 未选中的同一查询 `Is sensitive` 将在高级模式下生成以下表达式:
 
-    &quot;
-    equalIgnoreCase(@{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name}, &quot;Arlington&quot;)
-    
-    &quot;
+```
+        equalIgnoreCase(@{GeofenceEntry
+                        .placeContext
+                        .POIinteraction
+                        .POIDetail
+                        .name}, "Arlington")
+```
 
 **实际操作情况**
 
 以下表达式允许您在操作个性化字段中定义CRM ID:
 
-    &quot;
+```
     substr(@{MobileAppLaunch
-    。_myorganization
-    .identification
-    .crmid}, 1,
-    lastIndexOf(@{MobileAppLaunch
-    。_myorganization
-    .identification
-    .crmid}
-    }
-    )
-    
-    &quot;
+            ._myorganization
+            .identification
+            .crmid}, 1, 
+            lastIndexOf(@{MobileAppLaunch
+                        ._myorganization
+                        .identification
+                        .crmid}
+                         }
+                         ))
+```
 
 说明：此示例使用 `substr` 和函 `lastIndexOf` 数删除花括号，该花括号用于将随移动应用程序启动事件传递的CRM ID括起来。
 
