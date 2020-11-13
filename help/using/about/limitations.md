@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: f45069225b284fe47e2acaccb4aa5d34fe171f35
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 2%
@@ -47,6 +47,6 @@ ht-degree: 2%
 * 用于启动客户旅程的流数据必须首先在Journey Orchestration中配置，才能获得唯一的业务流程ID。 此业务流程ID必须附加到进入Adobe Experience Platform的流负载。
  
 
-## 数据源限制：
+## 数据源限制
 
 * 在客户旅程中可利用外部数据源实时查找外部数据。 这些源必须可以通过REST API使用，支持JSON并能够处理大量请求。
