@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->为避免超载Adobe Campaign Standard事务消息传递，建议为 **Campaign Standard集成设** 置上限规则。
+>Adobe Campaign Standard交易消息传递在给定实例的渠道中每小时最大可发送50 000条消息。 为降低过载风险，建议您为Campaign Standard集 **成设置** 上限规则。
 >
 >阅读Adobe Campaign Standard产品说明，了解有关交易 [消息SLA的更多信息](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。
 
