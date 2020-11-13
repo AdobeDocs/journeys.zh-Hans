@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 98%
+source-wordcount: '1063'
+ht-degree: 93%
 
 ---
 
@@ -139,3 +139,11 @@ _在旅程的画布中：_
 * 使用 **Ctrl/Command + A** 组合键选择所有活动。
 * 选择一个或多个活动后，按 **Delete** 或 **Backspace** 键以删除活动。然后，可以按 **Enter** 键以在确认弹出窗口中进行确认。
 * 双击左侧面板上的活动，将其添加到第一个可用位置（从上到下）。
+
+_旅程：_
+
+* 按 **T** 以启用／禁用测试模式。
+* 在基于事件的旅程中，在测试模式 **下** ，按E触发事件。
+* 在基于区段的旅程中，当 **在测试模式中选择** “每次单个用户档案 **”选项时，按** P以触发事件。
+* 在测试模式下， **按** L显示日志。
+
