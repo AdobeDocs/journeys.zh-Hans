@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 指标和维度
 description: 了解可用于Journey Orchestration的维度和指标
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 93da470ae878ec3dcf4fcb435dab86c8bf0419d4
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
