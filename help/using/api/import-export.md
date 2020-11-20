@@ -1,13 +1,11 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 导入导出API说明
 description: 进一步了解导入导出API。
-contentOwner: sauviat
 products: journeys
-audience: audiences
-content-type: reference
-topic-tags: journeys
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 2%
@@ -57,7 +55,7 @@ Journey OrchestrationAPI访问权限通过以下步骤设置。 这些步骤均�
 >要在AdobeI/O中管理证书，请确保您对组织 <b>或Admin Console中的</b> System Administrator [权限](https://helpx.adobe.com/enterprise/using/manage-developers.html) ，或者拥有Developer帐户。
 
 1. **检查您有数字证书**，或根据需要创建数字证书。 在以下步骤中需要随证书提供的公钥和私钥。
-1. **在AdobeI/O中创[!DNL Journey Orchestration]建与** Service的新集成并进行配置。 Journey Orchestration和Adobe Experience Platform需要产品用户档案访问。 随后将生成您的凭据（API密钥、客户端机密……）。
+1. **在AdobeI/O中创 [!DNL Journey Orchestration] 建与** Service的新集成并进行配置。 Journey Orchestration和Adobe Experience Platform需要产品用户档案访问。 随后将生成您的凭据（API密钥、客户端机密……）。
 1. **从先前生成的凭据创建JSON Web** Token(JWT)，然后使用您的私钥对其进行签名。 JWT对Adobe验证您的身份并授予您对API的访问权限时所需的所有身份和安全信息进行编码。 此步骤详见本 [节](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **通过访问令牌请求或通过** “开发人员控制台界面”将JWT交换为POST。 此访问令牌必须用于API请求的每个头中。
 
