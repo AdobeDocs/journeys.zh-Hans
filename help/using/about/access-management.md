@@ -1,16 +1,11 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 访问管理
 description: 了解有关访问管理的更多信息
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 100%
 
