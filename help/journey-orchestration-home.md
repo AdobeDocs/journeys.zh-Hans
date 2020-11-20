@@ -1,9 +1,11 @@
 ---
 keywords: Journeys;home;popular topics
+product: adobe campaign
+solution: Journey Orchestration
 title: Journey Orchestration 产品文档
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 1db145be1b4076f4a8eb7ab995eeed3dab455d50
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 72%
