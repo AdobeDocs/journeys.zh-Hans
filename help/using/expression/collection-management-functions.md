@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 集合管理函数
 description: 了解集合管理功能中的数据类型
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -85,7 +80,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 结果是真的。
 
-**示例2:**
+**示例 2:**
 
 在此，我们使用 **[!UICONTROL count]** 该函数检查集合中是否有推送通知令牌。
 
@@ -194,7 +189,7 @@ _`<listExpression>.last(<condition>)`_
 
 结果为“token_1”。
 
-**示例2:**
+**示例 2:**
 
 此表达式返回与版本为1.0的移动应用程序关联的最后一个推送通知令牌。
 
