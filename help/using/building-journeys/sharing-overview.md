@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: 旅程步骤共享概述
 description: 旅程步骤共享概述
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c7a4d67af88827dfc852a281a7877efb2853facf
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 7%
