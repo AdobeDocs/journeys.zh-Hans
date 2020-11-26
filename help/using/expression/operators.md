@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 运算符
 description: 了解高级表达式中的运营商
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 20498e89eb9c95dd19a11e42150a0bbf67024f67
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 4%
+source-wordcount: '531'
+ht-degree: 5%
 
 ---
 
@@ -34,80 +34,348 @@ ht-degree: 4%
 
 以下是受支持操作符的列表:
 
-## 逻辑
+## 逻辑  {#logical}
 
-<table>
-<thead>
-<tr><th>运算符</th><th>文本表达式</th><th>示例</th></tr>
-</thead>
-<tbody>
-<tr><td>和</td><td><p><pre>&lt;表达式1&gt;和&lt;表达式2&gt;</pre></p>&lt;表达式1&gt;和&lt;表达式2&gt;都必须是布尔值。 结果为布尔型。</td><td><pre>3.14 &gt; 2和3.15 &lt; 1</pre></td></tr>
-<tr><td>或者</td><td><p><pre>&lt;表达式1&gt;或&lt;表达式2&gt;</pre></p><p>&lt;表达式1&gt;和&lt;表达式2&gt;都必须是布尔值。</p><p> 结果为布尔型。</p></td><td><p><pre>3.14 &gt; 2或3.15 &lt; 1</pre></p></td></tr>
-<tr><td>不</td><td><p><pre>不是&lt;表达式&gt;</pre></p><p>&lt;表达式&gt;必须是布尔型。</p><p> 结果为布尔型。</p></td><td><pre>不是3.15 &lt; 1</pre></td></tr>
-</tbody>
-</table>
+### 和
 
-## 比较
+**文本表达式**
 
-<table>
-<thead>
-<tr><th>运算符</th><th>文本表达式 </th><th>示例</th></tr>
-</thead>
-<tbody><tr><td>为null</td><td><p><pre>&lt;表达式&gt;为空</pre></p><p>结果为布尔型。</p><p>请注意，null表示表达式没有评估值。</p></td><td><pre>@{BarBeacon.location}为null</pre></td></tr>
-<tr><td>不是null</td><td><p><pre>&lt;表达式&gt;不为空</pre></p><p>结果为布尔型。</p><p>请注意，null表示表达式没有评估值。</p></td><td><pre>@不为空</pre></td></tr>
-<tr><td>空</td><td><p><pre>&lt;表达式&gt;为空</pre>&lt;表达式&gt;必须是列表。</p><p>结果为布尔型。</p><p>用于标识列表是否至少包含一个null值。</p></td><td><p><pre>["foo", "bar",null"具有null</pre></p>返回true<p><pre>["foo", "bar", """具有null</pre></p> 返回false，因为“”不被视为null。</td></tr>
-<tr><td>==</td><td><p><pre>&lt;表达式1&gt; == &lt;表达式2&gt;</pre></p><p>&lt;表达式1&gt;和&lt;表达式2&gt;必须具有相同的数据类型。</p><p> 结果为布尔型。</p></td><td><pre>3.14 == 42</pre><br /><pre>"foo" == "bar"</pre></td></tr>
-<tr><td>!=</td><td><p><pre>&lt;表达式1&gt; != &lt;表达式2&gt;</pre></p><p> &lt;表达式1&gt;和&lt;表达式2&gt;必须具有相同的数据类型。</p><p> 结果为布尔型。</p></td><td><pre>3.14 != 42</pre><br /><pre>“foo” != "bar"</pre></td></tr>
-<tr><td>&gt;</td><td><p><pre>&lt;表达式1&gt; &gt; &lt;表达式2&gt;</pre></p><p>可以将日期时间与日期时间进行比较。</p><p>只能将Datetime与DatetimeOnly进行比较。</p><p>整数或十进制都可以与整数或十进制进行比较。</p><p>任何其他组合都被禁止。</p><p>结果为布尔型。</p></td><td><pre>3.14 &gt; 42</pre></td></tr>
-<tr><td>&gt;=</td><td><p><pre>&lt;表达式1&gt; &gt;= &lt;表达式2&gt;</pre></p><p>可以将日期时间与日期时间进行比较。</p><p>只能将Datetime与DatetimeOnly进行比较。</p><p>整数或十进制都可以与整数或十进制进行比较。</p><p>任何其他组合都被禁止。</p><p>结果为布尔型。</p></td><td><pre>42 &gt;= 3.14</pre></td></tr>
-<tr><td>&lt;</td><td><p><pre>&lt;表达式1&gt; &lt; &lt;表达式2&gt;</pre></p><p>可以将日期时间与日期时间进行比较。</p><p>只能将Datetime与DatetimeOnly进行比较。</p><p>整数或十进制都可以与整数或十进制进行比较。</p><p>任何其他组合都被禁止。</p><p>结果为布尔型。</p></td><td><pre>42 &lt; 3.14</pre></td></tr>
-<tr><td>&lt;=</td><td><p><pre>&lt;表达式1&gt; &lt;= &lt;表达式2&gt;</pre></p><p>可以将日期时间与日期时间进行比较。</p><p>只能将Datetime与DatetimeOnly进行比较。</p><p>整数或十进制都可以与整数或十进制进行比较。</p><p>任何其他组合都被禁止。</p><p>结果为布尔型。</p></td><td><pre>42 &lt;= 3.14</pre></td></tr>
-</tbody>
-</table>
+```<expression1> and <expression2>```
 
-## 算术
+&lt;表达式1>和&lt;表达式2>都必须是布尔值。 结果为布尔型。
 
-<table>
-<thead>
-<tr><th>运算符</th><th>文本表达式 </th><th>示例</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;表达式1&gt; + &lt;表达式2&gt;</pre></p><p>两个表达式都必须是数字（整数或小数）。 </p><p>结果也是数字。</p></td><td><p><p><pre>1 + 2</pre></p></p><br /><p>退货3</p></td></tr>
-<tr><td>-</td><td><p><pre>&lt;表达式1&gt; - &lt;表达式2&gt;</pre></p><p> 两个表达式都必须是数字（整数或小数）。</p><p> 结果也是数字。</p></td><td><p><pre>2 - 1</pre></p>退货1</td></tr>
-<tr><td>/</td><td><p><pre>&lt;表达式1&gt; / &lt;表达式2&gt;</pre></p><p>两个表达式都必须是数字（整数或小数）。 </p><p>结果也是数字。</p><p>&lt;表达式2&gt;不能等于0（返回0）。</p></td><td><p><pre>4 / 2</pre></p>退货2</td></tr>
-<tr><td>*</td><td><p><pre>&lt;表达式1&gt; * &lt;表达式2&gt;</pre></p><p> 两个表达式都必须是数字（整数或小数）。 </p><p>结果也是数字。</p></td><td><p><pre>3 * 4</pre></p>退货12</td></tr>
-<tr><td>%</td><td><p><pre>&lt;表达式1&gt; % &lt;表达式2&gt;</pre></p><p>两个表达式都必须是数字（整数或小数）。</p><p> 结果也是数字。</p></td><td><p><pre>3 % 2</pre></p>返回1。</td></tr>
-</tbody>
-</table>
+**示例**
 
-## 数学
+```3.14 > 2 and 3.15 < 1```
 
-<table>
-<thead>
-<tr><th>运算符</th><th>文本表达式</th><th>示例</th></tr>
-</thead>
-<tbody><tr><td>数字</td><td><p><pre>&lt;表达式&gt;是数字</pre></p><p>表达式的类型为整数或十进制。</p></td><td><pre>@是数字</pre></td></tr>
-<tr><td>integer</td><td><p><pre>&lt;表达式&gt;是整数</pre></p><p>表达式的类型是整数。</p></td><td><pre>@是整数</pre></td></tr>
-<tr><td>小数</td><td><p><pre>&lt;表达式&gt;为十进制</pre></p><p>表达式类型为十进制。</p></td><td><pre>@是小数</pre></td></tr>
-</tbody>
-</table>
+### 或者
 
-## 字符串
+**文本表达式**
 
-<table>
-<thead>
-<tr><th>运算符</th><th>文本表达式 </th><th>示例</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;string&gt; + &lt;表达式&gt;</pre></p><p><pre>&lt;表达式&gt; + &lt;string&gt;</pre></p><p>它连接两个表达式。 </p><p>一个表达式必须是链式字符串。</p></td><td><p><pre>"当前时间是" +(now())</pre></p> 返回“当前时间为2019-09-23T09:30:06.693Z”<p><pre>(now())+ "是当前时间"</pre></p>返回“2019-09-23T09:30:06.693Z是当前时间”<p><pre>"a" + "b" + "c" + 1234</pre></p> 返回“abc1234”。</td></tr>
-</tbody>
-</table>
+```<expression1> or <expression2>```
 
-## 日期
+&lt;表达式1>和&lt;表达式2>都必须是布尔值。 结果为布尔型。
 
-<table>
-<thead>
-<tr><th>运算符</th><th>文本表达式 </th><th>示例</th></tr>
-</thead>
-<tbody>
-<tr><td>+</td><td><p><pre>&lt;表达式+ &lt;持续时间&gt;</pre></p><p>在dateTime、dateTimeOnly或duration后追加持续时间。</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>返回2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>返回2011-12-03T15:30:30<p><pre>now()+ toDuration("PT1H")</pre></p><p>从当前时间起1小时后返回dateTime（带有UTC时区）</p><p><pre>toDuration("PT1H")+ toDuration("PT1H")</pre></p><p>返回PT2H</p></td></tr>
-</tbody>
-</table>
+**示例**
+
+```3.14 > 2 or 3.15 < 1```
+
+### 不
+
+**文本表达式**
+
+```not <expression>```
+
+&lt;表达式>必须是布尔型。 结果为布尔型。
+
+**示例**
+
+```not 3.15 < 1```
+
+## 比较 {#comparison}
+
+### 为null
+
+**文本表达式**
+
+```<expression> is null```
+
+结果为布尔型。
+
+请注意，null表示表达式没有评估值。
+
+**示例**
+
+```@{BarBeacon.location} is null```
+
+### 不是null
+
+**文本表达式**
+
+```<expression> is not null```
+
+结果为布尔型。
+
+请注意，null表示表达式没有评估值。
+
+**示例**
+
+```@ is not null```
+
+### 空
+
+**文本表达式**
+
+```<expression> has null```
+
+&lt;表达式>必须是列表。 结果为布尔型。
+
+用于标识列表是否至少包含一个null值。
+
+**示例**
+
+```["foo", "bar", null] has null``` 返回true。
+
+```["foo", "bar", ""] has null``` 返回false，因为“”不被视为null。
+
+### ==
+
+**文本表达式**
+
+```<expression1> == <expression2>```
+
+&lt;表达式1>和&lt;表达式2>必须具有相同的数据类型。 结果为布尔型。
+
+**示例**
+
+```3.14 == 42```
+
+```"foo" == "bar"```
+
+### !=
+
+**文本表达式**
+
+```<expression1> != <expression2>```
+
+&lt;表达式1>和&lt;表达式2>必须具有相同的数据类型。 结果为布尔型。
+
+**示例**
+
+```3.14 != 42```
+
+```"foo" != "bar"```
+
+### >
+
+**文本表达式**
+
+```<expression1> > <expression2>```
+
+可以将日期时间与日期时间进行比较。
+
+只能将Datetime与DatetimeOnly进行比较。
+
+整数或十进制都可以与整数或十进制进行比较。
+
+任何其他组合都被禁止。
+
+结果为布尔型。
+
+**示例**
+
+```3.14 > 42```
+
+### >=
+
+**文本表达式**
+
+```<expression1> >= <expression2>```
+
+可以将日期时间与日期时间进行比较。
+
+只能将Datetime与DatetimeOnly进行比较。
+
+整数或十进制都可以与整数或十进制进行比较。
+
+任何其他组合都被禁止。
+
+结果为布尔型。
+
+**示例**
+
+```42 >= 3.14```
+
+### &lt;
+
+**文本表达式**
+
+```<expression1> < <expression2>```
+
+可以将日期时间与日期时间进行比较。
+
+只能将Datetime与DatetimeOnly进行比较。
+
+整数或十进制都可以与整数或十进制进行比较。
+
+任何其他组合都被禁止。
+
+结果为布尔型。
+
+**示例**
+
+```42 < 3.14```
+
+### &lt;=
+
+**文本表达式**
+
+```<expression1> <= <expression2>```
+
+可以将日期时间与日期时间进行比较。
+
+只能将Datetime与DatetimeOnly进行比较。
+
+整数或十进制都可以与整数或十进制进行比较。
+
+任何其他组合都被禁止。
+
+结果为布尔型。
+
+**示例**
+
+```42 <= 3.14```
+
+## 算术 {#arithmetic}
+
+### +
+
+**文本表达式**
+
+```<expression1> + <expression2>```
+
+两个表达式都必须是数字（整数或小数）。
+
+结果也是数字。
+
+**示例**
+
+```1 + 2``` 返回3
+
+### -
+
+**文本表达式**
+
+```<expression1> - <expression2>```
+
+两个表达式都必须是数字（整数或小数）。
+
+结果也是数字。
+
+**示例**
+
+```2 - 1``` 返回1
+
+### /
+
+**文本表达式**
+
+```<expression1> / <expression2>```
+
+两个表达式都必须是数字（整数或小数）。
+
+结果也是数字。
+
+&lt;表达式2>不能等于0（返回0）。
+
+**示例**
+
+```4 / 2``` 返回2
+
+### *
+
+**文本表达式**
+
+```<expression1> * <expression2>```
+
+两个表达式都必须是数字（整数或小数）。
+
+结果也是数字。
+
+**示例**
+
+```3 * 4``` 返回12
+
+### %
+
+**文本表达式**
+
+```<expression1> % <expression2>```
+
+两个表达式都必须是数字（整数或小数）。
+
+结果也是数字。
+
+**示例**
+
+```3 % 2``` 返回1。
+
+## 数学 {#math}
+
+### 数字
+
+**文本表达式**
+
+```<expression> is numeric```
+
+表达式的类型为整数或十进制。
+
+**示例**
+
+```@ is numeric```
+
+### integer
+
+**文本表达式**
+
+```<expression> is integer```
+
+表达式的类型是整数。
+
+**示例**
+
+```@ is integer```
+
+### 小数
+
+**文本表达式**
+
+```<expression> is decimal```
+
+表达式类型为十进制。
+
+**示例**
+
+```@ is decimal```
+
+## 字符串 {#string}
+
+### +
+
+**文本表达式**
+
+```<string> + <expression>```
+
+```<expression> + <string>```
+
+它连接两个表达式。
+
+一个表达式必须是链式字符串。
+
+**示例**
+
+```"the current time is " + (now())``` 返回“当前时间为2019-09-23T09:30:06.693Z”
+
+```(now()) + " is the current time"``` 返回“2019-09-23T09:30:06.693Z是当前时间”
+
+```"a" + "b" + "c" + 1234``` 返回“abc1234”。
+
+## 日期 {#date}
+
+### +
+
+**文本表达式**
+
+```<expression + <duration>```
+
+在dateTime、dateTimeOnly或duration后追加持续时间。
+
+**示例**
+
+```toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")``` 返回2011-12-03T15:30:30Z
+
+```toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")``` 返回2011-12-03T15:30:30
+
+```now() + toDuration("PT1H")``` 返回自当前时间起1小时后的dateTime（带有UTC时区）
+
+```toDuration("PT1H") + toDuration("PT1H")``` 返回PT2H
