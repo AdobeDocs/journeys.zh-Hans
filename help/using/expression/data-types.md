@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 数据类型
 description: 了解高级表达式中的数据类型
 translation-type: tm+mt
-source-git-commit: f755f92d0479e2889dd7ed6dfa5e72d52c25634f
+source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '558'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 以下各节提供了有关不同数据类型表达式及其表示方式的信息。
 
-## 字符串 {#string}
+## string {#string}
 
 **说明**
 
@@ -30,15 +30,23 @@ JSON格式：字符串
 
 **文本表示**
 
-```"<value>"```
+```
+"<value>"
+```
 
-```'<value>'```
+```
+'<value>'
+```
 
 **示例**
 
-```"hello world"```
+```
+"hello world"
+```
 
-```'hello world'```
+```
+'hello world'
+```
 
 ## 整数 {#integer}
 
@@ -50,11 +58,15 @@ JSON格式：数字
 
 **文本表示**
 
-```<integer value>```
+```
+<integer value>
+```
 
 **示例**
 
-```42```
+```
+42
+```
 
 ## 小数 {#decimal}
 
@@ -72,11 +84,15 @@ JSON格式：数字
 
 **文本表示**
 
-```<integer value>.<integer value>```
+```
+<integer value>.<integer value>
+```
 
 **示例**
 
-```3.14```
+```
+3.14
+```
 
 ## 布尔 {#boolean}
 
@@ -88,13 +104,19 @@ JSON格式：布尔值
 
 **文本表示**
 
-```true```
+```
+true
+```
 
-```false```
+```
+false
+```
 
 **示例**
 
-```true```
+```
+true
+```
 
 ## dateTimeOnly {#date-time-only}
 
@@ -112,7 +134,9 @@ JSON格式：布尔值
 
 **文本表示**
 
-```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
+```
+toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+```
 
 ## dateTime {#date-time}
 
@@ -136,23 +160,39 @@ JSON格式：字符串。
 
 **文本表示**
 
-```toDateTime("<dateTime in ISO-8601 format>")```
+```
+toDateTime("<dateTime in ISO-8601 format>")
+```
 
-```toDateTime(<integer value of an epoch in milliseconds>)```
+```
+toDateTime(<integer value of an epoch in milliseconds>)
+```
 
 **示例**
 
-```toDateTime("1977-04-22T06:00:00Z")```
+```
+toDateTime("1977-04-22T06:00:00Z")
+```
 
-```toDateTime("2011-12-03T15:15:30Z")```
+```
+toDateTime("2011-12-03T15:15:30Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123Z")```
+```
+toDateTime("2011-12-03T15:15:30.123Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123+02:00")```
+```
+toDateTime("2011-12-03T15:15:30.123+02:00")
+```
 
-```toDateTime("2011-12-03T15:15:30.123-00:20")```
+```
+toDateTime("2011-12-03T15:15:30.123-00:20")
+```
 
-```toDateTime(1560762190189)```
+```
+toDateTime(1560762190189)
+```
 
 ## 持续时间 {#duration}
 
@@ -172,31 +212,55 @@ Duration.parse:接受的格式基于ISO-8601持续时间格式PnDTnHnMn.nS，其
 
 **文本表示**
 
-```toDuration("<duration in ISO-8601 format>")```
+```
+toDuration("<duration in ISO-8601 format>")
+```
 
-```toDuration(<duration in milliseconds>)```
+```
+toDuration(<duration in milliseconds>)
+```
 
 **示例**
 
-```toDuration("PT5S")``` 5秒内崩溃
+```
+toDuration("PT5S") -- parses as 5 seconds
+```
 
-```toDuration(500)``` 500毫秒的解析
+```
+toDuration(500) -- parses as 500ms
+```
 
-```toDuration("PT20.345S")``` 解读为“20.345秒”
+```
+toDuration("PT20.345S") -- parses as "20.345 seconds"
+```
 
-```toDuration("PT15M") ``` 解析为“15分钟”（其中一分钟为60秒）
+```
+toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
+```
 
-```toDuration("PT10H") ``` 分析为“10小时”（其中1小时为3600秒）
+```
+toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
+```
 
-```toDuration("P2D") ``` 分析为“2天”（其中一天为24小时或86400秒）
+```
+toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
+```
 
-```toDuration("P2DT3H4M") ```“2天、3小时、4分钟”
+```
+toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
+```
 
-```toDuration("P-6H3M") ``` “6小时+3分钟”的解读
+```
+toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
+```
 
-```toDuration("-P6H3M")``` “6小时3分钟”的解析
+```
+toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
+```
 
-```toDuration("-P-6H+3M") ``` 解析为“+6小时和-3分钟”
+```
+toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
+```
 
 ## list {#list}
 
@@ -208,12 +272,20 @@ Duration.parse:接受的格式基于ISO-8601持续时间格式PnDTnHnMn.nS，其
 
 **文本表示**
 
-```[<expression>, <expression>, ... ]```
+```
+[<expression>, <expression>, ... ]
+```
 
 **示例**
 
-```["value1","value2"]```
+```
+["value1","value2"]
+```
 
-```[3,5]```
+```
+[3,5]
+```
 
-```[toDuration(500),toDuration(800)]```
+```
+[toDuration(500),toDuration(800)]
+```
