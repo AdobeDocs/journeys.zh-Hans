@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 数据类型
 description: 了解高级表达式中的数据类型
 translation-type: tm+mt
-source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
+source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 4%
