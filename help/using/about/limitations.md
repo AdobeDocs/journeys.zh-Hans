@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Journey Orchestration限制
 description: 进一步了解Journey Orchestration限制
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 2%
+source-wordcount: '361'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,19 @@ ht-degree: 2%
 * 在出现错误时系统地执行两个重试。 无法根据收到的错误消息调整重试数。 
 * 内置的 **Reaction** 事件允许您对开箱即用的操作做出响应(请参阅 [此页](../building-journeys/reaction-events.md))。 如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。 
 * 没有Adobe Campaign Classic按产品分类整合。
+
+## 旅程版本限制 {#journey-versions-limitations}
+
+* 从v1中的事件活动开始的旅程不能与其他版本中的事件开始。 您不能开始具有区段资格 **事件的旅程** 。
+* 从v1中的“区段资 **格活动** ”开始的旅程必须始终以其他版 **本中的“区** 段资格”开始。
+* 在新版本中，无 **法更改** “区段资格”（第一个节点）中选择的区段和命名空间。
+* 在所有旅程版本中，重新进入规则必须相同。
+
+## 细分资格 {#segment-qualification}
+
+* 由于 **吞吐量限制** ，细分资格活动不能与Adobe Campaign Standard事务消息传递结合使用。 请参阅 [Adobe Campaign Standard产品说明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
  
+
 ## 自定义操作限制
 
 * 自定义操作URL不支持动态参数。 
@@ -35,8 +47,8 @@ ht-degree: 2%
 ## Adobe Campaign操作限制
 
 * Adobe Campaign Standard交易消息传递在给定实例的渠道中每小时最大可发送50 000条消息。 请参阅 [Adobe Campaign Standard产品说明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
-* 由于 **吞吐量限制** ，区段资格活动不应与Adobe Campaign Standard交易消息结合使用。
  
+
 ## 事件限制
 
 * 用于启动客户旅程的流数据必须首先在Journey Orchestration中配置，才能获得唯一的业务流程ID。 此业务流程ID必须附加到进入Adobe Experience Platform的流负载。
