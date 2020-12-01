@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
 translation-type: tm+mt
-source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -17,7 +17,7 @@ ht-degree: 77%
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以参阅[文档更新](../release-notes/documentation-updates.md)。
 
-## 2020年11月版 {#november-release}
+## 2020年11月版本{#november-release}
 
 <table>
 <thead>
@@ -80,9 +80,9 @@ ht-degree: 77%
 
 在创建旅程的新版本时增加了限制。 这些限制可避免在流程中做出过于剧烈的更改，以保持版本之间的一致性。 [阅读更多](../about/limitations.md#journey-versions-limitations)
 
-区段 **资格活动** ，无法再在包含Campaign Standard消息活动的旅程中使用。 此限制保护Adobe Campaign Standard实例的完整性。 事实上，细分资格的使用可能导致每日消息发送高峰，这会使Campaign Standard事务消息过载。 [阅读更多](../about/limitations.md#segment-qualification)
+**区段资格**&#x200B;活动不再能用于包含Campaign Standard消息活动的旅程。 此限制保护Adobe Campaign Standard实例的完整性。 事实上，细分资格的使用可能导致每日消息发送高峰，这会使Campaign Standard事务消息过载。 [阅读更多](../about/limitations.md#segment-qualification)
 
-## 2020年10月版 {#october-release}
+## 2020年10月版{#october-release}
 
 <table>
 <thead>
@@ -105,7 +105,7 @@ ht-degree: 77%
 
 * 当您发布旅程的新版本时，先前版本会自动结束并切换到“已关闭”状态。 [阅读更多](../building-journeys/journey-versions.md)
 
-## 2020年9月版 {#september-release}
+## 2020年9月版本{#september-release}
 
 ### GA 更新{#september-ga-update}
 
@@ -139,7 +139,7 @@ ht-degree: 77%
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p><strong>读取段</strong>活动已进行以下改进：
 </p>
 <ul>
 <li><p>基于区段的旅程现在在画布上方显示，提醒您旅程的计划类型。 您可以单击此提醒以访问计划配置菜单。</p>
@@ -147,7 +147,7 @@ ht-degree: 77%
 <li><p>测试模式日志的粒度已得到改进，可显示段导出进度状态。</p>
 </li>
 </ul>
-<p>有关阅读区段活动 <strong>的详细信</strong> 息，请参阅详 <a href="../alpha/alpha-segment-trigger.md">细文档</a>。</p>
+<p>有关<strong>读取段</strong>活动的详细信息，请参阅<a href="../alpha/alpha-segment-trigger.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
