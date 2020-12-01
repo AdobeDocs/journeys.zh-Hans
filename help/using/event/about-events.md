@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 关于事件
 description: 了解事件
 translation-type: tm+mt
-source-git-commit: c66c09441f69e7026c60c37f87972e1e4ac9f7f8
+source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 54%
+source-wordcount: '374'
+ht-degree: 55%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 54%
 
 您可以定义两种类型的事件:
 
-* **基于规则的事件** :此类型的事件不生成eventID。 使用简单的表达式编辑器，您只需定义一个规则，系统将使用该规则来识别将触发您旅程的相关事件。 此规则可以基于事件有效负荷中可用的任何字段，例如用户档案的位置或添加到用户档案购物车的项目数。
+* **基于规则** 的事件：此类型的事件不生成eventID。使用简单的表达式编辑器，您只需定义一个规则，系统将使用该规则来识别将触发您旅程的相关事件。 此规则可以基于事件有效负荷中可用的任何字段，例如用户档案的位置或添加到用户档案购物车的项目数。
 
    >[!CAUTION]
    >
-   >为基于规则的事件定义限制规则。 它将旅程可处理的合格事件数限制为每分钟40万。 请联系您的Alpha项目联系人以了解更多信息。 除此限制规则外，在旅程级别上定义了5000事件的秒数限制。
+   >为基于规则的事件定义限制规则。 它将特定组织(ORG)的旅程可处理的合格事件数限制为每秒5000。 它对应于Journey OrchestrationSLA。 请参阅此[页面](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)。
 
-* **系统生成的** 事件:这些事件需要eventID。 创建事件时会自动生成此eventID字段。 推送事件的系统不应生成ID，它应传递有效负荷预览中可用的ID。
+* **系统生** 成事件：这些事件需要eventID。创建事件时会自动生成此eventID字段。 推送事件的系统不应生成ID，它应传递有效负荷预览中可用的ID。
 
-要了解如何创建事件，请参阅此 [页](../event/about-creating.md)。
+要了解如何创建事件，请参阅此[页面](../event/about-creating.md)。
 
