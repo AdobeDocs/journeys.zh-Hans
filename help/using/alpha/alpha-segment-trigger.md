@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: “读取区段”活动
 description: 进一步了解阅读区段活动。
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '651'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 3%
 阅读区段活动允许您让属于Adobe Experience Platform区段的所有个人进入旅程。 进入旅程的操作可以执行一次，也可以定期执行。
 
 假设您在Adobe Experience Platform拥有黄金客户细分。 通过阅读细分活动，您可以让属于黄金客户细分的所有个人进入旅程，并让他们进入个性化旅程，利用所有旅程功能：条件、计时器、事件、动作。
+
+>[!NOTE]
+>
+>在同一旅程中，您不 **能进行跳** 跃和阅读段活动。 您不能跳到具有阅读区段开始 **的旅程** 。
 
 ## 配置活动 {#configuring-segment-trigger-activity}
 
