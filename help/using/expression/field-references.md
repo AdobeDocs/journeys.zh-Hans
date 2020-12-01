@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 字段引用
 description: 了解高级表达式中的字段引用
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 3%
 
 ---
@@ -55,6 +55,38 @@ ht-degree: 3%
 >[!NOTE]
 >
 >字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id, defaultValue :2}将无效，因为默认值是整数，而预期值应为字符串。
+
+示例:
+
+```
+// for an event 'OrderEvent' having the following payload:
+{
+    "orderId": "12345"
+}
+ 
+expression example:
+- @{OrderEvent.orderId}                                    -> "12345"
+- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @{OrderEvent.productId}                                  -> null
+ 
+ 
+// for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
+{
+    "person": {
+        "lastName":"Snow"
+    },
+    "emails": [
+        { "email":"john.snow@winterfell.westeros" },
+        { "email":"snow@thewall.westeros" }
+    ]
+}
+ 
+expression examples:
+- #{ACP.Profile.person.lastName}                 -> "Snow"
+- #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
+- #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
+- #{ACP.Profile.person.age}                      -> null
+```
 
 **集合中字段的引用**
 
