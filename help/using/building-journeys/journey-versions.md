@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 旅程版本
 description: 了解旅程版本
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 3%
 ![](../assets/journeyversions1.png)
 
 如果您需要修改到实时旅程，则需要创建新版本的旅程。
+
+>[!NOTE]
+>
+>要进一步了解旅程版本限制，请参 [阅本页](../about/limitations.md#journey-versions-limitations)
 
 1. 打开实时旅程的最新版本，单击并 **[!UICONTROL Create a new version]** 进行确认。
 
