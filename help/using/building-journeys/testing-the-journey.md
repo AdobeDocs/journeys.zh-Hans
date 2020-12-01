@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 测试旅程
 description: '了解旅程测试 '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 3%
 
 ---
@@ -133,6 +133,16 @@ curl -X POST \
 在测试中打开旅程时，显示的路径与执行的上次测试相对应。
 
 无论事件是通过界面触发还是通过外部触发（例如，使用Postman），可视流都有效。
+
+## 基于规则的旅程的测试模式 {#test-rule-based}
+
+测试模式也适用于使用基于规则的事件的旅程。 For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+触发事件时， **事件配置** 屏幕允许您定义要通过测试的事件参数。 您可以单击右上角的工具提示图标来视图事件ID条件。 作为规则评估的一部分的每个字段旁边也会显示工具提示。
+
+![](../assets/alpha-event8.png)
+
+有关如何使用测试模式的详细信息，请参 [阅此页](../building-journeys/testing-the-journey.md)。
 
 ## 查看日志 {#viewing_logs}
 
