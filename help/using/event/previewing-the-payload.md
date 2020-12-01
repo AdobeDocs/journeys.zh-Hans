@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 预览有效负载
 description: 了解如何预览有效负荷
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->创建事件时，在查看有效负荷预览之前，请保存事件并重新打开它。 需要此步骤才能在有效负荷中生成事件ID。
+>对于系统生成的事件，在创建事件时，在查看有效负荷预览之前，请保存事件并重新打开它。 需要此步骤才能在有效负荷中生成事件ID。
 
 1. 单击该 **[!UICONTROL View Payload]** 图标以预览系统预期的有效负荷。
 
