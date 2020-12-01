@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 区段鉴别事件
 description: 了解细分资格事件
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -82,6 +82,8 @@ ht-degree: 1%
 ### 流化细分{#streamed-speed-segment-qualification}
 
 当对流化分段使用分段资格时，由于持续评估分段，导致入口／出口出现较大高峰的风险较小。 但是，如果细分定义导致大量客户同时获得相应资格，则可能也会出现峰值。
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### 如何避免过载{#overloads-speed-segment-qualification}
 
