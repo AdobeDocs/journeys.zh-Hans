@@ -4,13 +4,12 @@ solution: Journey Orchestration
 title: 关于旅程构建
 description: 作为企业用户，了解如何结合事件、编排和行动活动来构建历程。
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 17%
 
 ---
-
 
 
 # 创建旅程 {#concept_gq5_sqt_52b}
