@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
 translation-type: tm+mt
-source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
+source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -70,7 +70,7 @@ ht-degree: 77%
 <p>我们添加了一种新方法来更轻松地设置事件。 该功能已通过Alpha项目在有限的客户群中进行了测试，现在所有客户都可以使用Beta版。 此新方法不需要使用eventID。 它评估是否应根据条件触发事件。 您仍可以使用现有方法，现在称为“系统生成”。
 </p>
 <p>请注意，此功能将在未来几天内可用。</p>
-<p>有关详细信息，请参阅<a href="../expression/journey-properties.md">详细文档</a>。</p>
+<p>有关详细信息，请参阅<a href="../event/about-events.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
