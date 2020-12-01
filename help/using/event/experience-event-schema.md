@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: '关于针对Journey Orchestration模式的ExperienceEvent事件 '
 description: '了解面向Journey Orchestration模式的ExperienceEvent事件 '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    ![](../assets/schema2.png)
 
-* 模式必须包括Orchestration eventID mixin。 [!DNL Journey Orchestration] 使用此字段识别旅程中使用的事件。
+* 对于系统生成的事件,模式必须包括Orchestration eventID mixin。 [!DNL Journey Orchestration] 使用此字段识别旅程中使用的事件。
 
    ![](../assets/schema3.png)
 
