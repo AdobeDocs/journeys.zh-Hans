@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
 translation-type: tm+mt
-source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
+source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 77%
+source-wordcount: '2026'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 # 发行说明 {#release-notes}
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
-您还可以参阅[文档更新](../release-notes/documentation-updates.md)。
+您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
 
 ## 2020年11月版本{#november-release}
 
@@ -28,7 +28,7 @@ ht-degree: 77%
 <tbody>
 <tr>
 <td>
-<p>我们添加了新的操作活动，允许您将个人从一个旅程推向另一个旅程。 跳转活动允许您：
+<p>新的操作活动允许您将个人从一个旅程推向另一个旅程。 <strong>跳转</strong>活动允许您：
 </p>
 <ul>
 <li>将复杂旅程分成若干个，简化复杂旅程的设计 </li>
@@ -51,7 +51,6 @@ ht-degree: 77%
 <td>
 <p>在高级表达式编辑器中，我们在字段和函数的列表中新增了一个类别。 这是系统从实时旅程中检索到的信息，如旅程ID或遇到的特定错误。 这将为您在构建旅程时提供更多可能性。 例如，在条件或操作中遇到错误时，您将能够提醒第三方系统。
 </p>
-<p>请注意，此功能将在未来几天内可用。</p>
 <p>有关详细信息，请参阅<a href="../expression/journey-properties.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -67,9 +66,8 @@ ht-degree: 77%
 <tbody>
 <tr>
 <td>
-<p>我们添加了一种新方法来更轻松地设置事件。 该功能已通过Alpha项目在有限的客户群中进行了测试，现在所有客户都可以使用Beta版。 此新方法不需要使用eventID。 它评估是否应根据条件触发事件。 您仍可以使用现有方法，现在称为“系统生成”。
+<p>现在有一种新方法可以更轻松地设置事件，而无需使用eventID:基于规则的事件会根据条件来评估是否应触发事件。 您仍可以使用现有方法，现在称为“系统生成”。 该功能已通过Alpha项目在有限的客户群中进行了测试，现在所有客户都可以使用Beta版。
 </p>
-<p>请注意，此功能将在未来几天内可用。</p>
 <p>有关详细信息，请参阅<a href="../event/about-events.md">详细文档</a>。</p>
 </td>
 </tr>
