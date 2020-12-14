@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供有关实施和构建历程的操作说明。
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 96%
    + 关于事件 {#about-events}
       + [一般原则](using/event/about-events.md)
       + [数据周期](using/event/about-data-cycle.md)
-      + [创建事件](using/event/about-creating.md)
-      + [利用Adobe Analytics](using/event/about-analytics.md)
+      + [创建一个事件](using/event/about-creating.md)
+      + [利用 Adobe Analytics](using/event/about-analytics.md)
       + [关于 ExperienceEvent 架构](using/event/experience-event-schema.md)
       + [用于发送事件的其他步骤](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [定义有效负载字段](using/event/defining-the-payload-fields.md)
@@ -79,7 +79,7 @@ ht-degree: 96%
          + [关于操作活动](using/building-journeys/about-action-activities.md)
          + [使用 Adobe Campaign 操作](using/building-journeys/using-adobe-campaign-actions.md)
          + [使用自定义操作](using/building-journeys/using-custom-actions.md)
-         + [从一个旅程跳到另一个旅程](using/building-journeys/jump.md)
+         + [从一个旅程到另一个旅程](using/building-journeys/jump.md)
    + [测试旅程](using/building-journeys/testing-the-journey.md)
    + [发布旅程](using/building-journeys/publishing-the-journey.md)
    + 与 Adobe Experience Platform 共享旅程步骤 {#sharing-journey-steps}
