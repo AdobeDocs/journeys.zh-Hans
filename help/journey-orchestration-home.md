@@ -4,11 +4,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration 产品文档
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 72%
 
 ## 其他资源
 
-* [Journey Orchestration产品页](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
+* [Journey Orchestration 产品页](https://www.adobe.com/cn/experience-platform/journey-orchestration.html)
 * [Experience Platform 文档](https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html)
 * [实时客户资料文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
 * [Experience Cloud XDM 字段定义](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html)
@@ -82,7 +82,7 @@ ht-degree: 72%
 
 ## 技术教程
 
-* [Journey Orchestration配置](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html#6.-旅程安排)
-* [外部天气API、SMS操作等](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html#module12)
-* [在Dynamics 365中使用Journey Orchestration创建联系人](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
-* [使用Journey Orchestration触发电子邮件跟进](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
+* [Journey Orchestration 配置](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=zh-Hans#module6-journey-orchestration)
+* [外部天气 API、SMS 操作等](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html?lang=zh-Hans#module12)
+* [在 Dynamics 365 中使用 Journey Orchestration 创建联系人](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=zh-Hans#module17)
+* [使用 Journey Orchestration 触发电子邮件跟进](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=zh-Hans#module20)
