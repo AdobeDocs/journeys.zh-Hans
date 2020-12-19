@@ -6,8 +6,8 @@ description: '了解如何配置外部数据源 '
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
 
    ![](../assets/journey27.png)
 
-1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。For more information on the custom authentication mode, see [this section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 在我们的示例中，我们选择：
+1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。有关自定义身份验证模式的详细信息，请参阅[此部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我们的示例中，我们选择：
 
 
    * **[!UICONTROL Type]**：“API 密钥”
