@@ -14,17 +14,17 @@ ht-degree: 28%
 
 # 关于操作活动 {#concept_hbj_hrt_52b}
 
-从调色板中，在屏幕的左侧，在下 **[!UICONTROL Events]** 面 **[!UICONTROL Orchestration]**&#x200B;和下面找到 **[!UICONTROL Actions]** 类别。
+在屏幕左侧的调色板中，在&#x200B;**[!UICONTROL Events]**&#x200B;和&#x200B;**[!UICONTROL Orchestration]**&#x200B;下方，您会找到&#x200B;**[!UICONTROL Actions]**&#x200B;类别。
 
 ![](../assets/journey58.png)
 
 这些活动代表各种的可用通信渠道。您可以合并它们，创建跨渠道场景。
 
-如果您有Adobe Campaign Standard，可使用以下现成的操作活动: **[!UICONTROL Email]**, **[!UICONTROL Push]** 和 **[!UICONTROL SMS]**。 请参见[此页面](../building-journeys/using-adobe-campaign-actions.md)。
+如果您有Adobe Campaign Standard，可使用以下现成的操作活动:**[!UICONTROL Email]**、**[!UICONTROL Push]**&#x200B;和&#x200B;**[!UICONTROL SMS]**。 请参见[此页面](../building-journeys/using-adobe-campaign-actions.md)。
 
-如果已配置自定义操作，则它们也将显示在此处(请参 [阅此页](../building-journeys/using-custom-actions.md))。
+如果您已配置自定义操作，则还将显示在此处（请参阅[此页](../building-journeys/using-custom-actions.md)）。
 
-在画布中放置操作活动时，可以定义操作 **[!UICONTROL Label]**。 这允许您向将在画布中的活动下显示的操作名称添加后缀。 如果您在旅程中多次使用同一操作，并希望更轻松地识别它们，则此功能非常有用。 报告也更易于阅读。 您还可以添加可选项 **[!UICONTROL Description]**。
+在画布中放置操作活动时，可以定义&#x200B;**[!UICONTROL Label]**。 这允许您向将在画布中的活动下显示的操作名称添加后缀。 如果您在旅程中多次使用同一操作，并希望更轻松地识别它们，则此功能非常有用。 报告也更易于阅读。 您还可以添加可选的&#x200B;**[!UICONTROL Description]**。
 
 ![](../assets/journey59bis.png)
 
