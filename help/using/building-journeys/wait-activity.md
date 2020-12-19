@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 等待活动{#section_rlm_nft_dgb}
 
-如果要在路径中执行下一个活动之前等待，可以使用 **[!UICONTROL Wait]** 活动。 它允许您定义执行下一个活动的时刻。 有四个选项可用：
+如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 它允许您定义执行下一个活动的时刻。 有四个选项可用：
 
 * [持续时间](#duration)
 * [固定日期](#fixed_date)
@@ -34,15 +34,15 @@ ht-degree: 3%
 >
 >最长等待时间为30天。
 >
->在测试模式下， **[!UICONTROL Wait time in test]** 该参数允许您定义每个等待活动将持续的时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 See [this page](../building-journeys/testing-the-journey.md)
+>在测试模式下，**[!UICONTROL Wait time in test]**&#x200B;参数允许您定义每个等待活动将持续的时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 请参阅[此页](../building-journeys/testing-the-journey.md)
 
-## 持续时间等待{#duration}
+## 等待持续时间{#duration}
 
 选择执行下一个活动之前等待的持续时间。
 
 ![](../assets/journey55.png)
 
-## 修复了日期等待{#fixed_date}
+## 固定日期等待{#fixed_date}
 
 选择执行下一个活动的日期。
 
@@ -50,13 +50,13 @@ ht-degree: 3%
 
 ## 自定义等待{#custom}
 
-通过此选项，您可以根据来自事件或数据源的字段，使用高级表达式定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如，7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](../expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参 [阅此页](../expression/data-types.md)。
+通过此选项，您可以根据来自事件或数据源的字段，使用高级表达式定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如，7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](../expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参阅[此页](../expression/data-types.md)。
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```,事件中的字段为2016-08-12T09:46:06Z形式。
+>您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```,事件中的字段格式为2016-08-12T09:46:06Z。
 >
->您 **旅程的属** 性中应包含时区。 因此，今天无法从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
+>旅程属性中应显示&#x200B;**时区**。 因此，今天无法从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
