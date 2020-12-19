@@ -6,15 +6,15 @@ description: 了解函数matchRegExp
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # matchRegExp {#matchRegExp}
 
-如果第一个参数中的字符串与第二个参数中的常规表达式匹配，则返回true。 有关详细信息，请参 [阅此页](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
+如果第一个参数中的字符串与第二个参数中的常规表达式匹配，则返回true。 有关详细信息，请参阅[此页](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
 
 ## 类别
 
