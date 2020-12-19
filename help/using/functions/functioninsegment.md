@@ -18,7 +18,7 @@ ht-degree: 6%
 
 段名称必须是字符串常数。 它不能是字段引用或表达式。
 
-分部于Adobe Experience Platform [定义](https://platform.adobe.com/segment/overview)。 表达式编辑器提供区段的自动完成列表。
+区段在[Adobe Experience Platform](https://platform.adobe.com/segment/overview)中定义。 表达式编辑器提供区段的自动完成列表。
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ Adobe Experience Platform
 
 说明：
 
-如果旅程实例 **[!UICONTROL true]** 中的个人是名为“50岁以上的男性”的Adobe Experience Platform区段的一部分，则函数将返回，否 **[!UICONTROL false]** 则。
+如果旅程实例中的个人是名为“men over 50”的Adobe Experience Platform段的一部分，则函数将返回&#x200B;**[!UICONTROL true]**，否则返回&#x200B;**[!UICONTROL false]**。
