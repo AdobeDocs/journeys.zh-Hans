@@ -23,7 +23,7 @@ ht-degree: 94%
 
 ## 2020 年 9 月 {#september-2020}
 
-* 界面描述部分已更新，以反映新的“全 **部选择器** ”菜单。 [阅读更多](../about/user-interface.md)
+* 接口描述部分已更新，以反映新的&#x200B;**全选器**&#x200B;菜单。 [阅读更多](../about/user-interface.md)
 * 添加了关于基于细分的旅程的不重复的新版本的注释。 [阅读更多](../alpha/alpha-segment-trigger.md)
 
 ## 2020 年 8 月 {#august-2020}
