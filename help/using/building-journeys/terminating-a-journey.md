@@ -6,15 +6,15 @@ description: 了解如何终止旅程
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 终止旅程
 
-通过 **[!UICONTROL Stop]** 和 **[!UICONTROL Close to new entrances]** 选项，您可以终止实 **时旅** 程。 结束旅程 **需要阻止新客户进入旅程** ，并且已进入旅程的客户能够体验到最终的旅程。 这是结束旅程的最推荐方式，因为它优惠了最佳客户体验。 旅途的停顿，意味着已经踏上旅程的人，都会被阻止。 旅程基本上被关闭了。
+**[!UICONTROL Stop]**&#x200B;和&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;选项允许您终止&#x200B;**live**&#x200B;旅程。 结束旅程需要&#x200B;**阻止新客户进入旅程**，并且已进入旅程的客户能够体验到旅程结束。 这是结束旅程的最推荐方式，因为它优惠了最佳客户体验。 旅途的停顿，意味着已经踏上旅程的人，都会被阻止。 旅程基本上被关闭了。
 
 >[!NOTE]
 >
@@ -26,19 +26,19 @@ ht-degree: 4%
 
 无法重新启动或删除已结束的旅程版本。 您可以创建新版本或对其进行重复。
 
-在旅程列表中，您可 **[!UICONTROL Close to new entrances]** 以在旅程上悬停时单击以结束旅程。
+在旅程列表中悬停在旅程上方时，单击&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;即可结束旅程。
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
 您还可以：
 
-1. 在 **[!UICONTROL Home]**&#x200B;中，单击要关闭的旅程。
+1. 在&#x200B;**[!UICONTROL Home]**&#x200B;中，单击要关闭的旅程。
 1. 在右上角，单击向下箭头。
 
    ![](../assets/finish_drop_down_list.png)
 
 1. 单击 **[!UICONTROL Close to new entrances]**。出现一个对话框。
-1. Click **[!UICONTROL Close to new entrances]** to confirm.
+1. 单击&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;进行确认。
 
 ## 停止旅程
 
@@ -46,16 +46,16 @@ ht-degree: 4%
 
 无法重新启动已停止的旅程版本。
 
-您可以通过在旅程目标的旅程上悬停时单击，来停止旅程(例如，当营销人员意识到旅程列表错误的受众或发送消息的自定义操作无法正确工作时)。 **[!UICONTROL Stop]**
+在旅程目标的旅程上方悬停时，您可以单击&#x200B;**[!UICONTROL Stop]**，以停止旅程(例如，如果营销人员意识到旅程列表错误的受众或发送消息的自定义操作无法正确工作)。
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
 您还可以：
 
-1. 在 **[!UICONTROL Home]**&#x200B;中，单击要停止的旅程。
+1. 在&#x200B;**[!UICONTROL Home]**&#x200B;中，单击要停止的旅程。
 1. 在右上角，单击向下箭头。
 
 ![](../assets/finish_drop_down_list.png)
 
 1. 单击 **[!UICONTROL Stop]**。出现一个对话框。
-1. Click **[!UICONTROL Stop]** to confirm.
+1. 单击&#x200B;**[!UICONTROL Stop]**&#x200B;进行确认。
