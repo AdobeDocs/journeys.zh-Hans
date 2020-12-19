@@ -6,8 +6,8 @@ description: '了解如何配置数据源 '
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,11 +45,11 @@ ht-degree: 88%
 
 1. 在顶部菜单中，单击 **[!UICONTROL Data Sources]**&#x200B;选项卡。
 
-   将显示数据源列表。See [this page](../about/user-interface.md) for more information on the interface.
+   将显示数据源列表。有关该接口的详细信息，请参见[此页](../about/user-interface.md)。
 
    ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
+1. 然后，您可以向内置数据源添加字段组（请参阅[此页](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页](../datasource/external-data-sources.md)）和相关字段组（请参阅[此页](../datasource/field-groups.md)）。
 
    ![](../assets/journey23.png)
 
