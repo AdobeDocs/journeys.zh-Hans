@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # 关于高级用例{#concept_vzy_ncy_w2b}
 
-## 用途 {#purpose}
+## 用途{#purpose}
 
 我们以一个叫马尔顿的酒店品牌为例。 在他们的酒店里，他们把信标设备放在了所有战略区域附近：大堂、地板、餐厅、健身房、游泳池等。
 
@@ -35,19 +35,19 @@ ht-degree: 5%
 
 ![](../assets/journeyuc2_29.png)
 
-对于此用例，我们需要创建两个事件(请参 [阅此页](../usecase/configuring-the-events.md)):
+对于此用例，我们需要创建两个事件（请参阅[此页](../usecase/configuring-the-events.md)）:
 
 * 当客户进入酒店时将推送到系统的大堂信标事件。
 * 当客户进入餐馆时，将推送的餐馆信标事件。
 
-我们需要配置到两个数据源的连接(请参 [阅本页](../usecase/configuring-the-data-sources.md)):
+我们需要配置到两个数据源的连接（请参阅[此页](../usecase/configuring-the-data-sources.md)）:
 
 * 内置的Adobe Experience Platform数据源，用于检索我们两个条件（忠诚会员资格和上次联系日期）的信息以及消息个性化信息。
 * 酒店预订系统，用于检索预订状态信息。
 
 ## 先决条件{#prerequisites}
 
-为了我们的用例，我们设计了三个Adobe Campaign Standard交易消息模板。 我们使用事件事务消息模板。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+为了我们的用例，我们设计了三个Adobe Campaign Standard交易消息模板。 我们使用事件事务消息模板。 请参阅此[页面](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
 Adobe Campaign Standard配置为发送电子邮件和推送通知。
 
