@@ -42,6 +42,6 @@ ht-degree: 10%
 
 ## 版本
 
-版本，表示 `major`。`minor`
+版本，表示为`major`。`minor`
 
 类型：字符串
