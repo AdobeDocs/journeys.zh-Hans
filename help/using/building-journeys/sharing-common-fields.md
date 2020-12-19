@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# journeysteps events common fields {#sharing-common-fields}
+# 工作步骤事件公用字段{#sharing-common-fields}
 
 此混音将由journeyStepEvent和journeyStepProfileEvent共享。
 
-这些是发送到Adobe Experience Platform的 [!DNL Journey Orchestration] 常见XDM字段。 在旅程中处理的每个步骤都会发送通用字段。 更多特定字段用于自定义操作和扩充。
+这些是[!DNL Journey Orchestration]发送到Adobe Experience Platform的常用XDM字段。 在旅程中处理的每个步骤都会发送通用字段。 更多特定字段用于自定义操作和扩充。
 
 其中有些字段仅在特定处理模式（操作执行、数据提取等）中可用 以限制事件的大小。
 
