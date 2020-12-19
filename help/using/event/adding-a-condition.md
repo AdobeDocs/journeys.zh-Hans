@@ -6,8 +6,8 @@ description: 了解如何添加条件
 translation-type: tm+mt
 source-git-commit: bf371ef7f2f69cf610c6644db648d304dc9ba525
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
