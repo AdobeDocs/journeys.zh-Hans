@@ -26,7 +26,7 @@ ht-degree: 92%
 >
 >仅当您具有 Adobe Campaign Standard 时，调色板中才提供 **[!UICONTROL Push]** 和 **[!UICONTROL Email]** 活动。
 
-For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
+有关如何构建旅程的其他信息，请参阅[此页](../building-journeys/journey.md)。
 
 ## 首要步骤{#section_ntb_ws1_ffb}
 
@@ -76,7 +76,7 @@ For additional information on how to build a journey, refer to [this page](../bu
    >
    >在表达式的第二部分中，“用户档案”是可选的。
 
-1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
+1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的详细信息，请参阅[此页](../event/selecting-the-namespace.md)。
 
 在我们的用例中，我们只希望对这两种情况做出反应，因此不会选中 **[!UICONTROL Show path for other cases than the one(s) above]** 框。
 
@@ -101,7 +101,7 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc2_18.png)
 
-1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [this page](../usecase/configuring-the-data-sources.md)). 单击参数名称并定义预订系统键（在我们的示例中为 Experience Cloud ID）的值：
+1. 从外部数据源中选择字段时，屏幕的右侧部分显示配置外部数据源时定义的参数列表（请参阅[此页](../usecase/configuring-the-data-sources.md)）。 单击参数名称并定义预订系统键（在我们的示例中为 Experience Cloud ID）的值：
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -167,7 +167,7 @@ For additional information on how to build a journey, refer to [this page](../bu
 
 1. 添加 **[!UICONTROL End]** 活动。
 
-单击 **[!UICONTROL Test]** 切换并测试您的旅程。如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+单击 **[!UICONTROL Test]** 切换并测试您的旅程。如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。有关测试模式的详细信息，请参阅[此页](../building-journeys/testing-the-journey.md)。
 
 ![](../assets/journeyuc2_32bis.png)
 
