@@ -6,8 +6,8 @@ description: 了解如何配置操作
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 89%
 
 通过自定义操作，您可以配置第三方系统的连接以发送消息或 API 调用。可以使用任何提供商的任何服务配置操作，这些服务可以通过具有 JSON 格式有效负载的 REST API 调用。
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. 请参阅[此页](../building-journeys/about-action-activities.md)。
+这些操作在您旅程的左侧调色板中&#x200B;**[!UICONTROL Action]**&#x200B;类别中可用。 请参阅[此页](../building-journeys/about-action-activities.md)。
 
 >[!NOTE]
 >
 >自定义操作的配置始终由&#x200B;**技术用户**&#x200B;执行。
 
-在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新旅程、操作、数据源或事件。For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
+在&#x200B;**操作**&#x200B;列表中，您可以按“c”创建新旅程、操作、数据源或事件。有关[!DNL Journey Orchestration]中的快捷键的详细信息，请参阅[此部分](../about/user-interface.md#section_ksq_zr1_ffb)。
 
-要查看操作列表或配置新操作，请单击顶部菜单中的&#x200B;**[!UICONTROL Actions]**。将显示操作列表。See [this page](../about/user-interface.md) for more information on the interface.
+要查看操作列表或配置新操作，请单击顶部菜单中的&#x200B;**[!UICONTROL Actions]**。将显示操作列表。有关该接口的详细信息，请参见[此页](../about/user-interface.md)。
 
 ![](../assets/custom1.png)
 
