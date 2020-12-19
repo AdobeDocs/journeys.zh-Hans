@@ -6,15 +6,15 @@ description: 了解设置 Journey Orchestration 和构建您的第一个历程�
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 入门{#concept_y4b_4qt_52b}
 
-在 [!DNL Journey Orchestration] 中，有两种用户，每种用户都执行特定任务：**技术用户**&#x200B;和&#x200B;**商业用户。**&#x200B;用户访问权限通过产品资料和权限进行管理。Refer to [this page](../about/access-management.md) to learn how to configure user access.
+在 [!DNL Journey Orchestration] 中，有两种用户，每种用户都执行特定任务：**技术用户**&#x200B;和&#x200B;**商业用户。**&#x200B;用户访问权限通过产品资料和权限进行管理。请参阅[此页](../about/access-management.md)以了解如何配置用户访问。
 
 以下是配置和使用 [!DNL Journey Orchestration] 的主要步骤：
 
@@ -56,7 +56,7 @@ ht-degree: 92%
 
    您需要验证并激活旅程。此步骤由&#x200B;**商业用户**&#x200B;执行。
 
-   有关此方面的详细信息，请参 [阅测试旅程](../building-journeys/testing-the-journey.md)[和发布旅程](../building-journeys/publishing-the-journey.md)。
+   有关详细信息，请参阅页面[测试旅程](../building-journeys/testing-the-journey.md)和[发布旅程](../building-journeys/publishing-the-journey.md)。
 
    ![](../assets/journeyuc2_32bis.png)
 
