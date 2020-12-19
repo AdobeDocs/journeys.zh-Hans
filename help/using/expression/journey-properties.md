@@ -7,12 +7,12 @@ translation-type: tm+mt
 source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 旅程属性{#journey-properties}
+# 旅程属性 {#journey-properties}
 
 在高级表达式编辑器中，您将在事件和数据源类别下找到&#x200B;**旅程属性**&#x200B;类别。 此类别包含与给定用户档案的旅程相关的技术字段。 这是系统从实时旅程中检索到的信息，如旅程ID或遇到的特定错误。
 
