@@ -16,16 +16,16 @@ ht-degree: 36%
 
 **业务用户**&#x200B;现在可以构建旅程。我们的旅程将仅包含一条包含以下活动的路径：
 
-* “SpaBeacon” **[!UICONTROL Event]**:当一个人在spa信标附近走路时，系统将收到事件，而旅程将为该人开始。
-* 一 **[!UICONTROL Condition]** 名活动，检查此人是否是女人
-* 活动( **[!UICONTROL Email]** 使用Adobe Campaign Standard)
-* an **[!UICONTROL End]** activity
+* &quot;SpaBeacon&quot; **[!UICONTROL Event]**:当一个人在spa信标附近走路时，系统将收到事件，而旅程将为该人开始。
+* **[!UICONTROL Condition]**&#x200B;活动，检查此人是否是女性
+* **[!UICONTROL Email]**&#x200B;活动(使用Adobe Campaign Standard)
+* **[!UICONTROL End]**&#x200B;活动
 
 >[!NOTE]
 >
 >仅当您具有 Adobe Campaign Standard 时，调色板中才提供 **[!UICONTROL Push]** 和 **[!UICONTROL Email]** 活动。
 
-For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
+有关如何构建旅程的其他信息，请参阅[此页](../building-journeys/journey.md)。
 
 1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Home]**&#x200B;选项卡和&#x200B;**[!UICONTROL Create]**&#x200B;以创建新旅程。
 
@@ -47,15 +47,15 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用简单的表达式编辑器，查找性别字段(_人>性别_)并将其放在创建以下条件的权限下：&quot;性别等于&quot;女性&quot;。
+1. 使用简单的表达式编辑器，查找性别字段(_person > geren_)并将其放到右侧以创建以下条件：&quot;性别等于&quot;女性&quot;。
 
    ![](../assets/journeyuc1_12.png)
 
-1. 删除活动 **[!UICONTROL Email]** 并选择“Spa折扣”交易消息模板。 此模板是使用Adobe Campaign设计的。 Refer to this [page](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. 删除&#x200B;**[!UICONTROL Email]**&#x200B;活动并选择“Spa折扣”交易消息模板。 此模板是使用Adobe Campaign设计的。 请参阅此[页面](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
 
    ![](../assets/journeyuc1_13.png)
 
-1. Click inside the **[!UICONTROL Email]** field and select the email address from the data source.
+1. 单击&#x200B;**[!UICONTROL Email]**&#x200B;字段内，并从数据源中选择电子邮件地址。
 
    ![](../assets/journeyuc1_14.png)
 
@@ -63,11 +63,11 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_15.png)
 
-1. 放下 **[!UICONTROL End]** 活动。
+1. 删除&#x200B;**[!UICONTROL End]**&#x200B;活动。
 
    ![](../assets/journeyuc1_17.png)
 
-1. 单击切换 **[!UICONTROL Test]** 按钮，并使用测试用户档案测试您的旅程。 如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+1. 单击&#x200B;**[!UICONTROL Test]**&#x200B;切换按钮，使用测试用户档案测试您的旅程。 如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。有关测试模式的详细信息，请参阅[此页](../building-journeys/testing-the-journey.md)。
 
    ![](../assets/journeyuc1_18bis.png)
 
