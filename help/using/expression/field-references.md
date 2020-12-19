@@ -21,9 +21,9 @@ ht-degree: 3%
 
 * 具有数字特征的场开始
 * 带有“-”字符的字段开始
-* 该字段包含除以下内容之外的任何内容： _a_-z _、_ A _-_ Z、_0_- _,____, 9,_
+* 该字段包含除以下内容之外的任何内容：_a_-_z_,_A_-_Z_,_0_-_9_,_,_-_
 
-例如，如果字段为 _3h_: _#{OpenWeather.weatherData.rain。&#39;3h&#39;} > 0_
+例如，如果字段为&#x200B;_3h_:_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```
 // event field
@@ -100,19 +100,19 @@ expression examples:
 
 **在映射中定义的字段的引用**
 
-为了在地图中检索元素，我们使用带给定键的输入函数。 例如，根据所选事件定义命名空间的键时，会使用它。 请参阅选择命名空间。 有关详细信息，请参 [阅此页](../event/selecting-the-namespace.md)。
+为了在地图中检索元素，我们使用带给定键的输入函数。 例如，根据所选事件定义命名空间的键时，会使用它。 请参阅选择命名空间。 有关详细信息，请参阅[此页](../event/selecting-the-namespace.md)。
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-在此表达式中，我们将获得事件“IdentityMap”字段的“Email”键。 “Email”条目是一个集合，我们从中使用“first()”获取第一个元素中的“id”。 有关详细信息，请参 [阅此页](../expression/collection-management-functions.md)。
+在此表达式中，我们将获得事件“IdentityMap”字段的“Email”键。 “Email”条目是一个集合，我们从中使用“first()”获取第一个元素中的“id”。 有关详细信息，请参阅[此页](../expression/collection-management-functions.md)。
 
 **数据源的参数值（数据源动态值）**
 
 如果从外部数据源中选择一个需要调用参数的字段，则右侧会显示一个新选项卡，用于指定此参数。 请参阅[此页](../expression/expressionadvanced.md)。
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. 参数可以是任何有效表达式，即使来自另一个数据源也可以是另一个参数。
+对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用关键字&#x200B;_params_&#x200B;定义其值。 参数可以是任何有效表达式，即使来自另一个数据源也可以是另一个参数。
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ For more complex use cases, if you want to include the parameters of the data so
 ```
 
 * **`<params-1-name>`**:数据源中第一个参数的确切名称。
-* **`<params-1-value>`**:第一个参数的值。 它可以是任何有效的表达式。
+* **`<params-1-value>`**:第一个参数的值。它可以是任何有效的表达式。
 
 示例:
 
