@@ -22,7 +22,7 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>从一个旅程跳到另一个旅程</strong><br/></th>
+<th><strong>从一个旅程到另一个旅程</strong><br/></th>
 </tr>
 </thead>
 <tbody>
