@@ -6,8 +6,8 @@ description: 了解如何定义消息参数
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ![](../assets/messageparameterssection.png)
 
-在部 **[!UICONTROL Message parameters]** 分中，粘贴JSON有效负荷的示例以发送到外部服务。
+在&#x200B;**[!UICONTROL Message parameters]**&#x200B;部分，粘贴JSON有效负荷的示例以发送到外部服务。
 
 ![](../assets/customactionpayloadmessage.png)
 
