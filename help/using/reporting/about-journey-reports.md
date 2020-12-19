@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![](../assets/dynamic_report_toolbar.png)
 
-使用选 **[!UICONTROL Project]** 项卡可以：
+使用&#x200B;**[!UICONTROL Project]**&#x200B;选项卡可以：
 
 * **[!UICONTROL Open]**:打开以前创建的报告或模板。
 * **[!UICONTROL Save As]**:重复模板，以便能够修改它们。
@@ -34,13 +34,13 @@ ht-degree: 1%
 * **[!UICONTROL Download CSV]**:将报表导出为CSV文件。
 * **[!UICONTROL Print]**:打印您的报告。
 
-该选 **[!UICONTROL Edit]** 项卡允许您：
+**[!UICONTROL Edit]**&#x200B;选项卡允许您：
 
 * **[!UICONTROL Undo]**:取消您对仪表板的上次操作。
 * **[!UICONTROL Redo]**:取消您对仪表板 **[!UICONTROL Undo]** 的上次操作。
 * **[!UICONTROL Clear all]**:删除仪表板上的每个面板。
 
-通过 **[!UICONTROL Insert]** 该表，您可以通过向仪表板添加图形和表来自定义报表：
+**[!UICONTROL Insert]**&#x200B;表允许您通过向仪表板添加图形和表来自定义报表：
 
 * **[!UICONTROL New Blank Panel]**:将新的空白面板添加到仪表板。
 * **[!UICONTROL New Freeform]**:为仪表板添加新的自由形式表。
@@ -53,14 +53,14 @@ ht-degree: 1%
 
 这些选项卡允许您访问以下项目：
 
-* **[!UICONTROL Panels]**:在报表中添加空白面板或自由形式，以开始过滤数据。 For more on this, refer to the [Adding panels](../reporting/creating-your-journey-reports.md#adding-panels) section
-* **[!UICONTROL Visualizations]**:拖放一系列可视化项目，为报表提供图形维度。 For more on this, refer to the [Adding visualizations](../reporting/creating-your-journey-reports.md#adding-visualizations) section.
-* **[!UICONTROL Components]**:使用不同的维度、指标、细分和时间段自定义您的报表。 For more on this, refer to the [Adding components](../reporting/creating-your-journey-reports.md#adding-components) section.
+* **[!UICONTROL Panels]**:在报表中添加空白面板或自由形式，以开始过滤数据。有关详细信息，请参阅[添加面板](../reporting/creating-your-journey-reports.md#adding-panels)部分
+* **[!UICONTROL Visualizations]**:拖放一系列可视化项目，为报表提供图形维度。有关详细信息，请参阅[添加可视化](../reporting/creating-your-journey-reports.md#adding-visualizations)部分。
+* **[!UICONTROL Components]**:使用不同的维度、指标、细分和时间段自定义您的报表。有关详细信息，请参阅[添加组件](../reporting/creating-your-journey-reports.md#adding-components)部分。
 
-## 旅程摘要模板 {#ootb-template}
+## 旅程摘要模板{#ootb-template}
 
 报告分为两个类别:现成的模板和自定义报告。
-开箱即用的模板可为您 **[!UICONTROL Journey summary]**&#x200B;明确视图最重要的跟踪数据。
+现成的模板**[!UICONTROL Journey summary]**&#x200B;为您提供了最重要的跟踪视图。
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 ![](../assets/dynamic_report_journey_10.png)
 
-该 **[!UICONTROL Journey summary]** 表包含可用于旅程的数据，如：
+**[!UICONTROL Journey summary]**&#x200B;表包含可用于旅程的数据，如：
 
 * **[!UICONTROL Entered]**:到达旅程入口事件的个人总数。
 * **[!UICONTROL Completion rate]**:到达旅程的最终流控制的个人总数与进入旅程的个人总数之比。
@@ -91,11 +91,11 @@ ht-degree: 1%
 * **[!UICONTROL Failed]**:未成功执行的旅程总数。
 * **[!UICONTROL Failed rate]**:未成功执行的旅程总数与run旅程的总数。
 
-该 **[!UICONTROL Top events]** 表显示了您旅程中最成 **[!UICONTROL Top action]**&#x200B;功的事件和最成功的操作。
+**[!UICONTROL Top events]**&#x200B;表显示您旅程中最成功的事件和最成功的&#x200B;**[!UICONTROL Top action]**&#x200B;操作。
 
 ![](../assets/dynamic_report_journey_11.png)
 
-该 **[!UICONTROL Delivery - Sending summary]** 表包含可用于旅程投放的数据，如：
+**[!UICONTROL Delivery - Sending summary]**&#x200B;表包含可用于旅程投放的数据，如：
 
 * **[!UICONTROL Processed/sent]**:已发送邮件总数。
 * **[!UICONTROL Delivered rate]**:与已发送的消息相比，成功传送的消息总数。
@@ -103,7 +103,7 @@ ht-degree: 1%
 * **[!UICONTROL Bounce + error rate]**:与发送的邮件相比，弹回的邮件总数。
 * **[!UICONTROL Bounces + errors]**:在投放和自动返回处理期间累积的与已发送消息总数相关的错误总数。
 
-该 **[!UICONTROL Delivery - Tracking summary]** 表包含跟踪您旅程投放成功情况的可用数据，如：
+**[!UICONTROL Delivery - Tracking summary]**&#x200B;表包含跟踪您旅程投放成功情况的可用数据，如：
 
 * **[!UICONTROL Open Rate]**:已打开邮件的百分比。
 * **[!UICONTROL Open]**:在投放中打开消息的次数。
