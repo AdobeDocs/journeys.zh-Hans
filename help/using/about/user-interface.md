@@ -6,8 +6,8 @@ description: 了解有关用户界面的更多信息
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## 访问 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right, then click **[!UICONTROL Journey Orchestration]**.
+要访问[!DNL Journey Orchestration]的接口，请单击右上方的&#x200B;**[!UICONTROL App Selector]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL Journey Orchestration]**。
 
 ![](../assets/journey1.png)
 
@@ -137,8 +137,8 @@ _在旅程的画布中：_
 
 _旅程：_
 
-* 按 **T** 以启用／禁用测试模式。
-* 在基于事件的旅程中，在测试模式 **下** ，按E触发事件。
-* 在基于区段的旅程中，当 **在测试模式中选择** “每次单个用户档案 **”选项时，按** P以触发事件。
-* 在测试模式下， **按** L显示日志。
+* 按&#x200B;**T**&#x200B;启用／禁用测试模式。
+* 在基于事件的旅程中，在测试模式下，按&#x200B;**E**&#x200B;以触发事件。
+* 在基于段的旅程中，当在测试模式中选择&#x200B;**一次单用户档案**&#x200B;选项时，按&#x200B;**P**&#x200B;以触发事件。
+* 在测试模式下，按&#x200B;**L**&#x200B;显示日志。
 
