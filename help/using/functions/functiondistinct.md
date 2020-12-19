@@ -6,8 +6,8 @@ description: 了解函数的独特性
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,4 +70,4 @@ ht-degree: 13%
 
 `distinct([10,2,10,null])`
 
-退货 `[10, 2]`。
+返回`[10, 2]`。
