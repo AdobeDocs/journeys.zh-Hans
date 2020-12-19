@@ -14,9 +14,9 @@ ht-degree: 6%
 
 # 定义有效负载字段 {#concept_yrw_3qt_52b}
 
-有效负荷定义允许您选择系统希望从旅程中的事件接收的信息，以及确定与事件关联的人员的键。 有效负荷基于Experience CloudXDM字段定义。 For more information on XDM, refer to [this page](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html).
+有效负荷定义允许您选择系统希望从旅程中的事件接收的信息，以及确定与事件关联的人员的键。 有效负荷基于Experience CloudXDM字段定义。 有关XDM的详细信息，请参阅[此页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html)。
 
-1. 从列表中选择一个XDM模式，然后单 **[!UICONTROL Payload]** 击字段或图 **[!UICONTROL Edit]** 标。
+1. 从列表中选择一个XDM模式，然后单击&#x200B;**[!UICONTROL Payload]**&#x200B;字段或&#x200B;**[!UICONTROL Edit]**&#x200B;图标。
 
    ![](../assets/journey8.png)
 
@@ -24,22 +24,22 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >确保已将“编排”混音添加到XDM模式。 这将确保您的模式包含所有需要处理的信息 [!DNL Journey Orchestration]。
+   >确保已将“编排”混音添加到XDM模式。 这将确保您的模式包含使用[!DNL Journey Orchestration]所需的所有信息。
 
    ![](../assets/journey9.png)
 
-1. 选择您希望从事件接收的字段。 这些是业务用户在旅程中将利用的字段。 它们还必须包含用于标识与事件关联的人员的键(请参 [阅此页](../event/defining-the-event-key.md))。
+1. 选择您希望从事件接收的字段。 这些是业务用户在旅程中将利用的字段。 它们还必须包含用于标识与事件关联的人员的密钥（请参阅[此页](../event/defining-the-event-key.md)）。
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >对于系统生成的事件 **[!UICONTROL eventID]** ，该字段会自动添加到所选字段的列表中，以 [!DNL Journey Orchestration] 便识别事件。 推送事件的系统不应生成ID，它应使用有效负荷预览中可用的ID。 请参阅[此页](../event/previewing-the-payload.md)。
+   >对于系统生成的事件,**[!UICONTROL eventID]**&#x200B;字段会自动添加到所选字段的列表中，以便[!DNL Journey Orchestration]可以识别事件。 推送事件的系统不应生成ID，它应使用有效负荷预览中可用的ID。 请参阅[此页](../event/previewing-the-payload.md)。
 
-1. 选择完所需字段后，单击或 **[!UICONTROL Save]** 按下 **[!UICONTROL Enter]**。
+1. 选择完所需字段后，单击&#x200B;**[!UICONTROL Save]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
 
    ![](../assets/journey11.png)
 
-   选定字段的数量将显示在字 **[!UICONTROL Payload]** 段中。
+   选定字段的数量显示在&#x200B;**[!UICONTROL Payload]**&#x200B;字段中。
 
    ![](../assets/journey12.png)
