@@ -22,19 +22,19 @@ ht-degree: 3%
 
 1. 在测试您的旅程之前，请验证该旅程是否有效，并且没有错误。 您将无法对存在错误的旅程进行测试。 请参阅[此章节](../about/troubleshooting.md#section_h3q_kqk_fhb)。出错时显示警告符号。
 
-1. 要激活测试模式，请单击位 **[!UICONTROL Test]** 于右上角的切换模式。
+1. 要激活测试模式，请单击右上角的&#x200B;**[!UICONTROL Test]**&#x200B;切换。
 
    ![](../assets/journeytest1.png)
 
-1. 使用左 **[!UICONTROL Wait time in test]** 下角的参数定义每个等待活动在测试模式下的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 此参数仅在您在旅程中丢弃了一个或多个等待活动时显示。
+1. 使用左下角的&#x200B;**[!UICONTROL Wait time in test]**&#x200B;参数定义每个等待活动在测试模式下的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 此参数仅在您在旅程中丢弃了一个或多个等待活动时显示。
 
    ![](../assets/journeytest_wait.png)
 
-1. 单 **[!UICONTROL Trigger an event]** 击以配置事件并将其发送到旅程。 确保发送与测试事件相关的用户档案。 请参 [阅发射事件](#firing_events)。
+1. 单击&#x200B;**[!UICONTROL Trigger an event]**&#x200B;配置事件并将其发送到旅程。 确保发送与测试事件相关的用户档案。 请参阅[激发事件](#firing_events)。
 
    ![](../assets/journeyuctest1.png)
 
-1. 收到事件后，单击按 **[!UICONTROL Show log]** 钮视图测试结果并验证。 请参 [阅查看日志](#viewing_logs)。
+1. 收到事件后，单击&#x200B;**[!UICONTROL Show log]**&#x200B;按钮视图测试结果并验证。 请参阅[查看日志](#viewing_logs)。
 
    ![](../assets/journeyuctest2.png)
 
@@ -50,9 +50,9 @@ ht-degree: 3%
 * 您可以根据需要多次启用／禁用测试模式。
 * 在激活测试模式时，您无法修改旅程。 在测试模式下时，您可以直接发布旅程，无需在之前取消激活测试模式。
 
-## Creating a test profile{#create-test-profile}
+## 创建测试用户档案{#create-test-profile}
 
-创建测试用户档案的过程与在Adobe Experience Platform创建用户档案的过程相同。 它通过API调用执行。 See this [page](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
+创建测试用户档案的过程与在Adobe Experience Platform创建用户档案的过程相同。 它通过API调用执行。 请参阅此[页面](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
 
 必须使用包含“用户档案测试详细信息”混音的用户档案模式。 testProfile标志是此混音的一部分。
 
@@ -104,9 +104,9 @@ curl -X POST \
 }'
 ```
 
-## 发射事件 {#firing_events}
+## 发射事件{#firing_events}
 
-通 **[!UICONTROL Trigger an event]** 过此按钮，您可以配置事件，让人员进入旅程。
+通过&#x200B;**[!UICONTROL Trigger an event]**&#x200B;按钮，您可以配置一个事件，让人员进入旅程。
 
 >[!NOTE]
 >
@@ -118,13 +118,13 @@ curl -X POST \
 
 ![](../assets/journeytest4.png)
 
-该界面允许您传递简单的事件参数。 如果要在事件中传递集合或其他高级对象，可以单 **[!UICONTROL Code View]** 击查看有效负荷的整个代码并修改它。 例如，您可以复制和粘贴由技术用户准备的事件信息。
+该界面允许您传递简单的事件参数。 如果要在事件中传递集合或其他高级对象，可单击&#x200B;**[!UICONTROL Code View]**&#x200B;查看有效负荷的整个代码并修改它。 例如，您可以复制和粘贴由技术用户准备的事件信息。
 
 ![](../assets/journeytest5.png)
 
 技术用户也可以使用此界面来编写事件负载和触发事件，而无需使用第三方工具。
 
-单击该按 **[!UICONTROL Send]** 钮时，测试开始。 旅程中个人的进度由视觉流表示。 当个人在旅程中移动时，路径逐渐变绿。 如果发生错误，则在相应步骤上显示警告符号。 可将光标放在它上以显示有关错误的详细信息并访问完整详细信息（如果有）。
+单击&#x200B;**[!UICONTROL Send]**&#x200B;按钮时，测试开始。 旅程中个人的进度由视觉流表示。 当个人在旅程中移动时，路径逐渐变绿。 如果发生错误，则在相应步骤上显示警告符号。 可将光标放在它上以显示有关错误的详细信息并访问完整详细信息（如果有）。
 
 ![](../assets/journeytest6.png)
 
@@ -134,19 +134,19 @@ curl -X POST \
 
 无论事件是通过界面触发还是通过外部触发（例如，使用Postman），可视流都有效。
 
-## 基于规则的旅程的测试模式 {#test-rule-based}
+## 基于规则的旅程的测试模式{#test-rule-based}
 
-测试模式也适用于使用基于规则的事件的旅程。 For more information on rule-based events, refer to [this page](../event/about-events.md).
+测试模式也适用于使用基于规则的事件的旅程。 有关基于规则的事件的详细信息，请参阅[此页](../event/about-events.md)。
 
-触发事件时， **事件配置** 屏幕允许您定义要通过测试的事件参数。 您可以单击右上角的工具提示图标来视图事件ID条件。 作为规则评估的一部分的每个字段旁边也会显示工具提示。
+触发事件时，**事件配置**&#x200B;屏幕允许您定义要通过测试的事件参数。 您可以单击右上角的工具提示图标来视图事件ID条件。 作为规则评估的一部分的每个字段旁边也会显示工具提示。
 
 ![](../assets/alpha-event8.png)
 
-有关如何使用测试模式的详细信息，请参 [阅此页](../building-journeys/testing-the-journey.md)。
+有关如何使用测试模式的详细信息，请参阅[此页](../building-journeys/testing-the-journey.md)。
 
-## 查看日志 {#viewing_logs}
+## 查看日志{#viewing_logs}
 
-通 **[!UICONTROL Show log]** 过按钮可视图测试结果。 本页以JSON格式显示旅程的当前信息。 通过按钮可复制整个节点。 您需要手动刷新页面以更新旅程的测试结果。
+**[!UICONTROL Show log]**&#x200B;按钮允许您视图测试结果。 本页以JSON格式显示旅程的当前信息。 通过按钮可复制整个节点。 您需要手动刷新页面以更新旅程的测试结果。
 
 ![](../assets/journeytest3.png)
 
@@ -156,14 +156,14 @@ curl -X POST \
 
 将显示旅程中当前的个人数（技术上称为实例）。 以下是每个人显示的有用信息：
 
-* _ID_:旅程中个人的内部ID。 这可用于调试目的。
-* _currentstep_:个体在旅程中所处的步骤。 我们建议向活动添加标签，以便更轻松地识别它们。
-* _currentstep_ > phase:个人旅程的状态（正在运行、已完成、错误或超时）。 有关更多信息，请参见下文。
-* _currentstep_ > _extraInfo_:错误的描述和其他上下文信息。
-* _currentstep_ > _fetchErrors_:有关此步骤期间发生的提取数据错误的信息。
+* _ID_:旅程中个人的内部ID。这可用于调试目的。
+* _currentstep_:个体在旅程中所处的步骤。我们建议向活动添加标签，以便更轻松地识别它们。
+* _currentstep_ > phase:个人旅程的状态（正在运行、已完成、错误或超时）。有关更多信息，请参见下文。
+* _currentstep_ >  _extraInfo_:错误的描述和其他上下文信息。
+* _currentstep_ >  _fetchErrors_:有关此步骤期间发生的提取数据错误的信息。
 * _externalKeys_:在事件中定义的键公式的值。
 * _exchedData_:旅程使用数据源时已检索的数据。
-* _transitionHistory_:个人遵循的步骤列表。 对于事件，将显示有效负荷。
+* _transitionHistory_:个人遵循的步骤列表。对于事件，将显示有效负荷。
 * _actionExecutionErrors_ :错误的相关信息。
 
 以下是个人旅程的不同状态：
