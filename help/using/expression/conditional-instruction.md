@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# 条件说明(if, then, else) {#section_cdz_lsk_w3b}
+# 条件指令(if, then, else){#section_cdz_lsk_w3b}
 
 高级编辑器中支持条件指令（如果，则为else）。 它允许定义更复杂的表达式。 它由以下元素组成：
 
@@ -34,7 +34,7 @@ else
 
 `<expression1>` 必须返回 **布尔**。
 
-`<expression2>` 并且 `<expression3>` 必须具有相同的类型或兼容类型。 支持的签名和返回类型包括：
+`<expression2>` 且必 `<expression3>` 须具有相同的类型或兼容类型。支持的签名和返回类型包括：
 
 ```
 boolean,boolean : boolean
