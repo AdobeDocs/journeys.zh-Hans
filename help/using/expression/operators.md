@@ -6,8 +6,8 @@ description: 了解高级表达式中的运营商
 translation-type: tm+mt
 source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 6%
 
 以下是受支持操作符的列表:
 
-## 逻辑  {#logical}
+## 逻辑{#logical}
 
 ### 和
 
@@ -74,7 +74,7 @@ ht-degree: 6%
 not <expression>
 ```
 
-&lt;表达式>必须是布尔型。 结果为布尔型。
+&lt;expression> 必须是布尔型。结果为布尔型。
 
 示例:
 
@@ -82,7 +82,7 @@ not <expression>
 not 3.15 < 1
 ```
 
-## 比较 {#comparison}
+## 比较{#comparison}
 
 ### 为null
 
@@ -128,7 +128,7 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;表达式>必须是列表。 结果为布尔型。
+&lt;expression> 一定是列表。结果为布尔型。
 
 用于标识列表是否至少包含一个null值。
 
@@ -230,7 +230,7 @@ not 3.15 < 1
 42 >= 3.14
 ```
 
-### &lt;
+### &lt;>
 
 
 
@@ -254,7 +254,7 @@ not 3.15 < 1
 42 < 3.14
 ```
 
-### &lt;=
+### &lt;>
 
 
 
@@ -278,7 +278,7 @@ not 3.15 < 1
 42 <= 3.14
 ```
 
-## 算术 {#arithmetic}
+## 算术{#arithmetic}
 
 ### +
 
@@ -328,7 +328,7 @@ not 3.15 < 1
 
 结果也是数字。
 
-&lt;表达式2>不能等于0（返回0）。
+&lt;expression2> 不得等于0（返回0）。
 
 示例:
 
