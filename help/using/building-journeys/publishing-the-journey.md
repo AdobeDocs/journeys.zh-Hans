@@ -6,8 +6,8 @@ description: 了解旅程发布
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 如果您停止旅程，它将永久停止。 所有在旅程中流动的人将永久停止，旅程将停止允许新的入口。 如果您需要再次使用旅程，您需要重复并发布它。
 
 1. 在发布您的旅程之前，请验证该旅程是否有效，并且没有错误。 您无法发布包含错误的旅程。 请参阅[此章节](../about/troubleshooting.md#section_h3q_kqk_fhb)。还建议在发布前测试您的旅程。 请参阅[此页](../building-journeys/testing-the-journey.md)。
-1. 要发布旅程，请单击位 **[!UICONTROL Publish]** 于右上方下拉菜单中的选项。
+1. 要发布旅程，请单击右上方下拉菜单中的&#x200B;**[!UICONTROL Publish]**&#x200B;选项。
 
    ![](../assets/journeyuc1_18.png)
 
