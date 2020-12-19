@@ -6,8 +6,8 @@ description: 了解如何构建高级表达式
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ _高级表达式编辑器界面_
 
 **使用高级表达式编辑器构建条件时需要参数**
 
-If you select a field from an external data source requiring a parameter to be called (see [this page](../datasource/external-data-sources.md). 例如，在与天气相关的数据源中，常用的参数将为“city”。因此，必须选择要获取此城市参数的位置。还可以将函数应用于参数以执行格式更改或连接。
+如果从外部数据源中选择一个需要调用参数的字段（请参阅[此页](../datasource/external-data-sources.md)）。 例如，在与天气相关的数据源中，常用的参数将为“city”。因此，必须选择要获取此城市参数的位置。还可以将函数应用于参数以执行格式更改或连接。
 
 ![](../assets/journeyuc2_19.png)
 
