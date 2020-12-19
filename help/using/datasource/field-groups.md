@@ -6,7 +6,7 @@ description: 了解字段组
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 字段组是一组字段，您可以从数据源中检索并在旅程中使用。
 
-## 定义字段组 {#section_dsz_kjd_fjb}
+## 定义字段组{#section_dsz_kjd_fjb}
 
 对于每个数据源，您可以定义多个字段组，每个字段组都具有特定的缓存持续时间。
 
 例如，您可以创建一个字段组，其中包含电话号码、电子邮件、名字和用户档案的地址。 然后，您将能够在旅程中使用这些数据创造条件。 例如，您只有在用户档案的电话号码不为空时，才能决定发送SMS。 如果为空，则可以发送电子邮件。
 
-即使自动添加默认名称，我们也建议您为字段组指定名称。 事实上，字段组名称对中的其他用户可见 [!DNL Journey Orchestration]。 为字段组命名相关名称是最佳实践。
+即使自动添加默认名称，我们也建议您为字段组指定名称。 事实上，字段组名称对于[!DNL Journey Orchestration]中的其他用户可见。 为字段组命名相关名称是最佳实践。
 
 在旅程中使用数据源字段时，系统将检索为该字段组定义的所有字段。 因此，只选择您旅程所需的字段是最佳实践。 这将减少您旅程中的请求延迟，从而提高性能。 请注意，以后您可以轻松地在字段组中添加更多字段。
 
-**[!UICONTROL Cache duration]** 也很重要，因为它将帮助您优化性能。 缓存持续时间意味着在旅程中，如果从字段组检索一次数据，系统将临时缓存它。 如果同一旅程的后期需要相同的数据，则系统不会向数据源再次请求。 缓存持续时间的配置应适用于每个用例。 如果您需要检索实时数据，如酒店预订状态、天气信息或忠诚度积分数，您会将包含这些字段的字段组与较短的缓存持续时间（例如1秒）相关联。 对于更新频率较低的字段（名称、性别），您将创建另一个缓存持续时间较长的字段组（例如，5天）。
+**[!UICONTROL Cache duration]** 也很重要，因为它将帮助您优化性能。缓存持续时间意味着在旅程中，如果从字段组检索一次数据，系统将临时缓存它。 如果同一旅程的后期需要相同的数据，则系统不会向数据源再次请求。 缓存持续时间的配置应适用于每个用例。 如果您需要检索实时数据，如酒店预订状态、天气信息或忠诚度积分数，您会将包含这些字段的字段组与较短的缓存持续时间（例如1秒）相关联。 对于更新频率较低的字段（名称、性别），您将创建另一个缓存持续时间较长的字段组（例如，5天）。
 
-The number of journeys that use a field group is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of journeys using this field group.
+使用字段组的旅程数显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中。 单击&#x200B;**[!UICONTROL View journeys]**&#x200B;按钮可显示使用此字段组的旅程列表。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ The number of journeys that use a field group is displayed in the **[!UICONTROL 
 
 ![](../assets/journey3bis.png)
 
-## 字段组生命周期 {#section_abk_njd_fjb}
+## 字段组生命周期{#section_abk_njd_fjb}
 
 您可以从任何草稿或实时旅程中未使用的字段组中添加或删除字段。
 
@@ -45,9 +45,9 @@ The number of journeys that use a field group is displayed in the **[!UICONTROL 
 
 要从一个或多个旅程中使用的字段组中删除字段，请执行以下步骤。 让我们使用一个名为“字段组A”的字段组的示例。
 
-1. 在字段组的列表中，将光标放在“字段组A”上，然后单击右 **[!UICONTROL Duplicate]** 侧的图标。 将重复的字段组命名为“字段组B”，例如。
+1. 在字段组的列表中，将光标放在“字段组A”上，然后单击右侧的&#x200B;**[!UICONTROL Duplicate]**&#x200B;图标。 将重复的字段组命名为“字段组B”，例如。
 1. 在“字段组B”中，删除您不再需要的字段。
-1. 在“字段组A”中，检查此字段组的使用位置。 此信息显示在字 **[!UICONTROL Used in]** 段中。
+1. 在“字段组A”中，检查此字段组的使用位置。 此信息显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中。
 1. 打开所有使用“字段组A”的旅程。
 1. 创建这些旅程的新版本。 使用“字段组A”编辑所有活动，然后选择“字段组B”。
 1. 停止使用“字段组A”的旧版旅程。 然后，您就不应使用“字段组A”进行旅程。
