@@ -6,8 +6,8 @@ description: 了解高级表达式中的数据类型
 translation-type: tm+mt
 source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 以下各节提供了有关不同数据类型表达式及其表示方式的信息。
 
-## string {#string}
+## 字符串{#string}
 
 **说明**
 
@@ -48,7 +48,7 @@ JSON格式：字符串
 'hello world'
 ```
 
-## 整数 {#integer}
+## 整数{#integer}
 
 **说明**
 
@@ -68,7 +68,7 @@ JSON格式：数字
 42
 ```
 
-## 小数 {#decimal}
+## 小数{#decimal}
 
 **说明**
 
@@ -94,7 +94,7 @@ JSON格式：数字
 3.14
 ```
 
-## 布尔 {#boolean}
+## 布尔{#boolean}
 
 **说明**
 
@@ -118,7 +118,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **说明**
 
@@ -194,7 +194,7 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## 持续时间 {#duration}
+## 持续时间{#duration}
 
 **说明**
 
@@ -262,7 +262,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## list {#list}
+## 列表{#list}
 
 **说明**
 
