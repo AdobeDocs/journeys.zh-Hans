@@ -79,7 +79,7 @@ ht-degree: 2%
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 然后指定SKU，使用该函 `first` 数检索最近的“addToCart”交互：
+* 然后指定SKU，使用函数`first`检索最近的“addToCart”交互：
 
    ```
        #{ExperiencePlatformDataSource
@@ -109,9 +109,9 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-说明：这是严格字符串比较（区分大小写），等同于在简单模式下使用选中项的 `equal to` 查询 `Is sensitive` 符。
+说明：这是严格字符串比较（区分大小写），等同于在选中`Is sensitive`的简单模式下使用`equal to`的查询。
 
-未选中的同一查询 `Is sensitive` 将在高级模式下生成以下表达式:
+取消选中`Is sensitive`的同一查询将在高级模式下生成以下表达式:
 
 ```
         equalIgnoreCase(@{GeofenceEntry
@@ -138,6 +138,6 @@ ht-degree: 2%
                          ))
 ```
 
-说明：此示例使用 `substr` 和函 `lastIndexOf` 数删除花括号，该花括号用于将随移动应用程序启动事件传递的CRM ID括起来。
+说明：此示例使用`substr`和`lastIndexOf`函数删除花括号，用于将随移动应用程序启动事件一起传递的CRM ID括起来。
 
-有关如何使用高级表达式编辑器的更多信息，请观 [看此视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+有关如何使用高级表达式编辑器的详细信息，请观看[此视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
