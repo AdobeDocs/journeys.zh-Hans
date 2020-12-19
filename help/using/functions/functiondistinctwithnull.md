@@ -6,8 +6,8 @@ description: 了解函数distinctWithNull
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,4 +70,4 @@ ht-degree: 11%
 
 `distinctWithNull([10,2,10,null])`
 
-返 [回10、2、null]
+返回[10, 2,null]
