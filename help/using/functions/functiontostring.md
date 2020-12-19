@@ -6,15 +6,15 @@ description: 了解函数toString
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # toString {#toString}
 
-根据参数值的类型，将参数值转换为字符串值。 For more information on data types, refer to [this page](../expression/data-types.md).
+根据参数值的类型，将参数值转换为字符串值。 有关数据类型的详细信息，请参阅[此页](../expression/data-types.md)。
 
 ## 类别
 
