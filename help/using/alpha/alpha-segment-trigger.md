@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # “读取区段”活动{#segment-trigger-activity}
 
-## 关于读取区段活动 {#about-segment-trigger-actvitiy}
+## 关于读取段活动{#about-segment-trigger-actvitiy}
 
 >[!NOTE]
 >
@@ -26,21 +26,21 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->在同一旅程中，您不 **能进行跳** 跃和阅读段活动。 您不能跳到具有阅读区段开始 **的旅程** 。
+>在同一旅程中，不能有跳转和&#x200B;**读取段**&#x200B;活动。 您不能跳到具有&#x200B;**读取段**&#x200B;开始的旅程。
 
-## 配置活动 {#configuring-segment-trigger-activity}
+## 配置活动{#configuring-segment-trigger-activity}
 
 >[!NOTE]
 >
 >由于细分导出延迟，无法在1小时以内的较短时间内触发基于细分的旅程。
 
-1. 展开 **[!UICONTROL Orchestration]** 类别并将 **[!UICONTROL Read Segment]** 活动放入画布。
+1. 打开&#x200B;**[!UICONTROL Orchestration]**&#x200B;类别，将&#x200B;**[!UICONTROL Read Segment]**&#x200B;活动放入画布。
 
    活动必须定位为旅程的第一步。
 
-1. 向活动 **[!UICONTROL Label]** 添加一个（可选）。
+1. 将&#x200B;**[!UICONTROL Label]**&#x200B;添加到活动（可选）。
 
-1. 在字段 **[!UICONTROL Segment]** 中，选择将进入旅程的Adobe Experience Platform区段，然后单击 **[!UICONTROL Save]**。
+1. 在&#x200B;**[!UICONTROL Segment]**&#x200B;字段中，选择将进入旅程的Adobe Experience Platform区段，然后单击&#x200B;**[!UICONTROL Save]**。
 
    >[!NOTE]
    >
@@ -48,43 +48,43 @@ ht-degree: 3%
 
    ![](../assets/segment-trigger-segment-selection.png)
 
-   添加区段后，该按 **[!UICONTROL Copy]** 钮允许您复制其名称和ID:
+   添加区段后，**[!UICONTROL Copy]**&#x200B;按钮允许您复制其名称和ID:
 
    `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-trigger-copy.png)
 
-1. 在字 **[!UICONTROL Namespace]** 段中，选择要使用的命名空间以识别个人。 For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
+1. 在&#x200B;**[!UICONTROL Namespace]**&#x200B;字段中，选择要用于识别个人的命名空间。 有关命名空间的详细信息，请参阅[此部分](../event/selecting-the-namespace.md)。
 
    >[!NOTE]
    >
    >属于某个细分的个人，如果其不同身份之间没有选定的身份(命名空间)，则不能进入旅程。
 
-1. 该 **[!UICONTROL Read Segment]** 活动允许您指定段将进入旅程的时间。 为此，请单击链 **[!UICONTROL Edit journey schedule]** 接以访问旅程的属性，然后配置字 **[!UICONTROL Scheduler type]** 段。
+1. **[!UICONTROL Read Segment]**&#x200B;活动允许您指定段进入旅程的时间。 为此，请单击&#x200B;**[!UICONTROL Edit journey schedule]**&#x200B;链接以访问旅程的属性，然后配置&#x200B;**[!UICONTROL Scheduler type]**&#x200B;字段。
 
    ![](../assets/segment-trigger-schedule.png)
 
-   默认情况下，区段会输入旅 **[!UICONTROL As soon as possible]**&#x200B;程，即在旅程发布后1小时输入。 如果要让区段在特定日期／时间或定期输入旅程，请从列表中选择所需值。
+   默认情况下，区段会输入旅程&#x200B;**[!UICONTROL As soon as possible]**，即旅程发布后1小时。 如果要让区段在特定日期／时间或定期输入旅程，请从列表中选择所需值。
 
    >[!NOTE]
    >
-   >请注意， **[!UICONTROL Schedule]** 只有在画布中放置 **[!UICONTROL Read Segment]** 活动后，该部分才可用。
+   >请注意，**[!UICONTROL Schedule]**&#x200B;部分仅在画布中放置了&#x200B;**[!UICONTROL Read Segment]**&#x200B;活动时可用。
 
    ![](../assets/segment-trigger-properties.png)
 
-## 测试和发布旅程 {#testing-publishing}
+## 测试和发布旅程{#testing-publishing}
 
-该 **[!UICONTROL Read Segment]** 活动允许您在单一用户档案或100个随机测试从符合段条件的用户档案中选择的用户档案上测试旅程。
+**[!UICONTROL Read Segment]**&#x200B;活动允许您在单一用户档案或100个随机测试用户档案上测试旅程，这些在符合段条件的用户档案中选择。
 
 为此，请激活测试模式，然后从左窗格中选择所需的选项。
 
 ![](../assets/segment-trigger-test-modes.png)
 
-然后，可以像往常一样配置和运行测试模式。 本节介绍如何测试旅程的详细 [步骤](../building-journeys/testing-the-journey.md)。
+然后，可以像往常一样配置和运行测试模式。 有关如何测试旅程的详细步骤，请参见[本节](../building-journeys/testing-the-journey.md)。
 
-测试运行后，按 **[!UICONTROL Show logs]** 钮允许您根据选定的测试选项查看测试结果：
+测试运行后，**[!UICONTROL Show logs]**&#x200B;按钮允许您根据选定的测试选项查看测试结果：
 
-* **[!UICONTROL Single profile at a time]**:测试日志显示与使用单一测试模式时相同的信息。 For more on this, refer to [this section](../building-journeys/testing-the-journey.md#viewing_logs)
+* **[!UICONTROL Single profile at a time]**:测试日志显示与使用单一测试模式时相同的信息。有关详细信息，请参阅[此部分](../building-journeys/testing-the-journey.md#viewing_logs)
 
 * **[!UICONTROL Up to 100 profiles at once]**:通过测试日志，您可以跟踪从Adobe Experience Platform出口区段的进度以及所有进入旅程的人员的个人进度。
 
@@ -92,7 +92,7 @@ ht-degree: 3%
 
    ![](../assets/read-segment-log.png)
 
-测试成功后，您可以发布旅程(请参 [阅发布旅程](../building-journeys/publishing-the-journey.md))。 属于该区段的个人将在旅程的属性部分中指定的日期／时间进入旅 **[!UICONTROL Scheduler]** 程。
+测试成功后，您可以发布旅程（请参阅[发布旅程](../building-journeys/publishing-the-journey.md)）。 属于该区段的个人将在旅程的属性&#x200B;**[!UICONTROL Scheduler]**&#x200B;部分中指定的日期／时间进入旅程。
 
 >[!NOTE]
 >
