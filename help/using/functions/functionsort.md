@@ -6,8 +6,8 @@ description: 了解函数排序
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,8 +67,8 @@ ht-degree: 10%
 
 `sort(["A", "C", "B"], true)`
 
-退货 `["A","B","C"]`。
+返回`["A","B","C"]`。
 
 `sort([1, 3, 2], false)`
 
-退货 `[3, 2, 1]`。
+返回`[3, 2, 1]`。
