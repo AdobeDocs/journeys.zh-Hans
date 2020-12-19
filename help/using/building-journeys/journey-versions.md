@@ -22,9 +22,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->要进一步了解旅程版本限制，请参 [阅本页](../about/limitations.md#journey-versions-limitations)
+>要了解旅程版本限制的更多信息，请参阅[此页](../about/limitations.md#journey-versions-limitations)
 
-1. 打开实时旅程的最新版本，单击并 **[!UICONTROL Create a new version]** 进行确认。
+1. 打开实时旅程的最新版本，单击&#x200B;**[!UICONTROL Create a new version]**&#x200B;并确认。
 
    ![](../assets/journeyversions2.png)
 
@@ -32,7 +32,7 @@ ht-degree: 2%
    >
    >您只能根据旅程的最新版本创建新版本。
 
-1. 进行修改，单击 **[!UICONTROL Publish]** 并确认。
+1. 进行修改，单击&#x200B;**[!UICONTROL Publish]**&#x200B;并确认。
 
    ![](../assets/journeyversions3.png)
 
@@ -42,4 +42,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->当您发布旅程的新版本时，先前版本会自动结束并切换到“已关闭 **** ”状态。 旅程中不会有入口。 即使您停止最新版本，旧版本也将保持关闭状态。
+>发布旅程的新版本时，先前版本会自动结束并切换至&#x200B;**已关闭**&#x200B;状态。 旅程中不会有入口。 即使您停止最新版本，旧版本也将保持关闭状态。
