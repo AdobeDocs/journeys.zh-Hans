@@ -16,7 +16,7 @@ ht-degree: 73%
 
 函数可以具有不同的签名（一组不同的有序参数）。 函数签名可以具有0-N表达式作为有序参数。
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`、 `<expression as param 2>` ...,`<expression as param N>`)
 
 每个函数都有一个特定的返回类型。
 
