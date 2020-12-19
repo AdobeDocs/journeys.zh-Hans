@@ -46,7 +46,7 @@ ht-degree: 98%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到 [!DNL Journey Orchestration]。实际上，[!DNL Journey Orchestration] 依赖于 Adobe Experience Platform 的流摄取 API。As a result, in case of event related issues, you can refer to [this page](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
+事件不会直接从源推送到 [!DNL Journey Orchestration]。实际上，[!DNL Journey Orchestration] 依赖于 Adobe Experience Platform 的流摄取 API。因此，如果出现与事件相关的问题，您可以参阅[本页](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/streaming/troubleshooting.html)了解流式摄取API疑难解答。
 
 ## 检查人员是否进入旅程{#section_x4v_zzs_dgb}
 
