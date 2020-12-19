@@ -60,7 +60,7 @@ ht-degree: 1%
 
 **函数“all(`<condition>`)”**
 
-该函 **[!UICONTROL all]** 数通过使用布尔表达式启用给定集合上的筛选器的定义。
+**[!UICONTROL all]**&#x200B;函数使用布尔表达式启用给定集合上的筛选器定义。
 
 ```
 <listExpression>.all(<condition>)
@@ -68,11 +68,11 @@ ht-degree: 1%
 
 例如，在所有应用程序用户中，您都可以使用IOS 13(布尔表达式“已使用的应用程序== IOS 13”)获取这些用户。 此函数的结果是筛选列表，其中包含与布尔表达式匹配的项(例如：应用程序用户1、应用程序用户34、应用程序用户432)。
 
-在“数据源条件”活动中，您可以检查函数的 **[!UICONTROL all]** 结果是否为null。 您还可以将此函数 **[!UICONTROL all]** 与其他函数(如 **[!UICONTROL count]**)组合。 有关详细信息，请参 [阅数据源条件活动](../building-journeys/condition-activity.md#data_source_condition)。
+在“数据源条件”活动中，可以检查&#x200B;**[!UICONTROL all]**&#x200B;函数的结果是否为null。 您还可以将此&#x200B;**[!UICONTROL all]**&#x200B;函数与其他函数（如&#x200B;**[!UICONTROL count]**）结合使用。 有关详细信息，请参阅[数据源条件活动](../building-journeys/condition-activity.md#data_source_condition)。
 
 **示例1:**
 
-我们希望检查用户是否已安装特定版本的应用程序。 为此，我们将获得与版本为1.0的移动应用程序关联的所有推送通知令牌。然后，我们使用该函数执行一个条件，以检查令牌的返回列表是否包含至少一个元素。 **[!UICONTROL count]**
+我们希望检查用户是否已安装特定版本的应用程序。 为此，我们将获得与版本为1.0的移动应用程序关联的所有推送通知令牌。然后，我们使用&#x200B;**[!UICONTROL count]**&#x200B;函数执行一个条件，检查令牌的返回列表是否包含至少一个元素。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -82,7 +82,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 **示例 2:**
 
-在此，我们使用 **[!UICONTROL count]** 该函数检查集合中是否有推送通知令牌。
+在此，我们使用&#x200B;**[!UICONTROL count]**&#x200B;函数检查集合中是否存在推送通知令牌。
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -115,18 +115,18 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->当all()函数中的 **过滤条件** 为空时，过滤器将返回列表中的所有元素。 **但是，为了计算集合的元素数，不需要全部函数。**
+>当&#x200B;**all()**&#x200B;函数中的过滤条件为空时，过滤器将返回列表中的所有元素。 **但是，为了计算集合的元素数，不需要全部函数。**
 
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-The result of the expression is **3**.
+表达式结果为&#x200B;**3**。
 
 **示例3:**
 
-在此，我们检查过去24小时内是否有个人未收到任何通信。 我们使用两个基于两个事件的表达式来过滤从ExperiencePlatform数据源检索到的体验集合。 特别是，将事件的时间戳与函数返回的dateTime进行比 **[!UICONTROL nowWithDelta]** 较。
+在此，我们检查过去24小时内是否有个人未收到任何通信。 我们使用两个基于两个事件的表达式来过滤从ExperiencePlatform数据源检索到的体验集合。 特别是，将事件的时间戳与&#x200B;**[!UICONTROL nowWithDelta]**&#x200B;函数返回的dateTime进行比较。
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -167,13 +167,13 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** 仅在处理事件集合和currentDataPackField时 **可用**
->处理数据源集合时。 在处理集合时， **[!UICONTROL all]**&#x200B;我们 **[!UICONTROL first]** 会 **[!UICONTROL last]**提供
+>处理数据源集合时。 当使用&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**处理集合时，我们
 >逐个循环访问集合的每个元素。 **[!UICONTROL currentEventField]** 和 **currentDataPackField**
 >与所环绕的元素相对应。
 
 **函数“first(`<condition>`)”和“last(`<condition>`)”**
 
-该 **[!UICONTROL first]** 和函 **[!UICONTROL last]** 数还允许在返回满足筛选器的列表的第一个／最后一个元素时定义集合上的筛选器。
+**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;函数还在返回满足筛选器的列表的第一个／最后一个元素时启用集合中筛选器的定义。
 
 _`<listExpression>.first(<condition>)`_
 
@@ -217,7 +217,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函数“at(`<index>`)”**
 
-函 **[!UICONTROL at]** 数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_
