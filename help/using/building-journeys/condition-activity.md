@@ -23,11 +23,11 @@ ht-degree: 10%
 
 ![](../assets/journey49.png)
 
-## 关于条件活动 {#about_condition}
+## 关于条件活动{#about_condition}
 
 在旅程中使用多个条件时，您可以为每个条件定义标签，以更轻松地识别它们。
 
-如果 **[!UICONTROL Add a path]** 要定义多个条件，请单击。 对于每个条件，在活动后，画布中会添加新路径。
+如果要定义多个条件，请单击&#x200B;**[!UICONTROL Add a path]**。 对于每个条件，在活动后，画布中会添加新路径。
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 ![](../assets/journey48.png)
 
-您可以通过选中为不符合定义条件的受众创建其他路径 **[!UICONTROL Show path for other cases than the one(s) above]**。 请注意，此选项在拆分条件中不可用。 请参阅 [百分比拆分](#percentage_split)。
+您可以通过选中&#x200B;**[!UICONTROL Show path for other cases than the one(s) above]**&#x200B;为不符合所定义条件的受众创建其他路径。 请注意，此选项在拆分条件中不可用。 请参阅[百分比拆分](#percentage_split)。
 
 简单模式允许您根据字段组合执行简单查询。 所有可用字段都显示在屏幕的左侧。 将字段拖放到主区域。 要组合不同的元素，请将它们互相联锁，以创建不同的组和／或组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
@@ -46,7 +46,7 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-如果您使用 [Adobe Experience Platform细分服务](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ，可以在旅程条件中利用这些细分。 请参阅在 [条件中使用区段](../segment/using-a-segment.md)。
+如果您使用[Adobe Experience Platform细分服务](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)创建细分，则可以在旅程条件中利用这些细分。 请参阅[在条件](../segment/using-a-segment.md)中使用段。
 
 
 >[!NOTE]
@@ -55,9 +55,9 @@ ht-degree: 10%
 
 当操作或条件中发生错误时，个人旅程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
 
-## 数据源条件 {#data_source_condition}
+## 数据源条件{#data_source_condition}
 
-这允许您根据数据源中的字段或之前位于旅程中的事件定义条件。 要了解如何使用表达式编辑器，请参 [阅此页](../expression/expressionadvanced.md)。 使用高级表达式编辑器，您可以设置更高级的条件处理集合或使用要求传递参数的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
+这允许您根据数据源中的字段或之前位于旅程中的事件定义条件。 要了解如何使用表达式编辑器，请参阅[此页](../expression/expressionadvanced.md)。 使用高级表达式编辑器，您可以设置更高级的条件处理集合或使用要求传递参数的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -71,9 +71,9 @@ ht-degree: 10%
 
 ![](../assets/journey51.png)
 
-## 拆分百分比 {#percentage_split}
+## 拆分百分比{#percentage_split}
 
-此选项允许您随机拆分受众，为每个组定义不同的操作。 定义每个路径的拆分数和重新分区。 分割计算是统计的，因为系统无法预测在旅程的这个活动会有多少人流动。 因此，分割具有非常低的误差裕度。 此函数基于Java随机机制(请参阅 [此页](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
+此选项允许您随机拆分受众，为每个组定义不同的操作。 定义每个路径的拆分数和重新分区。 分割计算是统计的，因为系统无法预测在旅程的这个活动会有多少人流动。 因此，分割具有非常低的误差裕度。 此函数基于Java随机机制（请参阅此[页面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 10%
 
 ![](../assets/journey52.png)
 
-## 日期条件 {#date_condition}
+## 日期条件{#date_condition}
 
 这允许您根据日期定义不同的流。 例如，如果人员在“销售”期间输入步骤，您将向其发送特定消息。 在这一年的剩余时间，您将再发送一条消息。
 
