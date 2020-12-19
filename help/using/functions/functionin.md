@@ -6,8 +6,8 @@ description: 了解
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 检查第一个参数值是否在列表中。 检查通过对每个参数值使用“相等”来执行。 如果找到参数值，则返回true，否则返回false。
 
-类型必须 `<expression>` 与列表项匹配。 作为提醒，列表的项目类型必须相互匹配。
+`<expression>`的类型必须与列表项匹配。 作为提醒，列表的项目类型必须相互匹配。
 
 ## 类别
 
