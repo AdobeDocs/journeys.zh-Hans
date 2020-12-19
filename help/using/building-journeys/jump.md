@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 从一个旅程跳到另一个旅程
-description: 从一个旅程跳到另一个旅程
+title: 从一个旅程到另一个旅程
+description: 从一个旅程到另一个旅程
 translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 从一个旅程跳转至另一个{#jump}
+# 从一个旅程到另一个旅程 {#jump}
 
 **[!UICONTROL Jump]**&#x200B;操作活动允许您将个人从一个旅程推向另一个旅程。 此功能允许您：
 
