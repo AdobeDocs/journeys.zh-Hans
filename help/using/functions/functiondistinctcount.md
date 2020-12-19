@@ -6,8 +6,8 @@ description: 了解distinctCount函数
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
