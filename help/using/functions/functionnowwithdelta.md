@@ -6,15 +6,15 @@ description: 立即了解函数WithDelta
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # nowWithDelta {#nowWithDelta}
 
-返回包含偏移的当前日期时间。 如果指定了时区ID，则将应用时区偏移。 For more information on data types, refer to [this page](../expression/data-types.md).
+返回包含偏移的当前日期时间。 如果指定了时区ID，则将应用时区偏移。 有关数据类型的详细信息，请参阅[此页](../expression/data-types.md)。
 
 ## 类别
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 |--- |--- |
 | 三角洲 | 正整数值 |
 | 日期部分 | 年、月、日、小时、分钟或秒（字符串） |
-| 时区id | 时区值的字符串表示形式。 有关详细信息，请参 [阅数据类型](../expression/data-types.md)。 时区ID必须是字符串常数。 它不能是字段引用或表达式。 |
+| 时区id | 时区值的字符串表示形式。 有关详细信息，请参阅[数据类型](../expression/data-types.md)。 时区ID必须是字符串常数。 它不能是字段引用或表达式。 |
 
 ## 签名和返回类型
 
