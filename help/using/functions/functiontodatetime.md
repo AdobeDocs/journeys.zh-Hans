@@ -6,8 +6,8 @@ description: 了解函数toDateTime
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->时区ID必须是字符串常数。 它不能是字段引用或表达式。 For more information on data types, refer to [this page](../expression/data-types.md).
+>时区ID必须是字符串常数。 它不能是字段引用或表达式。 有关数据类型的详细信息，请参阅[此页](../expression/data-types.md)。
 
 ## 签名和返回类型
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 `toDateTime(<integer>)`
 
-返回 **dateTime**。
+返回&#x200B;**dateTime**。
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
