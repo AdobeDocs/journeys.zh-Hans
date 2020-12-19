@@ -6,8 +6,8 @@ description: 了解Adobe Campaign操作
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Adobe Campaign Standard交易消息传递在给定实例的渠道中每小时最大可发送50 000条消息。 为降低过载风险，建议您为Campaign Standard集 **成设置** 上限规则。
+>Adobe Campaign Standard交易消息传递在给定实例的渠道中每小时最大可发送50 000条消息。 为降低过载风险，建议您为Campaign Standard集成设置&#x200B;**上限规则**。
 >
->阅读Adobe Campaign Standard产品说明，了解有关交易 [消息SLA的更多信息](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。
+>请阅读[Adobe Campaign Standard产品说明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)中有关事务消息SLA的更多信息。
 
 下面是配置它的步骤：
 
-1. 在列表 **[!UICONTROL Actions]** 中，单击内置的 **[!UICONTROL AdobeCampaignStandard]** 操作。 操作配置窗格将在屏幕右侧打开。
+1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;列表中，单击内置&#x200B;**[!UICONTROL AdobeCampaignStandard]**&#x200B;操作。 操作配置窗格将在屏幕右侧打开。
 
    ![](../assets/actioncampaign.png)
 
-1. 复制您的Adobe Campaign Standard实例URL并将其粘贴到字 **[!UICONTROL URL]** 段中。
+1. 复制您的Adobe Campaign Standard实例URL并将其粘贴到&#x200B;**[!UICONTROL URL]**&#x200B;字段中。
 
-1. 单击 **[!UICONTROL Test the instance URL]** 以测试实例的有效性。
+1. 单击&#x200B;**[!UICONTROL Test the instance URL]**&#x200B;以测试实例的有效性。
 
    >[!NOTE]
    >
@@ -46,8 +46,8 @@ ht-degree: 4%
    >
    >与此Adobe Campaign Standard实例关联的ORG与Journey Orchestration的ORG相同。
 
-设计旅程时，类别中将提供三个操作： **[!UICONTROL Action]****[!UICONTROL Email]**、 **[!UICONTROL Push]**(请 **[!UICONTROL SMS]** 参阅使 [用Adobe Campaign操作](../building-journeys/using-adobe-campaign-actions.md))。 **反应事件** 还允许您对消息点击、打开等做出反应。 (请参阅 [反应事件](../building-journeys/reaction-events.md))。
+设计旅程时，**[!UICONTROL Action]**&#x200B;类别中将提供以下三个操作：**[!UICONTROL Email]**、**[!UICONTROL Push]**、**[!UICONTROL SMS]**(请参阅[使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-actions.md))。 **反** 应甚至允许您对消息点击、打开等做出反应。(请参阅[反应事件](../building-journeys/reaction-events.md))。
 
 ![](../assets/journey58.png)
 
-如果您使用第三方系统发送消息，则需要添加和配置自定义操作。 See [About custom action configuration](../action/about-custom-action-configuration.md).
+如果您使用第三方系统发送消息，则需要添加和配置自定义操作。 请参阅[关于自定义操作配置](../action/about-custom-action-configuration.md)。
