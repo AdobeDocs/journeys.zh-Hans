@@ -6,15 +6,15 @@ description: 了解toDuration函数
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # toDuration {#toDuration}
 
-将参数值转换为持续时间。 For more information on data types, refer to [this page](../expression/data-types.md).
+将参数值转换为持续时间。 有关数据类型的详细信息，请参阅[此页](../expression/data-types.md)。
 
 ## 类别
 
