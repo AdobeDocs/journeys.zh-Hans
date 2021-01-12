@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 文档更新
 description: 了解文档更新
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 94%
+source-wordcount: '789'
+ht-degree: 93%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 94%
 
 此页面列出了
 [!DNL Journey Orchestration]的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+
+## 2021 年 1 月 {#january-2021}
+
+* 添加了在创建用户档案的同时触发旅程的最佳实践。 [阅读更多](../about/limitations.md#journeys-limitation-profile-creation)。
 
 ## 2020 年 10 月 {#october-2020}
 
