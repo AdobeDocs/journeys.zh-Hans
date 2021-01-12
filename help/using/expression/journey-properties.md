@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 旅程属性
 description: 了解旅程属性
 translation-type: tm+mt
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 旅程属性 {#journey-properties}
 
-在高级表达式编辑器中，您将在事件和数据源类别下找到&#x200B;**旅程属性**&#x200B;类别。 此类别包含与给定用户档案的旅程相关的技术字段。 这是系统从实时旅程中检索到的信息，如旅程ID或遇到的特定错误。
+在高级表达式编辑器中，您将在事件和数据源类别下找到&#x200B;**历程属性**&#x200B;类别。 此类别包含与给定用户档案的旅程相关的技术字段。 这是系统从实时旅程中检索到的信息，如旅程ID或遇到的特定错误。
 
 ![](../assets/journey-properties.png)
 
@@ -39,13 +39,15 @@ ht-degree: 1%
 
 | 类别 | 字段名称 | 标签 | 说明 |
 |---|---|---|------------|
-| 旅程版本 | journeyUID | 旅程标识符 |  |
-|  | journeyVersionUID | 旅程版本标识符 |  |
-|  | journeyVersionName | 旅程版本名称 |  |
-|  | journeyVersion描述 | 旅程版本说明 |  |
-|  | journeyVersion | 旅程版本 |  |
-| 旅程实例 | instanceUID | 旅程实例标识符 | 实例的ID |
+| 历程版 | journeyUID | 历程标识符 |  |
+|  | journeyVersionUID | 历程版本标识符 |  |
+|  | journeyVersionName | 历程版本名 |  |
+|  | journeyVersion描述 | 历程版本说明 |  |
+|  | journeyVersion | 历程版 |  |
+| 历程实例 | instanceUID | 历程实例标识符 | 实例的ID |
 |  | externalKey | 外部密钥 | 触发旅程的个人标识符 |
+|  | organizationId | 组织标识符 | 品牌组织 |
+|  | sandboxName | 沙箱名称 | 沙箱的名称 |
 | 身份 | profileId | 用户档案标识符 | 旅程中用户档案的标识符 |
 |  | 命名空间 | 用户档案身份命名空间 | 旅程中命名空间的用户档案(示例：ECID) |
 | 当前节点 | currentNodeId | 当前节点标识符 | 当前活动（节点）的标识符 |
