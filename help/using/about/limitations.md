@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Journey Orchestration限制
 description: 进一步了解Journey Orchestration限制
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '515'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 * 内置&#x200B;**Reaction**&#x200B;事件允许您对现成操作做出响应（请参阅此[页面](../building-journeys/reaction-events.md)）。 如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。 
 * 没有Adobe Campaign Classic按产品分类整合。
 
-## 旅程版本限制{#journey-versions-limitations}
+## 历程版本限制{#journey-versions-limitations}
 
 * 从v1中的事件活动开始的旅程不能与其他版本中的事件开始。 您不能使用&#x200B;**区段资格**&#x200B;开始旅程。
 * 从v1中的&#x200B;**区段资格**&#x200B;活动开始的旅程必须始终以其他版本的&#x200B;**区段资格**&#x200B;开始。
@@ -57,3 +57,15 @@ ht-degree: 0%
 ## 数据源限制
 
 * 在客户旅程中可利用外部数据源实时查找外部数据。 这些源必须可以通过REST API使用，支持JSON并能够处理大量请求。
+
+## 历程与用户档案创建同时启动{#journeys-limitation-profile-creation}
+
+在Adobe Experience Platform，基于API的用户档案创建／更新存在延迟。 在每秒20K请求(RPS)的量下，延迟方面的服务级别目标(SLT)从接收到第95百分位请求的统一用户档案小于1分钟。
+
+如果历程同时触发到用户档案创建并立即检查／检索用户档案服务中的信息，则它可能无法正常工作。
+
+您可以从以下两种解决方案中进行选择：
+
+* 在第一个事件后添加等待活动，为Adobe Experience Platform提供执行用户档案服务摄取所需的时间。
+
+* 设置不会立即利用用户档案的旅程。 例如，如果旅程旨在确认帐户创建，则体验事件可能包含发送第一条确认消息（名字、姓氏、电子邮件地址等）所需的信息。
