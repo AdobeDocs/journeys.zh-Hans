@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 使用 Adobe Campaign
 description: 了解Adobe Campaign操作
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '300'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 0%
    >
    >此测试验证：
    >
-   >主机为“.活动.adobe.com”或“.活动-沙箱。adobe.com”,
+   >主机为“.活动.adobe.com”、“.活动-沙箱。adobe.com”或“活动-demo.adobe.com”
    >
    >URL开始与https,
    >
