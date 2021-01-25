@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 访问管理
 description: 了解有关访问管理的更多信息
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '845'
+ht-degree: 100%
 
 ---
 
@@ -27,23 +27,23 @@ ht-degree: 0%
 
 在 Admin Console 中，您可以向用户分配以下现成的产品用户档案之一：
 
-* **[!UICONTROL Limited Access User]**：对旅程和报告具有只读访问权限的用户。此产品用户档案包括以下权限：
-   * 阅读旅程
+* **[!UICONTROL Limited Access User]**：对历程和报告具有只读访问权限的用户。此产品用户档案包括以下权限：
+   * 阅读历程
    * 阅读报告
 
-* **[!UICONTROL Administrators]**：用户可访问管理菜单，并可以管理旅程、事件和报告。此产品用户档案包括以下权限：
-   * 管理旅程
-   * 发布旅程
+* **[!UICONTROL Administrators]**：用户可访问管理菜单，并可以管理历程、事件和报告。此产品用户档案包括以下权限：
+   * 管理历程
+   * 发布历程
    * 管理事件、数据源和操作
    * 管理报告
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用 Adobe Campaign Standard 在旅程中发送消息，则需要此产品用户档案。
+   >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用 Adobe Campaign Standard 在历程中发送消息，则需要此产品用户档案。
 
-* **[!UICONTROL Standard User]**：具有基本访问权限的用户，如旅程管理。此产品用户档案包括以下权限：
-   * 管理旅程
-   * 发布旅程
+* **[!UICONTROL Standard User]**：具有基本访问权限的用户，如历程管理。此产品用户档案包括以下权限：
+   * 管理历程
+   * 发布历程
    * 管理报告
 
 如果现成的用户档案不足以管理用户，您还可以创建自己的产品用户档案。
@@ -137,6 +137,6 @@ ht-degree: 0%
 [!DNL Journey Orchestration] 允许您将实例分区为称为沙箱的分隔虚拟环境。
 沙箱通过 Admin Console 中的产品用户档案进行分配。有关如何分配沙箱的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙箱。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。有关详细步骤，请参阅[沙箱用户指南](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)。
+[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙箱。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。有关详细步骤，请参阅[沙箱用户指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/sandbox/ui/user-guide.html)。
 
 您可以在屏幕左上角找到沙箱切换器控件。要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
