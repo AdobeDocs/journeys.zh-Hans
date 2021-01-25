@@ -22,11 +22,11 @@ ht-degree: 100%
 * **[Journey Orchestration 是什么？](using/about/about-journey-orchestration.md)**<br/>
 详细了解 Journey Orchestration。
 
-* **[构建您的第一个旅程](using/about/get-started.md)**<br/>
-发现设置 Journey Orchestration 并构建第一个旅程的主要步骤。
+* **[构建您的第一个历程](using/about/get-started.md)**<br/>
+发现设置 Journey Orchestration 并构建第一个历程的主要步骤。
 
 * **[配置事件](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
-了解如何配置您的旅程将侦听的事件。
+了解如何配置您的历程将侦听的事件。
 
 * **[了解新增功能](using/release-notes/release-notes.md)**<br/>
 了解最新版的详细信息。
@@ -44,7 +44,7 @@ ht-degree: 100%
     <div>
     <a href="using/about/troubleshooting.md"><strong>故障排除</strong></a>
     </div>
-    <em>了解可用于对旅程进行故障排除的各种工具。</em>
+    <em>了解可用于对历程进行故障排除的各种工具。</em>
     <br>
   </td>
   <td valign="top">
@@ -54,7 +54,7 @@ ht-degree: 100%
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>用例</strong></a>
     </div>
-    <em>了解如何分步创建高级旅程。</em>
+    <em>了解如何分步创建高级历程。</em>
     <br>
   </td>
   <td valign="top">
