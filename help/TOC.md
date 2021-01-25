@@ -56,13 +56,13 @@ ht-degree: 100%
    + [关于 Platform 区段](using/segment/about-segments.md)
    + [创建区段](using/segment/creating-a-segment.md)
    + [在条件中使用区段](using/segment/using-a-segment.md)
-+ 构建旅程 {#building-journeys}
-   + 关于旅程构建 {#about-journey-building}
-      + [创建旅程](using/building-journeys/journey.md)
-      + [使用旅程设计器](using/building-journeys/using-the-journey-designer.md)
++ 构建历程 {#building-journeys}
+   + 关于历程构建 {#about-journey-building}
+      + [创建历程](using/building-journeys/journey.md)
+      + [使用历程设计器](using/building-journeys/using-the-journey-designer.md)
       + [更改属性](using/building-journeys/changing-properties.md)
-      + [旅程版本](using/building-journeys/journey-versions.md)
-      + [终止旅程](using/building-journeys/terminating-a-journey.md)
+      + [历程版本](using/building-journeys/journey-versions.md)
+      + [终止历程](using/building-journeys/terminating-a-journey.md)
       + [时区管理](using/building-journeys/timezone-management.md)
    + 活动 {#about-journey-building}
       + 事件活动 {#events-activities}
@@ -79,16 +79,16 @@ ht-degree: 100%
          + [关于操作活动](using/building-journeys/about-action-activities.md)
          + [使用 Adobe Campaign 操作](using/building-journeys/using-adobe-campaign-actions.md)
          + [使用自定义操作](using/building-journeys/using-custom-actions.md)
-         + [从一个旅程到另一个旅程](using/building-journeys/jump.md)
-   + [测试旅程](using/building-journeys/testing-the-journey.md)
-   + [发布旅程](using/building-journeys/publishing-the-journey.md)
-   + 与 Adobe Experience Platform 共享旅程步骤 {#sharing-journey-steps}
-      + [旅程步骤共享概述](using/building-journeys/sharing-overview.md)
+         + [从一个历程到另一个历程](using/building-journeys/jump.md)
+   + [测试历程](using/building-journeys/testing-the-journey.md)
+   + [发布历程](using/building-journeys/publishing-the-journey.md)
+   + 与 Adobe Experience Platform 共享历程步骤 {#sharing-journey-steps}
+      + [历程步骤共享概述](using/building-journeys/sharing-overview.md)
       + [journeySteps 事件常用字段](using/building-journeys/sharing-common-fields.md)
       + [journeyStep 事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
       + [journeyStep 事件数据提取字段](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep 事件身份字段](using/building-journeys/sharing-identity-fields.md)
-      + [旅程场](using/building-journeys/sharing-journey-fields.md)
+      + [历程场](using/building-journeys/sharing-journey-fields.md)
 + 使用高级表达式编辑器 {#building-advanced-conditions-journeys}
    + [关于高级表达式编辑器](using/expression/expressionadvanced.md)
    + 语法 {#syntax}
@@ -98,7 +98,7 @@ ht-degree: 100%
       + [字段引用](using/expression/field-references.md)
       + [集合管理函数](using/expression/collection-management-functions.md)
       + [运算符](using/expression/operators.md)
-      + [旅程属性](using/expression/journey-properties.md)
+      + [历程属性](using/expression/journey-properties.md)
       + [示例](using/expression/advanced-editor-use-cases.md)
    + 函数 {#main-functions-journey}
       + [主要函数](using/expression/functions.md)
@@ -170,8 +170,8 @@ ht-degree: 100%
          + [upper](using/functions/functionupper.md)
          + [uuid](using/functions/functionuuid.md)
 + 构建报告{#journey-reports}
-   + [关于旅程报告](using/reporting/about-journey-reports.md)
-   + [创建旅程报告](using/reporting/creating-your-journey-reports.md)
+   + [关于历程报告](using/reporting/about-journey-reports.md)
+   + [创建历程报告](using/reporting/creating-your-journey-reports.md)
    + [指标和维度](using/reporting/metrics-and-dimensions.md)
 + 与智能服务集成{#use-case-advanced}
    + [关于 AI 集成](using/ai-services/ai-services-overview.md)
@@ -181,12 +181,12 @@ ht-degree: 100%
       + [关于简单用例](using/usecase/about-the-simple-use-case.md)
       + [配置事件](using/usecase/configuring-the-event.md)
       + [配置数据源](using/usecase/configuring-the-data-source.md)
-      + [构建旅程](using/usecase/simple-uc-building-the-journey.md)
-   + 构建跨渠道之旅{#use-case-advanced}
+      + [构建历程](using/usecase/simple-uc-building-the-journey.md)
+   + 构建跨渠道历程{#use-case-advanced}
       + [关于高级用例](using/usecase/about-the-advanced-use-case.md)
       + [配置事件](using/usecase/configuring-the-events.md)
       + [配置数据源](using/usecase/configuring-the-data-sources.md)
-      + [构建旅程](using/usecase/building-the-journey.md)
+      + [构建历程](using/usecase/building-the-journey.md)
 + 使用 API{#working-with-apis}
    + [API 上限](using/api/capping.md)
 + Alpha 功能 {#alpha}
