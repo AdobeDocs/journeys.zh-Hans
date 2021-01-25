@@ -3,18 +3,18 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 入门
 description: 了解设置 Journey Orchestration 和构建您的第一个历程的主要步骤。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '322'
+ht-degree: 100%
 
 ---
 
 
 # 入门{#concept_y4b_4qt_52b}
 
-在 [!DNL Journey Orchestration] 中，有两种用户，每种用户都执行特定任务：**技术用户**&#x200B;和&#x200B;**商业用户。**&#x200B;用户访问权限通过产品资料和权限进行管理。请参阅[此页](../about/access-management.md)以了解如何配置用户访问。
+在 [!DNL Journey Orchestration] 中，有两种用户，每种用户都执行特定任务：**技术用户**&#x200B;和&#x200B;**商业用户。**&#x200B;用户访问权限通过产品资料和权限进行管理。请参阅[此页面](../about/access-management.md)以了解如何配置用户访问权限。
 
 以下是配置和使用 [!DNL Journey Orchestration] 的主要步骤：
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. **配置数据源**
 
-   您需要定义与系统的连接，以检索将在您的旅程中使用的其他信息，例如在您的条件中。在预配时还会配置内置 Adobe Experience Platform 数据源。如果您仅利用旅程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。
+   您需要定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。在预配时还会配置内置 Adobe Experience Platform 数据源。如果您仅利用历程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。
 
    有关详细信息，请参见[此页面](../datasource/about-data-sources.md)。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    ![](../assets/custom2.png)
 
-1. **设计您的旅程**
+1. **设计您的历程**
 
    结合不同的事件、编排和操作活动，构建多步跨渠道方案。此步骤由&#x200B;**商业用户**&#x200B;执行。
 
@@ -52,17 +52,17 @@ ht-degree: 0%
 
    ![](../assets/journeyuc2_24.png)
 
-1. **测试并发布旅程**
+1. **测试并发布历程**
 
-   您需要验证并激活旅程。此步骤由&#x200B;**商业用户**&#x200B;执行。
+   您需要验证并激活历程。此步骤由&#x200B;**商业用户**&#x200B;执行。
 
-   有关详细信息，请参阅页面[测试旅程](../building-journeys/testing-the-journey.md)和[发布旅程](../building-journeys/publishing-the-journey.md)。
+   有关更多信息，请参阅页面[测试历程](../building-journeys/testing-the-journey.md)和[发布历程](../building-journeys/publishing-the-journey.md)。
 
    ![](../assets/journeyuc2_32bis.png)
 
-1. **监控您的旅程**
+1. **监控您的历程**
 
-   使用专用的报告工具衡量旅程的有效性。此步骤由&#x200B;**商业用户**&#x200B;执行。
+   使用专用的报告工具衡量历程的有效性。此步骤由&#x200B;**商业用户**&#x200B;执行。
 
    有关更多信息，请参阅[此页面](../reporting/about-journey-reports.md)。
 
