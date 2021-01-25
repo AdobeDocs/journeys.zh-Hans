@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: '外部数据源 '
 description: '了解如何配置外部数据源 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1275'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 支持使用 POST 或 GET 的 REST API 和返回 JSON。支持 API 密钥、基本和自定义身份验证模式。
 
-让我们举一个天气 API 服务的例子，我想借助该服务根据实时天气数据定制我的旅程的行为。
+让我们举一个天气 API 服务的例子，我想借助该服务根据实时天气数据定制我的历程的行为。
 
 以下是两个 API 调用示例：
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![](../assets/journey27.png)
 
-1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。有关自定义身份验证模式的详细信息，请参阅[此部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。 在我们的示例中，我们选择：
+1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。有关自定义身份验证模式的更多信息，请参阅[此部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。在我们的示例中，我们选择：
 
 
    * **[!UICONTROL Type]**：“API 密钥”
@@ -67,11 +67,11 @@ ht-degree: 0%
 
 对于“long/lat”参数集，我们创建一个包含以下信息的字段组：
 
-* **[!UICONTROL Used in]**：显示使用字段组的旅程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标以显示使用此字段组的旅程列表。
+* **[!UICONTROL Used in]**：显示使用字段组的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
 * **[!UICONTROL Cache duration]**：在我们的示例中，我们希望天气能缓存 10 分钟。
 * **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。例如，我们使用了在天气 API 网站上找到的有效负载。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
-* **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在旅程中进行定义。请参阅[此页](../expression/expressionadvanced.md)。
+* **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。请参阅[此页](../expression/expressionadvanced.md)。
 * **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
 如果 GET 调用需要参数，则在&#x200B;**[!UICONTROL Parameters]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。如果是 POST 调用，您需要：
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 单击 **[!UICONTROL Save]**.
 
-数据源现已配置完毕，可随时用于您的旅程，例如在您的条件下或个性化电子邮件时。如果温度高于 30°C，您可以决定发送特定通信。
+数据源现已配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。如果温度高于 30°C，您可以决定发送特定通信。
 
 ## 自定义身份验证模式{#section_wjp_nl5_nhb}
 
