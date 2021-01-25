@@ -1,20 +1,20 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 构建旅程
-description: '了解如何构建高级用例旅程 '
-translation-type: tm+mt
+title: 构建历程
+description: '了解如何构建高级用例历程 '
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# 构建旅程 {#concept_owm_kdy_w2b}
+# 构建历程 {#concept_owm_kdy_w2b}
 
-**业务用户**&#x200B;现在可以构建旅程。我们的旅程将包括以下活动：
+**业务用户**&#x200B;现在可以构建历程。我们的历程将包括以下活动：
 
 * 两个 **[!UICONTROL Event]** 活动：“LobbyBeacon”和“RestaurantBeacon”
 * 两个 **[!UICONTROL Condition]** 活动
@@ -26,23 +26,23 @@ ht-degree: 92%
 >
 >仅当您具有 Adobe Campaign Standard 时，调色板中才提供 **[!UICONTROL Push]** 和 **[!UICONTROL Email]** 活动。
 
-有关如何构建旅程的其他信息，请参阅[此页](../building-journeys/journey.md)。
+有关如何构建历程的其他信息，请参阅[此页面](../building-journeys/journey.md)。
 
 ## 首要步骤{#section_ntb_ws1_ffb}
 
-1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Home]**&#x200B;选项卡和&#x200B;**[!UICONTROL Create]**&#x200B;以创建新旅程。
+1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Home]**&#x200B;选项卡和&#x200B;**[!UICONTROL Create]**&#x200B;以创建新历程。
 
    ![](../assets/journey31.png)
 
-1. 编辑右侧显示的配置窗格中的旅程属性。添加名称，并将其设置为持续 1 个月（从 12 月 1 日至 31 日）。
+1. 编辑右侧显示的配置窗格中的历程属性。添加名称，并将其设置为持续 1 个月（从 12 月 1 日至 31 日）。
 
    ![](../assets/journeyuc2_12.png)
 
-1. 通过将“LobbyBeacon”事件从调色板拖放到画布，开始设计旅程。您还可以双击调色板中的事件来将其添加到画布。
+1. 通过将“LobbyBeacon”事件从调色板拖放到画布，开始设计历程。您还可以双击调色板中的事件来将其添加到画布。
 
    ![](../assets/journeyuc2_13.png)
 
-1. 现在，让我们添加条件，以检查过去 24 小时内是否未联系该人员，并检查其是否是忠诚会员。将条件活动拖放到旅程中。
+1. 现在，让我们添加条件，以检查过去 24 小时内是否未联系该人员，并检查其是否是忠诚会员。将条件活动拖放到历程中。
 
    ![](../assets/journeyuc2_14.png)
 
@@ -76,7 +76,7 @@ ht-degree: 92%
    >
    >在表达式的第二部分中，“用户档案”是可选的。
 
-1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的详细信息，请参阅[此页](../event/selecting-the-namespace.md)。
+1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
 在我们的用例中，我们只希望对这两种情况做出反应，因此不会选中 **[!UICONTROL Show path for other cases than the one(s) above]** 框。
 
@@ -89,7 +89,7 @@ ht-degree: 92%
 
 ## 第一个路径：客户是忠诚会员 {#section_otb_ws1_ffb}
 
-1. 在第一个路径中，让我们添加条件来检查客户是否有预订。将条件活动拖放到旅程中。
+1. 在第一个路径中，让我们添加条件来检查客户是否有预订。将条件活动拖放到历程中。
 
    ![](../assets/journeyuc2_17.png)
 
@@ -101,7 +101,7 @@ ht-degree: 92%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 从外部数据源中选择字段时，屏幕的右侧部分显示配置外部数据源时定义的参数列表（请参阅[此页](../usecase/configuring-the-data-sources.md)）。 单击参数名称并定义预订系统键（在我们的示例中为 Experience Cloud ID）的值：
+1. 从外部数据源选择字段时，屏幕的右侧部分显示配置外部数据源时定义的参数列表（请参阅[此页面](../usecase/configuring-the-data-sources.md)）。单击参数名称并定义预订系统键（在我们的示例中为 Experience Cloud ID）的值：
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -167,10 +167,10 @@ ht-degree: 92%
 
 1. 添加 **[!UICONTROL End]** 活动。
 
-单击 **[!UICONTROL Test]** 切换并测试您的旅程。如果有任何错误，请取消激活测试模式，修改旅程并再次进行测试。有关测试模式的详细信息，请参阅[此页](../building-journeys/testing-the-journey.md)。
+单击 **[!UICONTROL Test]** 切换并测试您的历程。如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
 
 ![](../assets/journeyuc2_32bis.png)
 
-当测试得出结果时，您可以从右上方的下拉菜单发布旅程。
+当测试得出结果时，您可以从右上方的下拉菜单发布历程。
 
 ![](../assets/journeyuc2_32.png)
