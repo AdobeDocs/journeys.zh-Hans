@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 用户界面
 description: 了解有关用户界面的更多信息
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1063'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 访问 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-要访问[!DNL Journey Orchestration]的接口，请单击右上方的&#x200B;**[!UICONTROL App Selector]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL Journey Orchestration]**。
+要访问 [!DNL Journey Orchestration] 的界面，请单击右上角的 **[!UICONTROL App Selector]** 图标，然后单击 **[!UICONTROL Journey Orchestration]**。
 
 ![](../assets/journey1.png)
 
@@ -34,15 +34,15 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
->title="关于旅程列表"
->abstract="旅程列表允许您同时查看所有旅程、查看其状态并执行基本操作。您可以重复、停止或删除您的旅程。某些操作可能不可用，具体取决于旅程。例如，您无法删除或重新启动已关闭的旅程。您可以从中创建新版本或进行重复。您还可以使用搜索栏搜索旅程。"
+>title="关于历程列表"
+>abstract="历程列表允许您同时查看所有历程、查看其状态并执行基本操作。您可以重复、停止或删除您的历程。某些操作可能不可用，具体取决于历程。例如，您无法删除或重新启动已关闭的历程。您可以从中创建新版本或进行重复。您还可以使用搜索栏搜索历程。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="观看演示视频"
 
-通过顶部菜单，您可以浏览 [!DNL Journey Orchestration] 的不同功能：**[!UICONTROL Home]**（旅程）、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**、**[!UICONTROL Actions]**。
+通过顶部菜单，您可以浏览 [!DNL Journey Orchestration] 的不同功能：**[!UICONTROL Home]**（历程）、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**、**[!UICONTROL Actions]**。
 
 ![](../assets/journey2.png)
 
-单击屏幕右上角的![](../assets/icon-context.png)图标以显示情景帮助。它可以在不同的 [!DNL Journey Orchestration] 列表屏幕（旅程、事件、操作和数据源）中使用。通过此情景帮助，您可以查看当前功能的快速说明，并访问相关文章和视频。
+单击屏幕右上角的![](../assets/icon-context.png)图标以显示情景帮助。它可以在不同的 [!DNL Journey Orchestration] 列表屏幕（历程、事件、操作和数据源）中使用。通过此情景帮助，您可以查看当前功能的快速说明，并访问相关文章和视频。
 
 ![](../assets/journey2bis.png)
 
@@ -54,17 +54,17 @@ ht-degree: 0%
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，使用 **[!UICONTROL Creation filters]** 按创建日期和用户进行过滤。例如，您可以选择仅显示您在过去 30 天中创建的事件。
 
-在旅程列表（ **[!UICONTROL Home]**&#x200B;下）中，除了 **[!UICONTROL Creation filters]** 以外，您还可以根据显示的旅程状态和版本 (**[!UICONTROL Status and version filters]**) 筛选。您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的旅程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时旅程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
+在历程列表（ **[!UICONTROL Home]**&#x200B;下）中，除了 **[!UICONTROL Creation filters]** 以外，您还可以根据显示的历程状态和版本 (**[!UICONTROL Status and version filters]**) 筛选。您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的历程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时历程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
 >请注意，显示的列可以使用列表右上角的配置按钮进行个性化设置。为每个用户保存个性化设置。
 
-通过 **[!UICONTROL Last update]**&#x200B;和 **[!UICONTROL Last update by]** 列，可显示您的旅程的上次更新时间以及运行该更新的用户。
+通过 **[!UICONTROL Last update]**&#x200B;和 **[!UICONTROL Last update by]** 列，可显示您的历程的上次更新时间以及运行该更新的用户。
 
 ![](../assets/journey74.png)
 
-在“事件”、“数据源”和“操作配置”窗格中，**[!UICONTROL Used in]**&#x200B;字段显示使用该特定事件、字段组或操作的旅程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;按钮以显示相应旅程的列表。
+在“事件”、“数据源”和“操作配置”窗格中，**[!UICONTROL Used in]**&#x200B;字段显示使用该特定事件、字段组或操作的历程数。您可以单击 **[!UICONTROL View journeys]**&#x200B;按钮以显示相应历程的列表。
 
 ![](../assets/journey3bis.png)
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 
 以下是 [!DNL Journey Orchestration] 界面中提供的不同快捷键。
 
-_在旅程、操作、数据源或事件列表中：_
+_在历程、操作、数据源或事件列表中：_
 
-* 按 **c** 创建新旅程、操作、数据源或事件。
+* 按 **c** 创建新历程、操作、数据源或事件。
 
-_在旅程中配置活动时：_
+_在历程中配置活动时：_
 
 画布会自动保存。您可以在画布的左上角看到其保存状态。
 
@@ -129,16 +129,16 @@ _在带有搜索栏的屏幕中：_
 
 * 使用 **Ctrl/Command + F** 组合键选择搜索栏。
 
-_在旅程的画布中：_
+_在历程的画布中：_
 
 * 使用 **Ctrl/Command + A** 组合键选择所有活动。
 * 选择一个或多个活动后，按 **Delete** 或 **Backspace** 键以删除活动。然后，可以按 **Enter** 键以在确认弹出窗口中进行确认。
 * 双击左侧面板上的活动，将其添加到第一个可用位置（从上到下）。
 
-_旅程：_
+_在历程中：_
 
-* 按&#x200B;**T**&#x200B;启用／禁用测试模式。
-* 在基于事件的旅程中，在测试模式下，按&#x200B;**E**&#x200B;以触发事件。
-* 在基于段的旅程中，当在测试模式中选择&#x200B;**一次单用户档案**&#x200B;选项时，按&#x200B;**P**&#x200B;以触发事件。
-* 在测试模式下，按&#x200B;**L**&#x200B;显示日志。
+* 按 **T** 可启用/禁用测试模式。
+* 在基于事件的历程中，在测试模式下，按 **E** 可触发事件。
+* 在基于客户细分的历程中，当在测试模式下选择&#x200B;**一次单个用户档案**&#x200B;选项时，按 **P** 可触发事件。
+* 在测试模式下，按 **L** 可显示日志。
 
