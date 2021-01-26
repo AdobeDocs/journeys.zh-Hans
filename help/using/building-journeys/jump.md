@@ -1,47 +1,51 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 从一个旅程到另一个旅程
-description: 从一个旅程到另一个旅程
+title: 从一个历程到另一个历程
+description: 从一个历程到另一个历程
 translation-type: tm+mt
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
+source-git-commit: 9d8c3a2cf79f2b861aad61089a263a6a33a747b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '791'
+ht-degree: 5%
 
 ---
 
 
-# 从一个旅程到另一个旅程 {#jump}
+# 从一个历程到另一个历程 {#jump}
 
 **[!UICONTROL Jump]**&#x200B;操作活动允许您将个人从一个旅程推向另一个旅程。 此功能允许您：
 
-* 将复杂旅程分成若干个，简化复杂旅程的设计
-* 基于通用、可重用的旅程模式构建旅程
+* 通过将非常复杂的历程分成若干个历程来简化其设计
+* 基于通用且可重用的历程模式构建历程
 
 在来源旅程中，只需添加&#x200B;**[!UICONTROL Jump]**&#x200B;活动并选择目标旅程。 当个人进入&#x200B;**[!UICONTROL Jump]**&#x200B;步骤时，内部事件将发送到目标旅程的第一个事件。 如果&#x200B;**[!UICONTROL Jump]**&#x200B;操作成功，则个人将继续在旅程中前进。 该行为与其他操作类似。
 
 在目标旅程中，由&#x200B;**[!UICONTROL Jump]**&#x200B;活动内部触发的第一个事件将使旅程中的个体流动。
 
+>[!NOTE]
+>
+>另请参阅教程视频[此处](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+
 ## 生命周期
 
-假设您已在旅程A中添加了&#x200B;**[!UICONTROL Jump]**&#x200B;活动到旅程B。旅程A是&#x200B;**来源旅程**&#x200B;和旅程B,**目标旅程**。
+假设您已在旅程A中添加了&#x200B;**[!UICONTROL Jump]**&#x200B;活动到旅程B。历程A是&#x200B;**来源旅程**&#x200B;和旅程B,**目标旅程**。
 以下是执行过程的不同步骤：
 
-**从外** 部事件触发的旅程：
+**历程** 从外部事件触发：
 
-1. 旅程A接收与个人相关的外部事件。
+1. 历程A接收与个人相关的外部事件。
 1. 个人到达&#x200B;**[!UICONTROL Jump]**&#x200B;步骤。
-1. 该个人将被推至旅程B，并在&#x200B;**[!UICONTROL Jump]**&#x200B;步骤之后进入旅程A的后续步骤。
+1. 该个人被推至历程B，并在历程A中的&#x200B;**[!UICONTROL Jump]**&#x200B;步骤后继续执行下一步。
 
 在旅程B中，第一个事件通过旅程A的&#x200B;**[!UICONTROL Jump]**&#x200B;活动在内部触发：
 
-1. 旅程B从旅程A收到内部事件。
-1. 在旅程B中流动的个人开始。
+1. 历程B从历程A收到内部事件。
+1. 个别开始流入历程B。
 
 >[!NOTE]
 >
->旅程B也可通过外部事件触发。
+>历程B也可以通过外部事件触发。
 
 ## 最佳实践和限制
 
@@ -52,7 +56,7 @@ ht-degree: 0%
 * 您不能跳到具有&#x200B;**区段资格**&#x200B;开始的旅程。
 * 在同一旅程中，不能具有&#x200B;**[!UICONTROL Jump]**&#x200B;活动和&#x200B;**区段资格**&#x200B;事件。
 * 您可以在旅程中包含任意所需的&#x200B;**[!UICONTROL Jump]**&#x200B;活动。 在&#x200B;**[!UICONTROL Jump]**&#x200B;之后，可以添加所需的任何活动。
-* 您可以根据需要设置任意数量的跳转级别。 例如，旅程A跳至旅程B，跳至旅程C，依此类推。
+* 您可以根据需要设置任意数量的跳转级别。 例如，历程A跳到旅程B，跳到旅程C，依此类推。
 * 目标旅程还可以根据需要包含多个&#x200B;**[!UICONTROL Jump]**&#x200B;活动。
 * 不支持循环模式。 无法将两个或多个旅程链接在一起，从而创建无限循环。 **[!UICONTROL Jump]**&#x200B;活动配置屏幕阻止您执行此操作。
 
@@ -72,7 +76,7 @@ ht-degree: 0%
    ![](../assets/jump2.png)
 
 1. 单击&#x200B;**目标旅程**字段内。
-该列表显示所有为草稿、实时或处于测试模式的旅程版本。 使用不同命名空间或具有**区段资格**&#x200B;事件的开始的旅程不可用。 创建循环模式的目标旅程也会被过滤掉。
+该列表显示所有为草稿、实时或处于测试模式的旅程版本。 使用不同命名空间的历程或具有**区段资格**&#x200B;事件的开始不可用。 创建循环模式的目标旅程也会被过滤掉。
 
    ![](../assets/jump3.png)
 
