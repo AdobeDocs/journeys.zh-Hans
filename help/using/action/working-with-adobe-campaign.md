@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 使用 Adobe Campaign
 description: 了解Adobe Campaign操作
 translation-type: tm+mt
-source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Adobe Campaign Standard交易消息传递在给定实例的渠道中每小时最大可发送50 000条消息。 为降低过载风险，建议您为Campaign Standard集成设置&#x200B;**上限规则**。
+>一旦设置了Adobe Campaign Standard集成，系统会为Adobe Campaign Standard操作自动定义每秒13次呼叫的上限规则。 这与Adobe Campaign Standard交易消息的官方规模相符。
 >
 >请阅读[Adobe Campaign Standard产品说明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)中有关事务消息SLA的更多信息。
 
@@ -40,7 +40,7 @@ ht-degree: 4%
    >
    >此测试验证：
    >
-   >主机为“.活动.adobe.com”、“.活动-沙箱。adobe.com”或“活动-demo.adobe.com”
+   >主机为“.活动.adobe.com”、“.活动-沙箱。adobe.com”或“.活动-demo.adobe.com”
    >
    >URL开始与https,
    >
