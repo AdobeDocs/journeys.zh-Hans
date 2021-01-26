@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 在模式配置中选择事件时，只会选择Journey Orchestration正确接收事件所必需的字段。 [阅读更多](../event/defining-the-payload-fields.md)
 
-历程属性属性现在在简单的表达式编辑器中可用。
+历程属性属性现在在简单的表达式编辑器中可用。 [阅读更多](../expression/journey-properties.md)
 
 添加了两个新的旅程属性（sandboxName和organizationId）。 [阅读更多](../expression/journey-properties.md)
 
