@@ -1,20 +1,24 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 旅程属性
+title: 历程属性
 description: 了解旅程属性
 translation-type: tm+mt
-source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
 
-# 旅程属性 {#journey-properties}
+# 历程属性属性{#journey-properties}
 
-在高级表达式编辑器中，您将在事件和数据源类别下找到&#x200B;**历程属性**&#x200B;类别。 此类别包含与给定用户档案的旅程相关的技术字段。 这是系统从实时旅程中检索到的信息，如旅程ID或遇到的特定错误。
+在高级表达式编辑器中，您将在事件和数据源类别下找到&#x200B;**历程属性**&#x200B;类别。 此类别包含与给定用户档案的旅程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。
+
+>[!NOTE]
+>
+>历程属性属性也在简单的表达式编辑器中可用。 请参阅此[部分](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
