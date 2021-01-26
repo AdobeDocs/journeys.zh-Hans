@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供有关实施和构建历程的操作说明。
 index: true
-translation-type: ht
-source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: ht
-source-wordcount: '404'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c18670b32e0e56cf5621fde965b19aa24da8045b
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 99%
 
 ---
 
@@ -139,6 +139,7 @@ ht-degree: 100%
       + 列表 {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+         + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
@@ -163,6 +164,7 @@ ht-degree: 100%
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
+         + [拆分](using/functions/functionsplit.md)
          + [startWith](using/functions/functionstartwith.md)
          + [startWithIgnoreCase](using/functions/functionstartwithignorecase.md)
          + [substr](using/functions/functionsubstr.md)
