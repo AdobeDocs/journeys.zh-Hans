@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 定义有效负载字段
 description: 了解如何定义有效负荷字段
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '301'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
    ![](../assets/journey8.png)
 
-   将显示模式中定义的所有字段。 字段的列表因模式而异。 您可以搜索特定字段或使用过滤器显示所有节点和字段或仅显示选定字段。 根据模式定义，某些字段可能是必填字段并且是预选字段。 无法取消选择它们。
+   将显示模式中定义的所有字段。 字段的列表因模式而异。 您可以搜索特定字段或使用过滤器显示所有节点和字段或仅显示选定字段。 根据模式定义，某些字段可能是必填字段并且是预选字段。 无法取消选择它们。 默认情况下，事件必须正确接收Journey Orchestration的所有字段都处于选中状态。
 
    >[!NOTE]
    >
