@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
-translation-type: ht
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
-workflow-type: ht
-source-wordcount: '2026'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+workflow-type: tm+mt
+source-wordcount: '2169'
+ht-degree: 93%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 100%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
+
+## 2021年1月版本{#january-release}
+
+在模式配置中选择事件时，只会选择Journey Orchestration正确接收事件所必需的字段。 [阅读更多](../event/defining-the-payload-fields.md)
+
+历程属性属性现在在简单的表达式编辑器中可用。
+
+添加了两个新的旅程属性（sandboxName和organizationId）。 [阅读更多](../expression/journey-properties.md)
+
+为了符合Adobe Campaign StandardSLA，现在在Adobe Campaign Standard集成设置完成后，为Adobe Campaign Standard行动自动定义每秒13次呼叫的限制规则。 [阅读更多](../action/working-with-adobe-campaign.md)
+
+事件超时时间现在在超时路径上指定得更清楚。 [阅读更多](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函数已添加到高级表达式编辑器中可用的函数列表。 这将在字符串计算用例中优惠更多可能性。
 
 ## 2020 年 11 月版 {#november-release}
 
@@ -34,7 +48,7 @@ ht-degree: 100%
 <li>通过将非常复杂的历程分成若干个历程来简化其设计 </li>
 <li>基于通用且可重用的历程模式构建历程</li>
 </ul>
-<p>有关详细信息，请参阅<a href="../building-journeys/jump.md">详细文档</a>。</p>
+<p>有关详细信息，请参阅<a href="../building-journeys/jump.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">教程视频</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +88,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 其他改进{#october-november}
+### 其他改进
 
 在创建历程的新版本时增加了限制。这些限制可避免在历程中做出过于剧烈的更改，以保持版本之间的一致性。[阅读更多](../about/limitations.md#journey-versions-limitations)
 
@@ -99,7 +113,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 其他改进{#october-other}
+### 其他改进
 
 * 当您发布新版本的历程时，先前版本会自动结束并切换到“已关闭”状态。[阅读更多](../building-journeys/journey-versions.md)
 
