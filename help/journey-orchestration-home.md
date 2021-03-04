@@ -1,14 +1,14 @@
 ---
-keywords: Journeys;home;popular topics
+keywords: 历程；主页；热门主题
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration 产品文档
 topic: Premium
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 100%
 
 * **[了解新增功能](using/release-notes/release-notes.md)**<br/>
 了解最新版的详细信息。
-
-* **[Alpha功能](using/alpha/alpha-overview.md)**<br/>了解阿尔法计划目前提供的功能。
 
 ## 热门页面
 
