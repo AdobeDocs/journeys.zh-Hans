@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 关于高级表达式编辑器
 description: 了解如何构建高级表达式
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 94%
 
 ---
 
@@ -56,9 +56,11 @@ _高级表达式编辑器界面_
 
 屏幕左侧显示了可用字段和函数：
 
-* **[!UICONTROL Events]**：选择从入站事件接收的字段之一。显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。
-* **[!UICONTROL Data Sources]**：从数据源的字段组提供的字段列表中进行选择。
-* **[!UICONTROL Functions]**：从允许执行复杂筛选的内置函数列表中进行选择。函数按类别组织。
+* **[!UICONTROL Events]**：选择从入站事件接收的字段之一。显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[阅读更多](../event/about-events.md)
+* **[!UICONTROL Segments]**:如果您已经删除 **[!UICONTROL Segment qualification]** 了事件，请选择要在表达式中使用的区段。[阅读更多](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**：从数据源的字段组提供的字段列表中进行选择。[阅读更多](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**:此部分重新分组与给定用户档案的旅程相关的技术字段。[阅读更多](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**：从允许执行复杂筛选的内置函数列表中进行选择。函数按类别组织。[阅读更多](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
