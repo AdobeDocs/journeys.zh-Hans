@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 关于历程构建
 description: 作为企业用户，了解如何结合事件、编排和行为活动来构建历程。
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 17%
+source-wordcount: '435'
+ht-degree: 15%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 17%
 旅程界面允许您将调色板中的活动轻松拖放到画布中。 您还可以在下一个可用步骤中，多次单击某个活动，将其添加到画布中。 每个活动在流程中都具有特定的角色和位置。 活动被排序。 完成活动后，流将继续并处理下一个活动，依此类推。
 
 每个旅程只允许一个命名空间。 放置第一个事件时，具有不同命名空间的事件将灰显。 如果第一个事件没有命名空间，则具有命名空间的所有事件将灰显。 请参阅[此页](../event/selecting-the-namespace.md)。此外，如果旅程包含没有命名空间的事件,Adobe Experience Platform字段组将灰显。 最后，如果您在同一旅程中使用多个事件，他们需要使用相同的命名空间。
+
+开始新旅程时，无法作为第一步在画布中放置的元素会被隐藏。 这涉及所有行动、条件活动、等待和反应。
 
 ## 快速开始{#creating_journey}
 
