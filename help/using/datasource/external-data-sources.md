@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: '外部数据源 '
 description: '了解如何配置外部数据源 '
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
+workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 100%
 
@@ -74,9 +74,9 @@ ht-degree: 100%
 * **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。由于参数值取决于执行上下文，因此将在历程中进行定义。请参阅[此页](../expression/expressionadvanced.md)。
 * **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。仅当选择 POST 方法时才可用。粘贴将发送到第三方系统的有效负载。
 
-如果 GET 调用需要参数，则在&#x200B;**[!UICONTROL Parameters]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。如果是 POST 调用，您需要：
+如果 GET 调用需要参数，则在&#x200B;**[!UICONTROL Dynamic Values]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。如果是 POST 调用，您需要：
 
-* 在 **[!UICONTROL Parameter]**&#x200B;字段中列出调用时要传递的参数（在下面的示例中为“identifier”）。
+* 在 **[!UICONTROL Dynamic Values]**&#x200B;字段中列出调用时要传递的参数（在下面的示例中为“identifier”）。
 * 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。请遵循以下语法：
 
    ```
