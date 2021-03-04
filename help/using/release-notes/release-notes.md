@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
 translation-type: tm+mt
-source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
+source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 93%
+source-wordcount: '2264'
+ht-degree: 87%
 
 ---
 
@@ -17,19 +17,44 @@ ht-degree: 93%
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
 
-## 2021年1月版本{#january-release}
+## 2021年2月版{#february-2021-release}
 
-在模式配置中选择事件时，只会选择Journey Orchestration正确接收事件所必需的字段。 [阅读更多](../event/defining-the-payload-fields.md)
+<table>
+<thead>
+<tr>
+<th><strong>更新用户档案活动</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>此新操作活动允许您使用来自事件、数据源或使用特定值的信息更新现有Adobe Experience Platform用户档案。</p>
+<p>有关详细信息，请参阅<a href="../building-journeys/update-profiles.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 其他改进
+
+* 现在，在配置事件时，默认情况下只会预先选择XDM验证中必填的字段。 无法取消选择这些字段。
+* 在旅程调板中，添加了新滤镜。 除了开箱即用的事件和操作外，它还允许您仅显示最后五个使用的操作。 这特定于每个用户。 默认情况下，将显示所有项目。 [阅读更多](../building-journeys/using-the-journey-designer.md#palette)
+* 开始新旅程时，无法作为第一步放入画布的元素现在会隐藏。 这涉及所有行动、条件活动、等待和反应。
+* 在高级表达式编辑器的左侧，现在在列表末尾的&#x200B;**Functions**&#x200B;部分下重新分组了函数。
+
+## 2021 年 1 月版本 {#january-2021-release}
+
+在事件配置中选择模式时，只选择Journey Orchestration正确接收事件所必须的字段。 [阅读更多](../event/defining-the-payload-fields.md)
 
 历程属性属性现在在简单的表达式编辑器中可用。 [阅读更多](../expression/journey-properties.md)
 
 添加了两个新的旅程属性（sandboxName和organizationId）。 [阅读更多](../expression/journey-properties.md)
 
-为了符合Adobe Campaign StandardSLA，现在在Adobe Campaign Standard集成设置完成后，为Adobe Campaign Standard行动自动定义每秒13次呼叫的限制规则。 [阅读更多](../action/working-with-adobe-campaign.md)
+为了符合Adobe Campaign Standard SLA，现在在设置Adobe Campaign Standard集成后，会为Adobe Campaign Standard操作自动定义每秒13次调用的上限规则。 [阅读更多](../action/working-with-adobe-campaign.md)
 
-事件超时时间现在在超时路径上指定得更清楚。 [阅读更多](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+现在，在超时路径上更清楚地指定事件超时持续时间。 [阅读更多](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函数已添加到高级表达式编辑器中可用的函数列表。 这将在字符串计算用例中优惠更多可能性。
+[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函数已添加到高级表达式编辑器中可用的函数列表中。 这将在字符串计算用例中优惠更多可能性。
 
 ## 2020 年 11 月版 {#november-release}
 
@@ -82,7 +107,6 @@ ht-degree: 93%
 <td>
 <p>现在有一种新方法可用于更轻松地设置事件，而无需使用 eventID：基于规则的事件会根据条件来评估是否应触发事件。您仍可以使用现有方法，现在称为“系统生成”。该功能已通过 Alpha 程序在有限的客户群中进行测试，现在所有客户都可以在测试版中使用该功能。
 </p>
-<p>有关详细信息，请参阅<a href="../event/about-events.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -140,8 +164,6 @@ ht-degree: 93%
 
 ### Alpha 更新{#september-alpha-update}
 
-要发现 Alpha 的范围，请参阅此[部分](../alpha/alpha-overview.md)。
-
 <table>
 <thead>
 <tr>
@@ -159,7 +181,6 @@ ht-degree: 93%
 <li><p>测试模式日志的粒度已得到改进，可显示客户细分导出进度状态。</p>
 </li>
 </ul>
-<p>有关<strong>读取客户细分</strong>活动的更多信息，请参阅<a href="../alpha/alpha-segment-trigger.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -172,8 +193,6 @@ ht-degree: 93%
 区段鉴别事件的有效负荷现在包含可以在条件和操作中使用的以下上下文信息：行为（进入、退出）、鉴别时间戳和区段 ID。[阅读更多](../building-journeys/segment-qualification-events.md)
 
 ### Alpha 更新{#august-alpha-update}
-
-要发现 Alpha 的范围，请参阅此[部分](../alpha/alpha-overview.md)。
 
 <table>
 <thead>
@@ -194,7 +213,6 @@ ht-degree: 93%
 <li><p>您现在可以在单一用户档案上测试历程，并使用视觉流跟踪其在历程中的进度。</p>
 </li>
 </ul>
-<p>有关详细信息，请参阅<a href="../alpha/alpha-segment-trigger.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -228,8 +246,6 @@ ht-degree: 93%
 
 Alpha 程序提供目前在有限的一组客户中经过测试的功能。这样，我们就可以根据收到的反馈来改进产品。这些功能并非对于所有 Journey Orchestration 客户都可用。
 
-在专用[部分](../alpha/alpha-overview.md)中对这些功能进行了描述。
-
 <table>
 <thead>
 <tr>
@@ -247,7 +263,6 @@ Alpha 程序提供目前在有限的一组客户中经过测试的功能。这�
 <li><p>将管理功能分组到单个仪表板中。</p>
 </li>
 </ul>
-<p>有关详细信息，请参阅<a href="../alpha/alpha-interface.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +277,7 @@ Alpha 程序提供目前在有限的一组客户中经过测试的功能。这�
 <tbody>
 <tr>
 <td>
-<p>“区段触发”活动允许属于 Adobe Experience Platform 区段的所有个人进入历程。进入历程的操作可以执行一次，也可以定期执行。<a href="../alpha/alpha-segment-trigger.md">阅读更多</a>
+<p>“区段触发”活动允许属于 Adobe Experience Platform 区段的所有个人进入历程。进入历程的操作可以执行一次，也可以定期执行。 
 </p>
 </td>
 </tr>
