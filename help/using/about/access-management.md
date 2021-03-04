@@ -3,11 +3,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 访问管理
 description: 了解有关访问管理的更多信息
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '845'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ ht-degree: 100%
    * 管理历程
    * 发布历程
    * 管理报告
+   * 读取事件、数据源和操作
 
 如果现成的用户档案不足以管理用户，您还可以创建自己的产品用户档案。
 用户必须始终链接到产品用户档案，以便您为他们分配特定的内置权限，例如：
@@ -137,6 +138,6 @@ ht-degree: 100%
 [!DNL Journey Orchestration] 允许您将实例分区为称为沙箱的分隔虚拟环境。
 沙箱通过 Admin Console 中的产品用户档案进行分配。有关如何分配沙箱的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙箱。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。有关详细步骤，请参阅[沙箱用户指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/sandbox/ui/user-guide.html)。
+[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙箱。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。有关详细步骤，请参阅[沙箱用户指南](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)。
 
 您可以在屏幕左上角找到沙箱切换器控件。要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
