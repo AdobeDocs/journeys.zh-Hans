@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: uuid
 description: 了解uuid函数
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
@@ -28,7 +31,7 @@ ht-degree: 0%
 
 此函数不需要参数。
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `uuid()`
 
@@ -38,4 +41,4 @@ ht-degree: 0%
 
 `uuid()`
 
-返回“79e70b7f-8a85-400b-97a1-9f9826121553”.s
+返回“79e70b7f-8a85-400b-97a1-9f9826121553”。
