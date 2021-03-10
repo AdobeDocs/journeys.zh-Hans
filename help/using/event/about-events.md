@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 关于事件
 description: 了解事件
-translation-type: ht
-source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+feature: 历程
+role: 业务从业者
+level: 中间
+translation-type: tm+mt
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 98%
 
 ---
 
