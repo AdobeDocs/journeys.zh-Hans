@@ -3,17 +3,20 @@ product: adobe campaign
 solution: Journey Orchestration
 title: max
 description: 了解函数max
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '92'
+ht-degree: 5%
 
 ---
 
 # max{#max}
 
-返回一组表达式中的最大值，该列表以或两个表达式的形式给定。 忽略null值。
+返回一组表达式中的最大值，该值以列表或两个表达式的形式给定。 忽略空值。
 
 ## 类别
 
@@ -36,7 +39,7 @@ ht-degree: 0%
 * dateTime
 * dateTimeOnly
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `max(<listDuration>)`
 
@@ -48,7 +51,7 @@ ht-degree: 0%
 
 `max(<listDateTimeOnly>)`
 
-返回日期时间，不考虑时区。
+返回日期时间，而不考虑时区。
 
 `max(<listDateTime>)`
 
@@ -72,7 +75,7 @@ ht-degree: 0%
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-返回日期时间，不考虑时区。
+返回日期时间，而不考虑时区。
 
 `max(<integer>,<integer>)`
 
