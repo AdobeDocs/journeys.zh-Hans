@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 预览有效负载
 description: 了解如何预览有效负荷
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +28,7 @@ ht-degree: 0%
 
    ![](../assets/journey13.png)
 
-   您会注意到选定的字段会显示。
+   您可以注意到显示了选定的字段。
 
    ![](../assets/journey14.png)
 
