@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep 事件数据提取字段
 description: journeyStep 事件数据提取字段
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 4%
 
 ---
@@ -16,11 +19,11 @@ ht-degree: 4%
 
 此混音将由journeyStepEvent和journeyStepProfileEvent共享。
 
-在步骤处理过程中，我们可以在字段组上获取N个数据。
+在步骤处理期间，我们可以在字段组上获取N个数据。
 
 ## fetchTotalTime
 
-在步骤处理过程中，以毫秒为单位的数据提取总时间。
+在步骤处理期间，在以毫秒为单位的数据提取中花费的总时间。
 
 类型：长
 
@@ -54,12 +57,12 @@ ht-degree: 4%
 
 ## fetchOriginError
 
-超时可能发生，有两种情况：
+在以下两种情况下，可能会出现超时：
 
-* 第一次尝试时，将执行该操作。 在这种情况下，执行未完成，因此不存在基本错误
-* 重试：在这种情况下，actionExecOrigError/actionExecOrigErrorCode描述在重试前在尝试时遇到的错误。
+* 在第一次尝试时，将执行该操作。 在这种情况下，执行未完成，因此不存在基本错误
+* 重试：在这种情况下，actionExecOrigError/actionExecOrigErrorCode描述在重试前尝试时遇到的错误。
 
-例如，从统一用户档案服务获取数据，并在第一次尝试时返回HTTP 500错误。 将重试提取，但2次尝试的持续时间超过超时。 然后，将操作执行标记为时间结束。 操作部分将如下所示：
+例如，正在从统一用户档案服务中获取数据，第一次尝试时会返回HTTP 500错误。 将重试提取，但2次尝试的持续时间超过超时。 然后，将动作执行标记为超时。 操作部分将如下：
 
 ```
     ...
@@ -80,13 +83,13 @@ ht-degree: 4%
 
 ## fetchCount
 
-无论源的类型如何，获取数据的次数都是多少。
+获取数据的次数，而不管源的类型。
 
 类型：长
 
 ## fetchPlatformTotalTime
 
-从Adobe Experience Platform获取数据所花费的总时间（以百万计）。 注释：从引擎将扩充事件发送到扩充服务并接收响应的时间开始计算该时间量。
+从Adobe Experience Platform获取数据所花费的总时间（以百万计）。 备注：从引擎将扩充事件发送到扩充服务并接收响应的时间计算该时间量。
 
 类型：长
 
@@ -98,7 +101,7 @@ ht-degree: 4%
 
 ## fetchCustomTotalTime
 
-以毫秒为单位提取自定义数据的时间。 注释：从引擎将扩充事件发送到扩充服务并接收响应的时间开始计算该时间量
+以毫秒为单位提取自定义数据的时间。 备注：从引擎将扩充事件发送到扩充服务并接收响应的时间计算该时间量
 
 类型：长
 
