@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: serializeList
 description: 了解函数serializeList
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '90'
+ht-degree: 15%
 
 ---
 
 
 # serializeList {#serializeList}
 
-将第一个参数中给定的列表（任何类型）转换为字符串。 第二个参数表示要使用的分隔符。 第三个参数是一个布尔值，它指示表达式的每个元素是否应包含引号。
+将第一个参数中给定的列表（任何类型）转换为字符串。 第二个参数表示要使用的分隔符。 第三个参数是一个布尔值，指示表达式的每个元素是否应包含引号。
 
 ## 类别
 
@@ -39,7 +42,7 @@ ht-degree: 0%
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 
@@ -63,7 +66,7 @@ ht-degree: 0%
 
 `serializeList(["Hello","World"], " ", false)`
 
-返回“Hello World”。
+返回“你好世界”。
 
 `serializeList(["Hello", "World"], ",", true)`
 
