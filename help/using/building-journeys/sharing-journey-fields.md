@@ -1,18 +1,21 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 旅程场
-description: 旅程场
+title: 历程场
+description: 历程场
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
 
-# 旅程场 {#sharing-journey-fields}
+# 历程场 {#sharing-journey-fields}
 
 此混音用于旅程模式（与journeyStepEvent相关）。 它包含以下字段：
 
