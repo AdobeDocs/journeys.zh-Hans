@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 关于 Journey Orchestration
 description: 详细了解 Journey Orchestration
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '390'
-ht-degree: 100%
+feature: 历程
+role: 业务从业者
+level: 初学者
+translation-type: tm+mt
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 98%
 
 ---
 
