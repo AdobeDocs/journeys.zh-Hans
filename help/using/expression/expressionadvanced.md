@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 关于高级表达式编辑器
 description: 了解如何构建高级表达式
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 94%
+source-wordcount: '545'
+ht-degree: 93%
 
 ---
 
