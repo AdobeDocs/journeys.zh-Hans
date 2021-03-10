@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
+feature: 历程
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 87%
+source-wordcount: '2268'
+ht-degree: 86%
 
 ---
 
