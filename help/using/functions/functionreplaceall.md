@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: replaceAll
 description: 了解函数replaceAll
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 用基字符串中的替换字符串替换与目标字符串匹配的所有匹配项。
 
-例如，替换从字符串的开头到结尾，将字符串“aaa”替换为“b”将导致“ba”而不是“ab”。
+替换从字符串的开头到结尾，例如，将字符串&quot;aaa&quot;中的&quot;aa&quot;替换为&quot;b&quot;将导致&quot;ba&quot;而不是&quot;ab&quot;。
 
 ## 类别
 
@@ -30,11 +33,11 @@ ht-degree: 0%
 
 | 参数 | 类型 |
 |-----------|--------------|
-| 基础 | 字符串 |
+| 基 | 字符串 |
 | 目标 | 字符串 |
 | 替换 | 字符串 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 
