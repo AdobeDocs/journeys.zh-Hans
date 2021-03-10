@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 从一个历程到另一个历程
 description: 从一个历程到另一个历程
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '446'
 ht-degree: 3%
 
 ---
