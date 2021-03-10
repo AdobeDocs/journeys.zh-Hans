@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用区段
 description: 了解如何使用细分
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '145'
 ht-degree: 7%
 
 ---
@@ -21,8 +24,8 @@ ht-degree: 7%
 
    ![](../assets/segment1.png)
 
-1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新段。 区段定义屏幕允许您配置所有必需字段以定义您的区段。 配置与分段服务中的配置相同。 请参阅[区段生成器用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
+1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新区段。 区段定义屏幕允许您配置所有必填字段以定义区段。 配置与分段服务中的配置相同。 请参阅[区段生成器用户指南](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
 
    ![](../assets/segment2.png)
 
-现在，您的区段可用于旅程，以构建条件或添加&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件。 请参阅[在条件](../segment/using-a-segment.md)和[事件活动](../building-journeys/segment-qualification-events.md)中使用段。
+现在，您的区段可用于旅程中构建条件或添加&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件。 请参阅[在条件](../segment/using-a-segment.md)和[事件活动](../building-journeys/segment-qualification-events.md)中使用区段。
