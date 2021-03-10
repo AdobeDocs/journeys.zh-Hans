@@ -1,20 +1,23 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 旅程版本
+title: 历程版本
 description: 了解旅程版本
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '247'
 ht-degree: 2%
 
 ---
 
 
-# 旅程版本{#concept_ldc_k55_zgb}
+# 历程版本{#concept_ldc_k55_zgb}
 
-在旅程列表中，所有旅程版本都显示版本号。 请参阅[此页](../building-journeys/using-the-journey-designer.md)。当您搜索旅程时，应用程序第一次打开时，最新版本显示在列表顶部。 然后，您可以定义所需的排序，应用程序会将其保留为用户首选项。 旅程版本还显示在旅程版本界面的顶部，位于画布上方。
+在旅程列表中，所有旅程版本都显示有版本号。 请参阅[此页](../building-journeys/using-the-journey-designer.md)。当您搜索旅程时，应用程序第一次打开时，最新版本会显示在列表顶部。 然后，您可以定义所需的排序，应用程序会将其保留为用户首选项。 旅程版本也显示在旅程版界面顶部，画布上方。
 
 ![](../assets/journeyversions1.png)
 
@@ -22,9 +25,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->要了解旅程版本限制的更多信息，请参阅[此页](../about/limitations.md#journey-versions-limitations)
+>要了解有关旅程版本限制的更多信息，请参阅[此页](../about/limitations.md#journey-versions-limitations)
 
-1. 打开实时旅程的最新版本，单击&#x200B;**[!UICONTROL Create a new version]**&#x200B;并确认。
+1. 打开最新的实时旅程版本，单击&#x200B;**[!UICONTROL Create a new version]**&#x200B;并确认。
 
    ![](../assets/journeyversions2.png)
 
@@ -36,10 +39,10 @@ ht-degree: 2%
 
    ![](../assets/journeyversions3.png)
 
-从旅程发布之日起，个人将开始进入旅程的最新版本。 已输入先前版本的用户将保留该版本，直到他们完成该旅程。 如果他们稍后重新进入同一旅程，他们将进入最新版本。
+从旅程发布之日起，个人将开始流入旅程的最新版本。 已输入先前版本的用户将一直保留该版本，直到完成此旅程。 如果他们稍后重新进入同一旅程，则将进入最新版本。
 
-可以单独停止旅程版本。 所有版本的旅程均具有相同名称。
+历程版本可以单独停止。 所有版本的旅程都具有相同的名称。
 
 >[!NOTE]
 >
->发布旅程的新版本时，先前版本会自动结束并切换至&#x200B;**已关闭**&#x200B;状态。 旅程中不会有入口。 即使您停止最新版本，旧版本也将保持关闭状态。
+>当您发布新版本的旅程时，旧版本会自动结束并切换到&#x200B;**已关闭**&#x200B;状态。 旅程中不会有入口。 即使您停止最新版本，旧版本也将保持关闭状态。
