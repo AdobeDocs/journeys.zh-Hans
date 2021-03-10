@@ -5,10 +5,13 @@ title: 关于Campaign Classic集成
 description: 了解Campaign Classic集成
 hide: true
 hidefromtoc: true
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
