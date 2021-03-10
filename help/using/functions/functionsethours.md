@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: setHours
 description: 了解函数setHours
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
 
 # setHours {#setHours}
 
-仅设置日期时间或日期时间的小时数。 例如，如果要等到明天的某个小时，可以强制该小时。
+仅设置日期时间或日期时间的小时数。 例如，如果您希望等到明天某个小时，您可以强制该小时。
 
 ## 类别
 
@@ -29,7 +32,7 @@ ht-degree: 0%
 | 参数 | 类型 |
 |--- |--- |
 | 日期时间 | dateTime |
-| 不考虑时区的日期时间 | dateTimeOnly |
+| 不考虑时区 | dateTimeOnly |
 | 小时 | 整数 |
 
 ## 签名和返回类型
@@ -40,7 +43,7 @@ ht-degree: 0%
 
 `setHours(<dateTimeOnly>,<hours>)`
 
-返回日期时间，不考虑时区。
+返回日期时间，而不考虑时区。
 
 ## 示例
 
