@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: getListItem
 description: 了解gstListItem函数
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 5539ea0e8f124896f5599dba63babaa3e5b0229b
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
 
 # getListItem {#gestListItem}
 
-返回给定索引处列表的项。
+返回给定索引处的列表项。
 
 ## 类别
 
@@ -49,7 +52,7 @@ ht-degree: 3%
 
 `getListItem(<listString>,<index>)`
 
-返回一列表字符串。
+返回字符串列表。
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
@@ -57,7 +60,7 @@ ht-degree: 3%
 
 `getListItem(<listDateTime>,<index>)`
 
-返回datetimes的列表。
+返回datetime的列表。
 
 `getListItem(<listBoolean>,<index>)`
 
@@ -65,7 +68,7 @@ ht-degree: 3%
 
 `getListItem(<listDuration>,<index>)`
 
-返回持续时间列表。
+返回持续时间的列表。
 
 ## 示例
 
