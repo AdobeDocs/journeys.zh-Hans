@@ -3,24 +3,27 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 函数
 description: 了解功能
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 73%
+source-wordcount: '171'
+ht-degree: 71%
 
 ---
 
 
 # 函数 {#concept_p1r_qj5_dgb}
 
-函数可以具有不同的签名（一组不同的有序参数）。 函数签名可以具有0-N表达式作为有序参数。
+一个函数可以有不同的签名（一组不同的有序参数）。 函数签名可以具有0-N个表达式作为有序参数。
 
-`<function name>`(`<expression as param 1>`、 `<expression as param 2>` ...,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ...,`<expression as param N>`)
 
-每个函数都有一个特定的返回类型。
+每个函数都具有特定的返回类型。
 
-下面是受支持函数的列表。
+以下是受支持函数的列表。
 
 ## 主要功能
 
