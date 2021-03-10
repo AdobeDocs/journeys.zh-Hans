@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep 事件操作执行字段
 description: journeyStep 事件操作执行字段
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 此混音将由journeyStepEvent和journeyStepProfileEvent共享。
 
-如果该步骤包含要处理的操作，则这些字段将添加到事件有效负荷。
+如果步骤包含要处理的操作，则这些字段将添加到事件有效负荷。
 
 ## actionID
 
@@ -26,7 +29,7 @@ ht-degree: 0%
 
 ## actionName
 
-操作的名称。 如果未设置任何名称，将采用stepName。
+操作的名称。 如果未设置任何名称，则将采用stepName。
 
 类型：字符串
 
@@ -36,7 +39,7 @@ ht-degree: 0%
 
 类型：字符串
 
-## actionAparameterized
+## actionApartemed
 
 指示操作是否为参数化。
 
@@ -68,12 +71,12 @@ ht-degree: 0%
 
 ## actionExecutionOriginError
 
-超时可能发生，有两种情况：
+在以下两种情况下，可能会出现超时：
 
-* 第一次尝试时，将执行操作。 在这种情况下，执行未完成，因此不存在基本错误
-* 重试：在这种情况下，actionExecOrigError/actionExecOrigErrorCode描述在重试前在尝试时遇到的错误。
+* 第一次尝试时，将执行一个操作。 在这种情况下，执行未完成，因此不存在基本错误
+* 重试：在这种情况下，actionExecOrigError/actionExecOrigErrorCode描述在重试前尝试时遇到的错误。
 
-例如，正在发送电子邮件，并在第一次尝试时返回HTTP 500错误。 将重试提取，但2次尝试的持续时间超过超时。 然后，将操作执行标记为时间结束。 操作部分将如下所示：
+例如，正在发送电子邮件，并在第一次尝试时返回HTTP 500错误。 将重试提取，但2次尝试的持续时间超过超时。 然后，将动作执行标记为超时。 操作部分将如下：
 
 ```
     ...
@@ -105,31 +108,31 @@ actionExecOrigError的错误代码。
 * ACS SMS
 * ACS推送
 * 客户
-* ε
+* Epsilon
 * ...
 
 类型：字符串
 
 ## deliveryJobID
 
-这描述了批旅程的投放作业ID。
+这描述了批处理投放的历程作业ID。
 
 类型：字符串
 
 ## batchDeliveryID
 
-这描述了批旅程的投放ID。
+这描述了批处理投放的历程ID。
 
 类型：字符串
 
 ## fromSegmentTrigger
 
-此说明是否从受众段触发批旅程。
+此说明是否从受众区段触发批历程。
 
 类型：布尔
 
 ## actionSchedulerCount
 
-在步骤处理过程中发送给调度程序服务的调度程序通知请求计数。
+在步骤处理期间发送给调度程序服务的调度程序通知请求计数。
 
 类型：长
