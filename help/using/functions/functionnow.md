@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: now
 description: 立即了解该功能
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
