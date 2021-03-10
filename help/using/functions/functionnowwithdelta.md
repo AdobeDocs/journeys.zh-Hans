@@ -2,12 +2,15 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: nowWithDelta
-description: 立即了解函数WithDelta
+description: 了解函数nowWithDelta
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
@@ -28,8 +31,8 @@ ht-degree: 0%
 
 | 参数 | 说明 |
 |--- |--- |
-| 三角洲 | 正整数值 |
-| 日期部分 | 年、月、日、小时、分钟或秒（字符串） |
+| δ | 正整数 |
+| 日期 | 年、月、日、小时、分或秒，作为字符串 |
 | 时区id | 时区值的字符串表示形式。 有关详细信息，请参阅[数据类型](../expression/data-types.md)。 时区ID必须是字符串常数。 它不能是字段引用或表达式。 |
 
 ## 签名和返回类型
@@ -46,4 +49,4 @@ ht-degree: 0%
 
 `nowWithDelta(-2, "hours", "Europe/Paris")`
 
-返回一个dateTime，恰好在2小时前。
+返回一个2小时前的dateTime。
