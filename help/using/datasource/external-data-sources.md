@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: '外部数据源 '
 description: '了解如何配置外部数据源 '
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 100%
+source-wordcount: '1279'
+ht-degree: 99%
 
 ---
 
