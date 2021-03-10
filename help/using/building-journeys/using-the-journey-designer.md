@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用历程设计器
 description: 进一步了解如何使用旅程设计器
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1392'
 ht-degree: 5%
 
 ---
@@ -44,7 +47,7 @@ ht-degree: 5%
 
 左上角的&#x200B;**[!UICONTROL Filter items]**&#x200B;图标允许您显示以下过滤器:
 
-* **仅显示可用项目**:隐藏或显示调板中不可用的元素，例如使用与旅程中使用的命名空间不同的事件。默认情况下，不可用项目处于隐藏状态。如果选择显示它们，它们将灰显。
+* **仅显示可用项目**:隐藏或显示调色板中不可用的元素，例如使用与旅程中所用命名空间不同的事件。默认情况下，不可用项目处于隐藏状态。如果选择显示它们，它们将灰显。
 
 * **仅显示最近的项目**:除了开箱即用的事件和操作外，此过滤器还允许您仅显示最后五个使用的操作。这特定于每个用户。 默认情况下，将显示所有项目。
 
