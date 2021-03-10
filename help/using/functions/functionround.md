@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: round
 description: 了解函数轮
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 
 
 # round {#round}
 
-返回与参数最接近的整数值，并将舍入与正无穷大联系起来。
+返回与参数最接近的整数值，并将整数舍入为正无穷大。
 
 ## 类别
 
@@ -49,7 +52,7 @@ ht-degree: 0%
 
 `round(-3.14)`
 
-返回-3。
+返回–3。
 
 `round(3)`
 
