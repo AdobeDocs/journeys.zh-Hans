@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 区段鉴别事件
 description: 了解客户细分资格事件
-translation-type: ht
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
-workflow-type: ht
-source-wordcount: '709'
-ht-degree: 100%
+feature: 历程
+role: 业务从业者
+level: 中间
+translation-type: tm+mt
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+workflow-type: tm+mt
+source-wordcount: '713'
+ht-degree: 99%
 
 ---
 
