@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDecimal
 description: 了解toDecimal的函数
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
@@ -29,11 +32,11 @@ ht-degree: 0%
 | 参数 | 说明 |
 |--- |--- |
 | 字符串 | 将字符串值转换为十进制 |
-| dateTime | 将日期转换为毫秒数（纪元毫秒） |
+| dateTime | 将日期转换为毫秒数（时间毫秒） |
 | 布尔 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
 | 整数 | 转换为小数（示例）。:1变为1.0) |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `toDecimal(<integer>)`
 
@@ -43,7 +46,7 @@ ht-degree: 0%
 
 `toDecimal(<boolean>)`
 
-返回十进制。
+返回小数。
 
 ## 示例
 
