@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: currentTimeInMillis
-description: 了解函数currentTimeInMillis
+description: 了解currentTimeInMillis函数
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 6%
+source-wordcount: '36'
+ht-degree: 8%
 
 ---
 
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-返回当前时间（以新纪元毫秒为单位）。
+返回当前时间（以时元毫秒为单位）。
 
 ## 类别
 
