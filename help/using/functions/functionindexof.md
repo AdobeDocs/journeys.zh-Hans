@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: indexOf
 description: 了解函数indexOf
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 10%
 
 # indexOf {#indexOf}
 
-检查第一个参数字符串是否以特定字符串（第二个参数字符串）结尾。 如果找不到该字符串，则返回-1。
+检查第一个参数字符串是否以特定字符串（第二个参数字符串）结尾。 如果找不到该字符串，则返回–1。
 
 ## 类别
 
@@ -31,7 +34,7 @@ ht-degree: 10%
 | 字符串 | 字符串 |
 | 指定值 | 字符串 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `indexOf(<string>,<string>)`
 
@@ -43,6 +46,6 @@ ht-degree: 10%
 
 返回2。
 
-说明：
+解释：
 
-在“Hello”中，第一个出现的“l”是位置2。
+在&quot;Hello&quot;中，第一个出现的&quot;l&quot;位于位置2。
