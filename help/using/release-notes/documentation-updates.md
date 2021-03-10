@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 文档更新
 description: 了解文档更新
+feature: 历程
+role: 业务从业者
+level: 初学者
 translation-type: tm+mt
-source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 100%
+source-wordcount: '789'
+ht-degree: 99%
 
 ---
 
