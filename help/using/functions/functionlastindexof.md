@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: lastIndexOf
 description: 了解函数lastIndexOf
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '64'
+ht-degree: 9%
 
 ---
 
 
 # lastIndexOf {#lastIndexOf}
 
-返回第二个参数最后一次出现的位置（在第一个参数中）。 如果没有匹配项，则返回-1。
+返回第二个参数最后一次出现的位置（在第一个参数中）。 如果没有匹配项，则返回–1。
 
 ## 类别
 
@@ -31,7 +34,7 @@ ht-degree: 10%
 | 字符串 | 字符串 |
 | 指定值 | 字符串 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `lastIndexOf(<string>,<string>)`
 
@@ -43,6 +46,6 @@ ht-degree: 10%
 
 返回3。
 
-说明：
+解释：
 
-在“Hello”中，“l”的最后一个出现位置是位置3。
+在&quot;Hello&quot;中，&quot;l&quot;的最后一个出现位置是3。
