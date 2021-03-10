@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toBool
 description: 了解toBool的函数
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -16,8 +19,8 @@ ht-degree: 5%
 
 根据参数值的类型，将参数值转换为布尔值。
 
-* 从字符串：尝试将字符串值转换为布尔值，如果字符串值为“true”，则从“true”转换为false，否则从“true”转换为“false”
-* 从数字：如果数值不等于0，则为true；否则为false
+* 从字符串：尝试将字符串值转换为布尔值，如果字符串值为“true”，则从“true”转换为“false”，否则从“true”转换为“false”
+* 从数值：如果数值不等于0，则为true；否则为false
 
 ## 类别
 
@@ -34,7 +37,7 @@ ht-degree: 5%
 * 字符串
 * 整数
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `toBool(<decimal>)`
 
