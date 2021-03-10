@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: distinct
-description: 了解函数的独特性
+description: 了解不同的功能
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 13%
 
 ---
 
 
 # distinct {#distinct}
 
-返回列表的不同值（不含null值）。
+返回列表的不同值（无null值）。
 
 ## 类别
 
@@ -36,7 +39,7 @@ ht-degree: 0%
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `distinct(<listInteger>)`
 
@@ -48,7 +51,7 @@ ht-degree: 0%
 
 `distinct(<listString>)`
 
-返回一列表字符串。
+返回字符串列表。
 
 `distinct(<listDateTimeOnly>)`
 
@@ -56,7 +59,7 @@ ht-degree: 0%
 
 `distinct(<listDateTime>)`
 
-返回datetimes的列表。
+返回datetime的列表。
 
 `distinct(<listBoolean>)`
 
@@ -64,7 +67,7 @@ ht-degree: 0%
 
 `distinct(<listDuration>)`
 
-返回持续时间列表。
+返回持续时间的列表。
 
 ## 示例
 
