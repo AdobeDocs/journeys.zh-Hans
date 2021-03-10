@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: min
 description: 了解函数min
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 4%
+source-wordcount: '92'
+ht-degree: 5%
 
 ---
 
 
 # min {#min}
 
-返回一组表达式中的最小值，以列表或两个表达式的形式给定。 忽略null值。
+返回一组表达式中的最小值，该值以列表或两个表达式的形式给定。 忽略空值。
 
 ## 类别
 
@@ -37,7 +40,7 @@ ht-degree: 4%
 * dateTime
 * dateTimeOnly
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `min(<listDuration>)`
 
@@ -49,7 +52,7 @@ ht-degree: 4%
 
 `min(<listDateTimeOnly>)`
 
-返回日期时间，不考虑时区。
+返回日期时间，而不考虑时区。
 
 `min(<listDateTime>)`
 
@@ -73,7 +76,7 @@ ht-degree: 4%
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-返回日期时间，不考虑时区。
+返回日期时间，而不考虑时区。
 
 `min(<integer>,<integer>)`
 
