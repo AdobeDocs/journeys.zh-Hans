@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: countWithNull
 description: 了解函数countWithNull
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '51'
+ht-degree: 23%
 
 ---
 
 
 # countWithNull {#countWithNull}
 
-计算列表的所有元素，包括null值。
+计算列表的所有元素，包括空值。
 
 ## 类别
 
@@ -36,7 +39,7 @@ ht-degree: 0%
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `countWithNull(<listAny>)`
 
