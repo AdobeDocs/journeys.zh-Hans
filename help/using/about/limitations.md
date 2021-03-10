@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Journey Orchestration限制
 description: 了解有关Journey Orchestration限制的更多信息
 translation-type: tm+mt
-source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
+source-git-commit: 1433ccabaceb31c7ffac117a31531d0d380a54f8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 ## 事件限制
 
-* 对于系统生成的事件，用于启动客户旅程的流数据必须首先在客户历程管理中进行配置，才能获得唯一的业务流程ID。 此业务流程ID必须附加到传入Adobe Experience Platform的流负载。 此限制不适用于基于规则的事件。
+* 对于系统生成的事件，用于启动客户旅程的流数据必须首先在Journey Orchestration中配置，才能获得唯一的业务流程ID。 此业务流程ID必须附加到传入Adobe Experience Platform的流负载。 此限制不适用于基于规则的事件。
  
 
 ## 数据源限制
