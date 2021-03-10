@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: length
 description: 了解函数长度
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '38'
+ht-degree: 10%
 
 ---
 
@@ -28,7 +31,7 @@ ht-degree: 0%
 
 * 字符串
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `length(<string>)`
 
