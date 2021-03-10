@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: journeyStep 事件身份字段
 description: journeyStep 事件身份字段
+feature: 历程
+role: 业务从业者
+level: 中间
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 20%
+source-wordcount: '63'
+ht-degree: 19%
 
 ---
 
