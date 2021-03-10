@@ -3,20 +3,23 @@ product: adobe campaign
 solution: Journey Orchestration
 title: in
 description: 了解
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '115'
+ht-degree: 12%
 
 ---
 
 
 # in {#in}
 
-检查第一个参数值是否在列表中。 检查通过对每个参数值使用“相等”来执行。 如果找到参数值，则返回true，否则返回false。
+检查第一个参数值是否在列表中。 对每个参数值使用“相等”执行检查。 如果找到参数值，则返回true，否则返回false。
 
-`<expression>`的类型必须与列表项匹配。 作为提醒，列表的项目类型必须相互匹配。
+`<expression>`的类型必须与列表的项匹配。 作为提醒，列表的项目类型必须相互匹配。
 
 ## 类别
 
@@ -33,7 +36,7 @@ ht-degree: 0%
 | 字符串 | 字符串 |
 | 布尔值 | 布尔值 |
 | 整数 | 整数 |
-| 十进制 | 十进制 |
+| 小数 | 小数 |
 | 持续时间 | 持续时间 |
 | DateTime | DateTime |
 | DateTimeOnly | DateTimeOnly |
@@ -45,7 +48,7 @@ ht-degree: 0%
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `in(<integer>,<listInteger>)`
 
