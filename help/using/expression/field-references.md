@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 字段引用
 description: 了解高级表达式中的字段引用
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '438'
 ht-degree: 3%
 
 ---
@@ -15,13 +18,13 @@ ht-degree: 3%
 
 # 字段引用 {#concept_fkj_ll5_dgb}
 
-字段引用可附加到事件或字段组。 唯一有意义的信息是字段的名称及其路径。
+字段引用可以附加到事件或字段组。 唯一有意义的信息是字段的名称及其路径。
 
 如果在字段中使用特殊字符，则需要使用多次引号或简单引号。 以下是需要引号的情况：
 
 * 具有数字特征的场开始
-* 带有“-”字符的字段开始
-* 该字段包含除以下内容之外的任何内容：_a_-_z_,_A_-_Z_,_0_-_9_,_,_-_
+* 带有&quot;-&quot;字符的字段开始
+* 该字段包含除以下内容之外的任何内容：_a_-_z_、_-_ Z _、_ 0 _-_ 9 _、_、_-__
 
 例如，如果字段为&#x200B;_3h_:_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -54,7 +57,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id, defaultValue :2}将无效，因为默认值是整数，而预期值应为字符串。
+>字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id， defaultValue:2}将无效，因为默认值是整数，而预期值应为字符串。
 
 示例:
 
@@ -100,19 +103,19 @@ expression examples:
 
 **在映射中定义的字段的引用**
 
-为了在地图中检索元素，我们使用带给定键的输入函数。 例如，根据所选事件定义命名空间的键时，会使用它。 请参阅选择命名空间。 有关详细信息，请参阅[此页](../event/selecting-the-namespace.md)。
+为了检索映射中的元素，我们使用给定键的输入函数。 例如，根据所选事件定义命名空间的键时，会使用该键。 请参阅选择命名空间。 有关详细信息，请参阅[此页](../event/selecting-the-namespace.md)。
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-在此表达式中，我们将获得事件“IdentityMap”字段的“Email”键。 “Email”条目是一个集合，我们从中使用“first()”获取第一个元素中的“id”。 有关详细信息，请参阅[此页](../expression/collection-management-functions.md)。
+在此表达式中，我们将获得事件的“IdentityMap”字段的“Email”键的条目。 “Email”条目是一个集合，我们从中使用“first()”获取第一个元素中的“id”。 有关详细信息，请参阅[此页](../expression/collection-management-functions.md)。
 
 **数据源的参数值（数据源动态值）**
 
 如果从外部数据源中选择一个需要调用参数的字段，则右侧会显示一个新选项卡，用于指定此参数。 请参阅[此页](../expression/expressionadvanced.md)。
 
-对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用关键字&#x200B;_params_&#x200B;定义其值。 参数可以是任何有效表达式，即使来自另一个数据源也可以是另一个参数。
+对于更复杂的用例，如果要在主表达式中包含数据源的参数，则可以使用关键字&#x200B;_params_&#x200B;定义其值。 参数可以是任何有效的表达式，即使来自另一个数据源（也包括另一个参数）。
 
 >[!NOTE]
 >
