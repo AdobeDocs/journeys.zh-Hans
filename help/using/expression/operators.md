@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 运算符
 description: 了解高级表达式中的运营商
+feature: 历程
+role: 数据工程师
+level: 富有经验
 translation-type: tm+mt
-source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '439'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +18,7 @@ ht-degree: 0%
 
 # 运算符 {#concept_wd5_pj5_dgb}
 
-操作符有两种：一元运算符和二进制运算符。 有左一元运算符和右一元运算符。
+有两种运算符：一元运算符和二进制运算符。 有左手一元运算符和右手一元运算符。
 
 ```
     // left-hand unary operators
@@ -32,7 +35,7 @@ ht-degree: 0%
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-以下是受支持操作符的列表:
+以下是受支持运算符的列表:
 
 ## 逻辑{#logical}
 
@@ -42,7 +45,7 @@ ht-degree: 0%
 <expression1> and <expression2>
 ```
 
-&lt;表达式1>和&lt;表达式2>都必须是布尔值。 结果为布尔型。
+&lt;表达式1>和&lt;表达式2>都必须是布尔值。 结果是布尔值。
 
 示例:
 
@@ -58,7 +61,7 @@ ht-degree: 0%
 <expression1> or <expression2>
 ```
 
-&lt;表达式1>和&lt;表达式2>都必须是布尔值。 结果为布尔型。
+&lt;表达式1>和&lt;表达式2>都必须是布尔值。 结果是布尔值。
 
 示例:
 
@@ -74,7 +77,7 @@ ht-degree: 0%
 not <expression>
 ```
 
-&lt;expression> 必须是布尔型。结果为布尔型。
+&lt;expression> 必须是布尔型。结果是布尔值。
 
 示例:
 
@@ -92,9 +95,9 @@ not 3.15 < 1
 <expression> is null
 ```
 
-结果为布尔型。
+结果是布尔值。
 
-请注意，null表示表达式没有评估值。
+请注意，null表示表达式没有计算值。
 
 示例:
 
@@ -110,9 +113,9 @@ not 3.15 < 1
 <expression> is not null
 ```
 
-结果为布尔型。
+结果是布尔值。
 
-请注意，null表示表达式没有评估值。
+请注意，null表示表达式没有计算值。
 
 示例:
 
@@ -120,7 +123,7 @@ not 3.15 < 1
 @ is not null
 ```
 
-### 空
+### 为null
 
 
 
@@ -128,9 +131,9 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;expression> 一定是列表。结果为布尔型。
+&lt;expression> 一定是列表。结果是布尔值。
 
-用于标识列表是否至少包含一个null值。
+用于标识列表是否包含至少一个null值。
 
 示例:
 
@@ -142,7 +145,7 @@ not 3.15 < 1
 ["foo", "bar", ""] has null -- returns false because "" is not considered as null.
 ```
 
-### ==
+### =
 
 
 
@@ -150,7 +153,7 @@ not 3.15 < 1
 <expression1> == <expression2>
 ```
 
-&lt;表达式1>和&lt;表达式2>必须具有相同的数据类型。 结果为布尔型。
+&lt;表达式1>和&lt;表达式2>必须具有相同的数据类型。 结果是布尔值。
 
 示例:
 
@@ -170,7 +173,7 @@ not 3.15 < 1
 <expression1> != <expression2>
 ```
 
-&lt;表达式1>和&lt;表达式2>必须具有相同的数据类型。 结果为布尔型。
+&lt;表达式1>和&lt;表达式2>必须具有相同的数据类型。 结果是布尔值。
 
 示例:
 
@@ -192,13 +195,13 @@ not 3.15 < 1
 
 可以将日期时间与日期时间进行比较。
 
-只能将Datetime与DatetimeOnly进行比较。
+只能将Datetimeonly与Datetimeonly进行比较。
 
-整数或十进制都可以与整数或十进制进行比较。
+可以将整数或十进制与整数或十进制进行比较。
 
-任何其他组合都被禁止。
+任何其他组合都是禁止的。
 
-结果为布尔型。
+结果是布尔值。
 
 示例:
 
@@ -216,13 +219,13 @@ not 3.15 < 1
 
 可以将日期时间与日期时间进行比较。
 
-只能将Datetime与DatetimeOnly进行比较。
+只能将Datetimeonly与Datetimeonly进行比较。
 
-整数或十进制都可以与整数或十进制进行比较。
+可以将整数或十进制与整数或十进制进行比较。
 
-任何其他组合都被禁止。
+任何其他组合都是禁止的。
 
-结果为布尔型。
+结果是布尔值。
 
 示例:
 
@@ -240,13 +243,13 @@ not 3.15 < 1
 
 可以将日期时间与日期时间进行比较。
 
-只能将Datetime与DatetimeOnly进行比较。
+只能将Datetimeonly与Datetimeonly进行比较。
 
-整数或十进制都可以与整数或十进制进行比较。
+可以将整数或十进制与整数或十进制进行比较。
 
-任何其他组合都被禁止。
+任何其他组合都是禁止的。
 
-结果为布尔型。
+结果是布尔值。
 
 示例:
 
@@ -264,13 +267,13 @@ not 3.15 < 1
 
 可以将日期时间与日期时间进行比较。
 
-只能将Datetime与DatetimeOnly进行比较。
+只能将Datetimeonly与Datetimeonly进行比较。
 
-整数或十进制都可以与整数或十进制进行比较。
+可以将整数或十进制与整数或十进制进行比较。
 
-任何其他组合都被禁止。
+任何其他组合都是禁止的。
 
-结果为布尔型。
+结果是布尔值。
 
 示例:
 
@@ -382,7 +385,7 @@ not 3.15 < 1
 <expression> is numeric
 ```
 
-表达式的类型为整数或十进制。
+表达式的类型是整数或十进制。
 
 示例:
 
@@ -414,7 +417,7 @@ not 3.15 < 1
 <expression> is decimal
 ```
 
-表达式类型为十进制。
+表达式的类型是十进制。
 
 示例:
 
@@ -464,7 +467,7 @@ not 3.15 < 1
 <expression + <duration>
 ```
 
-在dateTime、dateTimeOnly或duration后追加持续时间。
+在dateTime、dateTimeOnly或duration后附加持续时间。
 
 示例:
 
