@@ -7,10 +7,10 @@ feature: 历程
 role: 数据工程师
 level: 富有经验
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 7%
+source-wordcount: '153'
+ht-degree: 5%
 
 ---
 
@@ -19,13 +19,17 @@ ht-degree: 7%
 
 检查个人是否属于给定区段。
 
+>[!NOTE]
+>
+>您最多可以检索100个区段。
+
 段名称必须是字符串常量。 它不能是字段引用或表达式。
 
 区段在[Adobe Experience Platform](https://platform.adobe.com/segment/overview)中定义。 表达式编辑器提供了区段的自动完成列表。
 
 >[!NOTE]
 >
->您最多可以检索100个区段。
+>只有具有&#x200B;**已实现**&#x200B;和&#x200B;**现有**&#x200B;区段参与状态的个人才会被视为区段的成员。 有关如何评估区段的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
 ## 类别
 
