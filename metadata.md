@@ -13,13 +13,13 @@ feature-set: Journey Orchestration
 solution: Journey Orchestration
 type: 文档
 feature: 历程
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '33'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Journeys 元数据
+# 历程元数据
