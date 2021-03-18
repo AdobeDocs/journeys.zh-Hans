@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 关于 Journey Orchestration
 description: 详细了解 Journey Orchestration
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 初学者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
