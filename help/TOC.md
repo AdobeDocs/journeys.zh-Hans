@@ -6,11 +6,11 @@ title: Journey Orchestration 指南
 user-guide-description: 提供有关实施和构建历程的操作说明。
 index: true
 feature: 历程
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 98%
       + [关于自定义操作配置](using/action/about-custom-action-configuration.md)
       + [URL 配置](using/action/url-configuration.md)
       + [定义消息参数](using/action/defining-the-message-parameters.md)
-   + [与Adobe Campaign Classic集成](using/beta/acc-action.md)
+   + [与 Adobe Campaign Classic 集成](using/beta/acc-action.md)
 + 使用 Platform 区段 {#configuring-segment}
    + [关于 Platform 区段](using/segment/about-segments.md)
    + [创建区段](using/segment/creating-a-segment.md)
