@@ -1,17 +1,17 @@
 ---
-keywords: 历程；主页；热门主题
+keywords: 历程；主页；热门话题
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration 产品文档
 topic: Premium
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 初学者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
