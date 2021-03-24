@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 关于事件
 description: 了解事件
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 98%
+source-wordcount: '357'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="关于事件"
->abstract="事件与个人相关联。它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这就是 [!DNL Journey Orchestration] 在历程中将侦听的内容，以编排最佳的后续行动。"
+>abstract="事件与个人相关联。它与一个人的行为或者与一个人有关的事情有关。 这就是 [!DNL Journey Orchestration] 在历程中将侦听的内容，以编排最佳的后续行动。"
 
 事件与个人相关联。它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这就是 [!DNL Journey Orchestration] 在历程中将侦听的内容，以编排最佳的后续行动。
 
