@@ -4,12 +4,12 @@ solution: Journey Orchestration
 title: 用户界面
 description: 了解有关用户界面的更多信息
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1014'
 ht-degree: 99%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="关于历程列表"
->abstract="历程列表允许您同时查看所有历程、查看其状态并执行基本操作。您可以重复、停止或删除您的历程。某些操作可能不可用，具体取决于历程。例如，您无法删除或重新启动已关闭的历程。您可以从中创建新版本或进行重复。您还可以使用搜索栏搜索历程。"
+>abstract="历程列表允许您同时查看所有历程、查看其状态并执行基本操作。"
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="观看演示视频"
 
 通过顶部菜单，您可以浏览 [!DNL Journey Orchestration] 的不同功能：**[!UICONTROL Home]**（历程）、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]**、**[!UICONTROL Actions]**。
