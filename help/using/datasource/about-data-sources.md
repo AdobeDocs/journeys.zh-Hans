@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 关于数据源
 description: '了解如何配置数据源 '
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 98%
+source-wordcount: '348'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="关于数据源"
->abstract="数据源配置操作必须始终由技术用户执行。数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息，例如：条件定义、操作中的参数和个性化数据、自定义等待定义、时区定义。"
+>abstract="数据源配置允许您定义与系统的连接，以检索将在您的旅程中使用的其他信息。"
 
 数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息，例如：
 
