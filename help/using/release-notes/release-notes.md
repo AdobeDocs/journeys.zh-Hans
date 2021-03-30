@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 初学者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 86%
+source-wordcount: '2438'
+ht-degree: 81%
 
 ---
 
@@ -19,6 +19,15 @@ ht-degree: 86%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
+
+## 2021年3月版{#march-2021-release}
+
+### 改进
+
+* 已在旅程中添加新状态。 当旅程结束或手动关闭时，其状态在结束后30天从&#x200B;**已关闭**&#x200B;切换为&#x200B;**已完成**。 这样，您可以更轻松地识别不活动的旅程，同时确保所有仍在场的个人有时间完成旅程。 [阅读更多](../building-journeys/journey.md#ending_a_journey)
+* 在草稿旅程的“活动”右侧窗格中，只读字段现在默认处于隐藏状态。 这种界面简化将帮助您更轻松地配置活动。 要显示这些字段，请单击位于活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。 [阅读更多](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* 在测试模式下，在&#x200B;**事件配置**&#x200B;屏幕中，用于定义测试用户档案ID的&#x200B;**键**&#x200B;字段已重命名为&#x200B;**用户档案标识符**，以获得更好的用户体验。 [阅读更多](../building-journeys/testing-the-journey.md)。
+* 对于反应事件，现在只能将超时持续时间设置在40秒到30天之间。 测试使用反应事件的旅程时，测试模式&#x200B;**[!UICONTROL Wait time]**&#x200B;的默认值和最小值现在为40秒。 [阅读更多](../building-journeys/reaction-events.md)。
 
 ## 2021年2月版{#february-2021-release}
 
