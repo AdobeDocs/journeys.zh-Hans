@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 关于历程构建
 description: 作为企业用户，了解如何结合事件、编排和行为活动来构建历程。
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 15%
+source-wordcount: '561'
+ht-degree: 13%
 
 ---
 
@@ -57,9 +57,20 @@ ht-degree: 15%
 
 ## 结束旅程{#ending_a_journey}
 
-结束旅程有两种方式：
+一个旅程可能会因个人而结束，原因有二：
 
 * 那人到达了路的最后活动。 最后一个活动可以是结束活动或其他活动。 没有义务用结束活动结束路径。 请参阅[此页](../building-journeys/end-activity.md)。
 * 该人到达条件活动(或具有条件的等待活动)，并且不符合任何条件。
 
 如果允许重新进入，则人员随后可以重新进入旅程。 请参阅[此页](../building-journeys/changing-properties.md)。
+
+由于以下原因，旅程可能会结束：
+
+* 通过&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;按钮手动关闭旅程。
+* 到达旅程的结束日期。
+
+当旅程关闭时（出于上述任何原因），其状态将为&#x200B;**[!UICONTROL Closed (no entrance)]**。 这一旅程将不再让新人进入旅程。 已经在旅程中的人将正常完成旅程。 在默认全局超时30天后，旅程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/changing-properties.md#entrance)。
+
+如果您需要阻止旅程中所有个人的进步，您可以阻止它。 停止旅程将超时旅程中的所有个人。
+
+要了解如何手动关闭或停止旅程，请参阅此[部分](../building-journeys/terminating-a-journey.md)。
