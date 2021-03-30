@@ -4,12 +4,12 @@ solution: Journey Orchestration
 title: 测试历程
 description: '了解旅程测试 '
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1619'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,21 @@ ht-degree: 3%
 
    ![](../assets/journeytest1.png)
 
-1. 使用左下角的&#x200B;**[!UICONTROL Wait time in test]**&#x200B;参数定义每个等待活动在测试模式下的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 此参数仅在您在旅程中放置了一个或多个等待活动时才显示。
+1. 使用左下角的&#x200B;**[!UICONTROL Wait time]**&#x200B;参数定义每次等待活动和事件超时在测试模式下将持续的时间。 默认时间为等待和事件超时的10秒。 这样可以确保快速获得测试结果。 此参数仅在您在旅程中放置了一个或多个等待活动时才显示。
 
    ![](../assets/journeytest_wait.png)
 
-1. 单击&#x200B;**[!UICONTROL Trigger an event]**&#x200B;配置事件并将其发送到旅程。 确保发送与测试事件相关的用户档案。 请参阅[激发事件](#firing_events)。
+   >[!NOTE]
+   >
+   >当在旅程中使用反应事件时，等待时间默认值和最小值为40秒。 请参阅[此部分](../building-journeys/reaction-events.md)
+
+1. 单击&#x200B;**[!UICONTROL Trigger an event]**&#x200B;配置事件并将其发送到旅程。
 
    ![](../assets/journeyuctest1.png)
+
+1. 配置所需的不同字段。 在&#x200B;**用户档案标识符**&#x200B;字段中，输入用于标识测试用户档案的字段值。 例如，它可以是电子邮件地址。 确保发送与测试事件相关的用户档案。 请参阅[激发事件](#firing_events)。
+
+   ![](../assets/journeyuctest1-bis.png)
 
 1. 收到事件后，单击&#x200B;**[!UICONTROL Show log]**&#x200B;按钮视图测试结果并验证。 请参阅[查看日志](#viewing_logs)。
 
@@ -123,7 +131,7 @@ curl -X POST \
 >
 >在测试模式下触发事件时，会生成一个真实事件，这意味着它还会触及侦听此事件的其他旅程。
 
-作为先决条件，您必须知道哪些用户档案在Adobe Experience Platform中被标记为测试用户档案。 事实上，测试模式只允许旅程中的这些用户档案，而事件必须包含ID。 所需的ID取决于事件配置。 例如，它可以是ECID。
+作为先决条件，您必须知道哪些用户档案在Adobe Experience Platform中被标记为测试用户档案。 事实上，测试模式只允许旅程中的这些用户档案，而事件必须包含ID。 所需的ID取决于事件配置。 例如，它可以是ECID或电子邮件地址。 此键的值需要添加到&#x200B;**用户档案标识符**&#x200B;字段中。
 
 如果您的旅程包含多个事件，请使用下拉列表选择事件。 然后，对于每个事件，配置传递的字段和执行事件发送。 该接口可帮助您在事件有效负荷中传递正确的信息，并确保信息类型正确。 测试模式将保存测试会话中使用的最后一个参数以供以后使用。
 
