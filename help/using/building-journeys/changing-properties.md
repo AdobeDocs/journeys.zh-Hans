@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 更改属性
 description: 了解如何更改属性
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 0%
+source-wordcount: '495'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 0%
 默认情况下，新旅程允许重新进入。 您可以取消选中“一次性”旅程选项，例如，当某人进入商店时，您要优惠一次性馈赠。 在这种情况下，您不希望客户能够重新进入旅程并再次接收优惠。
 
 当旅程“结束”时，其状态为&#x200B;**[!UICONTROL Closed (no entrance)]**。 这一旅程将不再让新人进入旅程。 已经在旅程中的人将正常完成旅程。
+
+在默认全局超时30天后，旅程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](#global_timeout)。
 
 ## 旅程活动{#timeout_and_error}中的超时和错误
 
