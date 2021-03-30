@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 终止历程
 description: 了解如何终止旅程
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 4%
+source-wordcount: '359'
+ht-degree: 5%
 
 ---
 
@@ -22,12 +22,16 @@ ht-degree: 4%
 >[!NOTE]
 >
 >请注意，您无法恢复已关闭或已停止的旅程。
+>
+>此[部分](../building-journeys/journey.md#ending_a_journey)描述了旅程结束的概念。
 
 ## 结束旅程
 
 您可以手动结束旅程，以确保已进入旅程的客户能够完成其旅程，但新用户无法进入旅程。
 
-无法重新启动或删除已关闭的旅程版本。 您可以创建新版本或将其重复。
+结束后，旅程将具有&#x200B;**[!UICONTROL Closed (no entrance)]**&#x200B;状态。 在默认全局超时30天后，旅程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/changing-properties.md#entrance)。
+
+无法重新启动或删除已关闭的旅程版本。 您可以创建新版本或将其重复。 只能删除已完成的旅程。
 
 在旅程列表中悬停某个旅程时，单击&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;即可关闭该旅程。
 
@@ -48,6 +52,8 @@ ht-degree: 4%
 当出现紧急情况且所有处理需要在旅程中立即结束时，您可以停止旅程。
 
 无法重新启动已停止的旅程版本。
+
+停止时，旅程将具有&#x200B;**[!UICONTROL Stopped]**&#x200B;状态。
 
 在旅程列表中悬停一段旅程时，单击&#x200B;**[!UICONTROL Stop]**，即可停止一段旅程(例如，当营销人员意识到旅程目标错误的受众或应用于传送消息的自定义操作无法正确运行时)。
 
