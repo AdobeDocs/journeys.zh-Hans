@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 使用历程设计器
 description: 进一步了解如何使用旅程设计器
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 5%
 单击调色板中的活动时，将显示&#x200B;**活动配置窗格**。 填写必填字段。 单击&#x200B;**[!UICONTROL Delete]**&#x200B;图标以删除活动。 单击&#x200B;**[!UICONTROL Cancel]**&#x200B;取消修改，或单击&#x200B;**[!UICONTROL Ok]**&#x200B;确认。 要删除活动，您还可以选择一个活动（或多个）并按后空格键。 按转义键将关闭活动配置窗格。
 
 在画布中，您的操作和事件活动由图标表示，图标的名称显示在下方。 在活动配置窗格中，可以使用&#x200B;**[!UICONTROL Label]**&#x200B;字段向活动名称添加后缀。 这些标签将帮助您将事件和动作的使用情境化，尤其是当您在旅程中多次使用相同的事件或动作时。 您还可以看到您在[!DNL Journey Orchestration]报告中添加的标签。 您还可以为条件活动定义标签。
+
+默认情况下，只读字段处于隐藏状态。 要显示这些字段，请单击活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。
 
 ![](../assets/journey59bis.png)
 
