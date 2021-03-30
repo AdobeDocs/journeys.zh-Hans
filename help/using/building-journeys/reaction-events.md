@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 反应事件
 description: 了解反应事件
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 1. 将&#x200B;**[!UICONTROL Label]**&#x200B;添加到反应中。 此步骤是可选的。
 1. 从下拉列表中，选择要对其做出响应的操作活动。 您可以选择位于路径的前几步中的任何操作活动。
 1. 根据您选择的操作（电子邮件、短信或推送通知），选择您要对什么做出响应。
-1. 您可以将条件定义为可选步骤。 例如，在执行电子邮件操作后，您可以决定创建两条路径，一条路径具有仅跟踪VIP客户点击量的反应事件，另一条路径具有跟踪女性点击量的反应事件。
+1. 您可以定义事件超时（40秒到30天之间）和超时路径。 这将为未在定义持续时间内做出响应的个人创建第二条路径。 测试使用反应事件的旅程时，测试模式&#x200B;**[!UICONTROL Wait time]**&#x200B;的默认值和最小值为40秒。 请参阅[此章节](../building-journeys/testing-the-journey.md)。
 
 >[!NOTE]
 >
