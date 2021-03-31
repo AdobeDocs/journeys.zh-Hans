@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 创建测试用户档案
 description: '了解测试用户档案创建 '
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '728'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/badge.png)
 
-在旅程中使用测试模式时，需要测试用户档案。 可以将[现有用户档案](../building-journeys/creating-test-profiles.md#turning-profile-into-test)转换为测试用户档案，或者[创建测试用户档案](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)。 要了解如何使用测试模式，请参阅[本节](../building-journeys/testing-the-journey.md)。
+在旅程中使用测试模式时，需要测试用户档案。 要了解如何使用测试模式，请参阅[本节](../building-journeys/testing-the-journey.md)。
 
-在Adobe Experience Platform中创建测试用户档案有不同的方法。 在本文档中，我们侧重于两种方法：上传[csv文件](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)并使用[API调用](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您还可以在数据集中上传json文件，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)
+在Adobe Experience Platform中创建测试用户档案有不同的方法。 在本文档中，我们侧重于两种方法：上传[csv文件](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)并使用[API调用](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您还可以在数据集中上传json文件，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
+
+这些导入方法还允许您更新用户档案属性。 这样，您可以将现有用户档案转换为测试用户档案。 只需使用类似的文件或API调用，并且只包含值为“true”的“testProfile”字段。
 
 创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关详细信息，请参阅[实时客户用户档案文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
 
@@ -68,44 +70,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 > 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
-
-## 将用户档案转换为测试用户档案{#turning-profile-into-test}
-
-可以将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，可以像创建用户档案时一样更新用户档案属性。
-
-要执行此操作，更简单的方法是在旅程中使用&#x200B;**更新用户档案**&#x200B;操作活动，并将testProfile布尔字段从false更改为true。
-
-您的旅程将由&#x200B;**读取段**&#x200B;和&#x200B;**更新用户档案**&#x200B;活动组成。 您首先需要创建一个区段，定位要转换为测试用户档案的用户档案。
-
->[!NOTE]
->
-> 由于您将更新&#x200B;**testProfile**&#x200B;字段，所选用户档案必须包含此字段。 相关模式必须具有&#x200B;**用户档案测试详细信息**&#x200B;混音。 请参阅[此章节](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites)。
-
-1. 在客户历程管理中，单击左侧菜单中的&#x200B;**区段**，然后单击右上方的&#x200B;**创建区段**。
-   ![](../assets/test-profiles-22.png)
-1. 定义区段名称并构建区段：选择字段和值以目标所需的用户档案。
-   ![](../assets/test-profiles-23.png)
-1. 单击&#x200B;**保存**并检查区段是否正确定位用户档案。
-   ![](../assets/test-profiles-24.png)
-
-   >[!NOTE]
-   >
-   > 区段计算可能需要一些时间。 了解有关[此部分](../segment/about-segments.md)中的区段的更多信息。
-
-1. 现在使用&#x200B;**读取区段**&#x200B;业务流程活动创建新的旅程和开始。
-1. 选择之前创建的区段以及用户档案使用的命名空间。
-   ![](../assets/test-profiles-25.png)
-1. 添加&#x200B;**更新用户档案**&#x200B;操作活动。
-1. 选择模式、**testProfiles**字段、数据集并将值设置为“true”。
-   ![](../assets/test-profiles-26.png)
-1. 添加&#x200B;**End**&#x200B;活动，然后单击&#x200B;**Publish**。
-   ![](../assets/test-profiles-27.png)
-1. 在Adobe Experience Platform中，检查用户档案是否已正确更新。
-   ![](../assets/test-profiles-28.png)
-
-   >[!NOTE]
-   >
-   > 有关&#x200B;**更新用户档案**&#x200B;活动的详细信息，请参阅[本节](../building-journeys/update-profiles.md)。
 
 ## 使用csv文件{#create-test-profiles-csv}创建测试用户档案
 
