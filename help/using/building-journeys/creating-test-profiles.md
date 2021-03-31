@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 创建测试用户档案
 description: '了解测试用户档案创建 '
 translation-type: tm+mt
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
+source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 2%
@@ -13,8 +13,6 @@ ht-degree: 2%
 
 
 # 创建测试用户档案{#create-test-profiles}
-
-![](../assets/do-not-localize/badge.png)
 
 在旅程中使用测试模式时，需要测试用户档案。 要了解如何使用测试模式，请参阅[本节](../building-journeys/testing-the-journey.md)。
 
