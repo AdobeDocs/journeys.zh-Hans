@@ -7,9 +7,9 @@ feature: 历程
 role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1624'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 您可以使用测试用户档案在发布之前测试您的旅程。 这使您能够分析个人在旅程中的流向，并在发布前进行疑难解答。
 
-只有测试用户档案才能以测试模式进入旅程。 您可以[创建新的测试用户档案](../building-journeys/testing-the-journey.md#create-test-profile)或[将现有用户档案转换为测试用户档案](../building-journeys/testing-the-journey.md#turning-profile-into-test)。
+只有测试用户档案才能以测试模式进入旅程。 您可以创建新的测试用户档案，或将现有用户档案转换为测试用户档案。 请参阅此[部分](../building-journeys/creating-test-profiles.md)。
 
 要使用测试模式，请执行以下步骤：
 
@@ -56,7 +56,7 @@ ht-degree: 3%
 ## 重要说明{#important_notes}
 
 * 提供了一个接口，用于向测试旅程中的事件发射事件，但也可以由第三方系统发送，例如Postman。
-* 只允许在实时客户用户档案服务中标记为“测试用户档案”的个人进入测试旅程。 请参阅[此章节](../building-journeys/testing-the-journey.md#create-test-profile)。
+* 只允许在实时客户用户档案服务中标记为“测试用户档案”的个人进入测试旅程。 请参阅此[部分](../building-journeys/creating-test-profiles.md)。
 * 测试模式仅在使用命名空间的草稿旅程中可用。 测试模式需要检查进入旅程的人员是否是测试用户档案，因此必须能够到达Adobe Experience Platform。
 * 在测试会话期间，可以进入旅程的测试用户档案的最大数目为100。
 * 禁用测试模式时，它将从过去或当前使用该模式的所有人员中清除旅程。 它还清除报告。
