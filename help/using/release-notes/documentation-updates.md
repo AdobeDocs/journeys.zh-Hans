@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: 文档更新
 description: 了解文档更新
 feature: 历程
-role: 业务从业者
+role: 商业从业者
 level: 初学者
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 99%
+source-wordcount: '806'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 99%
 
 此页面列出了
 [!DNL Journey Orchestration]的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+
+## 2021 年 3 月 {#march-2021}
+
+* 我们详细介绍了在Adobe Experience Platform中创建测试用户档案的完整过程。 [阅读更多](../building-journeys/creating-test-profiles.md)。
 
 ## 2021 年 1 月 {#january-2021}
 
@@ -47,7 +51,7 @@ ht-degree: 99%
 * 添加了注释，以说明如何在操作或条件出现错误后继续历程。[阅读更多](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 新增了 Alpha 功能部分，这些功能在有限的一组客户中进行测试。
 * 添加了有关与智能服务集成的新部分。[阅读更多](../ai-services/ai-services-overview.md)
-* 在创建测试用户档案时添加了新部分。[阅读更多](../building-journeys/testing-the-journey.md#create-test-profile)
+* 在创建测试用户档案时添加了新部分。[阅读更多](../building-journeys/testing-the-journey.md)
 * 添加了有关如何在历程条件或操作中使用 **[!UICONTROL SegmentQualification]** 节点的信息。[阅读更多](../building-journeys/segment-qualification-events.md)
 * 已在 Campaign 事务性消息和事件出版中添加注释。请参阅[使用 Adobe Campaign](../action/working-with-adobe-campaign.md) 和 [使用 Adobe Campaign 操作](../building-journeys/using-adobe-campaign-actions.md)。
 * 已在测试 Campaign Standard 实例 URL 时执行的检查中添加了信息。[阅读更多](../action/working-with-adobe-campaign.md)
