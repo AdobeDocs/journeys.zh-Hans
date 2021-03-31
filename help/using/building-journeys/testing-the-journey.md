@@ -7,7 +7,7 @@ feature: 历程
 role: 商业从业者
 level: 中间
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >当在旅程中使用反应事件时，等待时间默认值和最小值为40秒。 请参阅[此部分](../building-journeys/reaction-events.md)
+   >当在旅程中使用反应事件时，等待时间默认值和最小值为40秒。 请参阅[此章节](../building-journeys/reaction-events.md)。
 
 1. 单击&#x200B;**[!UICONTROL Trigger an event]**&#x200B;配置事件并将其发送到旅程。
 
