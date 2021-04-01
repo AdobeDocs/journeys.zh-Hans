@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 创建测试用户档案
 description: '了解测试用户档案创建 '
 translation-type: tm+mt
-source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
+source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '677'
 ht-degree: 2%
 
 ---
@@ -28,25 +28,25 @@ ht-degree: 2%
 
 首先，您需要&#x200B;**创建模式**。 按照以下步骤操作：
 
-1. 在Adobe Experience Platform中，单击左菜单中的&#x200B;**模式**。
+1. 在Adobe Experience Platform中，单击左侧菜单中的&#x200B;**[!UICONTROL Schemas]**。
    ![](../assets/test-profiles-0.png)
-1. 单击右上角的&#x200B;**创建模式**，然后选择模式类型，例如&#x200B;**XDM单个用户档案**。
+1. 单击右上角的&#x200B;**[!UICONTROL Create schema]**，然后选择模式类型，例如&#x200B;**[!UICONTROL XDM Individual Profile]**。
    ![](../assets/test-profiles-1.png)
 1. 为模式选择名称。
-1. 在&#x200B;**Mixins**&#x200B;部分，单击&#x200B;**添加**。
+1. 在&#x200B;**[!UICONTROL Mixins]**&#x200B;部分，单击&#x200B;**[!UICONTROL Add]**。
    ![](../assets/test-profiles-1-bis.png)
-1. 选择适当的混音。 确保添加&#x200B;**用户档案测试详细信息**&#x200B;混音。 单击&#x200B;**添加mixin**。
+1. 选择适当的混音。 确保添加&#x200B;**[!UICONTROL Profile test details]**&#x200B;混音。 单击 **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 混音的列表显示在模式概述屏幕上。
 
    ![](../assets/test-profiles-2.png)
 1. 在字段列表中，单击要定义为主标识的字段。
    ![](../assets/test-profiles-3.png)
-1. 在&#x200B;**字段属性**&#x200B;右面板中，检查&#x200B;**Identity**&#x200B;和&#x200B;**主标识**&#x200B;选项并选择命名空间。 如果希望主标识是电子邮件地址，请选择&#x200B;**电子邮件**&#x200B;命名空间。 单击&#x200B;**应用**。
+1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右面板中，检查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;选项并选择命名空间。 如果希望主标识是电子邮件地址，请选择&#x200B;**[!UICONTROL Email]**&#x200B;命名空间。 单击 **[!UICONTROL Apply]**.
    ![](../assets/test-profiles-4.png)
-1. 选择模式并在&#x200B;**用户档案属性**&#x200B;中启用&#x200B;**模式**选项。
+1. 选择模式并启用&#x200B;**[!UICONTROL Schema properties]**&#x200B;中的&#x200B;**[!UICONTROL Profile]**选项。
    ![](../assets/test-profiles-5.png)
-1. 单击&#x200B;**保存**。
+1. 单击 **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -54,15 +54,15 @@ ht-degree: 2%
 
 然后，您需要&#x200B;**创建要导入用户档案的数据集**。 按照以下步骤操作：
 
-1. 在Adobe Experience Platform中，单击左菜单中的&#x200B;**数据集**，然后单击&#x200B;**创建数据集**。
+1. 在Adobe Experience Platform中，单击左菜单中的&#x200B;**[!UICONTROL Datasets]**，然后单击&#x200B;**[!UICONTROL Create dataset]**。
    ![](../assets/test-profiles-6.png)
-1. 选择&#x200B;**从模式**创建数据集。
+1. 选择&#x200B;**[!UICONTROL Create dataset from schema]**。
    ![](../assets/test-profiles-7.png)
-1. 选择之前创建的模式，然后单击&#x200B;**下一步**。
+1. 选择之前创建的模式，然后单击&#x200B;**[!UICONTROL Next]**。
    ![](../assets/test-profiles-8.png)
-1. 选择一个名称，然后单击&#x200B;**完成**。
+1. 选择一个名称，然后单击&#x200B;**[!UICONTROL Finish]**。
    ![](../assets/test-profiles-9.png)
-1. 启用&#x200B;**用户档案**选项。
+1. 启用&#x200B;**[!UICONTROL Profile]**选项。
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -79,17 +79,17 @@ ht-degree: 2%
 1. 每个用户档案添加一行，并填写每个字段的值。
    ![](../assets/test-profiles-12.png)
 1. 将电子表格另存为csv文件。 确保逗号用作分隔符。
-1. 在Adobe Experience Platform中，单击左菜单中的&#x200B;**工作流**。
+1. 在Adobe Experience Platform中，单击左侧菜单中的&#x200B;**[!UICONTROL Workflows]**。
    ![](../assets/test-profiles-14.png)
-1. 选择&#x200B;**将CSV映射到XDM模式**，然后单击&#x200B;**启动**。
+1. 选择&#x200B;**[!UICONTROL Map CSV to XDM schema]**，然后单击&#x200B;**[!UICONTROL Launch]**。
    ![](../assets/test-profiles-16.png)
-1. 选择要将用户档案导入的数据集。 单击&#x200B;**下一步**。
+1. 选择要将用户档案导入的数据集。 单击 **[!UICONTROL Next]**.
    ![](../assets/test-profiles-17.png)
-1. 单击&#x200B;**选择文件**，然后选择您的csv文件。 上载文件时，单击&#x200B;**下一步**。
+1. 单击&#x200B;**[!UICONTROL Choose files]**&#x200B;并选择您的csv文件。 上载文件时，单击&#x200B;**[!UICONTROL Next]**。
    ![](../assets/test-profiles-18.png)
-1. 将源csv字段映射到模式字段，然后单击&#x200B;**完成**。
+1. 将源csv字段映射到模式字段，然后单击&#x200B;**[!UICONTROL Finish]**。
    ![](../assets/test-profiles-19.png)
-1. 数据导入开始。 状态将从&#x200B;**Processing**&#x200B;移动到&#x200B;**Success**。 单击右上方的&#x200B;**预览数据集**。
+1. 数据导入开始。 状态将从&#x200B;**[!UICONTROL Processing]**&#x200B;移动到&#x200B;**[!UICONTROL Success]**。 单击右上方的&#x200B;**[!UICONTROL Preview data set]**。
    ![](../assets/test-profiles-20.png)
 1. 检查测试用户档案是否已正确添加。
    ![](../assets/test-profiles-21.png)
