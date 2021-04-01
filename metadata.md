@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: 学习和支持
 solution-hub-url: https://helpx.adobe.com/cn/support/experience-cloud.html
 solution-image: assets/campaign-icon-24.png
@@ -13,9 +13,9 @@ feature-set: Journey Orchestration
 solution: Journey Orchestration
 type: 文档
 feature: 历程
-translation-type: ht
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4391db37e7d8874359e1349078dc479c04b3f018
+workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 100%
 
