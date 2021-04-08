@@ -4,16 +4,16 @@ solution: Journey Orchestration
 title: 访问管理
 description: 了解有关访问管理的更多信息
 feature: 历程
-role: 业务从业者
-level: 中间
+role: Business Practitioner
+level: Intermediate
+exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '861'
 ht-degree: 98%
 
 ---
-
 
 # 访问管理{#concept_rfj_wpt_52b}
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用 Adobe Campaign Standard 在历程中发送消息，则需要此产品用户档案。
+   >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用 Adobe Campaign Standard 在历程中发送消息，则需要此产品用户档案。不应在管理控制台中重命名它。
 
 * **[!UICONTROL Standard User]**：具有基本访问权限的用户，如历程管理。此产品用户档案包括以下权限：
    * 管理历程
