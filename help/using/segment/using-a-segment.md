@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用区段
 description: 了解如何使用细分
-feature: 历程
-role: 业务从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt

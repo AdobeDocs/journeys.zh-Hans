@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 关于数据源
 description: '了解如何配置数据源 '
-feature: 历程
-role: 商业从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt

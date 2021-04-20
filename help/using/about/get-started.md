@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 入门
 description: 了解设置 Journey Orchestration 和构建您的第一个历程的主要步骤。
-feature: 历程
-role: 业务从业者
-level: 初学者
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

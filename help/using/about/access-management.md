@@ -3,7 +3,7 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 访问管理
 description: 了解有关访问管理的更多信息
-feature: 历程
+feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59

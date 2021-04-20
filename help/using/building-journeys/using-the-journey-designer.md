@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用历程设计器
 description: 进一步了解如何使用旅程设计器
-feature: 历程
-role: 商业从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

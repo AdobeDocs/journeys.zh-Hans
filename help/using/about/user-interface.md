@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 用户界面
 description: 了解有关用户界面的更多信息
-feature: 历程
-role: 商业从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt

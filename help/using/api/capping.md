@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 限制API描述
 description: 进一步了解封顶API。
 products: journeys
-feature: 历程
-role: 业务从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

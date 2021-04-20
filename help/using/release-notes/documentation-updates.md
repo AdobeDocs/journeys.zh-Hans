@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 文档更新
 description: 了解文档更新
-feature: 历程
-role: 商业从业者
-level: 初学者
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt

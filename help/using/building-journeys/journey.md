@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 关于历程构建
 description: 作为企业用户，了解如何结合事件、编排和行为活动来构建历程。
-feature: 历程
-role: 商业从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt

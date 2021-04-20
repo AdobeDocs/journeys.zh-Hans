@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 测试历程
 description: '了解旅程测试 '
-feature: 历程
-role: 商业从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt

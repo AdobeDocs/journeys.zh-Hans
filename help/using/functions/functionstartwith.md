@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: startWith
 description: 了解函数的开头
-feature: 历程
-role: 数据工程师
-level: 富有经验
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 终止历程
 description: 了解如何终止旅程
-feature: 历程
-role: 商业从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

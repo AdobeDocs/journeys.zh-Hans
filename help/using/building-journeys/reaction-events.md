@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 反应事件
 description: 了解反应事件
-feature: 历程
-role: 商业从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt

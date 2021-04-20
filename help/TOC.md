@@ -5,7 +5,7 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供有关实施和构建历程的操作说明。
 index: true
-feature: 历程
+feature: Journeys
 translation-type: ht
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: ht

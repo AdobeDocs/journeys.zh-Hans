@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 从一个历程到另一个历程
 description: 从一个历程到另一个历程
-feature: 历程
-role: 商业从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt

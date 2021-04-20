@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 更改属性
 description: 了解如何更改属性
-feature: 历程
-role: 商业从业者
-level: 中间
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt

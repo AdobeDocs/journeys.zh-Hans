@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 关于 Journey Orchestration
 description: 详细了解 Journey Orchestration
-feature: 历程
-role: 商业从业者
-level: 初学者
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: ht

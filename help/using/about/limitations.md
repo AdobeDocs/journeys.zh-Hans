@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration限制
 description: 了解有关Journey Orchestration限制的更多信息
-feature: 历程
-role: 业务从业者
-level: 初学者
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
