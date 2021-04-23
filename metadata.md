@@ -12,11 +12,11 @@ index: true
 feature-set: Journey Orchestration
 solution: Journey Orchestration
 type: Documentation
-feature: Journeys
-translation-type: tm+mt
+feature: 历程
+translation-type: ht
 source-git-commit: 4391db37e7d8874359e1349078dc479c04b3f018
-workflow-type: tm+mt
-source-wordcount: '33'
+workflow-type: ht
+source-wordcount: '32'
 ht-degree: 100%
 
 ---
