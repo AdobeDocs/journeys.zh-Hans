@@ -3,21 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 测试历程
 description: '了解旅程测试 '
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
+exl-id: be413905-0631-4229-a954-80a92651206d
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 3%
+source-wordcount: '1638'
+ht-degree: 2%
 
 ---
 
-
 # 测试历程{#testing_the_journey}
 
-在能够测试旅程之前，您必须解决所有错误（如果有）。 请参阅[此章节](../about/troubleshooting.md#section_h3q_kqk_fhb)。
+在能够测试旅程之前，您必须解决所有错误（如果有）。 请参阅[此小节](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
 您可以使用测试用户档案在发布之前测试您的旅程。 这使您能够分析个人在旅程中的流向，并在发布前进行疑难解答。
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 要使用测试模式，请执行以下步骤：
 
-1. 在测试您的旅程之前，请验证该旅程是否有效且没有错误。 您将无法启动包含错误的旅程测试。 请参阅[此章节](../about/troubleshooting.md#section_h3q_kqk_fhb)。出现错误时，将显示警告符号。
+1. 在测试您的旅程之前，请验证该旅程是否有效且没有错误。 您将无法启动包含错误的旅程测试。 请参阅[此小节](../about/troubleshooting.md#section_h3q_kqk_fhb)。出现错误时，将显示警告符号。
 
 1. 要激活测试模式，请单击位于右上角的&#x200B;**[!UICONTROL Test]**&#x200B;切换。
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >当在旅程中使用反应事件时，等待时间默认值和最小值为40秒。 请参阅[此章节](../building-journeys/reaction-events.md)。
+   >当在旅程中使用反应事件时，等待时间默认值和最小值为40秒。 请参阅[此小节](../building-journeys/reaction-events.md)。
 
 1. 单击&#x200B;**[!UICONTROL Trigger an event]**&#x200B;配置事件并将其发送到旅程。
 
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 可以将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过API调用更新用户档案属性，但无法通过界面执行。
 
-执行此操作的最简单方法是使用&#x200B;**更新用户档案**&#x200B;操作活动，并将测试用户档案布尔字段从false更改为true。 请参阅[此章节](../building-journeys/update-profiles.md#using-the-test-mode)。
+执行此操作的最简单方法是使用&#x200B;**更新用户档案**&#x200B;操作活动，并将测试用户档案布尔字段从false更改为true。 请参阅[此小节](../building-journeys/update-profiles.md#using-the-test-mode)。
 
 ## 创建测试用户档案{#create-test-profile}
 
@@ -132,6 +132,10 @@ curl -X POST \
 >在测试模式下触发事件时，会生成一个真实事件，这意味着它还会触及侦听此事件的其他旅程。
 
 作为先决条件，您必须知道哪些用户档案在Adobe Experience Platform中被标记为测试用户档案。 事实上，测试模式只允许旅程中的这些用户档案，而事件必须包含ID。 所需的ID取决于事件配置。 例如，它可以是ECID或电子邮件地址。 此键的值需要添加到&#x200B;**用户档案标识符**&#x200B;字段中。
+
+>[!NOTE]
+>
+>将为需要明细列表的字段显示下拉列表。 只需选择一个可用值即可。
 
 如果您的旅程包含多个事件，请使用下拉列表选择事件。 然后，对于每个事件，配置传递的字段和执行事件发送。 该接口可帮助您在事件有效负荷中传递正确的信息，并确保信息类型正确。 测试模式将保存测试会话中使用的最后一个参数以供以后使用。
 
@@ -205,4 +209,3 @@ curl -X POST \
 如果体验事件中未包含目标数据集，则会自动创建和命名这些数据集。 这就是为什么我们今天看到“自动为旅行者创建数据集”。
 
 源的命名驱动着自动创建。 如果我们有多个事件，则应将其连接并设置为“Journey Orchestration测试事件-模式名称”。 这将自动转为“Automatically generated dataset for Journey Orchestration Test事件- NAME OF 模式”。
-
