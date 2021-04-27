@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 9138bfb4c9f916a7e8df6183fb903c31ef582623
+source-git-commit: ae1179e0f9d4b1b3f2b004e4eadfd172637596ce
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 80%
@@ -24,7 +24,7 @@ ht-degree: 80%
 
 ### 改进
 
-* 现在，在测试模式的&#x200B;**事件配置**&#x200B;屏幕中，对于需要明细列表的字段显示下拉列表。 只需选择一个可用值即可。 如果定义了不正确的值，这将避免在触发事件时出错。[阅读更多](../building-journeys/testing-the-journey.md#firing_events)
+* 现在，在测试模式的&#x200B;**事件配置**&#x200B;屏幕中，对于需要明细列表的字段显示下拉列表。 只需选择一个可用值即可。 如果定义了不正确的值，这将避免在触发事件时出错。 [阅读更多](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2021年3月版{#march-2021-release}
 
