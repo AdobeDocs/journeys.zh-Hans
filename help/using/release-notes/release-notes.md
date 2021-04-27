@@ -3,22 +3,28 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Beginner
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
+source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 81%
+source-wordcount: '2479'
+ht-degree: 80%
 
 ---
-
 
 # 发行说明 {#release-notes}
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
+
+## 2021年4月版{#april-2021-release}
+
+### 改进
+
+* 现在，在测试模式的&#x200B;**事件配置**&#x200B;屏幕中，对于需要明细列表的字段显示下拉列表。 只需选择一个可用值即可。 如果定义了不正确的值，这将避免在触发事件时出错。
 
 ## 2021年3月版{#march-2021-release}
 
