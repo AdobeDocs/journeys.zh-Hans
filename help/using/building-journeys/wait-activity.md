@@ -3,21 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 等待活动
 description: 了解等待活动
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
+exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 3%
+source-wordcount: '387'
+ht-degree: 4%
 
 ---
 
-
 # 等待活动{#section_rlm_nft_dgb}
 
-如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 它允许您定义执行下一个活动的时间。 有四个选项可用：
+如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 它允许您定义执行下一个活动的时间。 有三个选项可用：
 
 * [持续时间](#duration)
 * [固定日期](#fixed_date)
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```,事件中的字段形式为2016-08-12T09:46:06Z。
+>您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{事件.offerOpened.活动.endTime}),事件中的字段形式为2016-08-12T09:46:06Z。
 >
 >旅程的属性中需要&#x200B;**时区**。 因此，今天不可能从接口直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
