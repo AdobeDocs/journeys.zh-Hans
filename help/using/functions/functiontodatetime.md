@@ -1,16 +1,15 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toDateTime
-description: 了解toDateTime函数
-feature: Journeys
+description: 了解函数toDateTime
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 5%
+source-wordcount: '94'
+ht-degree: 6%
 
 ---
 
@@ -32,12 +31,12 @@ ht-degree: 5%
 |-----------|------------------|
 | ISO-8601格式的日期时间 | 字符串 |
 | 时区id | 字符串 |
-| 无时区 | dateTimeOnly |
-| 以毫秒为单位的整数值 | 整数 |
+| 不带时区的日期时间 | dateTimeOnly |
+| 以毫秒为单位的纪元整数值 | 整数 |
 
 >[!NOTE]
 >
->时区ID必须是字符串常数。 它不能是字段引用或表达式。 有关数据类型的详细信息，请参阅[此页](../expression/data-types.md)。
+>时区ID必须是字符串常量。 它不能是字段引用或表达式。 有关数据类型的更多信息，请参阅[此页面](../expression/data-types.md)。
 
 ## 签名和返回的类型
 
