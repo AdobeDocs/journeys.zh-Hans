@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: journeyStep 事件身份字段
 description: journeyStep 事件身份字段
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 9c0ff38f-51dd-40bd-8c19-d142b9c23308
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 19%
+source-wordcount: '60'
+ht-degree: 21%
 
 ---
 
-
 # journeyStep 事件身份字段 {#sharing-identity-fields}
 
-此混音特定于journeyStepEvent:此事件与旅程相关，没有identityMap，用于描述用户档案身份（如果有）。
+此混合内容专用于journeyStepEvent:此事件与历程相关，并且没有identityMap，用于描述用户档案身份（如果有）。
 
 对于journeyStepEvent，我们还需要添加与标识相关的字段：
 
@@ -29,6 +27,6 @@ ht-degree: 19%
 
 ## profileNamespace
 
-用户档案标识符命名空间
+配置文件标识符命名空间
 
 类型：字符串
