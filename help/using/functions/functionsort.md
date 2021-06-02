@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: sort
 description: 了解函数排序
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 11%
+source-wordcount: '105'
+ht-degree: 12%
 
 ---
 
+# 排序 {#sort}
 
-# sort {#sort}
-
-按自然顺序对值的列表排序。 第一个参数是值的列表，第二个参数是指示排序是升序(true)还是降序(false)的布尔值。
+按自然顺序对值列表进行排序。 第一个参数是值列表，第二个是布尔值，用于指示排序是升序(true)还是降序(false)。
 
 ## 类别
 
@@ -48,7 +46,7 @@ ht-degree: 11%
 
 `sort(<listDecimal>,<boolean>)`
 
-返回一列表小数。
+返回小数列表。
 
 `sort(<listString>,<boolean>)`
 
@@ -56,15 +54,15 @@ ht-degree: 11%
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-返回日期时间列表，不考虑时区。
+返回不考虑时区的日期时间列表。
 
 `sort(<listDateTime>,<boolean>)`
 
-返回datetime的列表。
+返回datetimes列表。
 
 `sort(<listBoolean>,<boolean>)`
 
-返回一列表布尔语。
+返回布尔值列表。
 
 ## 示例
 
