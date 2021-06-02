@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: nowWithDelta
 description: 了解函数nowWithDelta
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f23f729b-7edb-4efc-a7ea-904314a7b2e1
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 5%
+source-wordcount: '110'
+ht-degree: 6%
 
 ---
 
-
 # nowWithDelta {#nowWithDelta}
 
-返回包含偏移的当前日期时间。 如果指定了时区ID，则将应用时区偏移。 有关数据类型的详细信息，请参阅[此页](../expression/data-types.md)。
+返回包含偏移的当前日期时间。 如果指定了时区ID，则将应用时区偏移。 有关数据类型的更多信息，请参阅[此页面](../expression/data-types.md)。
 
 ## 类别
 
@@ -31,9 +29,9 @@ ht-degree: 5%
 
 | 参数 | 说明 |
 |--- |--- |
-| δ | 正整数 |
-| 日期 | 年、月、日、小时、分或秒，作为字符串 |
-| 时区id | 时区值的字符串表示形式。 有关详细信息，请参阅[数据类型](../expression/data-types.md)。 时区ID必须是字符串常数。 它不能是字段引用或表达式。 |
+| 三角洲 | 正整数或负整数值 |
+| 日期部分 | 年、月、日、小时、分钟或秒（字符串） |
+| 时区id | 时区值的字符串表示形式。 有关更多信息，请参阅[数据类型](../expression/data-types.md)。 时区ID必须是字符串常量。 它不能是字段引用或表达式。 |
 
 ## 签名和返回类型
 
@@ -49,4 +47,4 @@ ht-degree: 5%
 
 `nowWithDelta(-2, "hours", "Europe/Paris")`
 
-返回一个2小时前的dateTime。
+返回恰好2小时前的dateTime。
