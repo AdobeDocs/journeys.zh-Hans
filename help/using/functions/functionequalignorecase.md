@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: equalWithIgnoreCase
-description: 了解equalWithIgnoreCase函数
-feature: Journeys
+description: 了解函数equalWithIgnoreCase
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 9311c799-a4e6-47b3-9867-b09093d3a981
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '37'
+ht-degree: 16%
 
 ---
-
 
 # equalWithIgnoreCase {#equalWithIgnoreCase}
 
