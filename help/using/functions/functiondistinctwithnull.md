@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinctWithNull
-description: 了解函数distinctWithNull
-feature: Journeys
+description: 了解distinctWithNull函数
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 11%
+source-wordcount: '100'
+ht-degree: 13%
 
 ---
 
-
 # distinctWithNull {#distinctWithNull}
 
-返回列表的不同值。 如果列表至少有一个null值，则返回的列表中将有null值。
+返回列表的不同值。 如果列表至少具有一个空值，则返回的列表中将有一个空值。
 
 ## 类别
 
@@ -47,7 +45,7 @@ ht-degree: 11%
 
 `distinctWithNull(<listDecimal>)`
 
-返回一列表小数。
+返回小数列表。
 
 `distinctWithNull(<listString>)`
 
@@ -55,19 +53,19 @@ ht-degree: 11%
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-返回日期时间列表，不考虑时区。
+返回不考虑时区的日期时间列表。
 
 `distinctWithNull(<listDateTime>)`
 
-返回datetime的列表。
+返回datetimes列表。
 
 `distinctWithNull(<listBoolean>)`
 
-返回一列表布尔语。
+返回布尔值列表。
 
 `distinctWithNull(<listDuration>)`
 
-返回持续时间的列表。
+返回持续时间列表。
 
 ## 示例
 
