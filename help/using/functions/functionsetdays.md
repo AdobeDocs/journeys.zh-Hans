@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: setDays
 description: 了解函数setDays
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
-
 # setDays {#setDays}
 
-仅设置日期时间或日期时间的日期。 例如，如果要等到某月的某个日子，则可以强制该日。
+仅设置日期时间或日期时间的日期。 例如，如果要等到当月的某一天，则可以强制该天。
 
 ## 类别
 
@@ -32,8 +30,8 @@ ht-degree: 6%
 | 参数 | 类型 |
 |--- |--- |
 | 日期时间 | dateTime |
-| 不考虑时区 | dateTimeOnly |
-| 天 | 整数 |
+| 不考虑时区的日期时间 | dateTimeOnly |
+| 天数 | 整数 |
 
 ## 签名和返回类型
 
