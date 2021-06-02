@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: now
-description: 立即了解该功能
-feature: Journeys
+description: 立即了解该函数
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 11%
+source-wordcount: '50'
+ht-degree: 14%
 
 ---
 
-
 # now {#now}
 
-以日期时间格式返回当前日期。 有关数据类型的详细信息，请参阅[此页](../expression/data-types.md)。
+以日期时间格式返回当前日期。 有关数据类型的更多信息，请参阅[此页面](../expression/data-types.md)。
 
 ## 类别
 
