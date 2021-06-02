@@ -1,25 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: in
 description: 了解
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 12%
+source-wordcount: '112'
+ht-degree: 13%
 
 ---
 
-
 # in {#in}
 
-检查第一个参数值是否在列表中。 对每个参数值使用“相等”执行检查。 如果找到参数值，则返回true，否则返回false。
+检查第一个参数值是否在列表中。 对每个参数值使用等于来执行检查。 如果找到参数值，则返回true，否则返回false。
 
-`<expression>`的类型必须与列表的项匹配。 作为提醒，列表的项目类型必须相互匹配。
+`<expression>`的类型必须与列表项匹配。 列表项目的类型必须相互匹配，作为提醒。
 
 ## 类别
 
