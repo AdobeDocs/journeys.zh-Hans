@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: matchRegExp
 description: 了解函数matchRegExp
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 5%
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
 
-
 # matchRegExp {#matchRegExp}
 
-如果第一个参数中的字符串与第二个参数中的常规表达式匹配，则返回true。 有关详细信息，请参阅[此页](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
+如果第一个参数中的字符串与第二个参数中的正则表达式匹配，则返回true。 有关更多信息，请参阅[此页面](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)。
 
 ## 类别
 
@@ -48,4 +46,4 @@ ht-degree: 5%
 
 解释：
 
-在此，您检查字符串是否满足常规表达式（java语法）：开始，然后是任何类型的字符串，最后是“World”。
+在此，您可以检查字符串是否满足正则表达式（java语法）：以“Hello”开头，然后是任何类型的字符串，以“World”结尾。
