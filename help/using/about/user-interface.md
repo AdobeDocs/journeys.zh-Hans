@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 用户界面
 description: 了解有关用户界面的更多信息
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 99%
+source-wordcount: '1011'
+ht-degree: 100%
 
 ---
-
 
 # 用户界面{#concept_rcq_lqt_52b}
 
@@ -144,4 +142,3 @@ _在历程中：_
 * 在基于事件的历程中，在测试模式下，按 **E** 可触发事件。
 * 在基于客户细分的历程中，当在测试模式下选择&#x200B;**一次单个用户档案**&#x200B;选项时，按 **P** 可触发事件。
 * 在测试模式下，按 **L** 可显示日志。
-
