@@ -1,16 +1,14 @@
 ---
 keywords: 历程；主页；热门话题
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey Orchestration 产品文档
 description: Journey Orchestration 产品文档
 feature: 历程
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-translation-type: ht
-source-git-commit: cb32a21a7449b2a610f45c2098b564ba819061e2
-workflow-type: ht
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 
