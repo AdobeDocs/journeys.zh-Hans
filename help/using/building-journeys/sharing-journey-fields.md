@@ -1,45 +1,43 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 历程场
 description: 历程场
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 9%
+source-wordcount: '68'
+ht-degree: 11%
 
 ---
 
-
 # 历程场 {#sharing-journey-fields}
 
-此混音用于旅程模式（与journeyStepEvent相关）。 它包含以下字段：
+此混合用于历程架构（与journeyStepEvent相关）。 它包含以下字段：
 
 ## journeyID
 
-主旅程的ID。
+主历程的ID。
 
 类型：字符串
 
 ## journeyVersionID
 
-旅程版本的ID。 此ID表示旅程的标识。
+历程版本的ID。 此id表示历程的标识。
 
 类型：字符串
 
 ## name
 
-旅程的名称。
+历程的名称。
 
 类型：字符串
 
 ## 描述
 
-旅程描述。
+历程的描述。
 
 类型：字符串
 
