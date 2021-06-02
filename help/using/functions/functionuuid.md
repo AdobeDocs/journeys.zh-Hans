@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: uuid
 description: 了解uuid函数
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 8105ea5c-c06b-4afa-baa5-41feddff8d0a
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 13%
 
 ---
 
-
-# uuid {#uuid}
+# uid {#uuid}
 
 生成随机UUID（通用唯一IDentifier）。
 
@@ -41,4 +39,4 @@ ht-degree: 10%
 
 `uuid()`
 
-返回“79e70b7f-8a85-400b-97a1-9f9826121553”。
+返回“79e70b7f-8a85-400b-97a1-9f9826121553”.s
