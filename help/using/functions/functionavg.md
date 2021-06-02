@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: avg
 description: 了解函数avg
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 9%
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
-
 # avg {#avg}
 
-返回一组表达式中的平均值，以列表或两个表达式的形式给定。 忽略空值。
+返回一组表达式中的平均值（以列表或两个表达式的形式提供）。 将忽略空值。
 
 
 ## 类别
@@ -53,7 +51,7 @@ ht-degree: 9%
 
 `avg(<integer>,<integer>)`
 
-返回十进制。
+返回小数。
 
 ## 示例
 
