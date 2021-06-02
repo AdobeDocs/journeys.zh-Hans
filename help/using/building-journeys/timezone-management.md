@@ -1,13 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 时区管理
 description: 了解时区管理
 feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: a19493178652a7fc91b7b778c5cb47eda72cd877
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 2%
