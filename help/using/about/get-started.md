@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 入门
 description: 了解设置 Journey Orchestration 和构建您的第一个历程的主要步骤。
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 98%
+source-wordcount: '323'
+ht-degree: 100%
 
 ---
-
 
 # 入门{#concept_y4b_4qt_52b}
 
@@ -70,4 +68,3 @@ ht-degree: 98%
    有关更多信息，请参阅[此页面](../reporting/about-journey-reports.md)。
 
    ![](../assets/dynamic_report_journey_12.png)
-
