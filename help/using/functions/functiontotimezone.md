@@ -1,13 +1,11 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toTimeZone
 description: 了解toTimeZone的函数
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -30,7 +28,7 @@ ht-degree: 5%
 |--- |--- |
 | 字符串 | 字符串值必须包含区域ID。 它可以是字段引用或表达式 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `toTimeZone(<string>)`
 
