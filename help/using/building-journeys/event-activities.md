@@ -1,13 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 关于事件活动
 description: 了解事件活动
 feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
-source-git-commit: db7567f7f3333ad69015d07991158ce5b8f01af5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
