@@ -1,26 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 使用区段
-description: 了解如何使用细分
-feature: Journeys
+description: 了解如何使用区段
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 7%
+source-wordcount: '142'
+ht-degree: 8%
 
 ---
 
-
-
 # 创建区段 {#creating-a-segment}
 
-您可以使用[Adobe Experience Platform分段服务](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)创建区段，也可以直接在[!DNL Journey Orchestration]中访问和创建区段。
+您可以使用[Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)创建区段，也可以直接在[!DNL Journey Orchestration]中访问和创建区段。
 
-1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Segments]**&#x200B;选项卡。将显示Adobe Experience Platform区段的列表。 您可以在列表中搜索特定区段。
+1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Segments]**&#x200B;选项卡。此时会显示Adobe Experience Platform区段列表。 您可以在列表中搜索特定区段。
 
    ![](../assets/segment1.png)
 
@@ -28,4 +25,4 @@ ht-degree: 7%
 
    ![](../assets/segment2.png)
 
-现在，您的区段可用于旅程中构建条件或添加&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件。 请参阅[在条件](../segment/using-a-segment.md)和[事件活动](../building-journeys/segment-qualification-events.md)中使用区段。
+现在，您的区段可用于历程中以构建条件或添加&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件。 请参阅[在条件](../segment/using-a-segment.md)和[事件活动](../building-journeys/segment-qualification-events.md)中使用区段。
