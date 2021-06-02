@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 关于事件
 description: 了解事件
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '354'
 ht-degree: 95%
 
 ---
-
 
 # 一般原则 {#concept_gfj_fqt_52b}
 
@@ -41,4 +39,3 @@ ht-degree: 95%
 * **系统生成**&#x200B;的事件：这些事件需要 eventID。创建事件时会自动生成此 eventID 字段。推送事件的系统不应生成 ID，它应传递有效负荷预览中可用的 ID。
 
 要了解如何创建事件，请参阅此[页面](../event/about-creating.md)。
-
