@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: getListItem
 description: 了解gstListItem函数
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '98'
+ht-degree: 6%
 
 ---
 
-
 # getListItem {#gestListItem}
 
-返回给定索引处的列表项。
+返回给定索引处列表的项目。
 
 ## 类别
 
@@ -48,7 +46,7 @@ ht-degree: 4%
 
 `getListItem(<listDecimal>,<index>)`
 
-返回一列表小数。
+返回小数列表。
 
 `getListItem(<listString>,<index>)`
 
@@ -56,19 +54,19 @@ ht-degree: 4%
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-返回日期时间列表，不考虑时区。
+返回不考虑时区的日期时间列表。
 
 `getListItem(<listDateTime>,<index>)`
 
-返回datetime的列表。
+返回datetimes列表。
 
 `getListItem(<listBoolean>,<index>)`
 
-返回一列表布尔语。
+返回布尔值列表。
 
 `getListItem(<listDuration>,<index>)`
 
-返回持续时间的列表。
+返回持续时间列表。
 
 ## 示例
 
@@ -79,7 +77,7 @@ ht-degree: 4%
 `getListItem(["A", "B", "C"], 3)`
 返回“C”
 
-事件字段为“事件.appVersion”且值为：&quot;20.45.2.3434&quot;
+事件字段为“event.appVersion”且值为的示例：&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
