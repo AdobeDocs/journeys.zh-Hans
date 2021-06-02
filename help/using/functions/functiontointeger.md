@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toInteger
 description: 了解函数toInteger
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 8%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
-
 
 # toInteger {#toInteger}
 
@@ -32,8 +30,8 @@ ht-degree: 8%
 | 参数 | 说明 |
 |--- |--- |
 | 字符串 | 将字符串值转换为整数 |
-| dateTime | 将日期转换为毫秒数（时间毫秒） |
-| 小数 | 通过删除小数部分转换为整数(示例：1.5变为1 |
+| dateTime | 将日期转换为毫秒数（纪元毫秒） |
+| 小数 | 通过删除小数部分转换为整数(示例：1.5变为1) |
 | 布尔 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
 
 ## 签名和返回类型
