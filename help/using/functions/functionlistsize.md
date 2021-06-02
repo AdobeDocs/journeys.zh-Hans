@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: listSize
 description: 了解函数listSize
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c0d34a8d-33e9-4c7b-9b7d-a1b21ed96d35
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 24%
+source-wordcount: '46'
+ht-degree: 28%
 
 ---
-
 
 # listSize {#listSize}
 
