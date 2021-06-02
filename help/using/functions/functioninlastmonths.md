@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inLastMonths
 description: 了解LastMonths中的函数
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ff8effa9-404a-482b-8842-a276f029e2ed
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # inLastMonths {#inLastMonths}
 
-如果给定日期或dateTime介于现在和现在 — 增量月之间，则返回true。
+如果给定的日期或dateTime介于现在和现在之间 — 增量月份，则返回true。
 
 ## 类别
 
@@ -32,7 +30,7 @@ ht-degree: 10%
 | 参数 | 类型 |
 |-----------|------------------|
 | 日期时间 | dateTime |
-| δ | 整数 |
+| 三角洲 | 整数 |
 
 ## 签名和返回类型
 
