@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: startWith
-description: 了解函数的开头
-feature: Journeys
+description: 了解函数startWith
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: bf0e75d6-cc7c-4a76-b215-8735eb62163b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
-
 
 # startWith {#startWith}
 
