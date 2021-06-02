@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 区段鉴别事件
 description: 了解客户细分资格事件
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
+exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '750'
 ht-degree: 94%
 
 ---
-
 
 # 区段鉴别事件 {#segment-qualification}
 
@@ -56,7 +54,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于来自Adobe Experience Platform的&#x200B;**已实现**&#x200B;和&#x200B;**已退出**&#x200B;区段参与状态。 有关如何评估区段的详细信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
+   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**已实现**&#x200B;和&#x200B;**已退出**&#x200B;区段参与状态。 有关如何评估区段的更多信息，请参阅[Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。
 
