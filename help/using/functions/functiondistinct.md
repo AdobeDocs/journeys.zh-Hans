@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: distinct
-description: 了解不同的功能
-feature: Journeys
+description: 了解不同的函数
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 13%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
-
 # distinct {#distinct}
 
-返回列表的不同值（无null值）。
+返回列表的非重复值，但不包含空值。
 
 ## 类别
 
@@ -47,7 +45,7 @@ ht-degree: 13%
 
 `distinct(<listDecimal>)`
 
-返回一列表小数。
+返回小数列表。
 
 `distinct(<listString>)`
 
@@ -55,19 +53,19 @@ ht-degree: 13%
 
 `distinct(<listDateTimeOnly>)`
 
-返回日期时间列表，不考虑时区。
+返回不考虑时区的日期时间列表。
 
 `distinct(<listDateTime>)`
 
-返回datetime的列表。
+返回datetimes列表。
 
 `distinct(<listBoolean>)`
 
-返回一列表布尔语。
+返回布尔值列表。
 
 `distinct(<listDuration>)`
 
-返回持续时间的列表。
+返回持续时间列表。
 
 ## 示例
 
