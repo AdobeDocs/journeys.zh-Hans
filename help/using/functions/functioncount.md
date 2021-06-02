@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: count
 description: 了解函数计数
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 46528642-18d5-4ca9-a344-de2c7f939d00
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 22%
+source-wordcount: '51'
+ht-degree: 25%
 
 ---
 
-
-# count {#count}
+# 计数 {#count}
 
 计算列表的元素，而不考虑null值。
 
