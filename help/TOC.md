@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供有关实施和构建历程的操作说明。
 index: true
-feature: Journeys
-translation-type: ht
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
+feature: 历程
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -22,7 +20,7 @@ ht-degree: 100%
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 入门 {#starting-with-journeys}
-   + [关于 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [关于  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
    + [入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
