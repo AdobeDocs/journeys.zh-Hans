@@ -10,12 +10,11 @@ tutorials-url: https://docs.adobe.com/content/help/zh-Hans/journey-orchestration
 git-repo: https://git.corp.adobe.com/AdobeDocs/journeys.zh-Hans
 index: true
 feature-set: Journey Orchestration
-solution: Journey Orchestration
+solution: Experience Platform, Journey Orchestration
 type: Documentation
 feature: 历程
-translation-type: ht
-source-git-commit: 4391db37e7d8874359e1349078dc479c04b3f018
-workflow-type: ht
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 100%
 
