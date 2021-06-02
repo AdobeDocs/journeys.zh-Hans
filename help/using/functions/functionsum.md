@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: sum
 description: 了解函数和
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 9%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
-
 # sum {#sum}
 
-返回一组表达式值的和。 忽略空值。
+返回一组表达式值的和。 将忽略空值。
 
 ## 类别
 
@@ -39,7 +37,7 @@ ht-degree: 9%
 
 `sum(<listDecimal>)`
 
-返回十进制。
+返回小数。
 
 `sum(<listInteger>)`
 
@@ -51,7 +49,7 @@ ht-degree: 9%
 
 `sum(<decimal>,<decimal>)`
 
-返回十进制。
+返回小数。
 
 ## 示例
 
