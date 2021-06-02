@@ -1,30 +1,27 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 字段引用
 description: 了解高级表达式中的字段引用
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 3%
+source-wordcount: '435'
+ht-degree: 4%
 
 ---
-
-
 
 # 字段引用 {#concept_fkj_ll5_dgb}
 
 字段引用可以附加到事件或字段组。 唯一有意义的信息是字段的名称及其路径。
 
-如果在字段中使用特殊字符，则需要使用多次引号或简单引号。 以下是需要引号的情况：
+如果您在字段中使用特殊字符，则需要使用双引号或简单引号。 以下是需要引号的情况：
 
-* 具有数字特征的场开始
-* 带有&quot;-&quot;字符的字段开始
-* 该字段包含除以下内容之外的任何内容：_a_-_z_、_-_ Z _、_ 0 _-_ 9 _、_、_-__
+* 字段以数字字符开头
+* 字段以“ — ”字符开头
+* 字段包含除以下内容之外的任何内容：_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_
 
 例如，如果字段为&#x200B;_3h_:_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -38,13 +35,13 @@ ht-degree: 3%
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-在表达式中，事件字段被引用为“@”，数据源字段被引用为“#”。
+在表达式中，事件字段被引用“@”，数据源字段被引用“#”。
 
-语法颜色用于以可视方式区分事件字段（绿色）和字段组（蓝色）。
+语法颜色用于直观地区分事件字段（绿色）和字段组（蓝色）。
 
 **字段引用的默认值**
 
-默认值可以与字段名称关联。 语法如下：
+默认值可与字段名称关联。 语法如下所示：
 
 ```
 // event field
@@ -57,7 +54,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id， defaultValue:2}将无效，因为默认值是整数，而预期值应为字符串。
+>字段类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id， defaultValue :2}将无效，因为默认值是整数，而预期值应为字符串。
 
 示例:
 
@@ -93,7 +90,7 @@ expression examples:
 
 **集合中字段的引用**
 
-集合中定义的元素使用特定函数all、first和last进行引用。 有关详细信息，请参见[此页面](../expression/collection-management-functions.md)。
+集合中定义的元素会全部使用特定函数（第一个和最后一个）来引用。 有关详细信息，请参见[此页面](../expression/collection-management-functions.md)。
 
 示例 :
 
@@ -101,25 +98,25 @@ expression examples:
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**在映射中定义的字段的引用**
+**映射中定义的字段的引用**
 
-为了检索映射中的元素，我们使用给定键的输入函数。 例如，根据所选事件定义命名空间的键时，会使用该键。 请参阅选择命名空间。 有关详细信息，请参阅[此页](../event/selecting-the-namespace.md)。
+为了检索映射中的元素，我们使用包含给定键的条目函数。 例如，在根据所选命名空间定义事件的键时，会使用该键。 请参阅选择命名空间。 有关更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-在此表达式中，我们将获得事件的“IdentityMap”字段的“Email”键的条目。 “Email”条目是一个集合，我们从中使用“first()”获取第一个元素中的“id”。 有关详细信息，请参阅[此页](../expression/collection-management-functions.md)。
+在此表达式中，我们将获取事件“IdentityMap”字段的“Email”键的条目。 “Email”条目是一个集合，我们从中使用“first()”获取第一个元素中的“id”。 有关更多信息，请参阅[此页面](../expression/collection-management-functions.md)。
 
 **数据源的参数值（数据源动态值）**
 
-如果从外部数据源中选择一个需要调用参数的字段，则右侧会显示一个新选项卡，用于指定此参数。 请参阅[此页](../expression/expressionadvanced.md)。
+如果从外部数据源中选择字段需要调用参数，则右侧会显示一个新选项卡，用于指定此参数。 请参阅[此页](../expression/expressionadvanced.md)。
 
-对于更复杂的用例，如果要在主表达式中包含数据源的参数，则可以使用关键字&#x200B;_params_&#x200B;定义其值。 参数可以是任何有效的表达式，即使来自另一个数据源（也包括另一个参数）。
+对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用关键字&#x200B;_params_&#x200B;定义其值。 参数可以是任何有效表达式，即使来自其他数据源（也包含其他参数）的参数也是如此。
 
 >[!NOTE]
 >
->在表达式中定义参数值时，右侧的选项卡消失。
+>在表达式中定义参数值时，右侧的选项卡会消失。
 
 使用以下语法：
 
