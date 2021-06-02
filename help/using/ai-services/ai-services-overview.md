@@ -1,25 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: AI服务概述
 description: AI服务概述
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 3%
+source-wordcount: '86'
+ht-degree: 4%
 
 ---
 
-
 # 关于 AI 集成 {#ai-overview}
 
-与智能服务的集成使您能够在客户体验使用案例中利用人工智能和机器学习的强大功能。 这使营销分析师能够使用业务级配置设置特定于公司需求的预测，而无需数据科学专业知识。
+与智能服务的集成使您能够在客户体验用例中利用人工智能和机器学习的强大功能。 这允许营销分析人员使用业务级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
 
-有关智能服务的详细信息，请参阅[文档](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html)。
+有关Intelligent Services的更多信息，请参阅[文档](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html)。
 
 此集成允许您利用客户预测，请参阅[利用客户AI](../ai-services/leveraging-customer-ai.md)
 
