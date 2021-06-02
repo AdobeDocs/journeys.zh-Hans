@@ -1,29 +1,27 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
-title: 关于Adobe Experience Platform细分
+title: 关于Adobe Experience Platform区段
 description: 了解如何配置Adobe Experience Platform区段
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 13%
+source-wordcount: '210'
+ht-degree: 14%
 
 ---
 
-
 # 关于Adobe Experience Platform区段{#about-segments}
 
-如果您使用[Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)创建区段，则可以在[!DNL Journey Orchestration]中利用这些区段。 借助专门的事件活动，您可以让个人根据Adobe Experience Platform细分入口和出口进入或前进旅程。 这还允许您使用简单或高级表达式编辑器在旅程中构建复杂条件。
+如果您使用[Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)创建区段，则可以在[!DNL Journey Orchestration]中利用这些区段。 借助专用的活动活动，您可以让个人根据Adobe Experience Platform区段入口和出口进入或前进历程。 这还允许您使用简单或高级表达式编辑器在历程中构建复杂条件。
 
-假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。您可以轻松构建基于此细分的条件。
+假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。您可以轻松地基于此区段构建条件。
 
-以下是可能的[!DNL Journey Orchestration]优惠区段：
+以下是[!DNL Journey Orchestration]为您提供的区段可能性：
 
-* 访问Adobe Experience Platform细分的列表。 请参阅[创建区段](../segment/creating-a-segment.md)。
-* 直接使用[!DNL Journey Orchestration]创建区段的方式与使用分段服务创建区段的方式相同。 请参阅[创建区段](../segment/creating-a-segment.md)。
-* 使用简单的或高级的表达式编辑器，在旅程条件中利用细分。 请参阅[在条件中使用区段](../segment/using-a-segment.md)。
-* 为您的旅程添加&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件，以便倾听Adobe Experience Platform区段中用户档案的进出口。 请参阅[事件活动](../building-journeys/segment-qualification-events.md)。
+* 访问Adobe Experience Platform区段列表。 请参阅[创建区段](../segment/creating-a-segment.md)。
+* 在[!DNL Journey Orchestration]中直接创建区段的方法与使用Segmentation Service创建区段的方法相同。 请参阅[创建区段](../segment/creating-a-segment.md)。
+* 使用简单或高级表达式编辑器在历程条件中利用区段。 请参阅[在条件中使用区段](../segment/using-a-segment.md)。
+* 向历程中添加&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件，以侦听Adobe Experience Platform区段中用户档案的入口和出口。 请参阅[事件活动](../building-journeys/segment-qualification-events.md)。
