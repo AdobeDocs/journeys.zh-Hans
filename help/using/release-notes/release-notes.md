@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 发行说明
 description: 了解发行说明
 feature: 历程
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-translation-type: tm+mt
-source-git-commit: ae1179e0f9d4b1b3f2b004e4eadfd172637596ce
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 80%
@@ -24,16 +22,16 @@ ht-degree: 80%
 
 ### 改进
 
-* 现在，在测试模式的&#x200B;**事件配置**&#x200B;屏幕中，对于需要明细列表的字段显示下拉列表。 只需选择一个可用值即可。 如果定义了不正确的值，这将避免在触发事件时出错。 [阅读更多](../building-journeys/testing-the-journey.md#firing_events)
+* 现在，在测试模式的&#x200B;**事件配置**&#x200B;屏幕中，将为预期枚举的字段显示一个下拉列表。 只需选择一个可用值即可。 如果定义的值不正确，这将避免在触发事件时出错。 [阅读更多](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2021年3月版{#march-2021-release}
 
 ### 改进
 
-* 已在旅程中添加新状态。 当旅程结束或手动关闭时，其状态在结束后30天从&#x200B;**已关闭**&#x200B;切换为&#x200B;**已完成**。 这样，您可以更轻松地识别不活动的旅程，同时确保所有仍在场的个人有时间完成旅程。 [阅读更多](../building-journeys/journey.md#ending_a_journey)
-* 在草稿旅程的“活动”右侧窗格中，只读字段现在默认处于隐藏状态。 这种界面简化将帮助您更轻松地配置活动。 要显示这些字段，请单击位于活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。 [阅读更多](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* 在测试模式下，在&#x200B;**事件配置**&#x200B;屏幕中，用于定义测试用户档案ID的&#x200B;**键**&#x200B;字段已重命名为&#x200B;**用户档案标识符**，以获得更好的用户体验。 [阅读更多](../building-journeys/testing-the-journey.md)。
-* 对于反应事件，现在只能将超时持续时间设置在40秒到30天之间。 测试使用反应事件的旅程时，测试模式&#x200B;**[!UICONTROL Wait time]**&#x200B;的默认值和最小值现在为40秒。 [阅读更多](../building-journeys/reaction-events.md)。
+* 历程中添加了新状态。 当历程结束或手动关闭时，其状态在历程关闭30天后从&#x200B;**Closed**&#x200B;切换到&#x200B;**Finished**。 这样，您就可以更轻松地识别不活动的历程，同时确保所有人员仍有时间完成历程。 [阅读更多](../building-journeys/journey.md#ending_a_journey)
+* 现在，在草稿历程的活动右窗格中，默认情况下隐藏只读字段。 此界面简化将帮助您更轻松地配置活动。 要显示它们，请单击活动配置窗格左上角提供的&#x200B;**显示只读字段**&#x200B;图标。 [阅读更多](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* 在测试模式下，在&#x200B;**事件配置**&#x200B;屏幕中，用于定义测试用户档案ID的&#x200B;**Key**&#x200B;字段已重命名为&#x200B;**配置文件标识符**，以获得更好的用户体验。 [阅读更多](../building-journeys/testing-the-journey.md)。
+* 对于反应事件，超时持续时间现在只能设置为40秒到30天之间。 测试使用反应事件的历程时，测试模式&#x200B;**[!UICONTROL Wait time]**&#x200B;默认值和最小值现在为40秒。 [阅读更多](../building-journeys/reaction-events.md)。
 
 ## 2021年2月版{#february-2021-release}
 
@@ -46,7 +44,7 @@ ht-degree: 80%
 <tbody>
 <tr>
 <td>
-<p>此新操作活动允许您使用来自事件、数据源或使用特定值的信息更新现有Adobe Experience Platform用户档案。</p>
+<p>此新操作活动允许您使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。</p>
 <p>有关详细信息，请参阅<a href="../building-journeys/update-profiles.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -56,23 +54,23 @@ ht-degree: 80%
 ### 其他改进
 
 * 现在，在配置事件时，默认情况下只会预先选择XDM验证中必填的字段。 无法取消选择这些字段。
-* 在旅程调板中，添加了新滤镜。 除了开箱即用的事件和操作外，它还允许您仅显示最后五个使用的操作。 这特定于每个用户。 默认情况下，将显示所有项目。 [阅读更多](../building-journeys/using-the-journey-designer.md#palette)
-* 开始新旅程时，无法作为第一步放入画布的元素现在会隐藏。 这涉及所有行动、条件活动、等待和反应。
-* 在高级表达式编辑器的左侧，现在在列表末尾的&#x200B;**Functions**&#x200B;部分下重新分组了函数。
+* 在历程面板中，添加了新过滤器。 除了现成事件和操作之外，它还允许您仅显示使用的最近五个事件和操作。 这特定于每个用户。 默认情况下，将显示所有项目。 [阅读更多](../building-journeys/using-the-journey-designer.md#palette)
+* 现在，在开始新历程时，无法作为第一步放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
+* 在高级表达式编辑器的左部，函数现在重组到列表末尾的&#x200B;**函数**&#x200B;部分下。
 
 ## 2021 年 1 月版本 {#january-2021-release}
 
-在事件配置中选择模式时，只选择Journey Orchestration正确接收事件所必须的字段。 [阅读更多](../event/defining-the-payload-fields.md)
+在事件配置中选择架构时，只会选择Journey Orchestration正确接收事件所必需的字段。 [阅读更多](../event/defining-the-payload-fields.md)
 
 历程属性属性现在在简单的表达式编辑器中可用。 [阅读更多](../expression/journey-properties.md)
 
-添加了两个新的旅程属性（sandboxName和organizationId）。 [阅读更多](../expression/journey-properties.md)
+添加了两个新的历程属性属性（sandboxName和organizationId）。 [阅读更多](../expression/journey-properties.md)
 
-为了符合Adobe Campaign Standard SLA，现在在设置Adobe Campaign Standard集成后，会为Adobe Campaign Standard操作自动定义每秒13次调用的上限规则。 [阅读更多](../action/working-with-adobe-campaign.md)
+为了符合Adobe Campaign Standard SLA的要求，现在，一旦设置了Adobe Campaign Standard集成，就会为Adobe Campaign Standard操作自动定义每秒13个调用数的上限规则。 [阅读更多](../action/working-with-adobe-campaign.md)
 
-现在，在超时路径上更清楚地指定事件超时持续时间。 [阅读更多](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+现在，在超时路径上更清楚地指定了事件超时持续时间。 [阅读更多](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函数已添加到高级表达式编辑器中可用的函数列表中。 这将在字符串计算用例中优惠更多可能性。
+[getListItem](../functions/functiongetlistitem.md)和[split](../functions/functionsplit.md)函数已添加到高级表达式编辑器中可用函数的列表。 这将在字符串计算用例中提供更多可能性。
 
 ## 2020 年 11 月版 {#november-release}
 
@@ -91,7 +89,7 @@ ht-degree: 80%
 <li>通过将非常复杂的历程分成若干个历程来简化其设计 </li>
 <li>基于通用且可重用的历程模式构建历程</li>
 </ul>
-<p>有关详细信息，请参阅<a href="../building-journeys/jump.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">教程视频</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/jump.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">教程视频</a>。</p>
 </td>
 </tr>
 </tbody>
