@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: inNextYears
 description: 了解NextYears中的功能
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 8aab6f60-feba-4be2-9a32-ba4ed7f3d7de
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # inNextYears {#inNextYears}
 
-如果给定日期或dateTime介于现在和现在+增量年份之间，则返回true。
+如果给定的日期或dateTime介于现在和现在+增量年之间，则返回true。
 
 ## 类别
 
@@ -32,7 +30,7 @@ ht-degree: 10%
 | 参数 | 类型 |
 |-----------|------------------|
 | 日期时间 | dateTime |
-| δ | 整数 |
+| 三角洲 | 整数 |
 
 ## 签名和返回类型
 
