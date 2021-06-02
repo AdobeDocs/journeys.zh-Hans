@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: round
 description: 了解函数轮
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 16fe7c3a-8300-49d6-a3d6-a037fa1461f3
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
-
 # round {#round}
 
-返回与参数最接近的整数值，并将整数舍入为正无穷大。
+将最接近的整数值返回到参数，并将舍入到正无穷大。
 
 ## 类别
 
