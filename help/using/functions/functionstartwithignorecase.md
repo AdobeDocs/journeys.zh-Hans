@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: startWithIgnoreCase
 description: 了解函数startWithIgnoreCase
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 0ef098d8-b56c-4509-bbbd-2688ecc547bf
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-如果第二个参数是第一个参数的前缀，而不考虑情况，则返回true。
+如果第二个参数是第一个参数的前缀，而不考虑大小写，则返回true。
 
 ## 类别
 
