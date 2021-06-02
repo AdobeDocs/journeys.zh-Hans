@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: indexOf
 description: 了解函数indexOf
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 7617bb25-ec4c-498f-947a-66bbdecd1069
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 10%
+source-wordcount: '61'
+ht-degree: 13%
 
 ---
 
-
 # indexOf {#indexOf}
 
-检查第一个参数字符串是否以特定字符串（第二个参数字符串）结尾。 如果找不到该字符串，则返回–1。
+检查第一个参数字符串是否以特定字符串（第二个参数字符串）结尾。 如果未找到字符串，则返回–1。
 
 ## 类别
 
@@ -48,4 +46,4 @@ ht-degree: 10%
 
 解释：
 
-在&quot;Hello&quot;中，第一个出现的&quot;l&quot;位于位置2。
+在“Hello”中，第一个出现的“l”位于位置2。
