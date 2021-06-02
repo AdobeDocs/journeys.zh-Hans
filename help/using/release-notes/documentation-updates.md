@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 文档更新
 description: 了解文档更新
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 98%
 
 ---
-
 
 # 文档更新
 
