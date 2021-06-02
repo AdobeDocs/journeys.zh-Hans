@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: min
 description: 了解函数min
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 7e13a08c-c51a-4d40-a3e2-ef70bd3edca5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 5%
+source-wordcount: '89'
+ht-degree: 6%
 
 ---
 
-
 # min {#min}
 
-返回一组表达式中的最小值，该值以列表或两个表达式的形式给定。 忽略空值。
+返回一组表达式中的最小值（以列表或两个表达式的形式提供）。 将忽略空值。
 
 ## 类别
 
@@ -60,11 +58,11 @@ ht-degree: 5%
 
 `min(<listDecimal>)`
 
-返回十进制。
+返回小数。
 
 `min(<decimal>,<decimal>)`
 
-返回十进制。
+返回小数。
 
 `min(<duration>,<duration>)`
 
