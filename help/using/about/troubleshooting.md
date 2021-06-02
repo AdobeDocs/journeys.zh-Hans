@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 故障排除
 description: 了解有关故障排除的更多信息
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 99%
+source-wordcount: '1041'
+ht-degree: 100%
 
 ---
-
 
 # 故障排除{#concept_nlv_bcv_2fb}
 
@@ -88,4 +86,3 @@ ht-degree: 99%
 * 事务性消息已成功发送消息。在事务性消息的发送日志中，您可以看到每个执行的状态。您可以看看其是绿色的还是红色的，以及出现了什么问题。商业用户可以访问此屏幕并将日志发送给管理员以进一步调查。
 
 对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。
-
