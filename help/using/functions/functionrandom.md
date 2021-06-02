@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: random
 description: 了解函数随机性
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c47dc5f0-ea69-4814-863b-e0e483ba7770
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 5%
+source-wordcount: '52'
+ht-degree: 7%
 
 ---
 
-
-# random {#random}
+# 随机 {#random}
 
 生成一个介于0和1之间的随机数。
 
@@ -31,10 +29,10 @@ ht-degree: 5%
 
 `random()`
 
-返回十进制。
+返回小数。
 
 ## 示例
 
 `#{MarltonReservation.statistics.successRatio, defaultValue : random() * 100}`
 
-解释：如果成功率没有值/为null，则将应用默认值，并将是介于0和1 * 100（即0到100）之间的随机数。
+解释：如果成功率没有值/为空，则将应用默认值，该值为介于0和1 * 100（即0到100）之间的随机数。
