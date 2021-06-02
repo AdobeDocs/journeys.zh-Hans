@@ -1,26 +1,24 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: 关于数据源
 description: '了解如何配置数据源 '
-feature: Journeys
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 92%
+source-wordcount: '345'
+ht-degree: 93%
 
 ---
-
 
 # 关于数据源 {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="关于数据源"
->abstract="数据源配置允许您定义与系统的连接，以检索将在您的旅程中使用的其他信息。"
+>abstract="数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息。"
 
 数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息，例如：
 
