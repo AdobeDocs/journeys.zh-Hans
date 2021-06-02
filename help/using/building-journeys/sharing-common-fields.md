@@ -1,39 +1,37 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
-title: 工作步骤事件公用字段
-description: 工作步骤事件公用字段
-feature: Journeys
+title: journeysteps事件常用字段
+description: journeysteps事件常用字段
+feature: 历程
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
 
+# journeysteps事件常用字段{#sharing-common-fields}
 
-# journeysteps事件公用字段{#sharing-common-fields}
+此混合将由journeyStepEvent和journeyStepProfileEvent共享。
 
-此混音将由journeyStepEvent和journeyStepProfileEvent共享。
+这些是[!DNL Journey Orchestration]发送到Adobe Experience Platform的常用XDM字段。 对于历程中处理的每个步骤，都将发送通用字段。 自定义操作和扩充使用更多特定字段。
 
-这些是[!DNL Journey Orchestration]发送到Adobe Experience Platform的常见XDM字段。 在旅程中处理的每个步骤都会发送通用字段。 自定义操作和扩充使用更多特定字段。
-
-其中有些字段仅在特定处理模式（操作执行、数据提取等）中可用 以限制事件的大小。
+其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件的大小。
 
 ## 入口
 
-指示用户是否已进入旅程。 如果不存在，则假定该值为false。
+指示用户是否已进入历程。 如果不存在，则我们假定该值为false。
 
 类型：布尔
 
 值：true/false
 
-## 重新入场
+## 重入
 
-指示用户是否已使用同一实例重新进入旅程。 如果不存在，则假定该值为false。
+指示用户是否使用同一实例重新进入历程。 如果不存在，则我们假定该值为false。
 
 类型：布尔
 
@@ -47,13 +45,13 @@ ht-degree: 0%
 
 ## eventID
 
-事件ID在处理中，用于步骤处理。 如果事件是外部的，则值为其eventId。 如果事件是内部事件，则该值为内部事件ID（如scheduledNotificationReceived、excurededAction等）。
+处理中的事件ID，用于步骤处理。 如果事件是外部事件，则值为其eventId。 如果事件是内部事件，则值为内部eventId（例如scheduledNotificationReceived、exceutedAction等）。
 
 类型：字符串
 
 ## nodeID
 
-客户端节点ID（从画布中）。
+客户端节点id（从画布中）。
 
 类型：字符串
 
@@ -75,7 +73,7 @@ ht-degree: 0%
 
 类型：字符串
 
-可能的值：
+可能值：
 
 * 条件
 * 操作
@@ -84,7 +82,7 @@ ht-degree: 0%
 
 ## stepStatus
 
-完成处理(和触发步骤事件)时步骤的状态，表示步骤的状态。
+完成处理（触发步骤事件）后，步骤的状态，表示步骤的状态。
 
 类型：字符串
 
@@ -92,50 +90,50 @@ ht-degree: 0%
 
 * 结束：该步骤没有过渡，且其处理已成功结束。
 * 错误：步骤处理引发错误。
-* 过渡:该步骤正在等待事件过渡到另一步骤。
-* capped:在操作或扩充期间触发的封闭错误上，该步骤失败。
-* timedout:该步骤在超时错误(在操作或扩充期间引发)时失败。
-* instanceTimedout:该步骤已停止其处理，因为实例已达到其超时。
+* 过渡：该步骤正在等待事件转换到另一个步骤。
+* 上限：在操作或扩充期间引发的上限错误导致步骤失败。
+* timedout:在操作或扩充过程中引发的超时错误导致步骤失败。
+* instanceTimedout:该步骤已停止处理，因为实例已达到其超时。
 
 ## journeyID
 
-旅程的ID。
+历程的ID。
 
 类型：字符串
 
 ## journeyVersionID
 
-旅程版本的ID。 此id表示对旅程的标识引用，对于journeyStepEvent。
+历程版本的ID。 此ID表示对历程的身份引用，对于journeyStepEvent。
 
 类型：字符串
 
 ## journeyVersionName
 
-旅程版本的名称。
+历程版本的名称。
 
 类型：字符串
 
 ## journeyVersion
 
-旅程版本。
+历程版本的版本。
 
 类型：字符串
 
 ## instanceID
 
-旅程实例的内部ID。
+历程实例的内部ID。
 
 类型：字符串
 
 ## externalKey
 
-从事件提取的外部密钥以处理它。
+从事件提取的外部键值以处理它。
 
 类型：字符串
 
 ## parentStepID
 
-实例中当前已处理步骤的父项的步骤ID。
+实例中当前已处理步骤的父级的步骤ID。
 
 类型：字符串
 
@@ -147,41 +145,41 @@ ht-degree: 0%
 
 ## parentTransitionID
 
-已将实例带到处理步骤的过渡的ID。
+将实例引入已处理步骤的过渡的ID。
 
 类型：字符串
 
 ## parentTransitionName
 
-将实例带到处理步骤的过渡的名称。
+将实例引入已处理步骤的过渡的名称。
 
 类型：字符串
 
 ## inTest
 
-指示此旅程是否处于测试模式。
+指示此历程是否处于测试模式。
 
 类型：布尔
 
 ## processingTime
 
-从实例步骤入口到处理结束的总时间（以毫秒为单位）。
+从实例步骤进入到处理结束的总时间（以毫秒为单位）。
 
-类型：长
+类型：long
 
 ## instanceType
 
-指示实例类型（如果是批或单一）。
+指示实例类型（如果是批类型或单一类型）。
 
 类型：字符串
 
-值：批/酉
+值：批次/单一
 
 ## recurrenceIndex
 
-当旅程为批次并循环时（第一次运行的recurrenceIndex = 1）的循环索引。
+当历程是批处理并且是定期的时，循环的索引（首次运行的recurrenceIndex = 1）。
 
-类型：长
+类型：long
 
 ## isBatchToUnimation
 
@@ -191,18 +189,18 @@ ht-degree: 0%
 
 ## batchExternalKey
 
-用于批次事件的外部键。
+批处理事件的外部键。
 
 类型：字符串
 
 ## batchInstanceID
 
-这是批处理实例ID。
+这是批量实例ID。
 
 类型：字符串
 
-## batchUnimaryBranchID
+## batchUneminaryBranchID
 
-如果该实例是从批处理实例触发的，则为酉分支ID。
+如果实例是从批处理实例触发的，则表示唯一的分支ID。
 
 类型：字符串
