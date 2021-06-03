@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '2481'
-ht-degree: 80%
+source-wordcount: '2539'
+ht-degree: 78%
 
 ---
 
@@ -17,6 +17,25 @@ ht-degree: 80%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
+
+## 2021年5月版{#may-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong> Adobe Campaign Classic集成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>与Adobe Campaign Classic集成的集成现已正式启用。 它允许您使用Adobe Campaign Classic事务型消息传送功能发送电子邮件、推送通知和短信。</p>
+<p>Journey Orchestration实例和Campaign Classic实例之间的连接是在预配时通过Adobe来设置的。</p>
+<p>有关详细信息，请参阅<a href="../action/acc-action.md">详细文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2021年4月版{#april-2021-release}
 
