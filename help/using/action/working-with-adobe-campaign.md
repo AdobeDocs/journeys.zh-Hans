@@ -6,14 +6,14 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 4%
+source-wordcount: '303'
+ht-degree: 3%
 
 ---
 
-# 使用 Adobe Campaign {#using_adobe_campaign_standard}
+# 使用Adobe Campaign Standard {#using_adobe_campaign_standard}
 
 您可以使用Adobe Campaign Standard的事务性消息传送功能发送电子邮件、推送通知和短信。
 
