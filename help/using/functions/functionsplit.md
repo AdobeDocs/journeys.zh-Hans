@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: split
 description: 了解函数拆分
-feature: Journeys
+feature: 历程
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '64'
+ht-degree: 9%
 
 ---
 
+# 拆分 {#split}
 
-# split {#split}
-
-用分隔符字符串(第二个参数字符串，可以是常规表达式)拆分第一个参数字符串，以生成字符串列表（令牌）。
+将第一个参数字符串与分隔符字符串（第二个参数字符串，可以是正则表达式）拆分，以生成字符串列表（令牌）。
 
 ## 类别
 
@@ -46,7 +44,7 @@ ht-degree: 7%
 
 返回`["A","B","C"]`
 
-示例中的事件字段为“事件.appVersion”，其值为：&quot;20.45.2.3434&quot;
+事件字段为“event.appVersion”且值为的示例：&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
