@@ -6,16 +6,14 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: c49908d36ecbc68ae11b5621305f39dd59c67871
+source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 4%
+source-wordcount: '900'
+ht-degree: 5%
 
 ---
 
 # 使用 Adobe Campaign 操作 {#using_campaign_action}
-
-## 使用Adobe Campaign Standard {#using_campaign_standard_action}
 
 如果您拥有Adobe Campaign Standard，则可以使用以下现成的操作活动：**[!UICONTROL Email]**、**[!UICONTROL Push]**&#x200B;和&#x200B;**[!UICONTROL SMS]**。
 
@@ -41,7 +39,7 @@ ht-degree: 4%
 
 ![](../assets/journey60.png)
 
-### 电子邮件和短信 {#section_asc_51g_nhb}
+## 电子邮件和短信 {#section_asc_51g_nhb}
 
 对于&#x200B;**[!UICONTROL Email]**&#x200B;和&#x200B;**[!UICONTROL SMS]**，参数是相同的。
 
@@ -75,7 +73,7 @@ ht-degree: 4%
 
 ![](../assets/journey62.png)
 
-### 推送 {#section_im3_hvf_nhb}
+## 推送 {#section_im3_hvf_nhb}
 
 在使用推送活动之前，需要配置您的移动设备应用程序以及Campaign Standard以发送推送通知。 使用此[文章](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)为移动设备采取必要的实施步骤。
 
@@ -106,20 +104,3 @@ ht-degree: 4%
 >您无法在个性化数据中传递集合。 如果事务型推送期望收藏集，则它将不起作用。 另请注意，个性化数据具有预期的格式(示例：字符串、小数等)。 您必须谨慎遵循这些预期格式。
 
 这些是Adobe Campaign Standard消息中使用的事务型模板所需的字段。 这些字段可用于个性化您的消息、应用条件格式或选择特定的消息变体。
-
-## 使用Adobe Campaign v7/v8 {#using_campaign_v7_v8_action}
-
-此集成适用于从21.1版本开始的Adobe Campaign Classic v7和Adobe Campaign v8。 它允许您使用Adobe Campaign事务型消息传送功能发送电子邮件、推送通知和短信。
-
-Journey Orchestration实例和Campaign实例之间的连接是在预配时Adobe设置的。 联系Adobe。
-
-要使此功能正常工作，您需要配置专用操作。 请参阅此[部分](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8)。
-
-此[部分](../usecase/campaign-v7-v8-use-case.md)中提供了端到端用例。
-
-1. 从事件开始设计您的历程。 请参阅此[部分](../building-journeys/journey.md)。
-1. 在面板的&#x200B;**Action**&#x200B;部分中，选择Campaign操作并将其添加到历程中。
-1. 在&#x200B;**操作参数**&#x200B;中，将显示消息有效负荷中预期的所有字段。 您需要将每个字段与要使用的字段进行映射（来自事件或来自数据源）。 这类似于自定义操作。 请参阅此[部分](../building-journeys/using-custom-actions.md)。
-
-![](../assets/accintegration2.png)
-
