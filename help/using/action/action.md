@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
+source-git-commit: c49908d36ecbc68ae11b5621305f39dd59c67871
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 96%
+source-wordcount: '314'
+ht-degree: 95%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 96%
 
 ![](../assets/custom1.png)
 
-如果您拥有 Adobe Campaign Standard，您需要配置开箱即用的操作，以使用 Adobe Campaign Standard 的事务性消息传送功能发送电子邮件、推送通知和短信。请参见[此页面](../action/working-with-adobe-campaign.md)。
+如果您拥有 Adobe Campaign Standard，您需要配置开箱即用的操作，以使用 Adobe Campaign Standard 的事务性消息传送功能发送电子邮件、推送通知和短信。请参见[此页面](../action/working-with-adobe-campaign.md#using_adobe_campaign_standard)。
 
-如果您拥有Adobe Campaign Classic，则集成可应请求提供。 请参见[此页面](../action/acc-action.md)。
+如果您拥有Adobe Campaign v7或v8，则集成可应请求提供。 请参见[此页面](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8)。
 
 如果您使用第三方系统发送消息，如 Epsilon、Facebook、Adobe.io、Firebase 等，则需要添加和配置自定义操作。请参见[此页面](../action/about-custom-action-configuration.md)。
 
