@@ -5,10 +5,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供有关实施和构建历程的操作说明。
 index: true
 feature: 历程
-source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
+source-git-commit: c49908d36ecbc68ae11b5621305f39dd59c67871
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 93%
+source-wordcount: '411'
+ht-degree: 97%
 
 ---
 
@@ -47,8 +47,7 @@ ht-degree: 93%
    + [外部数据源](using/datasource/external-data-sources.md)
 + 配置操作 {#action-journeys}
    + [关于操作](using/action/action.md)
-   + [使用Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
-   + [使用Adobe Campaign Classic](using/action/acc-action.md)
+   + [使用 Adobe Campaign](using/action/working-with-adobe-campaig.md)
    + 使用第三方系统 {#action-third-party}
       + [关于自定义操作配置](using/action/about-custom-action-configuration.md)
       + [URL 配置](using/action/url-configuration.md)
@@ -79,8 +78,7 @@ ht-degree: 93%
          + [等待活动](using/building-journeys/wait-activity.md)
       + 操作活动 {#action-activities}
          + [关于操作活动](using/building-journeys/about-action-activities.md)
-         + [使用Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
-         + [使用Adobe Campaign Classic](using/building-journeys/using-adobe-campaign-classic.md)
+         + [使用 Adobe Campaign 操作](using/building-journeys/using-adobe-campaign-actions.md)
          + [使用自定义操作](using/building-journeys/using-custom-actions.md)
          + [从一个历程到另一个历程](using/building-journeys/jump.md)
          + [更新用户档案](using/building-journeys/update-profiles.md)
@@ -193,6 +191,6 @@ ht-degree: 93%
       + [配置事件](using/usecase/configuring-the-events.md)
       + [配置数据源](using/usecase/configuring-the-data-sources.md)
       + [构建历程](using/usecase/building-the-journey.md)
-   + [使用Campaign Classic发送消息](using/usecase/campaign-classic-use-case.md)
+   + [使用Campaign Classic发送消息](using/usecase/campaign-v7-v8-use-case.md)
 + 使用 API{#working-with-apis}
    + [API 上限](using/api/capping.md)
