@@ -1,32 +1,32 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 利用疲劳分数
-description: 了解如何在历程中利用疲劳得分
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+title: 使用Campaign v7/v8发送消息
+description: 使用Campaign v7/v8发送消息
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
 
 
-# 使用Campaign Classic{#campaign-classic-use-case}发送消息
+# 使用Campaign v7/v8 {#campaign-classic-use-case}发送消息
 
-此用例介绍使用Adobe Campaign Classic集成发送电子邮件所需的所有步骤。
+此用例介绍使用与Adobe Campaign Classic v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
 
-我们将首先在Campaign Classic中创建事务型电子邮件模板。 然后，在Journey Orchestration中，我们将创建事件、操作并设计历程。
+我们将首先在Campaign中创建事务型电子邮件模板。 然后，在Journey Orchestration中，我们将创建事件、操作并设计历程。
 
-要了解有关Campaign Classic集成的更多信息，请参阅以下页面：
+要了解有关Campaign集成的更多信息，请参阅以下页面：
 
-* [创建Campaign Classic操作](../action/acc-action.md)
+* [创建Campaign操作](../action/acc-action.md)
 * [在历程中使用操作](../building-journeys/using-adobe-campaign-classic.md)。
 
-**Adobe Campaign Classic**
+**Adobe Campaign**
 
-您的Campaign Classic实例需要针对此集成进行配置。 需要配置事务型消息传递功能。
+需要为此集成配置您的Campaign实例。 需要配置事务型消息传递功能。
 
-1. 登录到您的Campaign Classic控制实例。
+1. 登录到Campaign控制实例。
 
 1. 在&#x200B;**Administration** > **Platform** > **Enumerations**&#x200B;下，选择&#x200B;**Event type**(eventType)枚举。 创建新事件类型（在我们的示例中为“journey-event”）。 以后编写JSON文件时，必须使用事件类型的内部名称。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
    ![](../assets/accintegration-uc-2.png)
 
-1. 设计模板。 在此示例中，我们对用户档案的名字和订单号进行个性化设置。 名字在Adobe Experience Platform数据源中，订单号是我们Journey Orchestration事件中的一个字段。 确保在Campaign Classic中使用正确的字段名称。
+1. 设计模板。 在此示例中，我们对用户档案的名字和订单号进行个性化设置。 名字在Adobe Experience Platform数据源中，订单号是我们Journey Orchestration事件中的一个字段。 确保在Campaign中使用正确的字段名称。
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -70,7 +70,7 @@ ht-degree: 1%
 
    ![](../assets/accintegration-uc-5.png)
 
-1. 然后，您需要在Journey Orchestration中创建与Campaign Classic模板对应的操作。 在&#x200B;**操作类型**&#x200B;下拉列表中，选择&#x200B;**Adobe Campaign Classic**。
+1. 然后，您需要在Journey Orchestration中创建与营销活动模板对应的操作。 在&#x200B;**操作类型**&#x200B;下拉列表中，选择&#x200B;**Adobe Campaign Classic**。
 
    ![](../assets/accintegration-uc-6.png)
 
