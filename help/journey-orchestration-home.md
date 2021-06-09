@@ -7,9 +7,9 @@ feature: 历程
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 100%
 * [Experience Cloud XDM 字段定义](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html)
 * [身份命名空间文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/identity/home.html)
 * [流式引入 API](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standard 事务性消息传送文档](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Campaign Standard 事务性消息传送文档]()
 
 ## 技术教程
 
