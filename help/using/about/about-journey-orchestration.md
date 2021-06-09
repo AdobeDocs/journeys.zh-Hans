@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration] 允许由事件的情境数据、Adobe Experience Platform 信息或第三方 API 服务数据提供支持的实时编排。如果您使用第三方系统发送消息，则可以配置自定义操作。如果您拥有 Adobe Campaign Standard，则可以使用 Adobe Campaign Standard 的[事务性消息传送功能]()发送电子邮件、推送通知和短信。
+[!DNL Journey Orchestration] 允许由事件的情境数据、Adobe Experience Platform 信息或第三方 API 服务数据提供支持的实时编排。如果您使用第三方系统发送消息，则可以配置自定义操作。如果您拥有 Adobe Campaign Standard，则可以使用 Adobe Campaign Standard 的[事务性消息传送功能](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)发送电子邮件、推送通知和短信。
 
 在事件配置选项卡中，**技术用户**&#x200B;配置历程中预期的事件。传入事件的数据按照 Adobe 体验数据模型 (XDM) 进行标准化。事件来自已验证和未验证事件（如 Adobe Mobile SDK 事件）的流摄取 API。
 
