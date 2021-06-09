@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 43%
+source-wordcount: '386'
+ht-degree: 41%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 43%
 
    ![](../assets/journeyuc1_12.png)
 
-1. 删除&#x200B;**[!UICONTROL Email]**&#x200B;活动，并选择“Spa discount”事务型消息传递模板。 此模板是使用Adobe Campaign设计的。 请参见此[页面](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
+1. 删除&#x200B;**[!UICONTROL Email]**&#x200B;活动，并选择“Spa discount”事务型消息传递模板。 此模板是使用Adobe Campaign设计的。 请参见此[页面]()。
 
    ![](../assets/journeyuc1_13.png)
 
