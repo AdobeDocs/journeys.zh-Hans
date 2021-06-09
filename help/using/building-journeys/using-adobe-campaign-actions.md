@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 2565f6be500440455aa60724272790537a28ce2d
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 5%
+source-wordcount: '896'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >为此，您需要配置内置操作。 请参见[此页面](../action/working-with-adobe-campaign.md)。
 
-对于每个渠道，您都可以选择Adobe Campaign Standard事务型消息传递&#x200B;**模板**。 事实上，[!DNL Journey Orchestration]不是消息发送解决方案。 对于内置的电子邮件、短信和推送渠道，我们依赖事务型消息传送来执行消息发送。 这意味着如果要在历程中使用特定消息模板，则必须在Adobe Campaign Standard中发布该模板。 请参阅[此页面](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)以了解如何使用此功能。
+对于每个渠道，您都可以选择Adobe Campaign Standard事务型消息传递&#x200B;**模板**。 事实上，[!DNL Journey Orchestration]不是消息发送解决方案。 对于内置的电子邮件、短信和推送渠道，我们依赖事务型消息传送来执行消息发送。 这意味着如果要在历程中使用特定消息模板，则必须在Adobe Campaign Standard中发布该模板。 请参阅[此页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)以了解如何使用此功能。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->对于电子邮件，如果您使用用户档案事务型模板，则会通过Campaign Standard即装即用地处理退订机制。 您只需在模板中添加&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;内容块（[了解更多](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)）。 如果您使用基于事件的模板(rtEvent)，则需要在消息中添加一个链接，以在URL参数中传递人员电子邮件并指向退订登陆页面。 您需要创建此登陆页面，并确保将人员取消订阅的决定传输到Adobe。
+>对于电子邮件，如果您使用用户档案事务型模板，则会通过Campaign Standard即装即用地处理退订机制。 您只需在模板中添加&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;内容块（[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)）。 如果您使用基于事件的模板(rtEvent)，则需要在消息中添加一个链接，以在URL参数中传递人员电子邮件并指向退订登陆页面。 您需要创建此登陆页面，并确保将人员取消订阅的决定传输到Adobe。
 
 首先，您需要选择事务型消息传递模板。 请参见[此页面](../building-journeys/about-action-activities.md)。
 
