@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 5%
 
 ## 先决条件 {#prerequisites}
 
-对于我们的用例，我们设计了三个Adobe Campaign Standard事务型消息传递模板。 我们使用的是事件事务型消息模板。 请参见此[页面](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)。
+对于我们的用例，我们设计了三个Adobe Campaign Standard事务型消息传递模板。 我们使用的是事件事务型消息模板。 请参见此[页面]()。
 
 Adobe Campaign Standard配置为发送电子邮件和推送通知。
 
