@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,11 @@ ht-degree: 4%
 
    ![](../assets/profileupdate2.png)
 
-1. 从列表中选择数据集。 数据集选择将确定配置文件字段的新值将存储在哪里。
+1. 从列表中选择数据集。
+
+   >[!NOTE]
+   >
+   >**Update profile**&#x200B;操作可实时更新配置文件数据，但不会更新数据集。 由于配置文件是与数据集相关的记录，因此需要选择数据集。
 
 1. 单击&#x200B;**Value**&#x200B;字段以定义要使用的值：
 
