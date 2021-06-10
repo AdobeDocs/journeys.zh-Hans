@@ -6,10 +6,10 @@ feature: 历程
 role: Data Engineer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e0bf1a6f9c160b72da28feaca1ca52665f365630
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -232,3 +232,15 @@ _`<listExpression>`.at(`<index>`)_
 ```
 
 结果为“token_2”。
+
+**其他示例**
+
+```
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
+_aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+```
+
+```
+ #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
+```
