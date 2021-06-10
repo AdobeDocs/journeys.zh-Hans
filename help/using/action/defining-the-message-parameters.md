@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 4%
 在&#x200B;**[!UICONTROL Message parameters]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>有效负载中的字段名称不能包含“。” 字符。
 
 您将能够定义参数类型(例如：字符串、整数等)。
 
