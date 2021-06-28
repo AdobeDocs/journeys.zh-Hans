@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="关于事件"
->abstract="事件与个人相关联。它与一个人的行为或者与一个人有关的事情有关。 这就是 [!DNL Journey Orchestration] 在历程中将侦听的内容，以编排最佳的后续行动。"
+>abstract="事件与个人相关联。它与个人的行为或者与个人发生的事情有关。这就是 [!DNL Journey Orchestration] 在历程中将侦听的内容，以编排最佳的后续行动。"
 
 事件与个人相关联。它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等）或者与个人相关的某件事情有关（例如，某人达到 10 000 个忠诚点）。这就是 [!DNL Journey Orchestration] 在历程中将侦听的内容，以编排最佳的后续行动。
 
