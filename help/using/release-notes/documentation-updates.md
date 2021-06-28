@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## 2021 年 3 月 {#march-2021}
 
-* 我们详细介绍了在Adobe Experience Platform中创建测试用户档案的完整过程。 [阅读更多](../building-journeys/creating-test-profiles.md)。
+* 我们详细介绍了在 Adobe Experience Platform 中创建测试用户档案的完整过程。[阅读更多](../building-journeys/creating-test-profiles.md)。
 
 ## 2021 年 1 月 {#january-2021}
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 ## 2020 年 9 月 {#september-2020}
 
 * 更新了接口描述部分，以反映新的&#x200B;**全选器**&#x200B;菜单。[阅读更多](../about/user-interface.md)
-* 添加了基于细分的历程的不重复新版本的有关注释。
+* 添加了基于区段的历程的不重复新版本的有关注释。
 
 ## 2020 年 8 月 {#august-2020}
 
