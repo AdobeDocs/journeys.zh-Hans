@@ -6,9 +6,9 @@ user-guide-description: 提供有关实施和构建历程的操作说明。
 index: true
 feature: 历程
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 + 新增内容 {#release-notes}
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
-+ [!DNL Journey Orchestration] 入门 {#starting-with-journeys}
++ [!DNL Journey Orchestration] 入门{#starting-with-journeys}
    + [关于  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
    + [入门](using/about/get-started.md)
@@ -31,9 +31,9 @@ ht-degree: 92%
    + 关于事件 {#about-events}
       + [一般原则](using/event/about-events.md)
       + [数据周期](using/event/about-data-cycle.md)
-      + [创建一个事件](using/event/about-creating.md)
+      + [创建事件](using/event/about-creating.md)
       + [利用 Adobe Analytics](using/event/about-analytics.md)
-      + [关于 ExperienceEvent 架构](using/event/experience-event-schema.md)
+      + [关于 ExperienceEvent 模式](using/event/experience-event-schema.md)
       + [用于发送事件的其他步骤](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [定义有效负载字段](using/event/defining-the-payload-fields.md)
    + [选择命名空间](using/event/selecting-the-namespace.md)
@@ -47,8 +47,8 @@ ht-degree: 92%
    + [外部数据源](using/datasource/external-data-sources.md)
 + 配置操作 {#action-journeys}
    + [关于操作](using/action/action.md)
-   + [使用Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
-   + [使用Adobe Campaign v7/v8](using/action/acc-action.md)
+   + [使用 Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+   + [使用 Adobe Campaign v7/v8](using/action/acc-action.md)
    + 使用第三方系统 {#action-third-party}
       + [关于自定义操作配置](using/action/about-custom-action-configuration.md)
       + [URL 配置](using/action/url-configuration.md)
@@ -79,10 +79,10 @@ ht-degree: 92%
          + [等待活动](using/building-journeys/wait-activity.md)
       + 操作活动 {#action-activities}
          + [关于操作活动](using/building-journeys/about-action-activities.md)
-         + [使用Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
-         + [使用Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
+         + [使用 Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
+         + [使用 Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [使用自定义操作](using/building-journeys/using-custom-actions.md)
-         + [从一个历程到另一个历程](using/building-journeys/jump.md)
+         + [从一个历程转到另一个历程](using/building-journeys/jump.md)
          + [更新用户档案](using/building-journeys/update-profiles.md)
    + [测试历程](using/building-journeys/testing-the-journey.md)
    + [发布历程](using/building-journeys/publishing-the-journey.md)
@@ -92,15 +92,15 @@ ht-degree: 92%
       + [journeyStep 事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
       + [journeyStep 事件数据提取字段](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep 事件身份字段](using/building-journeys/sharing-identity-fields.md)
-      + [历程场](using/building-journeys/sharing-journey-fields.md)
+      + [历程字段](using/building-journeys/sharing-journey-fields.md)
 + 使用高级表达式编辑器 {#building-advanced-conditions-journeys}
    + [关于高级表达式编辑器](using/expression/expressionadvanced.md)
    + 语法 {#syntax}
-      + [概括性](using/expression/generalities.md)
+      + [概述](using/expression/generalities.md)
       + [条件指令](using/expression/conditional-instruction.md)
       + [数据类型](using/expression/data-types.md)
       + [字段引用](using/expression/field-references.md)
-      + [集合管理函数](using/expression/collection-management-functions.md)
+      + [收藏集管理函数](using/expression/collection-management-functions.md)
       + [运算符](using/expression/operators.md)
       + [历程属性](using/expression/journey-properties.md)
       + [示例](using/expression/advanced-editor-use-cases.md)
@@ -127,7 +127,7 @@ ht-degree: 92%
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
       + 日期 {#date}
-         + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
+         + [currentTimeInMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
          + [inLastMonths](using/functions/functioninlastmonths.md)
@@ -181,7 +181,7 @@ ht-degree: 92%
    + [指标和维度](using/reporting/metrics-and-dimensions.md)
 + 与智能服务集成{#use-case-advanced}
    + [关于 AI 集成](using/ai-services/ai-services-overview.md)
-   + [利用客户 AI](using/ai-services/leveraging-customer-ai.md)
+   + [利用客户人工智能](using/ai-services/leveraging-customer-ai.md)
 + 用例{#use-cases-journeys}
    + 发送个性化电子邮件{#use-case-simple}
       + [关于简单用例](using/usecase/about-the-simple-use-case.md)
@@ -193,6 +193,6 @@ ht-degree: 92%
       + [配置事件](using/usecase/configuring-the-events.md)
       + [配置数据源](using/usecase/configuring-the-data-sources.md)
       + [构建历程](using/usecase/building-the-journey.md)
-   + [使用Campaign v7/v8发送消息](using/usecase/campaign-classic-use-case.md)
+   + [使用 Campaign v7/v8 发送消息](using/usecase/campaign-classic-use-case.md)
 + 使用 API{#working-with-apis}
    + [API 上限](using/api/capping.md)
