@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,11 +77,11 @@ ht-degree: 96%
 * [Experience Cloud XDM 字段定义](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html)
 * [身份命名空间文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/identity/home.html)
 * [流式引入 API](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/streaming/overview.html)
-* [Campaign Standard 事务性消息传送文档](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)
+* [Campaign Standard 事务性消息传送文档](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)
 
 ## 技术教程
 
-* [Journey Orchestration 配置](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=zh-Hans#module6-journey-orchestration)
+* [Journey Orchestration 配置](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=zh-Hans#6.-journey-orchestration)
 * [外部天气 API、SMS 操作等](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html?lang=zh-Hans#module12)
-* [在 Dynamics 365 中使用 Journey Orchestration 创建联系人](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=zh-Hans#module17)
-* [使用 Journey Orchestration 触发电子邮件跟进](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=zh-Hans#module20)
+* [在 Dynamics 365 中使用 Journey Orchestration 创建联系人](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=zh-Hans#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
+* [使用 Journey Orchestration 触发电子邮件跟进](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=zh-Hans#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
