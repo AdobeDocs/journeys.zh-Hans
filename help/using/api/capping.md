@@ -7,9 +7,9 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 在数据源配置期间，您将定义与系统的连接，以检索将在您的历程中使用的其他信息，或者对于操作定义，您将配置第三方系统的连接以发送消息或API调用。 每次由历程执行API调用时，即会查询上限API，调用都会通过API引擎。 如果定义了限制，则调用将被拒绝，外部系统将不会过载。
 
-要了解有关操作或数据源配置的更多信息，请参阅[关于操作](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html)或[关于数据源](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
+要了解有关操作或数据源配置的更多信息，请参阅[关于操作](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)或[关于数据源](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## 资源
@@ -173,7 +173,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 下载并上传到Postman后，您需要添加三个变量：`{JO_HOST}`、`{Base_Path}`和`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration] 网关URL
 * `{BASE_PATH}` :API的入口点。值为“/authoring”
-* `{SANDBOX_NAME}` :与将 **在其中执行API操作的沙盒名称对应的标头x-sandbox-name** （例如“prod”）。有关更多信息，请参阅[沙箱概述](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) 。
+* `{SANDBOX_NAME}` :与将 **在其中执行API操作的沙盒名称对应的标头x-sandbox-name** （例如“prod”）。有关更多信息，请参阅[沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) 。
 
 在以下部分中，您将找到用于执行用例的Rest API调用排序列表。
 
