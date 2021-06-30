@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 94%
+source-wordcount: '791'
+ht-degree: 89%
 
 ---
 
@@ -72,7 +72,9 @@ ht-degree: 94%
 
 ![](../assets/segment8.png)
 
-## 最佳做法 {#best-practices-segments}
+包含区段鉴别事件的新历程在您发布后10分钟内可运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待十分钟，才能使用此历程。
+
+## 最佳实践 {#best-practices-segments}
 
 **[!UICONTROL Segment Qualification]**&#x200B;活动允许在 Adobe Experience Platform 客户细分中获得资格或被取消资格的个人在历程中立即进入。
 
