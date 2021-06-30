@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 100%
+source-wordcount: '1015'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，使用 **[!UICONTROL Creation filters]** 按创建日期和用户进行过滤。例如，您可以选择仅显示您在过去 30 天中创建的事件。
 
-在历程列表（ **[!UICONTROL Home]**&#x200B;下）中，除了 **[!UICONTROL Creation filters]** 以外，您还可以根据显示的历程状态和版本 (**[!UICONTROL Status and version filters]**) 筛选。您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的历程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时历程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
+在历程列表（在&#x200B;**[!UICONTROL Home]**&#x200B;下）中，除了&#x200B;**[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据显示的历程的状态、类型和版本(**[!UICONTROL Status and version filters]**)筛选。 类型可以是：**[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的历程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时历程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ ht-degree: 100%
 
 在定义[事件有效负载](../event/defining-the-payload-fields.md)、[字段组有效负载](../datasource/field-groups.md)以及在[表达式编辑器](../expression/expressionadvanced.md)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
 
-如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在使用“eVars”和通用字段时尤为有用。您可以通过 API 调用配置友好名称描述符。有关详细信息，请参阅[架构注册开发人员指南](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/api/getting-started.html)。
+如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在使用“eVars”和通用字段时尤为有用。您可以通过 API 调用配置友好名称描述符。有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
 
 ![](../assets/xdm-from-descriptors.png)
 
