@@ -6,10 +6,10 @@ feature: 历程
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 12%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| ISO-8601格式的日期时间 | 字符串 |
+| 日期时间采用ISO-8601或“YYYY-MM-DD”格式（XDM日期格式） | 字符串 |
 | 日期时间 | dateTime |
 
 ## 签名和返回的类型
@@ -44,9 +44,9 @@ ht-degree: 12%
 
 ## 示例
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
+`toDateTimeOnly ("2016-08-18")`
 
-返回2016-08-18T23:17:59.123。
+返回表示2016-08-18T00:00:00.000的dateTime
 
 `toDateTimeOnly(now())`
 
