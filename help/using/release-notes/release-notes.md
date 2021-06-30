@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
+source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 78%
+source-wordcount: '2627'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
 
-## 2021年6月版{#may-2021-release}
+## 2021年6月版 {#june-2021-release}
 
 <table>
 <thead>
@@ -30,20 +30,27 @@ ht-degree: 78%
 <tr>
 <td>
 <p>与Adobe Campaign Classic集成的集成现已正式启用。 它允许您使用Adobe Campaign v7或v8事务型消息传送功能发送电子邮件、推送通知和短信。</p>
-<p>Journey Orchestration实例和Campaign实例之间的连接是在预配时Adobe设置的。</p>
+<p>Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时通过 Adobe 来设置的。</p>
 <p>有关详细信息，请参阅<a href="../action/acc-action.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## 2021年4月版{#april-2021-release}
+### 改进
+
+* 对于外部数据源，现在会自动定义每秒15次调用的上限规则。 [阅读更多](../about/external-systems.md#capping)
+* 在简单且高级的表达式编辑器中，我们现在支持XDM日期格式。
+* 在历程列表屏幕中，添加了新过滤器。 您现在可以按历程类型过滤：**[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 [阅读更多](../about/user-interface.md#section_lgm_hpz_pgb)
+* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 在复制历程的技术详细信息时，也可以使用此信息。 [阅读更多](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+
+## 2021年4月版 {#april-2021-release}
 
 ### 改进
 
 * 现在，在测试模式的&#x200B;**事件配置**&#x200B;屏幕中，将为预期枚举的字段显示一个下拉列表。 只需选择一个可用值即可。 如果定义的值不正确，这将避免在触发事件时出错。 [阅读更多](../building-journeys/testing-the-journey.md#firing_events)
 
-## 2021年3月版{#march-2021-release}
+## 2021年3月版 {#march-2021-release}
 
 ### 改进
 
@@ -52,7 +59,7 @@ ht-degree: 78%
 * 在测试模式下，在&#x200B;**事件配置**&#x200B;屏幕中，用于定义测试用户档案ID的&#x200B;**Key**&#x200B;字段已重命名为&#x200B;**配置文件标识符**，以获得更好的用户体验。 [阅读更多](../building-journeys/testing-the-journey.md)。
 * 对于反应事件，超时持续时间现在只能设置为40秒到30天之间。 测试使用反应事件的历程时，测试模式&#x200B;**[!UICONTROL Wait time]**&#x200B;默认值和最小值现在为40秒。 [阅读更多](../building-journeys/reaction-events.md)。
 
-## 2021年2月版{#february-2021-release}
+## 2021年2月版 {#february-2021-release}
 
 <table>
 <thead>
@@ -403,7 +410,7 @@ Journey Orchestration 现已在 APAC（澳大利亚数据中心）提供。可�
 
 Journey Orchestration 界面提供日语版。
 
-## 第 1 季度发行 - 2020 年 3 月{#q1-release---march-2020}
+## 第 1 季度发行 - 2020 年 3 月 {#q1-release---march-2020}
 
 <table>
 <thead>
@@ -514,5 +521,5 @@ Journey Orchestration 允许由事件的情境数据、Adobe Experience Platform
 
 其他资源：
 
-* [教程](https://docs.adobe.com/content/help/zh-Hans/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+* [教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [社区](https://www.adobe.com/go/journeyorchestrationcommunity)
