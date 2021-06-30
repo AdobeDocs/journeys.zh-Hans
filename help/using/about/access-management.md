@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '855'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 要能够访问 [!DNL Journey Orchestration]，用户必须是：
 
 * 与权限 [!DNL Journey Orchestration]关联&#x200B;**[!UICONTROL product profile]**&#x200B;的一 [!DNL Journey Orchestration]部分。
-* [!DNL Adobe Experience Platform]**[!UICONTROL product profile]** 的一部分。无需强制许可。用户应具有从 [!DNL Journey Orchestration] 界面创建和编辑 Platform 区段的 **[!UICONTROL profile management]** 权限。有关详细信息，请参见此 [ 页面](https://docs.adobe.com/content/help/zh-Hans/experience-platform/access-control/home.html#adobe-admin-console)。
+* [!DNL Adobe Experience Platform]**[!UICONTROL product profile]** 的一部分。无需强制许可。用户应具有从 [!DNL Journey Orchestration] 界面创建和编辑 Platform 区段的 **[!UICONTROL profile management]** 权限。有关详细信息，请参见此 [ 页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)。
 
 在 Admin Console 中，您可以向用户分配以下现成的产品用户档案之一：
 
@@ -67,7 +67,7 @@ ht-degree: 98%
 
 [!DNL Journey Orchestration] 允许您创建自己的产品用户档案，并为用户分配一组权限和沙箱。通过产品用户档案，您可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的更多信息，请参阅 [Adobe Experience Platform 文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/sandbox/ui/user-guide.html)。
+有关如何创建和管理沙箱的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。
 
 要创建产品用户档案并分配一组权限和沙箱，请执行以下操作：
 
@@ -139,6 +139,6 @@ ht-degree: 98%
 [!DNL Journey Orchestration] 允许您将实例分区为称为沙箱的分隔虚拟环境。
 沙箱通过 Admin Console 中的产品用户档案进行分配。有关如何分配沙箱的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙箱。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。有关详细步骤，请参阅[沙箱用户指南](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)。
+[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙箱。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。有关详细步骤，请参阅[沙箱用户指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。
 
 您可以在屏幕左上角找到沙箱切换器控件。要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
