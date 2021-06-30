@@ -6,7 +6,7 @@ feature: 历程
 role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 55928668cffca2f01c140a083f11ce8f57e2ee0d
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 6%
@@ -42,7 +42,7 @@ ht-degree: 6%
 
 `toDateTime(<string>)`
 
-`toDateTime(<dateTimeOnly>,<stringified time zone id>)`
+`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
