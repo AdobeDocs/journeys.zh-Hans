@@ -3,14 +3,14 @@ product: adobe campaign
 title: 创建测试用户档案
 description: 了解测试用户档案的创建
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 2%
+source-wordcount: '675'
+ht-degree: 1%
 
 ---
 
-# 创建测试用户档案{#create-test-profiles}
+# 创建测试用户档案 {#create-test-profiles}
 
 在历程中使用测试模式时需要测试用户档案。 要了解如何使用测试模式，请参阅[此部分](../building-journeys/testing-the-journey.md)。
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 
-您还可以通过API调用创建测试用户档案。 请参阅此[页面](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)。
+您还可以通过API调用创建测试用户档案。 请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
 
 您必须使用包含“用户档案测试详细信息”混合的用户档案架构。 testProfile标记是此混合标记的一部分。
 
