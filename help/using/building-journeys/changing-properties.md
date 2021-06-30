@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 1%
 单击右上方的铅笔图标以访问历程的属性。
 
 您可以更改历程名称、添加描述、允许重新进入、选择开始和结束日期，并定义&#x200B;**[!UICONTROL Timeout and error]**&#x200B;持续时间（如果您是管理员）。
+
+对于实时历程，此屏幕显示发布日期和发布历程的用户名称。
+
+**复制技术详细信息**&#x200B;允许您复制有关历程的技术信息，供支持团队用于进行故障排除。 将复制以下信息：JourneyVersion UID、OrgID、orgName、sandboxName、lastDeployedBy、lastDeployedAt。
 
 ![](../assets/journey32.png)
 
