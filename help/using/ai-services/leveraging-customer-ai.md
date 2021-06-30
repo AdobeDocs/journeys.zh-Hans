@@ -6,16 +6,16 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
 
-# 利用客户 AI {#customer-ai}
+# 利用客户人工智能 {#customer-ai}
 
-Customer AI是Intelligent Services的一部分。 它有助于预测客户可能做什么。 请参阅[文档](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html)。
+Customer AI是Intelligent Services的一部分。 它有助于预测客户可能做什么。 请参阅[文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html)。
 
 Customer AI允许品牌创建基于流失率或转化机器学习的得分，这些得分将作为Adobe Experience Platform配置文件（实时客户配置文件）中的配置文件属性提供。
 
