@@ -2,9 +2,9 @@
 product: adobe campaign
 title: 利用疲劳分数
 description: 了解如何在历程中利用疲劳得分
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->仅使用[Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)的客户才能使用预测性疲劳得分功能。
+>仅使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)的客户才能使用预测性疲劳得分功能。
 
 ## 配置事件 {#section_ptb_ws1_ffb}
 
