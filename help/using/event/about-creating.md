@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: 创建一个事件
+title: 创建事件
 description: 了解如何创建事件
 feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 64%
+source-wordcount: '554'
+ht-degree: 63%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 64%
    ![](../assets/alpha-event6.png)
 
    在我们的示例中，我们根据用户档案所在的城市写了一个条件。 这意味着，每当系统收到与此条件（**[!UICONTROL City]**&#x200B;字段和&#x200B;**[!UICONTROL Paris]**&#x200B;值）匹配的事件时，它都会将其传递到Journey Orchestration。
+
+   >[!NOTE]
+   >
+   >定义&#x200B;**[!UICONTROL Event ID condition]**&#x200B;时，高级表达式编辑器不可用。
 
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此页](../event/selecting-the-namespace.md)。
 1. 定义键：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的个人。如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，[!DNL Journey Orchestration] 会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会自动选择电子邮件键）。请参阅[此页](../event/defining-the-event-key.md)。
