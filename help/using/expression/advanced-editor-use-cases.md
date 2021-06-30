@@ -6,9 +6,9 @@ feature: 历程
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '493'
 ht-degree: 2%
 
 ---
@@ -141,4 +141,4 @@ ht-degree: 2%
 
 解释：此示例使用`substr`和`lastIndexOf`函数删除大括号，该大括号将围住随移动设备应用程序启动事件一起传递的CRM ID。
 
-有关如何使用高级表达式编辑器的更多信息，请观看[此视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+有关如何使用高级表达式编辑器的更多信息，请观看[此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
