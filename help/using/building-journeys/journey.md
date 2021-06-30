@@ -6,7 +6,7 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 12%
@@ -67,7 +67,7 @@ ht-degree: 12%
 * 通过&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;按钮手动关闭历程。
 * 到达历程的结束日期。
 
-当历程关闭（出于上述任何原因）时，其状态将为&#x200B;**[!UICONTROL Closed (no entrance)]**。 历程将不再允许新人进入历程。 已在历程中的人员将正常完成历程。 在默认的全局超时为30天后，历程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/changing-properties.md#entrance)。
+当历程关闭（出于上述任何原因）时，其状态将为&#x200B;**[!UICONTROL Closed]**。 历程将不再允许新人进入历程。 已在历程中的人员将正常完成历程。 在默认的全局超时为30天后，历程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/changing-properties.md#entrance)。
 
 如果您需要阻止历程中所有个人的进度，则可以阻止该进度。 停止历程将超时历程中的所有个人。
 
