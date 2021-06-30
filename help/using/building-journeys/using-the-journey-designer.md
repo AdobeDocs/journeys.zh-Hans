@@ -6,9 +6,9 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1423'
 ht-degree: 5%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 5%
 
 在画布中，您的操作和事件活动由图标表示，图标下方显示事件或操作的名称。 在活动配置窗格中，可以使用&#x200B;**[!UICONTROL Label]**&#x200B;字段为活动名称添加后缀。 这些标签将帮助您将事件和操作的使用置于情境中，尤其是当您在历程中多次使用同一事件或操作时。 您还将能够看到您在[!DNL Journey Orchestration]报表中添加的标签。 您还可以为条件活动定义标签。
 
-默认情况下，只读字段处于隐藏状态。 要显示它们，请单击活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。
+默认情况下，只读字段处于隐藏状态。 要显示只读字段，请单击活动配置窗格左上角的&#x200B;**显示只读字段**&#x200B;图标。 此设置适用于所有历程中的所有活动。
 
 ![](../assets/journey59bis.png)
 
@@ -93,7 +93,7 @@ ht-degree: 5%
 
 ![](../assets/canvas-disconnected.png)
 
-## 复制和粘贴活动{#copy-paste}
+## 复制和粘贴活动 {#copy-paste}
 
 您可以复制一个历程的一个或多个活动，并将它们粘贴到同一历程中或其他历程中。 如果要重复使用在上一个历程中已配置的大量活动，这样可节省时间。
 
