@@ -6,9 +6,9 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >反应事件无法跟踪在其他历程中发生的电子邮件、短信或推送操作。
 >
->反应事件跟踪“tracked”类型链接的点击量（请参阅此[page](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)）。 未考虑退订和镜像页面链接。
+>反应事件跟踪“tracked”类型链接的点击量（请参阅此[page](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)）。 未考虑退订和镜像页面链接。
 
 >[!IMPORTANT]
 >
