@@ -6,16 +6,16 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 14%
 
 ---
 
-# 关于Adobe Experience Platform区段{#about-segments}
+# 关于Adobe Experience Platform区段 {#about-segments}
 
-如果您使用[Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)创建区段，则可以在[!DNL Journey Orchestration]中利用这些区段。 借助专用的活动活动，您可以让个人根据Adobe Experience Platform区段入口和出口进入或前进历程。 这还允许您使用简单或高级表达式编辑器在历程中构建复杂条件。
+如果您使用[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)创建区段，则可以在[!DNL Journey Orchestration]中利用这些区段。 借助专用的活动活动，您可以让个人根据Adobe Experience Platform区段入口和出口进入或前进历程。 这还允许您使用简单或高级表达式编辑器在历程中构建复杂条件。
 
 假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。您可以轻松地基于此区段构建条件。
 
