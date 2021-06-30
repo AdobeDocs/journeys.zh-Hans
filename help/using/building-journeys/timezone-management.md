@@ -6,9 +6,9 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,11 @@ ht-degree: 2%
 
 您可以选择时区，也可以选择使用用户配置文件中定义的时区。
 
-## 定义固定时区{#fixed-timezone}
+>[!NOTE]
+>
+>配置文件时区与&#x200B;**首选项详细信息**&#x200B;字段组中存在的&#x200B;**timeZone**&#x200B;字段配合使用。
+
+## 定义固定时区 {#fixed-timezone}
 
 时区也可以固定。 清除预定义的时区，然后从下拉列表中选择一个时区。 如果您使用固定时区，则进入历程的所有个人都将使用相同的时区。
 
@@ -36,7 +40,7 @@ ht-degree: 2%
 
 ![](../assets/journey72.png)
 
-## 使用用户档案定义旅程时区{#timezone-from-profiles}
+## 使用用户档案定义旅程时区 {#timezone-from-profiles}
 
 如果历程的登入事件具有命名空间，即历程可以访问Adobe Experience Platform的实时客户资料服务，则会使用在历程中流动的个人资料中指定的时区预定义时区。
 
@@ -48,6 +52,6 @@ ht-degree: 2%
 
 ![](../assets/journey73.png)
 
-## 在表达式{#timezone-in-expressions}中使用时区
+## 在表达式中使用时区 {#timezone-in-expressions}
 
 历程的开始日期和结束日期不能链接到特定时区。 它们会自动关联到实例的时区。
