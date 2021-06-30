@@ -6,9 +6,9 @@ feature: 历程
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2625'
 ht-degree: 76%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 76%
 ### 改进
 
 * 对于外部数据源，现在会自动定义每秒15次调用的上限规则。 [阅读更多](../about/external-systems.md#capping)
-* 在简单且高级的表达式编辑器中，我们现在支持XDM日期格式。
+* 现在，简单而高级的表达式编辑器支持XDM日期格式。
 * 在历程列表屏幕中，添加了新过滤器。 您现在可以按历程类型过滤：**[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 [阅读更多](../about/user-interface.md#section_lgm_hpz_pgb)
 * 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 在复制历程的技术详细信息时，也可以使用此信息。 [阅读更多](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
