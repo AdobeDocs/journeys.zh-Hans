@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 8%
+source-wordcount: '440'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->默认情况下，所有新部署的实例上均不会激活此功能。 激活应请求进行。
+>默认情况下，在历程步骤事件的所有实例上都会激活此功能。 对于历程配置文件步骤事件，应请求激活。 不得更改在配置此功能期间创建的架构和数据集。
 
 例如，您已设置发送多个电子邮件的历程。 此功能允许您将[!DNL Journey Orchestration]数据与下游事件数据合并，例如发生转化次数、网站上发生的参与次数或存储中发生的交易次数。 历程信息可以与Adobe Experience Platform上的数据（来自其他数字属性或来自离线属性）结合使用，以更全面地了解性能。
 
@@ -57,6 +57,6 @@ ht-degree: 8%
 * [journeyStep 事件操作执行字段](../building-journeys/sharing-execution-fields.md)
 * [journeyStep 事件数据提取字段](../building-journeys/sharing-fetch-fields.md)
 * [journeyStep 事件身份字段](../building-journeys/sharing-identity-fields.md)
-* [历程场](../building-journeys/sharing-journey-fields.md)
+* [历程字段](../building-journeys/sharing-journey-fields.md)
 
-有关向Adobe Experience Platform报告步骤事件的更多信息，请观看此[教程视频](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
+有关向Adobe Experience Platform报告步骤事件的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
