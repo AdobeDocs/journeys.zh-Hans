@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
-source-wordcount: '354'
-ht-degree: 100%
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 87%
 
 ---
 
@@ -37,5 +37,7 @@ ht-degree: 100%
    >为基于规则的事件定义上限规则。它将历程可为给定组织 (ORG) 处理的合格事件数限制为每秒 5000 个。它对应于 Journey Orchestration SLA。请参阅此[页面](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)。
 
 * **系统生成**&#x200B;的事件：这些事件需要 eventID。创建事件时会自动生成此 eventID 字段。推送事件的系统不应生成 ID，它应传递有效负荷预览中可用的 ID。
+
+Journey Orchestration要求将事件流式处理或批量处理到Adobe Experience Platform中。 此数据不一定需要转至实时用户档案。 如果要在单独的历程中使用事件进行分段或查找，我们建议您为用户档案启用数据集。
 
 要了解如何创建事件，请参阅此[页面](../event/about-creating.md)。
