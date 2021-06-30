@@ -7,10 +7,10 @@ feature: 历程
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 89%
 
 ---
 
@@ -73,10 +73,10 @@ ht-degree: 100%
 
 * [Journey Orchestration 产品页](https://www.adobe.com/cn/experience-platform/journey-orchestration.html)
 * [Experience Platform 文档](https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html)
-* [实时客户资料文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
-* [Experience Cloud XDM 字段定义](https://docs.adobe.com/content/help/zh-Hans/experience-platform/xdm/home.html)
-* [身份命名空间文档](https://docs.adobe.com/content/help/zh-Hans/experience-platform/identity/home.html)
-* [流式引入 API](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/streaming/overview.html)
+* [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Experience Cloud XDM 字段定义](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
+* [身份命名空间文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
+* [流式引入 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
 * [Campaign Standard 事务性消息传送文档](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)
 
 ## 技术教程
