@@ -6,9 +6,9 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '778'
 ht-degree: 10%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 ![](../assets/journey64.png)
 
-如果您使用[Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)创建区段，则可以在历程条件中利用这些区段。 请参阅[在条件中使用区段](../segment/using-a-segment.md)。
+如果您使用[Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)创建区段，则可以在历程条件中利用这些区段。 请参阅[在条件中使用区段](../segment/using-a-segment.md)。
 
 
 >[!NOTE]
@@ -75,6 +75,8 @@ ht-degree: 10%
 ## 百分比拆分 {#percentage_split}
 
 利用此选项，可随机拆分受众以为每个群组定义不同的操作。 为每个路径定义拆分数和重新分区。 拆分计算是统计的，因为系统无法预测此历程活动中将会有多少人流。 因此，分割具有非常低的误差范围。 此函数基于Java随机机制（请参阅此[page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)）。
+
+在测试模式下，达到拆分时，将始终选择顶部分支。 如果希望测试选择其他路径，则可以重新组织拆分分支的位置。 请参见[此页面](../building-journeys/testing-the-journey.md)。
 
 >[!NOTE]
 >
