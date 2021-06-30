@@ -6,9 +6,9 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1665'
 ht-degree: 2%
 
 ---
@@ -60,8 +60,9 @@ ht-degree: 2%
 * 当您禁用测试模式时，它将从过去或当前使用该模式的所有人员处删除历程。 它还会清除报表。
 * 您可以根据需要多次启用/禁用测试模式。
 * 激活测试模式后，您无法修改历程。 在测试模式下，您可以直接发布历程，无需先停用测试模式。
+* 达到拆分时，始终选择顶部分支。 如果希望测试选择其他路径，则可以重新组织拆分分支的位置。
 
-## 将配置文件转换为测试配置文件{#turning-profile-into-test}
+## 将轮廓转换为测试轮廓{#turning-profile-into-test}
 
 您可以将现有用户档案转换为测试用户档案。 在Adobe Experience Platform中，您可以通过API调用更新用户档案属性，但无法通过界面执行该操作。
 
@@ -69,7 +70,7 @@ ht-degree: 2%
 
 ## 创建测试用户档案{#create-test-profile}
 
-如果要创建新的测试用户档案，其过程与在Adobe Experience Platform中创建用户档案时的过程相同。 它通过API调用执行。 请参见此[page](https://docs.adobe.com/content/help/zh-Hans/experience-platform/profile/home.html)
+如果要创建新的测试用户档案，其过程与在Adobe Experience Platform中创建用户档案时的过程相同。 它通过API调用执行。 请参见此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
 您必须使用包含“用户档案测试详细信息”混合的用户档案架构。 testProfile标记是此混合标记的一部分。
 
@@ -155,7 +156,7 @@ curl -X POST \
 
 无论事件是通过界面触发还是通过外部触发（例如使用Postman），可视化流程都可正常工作。
 
-## 基于规则的历程{#test-rule-based}的测试模式
+## 基于规则的历程的测试模式 {#test-rule-based}
 
 测试模式还适用于使用基于规则事件的历程。 有关基于规则的事件的更多信息，请参阅[此页面](../event/about-events.md)。
 
