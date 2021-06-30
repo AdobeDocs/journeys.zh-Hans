@@ -3,10 +3,10 @@ product: adobe campaign
 title: 导入导出API说明
 description: 了解有关导入导出API的更多信息。
 products: journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 2%
+source-wordcount: '1123'
+ht-degree: 1%
 
 ---
 
@@ -30,16 +30,16 @@ ht-degree: 2%
 
 我们建议按照以下步骤来跨环境导出和导入您的历程：
 
-1. 在开始环境中创建并参数化历程。 [此处提供更多信息](https://docs.adobe.com/content/help/zh-Hans/journeys/using/building-journeys/about-journey-building/journey.html)
-1. 检查历程版本是否没有错误。 [此处提供更多信息](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. 在开始环境中创建并参数化历程。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. 检查历程版本是否没有错误。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. 调用&#x200B;**/list/journeys** API以检索最新历程版本的UID历程和UID。 如果需要，您可以调用&#x200B;**/journeys/`{uid}`/latest**&#x200B;以查找最新历程版本的UID。
 1. 使用启动环境参数（orgID和sandboxName）调用&#x200B;**export** API。
 1. 打开返回有效负载，然后检查以下项目：
    * 如果导出的历程包含&#x200B;**特定凭据**，则需要将这些凭据替换为与新环境对应的凭据。
-   * 如果导出的历程包含指向&#x200B;**XDM架构**&#x200B;的&#x200B;**事件**，则如果ID值不同，则需要使用xdmEntity节点中新环境的架构ID手动更新架构ID引用。 需要为每个事件完成此更新。 [此处提供更多信息](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * 如果导出的历程包含指向&#x200B;**XDM架构**&#x200B;的&#x200B;**事件**，则如果ID值不同，则需要使用xdmEntity节点中新环境的架构ID手动更新架构ID引用。 需要为每个事件完成此更新。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * 如果您的历程包含电子邮件、短信或推送操作，那么如果目标环境中的名称与开始环境中的名称不同，则您可能需要更新模板名称或mobileApp名称。
 1. 使用您的目标环境参数（orgID和sandboxName）调用&#x200B;**Import** API。 请注意，您可以根据需要多次调用导入API。 每次调用导入API时，都会生成历程中包含的每个对象的UUID和名称。
-1. 导入历程后，即可在Journey Orchestration应用程序中发布该数据。 更多信息[此处](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
+1. 导入历程后，即可在Journey Orchestration应用程序中发布该数据。 更多信息[此处](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## 身份验证
