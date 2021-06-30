@@ -6,10 +6,10 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1039'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到 [!DNL Journey Orchestration]。实际上，[!DNL Journey Orchestration] 依赖于 Adobe Experience Platform 的流摄取 API。因此，如果出现与事件相关的问题，您可以参阅[此页面](https://docs.adobe.com/content/help/zh-Hans/experience-platform/ingestion/streaming/troubleshooting.html)，以了解流摄取 API 故障排除。
+事件不会直接从源推送到 [!DNL Journey Orchestration]。实际上，[!DNL Journey Orchestration] 依赖于 Adobe Experience Platform 的流摄取 API。因此，如果出现与事件相关的问题，您可以参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)，以了解流摄取 API 故障排除。
 
 ## 检查人员是否进入历程{#section_x4v_zzs_dgb}
 
