@@ -7,9 +7,9 @@ feature: 历程
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Journey Orchestration允许您通过自定义数据源和自定义操作配置�
 * 第一次调用会持续5秒：调用已取消，且不会重试。 在报表中，此值会被计为超时错误。
 * 第一次调用在2秒后失败（外部系统返回错误）：如果有上限插槽可用，则重试的时间还剩3秒。
    * 如果在5秒结束前三次重试中有一次成功，则会执行调用，并且没有错误。
-   * 如果在重试期间达到超时时长的结束时间，则调用将被取消，并在报表中计为超时错误。
+   * 如果在重试期间达到超时时长的结束，则调用将被取消，并在报表中计为超时错误。
 
 ## 常见问题{#faq}
 
@@ -74,7 +74,7 @@ Journey Orchestration允许您通过自定义数据源和自定义操作配置�
 
 默认情况下，没有上限规则。 上限规则是在沙盒级别使用上限API为特定端点（称为的URL）定义的。 请参阅[此部分](../about/external-systems.md#capping)和[此页面](../api/capping.md)。
 
-**执行了多少次重试？我是否可以更改重试次数或定义两次重试之间的等待时间？**
+**执行了多少次重试？我是否可以更改重试次数或定义两次重试之间的最短等待时间？**
 
 对于给定的调用，在首次调用后最多可执行三次重试，直到达到超时持续时间的结束。 无法更改重试次数和每次重试间隔的时间。 请参阅[此小节](../about/external-systems.md#timeout)。
 
