@@ -6,7 +6,7 @@ feature: 历程
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 2%
@@ -180,7 +180,7 @@ curl -X POST \
 
 * _Id_:历程中个人的内部ID。这可用于调试。
 * _currentstep_:个人在历程中所处的步骤。我们建议向您的活动添加标签，以便更轻松地识别它们。
-* _currentstep_  > phase:个人历程的状态（正在运行、已完成、错误或超时）。有关更多信息，请参阅下文。
+* _currentstep_  > phase:个人历程的状态（正在运行、已完成、错误或超时）。有关详细信息，请参阅下文。
 * _currentstep_  >  _extraInfo_:错误的描述和其他上下文信息。
 * _currentstep_  >  _fetchErrors_:有关在此步骤期间发生的获取数据错误的信息。
 * _externalKeys_:在事件中定义的键公式的值。
