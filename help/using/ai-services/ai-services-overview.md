@@ -3,10 +3,10 @@ product: adobe campaign
 title: AI服务概述
 description: AI服务概述
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 4%
