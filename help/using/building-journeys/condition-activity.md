@@ -3,10 +3,10 @@ product: adobe campaign
 title: 条件活动
 description: 了解条件活动
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 10%
