@@ -3,11 +3,11 @@ product: adobe campaign
 title: 关于 Journey Orchestration
 description: 详细了解 Journey Orchestration
 feature: 历程
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 关于 [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
-利用存储在事件或数据源中的情境数据构建实时编排用例。
+利用存储在事件或数据源中的上下文数据构建实时编排用例。
 
 [!DNL Journey Orchestration] 是与 Adobe Experience Platform 集成的应用程序服务。
 
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此文档经常更新以反映产品中的最新更改。但是，某些屏幕截图可能与产品的界面略有不同。
+>此文档会经常更新以反映产品中的最新更改。但是，某些屏幕截图可能与产品的界面略有不同。
