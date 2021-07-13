@@ -3,10 +3,10 @@ product: adobe campaign
 title: 历程版本
 description: 了解历程版本
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 3%
