@@ -3,10 +3,10 @@ product: adobe campaign
 title: 关于Adobe Experience Platform区段
 description: 了解如何配置Adobe Experience Platform区段
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 14%
