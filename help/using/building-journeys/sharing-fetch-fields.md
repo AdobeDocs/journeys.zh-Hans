@@ -3,13 +3,13 @@ product: adobe campaign
 title: journeyStep 事件数据提取字段
 description: journeyStep 事件数据提取字段
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 * http
 * 上限
 * timedout
-* 错误
+* error
 
 ## fetchErrorCode
 
