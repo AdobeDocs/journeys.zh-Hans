@@ -3,10 +3,10 @@ product: adobe campaign
 title: 创建事件
 description: 了解如何创建事件
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 63%
@@ -57,7 +57,7 @@ ht-degree: 63%
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此页](../event/selecting-the-namespace.md)。
 1. 定义键：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的个人。如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，[!DNL Journey Orchestration] 会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会自动选择电子邮件键）。请参阅[此页](../event/defining-the-event-key.md)。
 1. 对于系统生成的事件，您可以添加条件。 此步骤是可选的。这允许系统仅处理符合条件的事件。此条件只能基于事件中包含的信息。请参阅[此页](../event/adding-a-condition.md)。
-1. 单击 **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**。
 
    ![](../assets/journey7.png)
 
