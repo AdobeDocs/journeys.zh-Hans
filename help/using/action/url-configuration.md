@@ -3,13 +3,13 @@ product: adobe campaign
 title: URL 配置
 description: 了解URL配置
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
