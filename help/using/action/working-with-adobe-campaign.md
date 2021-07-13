@@ -3,17 +3,17 @@ product: adobe campaign
 title: 使用 Adobe Campaign
 description: 了解Adobe Campaign操作
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# 使用Adobe Campaign Standard {#using_adobe_campaign_standard}
+# 使用 Adobe Campaign Standard {#using_adobe_campaign_standard}
 
 您可以使用Adobe Campaign Standard的事务性消息传送功能发送电子邮件、推送通知和短信。
 
