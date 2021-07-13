@@ -3,10 +3,10 @@ product: adobe campaign
 title: 关于历程报告
 description: 了解如何构建历程报告
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 1%
@@ -58,7 +58,7 @@ ht-degree: 1%
 * **[!UICONTROL Visualizations]**:拖放一系列可视化项目，为报表提供图形维度。有关更多信息，请参阅[添加可视化图表](../reporting/creating-your-journey-reports.md#adding-visualizations)一节。
 * **[!UICONTROL Components]**:使用不同的维度、量度、区段和时间段自定义您的报表。有关更多信息，请参阅[添加组件](../reporting/creating-your-journey-reports.md#adding-components)一节。
 
-## 历程摘要模板{#ootb-template}
+## 历程摘要模板 {#ootb-template}
 
 报表分为两类：现成的模板和自定义报表。
 现成的模板**[!UICONTROL Journey summary]**&#x200B;可让您清楚地查看最重要的跟踪数据。
