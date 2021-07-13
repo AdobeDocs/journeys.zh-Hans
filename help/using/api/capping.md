@@ -4,13 +4,13 @@ title: API描述上限
 description: 进一步了解上限API。
 products: journeys
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->要在Adobe I/O中管理证书，请确保您拥有组织的<b>系统管理员</b>权限，或在Admin Console中拥有[开发人员帐户](https://helpx.adobe.com/enterprise/using/manage-developers.html)权限。
+>要在Adobe I/O中管理证书，请确保您拥有组织的<b>系统管理员</b>权限，或在Admin Console中拥有[开发人员帐户](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)权限。
 
 1. **检查您是否拥有数字证书**，或根据需要创建一个证书。在以下步骤中需要随证书一起提供的公钥和私钥。
 1. **在Adobe I/O中创建与服务 [!DNL Journey Orchestration]** 的新集成并对其进行配置。[!DNL Journey Orchestration]和Adobe Experience Platform需要产品配置文件访问权限。 随后将生成您的凭据（API密钥、客户端密钥……）。
@@ -76,7 +76,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 上限API可帮助您创建、配置和监控上限配置。
 
-| 方法 | 路径 | 说明 |
+| 方法 | 路径 | 描述 |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | 获取端点上限配置的列表 |
 | [!DNL POST] | /endpointConfigs | 创建端点上限配置 |
@@ -113,7 +113,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 }
 ```
 
-### 示例:
+### 示例：
 
 ```
 `{
@@ -174,13 +174,13 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 下载并上传到Postman后，您需要添加三个变量：`{JO_HOST}`、`{Base_Path}`和`{SANDBOX_NAME}`。
 * `{JO_HOST}` : [!DNL Journey Orchestration] 网关URL
 * `{BASE_PATH}` :API的入口点。值为“/authoring”
-* `{SANDBOX_NAME}` :与将 **在其中执行API操作的沙盒名称对应的标头x-sandbox-name** （例如“prod”）。有关更多信息，请参阅[沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) 。
+* `{SANDBOX_NAME}` :与将 **在其中执行API操作的沙盒名称对应的标头x-sandbox-name** （例如“prod”）。有关更多信息，请参阅[沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans) 。
 
 在以下部分中，您将找到用于执行用例的Rest API调用排序列表。
 
 用例n°1:**创建和部署新的上限配置**
 
-1. 列表
+1. list
 1. 创建
 1. candeploy
 1. 部署
