@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: 历程场
-description: 历程场
+title: 历程字段
+description: 历程字段
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 11%
+ht-degree: 26%
 
 ---
 
-# 历程场 {#sharing-journey-fields}
+# 历程字段 {#sharing-journey-fields}
 
 此混合用于历程架构（与journeyStepEvent相关）。 它包含以下字段：
 
