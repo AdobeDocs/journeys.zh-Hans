@@ -3,10 +3,10 @@ product: adobe campaign
 title: 等待活动
 description: 了解等待活动
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 4%
@@ -57,7 +57,7 @@ ht-degree: 4%
 >
 >您可以使用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段格式为2016-08-12T09:46:06Z。
 >
->历程的属性中需要&#x200B;**时区**。 因此，今天无法从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
+>历程的属性中需要&#x200B;**时区**。 因此，今天无法从接口直接指向完整的ISO-8601时间戳，该时间戳将时间和时区偏移混合在一起，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 
