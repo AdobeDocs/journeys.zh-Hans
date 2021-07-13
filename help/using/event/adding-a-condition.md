@@ -3,10 +3,10 @@ product: adobe campaign
 title: 添加条件
 description: 了解如何添加条件
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 09cda689-6953-4ea6-a446-cb4e1d8ad8e4
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 4%
