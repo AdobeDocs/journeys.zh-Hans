@@ -3,17 +3,17 @@ product: adobe campaign
 title: 使用 Adobe Campaign 操作
 description: 了解Adobe Campaign操作
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# 使用Adobe Campaign Standard {#using_campaign_action}
+# 使用 Adobe Campaign Standard {#using_campaign_action}
 
 如果您拥有Adobe Campaign Standard，则可以使用以下现成的操作活动：**[!UICONTROL Email]**、**[!UICONTROL Push]**&#x200B;和&#x200B;**[!UICONTROL SMS]**。
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >
 >为此，您需要配置内置操作。 请参见[此页面](../action/working-with-adobe-campaign.md)。
 
-对于每个渠道，您都可以选择Adobe Campaign Standard事务型消息传递&#x200B;**模板**。 事实上，[!DNL Journey Orchestration]不是消息发送解决方案。 对于内置的电子邮件、短信和推送渠道，我们依赖事务型消息传送来执行消息发送。 这意味着如果要在历程中使用特定消息模板，则必须在Adobe Campaign Standard中发布该模板。 请参阅[此页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)以了解如何使用此功能。
+对于每个渠道，您都可以选择Adobe Campaign Standard事务型消息传递&#x200B;**模板**。 事实上，[!DNL Journey Orchestration]不是消息发送解决方案。 对于内置的电子邮件、短信和推送渠道，我们依赖事务型消息传送来执行消息发送。 这意味着如果要在历程中使用特定消息模板，则必须在Adobe Campaign Standard中发布该模板。 请参阅[此页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)以了解如何使用此功能。
 
 >[!NOTE]
 >
