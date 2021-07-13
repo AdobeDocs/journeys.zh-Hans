@@ -3,10 +3,10 @@ product: adobe campaign
 title: 关于数据源
 description: '了解如何配置数据源 '
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 90%
@@ -54,6 +54,6 @@ ht-degree: 90%
 
    ![](../assets/journey23.png)
 
-1. 单击 **[!UICONTROL Save]**.
+1. 单击 **[!UICONTROL Save]**。
 
    数据源现已配置完毕，可随时用于您的历程。
