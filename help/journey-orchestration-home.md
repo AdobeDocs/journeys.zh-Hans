@@ -4,13 +4,13 @@ product: adobe campaign
 title: Journey Orchestration 产品文档
 description: Journey Orchestration 产品文档
 feature: 历程
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 89%
        <img alt="开发人员" src="using/assets/do-not-localize/FAQ.png" />
        </a>
     <div>
-    <a href="using/about/troubleshooting.md"><strong>故障排除</strong></a>
+    <a href="using/about/troubleshooting.md"><strong>疑难解答</strong></a>
     </div>
     <em>了解可用于对历程进行故障排除的各种工具。</em>
     <br>
