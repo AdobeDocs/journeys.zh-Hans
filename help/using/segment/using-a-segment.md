@@ -3,10 +3,10 @@ product: adobe campaign
 title: 使用区段
 description: 了解如何使用区段
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 3%
