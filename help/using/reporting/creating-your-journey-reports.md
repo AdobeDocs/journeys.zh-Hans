@@ -3,10 +3,10 @@ product: adobe campaign
 title: 创建历程报告
 description: 了解如何创建历程报告
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 创建历程报告 {#concept_rfj_wpt_52b}
 
-## 访问和创建报告{#accessing-reports}
+## 访问和创建报告 {#accessing-reports}
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 ## 添加面板{#adding-panels}
 
-### 添加空白面板{#adding-a-blank-panel}
+### 添加空白面板 {#adding-a-blank-panel}
 
 要启动报表，您可以向现成或自定义报表添加一组面板。 每个面板都包含不同的数据集，并且由自由格式表和可视化组成。
 
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 您现在可以向面板中添加一个自由格式表，以开始定位数据。
 
-### 添加自由格式表{#adding-a-freeform-table}
+### 添加自由格式表 {#adding-a-freeform-table}
 
 自由格式表允许您创建一个表，以使用&#x200B;**[!UICONTROL Component]**&#x200B;表中提供的不同量度和维度来分析数据。
 
