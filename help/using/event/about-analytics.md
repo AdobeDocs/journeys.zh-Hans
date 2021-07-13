@@ -3,10 +3,10 @@ product: adobe campaign
 title: 关于Adobe Analytics数据
 description: 了解如何利用Adobe Analytics数据
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
