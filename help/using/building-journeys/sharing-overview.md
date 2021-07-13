@@ -3,10 +3,10 @@ product: adobe campaign
 title: 历程步骤共享概述
 description: 历程步骤共享概述
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 7%
