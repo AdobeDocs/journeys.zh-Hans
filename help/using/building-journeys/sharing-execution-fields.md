@@ -3,13 +3,13 @@ product: adobe campaign
 title: journeyStep 事件操作执行字段
 description: journeyStep 事件操作执行字段
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 4%
 
 指示操作是否已参数化。
 
-类型：布尔
+类型：布尔值
 
 ## actionExecutionTime
 
@@ -58,8 +58,8 @@ ht-degree: 4%
 值：
 * http
 * 上限
-* 超时
-* 错误
+* timeout
+* error
 
 ## actionExecutionErrorCode
 
@@ -127,7 +127,7 @@ actionExecOrigError的错误代码。
 
 此描述是否从受众区段触发批量历程。
 
-类型：布尔
+类型：布尔值
 
 ## actionSchedulerCount
 
