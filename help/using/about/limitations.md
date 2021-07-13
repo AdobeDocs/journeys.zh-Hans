@@ -3,10 +3,10 @@ product: adobe campaign
 title: Journey Orchestration限制
 description: 了解有关Journey Orchestration限制的更多信息
 feature: 历程
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 * 在新版本中，无法更改在&#x200B;**区段鉴别**（第一个节点）中选择的区段和命名空间。
 * 在所有历程版本中，重新进入规则必须相同。
 
-## 区段鉴别 {#segment-qualification}
+## 区段限定条件 {#segment-qualification}
 
 * 由于吞吐量限制，**区段鉴别**&#x200B;活动不能与Adobe Campaign Standard事务型消息传递结合使用。 请参阅[Adobe Campaign Standard产品说明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
  
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 * 自定义操作URL不支持动态参数。 
 * 仅支持POST和PUT调用方法。 
-* 查询参数或标头的名称不得以“。”开头 或者 &quot;$&quot;. 
+* 查询参数或标头的名称不得以“。”开头 或 &quot;$&quot;. 
 * 不允许使用IP地址。 
 * 内部Adobe地址(.adobe.) 不允许。
  
