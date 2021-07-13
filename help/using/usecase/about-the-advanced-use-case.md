@@ -3,13 +3,13 @@ product: adobe campaign
 title: 关于高级用例
 description: 进一步了解历程高级用例
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '417'
+ht-degree: 5%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## 先决条件 {#prerequisites}
 
-对于我们的用例，我们设计了三个Adobe Campaign Standard事务型消息传递模板。 我们使用的是事件事务型消息模板。 请参见此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)。
+对于我们的用例，我们设计了三个Adobe Campaign Standard事务型消息传递模板。 我们使用的是事件事务型消息模板。 请参见此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
 
 Adobe Campaign Standard配置为发送电子邮件和推送通知。
 
