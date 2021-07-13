@@ -3,13 +3,13 @@ product: adobe campaign
 title: 用户界面
 description: 了解有关用户界面的更多信息
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1015'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 >
 >为了充分利用 [!DNL Journey Orchestration]，我们建议将 Chrome 用作您的 Internet 浏览器。接口以 IMS 中定义的语言显示。如果 IMS 语言不受 [!DNL Journey Orchestration] 支持，则界面将以英语显示。
 >
->此文档经常更新以反映产品中的最新更改。但是，某些屏幕截图可能与产品的界面略有不同。
+>此文档会经常更新以反映产品中的最新更改。但是，某些屏幕截图可能与产品的界面略有不同。
 
 ## 访问 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
@@ -51,7 +51,7 @@ ht-degree: 96%
 
 在 **[!UICONTROL Home]**、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，搜索栏允许您搜索项目。
 
-单击列表左上角的过滤器图标即可访问&#x200B;**[!UICONTROL Filters]**。通过过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态、您创建的元素或最近 30 天内修改的元素。
+单击列表左上角的过滤器图标即可访问 **[!UICONTROL Filters]**。通过过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态、您创建的元素或最近 30 天内修改的元素。
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，使用 **[!UICONTROL Creation filters]** 按创建日期和用户进行过滤。例如，您可以选择仅显示您在过去 30 天中创建的事件。
 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
 在定义[事件有效负载](../event/defining-the-payload-fields.md)、[字段组有效负载](../datasource/field-groups.md)以及在[表达式编辑器](../expression/expressionadvanced.md)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
 
-如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在使用“eVars”和通用字段时尤为有用。您可以通过 API 调用配置友好名称描述符。有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)。
+如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在使用“eVars”和通用字段时尤为有用。您可以通过 API 调用配置友好名称描述符。有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
 
 ![](../assets/xdm-from-descriptors.png)
 
