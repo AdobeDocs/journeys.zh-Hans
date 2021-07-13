@@ -3,10 +3,10 @@ product: adobe campaign
 title: 关于历程构建
 description: 作为企业用户，了解如何结合事件、编排和行为活动来构建历程。
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
-source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 12%
@@ -23,7 +23,7 @@ ht-degree: 12%
 
 启动新历程时，无法作为第一步放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
 
-## 快速入门 {#creating_journey}
+## 快速启动 {#creating_journey}
 
 以下是创建和发布历程的主要步骤。
 
