@@ -3,13 +3,13 @@ product: adobe campaign
 title: 终止历程
 description: 了解如何终止旅程
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 4%
 
    ![](../assets/finish_drop_down_list.png)
 
-1. 单击 **[!UICONTROL Close to new entrances]**。将出现一个对话框。
+1. 单击 **[!UICONTROL Close to new entrances]**。将显示一个对话框。
 1. 单击&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;确认。
 
 ## 停止旅程
@@ -64,5 +64,5 @@ ht-degree: 4%
 
 ![](../assets/finish_drop_down_list.png)
 
-1. 单击 **[!UICONTROL Stop]**。将出现一个对话框。
+1. 单击 **[!UICONTROL Stop]**。将显示一个对话框。
 1. 单击&#x200B;**[!UICONTROL Stop]**&#x200B;确认。
