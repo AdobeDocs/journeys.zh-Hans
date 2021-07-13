@@ -3,21 +3,21 @@ product: adobe campaign
 title: 关于Campaign v7/v8集成
 description: 了解Campaign v7/v8集成
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# 使用Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+# 使用 Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
 此集成适用于从21.1版本开始的Adobe Campaign Classic v7和Adobe Campaign v8。 它允许您使用Adobe Campaign事务型消息传送功能发送电子邮件、推送通知和短信。
 
-Journey Orchestration实例和Campaign实例之间的连接是在预配时Adobe设置的。
+Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时通过 Adobe 来设置的。
 
 此[部分](../usecase/campaign-classic-use-case.md)中提供了端到端用例。
 
