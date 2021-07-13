@@ -3,10 +3,10 @@ product: adobe campaign
 title: 测试历程
 description: '了解历程测试 '
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 2%
