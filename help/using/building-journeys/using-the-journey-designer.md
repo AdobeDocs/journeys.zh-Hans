@@ -3,10 +3,10 @@ product: adobe campaign
 title: 使用历程设计器
 description: 了解有关使用历程设计器的更多信息
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 **历程列表**&#x200B;允许您同时查看所有历程、查看其状态并执行基本操作。 您可以重复、停止或删除您的历程。某些操作可能不可用，具体取决于历程。例如，您无法删除或重新启动已关闭的历程。您可以从中创建新版本、复制或停止该版本。 您还可以使用搜索栏搜索历程。
 
-单击列表左上角的过滤器图标即可访问&#x200B;**[!UICONTROL Filters]**。利用过滤器菜单，可根据不同的条件（状态、您创建的历程、在过去30天内修改的历程、仅最新版本等）筛选显示的历程。 您还可以选择仅显示使用特定事件、字段组或操作的历程。 可以配置列表中显示的列。 所有过滤器和列均按用户进行保存。
+单击列表左上角的过滤器图标即可访问 **[!UICONTROL Filters]**。利用过滤器菜单，可根据不同的条件（状态、您创建的历程、在过去30天内修改的历程、仅最新版本等）筛选显示的历程。 您还可以选择仅显示使用特定事件、字段组或操作的历程。 可以配置列表中显示的列。 所有过滤器和列均按用户进行保存。
 
 ![](../assets/journey74.png)
 
