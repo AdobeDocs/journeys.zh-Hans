@@ -3,10 +3,10 @@ product: adobe campaign
 title: 预览有效负载
 description: 了解如何预览有效负载
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 8%
