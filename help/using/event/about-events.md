@@ -3,10 +3,10 @@ product: adobe campaign
 title: 关于事件
 description: 了解事件
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 87%
