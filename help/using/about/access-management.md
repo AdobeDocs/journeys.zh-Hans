@@ -3,13 +3,13 @@ product: adobe campaign
 title: 访问管理
 description: 了解有关访问管理的更多信息
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 95%
 
 [!DNL Journey Orchestration] 允许您创建自己的产品用户档案，并为用户分配一组权限和沙箱。通过产品用户档案，您可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。
+有关如何创建和管理沙箱的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
 
 要创建产品用户档案并分配一组权限和沙箱，请执行以下操作：
 
@@ -122,7 +122,7 @@ ht-degree: 95%
 
    ![](../assets/do-not-localize/user_management_2.png)
 
-1. 单击 **[!UICONTROL Add user]**.
+1. 单击 **[!UICONTROL Add user]**。
 
    您还可以将新用户添加到用户组以微调共享的权限集。有关详细信息，请参见此 [ 页面](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
 
