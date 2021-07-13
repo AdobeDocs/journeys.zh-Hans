@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: 从一个历程到另一个历程
-description: 从一个历程到另一个历程
+title: 从一个历程转到另一个历程
+description: 从一个历程转到另一个历程
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# 从一个历程到另一个历程 {#jump}
+# 从一个历程转到另一个历程 {#jump}
 
 **[!UICONTROL Jump]**&#x200B;操作活动允许您将个人从一个历程推送到另一个历程。 此功能允许您：
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->另请参阅教程视频[此处](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+>另请参阅教程视频[此处](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hans)
 
 ## 生命周期
 
@@ -106,7 +106,7 @@ ht-degree: 5%
 
 ![](../assets/jump7.png)
 
-## 故障排除
+## 疑难解答
 
 当历程发布或处于测试模式时，如果出现以下情况，则会出现错误：
 * target历程不再存在
