@@ -5,10 +5,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供有关实施和构建历程的操作说明。
 index: true
 feature: 历程
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 # [!DNL Journey Orchestration] 指南 {#using}
 
 + [产品文档](journey-orchestration-home.md)
-+ 新增内容 {#release-notes}
++ 新增功能 {#release-notes}
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 入门{#starting-with-journeys}
@@ -25,7 +25,7 @@ ht-degree: 100%
    + [入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
    + [访问管理](using/about/access-management.md)
-   + [故障排除](using/about/troubleshooting.md)
+   + [疑难解答](using/about/troubleshooting.md)
    + [与外部系统集成](using/about/external-systems.md)
 + 配置事件 {#events-journeys}
    + 关于事件 {#about-events}
@@ -33,7 +33,7 @@ ht-degree: 100%
       + [数据周期](using/event/about-data-cycle.md)
       + [创建事件](using/event/about-creating.md)
       + [利用 Adobe Analytics](using/event/about-analytics.md)
-      + [关于 ExperienceEvent 模式](using/event/experience-event-schema.md)
+      + [关于 ExperienceEvent Schemas](using/event/experience-event-schema.md)
       + [用于发送事件的其他步骤](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [定义有效负载字段](using/event/defining-the-payload-fields.md)
    + [选择命名空间](using/event/selecting-the-namespace.md)
@@ -53,8 +53,8 @@ ht-degree: 100%
       + [关于自定义操作配置](using/action/about-custom-action-configuration.md)
       + [URL 配置](using/action/url-configuration.md)
       + [定义消息参数](using/action/defining-the-message-parameters.md)
-+ 使用 Platform 区段 {#configuring-segment}
-   + [关于 Platform 区段](using/segment/about-segments.md)
++ 使用区段{#configuring-segment}
+   + [关于区段](using/segment/about-segments.md)
    + [创建区段](using/segment/creating-a-segment.md)
    + [在条件中使用区段](using/segment/using-a-segment.md)
 + 构建历程 {#building-journeys}
@@ -70,7 +70,7 @@ ht-degree: 100%
       + 事件活动 {#events-activities}
          + [关于事件活动](using/building-journeys/event-activities.md)
          + [一般事件](using/building-journeys/general-events.md)
-         + [反应事件](using/building-journeys/reaction-events.md)
+         + [反应 events](using/building-journeys/reaction-events.md)
          + [区段鉴别事件](using/building-journeys/segment-qualification-events.md)
       + 编排活动 {#orchestration-activities}
          + [关于编排活动](using/building-journeys/about-orchestration-activities.md)
@@ -95,13 +95,13 @@ ht-degree: 100%
       + [历程字段](using/building-journeys/sharing-journey-fields.md)
 + 使用高级表达式编辑器 {#building-advanced-conditions-journeys}
    + [关于高级表达式编辑器](using/expression/expressionadvanced.md)
-   + 语法 {#syntax}
+   + 语法{#syntax}
       + [概述](using/expression/generalities.md)
       + [条件指令](using/expression/conditional-instruction.md)
       + [数据类型](using/expression/data-types.md)
       + [字段引用](using/expression/field-references.md)
       + [收藏集管理函数](using/expression/collection-management-functions.md)
-      + [运算符](using/expression/operators.md)
+      + [操作员](using/expression/operators.md)
       + [历程属性](using/expression/journey-properties.md)
       + [示例](using/expression/advanced-editor-use-cases.md)
    + 函数 {#main-functions-journey}
@@ -118,7 +118,7 @@ ht-degree: 100%
          + [max](using/functions/functionmax.md)
          + [min](using/functions/functionmin.md)
          + [sum](using/functions/functionsum.md)
-      + 转换 {#conversion}
+      + 转化 {#conversion}
          + [toBool](using/functions/functiontobool.md)
          + [toDateTime](using/functions/functiontodatetime.md)
          + [toDateTimeOnly](using/functions/functiontodatetimeonly.md)
@@ -144,7 +144,7 @@ ht-degree: 100%
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
-         + [in](using/functions/functionin.md)
+         + [在 ](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -178,11 +178,11 @@ ht-degree: 100%
 + 构建报告{#journey-reports}
    + [关于历程报告](using/reporting/about-journey-reports.md)
    + [创建历程报告](using/reporting/creating-your-journey-reports.md)
-   + [指标和维度](using/reporting/metrics-and-dimensions.md)
+   + [量度和维度](using/reporting/metrics-and-dimensions.md)
 + 与智能服务集成{#use-case-advanced}
    + [关于 AI 集成](using/ai-services/ai-services-overview.md)
    + [利用客户人工智能](using/ai-services/leveraging-customer-ai.md)
-+ 用例{#use-cases-journeys}
++ 使用案例{#use-cases-journeys}
    + 发送个性化电子邮件{#use-case-simple}
       + [关于简单用例](using/usecase/about-the-simple-use-case.md)
       + [配置事件](using/usecase/configuring-the-event.md)
