@@ -3,13 +3,13 @@ product: adobe campaign
 title: 构建历程
 description: 了解如何构建简单的用例历程
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 42%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![](../assets/journeyuc1_12.png)
 
-1. 删除&#x200B;**[!UICONTROL Email]**&#x200B;活动，并选择“Spa discount”事务型消息传递模板。 此模板是使用Adobe Campaign设计的。 请参见此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)。
+1. 删除&#x200B;**[!UICONTROL Email]**&#x200B;活动，并选择“Spa discount”事务型消息传递模板。 此模板是使用Adobe Campaign设计的。 请参见此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
 
    ![](../assets/journeyuc1_13.png)
 
