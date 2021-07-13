@@ -3,10 +3,10 @@ product: adobe campaign
 title: 文档更新
 description: 了解文档更新
 feature: 历程
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 94%
