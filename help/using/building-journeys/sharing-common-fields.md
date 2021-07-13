@@ -3,17 +3,17 @@ product: adobe campaign
 title: journeysteps事件常用字段
 description: journeysteps事件常用字段
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# journeysteps事件常用字段{#sharing-common-fields}
+# journeysteps事件常用字段 {#sharing-common-fields}
 
 此混合将由journeyStepEvent和journeyStepProfileEvent共享。
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 指示用户是否已进入历程。 如果不存在，则我们假定该值为false。
 
-类型：布尔
+类型：布尔值
 
 值：true/false
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 指示用户是否使用同一实例重新进入历程。 如果不存在，则我们假定该值为false。
 
-类型：布尔
+类型：布尔值
 
 值：true/false
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 指示实例是否已结束（成功或未成功）。
 
-类型：布尔
+类型：布尔值
 
 ## eventID
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 指示此历程是否处于测试模式。
 
-类型：布尔
+类型：布尔值
 
 ## processingTime
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 指示此单一实例是否已从批处理实例触发。
 
-类型：布尔
+类型：布尔值
 
 ## batchExternalKey
 
