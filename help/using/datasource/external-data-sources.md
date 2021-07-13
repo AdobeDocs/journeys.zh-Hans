@@ -3,10 +3,10 @@ product: adobe campaign
 title: '外部数据源 '
 description: '了解如何配置外部数据源 '
 feature: 历程
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 ![](../assets/journey29.png)
 
-单击 **[!UICONTROL Save]**.
+单击 **[!UICONTROL Save]**。
 
 数据源现已配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。如果温度高于 30°C，您可以决定发送特定通信。
 
