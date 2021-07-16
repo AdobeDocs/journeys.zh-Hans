@@ -6,7 +6,7 @@ solution-image: assets/campaign-icon-24.png
 getting-started-title: 社区
 getting-started-url: https://adobe.com/go/journeyorchestrationcommunity
 tutorials-title: 教程
-tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html
+tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hans
 git-repo: https://git.corp.adobe.com/AdobeDocs/journeys.zh-Hans
 index: true
 feature-set: Journey Orchestration
@@ -14,9 +14,9 @@ solution: Experience Platform, Journey Orchestration
 type: Documentation
 feature: 历程
 source-git-commit: 5a2e017c37be76879e081a000785610368e60505
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '29'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
