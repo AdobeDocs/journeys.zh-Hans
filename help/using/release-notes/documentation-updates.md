@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 94%
 
 ## 2021 年 3 月 {#march-2021}
 
-* 我们详细介绍了在 Adobe Experience Platform 中创建测试用户档案的完整过程。[了解更多信息](../building-journeys/creating-test-profiles.md).
+* 我们详细介绍了在 Adobe Experience Platform 中创建测试用户档案的完整过程。[了解更多信息](../building-journeys/creating-test-profiles.md)。
 
 ## 2021 月 1 日 {#january-2021}
 
-* 添加了在创建用户档案的同时触发历程的最佳实践。[了解更多信息](../about/limitations.md#journeys-limitation-profile-creation).
+* 添加了在创建用户档案的同时触发历程的最佳实践。[了解更多信息](../about/limitations.md#journeys-limitation-profile-creation)。
 
 ## 2020 年 10 月 {#october-2020}
 
-* 添加了有关如何为事件配置超时的信息。[了解更多信息](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
+* 添加了有关如何为事件配置超时的信息。[了解更多信息](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)。
 
 ## 2020 年 9 月 {#september-2020}
 
@@ -39,13 +39,13 @@ ht-degree: 94%
 
 * 添加了有关如何对要在区段列表中显示的列进行排序和选择的信息。[了解更多信息](../building-journeys/segment-qualification-events.md)
 * 添加了有关在选择区段后如何复制区段名称和 ID 的信息。[了解更多信息](../building-journeys/segment-qualification-events.md)
-* Experience Platform的出现情况已在不同页面之间得到协调。
+* Experience Platform 事件已在不同页面上得到协调。
 
 ## 2020 年 7 月 {#july-2020}
 
 * 添加了一个链接，指向有关向 Adobe Experience Platform 报告事件的步骤的新教程视频。[了解更多信息](../building-journeys/sharing-overview.md)
 * 事件活动部分已重新组织为每种事件类型的专用子部分。[了解更多信息](../building-journeys/event-activities.md)
-* 添加了最佳实践，以避免区段鉴别过载。 [了解更多信息](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 添加了避免区段鉴别过载的最佳实践。[了解更多信息](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 添加了注释，以说明如何在操作或条件出现错误后继续历程。[了解更多信息](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 新增了 Alpha 功能部分，这些功能在有限的一组客户中进行测试。
 * 添加了有关与智能服务集成的新部分。[了解更多信息](../ai-services/ai-services-overview.md)
@@ -67,13 +67,13 @@ ht-degree: 94%
 ## 2020 年 4 月 {#april-2020}
 
 * 添加了有关体验事件模式定义的新部分，以帮助用户配置其第一个事件。[了解更多信息](../event/experience-event-schema.md)
-* [!DNL Journey Orchestration]文档的主页已更新，添加了其他有用链接。 [了解更多信息](../../journey-orchestration-home.md)
+* 更新了 [!DNL Journey Orchestration] 文档主页，添加了其他有用链接。[了解更多信息](../../journey-orchestration-home.md)
 
 ## 2020 年 3 月 {#march-2020}
 
 * 在测试日志部分，添加了 _actionExecutionErrors_ 和 _fetchErrors_ 参数描述。[了解更多信息](../building-journeys/testing-the-journey.md#viewing_logs)
 * 历程中使用的自定义操作的限制已更新。您还可以修改 **[!UICONTROL URL]** 字段和 **[!UICONTROL Authentication]** 参数。[了解更多信息](../action/about-custom-action-configuration.md)
-* 添加了新的上下文帮助条目。 自定义身份验证有效负载窗格（在操作和数据源中）现在包含一个链接到此[部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)的帮助图标。
+* 添加了新的情景式帮助条目。自定义身份验证有效负载窗格（在操作和数据源中）现包含一个链接到此[部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)的帮助图标。
 * 现在可以停止已关闭的历程。[了解更多信息](../building-journeys/using-the-journey-designer.md)
 * 界面描述部分已重新组织。[了解更多信息](../about/user-interface.md)
 * 多个事件的触发已添加到测试模式部分[阅读更多](../building-journeys/testing-the-journey.md#firing_events)
@@ -86,7 +86,7 @@ ht-degree: 94%
 
 ## 2020 年 2 月 {#february-2020}
 
-* 快捷键部分已更新。 **C** 键盘快捷键，允许您在所有列表屏幕中创建新项目。[了解更多信息](../about/user-interface.md#section_ksq_zr1_ffb)
+* 快捷键部分已更新。**C** 键盘快捷键，允许您在所有列表屏幕中创建新项目。[了解更多信息](../about/user-interface.md#section_ksq_zr1_ffb)
 * [数据源](../datasource/about-data-sources.md)和[操作](../action/action.md)概述页面已得到改进。
 
 ## 2020 月 1 日 {#january-2020}
@@ -95,14 +95,14 @@ ht-degree: 94%
 
 <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
-## 12 月 2019 日 {#december-2019}
+## 2019 年 12 月 {#december-2019}
 
 * 所有屏幕截图都已更新，以反映界面的更改。
 * 测试模式部分已更新。[了解更多信息](../building-journeys/testing-the-journey.md)
 <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * 现在可删除已停止的历程。相关文档页面已更新。
 * 在历程中检测到问题时，会显示两种颜色。红色表示错误，橙色表示警告。[了解更多信息](../about/troubleshooting.md)
-* 高级表达式编辑器部分已更新。[了解更多信息](../expression/expressionadvanced.md).
+* 高级表达式编辑器部分已更新。[了解更多信息](../expression/expressionadvanced.md)。
 * [条件说明](../expression/conditional-instruction.md)和[集合管理](../expression/collection-management-functions.md)部分已移动并更新。
 * [函数](../expression/functions.md)部分已更新为新示例。
 * [toDateTime 函数](../functions/functiontodatetime.md)文档已更新，以反映时区语法的更改。
