@@ -9,7 +9,7 @@ exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 7%
 | 参数 | 类型 |
 |-----------|--------------|
 | 基础 | 字符串 |
-| 目标 | 字符串 |
+| Target | 字符串 |
 | 替换 | 字符串 |
 
 ## 签名和返回的类型
