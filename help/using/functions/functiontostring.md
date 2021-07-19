@@ -9,7 +9,7 @@ exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ## 类别
 
-转换
+转化
 
 ## 函数语法
 
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 ## 参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | dateTime | 以UTC日期格式转换日期 |
 | dateTimeOnly | 以UTC日期格式转换日期 |
