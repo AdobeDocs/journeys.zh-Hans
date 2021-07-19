@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 集合管理函数
+title: 收藏集管理函数
 description: 了解集合管理功能中的数据类型
 feature: 历程
 role: Data Engineer
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: e0bf1a6f9c160b72da28feaca1ca52665f365630
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '585'
+ht-degree: 2%
 
 ---
 
-# 集合管理函数 {#collection-management-functions}
+# 收藏集管理函数 {#collection-management-functions}
 
 表达式语言还引入了一组用于查询集合的函数。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 在“数据源条件”活动中，您可以检查&#x200B;**[!UICONTROL all]**&#x200B;函数的结果是否为null。 您还可以将此&#x200B;**[!UICONTROL all]**&#x200B;函数与其他函数（如&#x200B;**[!UICONTROL count]**）结合使用。 有关更多信息，请参阅[数据源条件活动](../building-journeys/condition-activity.md#data_source_condition)。
 
-**示例1:**
+**示例 1:**
 
 我们希望检查用户是否安装了特定版本的应用程序。 为此，我们会获取与版本为1.0的移动设备应用程序关联的所有推送通知令牌。然后，我们使用&#x200B;**[!UICONTROL count]**&#x200B;函数执行一个条件，以检查返回的令牌列表是否包含至少一个元素。
 
@@ -125,7 +125,7 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 表达式的结果为&#x200B;**3**。
 
-**示例3:**
+**示例 3:**
 
 在本例中，我们会检查某个人在过去24小时内是否未收到任何通信。 我们使用两个基于集合两个元素的表达式，过滤从ExperiencePlatform数据源检索的体验事件集合。 特别是，事件的时间戳将与&#x200B;**[!UICONTROL nowWithDelta]**&#x200B;函数返回的dateTime进行比较。
 
@@ -180,7 +180,7 @@ _`<listExpression>.first(<condition>)`_
 
 _`<listExpression>.last(<condition>)`_
 
-**示例1:**
+**示例 1:**
 
 此表达式会返回与版本为1.0的移动设备应用程序关联的第一个推送通知令牌。
 
@@ -207,7 +207,7 @@ _`<listExpression>.last(<condition>)`_
 >* **[!UICONTROL last]** 函数将返回最早的函数。
 
 
-**示例3:**
+**示例 3:**
 
 我们会检查DMA ID具有非零值的第一个（最近的）Adobe Analytics事件是否具有等于602的值。
 
@@ -223,7 +223,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 _`<listExpression>`.at(`<index>`)_
 
-**示例:**
+**示例：**
 
 此表达式会返回列表的第二个推送通知令牌。
 
