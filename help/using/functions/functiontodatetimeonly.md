@@ -9,7 +9,7 @@ exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 10%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 ## 类别
 
-转换
+转化
 
 ## 函数语法
 
@@ -29,7 +29,7 @@ ht-degree: 10%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期时间采用ISO-8601或“YYYY-MM-DD”格式（XDM日期格式） | 字符串 |
+| 日期时间(ISO-8601或“YYYY-MM-DD”格式（XDM日期格式） | 字符串 |
 | 日期时间 | dateTime |
 
 ## 签名和返回的类型
