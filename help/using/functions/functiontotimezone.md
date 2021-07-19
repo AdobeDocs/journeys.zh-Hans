@@ -5,7 +5,7 @@ description: 了解toTimeZone的函数
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 ## 类别
 
-转换
+转化
 
 ## 函数语法
 
@@ -24,7 +24,7 @@ ht-degree: 7%
 
 ## 参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | 字符串 | 字符串值必须包含区域ID。 它可以是字段引用或表达式 |
 
