@@ -9,11 +9,11 @@ exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# 历程属性属性{#journey-properties}
+# 历程属性属性 {#journey-properties}
 
 在高级表达式编辑器中，您将在事件和数据源类别下方找到&#x200B;**历程属性**&#x200B;类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。
 
@@ -40,9 +40,9 @@ ht-degree: 4%
 
 * **优化报表中的错误** :您可以根据错误类型定义条件，而不是只为出错的消息提供一个路径。这样，您就可以优化报表并查看所有错误类型数据。
 
-## 字段列表{#journey-properties-fields}
+## 字段列表 {#journey-properties-fields}
 
-| 类别 | 字段名称 | 标签 | 说明 |
+| 类别 | 字段名称 | 标签 | 描述 |
 |---|---|---|------------|
 | 历程版本 | journeyUID | 历程标识符 |  |
 |  | journeyVersionUID | 历程版本标识符 |  |
@@ -54,7 +54,7 @@ ht-degree: 4%
 |  | organizationId | 组织标识符 | 品牌组织 |
 |  | sandboxName | 沙盒名称 | 沙盒的名称 |
 | 身份 | profileId | 配置文件标识符 | 历程中用户档案的标识符 |
-|  | 命名空间 | 配置文件标识命名空间 | 历程中用户档案的命名空间(示例：ECID) |
+|  | namespace | 配置文件标识命名空间 | 历程中用户档案的命名空间(示例：ECID) |
 | 当前节点 | currentNodeId | 当前节点标识符 | 当前活动（节点）的标识符 |
 |  | currentNodeName | 当前节点名称 | 当前活动的名称（节点） |
 | 上一节点 | previousNodeId | 上一节点标识符 | 上一活动（节点）的标识符 |
