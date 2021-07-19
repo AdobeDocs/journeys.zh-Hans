@@ -9,7 +9,7 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 73%
 | 聚合 | [max](../functions/functionmax.md) |
 | 聚合 | [min](../functions/functionmin.md) |
 | 聚合 | [sum](../functions/functionsum.md) |
-| 转换 | [toBool](../functions/functiontobool.md) |
-| 转换 | [toDateTime](../functions/functiontodatetime.md) |
-| 转换 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
-| 转换 | [toDecimal](../functions/functiontodecimal.md) |
-| 转换 | [toDuration](../functions/functiontoduration.md) |
-| 转换 | [toInteger](../functions/functiontointeger.md) |
-| 转换 | [toString](../functions/functiontostring.md) |
+| 转化 | [toBool](../functions/functiontobool.md) |
+| 转化 | [toDateTime](../functions/functiontodatetime.md) |
+| 转化 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
+| 转化 | [toDecimal](../functions/functiontodecimal.md) |
+| 转化 | [toDuration](../functions/functiontoduration.md) |
+| 转化 | [toInteger](../functions/functiontointeger.md) |
+| 转化 | [toString](../functions/functiontostring.md) |
 | 日期 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
 | 日期 | [inLastDays](../functions/functioninlastdays.md) |
 | 日期 | [inLastHours](../functions/functioninlasthours.md) |
@@ -59,7 +59,7 @@ ht-degree: 73%
 | 日期 | [setDays](../functions/functionsetdays.md) |
 | 列表 | [distinct](../functions/functiondistinct.md) |
 | 列表 | [distinctCount](../functions/functiondistinctcount.md) |
-| 列表 | [in](../functions/functionin.md) |
+| 列表 | [在 ](../functions/functionin.md) |
 | 列表 | [listSize](../functions/functionlistsize.md) |
 | 列表 | [serializeList](../functions/functionserializelist.md) |
 | 列表 | [sort](../functions/functionsort.md) |
