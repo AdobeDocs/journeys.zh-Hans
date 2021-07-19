@@ -54,7 +54,7 @@ listInteger,listInteger : listInteger
 listString,listString : listString
 ```
 
-**使用情况**
+**用法**
 
 条件说明允许您通过减少条件活动的数量来优化历程工作流。 例如，在同一操作活动中，您只能使用一个条件表达式为字段定义指定两个替换项。
 
