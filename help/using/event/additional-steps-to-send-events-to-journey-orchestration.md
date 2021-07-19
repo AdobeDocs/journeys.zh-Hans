@@ -9,7 +9,7 @@ exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 要配置要发送到&#x200B;**[!UICONTROL Streaming Ingestion APIs]**&#x200B;并在[!DNL Journey Orchestration]中使用的事件，您需要执行以下步骤：
 
-1. 从Adobe Experience Platform API获取入口URL（请参阅[流摄取API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)）。
+1. 从Adobe Experience Platform API获取入口URL（请参阅[流摄取API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)）。
 1. 从&#x200B;**[!UICONTROL Event]**&#x200B;菜单的有效负荷预览复制有效负荷。 请参阅[此页](../event/defining-the-payload-fields.md)。
 
 然后，您需要配置数据系统，以使用您复制的有效负载将事件推送到流摄取API:
