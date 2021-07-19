@@ -50,7 +50,7 @@ Journey OrchestrationAPI访问权限通过以下步骤进行设置。 [Adobe I/O
 
 >[!CAUTION]
 >
->要在Adobe I/O中管理证书，请确保您拥有组织的<b>系统管理员</b>权限，或在Admin Console中拥有[开发人员帐户](https://helpx.adobe.com/enterprise/using/manage-developers.html)权限。
+>要在Adobe I/O中管理证书，请确保您拥有组织的<b>系统管理员</b>权限，或在Admin Console中拥有[开发人员帐户](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)权限。
 
 1. **检查您是否拥有数字证书**，或根据需要创建一个证书。在以下步骤中需要随证书一起提供的公钥和私钥。
 1. **在Adobe I/O中创建与服务 [!DNL Journey Orchestration]** 的新集成并对其进行配置。Journey Orchestration和Adobe Experience Platform需要产品配置文件访问权限。 随后将生成您的凭据（API密钥、客户端密钥……）。
@@ -82,7 +82,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 此API允许您导出通过其UID标识的历程版本，以及通过其UID导出所有相关对象（历程、事件、数据源、字段组、自定义操作）。
 生成的有效负载可用于在其他环境（沙盒或实例）中导入历程版本。
 
-| 方法 | 路径 | 说明 |
+| 方法 | 路径 | 描述 |
 |---|---|---|
 | `[POST]` | /journeyVersions/import | 导入由历程版本导出生成的历程版本内容 |
 | `[GET]` | /journeyVersions/`{uid}`/export | 导出历程版本 |
