@@ -1,17 +1,17 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 使用Campaign v7/v8发送消息
-description: 使用Campaign v7/v8发送消息
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+title: 使用 Campaign v7/v8 发送消息
+description: 使用 Campaign v7/v8 发送消息
+exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
+source-git-commit: 3e78e429bbdfc95bfef74e0f2e2b92f8ff17cfdb
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-
-# 使用Campaign v7/v8 {#campaign-classic-use-case}发送消息
+# 使用 Campaign v7/v8 发送消息 {#campaign-classic-use-case}
 
 此用例介绍使用与Adobe Campaign Classic v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
 
