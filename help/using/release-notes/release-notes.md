@@ -56,8 +56,8 @@ ht-degree: 76%
 
 * 历程中添加了新状态。 当历程结束或手动关闭时，其状态在历程关闭30天后从&#x200B;**Closed**&#x200B;切换到&#x200B;**Finished**。 这样，您就可以更轻松地识别不活动的历程，同时确保所有人员仍有时间完成历程。 [了解更多信息](../building-journeys/journey.md#ending_a_journey)
 * 现在，在草稿历程的活动右窗格中，默认情况下隐藏只读字段。 此界面简化将帮助您更轻松地配置活动。 要显示它们，请单击活动配置窗格左上角提供的&#x200B;**显示只读字段**&#x200B;图标。 [了解更多信息](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* 在测试模式下，在&#x200B;**事件配置**&#x200B;屏幕中，用于定义测试用户档案ID的&#x200B;**Key**&#x200B;字段已重命名为&#x200B;**配置文件标识符**，以获得更好的用户体验。 [了解更多信息](../building-journeys/testing-the-journey.md).
-* 对于反应事件，超时持续时间现在只能设置为40秒到30天之间。 测试使用反应事件的历程时，测试模式&#x200B;**[!UICONTROL Wait time]**&#x200B;默认值和最小值现在为40秒。 [了解更多信息](../building-journeys/reaction-events.md).
+* 在测试模式下，在&#x200B;**事件配置**&#x200B;屏幕中，用于定义测试用户档案ID的&#x200B;**Key**&#x200B;字段已重命名为&#x200B;**配置文件标识符**，以获得更好的用户体验。 [了解更多信息](../building-journeys/testing-the-journey.md)。
+* 对于反应事件，超时持续时间现在只能设置为40秒到30天之间。 测试使用反应事件的历程时，测试模式&#x200B;**[!UICONTROL Wait time]**&#x200B;默认值和最小值现在为40秒。 [了解更多信息](../building-journeys/reaction-events.md)。
 
 ## 2021 年 2 月版 {#february-2021-release}
 
