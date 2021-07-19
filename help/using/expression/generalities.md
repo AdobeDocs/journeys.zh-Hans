@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 概括性
+title: 概述
 description: 了解高级表达式的概括性
 feature: 历程
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# 概括性 {#concept_rcy_qj5_dgb}
+# 概述 {#concept_rcy_qj5_dgb}
 
 ## 括号和表达式优先级{#section_edf_fks_bgb}
 
@@ -44,4 +44,4 @@ ht-degree: 3%
 |--- |--- |
 | 条件（数据源条件、日期条件） | 布尔 |
 | 自定义计时器 | dateTimeOnly |
-| 操作参数映射 | 任意 |
+| 操作参数映射 | 任何 |
