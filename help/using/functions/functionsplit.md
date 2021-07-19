@@ -9,7 +9,7 @@ exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 9%
+ht-degree: 20%
 
 ---
 
@@ -42,10 +42,10 @@ ht-degree: 9%
 
 `split(["A_B_C"], "_")`
 
-返回`["A","B","C"]`
+返回结果 `["A","B","C"]`
 
 事件字段为“event.appVersion”且值为的示例：&quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
-返回`["20", "45", "2", "3434"]`
+返回结果 `["20", "45", "2", "3434"]`
