@@ -10,7 +10,7 @@ exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 92%
 <tr>
     <td valign="top">
         <a href="using/about/troubleshooting.md">
-       <img alt="开发人员" src="using/assets/do-not-localize/FAQ.png" />
+       <img alt="开发者" src="using/assets/do-not-localize/FAQ.png" />
        </a>
     <div>
     <a href="using/about/troubleshooting.md"><strong>疑难解答</strong></a>
@@ -73,10 +73,10 @@ ht-degree: 92%
 
 * [Journey Orchestration 产品页](https://www.adobe.com/cn/experience-platform/journey-orchestration.html)
 * [Experience Platform 文档](https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html)
-* [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Experience Cloud XDM 字段定义](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
-* [身份命名空间文档](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
-* [流式引入 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
+* [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
+* [Experience Cloud XDM 字段定义](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
+* [身份命名空间文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
+* [流式引入 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)
 * [Campaign Standard 事务性消息传送文档](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)
 
 ## 技术教程
