@@ -9,7 +9,7 @@ exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 ## 类别
 
-转换
+转化
 
 ## 函数语法
 
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 ## 参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | 字符串 | 将字符串值转换为整数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
