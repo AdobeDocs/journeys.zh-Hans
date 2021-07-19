@@ -9,7 +9,7 @@ exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -29,14 +29,14 @@ ht-degree: 6%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 列表 | listString |
+| list | listString |
 | 列表 | listBoolean |
 | 列表 | listInteger |
 | 列表 | listDecimal |
 | 列表 | listDuration |
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
-| 索引 | 整数 |
+| index | 整数 |
 
 ## 签名和返回类型
 
@@ -81,7 +81,7 @@ ht-degree: 6%
 
 `split(@{event.appVersion}, "\\.")`
 
-返回`["20", "45", "2", "3434"]`
+返回结果 `["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
