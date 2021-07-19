@@ -9,7 +9,7 @@ exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 类别
 
-转换
+转化
 
 ## 函数语法
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 ## 参数
 
-| 参数 | 说明 |
+| 参数 | 描述 |
 |--- |--- |
 | 字符串 | 基于ISO-8601持续时间格式的格式PnDTnHnMn.nS，天数被认为恰好为24小时 |
 | 整数 | 毫秒数 |
