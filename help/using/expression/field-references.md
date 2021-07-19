@@ -56,7 +56,7 @@ ht-degree: 4%
 >
 >字段类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs。_experience.emailid.id， defaultValue :2}将无效，因为默认值是整数，而预期值应为字符串。
 
-示例:
+示例：
 
 ```
 // for an event 'OrderEvent' having the following payload:
@@ -127,7 +127,7 @@ expression examples:
 * **`<params-1-name>`**:数据源中第一个参数的确切名称。
 * **`<params-1-value>`**:第一个参数的值。它可以是任何有效的表达式。
 
-示例:
+示例：
 
 ```
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
