@@ -9,7 +9,7 @@ exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1665'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 ## 创建测试用户档案{#create-test-profile}
 
-如果要创建新的测试用户档案，其过程与在Adobe Experience Platform中创建用户档案时的过程相同。 它通过API调用执行。 请参见此[page](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+如果要创建新的测试用户档案，其过程与在Adobe Experience Platform中创建用户档案时的过程相同。 它通过API调用执行。 请参见此[page](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
 
 您必须使用包含“用户档案测试详细信息”混合的用户档案架构。 testProfile标记是此混合标记的一部分。
 
