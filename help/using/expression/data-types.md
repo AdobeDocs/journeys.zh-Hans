@@ -21,7 +21,7 @@ ht-degree: 5%
 
 ## 字符串 {#string}
 
-**说明**
+**描述**
 
 常见字符序列。 除了来自环境的隐式大小（如可用内存量）之外，它没有任何特定大小。
 
@@ -51,7 +51,7 @@ JSON格式：字符串
 
 ## 整数 {#integer}
 
-**说明**
+**描述**
 
 从–2^63到2^63-1的整数值。
 
@@ -71,9 +71,9 @@ JSON格式：数值
 
 ## 小数 {#decimal}
 
-**说明**
+**描述**
 
-小数。 它表示浮动值：
+小数. 它表示浮动值：
 
 * 双(2-2^-52)x2^1023型最大正有限值
 * 双型、2-1022型的最小正常值
@@ -97,7 +97,7 @@ JSON格式：数值
 
 ## 布尔 {#boolean}
 
-**说明**
+**描述**
 
 小写的布尔值：true或false
 
@@ -119,9 +119,9 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
-**说明**
+**描述**
 
 表示不带时区的日期时间，以年月日每小时分钟每秒的毫秒为单位进行查看。
 
@@ -141,7 +141,7 @@ toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")
 
 ## dateTime {#date-time}
 
-**说明**
+**描述**
 
 也考虑时区的日期时间常量。 它表示一个与UTC有偏移的日期时间。
 
@@ -155,7 +155,7 @@ JSON格式：字符串。
 
 它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-您还可以传递传递传递新纪元值的整数。 [阅读更多](https://www.epochconverter.com)
+您还可以传递传递传递新纪元值的整数。 [了解更多信息](https://www.epochconverter.com)
 
 时区可以由偏移或时区代码指定(例如：欧洲/巴黎，Z — 表示UTC)。
 
@@ -197,7 +197,7 @@ toDateTime(1560762190189)
 
 ## 持续时间 {#duration}
 
-**说明**
+**描述**
 
 它表示基于时间的时长，如“34.5秒”。 它以毫秒为单位来建模数量或时间量。
 
@@ -263,9 +263,9 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## 列表 {#list}
+## list {#list}
 
-**说明**
+**描述**
 
 使用方括号作为分隔符的表达式列表（以逗号分隔）。
 
