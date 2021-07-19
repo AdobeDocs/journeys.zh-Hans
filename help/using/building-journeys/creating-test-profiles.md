@@ -6,7 +6,7 @@ exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 这些导入方法还允许您更新配置文件属性。 这样，您就可以将现有用户档案转换为测试用户档案。 只需使用类似的文件或API调用并仅包含值为“true”的“testProfile”字段即可。
 
-创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关更多信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)。
+创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关更多信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)。
 
 ## 先决条件{#test-profile-prerequisites}
 
