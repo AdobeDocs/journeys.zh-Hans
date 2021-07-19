@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: in
+title: '在 '
 description: 了解
 feature: 历程
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
-# in {#in}
+# 在  {#in}
 
 检查第一个参数值是否在列表中。 对每个参数值使用等于来执行检查。 如果找到参数值，则返回true，否则返回false。
 
