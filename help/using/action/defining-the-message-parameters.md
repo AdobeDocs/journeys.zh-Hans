@@ -6,9 +6,9 @@ feature: 历程
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '226'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->有效负载中的字段名称不能包含“。” 字符.
+>有效负载中的字段名称不能包含“。” 字符. 不能以“$”字符开头。
 
 您将能够定义参数类型(例如：字符串、整数等)。
 
