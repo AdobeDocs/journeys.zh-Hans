@@ -6,10 +6,10 @@ feature: 历程
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 76%
+source-wordcount: '2701'
+ht-degree: 75%
 
 ---
 
@@ -17,6 +17,29 @@ ht-degree: 76%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
+
+## 2021年7月版 {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>利用架构关系</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。 Journey Orchestration现在可以利用来自链接架构的数据。</p>
+<p>这些字段在统一事件配置、历程条件和自定义操作个性化中可用。
+<p>有关更多信息，请参阅<a href="../event/experience-event-schema.md#leverage_schema_relationships">有详细说明的文档</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进
+
+* **缓存持续时间**&#x200B;字段已从数据源配置窗格中删除。 [了解更多信息](../datasource/about-data-sources.md)
 
 ## 2021年6月版 {#june-2021-release}
 
