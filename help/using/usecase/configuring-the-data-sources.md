@@ -6,10 +6,10 @@ feature: 历程
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 14%
+source-wordcount: '441'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 14%
 
 有关数据源配置的其他信息，请参阅[此页面](../datasource/about-data-sources.md)。
 
-1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Data Sources]**&#x200B;选项卡，然后选择内置的Adobe Experience Platform数据源。
+1. 在菜单窗格中，选择&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。
+1. 选择内置的Adobe Experience Platform数据源。
 
    ![](../assets/journey23.png)
 
@@ -58,7 +59,6 @@ ht-degree: 14%
 1. 单击&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;以定义要检索的信息和API参数。 例如，只有一个参数(id)，因此我们需要创建一个字段组，其中包含以下信息：
 
    * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
-   * **[!UICONTROL Cache duration]**:这因API调用的频率而异。在本例中，预订系统每10分钟更新一次。
    * **[!UICONTROL Response Payload]**:单击字段 **[!UICONTROL Payload]** 内部，并粘贴有效负载示例。验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。在我们的示例中，有效负载仅包含保留状态：
 
    ```
