@@ -6,10 +6,10 @@ feature: 历程
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '726'
+ht-degree: 0%
 
 ---
 
@@ -50,3 +50,64 @@ ht-degree: 1%
    ![](../assets/schema7.png)
 
    ![](../assets/schema8.png)
+
+## 利用架构关系{#leverage_schema_relationships}
+
+Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
+
+假设您的品牌数据模型有一个用于捕获购买的架构。 您还具有产品目录的架构。 您可以在购买架构中捕获产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您便可以为购买笔记本电脑的所有客户创建一个区段，而无需明确列出所有笔记本电脑ID或捕获事务系统中的每个产品详细信息。
+
+要定义关系，您需要在源架构中具有专用字段，在此例中为购买架构中的产品ID字段。 此字段需要引用目标架构中的产品ID字段。 必须为用户档案启用源表和目标表，并且目标架构必须将该通用字段定义为其主标识。
+
+以下是为将产品ID定义为主标识的用户档案启用的产品目录架构。
+
+![](../assets/schema9.png)
+
+以下是产品ID字段中定义的关系的购买架构。
+
+![](../assets/schema10.png)
+
+>[!NOTE]
+>
+>在[Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中了解有关架构关系的更多信息。
+
+在Journey Orchestration中，您随后可以利用链接表中的所有字段：
+
+* 配置单一事件时，[阅读更多](../event/experience-event-schema.md#unitary_event_configuration)
+* 在历程中使用条件时，[阅读更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 在自定义操作个性化中，[阅读更多](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### 单一事件配置{#unitary_event_configuration}
+
+链接的架构字段在统一事件配置中可用：
+
+* 浏览事件配置屏幕中的事件架构字段时。
+* 定义系统生成事件的条件时。
+
+![](../assets/schema11.png)
+
+链接的字段不可用：
+
+* 在事件键公式中
+* 事件id条件（基于规则的事件）中
+
+要了解如何配置单一事件，请参阅此[页面](../event/about-creating.md)。
+
+### 历程使用事件上下文的条件{#journey_conditions_using_event_context}
+
+您可以使用来自查找表的数据来构建条件（表达式编辑器），该查询表链接到历程中使用的事件。
+
+在历程中添加条件，编辑表达式并在表达式编辑器中展开事件节点。
+
+![](../assets/schema12.png)
+
+要了解如何定义历程条件，请参阅此[页面](../building-journeys/condition-activity.md)。
+
+### 使用历程事件上下文进行操作个性化{#custom_action_personalization_with_journey_event_context}
+
+配置历程操作活动的操作参数时，可以使用链接的字段。
+
+![](../assets/schema13.png)
+
+要了解如何使用自定义操作，请参阅此[page](../building-journeys/using-custom-actions.md)。
+
