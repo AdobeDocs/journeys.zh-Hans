@@ -2,9 +2,9 @@
 product: adobe campaign
 title: 利用疲劳分数
 description: 了解如何在历程中利用疲劳得分
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 10%
 
 执行以下步骤以选择内置数据源中的疲劳分数字段：
 
-1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Data Sources]**&#x200B;选项卡，然后选择内置的Adobe Experience Platform数据源。
+1. 在菜单窗格中，选择&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。
+1. 选择内置的Adobe Experience Platform数据源。
 
    ![](../assets/journey23.png)
 
