@@ -6,9 +6,9 @@ feature: 历程
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '351'
 ht-degree: 11%
 
 ---
@@ -39,7 +39,6 @@ Adobe Experience Platform数据源定义与实时客户资料服务的连接。 
 
 1. 从&#x200B;**[!UICONTROL Schema]**&#x200B;下拉列表中选择一个架构。 此字段列出了Adobe Experience Platform中提供的配置文件和体验事件架构。 未在[!DNL Journey Orchestration]中执行架构创建。 它在Adobe Experience Platform表演。
 1. 选择要使用的字段。
-1. 定义缓存持续时间。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
 将光标放在字段组的名称上时，您将在右侧看到两个图标。 利用字段组，可删除和复制字段组。 请注意，仅当字段组未用在任何实时或草稿历程中时，**[!UICONTROL Delete]**&#x200B;图标才可用（信息显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中）。
