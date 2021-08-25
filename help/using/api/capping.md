@@ -3,13 +3,13 @@ product: adobe campaign
 title: API描述上限
 description: 进一步了解上限API。
 products: journeys
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 在数据源配置期间，您将定义与系统的连接，以检索将在您的历程中使用的其他信息，或者对于操作定义，您将配置第三方系统的连接以发送消息或API调用。 每次由历程执行API调用时，即会查询上限API，调用都会通过API引擎。 如果定义了限制，则调用将被拒绝，外部系统将不会过载。
 
-对于外部数据源，每秒的最大调用数设置为15。 如果呼叫数超过每秒15次，则会丢弃剩余的呼叫。 您可以提高专用外部数据源的此限制。 联系Adobe以将端点列入白名单。 对于公共外部数据源，这是不可能的。 要详细了解集成外部系统时的最佳实践和防护，请参阅此[页面](../about/external-systems.md)。
+对于外部数据源，每秒的最大调用数设置为15。 如果呼叫数超过每秒15次，则会丢弃剩余的呼叫。 您可以提高专用外部数据源的此限制。 联系Adobe以在中包含端允许列表点。 对于公共外部数据源，这是不可能的。 要详细了解集成外部系统时的最佳实践和防护，请参阅此[页面](../about/external-systems.md)。
 
 要了解有关操作或数据源配置的更多信息，请参阅[关于操作](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html)或[关于数据源](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
