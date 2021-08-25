@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 关于自定义操作配置
 description: 了解如何配置自定义操作
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 15%
 1. 使用此操作的历程数显示在&#x200B;**[!UICONTROL Used in]**&#x200B;字段中。 您可以单击&#x200B;**[!UICONTROL View journeys]**&#x200B;按钮以显示使用此操作的历程列表。
 1. 定义不同的&#x200B;**[!UICONTROL URL Configuration]**&#x200B;参数。 请参阅[此页](../action/url-configuration.md)。
 1. 配置&#x200B;**[!UICONTROL Authentication]**&#x200B;部分。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
-1. 定义&#x200B;**[!UICONTROL Message parameters]**。 请参阅[此页](../action/defining-the-message-parameters.md)。
+1. 定义&#x200B;**[!UICONTROL Action parameters]**。 请参阅[此页](../action/defining-the-message-parameters.md)。
 1. 单击 **[!UICONTROL Save]**。
 
    自定义操作现已配置完成，可随时用于您的历程。 请参阅[此页](../building-journeys/about-action-activities.md)。
