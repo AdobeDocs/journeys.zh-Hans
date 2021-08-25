@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: 定义消息参数
-description: 了解如何定义消息参数
-feature: 历程
+title: 定义操作参数
+description: 了解如何定义操作参数
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
-# 定义消息参数 {#concept_wy4_bf1_2gb}
+# 定义操作参数 {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-在&#x200B;**[!UICONTROL Message parameters]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。
+在&#x200B;**[!UICONTROL Action parameters]**&#x200B;部分中，粘贴要发送到外部服务的JSON有效负载示例。
 
 ![](../assets/customactionpayloadmessage.png)
 
