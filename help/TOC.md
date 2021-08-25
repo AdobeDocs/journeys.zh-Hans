@@ -4,11 +4,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
 user-guide-description: 提供有关实施和构建历程的操作说明。
 index: true
-feature: 历程
-source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+feature: Journeys
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 + [!DNL Journey Orchestration] 入门{#starting-with-journeys}
    + [关于  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
-   + [入门](using/about/get-started.md)
+   + [快速入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
    + [访问管理](using/about/access-management.md)
    + [疑难解答](using/about/troubleshooting.md)
@@ -52,7 +52,7 @@ ht-degree: 99%
    + 使用第三方系统 {#action-third-party}
       + [关于自定义操作配置](using/action/about-custom-action-configuration.md)
       + [URL 配置](using/action/url-configuration.md)
-      + [定义消息参数](using/action/defining-the-message-parameters.md)
+      + [定义操作参数](using/action/defining-the-message-parameters.md)
 + 使用区段{#configuring-segment}
    + [关于区段](using/segment/about-segments.md)
    + [创建区段](using/segment/creating-a-segment.md)
