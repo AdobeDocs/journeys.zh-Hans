@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 发行说明
 description: 了解发行说明
-feature: 历程
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '2701'
-ht-degree: 75%
+source-wordcount: '2756'
+ht-degree: 74%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 75%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
+
+## 2021 年 8 月版 {#august-2021-release}
+
+### 改进
+
+**历程**
+
+* **动态标头**  — 您现在可以在HTTP标头参数中传递动态数据。这些参数可由接收历程操作HTTP调用（例如，时间戳或跟踪ID）的集成系统使用。 [了解更多信息](../action/url-configuration.md)
+* **动态URL路径**  — 您现在可以为自定义操作设置动态URL路径。[了解更多信息](../action/url-configuration.md)
 
 ## 2021年7月版 {#july-2021-release}
 
@@ -31,7 +40,7 @@ ht-degree: 75%
 <td>
 <p>Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。 Journey Orchestration现在可以利用来自链接架构的数据。</p>
 <p>这些字段在统一事件配置、历程条件和自定义操作个性化中可用。
-<p>有关更多信息，请参阅<a href="../event/experience-event-schema.md#leverage_schema_relationships">有详细说明的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../event/experience-event-schema.md#leverage_schema_relationships">详细的文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -41,7 +50,7 @@ ht-degree: 75%
 
 * **缓存持续时间**&#x200B;字段已从数据源配置窗格中删除。 [了解更多信息](../datasource/about-data-sources.md)
 
-## 2021年6月版 {#june-2021-release}
+## 2021 年 6 月版 {#june-2021-release}
 
 <table>
 <thead>
@@ -54,7 +63,7 @@ ht-degree: 75%
 <td>
 <p>与Adobe Campaign Classic集成的集成现已正式启用。 它允许您使用Adobe Campaign v7或v8事务型消息传送功能发送电子邮件、推送通知和短信。</p>
 <p>Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时通过 Adobe 来设置的。</p>
-<p>有关更多信息，请参阅<a href="../action/acc-action.md">有详细说明的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../action/acc-action.md">详细的文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -221,7 +230,7 @@ ht-degree: 75%
 <td>
 <p>在向历程中添加条件时，您现在可以定义标签。如果您在历程中使用多个条件，则通过此标签可以更轻松地对其进行识别。
 </p>
-<p>有关更多信息，请参阅<a href="../building-journeys/condition-activity.md#about_condition">有详细说明的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/condition-activity.md#about_condition">详细的文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -496,7 +505,7 @@ Journey Orchestration 界面提供日语版。
 <p>在历程设计器中，您可以检查您是否正在访问历程的最新版本。此信息显示在版本号旁边。</p>
 <p>在历程<strong>画布</strong>中，当两个活动断开连接时，会显示一条警告消息。</p>
 <img src="../assets/rn-canvas.png"/>
-<p>有关更多信息，请参阅<a href="../building-journeys/using-the-journey-designer.md">有详细说明的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/using-the-journey-designer.md">详细的文档</a>。</p>
 </td>
 </tr>
 </tbody>
