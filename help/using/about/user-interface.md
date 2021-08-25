@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 用户界面
 description: 了解有关用户界面的更多信息
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 97%
+source-wordcount: '989'
+ht-degree: 63%
 
 ---
 
@@ -87,58 +87,135 @@ ht-degree: 97%
 >
 >从架构组合中选择字段时，不会检索友好名称。
 
-## 使用不同的快捷键{#section_ksq_zr1_ffb}
+## 辅助功能{#accessibility}
 
-以下是 [!DNL Journey Orchestration] 界面中提供的不同快捷键。
+Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
 
-_在历程、操作、数据源或事件列表中：_
+* 键盘辅助功能
+* 颜色对比度
+* 验证必填字段
 
-* 按 **c** 创建新历程、操作、数据源或事件。
+[在Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)中了解更多{target=&quot;_blank&quot;}。
 
-_在历程中配置活动时：_
+您可以在Adobe Journey Optimizer中使用以下常用键盘快捷键：
 
-画布会自动保存。您可以在画布的左上角看到其保存状态。
+| 操作 | 快捷键 |
+| --- | --- |
+| 在用户界面元素、节和菜单组之间移动 | 选项卡 |
+| 在用户界面元素、节和菜单组之间向后移动 | Shift +选项卡 |
+| 在部分内移动以将焦点设置到单个元素 | 箭头 |
+| 选择或清除焦点元素 | 输入或空格键 |
+| 取消选择、折叠面板或关闭对话框 | Esc |
 
-* 按 **Esc** 键关闭配置窗格并放弃所做的更改。这等同于 **[!UICONTROL Cancel]**&#x200B;按钮。
-* 按 **Enter** 键或单击窗格外部以关闭配置窗格。更改已保存。这等同于 **[!UICONTROL Ok]**&#x200B;按钮。
-* 如果按 **Delete** 或 **Backspace** 键，则之后可以按 **Enter** 键以确认删除。
+[在Adobe Experience Platform文档](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)中了解更多{target=&quot;_blank&quot;}。
 
-_在弹出窗口中：_
+您可以在Journey Optimizer的特定部分中使用以下快捷键：
 
-* 按 **Esc** 键将其关闭（等同于 **[!UICONTROL Cancel]** 按钮）。
-* 按 **Enter** 键保存或确认（等同于 **[!UICONTROL Ok]** 或 **[!UICONTROL Save]** 按钮）。
+<table>
+  <thead>
+    <tr>
+      <th>界面元素</th>
+      <th>操作</th>
+      <th>快捷键</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>历程、操作、数据源或事件列表</td>
+    <td>创建旅程、操作、数据源或事件</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">历程画布处于草稿状态</td>
+    <td>从左侧面板的第一个可用位置从上到下添加活动</td>
+    <td>双击活动</td>
+  </tr>
+  <tr>
+    <td>选择所有活动</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td>删除选定的活动</td>
+    <td>删除或Backspace，然后按Enter以确认删除</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
 
-_在事件、数据源或操作配置窗格中：_
+以下元素的配置窗格：
 
-* 按 **Esc** 关闭配置窗格而不保存。
-* 按 **Enter** 键保存修改并关闭配置窗格。
-* 按 **Tab** 键在不同字段之间跳转以配置。
+<ul>
+  <li>历程中的活动</li>
+  <li>活动</li>
+  <li>数据源</li>
+  <li>操作</li>
+</ul>
 
-_在简单的表达式编辑器中_
+</td>
+    <td>移到要配置的下一个字段</td>
+    <td>选项卡</td>
+  </tr>
+  <tr>
+    <td>保存更改并关闭配置窗格</td>
+    <td>输入</td>
+  </tr>
+  <tr>
+    <td>放弃更改并关闭配置窗格</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">历程模式</td>
+    <td>启用或禁用测试模式</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>在基于事件的历程中触发事件</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-* 双击左侧的字段以添加查询（等同于拖放）。
+在基于区段的历程中触发一个事件，该事件的&#x200B;**[!UICONTROL Single profile at a time]**&#x200B;选项处于开启状态
 
-_浏览 XDM 字段时：_
-
-* 选中“节点”将选择该节点的所有字段。
-
-_在所有文本区域中：_
-
-* 使用 **Ctrl/Command + A** 组合键选择文本。在有效负载预览中，将选择有效负载。
-
-_在带有搜索栏的屏幕中：_
-
-* 使用 **Ctrl/Command + F** 组合键选择搜索栏。
-
-_在历程的画布中：_
-
-* 使用 **Ctrl/Command + A** 组合键选择所有活动。
-* 选择一个或多个活动后，按 **Delete** 或 **Backspace** 键以删除活动。然后，可以按 **Enter** 键以在确认弹出窗口中进行确认。
-* 双击左侧面板上的活动，将其添加到第一个可用位置（从上到下）。
-
-_在历程中：_
-
-* 按 **T** 可启用/禁用测试模式。
-* 在基于事件的历程中，在测试模式下，按 **E** 可触发事件。
-* 在基于客户细分的历程中，当在测试模式下选择&#x200B;**一次单个用户档案**&#x200B;选项时，按 **P** 可触发事件。
-* 在测试模式下，按 **L** 可显示日志。
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>显示测试日志</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>文本字段</td>
+    <td>选择所选字段中的所有文本</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">弹出窗口</td>
+    <td>保存更改或确认操作</td>
+    <td>输入</td>
+  </tr>
+  <tr>
+    <td>关闭窗口</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>简单表达式编辑器</td>
+    <td>选择并添加字段</td>
+    <td>双击字段</td>
+  </tr>
+  <tr>
+    <td>浏览XDM字段</td>
+    <td>选择节点的所有字段</td>
+    <td>选择父节点</td>
+  </tr>
+  <tr>
+    <td>负载预览</td>
+    <td>选择有效负载</td>
+    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+  </tr>
+</table>
