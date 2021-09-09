@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 96%
 
 ## 2021 年 8 月
 
-* 更新了使用动态URL路径和动态标头进行自定义操作的配置过程。 [了解更多信息](../action/url-configuration.md)
-* 添加了有关辅助功能的章节。 [了解更多信息](../about/user-interface.md#accessibility)
-* 添加了有关区段评估方法的章节。 [了解更多信息](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
+* 更新了使用动态 URL 路径和动态标头进行自定义操作的配置过程。[了解更多信息](../action/url-configuration.md)
+* 添加了有关辅助功能的章节。[了解更多信息](../about/user-interface.md#accessibility)
+* 添加了有关区段评估方法的章节。[了解更多信息](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## 2021 年 3 月 {#march-2021}
 
