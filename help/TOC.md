@@ -2,13 +2,13 @@
 product: adobe campaign
 user-guide-title: Journey Orchestration
 title: Journey Orchestration 指南
-user-guide-description: 提供有关实施和构建历程的操作说明。
+user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
    + [快速入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
    + [访问管理](using/about/access-management.md)
-   + [疑难解答](using/about/troubleshooting.md)
+   + [故障排除](using/about/troubleshooting.md)
    + [与外部系统集成](using/about/external-systems.md)
 + 配置事件 {#events-journeys}
    + 关于事件 {#about-events}
@@ -53,7 +53,7 @@ ht-degree: 98%
       + [关于自定义操作配置](using/action/about-custom-action-configuration.md)
       + [URL 配置](using/action/url-configuration.md)
       + [定义操作参数](using/action/defining-the-message-parameters.md)
-+ 使用区段{#configuring-segment}
++ 使用区段 {#configuring-segment}
    + [关于区段](using/segment/about-segments.md)
    + [创建区段](using/segment/creating-a-segment.md)
    + [在条件中使用区段](using/segment/using-a-segment.md)
@@ -70,7 +70,7 @@ ht-degree: 98%
       + 事件活动 {#events-activities}
          + [关于事件活动](using/building-journeys/event-activities.md)
          + [一般事件](using/building-journeys/general-events.md)
-         + [反应 events](using/building-journeys/reaction-events.md)
+         + [反应 事件](using/building-journeys/reaction-events.md)
          + [区段鉴别事件](using/building-journeys/segment-qualification-events.md)
       + 编排活动 {#orchestration-activities}
          + [关于编排活动](using/building-journeys/about-orchestration-activities.md)
@@ -95,7 +95,7 @@ ht-degree: 98%
       + [历程字段](using/building-journeys/sharing-journey-fields.md)
 + 使用高级表达式编辑器 {#building-advanced-conditions-journeys}
    + [关于高级表达式编辑器](using/expression/expressionadvanced.md)
-   + 语法{#syntax}
+   + 语法 {#syntax}
       + [概述](using/expression/generalities.md)
       + [条件指令](using/expression/conditional-instruction.md)
       + [数据类型](using/expression/data-types.md)
@@ -144,7 +144,7 @@ ht-degree: 98%
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
-         + [在 ](using/functions/functionin.md)
+         + [in](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -162,7 +162,7 @@ ht-degree: 98%
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
          + [lastIndexOf](using/functions/functionlastindexof.md)
-         + [length](using/functions/functionlength.md)
+         + [长度](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
@@ -182,7 +182,7 @@ ht-degree: 98%
 + 与智能服务集成{#use-case-advanced}
    + [关于 AI 集成](using/ai-services/ai-services-overview.md)
    + [利用客户人工智能](using/ai-services/leveraging-customer-ai.md)
-+ 使用案例{#use-cases-journeys}
++ 用例{#use-cases-journeys}
    + 发送个性化电子邮件{#use-case-simple}
       + [关于简单用例](using/usecase/about-the-simple-use-case.md)
       + [配置事件](using/usecase/configuring-the-event.md)
