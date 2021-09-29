@@ -5,10 +5,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
 + [!DNL Journey Orchestration] 入门{#starting-with-journeys}
-   + [关于  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [关于 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
    + [快速入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
@@ -93,6 +93,7 @@ ht-degree: 100%
       + [journeyStep 事件数据提取字段](using/building-journeys/sharing-fetch-fields.md)
       + [journeyStep 事件身份字段](using/building-journeys/sharing-identity-fields.md)
       + [历程字段](using/building-journeys/sharing-journey-fields.md)
+      + [查询示例](using/building-journeys/query-examples.md)
 + 使用高级表达式编辑器 {#building-advanced-conditions-journeys}
    + [关于高级表达式编辑器](using/expression/expressionadvanced.md)
    + 语法 {#syntax}
@@ -120,6 +121,7 @@ ht-degree: 100%
          + [sum](using/functions/functionsum.md)
       + 转化 {#conversion}
          + [toBool](using/functions/functiontobool.md)
+         + [toDateOnly](using/functions/functiontodateonly.md)
          + [toDateTime](using/functions/functiontodatetime.md)
          + [toDateTimeOnly](using/functions/functiontodatetimeonly.md)
          + [toDecimal](using/functions/functiontodecimal.md)
@@ -143,8 +145,10 @@ ht-degree: 100%
       + 列表 {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+         + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
+         + [相交](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -194,5 +198,6 @@ ht-degree: 100%
       + [配置数据源](using/usecase/configuring-the-data-sources.md)
       + [构建历程](using/usecase/building-the-journey.md)
    + [使用 Campaign v7/v8 发送消息](using/usecase/campaign-classic-use-case.md)
+   + [使用自定义操作动态传递收藏集](using/usecase/collections.md)
 + 使用 API{#working-with-apis}
    + [API 上限](using/api/capping.md)

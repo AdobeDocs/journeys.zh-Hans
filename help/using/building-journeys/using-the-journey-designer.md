@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 使用历程设计器
 description: 了解有关使用历程设计器的更多信息
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1428'
 ht-degree: 5%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 5%
 
 ![](../assets/palette-filter.png)
 
-您还可以使用&#x200B;**[!UICONTROL Search]**&#x200B;字段。
+您还可以使用&#x200B;**[!UICONTROL Search]**&#x200B;字段。 仅过滤事件和操作。
 
 ## 画布 {#canvas}
 

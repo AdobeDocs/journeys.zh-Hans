@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: 2a93bce42ea9f1f21d70c68da3dbc36844dafd1b
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 5%
+source-wordcount: '328'
+ht-degree: 4%
 
 ---
 
@@ -25,12 +25,14 @@ ht-degree: 5%
 
    * 如果URL包含动态路径，则只输入URL的静态部分，即方案、主机、端口，以及（可选）路径的静态部分。
 
-      示例：`https://xxx.yyy.com:8080/somethingstatic/`
+      示例: `https://xxx.yyy.com/somethingstatic/`
 
       在将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
    >[!NOTE]
    >
    >出于安全原因，我们强烈建议您对URL使用HTTPS方案。 我们不允许使用非公共的Adobe地址和IP地址。
+   >
+   >定义自定义操作时仅允许使用默认端口：80表示http，443表示https。
 
 1. 选择&#x200B;**[!UICONTROL Method]**&#x200B;调用：它可以是&#x200B;**[!UICONTROL POST]**&#x200B;或&#x200B;**[!UICONTROL PUT]**。
 1. 在&#x200B;**[!UICONTROL Headers]**&#x200B;部分中，定义要发送到外部服务的请求消息的HTTP标头：

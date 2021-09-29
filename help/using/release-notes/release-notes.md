@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 74%
+source-wordcount: '2965'
+ht-degree: 70%
 
 ---
 
@@ -18,16 +18,43 @@ ht-degree: 74%
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
 
+## 2021 年 9 月版 {#september-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>使用自定义操作动态传递数据列表</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您现在可以在自定义操作参数中传递将在运行时动态填充的集合或数据列表。 支持两种收藏集：简单集合和对象集合。 之前创建的自定义操作将继续工作。 </p>
+<p>有关收藏集的更多信息，请参阅<a href="../usecase/collections.md">详细文档</a>。 </p>
+<p>过滤器和交集函数已添加到高级表达式编辑器中可用函数的列表。 这为收藏集筛选和比较提供了更多可能性。</p>
+<p>请参阅<a href="../functions/functionfilter.md">filter</a>和<a href="../functions/functionintersect.md">intersect</a>函数的文档。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进
+
+* 系统生成的架构和在为步骤事件配置期间创建的数据集现在处于只读模式，可防止对关键架构进行任何意外修改。 [了解详情](../building-journeys/sharing-overview.md)
+* 为&#x200B;**Wait**&#x200B;活动使用将在画布中显示的标签进行干净的标记。 在报告和测试模式日志中也会使用标签，以明确标识您正在执行的操作。 [了解详情](../building-journeys/using-the-journey-designer.md)
+* 通过使用搜索过滤&#x200B;**Events**&#x200B;和&#x200B;**Action**&#x200B;类别中的元素，可以更快地查找事件和操作。 编排活动不再过滤。 [了解详情](../building-journeys/using-the-journey-designer.md)
+* 现在，在基于规则的字段中定义事件ID条件时，“包含”运算符可用于字符串类型的字段。 [了解详情](../event/about-creating.md)
+
 ## 2021 年 8 月版 {#august-2021-release}
 
 ### 改进
 
 **历程**
 
-* **动态标头**  — 您现在可以在HTTP标头参数中传递动态数据。这些参数可由接收历程操作HTTP调用（例如，时间戳或跟踪ID）的集成系统使用。 [了解更多信息](../action/url-configuration.md)
+* **动态标头**  — 您现在可以在HTTP标头参数中传递动态数据。集成系统可以使用这些参数接收历程操作 HTTP 调用，例如时间戳或跟踪 ID。[了解更多信息](../action/url-configuration.md)
 * **动态URL路径**  — 您现在可以为自定义操作设置动态URL路径。[了解更多信息](../action/url-configuration.md)
 
-## 2021年7月版 {#july-2021-release}
+## 2021 年 7 月 版本 {#july-2021-release}
 
 <table>
 <thead>
@@ -40,7 +67,7 @@ ht-degree: 74%
 <td>
 <p>Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。 Journey Orchestration现在可以利用来自链接架构的数据。</p>
 <p>这些字段在统一事件配置、历程条件和自定义操作个性化中可用。
-<p>有关更多信息，请参阅<a href="../event/experience-event-schema.md#leverage_schema_relationships">详细的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../event/experience-event-schema.md#leverage_schema_relationships">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -63,7 +90,7 @@ ht-degree: 74%
 <td>
 <p>与Adobe Campaign Classic集成的集成现已正式启用。 它允许您使用Adobe Campaign v7或v8事务型消息传送功能发送电子邮件、推送通知和短信。</p>
 <p>Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时通过 Adobe 来设置的。</p>
-<p>有关更多信息，请参阅<a href="../action/acc-action.md">详细的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../action/acc-action.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -230,7 +257,7 @@ ht-degree: 74%
 <td>
 <p>在向历程中添加条件时，您现在可以定义标签。如果您在历程中使用多个条件，则通过此标签可以更轻松地对其进行识别。
 </p>
-<p>有关更多信息，请参阅<a href="../building-journeys/condition-activity.md#about_condition">详细的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/condition-activity.md#about_condition">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -505,7 +532,7 @@ Journey Orchestration 界面提供日语版。
 <p>在历程设计器中，您可以检查您是否正在访问历程的最新版本。此信息显示在版本号旁边。</p>
 <p>在历程<strong>画布</strong>中，当两个活动断开连接时，会显示一条警告消息。</p>
 <img src="../assets/rn-canvas.png"/>
-<p>有关更多信息，请参阅<a href="../building-journeys/using-the-journey-designer.md">详细的文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/using-the-journey-designer.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>

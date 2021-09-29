@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 历程步骤共享概述
 description: 历程步骤共享概述
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: ec5337e6b2df126370b55e1466fc5027659441fe
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '452'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->默认情况下，在历程步骤事件的所有实例上都会激活此功能。 对于历程用户档案步骤事件，将应请求激活。 不得更改在配置此功能期间创建的架构和数据集。
+>默认情况下，在历程步骤事件的所有实例上都会激活此功能。 对于历程用户档案步骤事件，将应请求激活。 您无法修改或更新在配置步骤事件期间创建的架构和数据集。 默认情况下，这些架构和数据集处于只读模式。
 
 例如，您已设置发送多个电子邮件的历程。 此功能允许您将[!DNL Journey Orchestration]数据与下游事件数据合并，例如发生转化次数、网站上发生的参与次数或存储中发生的交易次数。 历程信息可以与Adobe Experience Platform上的数据（来自其他数字属性或来自离线属性）结合使用，以更全面地了解性能。
 

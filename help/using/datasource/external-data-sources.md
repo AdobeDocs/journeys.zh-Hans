@@ -2,14 +2,14 @@
 product: adobe campaign
 title: '外部数据源 '
 description: '了解如何配置外部数据源 '
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
+source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 98%
+source-wordcount: '1318'
+ht-degree: 94%
 
 ---
 
@@ -183,3 +183,7 @@ ht-degree: 98%
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>缓存持续时间有助于避免对身份验证端点的调用过多。 身份验证令牌保留已缓存在服务中，不存在持久性。 如果服务重新启动，则会以干净的缓存启动。 默认情况下，缓存持续时间为1小时。 在自定义操作有效负载中，可以通过指定另一个保留持续时间来调整它。

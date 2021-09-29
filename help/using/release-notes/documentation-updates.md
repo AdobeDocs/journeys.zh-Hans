@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 100%
 
 此页面列出了
 [!DNL Journey Orchestration]的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+
+## 2021 年 9 月
+
+* 以下函数页面已更新：[sethours](../functions/functionsethours.md)、[getListItem](../functions/functiongetlistitem.md)、[inSegment](../functions/functioninsegment.md)
+
+* 添加了以下函数：[filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+
+* 在表达式编辑器文档中添加了dateOnly日期类型。 [了解更多信息](../expression/data-types.md)
+
+* 添加了有关自定义操作缓存持续时间的详细信息。 [了解更多信息](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* 添加了有关自定义操作默认端口的信息。 [了解更多信息](../action/url-configuration.md)
+
+* 添加了在数据湖中查询历程步骤事件的常用示例。 [了解更多信息](../building-journeys/query-examples.md)
 
 ## 2021 年 8 月
 

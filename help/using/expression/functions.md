@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 函数
 description: 了解函数
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 74%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 74%
 | 聚合 | [min](../functions/functionmin.md) |
 | 聚合 | [sum](../functions/functionsum.md) |
 | 转化 | [toBool](../functions/functiontobool.md) |
+| 转化 | [toDateOnly](../functions/functiontodateonly.md) |
 | 转化 | [toDateTime](../functions/functiontodatetime.md) |
 | 转化 | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | 转化 | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ ht-degree: 74%
 | 日期 | [setHours](../functions/functionsethours.md) |
 | 日期 | [setDays](../functions/functionsetdays.md) |
 | 列表 | [distinct](../functions/functiondistinct.md) |
-| 列表 | [distinctCount](../functions/functiondistinctcount.md) |
-| 列表 | [在 ](../functions/functionin.md) |
+| 列表 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| 列表 | [filter](../functions/functionfilter.md) |
+| 列表 | [getListItem](../functions/functiongetlistitem.md) |
+| 列表 | [in](../functions/functionin.md) |
+| 列表 | [相交](../functions/functionintersect.md) |
 | 列表 | [listSize](../functions/functionlistsize.md) |
 | 列表 | [serializeList](../functions/functionserializelist.md) |
 | 列表 | [sort](../functions/functionsort.md) |
@@ -75,7 +79,7 @@ ht-degree: 74%
 | 字符串 | [isEmpty](../functions/functionisempty.md) |
 | 字符串 | [isNotEmpty](../functions/functionisnotempty.md) |
 | 字符串 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 字符串 | [length](../functions/functionlength.md) |
+| 字符串 | [长度](../functions/functionlength.md) |
 | 字符串 | [lower](../functions/functionlower.md) |
 | 字符串 | [matchRegExp](../functions/functionmatchregexp.md) |
 | 字符串 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |

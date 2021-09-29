@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inSegment
 description: 了解inSegment的函数
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 8%
+source-wordcount: '195'
+ht-degree: 6%
 
 ---
 
@@ -25,9 +25,17 @@ ht-degree: 8%
 
 区段在[Adobe Experience Platform](https://platform.adobe.com/segment/overview)中定义。 表达式编辑器提供了自动完成的区段列表。
 
->[!NOTE]
->
->只有具有&#x200B;**Remilated**&#x200B;和&#x200B;**Existing**&#x200B;区段参与状态的个人才会被视为区段的成员。 有关如何评估区段的更多信息，请参阅[Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
+区段可以具有三种状态：
+
+* 现有：实体继续在分部中。
+* 已实现：实体正在输入区段。
+* 退出：实体正在退出区段。
+
+只有具有&#x200B;**Remilated**&#x200B;和&#x200B;**Existing**&#x200B;区段参与状态的个人才会被视为区段的成员。 有关如何评估区段的更多信息，请参阅[Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
+
+`IF inSegment('segmentName') == true` 表示您拥有已输入/现有状态的segmentMembership。
+
+`ELSE inSegment('segmentName') == false` 表示您具有退出状态的segmentMembership。
 
 ## 类别
 

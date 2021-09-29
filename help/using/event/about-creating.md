@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 创建事件
 description: 了解如何创建事件
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: f1773cc56f69894d376d83eb68891499991aa1ab
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 63%
+source-wordcount: '584'
+ht-degree: 60%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 63%
 
    >[!NOTE]
    >
-   >定义&#x200B;**[!UICONTROL Event ID condition]**&#x200B;时，高级表达式编辑器不可用。
+   >定义&#x200B;**[!UICONTROL Event ID condition]**&#x200B;时，高级表达式编辑器不可用。 在简单的表达式编辑器中，并非所有运算符都可用，它们取决于数据类型。 例如，对于字段的字符串类型，可以使用“包含”或“等于”。
 
 1. 添加命名空间。此步骤是可选的，但还是建议您添加命名空间，以便您利用实时客户资料服务中存储的信息。它定义事件具有的键类型。请参阅[此页](../event/selecting-the-namespace.md)。
 1. 定义键：从有效负载字段中选择一个字段或定义一个公式以标识与事件关联的个人。如果您选择命名空间，此键将自动设置（但仍可编辑）。事实上，[!DNL Journey Orchestration] 会选取应与命名空间对应的键（例如，如果您选择了电子邮件命名空间，则会自动选择电子邮件键）。请参阅[此页](../event/defining-the-event-key.md)。
