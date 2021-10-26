@@ -6,9 +6,9 @@ user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
 source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 97%
          + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
-         + [相交](using/functions/functionintersect.md)
+         + [intersect](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
