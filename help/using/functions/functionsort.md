@@ -2,14 +2,14 @@
 product: adobe campaign
 title: sort
 description: 了解函数排序
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 17%
+source-wordcount: '111'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,8 @@ ht-degree: 17%
 | 列表 | listDuration |
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
-| 布尔值 | 布尔值 |
+| 列表 | listDateOnly |
+| 布尔型 | 布尔型 |
 
 ## 签名和返回的类型
 
@@ -59,6 +60,10 @@ ht-degree: 17%
 `sort(<listDateTime>,<boolean>)`
 
 返回datetimes列表。
+
+`sort(<listDateOnly>,<boolean>)`
+
+返回日期列表。
 
 `sort(<listBoolean>,<boolean>)`
 

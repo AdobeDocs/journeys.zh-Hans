@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: '在 '
+title: in
 description: 了解
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 17%
+source-wordcount: '113'
+ht-degree: 19%
 
 ---
 
-# 在  {#in}
+# in {#in}
 
 检查第一个参数值是否在列表中。 对每个参数值使用等于来执行检查。 如果找到参数值，则返回true，否则返回false。
 
-`<expression>`的类型必须与列表项匹配。 列表项目的类型必须相互匹配，作为提醒。
+类型 `<expression>` 必须与列表项目匹配。 列表项目的类型必须相互匹配，作为提醒。
 
 ## 类别
 
@@ -32,7 +32,7 @@ ht-degree: 17%
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 布尔值 | 布尔值 |
+| 布尔型 | 布尔型 |
 | 整数 | 整数 |
 | 小数 | 小数 |
 | 持续时间 | 持续时间 |
@@ -45,6 +45,7 @@ ht-degree: 17%
 | 列表 | listDuration |
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
+| 列表 | listDateOnly |
 
 ## 签名和返回的类型
 
@@ -59,6 +60,8 @@ ht-degree: 17%
 `in(<dateTimeOnly>,<listDateTimeOnly>)`
 
 `in(<dateTime>,<listDateTime>)`
+
+`in(<dateOnly>,<listDateOnly>)`
 
 `in(<duration>,<listDuration>)`
 

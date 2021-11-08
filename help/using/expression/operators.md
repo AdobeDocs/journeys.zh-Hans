@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 操作员
 description: 了解高级表达式中的运算符
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: b52c9c0d6486a0b31c1ebe3d6d42a0fb0b708bf1
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 有两种运算符：一元运算符和二进制运算符。 有左一元运算符和右一元运算符。
 
-```
+```json
     // left-hand unary operators
     <operator> <operand> // operand is an expression
     not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
@@ -38,15 +38,15 @@ ht-degree: 6%
 
 ### 和
 
-```
+```json
 <expression1> and <expression2>
 ```
 
-&lt;expression1>和&lt;expression2>都必须是布尔值。 结果为布尔值。
+两者兼有 &lt;expression1> 和 &lt;expression2> 必须是布尔值。 结果为布尔值。
 
 示例：
 
-```
+```json
 3.14 > 2 and 3.15 < 1
 ```
 
@@ -54,15 +54,15 @@ ht-degree: 6%
 
 
 
-```
+```json
 <expression1> or <expression2>
 ```
 
-&lt;expression1>和&lt;expression2>都必须是布尔值。 结果为布尔值。
+两者兼有 &lt;expression1> 和 &lt;expression2> 必须是布尔值。 结果为布尔值。
 
 示例：
 
-```
+```json
 3.14 > 2 or 3.15 < 1
 ```
 
@@ -70,15 +70,15 @@ ht-degree: 6%
 
 
 
-```
+```json
 not <expression>
 ```
 
-&lt;expression> 必须是布尔值。结果为布尔值。
+&lt;expression> 必须是布尔值。 结果为布尔值。
 
 示例：
 
-```
+```json
 not 3.15 < 1
 ```
 
@@ -88,7 +88,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression> is null
 ```
 
@@ -98,7 +98,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 @{BarBeacon.location} is null
 ```
 
@@ -106,7 +106,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression> is not null
 ```
 
@@ -116,7 +116,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 @ is not null
 ```
 
@@ -124,21 +124,21 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression> has null
 ```
 
-&lt;expression> 必须是列表。结果为布尔值。
+&lt;expression> 必须是列表。 结果为布尔值。
 
 用于标识列表至少包含一个空值。
 
 示例：
 
-```
+```json
 ["foo", "bar", null] has null --  returns true.
 ```
 
-```
+```json
 ["foo", "bar", ""] has null -- returns false because "" is not considered as null.
 ```
 
@@ -146,19 +146,19 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression1> == <expression2>
 ```
 
-&lt;expression1>和&lt;expression2>必须具有相同的数据类型。 结果为布尔值。
+两者兼有 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果为布尔值。
 
 示例：
 
-```
+```json
 3.14 == 42
 ```
 
-```
+```json
 "foo" == "bar"
 ```
 
@@ -166,19 +166,19 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression1> != <expression2>
 ```
 
-&lt;expression1>和&lt;expression2>必须具有相同的数据类型。 结果为布尔值。
+两者兼有 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果为布尔值。
 
 示例：
 
-```
+```json
 3.14 != 42
 ```
 
-```
+```json
 "foo" != "bar"
 ```
 
@@ -186,7 +186,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression1> > <expression2>
 ```
 
@@ -202,7 +202,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 3.14 > 42
 ```
 
@@ -210,7 +210,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression1> >= <expression2>
 ```
 
@@ -226,15 +226,15 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 42 >= 3.14
 ```
 
-### &lt;>
+### &lt;
 
 
 
-```
+```json
 <expression1> < <expression2>
 ```
 
@@ -250,15 +250,15 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 42 < 3.14
 ```
 
-### &lt;>
+### &lt;=
 
 
 
-```
+```json
 <expression1> <= <expression2>
 ```
 
@@ -274,7 +274,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 42 <= 3.14
 ```
 
@@ -284,7 +284,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression1> + <expression2>
 ```
 
@@ -294,7 +294,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 1 + 2 -- returns 3
 ```
 
@@ -302,7 +302,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression1> - <expression2>
 ```
 
@@ -312,7 +312,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 2 - 1 -- returns 1
 ```
 
@@ -320,7 +320,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression1> / <expression2>
 ```
 
@@ -332,7 +332,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 4 / 2 -- returns 2
 ```
 
@@ -340,7 +340,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression1> * <expression2>
 ```
 
@@ -350,7 +350,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 3 * 4 -- returns 12
 ```
 
@@ -358,7 +358,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression1> % <expression2>
 ```
 
@@ -368,7 +368,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 3 % 2 -- returns 1.
 ```
 
@@ -378,7 +378,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression> is numeric
 ```
 
@@ -386,7 +386,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 @ is numeric
 ```
 
@@ -394,7 +394,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression> is integer
 ```
 
@@ -402,7 +402,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 @ is integer
 ```
 
@@ -410,7 +410,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression> is decimal
 ```
 
@@ -418,7 +418,7 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 @ is decimal
 ```
 
@@ -428,11 +428,11 @@ not 3.15 < 1
 
 
 
-```
+```json
 <string> + <expression>
 ```
 
-```
+```json
 <expression> + <string>
 ```
 
@@ -442,15 +442,15 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 "the current time is " + (now()) -- returns "the current time is 2019-09-23T09:30:06.693Z"
 ```
 
-```
+```json
 (now()) + " is the current time" -- returns "2019-09-23T09:30:06.693Z is the current time"
 ```
 
-```
+```json
 "a" + "b" + "c" + 1234 -- returns "abc1234".
 ```
 
@@ -460,7 +460,7 @@ not 3.15 < 1
 
 
 
-```
+```json
 <expression> + <duration>
 ```
 
@@ -468,18 +468,18 @@ not 3.15 < 1
 
 示例：
 
-```
+```json
 toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M") -- returns 2011-12-03T15:30:30Z
 ```
 
-```
+```json
 toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M") -- returns 2011-12-03T15:30:30
 ```
 
-```
+```json
 now() + toDuration("PT1H") -- returns a dateTime (with UTC time zone) one hour later from current time
 ```
 
-```
+```json
 toDuration("PT1H") + toDuration("PT1H") -- returns  PT2H
 ```

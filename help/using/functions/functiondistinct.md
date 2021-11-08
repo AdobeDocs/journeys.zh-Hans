@@ -2,14 +2,14 @@
 product: adobe campaign
 title: distinct
 description: 了解不同的函数
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 20%
 | 列表 | listDuration |
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
+| 列表 | listDateOnly |
 
 ## 签名和返回的类型
 
@@ -58,6 +59,10 @@ ht-degree: 20%
 `distinct(<listDateTime>)`
 
 返回datetimes列表。
+
+`distinct(<listDateOnly>)`
+
+返回日期列表。
 
 `distinct(<listBoolean>)`
 

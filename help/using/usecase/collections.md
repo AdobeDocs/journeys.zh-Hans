@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 使用自定义操作动态传递收藏集
 description: 使用 Campaign v7/v8 发送消息
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
+source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '424'
 ht-degree: 4%
 
 ---
@@ -52,23 +52,6 @@ ht-degree: 4%
    ```
 
 ## 限制 {#limitations}
-
-* 不支持包含子对象的对象数组。 例如：
-
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "details": {
-        "color":"blue"
-        },
-        "price":20.0
-     }
-    ]
-   }
-   ```
 
 * 当前不支持对象数组中对象的嵌套数组。 例如：
 
@@ -118,7 +101,7 @@ ht-degree: 4%
 
 1. 创建自定义操作。 请参阅[此页](../action/about-custom-action-configuration.md)。
 
-1. 在&#x200B;**[!UICONTROL Action parameters]**&#x200B;部分中，粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都被定义为常量。
+1. 在 **[!UICONTROL Action parameters]** 部分，并粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都被定义为常量。
 
    ![](../assets/uc-collection-1.png)
 
@@ -140,7 +123,7 @@ ht-degree: 4%
 
 1. 创建历程并添加您创建的自定义操作。 请参阅[此页](../building-journeys/using-custom-actions.md)。
 
-1. 在&#x200B;**[!UICONTROL Action parameters]**&#x200B;部分中，使用高级表达式编辑器定义数组参数（我们示例中的&quot;products&quot;）。
+1. 在 **[!UICONTROL Action parameters]** 部分中，使用高级表达式编辑器定义数组参数（本例中的“products”）。
 
    ![](../assets/uc-collection-3.png)
 
@@ -148,7 +131,7 @@ ht-degree: 4%
 
    ![](../assets/uc-collection-4.png)
 
-对于数组字段，您还可以使用高级表达式编辑器执行数据处理。 在以下示例中，我们使用[filter](../functions/functionfilter.md)和[intersect](../functions/functionintersect.md)函数：
+对于数组字段，您还可以使用高级表达式编辑器执行数据处理。 在以下示例中，我们使用 [过滤器](../functions/functionfilter.md) 和 [相交](../functions/functionintersect.md) 函数：
 
 ![](../assets/uc-collection-5.png)
 

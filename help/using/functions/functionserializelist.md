@@ -2,14 +2,14 @@
 product: adobe campaign
 title: serializeList
 description: 了解函数serializeList
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 84912d38-32ee-4cfe-8cb4-bad12f9c52af
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 20%
+source-wordcount: '88'
+ht-degree: 22%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 20%
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 布尔值 | 布尔值 |
+| 布尔型 | 布尔型 |
 | DateTimeOnly | DateTimeOnly |
 | 列表 | listString |
 | 列表 | listBoolean |
@@ -39,6 +39,7 @@ ht-degree: 20%
 | 列表 | listDuration |
 | 列表 | listDateTime |
 | 列表 | listDateTimeOnly |
+| 列表 | listDateOnly |
 
 ## 签名和返回的类型
 
@@ -53,6 +54,8 @@ ht-degree: 20%
 `serializeList(<listDateTimeOnly>,<string>,<boolean>)`
 
 `serializeList(<listDateTime>,<string>,<boolean>)`
+
+`serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
 

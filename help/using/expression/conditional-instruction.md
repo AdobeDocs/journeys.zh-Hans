@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 条件指令(if， then， else)
 description: 了解条件指令
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 >
 >所有表达式周围都需要括号。
 
-```
+```json
 if  (<expression1>)
 then
    (<expression2>)
@@ -33,11 +33,11 @@ else
    (<expression3>)
 ```
 
-`<expression1>` 必须返回 **布尔值**。
+`<expression1>` 必须返回 **布尔**.
 
-`<expression2>` 和必 `<expression3>` 须具有相同类型或兼容类型。支持的签名和返回的类型包括：
+`<expression2>` 和 `<expression3>` 必须具有相同类型或兼容类型。 支持的签名和返回的类型包括：
 
-```
+```json
 boolean,boolean : boolean
 dateTime,dateTime : dateTime
 dateTimeOnly,dateTimeOnly : dateTimeOnly
@@ -49,6 +49,7 @@ string,string : string
 listBoolean,listBoolean : listBoolean
 listDateTime,listDateTime : listDateTime
 listDateTimeOnly,listDateTimeOnly : listDateTimeOnly
+listDateOnly,listDateOnly : listDateOnly
 listDecimal,listDecimal : listDecimal
 listInteger,listInteger : listInteger
 listString,listString : listString
@@ -60,7 +61,7 @@ listString,listString : listString
 
 操作活动的示例（对于条件指令结果需要字符串的字段）：
 
-```
+```json
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
 then
    ('apns')

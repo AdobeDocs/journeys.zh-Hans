@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inLastHours
 description: 了解LastHours中的函数
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9baeb836-e029-4e19-b08e-7b7b5f27ff8f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 19%
+source-wordcount: '45'
+ht-degree: 17%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 19%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期时间 | dateTime |
+| date time | dateTime |
 | 三角洲 | 整数 |
 
 ## 签名和返回类型
@@ -40,9 +40,9 @@ ht-degree: 19%
 
 ## 示例
 
-`inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4))`
+`inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-返回true。
+Returns true.
 
 `inLastHours(@{MyEvent.timestamp}, 4)`
 

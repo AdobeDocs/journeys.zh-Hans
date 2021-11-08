@@ -1,12 +1,12 @@
 ---
 product: adobe campaign
 title: filter
-description: 了解函数筛选器
+description: 了解函数过滤器
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 729ee71e063ae73c7c10f20bb3a410c43cb75faf
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 10%
@@ -57,7 +57,7 @@ ht-degree: 10%
 
 以下是传入事件“myevent”中传递的有效负载示例：
 
-```
+```json
 "productListItems": [{
    "id": "product1",
    "name": "the product 1",
@@ -75,10 +75,10 @@ ht-degree: 10%
 
 您可以使用以下表达式：
 
-```
+```json
 filter(
  @{myevent.productListItems},
- id", 
+ "id", 
  ["product2", "product3", "product4"]
 )
 ```

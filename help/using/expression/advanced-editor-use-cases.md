@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 使用高级表达式编辑器
 description: 了解如何构建高级表达式
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -50,22 +50,22 @@ ht-degree: 2%
 
 指定的时间戳将用作日期时间值，第二个是天数。
 
-```
-        In( “addToCart”, #{ExperiencePlatformDataSource
+```json
+        in( "addToCart", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-        And
-        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+        and
+        not(in( "completePurchase", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
-                        .productInteraction})
+                        .productInteraction}))
 ```
 
 此表达式返回一个布尔值。
@@ -80,16 +80,16 @@ ht-degree: 2%
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 然后，使用函数`first`指定SKU，以检索最新的“addToCart”交互：
+* 然后，使用函数指定SKU `first` 要检索最近的“addToCart”交互，请执行以下操作：
 
-   ```
+   ```json
        #{ExperiencePlatformDataSource
                        .ExperienceEventFieldGroup
                        .experienceevent
                        .first(
                        currentDataPackField
                        .productData
-                       .productInteraction == “addToCart”
+                       .productInteraction == "addToCart"
                        )
                        .SKU}
    ```
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 此条件仅检索在“Arlington”中触发的地理围栏事件：
 
-```
+```json
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
@@ -110,11 +110,11 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-解释：这是严格的字符串比较（区分大小写），等同于在简单模式下使用`equal to`并选中`Is sensitive`的查询。
+解释：这是严格的字符串比较（区分大小写），等同于使用 `equal to` with `Is sensitive` 选中。
 
-取消选中`Is sensitive`的同一查询将在高级模式下生成以下表达式：
+同一查询 `Is sensitive` 取消选中后，将在高级模式下生成以下表达式：
 
-```
+```json
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
@@ -126,7 +126,7 @@ ht-degree: 2%
 
 以下表达式允许您在操作个性化字段中定义CRM ID:
 
-```
+```json
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -135,10 +135,9 @@ ht-degree: 2%
                         ._myorganization
                         .identification
                         .crmid}
-                         }
                          ))
 ```
 
-解释：此示例使用`substr`和`lastIndexOf`函数删除大括号，该大括号将围住随移动设备应用程序启动事件一起传递的CRM ID。
+解释：此示例使用 `substr` 和 `lastIndexOf` 用于删除与移动设备应用程序启动事件一起传递的CRM ID周围大括号的函数。
 
-有关如何使用高级表达式编辑器的更多信息，请观看[此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+有关如何使用高级表达式编辑器的更多信息，请观看 [此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

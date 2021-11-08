@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 关于高级用例
 description: 进一步了解历程高级用例
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 5%
+source-wordcount: '416'
+ht-degree: 4%
 
 ---
 
@@ -29,26 +29,26 @@ ht-degree: 5%
 
 然后，我们检查两个条件：
 
-* 如果此人不是忠诚会员，我们会向他发送电子邮件，以加入忠诚会员选件。
+* 如果此人不是忠诚会员，我们会向他们发送电子邮件，以加入忠诚会员选件。
 * 如果此人已是忠诚会员，我们会检查他是否有房间预订：
-   * 如果他没有，我们会给他发一条带房费的推送通知。
-   * 如果他有，我们会向他发送欢迎推送通知。 如果他在接下来的6小时内进入餐厅，我们会给他发一条推送通知，并在一餐时给予折扣。
+   * 如果他没有，我们会向他们发送一条带房费的推送通知。
+   * 如果他有，我们会向他们发送欢迎推送通知。 如果他在接下来的6小时内进入餐厅，我们会向他们发送推送通知，并在用餐时给予折扣。
 
 ![](../assets/journeyuc2_29.png)
 
-对于此用例，我们需要创建两个事件（请参阅[此页面](../usecase/configuring-the-events.md)）：
+对于此用例，我们需要创建两个事件(请参阅 [本页](../usecase/configuring-the-events.md)):
 
 * 客户进入酒店时将被推送到系统的大堂信标事件。
 * 客户进入餐厅时将推送的餐馆信标事件。
 
-我们需要配置与两个数据源的连接（请参阅[此页](../usecase/configuring-the-data-sources.md)）：
+我们需要配置与两个数据源的连接(请参阅 [本页](../usecase/configuring-the-data-sources.md)):
 
 * 内置Adobe Experience Platform数据源，用于检索两个条件（会员资格和上次联系日期）的信息以及消息个性化信息。
 * 酒店预订系统，用于检索预订状态信息。
 
 ## 先决条件 {#prerequisites}
 
-对于我们的用例，我们设计了三个Adobe Campaign Standard事务型消息传递模板。 我们使用的是事件事务型消息模板。 请参见此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
+对于我们的用例，我们设计了三个Adobe Campaign Standard事务型消息传递模板。 我们使用的是事件事务型消息模板。 请参阅 [页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
 
 Adobe Campaign Standard配置为发送电子邮件和推送通知。
 

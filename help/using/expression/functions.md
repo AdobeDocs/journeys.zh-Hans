@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 一个函数可以具有不同的签名（一组不同的有序参数）。 函数签名可以具有0-N表达式作为有序参数。
 
-`<function name>`(`<expression as param 1>`、  `<expression as param 2>`、...、 `<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 每个函数都具有特定的返回类型。
 
@@ -63,7 +63,7 @@ ht-degree: 74%
 | 列表 | [filter](../functions/functionfilter.md) |
 | 列表 | [getListItem](../functions/functiongetlistitem.md) |
 | 列表 | [in](../functions/functionin.md) |
-| 列表 | [相交](../functions/functionintersect.md) |
+| 列表 | [intersect](../functions/functionintersect.md) |
 | 列表 | [listSize](../functions/functionlistsize.md) |
 | 列表 | [serializeList](../functions/functionserializelist.md) |
 | 列表 | [sort](../functions/functionsort.md) |
@@ -71,10 +71,10 @@ ht-degree: 74%
 | 数学 | [round](../functions/functionround.md) |
 | 字符串 | [concat](../functions/functionconcat.md) |
 | 字符串 | [contain](../functions/functioncontain.md) |
-| 字符串 | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| 字符串 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | 字符串 | [endWith](../functions/functionendwith.md) |
 | 字符串 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| 字符串 | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| 字符串 | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | 字符串 | [indexOf](../functions/functionindexof.md) |
 | 字符串 | [isEmpty](../functions/functionisempty.md) |
 | 字符串 | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ ht-degree: 74%
 | 字符串 | [长度](../functions/functionlength.md) |
 | 字符串 | [lower](../functions/functionlower.md) |
 | 字符串 | [matchRegExp](../functions/functionmatchregexp.md) |
-| 字符串 | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| 字符串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | 字符串 | [replace](../functions/functionreplace.md) |
 | 字符串 | [replaceAll](../functions/functionreplaceall.md) |
 | 字符串 | [startWith](../functions/functionstartwith.md) |

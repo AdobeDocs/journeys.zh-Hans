@@ -2,14 +2,14 @@
 product: adobe campaign
 title: contain
 description: 了解函数包含
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b38619ec-94b2-450f-916e-f2dccbdbf4c5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 21%
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
 
@@ -37,6 +37,6 @@ ht-degree: 21%
 
 ## 示例
 
-`contain("rowing is great', "great")`
+`contain("rowing is great", "great")`
 
 返回true。
