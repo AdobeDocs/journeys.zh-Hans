@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 12%
+source-wordcount: '60'
+ht-degree: 18%
 
 ---
 
@@ -40,10 +40,6 @@ ht-degree: 12%
 
 ## 示例
 
-`matchRegExp("Hello World", "Hello\s+World")`
+`matchRegExp("username@adobe.com", "*adobe")`
 
 返回true。
-
-解释：
-
-在此，您可以检查字符串是否满足正则表达式（java语法）：以“Hello”开头，然后是任何类型的字符串，以“World”结尾。

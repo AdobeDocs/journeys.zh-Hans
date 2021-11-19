@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 * 第一个函数将返回最近的事件
 * 最后一个函数将返回最早的一个函数。
 
-例如，假设您想要定位过去7天内购物车放弃的客户，以便当客户接近商店时发送消息，并针对他想要的商店内商品提供优惠。
+例如，假设您想要定位过去7天内购物车放弃的客户，以便当客户接近商店时发送消息，并针对他们希望在商店中购买的项目提供选件。
 
 **您需要构建以下条件：**
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**此表达式会查找此用户在过去7天中指定的所有事件：**
+**此表达式会查找此用户在过去7天内指定的所有事件：**
 
 然后，选择所有未转换为completePurchase的addtocart事件。
 
@@ -127,15 +127,20 @@ ht-degree: 2%
 以下表达式允许您在操作个性化字段中定义CRM ID:
 
 ```json
-    substr(@{MobileAppLaunch
-            ._myorganization
-            .identification
-            .crmid}, 1, 
-            lastIndexOf(@{MobileAppLaunch
-                        ._myorganization
-                        .identification
-                        .crmid}
-                         ))
+substr(
+   @{MobileAppLaunch
+   ._myorganization
+   .identification
+   .crmid},
+   1, 
+   lastIndexOf(
+     @{MobileAppLaunch
+     ._myorganization
+     .identification
+     .crmid},
+     '}'
+   )
+)
 ```
 
 解释：此示例使用 `substr` 和 `lastIndexOf` 用于删除与移动设备应用程序启动事件一起传递的CRM ID周围大括号的函数。

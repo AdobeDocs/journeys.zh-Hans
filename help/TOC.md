@@ -5,9 +5,9 @@ title: Journey Orchestration 指南
 user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
-source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '438'
 ht-degree: 96%
 
 ---
@@ -97,8 +97,8 @@ ht-degree: 96%
          + [journeyStep 事件身份字段](using/building-journeys/sharing-identity-fields.md)
          + [历程字段](using/building-journeys/sharing-journey-fields.md)
       + [查询示例](using/building-journeys/query-examples.md)
-+ 使用高级表达式编辑器 {#building-advanced-conditions-journeys}
-   + [关于高级表达式编辑器](using/expression/expressionadvanced.md)
++ 生成表达式 {#building-advanced-conditions-journeys}
+   + [概述](using/expression/expressionadvanced.md)
    + 语法 {#syntax}
       + [概述](using/expression/generalities.md)
       + [条件指令](using/expression/conditional-instruction.md)
@@ -145,6 +145,7 @@ ht-degree: 96%
          + [nowWithDelta](using/functions/functionnowwithdelta.md)
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
+         + [updateTimeZone](using/functions/functionupdatetimezone.md)
       + 列表 {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)

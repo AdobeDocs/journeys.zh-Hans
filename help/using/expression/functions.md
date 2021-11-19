@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '177'
 ht-degree: 73%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 73%
 | 日期 | [nowWithDelta](../functions/functionnowwithdelta.md) |
 | 日期 | [setHours](../functions/functionsethours.md) |
 | 日期 | [setDays](../functions/functionsetdays.md) |
+| 日期 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 列表 | [distinct](../functions/functiondistinct.md) |
 | 列表 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | 列表 | [filter](../functions/functionfilter.md) |
