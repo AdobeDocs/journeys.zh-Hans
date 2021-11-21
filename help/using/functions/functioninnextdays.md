@@ -2,14 +2,14 @@
 product: adobe campaign
 title: inNextDays
 description: 了解NextDays中的函数
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 47d31b56-b0ed-426d-bd79-3db3e441454b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 20%
+source-wordcount: '44'
+ht-degree: 18%
 
 ---
 

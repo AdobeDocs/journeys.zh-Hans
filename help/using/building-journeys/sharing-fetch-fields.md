@@ -2,13 +2,13 @@
 product: adobe campaign
 title: journeyStep 事件数据提取字段
 description: journeyStep 事件数据提取字段
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode
 
-系统[!DNL Journey Orchestration]提供的错误代码正在查询。 例如，它可以是404、500等。
+系统提供的错误代码 [!DNL Journey Orchestration] 正在查询。 例如，它可以是404、500等。
 
 类型：字符串
 

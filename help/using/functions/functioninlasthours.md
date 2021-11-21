@@ -29,7 +29,7 @@ ht-degree: 17%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| date time | dateTime |
+| 日期时间 | dateTime |
 | 三角洲 | 整数 |
 
 ## 签名和返回类型
@@ -42,7 +42,7 @@ ht-degree: 17%
 
 `inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-Returns true.
+返回true。
 
 `inLastHours(@{MyEvent.timestamp}, 4)`
 

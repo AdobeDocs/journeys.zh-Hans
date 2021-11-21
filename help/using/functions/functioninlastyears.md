@@ -21,7 +21,7 @@ Returns true if a given date or dateTime is between now and now - delta years.
 
 日期
 
-## 函数语法
+## Function syntax
 
 `inLastYears(<dateTime>,<delta>)`
 
@@ -29,14 +29,14 @@ Returns true if a given date or dateTime is between now and now - delta years.
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期时间 | dateTime |
-| 三角洲 | 整数 |
+| date time | dateTime |
+| delta | integer |
 
 ## 签名和返回类型
 
 `inLastYears(<dateTime>,<integer>)`
 
-返回布尔值。
+Returns a boolean.
 
 ## 示例
 

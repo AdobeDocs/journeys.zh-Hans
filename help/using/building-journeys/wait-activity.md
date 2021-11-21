@@ -2,20 +2,20 @@
 product: adobe campaign
 title: 等待活动
 description: 了解等待活动
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '386'
 ht-degree: 4%
 
 ---
 
 # 等待活动{#section_rlm_nft_dgb}
 
-如果要在路径中执行下一个活动之前等待，可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：
+如果要在路径中执行下一个活动之前等待，可以使用 **[!UICONTROL Wait]** 活动。 利用该活动，可定义执行下一个活动的时间。 提供了以下三个选项：
 
 * [持续时间](#duration)
 * [固定日期](#fixed_date)
@@ -35,7 +35,7 @@ ht-degree: 4%
 >
 >最长等待时长为30天。
 >
->在测试模式下，**[!UICONTROL Wait time in test]**&#x200B;参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 请参阅[此页面](../building-journeys/testing-the-journey.md)
+>在测试模式下， **[!UICONTROL Wait time in test]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这样可以确保快速获得测试结果。 请参阅 [本页](../building-journeys/testing-the-journey.md)
 
 ## 持续等待{#duration}
 
@@ -51,13 +51,13 @@ ht-degree: 4%
 
 ## 自定义等待{#custom}
 
-利用此选项，可使用基于来自事件或数据源的字段的高级表达式，定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](../expression/expressionadvanced.md)。有关dateTimeOnly格式的更多信息，请参阅[此页面](../expression/data-types.md)。
+利用此选项，可使用基于来自事件或数据源的字段的高级表达式，定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](../expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参阅 [本页](../expression/data-types.md).
 
 >[!NOTE]
 >
->您可以使用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段格式为2016-08-12T09:46:06Z。
+>您可以使用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如：toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段为2016-08-12T09格式:46:06Z。
 >
->历程的属性中需要&#x200B;**时区**。 因此，今天无法从接口直接指向完整的ISO-8601时间戳，该时间戳将时间和时区偏移混合在一起，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
+>的 **时区** 在历程的属性中是预期的。 因此，今天从界面无法直接指向完全ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 

@@ -2,14 +2,14 @@
 product: adobe campaign
 title: replace
 description: 了解函数替换
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 16%
+source-wordcount: '76'
+ht-degree: 15%
 
 ---
 

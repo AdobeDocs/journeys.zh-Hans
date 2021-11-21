@@ -15,11 +15,11 @@ ht-degree: 4%
 
 # URL 配置 {#concept_gbg_1f1_2gb}
 
-配置自定义操作时，您需要定义以下&#x200B;**[!UICONTROL URL Configuration]**&#x200B;参数：
+配置自定义操作时，您需要定义以下内容 **[!UICONTROL URL Configuration]** 参数：
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. 在&#x200B;**[!UICONTROL URL]**&#x200B;字段中，指定外部服务的URL:
+1. 在 **[!UICONTROL URL]** 字段中，指定外部服务的URL:
 
    * 如果URL是静态的，请在此字段中输入URL。
 
@@ -34,22 +34,22 @@ ht-degree: 4%
    >
    >定义自定义操作时仅允许使用默认端口：80表示http，443表示https。
 
-1. 选择&#x200B;**[!UICONTROL Method]**&#x200B;调用：它可以是&#x200B;**[!UICONTROL POST]**&#x200B;或&#x200B;**[!UICONTROL PUT]**。
-1. 在&#x200B;**[!UICONTROL Headers]**&#x200B;部分中，定义要发送到外部服务的请求消息的HTTP标头：
-   1. 要添加标题字段，请单击&#x200B;**[!UICONTROL Add a header field]**。
+1. 选择调用 **[!UICONTROL Method]**:它可以 **[!UICONTROL POST]** 或 **[!UICONTROL PUT]**.
+1. 在 **[!UICONTROL Headers]** 部分，定义要发送到外部服务的请求消息的HTTP标头：
+   1. 要添加标题字段，请单击 **[!UICONTROL Add a header field]**.
    1. 输入标题字段的键。
-   1. 要为键值对设置动态值，请选择&#x200B;**[!UICONTROL Variable]**。 否则，请选择&#x200B;**[!UICONTROL Constant]**。
+   1. 要为键值对设置动态值，请选择 **[!UICONTROL Variable]**. 否则，请选择 **[!UICONTROL Constant]**.
 
       例如，对于时间戳，您可以设置动态值。
 
-   1. 如果已选择&#x200B;**[!UICONTROL Constant]**，则输入常数值。
+   1. 如果已选择 **[!UICONTROL Constant]**，然后输入常数值。
 
-      如果已选择&#x200B;**[!UICONTROL Variable]**，则在将自定义操作添加到历程时将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
+      如果已选择 **[!UICONTROL Variable]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. 要删除标题字段，请指向标题字段，然后单击&#x200B;**[!UICONTROL Delete]**&#x200B;图标。
-   默认情况下，将设置&#x200B;**[!UICONTROL Content-Type]**&#x200B;和&#x200B;**[!UICONTROL Charset]**&#x200B;标头字段。 您无法修改或删除这些字段。
+   1. 要删除标题字段，请指向标题字段，然后单击 **[!UICONTROL Delete]** 图标。
+   的 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 标题字段默认设置。 您无法修改或删除这些字段。
 
    在将自定义操作添加到历程后，如果历程处于草稿状态，您仍可以向该历程添加标题字段。 如果您不希望历程受配置更改的影响，请复制自定义操作并将标题字段添加到新的自定义操作。
 

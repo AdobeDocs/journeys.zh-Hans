@@ -12,60 +12,60 @@ ht-degree: 3%
 
 # 创建测试用户档案 {#create-test-profiles}
 
-在历程中使用测试模式时需要测试用户档案。 要了解如何使用测试模式，请参阅[此部分](../building-journeys/testing-the-journey.md)。
+在历程中使用测试模式时需要测试用户档案。 要了解如何使用测试模式，请参阅 [此部分](../building-journeys/testing-the-journey.md).
 
-在Adobe Experience Platform中创建测试用户档案的方法有所不同。 在本文档中，我们将重点介绍两种方法：上传[csv文件](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)并使用[API调用](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您还可以在数据集中上传json文件，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
+在Adobe Experience Platform中创建测试用户档案的方法有所不同。 在本文档中，我们将重点介绍两种方法：上传 [csv文件](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) 和使用 [API调用](../building-journeys/creating-test-profiles.md#create-test-profiles-api). 您还可以在数据集中上传json文件，请参阅 [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
 
 这些导入方法还允许您更新配置文件属性。 这样，您就可以将现有用户档案转换为测试用户档案。 只需使用类似的文件或API调用并仅包含值为“true”的“testProfile”字段即可。
 
-创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关更多信息，请参阅[实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)。
+创建测试用户档案与在Adobe Experience Platform中创建常规用户档案类似。 有关更多信息，请参阅 [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans).
 
 ## 先决条件{#test-profile-prerequisites}
 
 为了能够创建用户档案，您首先需要在Adobe Experience Platform中创建架构和数据集。
 
-首先，您需要&#x200B;**创建架构**。 请执行以下步骤：
+首先，你需要 **创建模式**. 请执行以下步骤：
 
-1. 在Adobe Experience Platform中，单击左侧菜单中的&#x200B;**[!UICONTROL Schemas]**。
+1. 在Adobe Experience Platform中，单击 **[!UICONTROL Schemas]**，来访问Advertising Cloud的帮助。
    ![](../assets/test-profiles-0.png)
-1. 单击右上方的&#x200B;**[!UICONTROL Create schema]**，然后选择架构类型，例如&#x200B;**[!UICONTROL XDM Individual Profile]**。
+1. 单击 **[!UICONTROL Create schema]**，然后选择模式类型，例如 **[!UICONTROL XDM Individual Profile]**.
    ![](../assets/test-profiles-1.png)
 1. 选择架构的名称。
-1. 在&#x200B;**[!UICONTROL Mixins]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Mixins]** ，单击 **[!UICONTROL Add]**.
    ![](../assets/test-profiles-1-bis.png)
-1. 选择适当的混合。 确保添加&#x200B;**[!UICONTROL Profile test details]** mixin。 单击 **[!UICONTROL Add mixin]**。
+1. 选择适当的混合。 确保将 **[!UICONTROL Profile test details]** 混合。 单击 **[!UICONTROL Add mixin]**。
    ![](../assets/test-profiles-1-ter.png)
 混合的列表显示在架构概述屏幕上。
 
    ![](../assets/test-profiles-2.png)
 1. 在字段列表中，单击要定义为主标识的字段。
    ![](../assets/test-profiles-3.png)
-1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右侧面板中，选中&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;选项，然后选择命名空间。 如果希望主标识是电子邮件地址，请选择&#x200B;**[!UICONTROL Email]**&#x200B;命名空间。 单击 **[!UICONTROL Apply]**。
+1. 在 **[!UICONTROL Field properties]** 右面板，检查 **[!UICONTROL Identity]** 和 **[!UICONTROL Primary Identity]** 选项，然后选择命名空间。 如果希望主标识是电子邮件地址，请选择 **[!UICONTROL Email]** 命名空间。 单击 **[!UICONTROL Apply]**。
    ![](../assets/test-profiles-4.png)
-1. 选择架构并启用&#x200B;**[!UICONTROL Schema properties]**&#x200B;中的&#x200B;**[!UICONTROL Profile]**选项。
+1. 选择架构并启用 **[!UICONTROL Profile]** 选项 **[!UICONTROL Schema properties]**.
    ![](../assets/test-profiles-5.png)
 1. 单击 **[!UICONTROL Save]**。
 
 >[!NOTE]
 >
->有关模式创建的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites)。
+>有关模式创建的更多信息，请参阅 [XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites).
 
-然后，您需要&#x200B;**创建要导入用户档案的数据集**。 请执行以下步骤：
+那你需要 **创建数据集** 导入用户档案的位置。 请执行以下步骤：
 
-1. 在Adobe Experience Platform中，单击左侧菜单中的&#x200B;**[!UICONTROL Datasets]**，然后单击&#x200B;**[!UICONTROL Create dataset]**。
+1. 在Adobe Experience Platform中，单击 **[!UICONTROL Datasets]**，然后单击 **[!UICONTROL Create dataset]**.
    ![](../assets/test-profiles-6.png)
-1. 选择&#x200B;**[!UICONTROL Create dataset from schema]**。
+1. 选择 **[!UICONTROL Create dataset from schema]**.
    ![](../assets/test-profiles-7.png)
-1. 选择之前创建的架构，然后单击&#x200B;**[!UICONTROL Next]**。
+1. 选择之前创建的架构，然后单击 **[!UICONTROL Next]**.
    ![](../assets/test-profiles-8.png)
-1. 选择一个名称，然后单击&#x200B;**[!UICONTROL Finish]**。
+1. 选择一个名称，然后单击 **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-9.png)
-1. 启用&#x200B;**[!UICONTROL Profile]**选项。
+1. 启用 **[!UICONTROL Profile]** 选项。
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> 有关数据集创建的更多信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
+> 有关数据集创建的更多信息，请参阅 [目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
 
 ## 使用csv文件创建测试用户档案{#create-test-profiles-csv}
 
@@ -77,17 +77,17 @@ ht-degree: 3%
 1. 为每个用户档案添加一行，并填写每个字段的值。
    ![](../assets/test-profiles-12.png)
 1. 将电子表格另存为CSV文件。 确保使用逗号作为分隔符。
-1. 在Adobe Experience Platform中，单击左侧菜单中的&#x200B;**[!UICONTROL Workflows]**。
+1. 在Adobe Experience Platform中，单击 **[!UICONTROL Workflows]**，来访问Advertising Cloud的帮助。
    ![](../assets/test-profiles-14.png)
-1. 选择&#x200B;**[!UICONTROL Map CSV to XDM schema]**，然后单击&#x200B;**[!UICONTROL Launch]**。
+1. 选择 **[!UICONTROL Map CSV to XDM schema]**，然后单击 **[!UICONTROL Launch]**.
    ![](../assets/test-profiles-16.png)
 1. 选择要将用户档案导入的数据集。 单击 **[!UICONTROL Next]**。
    ![](../assets/test-profiles-17.png)
-1. 单击&#x200B;**[!UICONTROL Choose files]**&#x200B;并选择您的csv文件。 上传文件后，单击&#x200B;**[!UICONTROL Next]**。
+1. 单击 **[!UICONTROL Choose files]** ，然后选择csv文件。 上传文件后，单击 **[!UICONTROL Next]**.
    ![](../assets/test-profiles-18.png)
-1. 将源csv字段映射到架构字段，然后单击&#x200B;**[!UICONTROL Finish]**。
+1. 将源csv字段映射到架构字段，然后单击 **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-19.png)
-1. 数据导入开始。 状态将从&#x200B;**[!UICONTROL Processing]**&#x200B;移至&#x200B;**[!UICONTROL Success]**。 单击右上方的&#x200B;**[!UICONTROL Preview data set]**。
+1. 数据导入开始。 状态将从 **[!UICONTROL Processing]** to **[!UICONTROL Success]**. 单击 **[!UICONTROL Preview data set]**，位于右上方。
    ![](../assets/test-profiles-20.png)
 1. 检查测试用户档案是否已正确添加。
    ![](../assets/test-profiles-21.png)
@@ -95,7 +95,7 @@ ht-degree: 3%
 您的测试用户档案已添加，现在可在测试历程时使用。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
 >[!NOTE]
 >
-> 有关csv导入的更多信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials)。
+> 有关csv导入的更多信息，请参阅 [数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 

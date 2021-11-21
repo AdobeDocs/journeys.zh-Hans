@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 访问管理
 description: 了解有关访问管理的更多信息
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '854'
 ht-degree: 98%
 
 ---

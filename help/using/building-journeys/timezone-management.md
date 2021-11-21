@@ -2,20 +2,20 @@
 product: adobe campaign
 title: 时区管理
 description: 了解时区管理
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
 
 # 时区管理 {#timezone_management}
 
-您可以在历程的[属性](../building-journeys/changing-properties.md)中定义时区。
+您可以在 [属性](../building-journeys/changing-properties.md) 你的旅程。
 
 要访问“属性”，请单击屏幕右上方的铅笔图标。
 
@@ -30,13 +30,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->配置文件时区与&#x200B;**首选项详细信息**&#x200B;字段组中存在的&#x200B;**timeZone**&#x200B;字段配合使用。
+>配置文件时区适用于 **timeZone** 字段 **首选项详细信息** 字段组。
 
 ## 定义固定时区 {#fixed-timezone}
 
 时区也可以固定。 清除预定义的时区，然后从下拉列表中选择一个时区。 如果您使用固定时区，则进入历程的所有个人都将使用相同的时区。
 
-为此，请在&#x200B;**[!UICONTROL Properties]**&#x200B;中选择一个时区。
+为此，请在 **[!UICONTROL Properties]**&#x200B;时区。
 
 ![](../assets/journey72.png)
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 如果个人的用户档案不包含时区，则检索到的时区将是时区字段中定义的时区。
 
-为此，请在&#x200B;**[!UICONTROL Properties]**&#x200B;中，选中&#x200B;**[!UICONTROL Use Profile timezone in timers and conditions]**。
+为此，请在 **[!UICONTROL Properties]**，勾选 **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
 ![](../assets/journey73.png)
 

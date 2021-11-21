@@ -2,30 +2,30 @@
 product: adobe campaign
 title: '关于Journey Orchestration事件的ExperienceEvent架构 '
 description: '了解用于Journey Orchestration事件的ExperienceEvent架构 '
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
-# 关于[!DNL Journey Orchestration]事件的ExperienceEvent架构
+# 关于ExperienceEvent架构(适用于 [!DNL Journey Orchestration] 事件
 
 [!DNL Journey Orchestration] 事件是通过流摄取发送到Adobe Experience Platform的XDM体验事件。
 
-因此，为[!DNL Journey Orchestration]设置事件的一个重要先决条件是，您熟悉Adobe Experience Platform的体验数据模型（或XDM）、如何构建XDM体验事件架构，以及如何将XDM格式的数据流式传输到Adobe Experience Platform。
+因此，为设置事件的重要先决条件 [!DNL Journey Orchestration] 您应该熟悉Adobe Experience Platform的体验数据模型（或XDM）、如何构建XDM体验事件架构，以及如何将XDM格式的数据流式传输到Adobe Experience Platform。
 
-## [!DNL Journey Orchestration]事件的架构要求
+## 架构要求 [!DNL Journey Orchestration] 事件
 
-为[!DNL Journey Orchestration]设置事件的第一步是确保您定义了一个用于表示该事件的XDM架构，并创建了一个数据集，用于记录该事件在Adobe Experience Platform上的实例。 并非完全需要为事件创建一个数据集，但将事件发送到特定数据集将允许您维护用户的事件历史记录以供将来参考和分析，因此始终都是一个好主意。 如果您还没有适用于事件的架构和数据集，则可以在Adobe Experience Platform Web界面中完成这两项任务。
+设置事件的第一步 [!DNL Journey Orchestration] 是为了确保您定义了用于表示事件的XDM架构，并创建了一个数据集，用于记录Adobe Experience Platform上该事件的实例。 并非完全需要为事件创建一个数据集，但将事件发送到特定数据集将允许您维护用户的事件历史记录以供将来参考和分析，因此始终都是一个好主意。 如果您还没有适用于事件的架构和数据集，则可以在Adobe Experience Platform Web界面中完成这两项任务。
 
 ![](../assets/schema1.png)
 
-任何将用于[!DNL Journey Orchestration]事件的XDM架构都应满足以下要求：
+将用于 [!DNL Journey Orchestration] 事件应满足以下要求：
 
 * 架构必须是XDM ExperienceEvent类的。
 
@@ -69,13 +69,13 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 >[!NOTE]
 >
->在[Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中了解有关架构关系的更多信息。
+>在 [Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 在Journey Orchestration中，您随后可以利用链接表中的所有字段：
 
-* 配置单一事件时，[阅读更多](../event/experience-event-schema.md#unitary_event_configuration)
-* 在历程中使用条件时，[阅读更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 在自定义操作个性化中，[阅读更多](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* 配置单一事件时， [了解更多](../event/experience-event-schema.md#unitary_event_configuration)
+* 在历程中使用条件时， [了解更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 在自定义操作个性化中， [了解更多](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### 单一事件配置{#unitary_event_configuration}
 
@@ -91,7 +91,7 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 * 在事件键公式中
 * 事件id条件（基于规则的事件）中
 
-要了解如何配置单一事件，请参阅此[页面](../event/about-creating.md)。
+要了解如何配置单一事件，请参阅 [页面](../event/about-creating.md).
 
 ### 历程使用事件上下文的条件{#journey_conditions_using_event_context}
 
@@ -101,7 +101,7 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 ![](../assets/schema12.png)
 
-要了解如何定义历程条件，请参阅此[页面](../building-journeys/condition-activity.md)。
+要了解如何定义旅程条件，请参阅 [页面](../building-journeys/condition-activity.md).
 
 ### 使用历程事件上下文进行操作个性化{#custom_action_personalization_with_journey_event_context}
 
@@ -109,5 +109,5 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 ![](../assets/schema13.png)
 
-要了解如何使用自定义操作，请参阅此[page](../building-journeys/using-custom-actions.md)。
+要了解如何使用自定义操作，请参阅 [页面](../building-journeys/using-custom-actions.md).
 

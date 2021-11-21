@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 关于历程报告
 description: 了解如何构建历程报告
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ![](../assets/dynamic_report_toolbar.png)
 
-使用&#x200B;**[!UICONTROL Project]**&#x200B;选项卡可执行以下操作：
+使用 **[!UICONTROL Project]** 选项卡：
 
 * **[!UICONTROL Open]**:打开之前创建的报表或模板。
 * **[!UICONTROL Save As]**:复制模板以便能够对其进行修改。
@@ -35,13 +35,13 @@ ht-degree: 1%
 * **[!UICONTROL Download CSV]**:将报表导出为CSV文件。
 * **[!UICONTROL Print]**:打印您的报表。
 
-**[!UICONTROL Edit]**&#x200B;选项卡允许您：
+的 **[!UICONTROL Edit]** 选项卡，用于执行以下操作：
 
 * **[!UICONTROL Undo]**:取消您在功能板上的上次操作。
-* **[!UICONTROL Redo]**:取消功能板 **[!UICONTROL Undo]** 上的上次操作。
+* **[!UICONTROL Redo]**:取消您上次 **[!UICONTROL Undo]** 操作。
 * **[!UICONTROL Clear all]**:删除功能板上的每个面板。
 
-**[!UICONTROL Insert]**&#x200B;表允许您通过向功能板添加图形和表格来自定义报表：
+的 **[!UICONTROL Insert]** 表格允许您通过向功能板中添加图形和表格来自定义报表：
 
 * **[!UICONTROL New Blank Panel]**:向功能板中添加新的空白面板。
 * **[!UICONTROL New Freeform]**:向功能板中添加了新的自由格式表。
@@ -54,14 +54,14 @@ ht-degree: 1%
 
 利用这些选项卡，可访问以下项目：
 
-* **[!UICONTROL Panels]**:在报表中添加一个空白面板或自由格式，以开始过滤数据。有关更多信息，请参阅[添加面板](../reporting/creating-your-journey-reports.md#adding-panels)一节
-* **[!UICONTROL Visualizations]**:拖放一系列可视化项目，为报表提供图形维度。有关更多信息，请参阅[添加可视化图表](../reporting/creating-your-journey-reports.md#adding-visualizations)一节。
-* **[!UICONTROL Components]**:使用不同的维度、量度、区段和时间段自定义您的报表。有关更多信息，请参阅[添加组件](../reporting/creating-your-journey-reports.md#adding-components)一节。
+* **[!UICONTROL Panels]**:在报表中添加一个空白面板或自由格式，以开始过滤数据。 有关更多信息，请参阅 [添加面板](../reporting/creating-your-journey-reports.md#adding-panels) 部分
+* **[!UICONTROL Visualizations]**:拖放一系列可视化项目，为报表提供图形维度。 有关更多信息，请参阅 [添加可视化](../reporting/creating-your-journey-reports.md#adding-visualizations) 中。
+* **[!UICONTROL Components]**:使用不同的维度、量度、区段和时间段自定义您的报表。 有关更多信息，请参阅 [添加组件](../reporting/creating-your-journey-reports.md#adding-components) 中。
 
 ## 历程摘要模板 {#ootb-template}
 
 报表分为两类：现成的模板和自定义报表。
-现成的模板**[!UICONTROL Journey summary]**&#x200B;可让您清楚地查看最重要的跟踪数据。
+现成的模板， **[!UICONTROL Journey summary]**，可让您清楚地查看最重要的跟踪数据。
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 ![](../assets/dynamic_report_journey_10.png)
 
-**[!UICONTROL Journey summary]**&#x200B;表包含可用于历程的数据，例如：
+的 **[!UICONTROL Journey summary]** 表包含可用于历程的数据，例如：
 
 * **[!UICONTROL Entered]**:到达历程的登入事件的个人总数。
 * **[!UICONTROL Completion rate]**:达到历程的最终流控制的个人总数，与进入历程的个人总数相比。
@@ -92,11 +92,11 @@ ht-degree: 1%
 * **[!UICONTROL Failed]**:未成功执行的历程总数。
 * **[!UICONTROL Failed rate]**:未成功执行的历程总数与运行历程的数量相比。
 
-**[!UICONTROL Top events]**&#x200B;表显示历程中最成功的事件和&#x200B;**[!UICONTROL Top action]**&#x200B;最成功的操作。
+的 **[!UICONTROL Top events]** 表格显示最成功的事件，并且 **[!UICONTROL Top action]**，您的历程中最成功的操作。
 
 ![](../assets/dynamic_report_journey_11.png)
 
-**[!UICONTROL Delivery - Sending summary]**&#x200B;表包含可用于历程投放的数据，例如：
+的 **[!UICONTROL Delivery - Sending summary]** 表包含用于历程投放的数据，例如：
 
 * **[!UICONTROL Processed/sent]**:已发送的消息总数。
 * **[!UICONTROL Delivered rate]**:与已发送的消息相比，成功发送的消息总数。
@@ -104,7 +104,7 @@ ht-degree: 1%
 * **[!UICONTROL Bounce + error rate]**:与已发送的消息相比，已退回的消息总数。
 * **[!UICONTROL Bounces + errors]**:在投放和自动回访处理过程中累积的与已发送消息总数有关的错误总数。
 
-**[!UICONTROL Delivery - Tracking summary]**&#x200B;表包含可用于跟踪历程交付成功与否的数据，例如：
+的 **[!UICONTROL Delivery - Tracking summary]** 表包含用于跟踪历程交付成功与否的可用数据，例如：
 
 * **[!UICONTROL Open Rate]**:已打开消息的百分比。
 * **[!UICONTROL Open]**:投放中消息打开的次数。

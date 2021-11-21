@@ -30,7 +30,7 @@ ht-degree: 94%
 
 以下是创建和配置新外部数据源的主要步骤：
 
-1. 在数据源列表中，单击&#x200B;**[!UICONTROL Create data source]**&#x200B;以创建新的外部数据源。
+1. 在数据源列表中，单击 **[!UICONTROL Create data source]** 创建新的外部数据源。
 
    ![](../assets/journey25.png)
 

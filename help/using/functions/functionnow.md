@@ -2,20 +2,20 @@
 product: adobe campaign
 title: now
 description: 立即了解该函数
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ab1f9efe-cbb7-4e3a-ace0-24f2fb6165cb
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 20%
+source-wordcount: '49'
+ht-degree: 18%
 
 ---
 
 # now {#now}
 
-以日期时间格式返回当前日期。 有关数据类型的更多信息，请参阅[此页面](../expression/data-types.md)。
+以日期时间格式返回当前日期。 有关数据类型的更多信息，请参阅 [本页](../expression/data-types.md).
 
 ## 类别
 

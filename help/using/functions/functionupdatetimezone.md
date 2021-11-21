@@ -5,7 +5,8 @@ description: 了解函数updateTimeZone
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
+exl-id: 2ce60ed2-161a-4b98-9694-eb47cc0e04a9
+source-git-commit: d5531d0aad22f33da2cc5612cc289c600411fd8c
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 7%

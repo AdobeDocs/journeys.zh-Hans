@@ -2,20 +2,20 @@
 product: adobe campaign
 title: 关于历程构建
 description: 作为企业用户，了解如何结合事件、编排和行为活动来构建历程。
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 12%
 
 ---
 
 # 创建历程 {#concept_gq5_sqt_52b}
 
-此步骤由&#x200B;**业务用户**&#x200B;执行。 您可以在此处创建历程。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
+此步骤由 **商业用户**. 您可以在此处创建历程。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
 
 历程界面允许您轻松地将活动从面板拖放到画布中。 您还可以在下一步中双击某个活动，将其添加到画布中。 每个活动都具有特定的角色和在流程中的位置。 活动已排序。 活动完成后，该流程将继续并处理下一个活动，等等。
 
@@ -29,11 +29,11 @@ ht-degree: 12%
 
 1. 在顶部菜单中，单击 **[!UICONTROL Home]**&#x200B;选项卡。
 
-   将显示历程列表。 有关该接口的详细信息，请参阅[此页面](../building-journeys/using-the-journey-designer.md)。
+   将显示历程列表。 请参阅 [本页](../building-journeys/using-the-journey-designer.md) 以了解有关该界面的详细信息。
 
    ![](../assets/journey30.png)
 
-1. 单击&#x200B;**[!UICONTROL Create]**&#x200B;以创建新历程。
+1. 单击 **[!UICONTROL Create]** 以创建新历程。
 
    ![](../assets/journey31.png)
 
@@ -45,11 +45,11 @@ ht-degree: 12%
 
    ![](../assets/journey33.png)
 
-1. 拖放其他活动并对其进行配置。 请参阅页面[事件活动](../building-journeys/event-activities.md)、[关于编排活动](../building-journeys/about-orchestration-activities.md)和[关于操作活动](../building-journeys/about-action-activities.md)。
+1. 拖放其他活动并对其进行配置。 请参阅页面 [事件活动](../building-journeys/event-activities.md), [关于编排活动](../building-journeys/about-orchestration-activities.md) 和 [关于操作活动](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. 您的历程会自动保存。 测试并发布历程。 请参阅[测试历程](../building-journeys/testing-the-journey.md)和[发布历程](../building-journeys/publishing-the-journey.md)。
+1. 您的历程会自动保存。 测试并发布历程。 请参阅 [测试历程](../building-journeys/testing-the-journey.md) 和 [发布历程](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -64,11 +64,11 @@ ht-degree: 12%
 
 由于以下原因，历程可能会关闭：
 
-* 通过&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;按钮手动关闭历程。
+* 历程通过 **[!UICONTROL Close to new entrances]** 按钮。
 * 到达历程的结束日期。
 
-当历程关闭（出于上述任何原因）时，其状态将为&#x200B;**[!UICONTROL Closed]**。 历程将不再允许新人进入历程。 已在历程中的人员将正常完成历程。 在默认的全局超时为30天后，历程将切换到&#x200B;**已完成**&#x200B;状态。 请参阅此[部分](../building-journeys/changing-properties.md#entrance)。
+当历程关闭（出于上述任何原因）时，将具有状态 **[!UICONTROL Closed]**. 历程将不再让新人进入历程。 已在历程中的人员将正常完成历程。 在默认的全局超时为30天后，历程将切换到 **已完成** 状态。 请参阅 [部分](../building-journeys/changing-properties.md#entrance).
 
 如果您需要阻止历程中所有个人的进度，则可以阻止该进度。 停止历程将超时历程中的所有个人。
 
-要了解如何手动关闭或停止历程，请参阅此[部分](../building-journeys/terminating-a-journey.md)。
+要了解如何手动关闭或停止历程，请参阅此 [部分](../building-journeys/terminating-a-journey.md).

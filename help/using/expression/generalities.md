@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 概述
 description: 了解高级表达式的概括性
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 6%
+source-wordcount: '214'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 ## 括号和表达式优先级{#section_edf_fks_bgb}
 
-括号可用于使复杂表达式更易读。 _(&lt;expression>)_ 等于 _&lt;expression>_。括号还可用于定义评估顺序和关联性。
+括号可用于使复杂表达式更易读。 _(&lt;expression>)_ 等于 _&lt;expression>_. 括号还可用于定义评估顺序和关联性。
 
 表达式将从左到右进行计算。 必须应用算术运算符的相关性：乘数和分区优先于加减。 要限定特定顺序，必须添加括号以限定操作。 例如：
 
@@ -32,8 +32,8 @@ ht-degree: 6%
 
 以下是不同的区分大小写规则：
 
-* 所有运算符（和或等） 应该写成小写。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效表达式，而表达式&#x200B;_`<expression1>`和`<expression2>`_&#x200B;则不有效。
-* 所有函数名称都区分大小写。 例如， _inSegment()_&#x200B;有效，而函数&#x200B;_INSEGMENT()_&#x200B;无效。
+* 所有运算符（和或等） 应该写成小写。 例如， _`<expression1>`和`<expression2>`_ 是有效的表达式，而 _`<expression1>`和`<expression2>`_ 不是。
+* 所有函数名称都区分大小写。 例如， _inSegment()_ 有效，而函数 _INSEGMENT()_ 不是。
 * 字段引用和常量值区分大小写：它们不是语言的内置元素（与运算符和函数相反），而是由最终用户创作的。
 
 ## 返回的表达式类型{#section_gyc_435_53b}

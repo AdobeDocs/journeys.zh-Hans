@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toDateTimeOnly
 description: 了解函数toDateTime
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 17%
+source-wordcount: '55'
+ht-degree: 16%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 17%
 
 `toDateTimeOnly ("2016-08-18")`
 
-返回表示2016-08-18T00:00:00.000的dateTime
+返回表示2016-08-18T00的dateTime:00:00.000
 
 `toDateTimeOnly(now())`
 

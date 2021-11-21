@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 量度和维度
 description: 了解可用于Journey Orchestration的维度和量度
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1035'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 下表提供了历程报表中使用的维度列表及其定义。
 
-要了解有关维度与量度之间兼容性的更多信息，请参阅[此页面](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf)。
+要了解有关维度和量度之间兼容性的更多信息，请参阅 [本页](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
 ## 历程维度 {#MBE_table_wk4_bnj_w2b}
 
@@ -31,13 +31,13 @@ ht-degree: 2%
 
 | 维度 | 定义 |
 |--- |--- |
-| **操作** | 历程中使用的每个操作（**操作名称 — 操作标签**）的列表，例如推送 — 签出确认、电子邮件 — 奖励保真度。 |
-| **数据源** | 用于扩充历程(例如Adobe Experience Platform、预订系统)中数据的数据源（**数据源名称**）列表。 |
-| **[!UICONTROL Event]** | 历程中使用的每个事件（**事件名称 — 事件标签**）的列表，例如Geometrixx事件 — Geometrixx签出。 |
-| **字段组** | 用于扩充历程中数据的字段组（**字段组名称**）列表，例如用户档案字段组、Geometrixx保留系统。 |
-| **历程** | 测试模式和实时（例如放弃购物车、预订酒店通知）中每个历程（**历程名称**）的列表。 |
-| **历程版本** | 历程每个已发布版本的列表（**历程名称+版本号**），例如购物车放弃v1、酒店预订通知v2。 |
-| **编排** | 在历程中定义和使用的每个编排活动（**条件、结束、等待**）的列表。 |
+| **操作** | 每个操作的列表(**操作名称 — 操作标签**)，例如推送 — 签出确认、电子邮件 — 奖励保真度。 |
+| **数据源** | 数据源列表(**数据源名称**)用于扩充历程中的数据，例如Adobe Experience Platform、预订系统。 |
+| **[!UICONTROL Event]** | 每个事件的列表(**事件名称 — 事件标签**)，例如Geometrixx事件 — Geometrixx签出。 |
+| **字段组** | 字段组列表(**字段组名称**)用于扩充历程中的Geometrixx，例如用户档案字段组、数据保留系统。 |
+| **历程** | 每个历程的列表(**历程名称**)，例如放弃购物车、酒店预订通知。 |
+| **历程版本** | 历程的每个发布版本的列表(**历程名称+版本号**)例如，购物车放弃v1、酒店预订通知v2。 |
+| **编排** | 每个编排活动的列表(**条件，结束，等待**)在历程中定义和使用。 |
 
 ## 投放维度 {#delivery-dimensions}
 
@@ -83,8 +83,7 @@ ht-degree: 2%
 
 ## 交付量度 {#delivery-metrics}
 
-下表提供了历程中使用的量度列表
-报表、其定义和公式。
+下表提供了历程报表中使用的量度列表、量度的定义和公式。
 
 | 量度 | 定义 |
 |--- |--- |

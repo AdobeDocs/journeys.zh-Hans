@@ -2,24 +2,24 @@
 product: adobe campaign
 title: 配置事件
 description: 了解如何为历程高级用例配置事件
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 9%
 
 ---
 
 # 配置事件 {#concept_sbp_5cy_w2b}
 
-在我们的情景中，每当一个人进入马尔顿酒店和餐厅时，我们都需要收到一个活动。 **技术用户**&#x200B;需要配置我们希望系统在我们的历程中侦听的两个事件。
+在我们的情景中，每当一个人进入马尔顿酒店和餐厅时，我们都需要收到一个活动。 的 **技术用户** 需要配置我们希望系统在我们的历程中侦听的两个事件。
 
-有关事件配置的其他信息，请参阅[此页面](../event/about-events.md)。
+有关事件配置的其他信息，请参阅 [本页](../event/about-events.md).
 
-1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Events]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新事件。
+1. 在顶部菜单中，单击 **[!UICONTROL Events]** 选项卡，单击 **[!UICONTROL Add]** 创建新事件。
 
    ![](../assets/journeyuc1_1.png)
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 
    我们还需要注册令牌才能发送推送消息：&quot;_experience > campaign > message > profile > pushNotificationTokens > token&quot;
 
-   将自动为此事件生成ID。 此ID存储在&#x200B;**[!UICONTROL eventID]**&#x200B;字段(&quot;_experience > campaign > orchestration > eventID&quot;)中。 推送事件的系统不应生成ID，它应使用有效负荷预览中提供的ID。 在我们的用例中，此ID用于标识信标位置。 每次人员在大堂信标附近行走时，都会发送一个包含此特定事件ID的事件。 同样的原则也适用于餐馆信标事件。 这允许系统知道哪些信标触发了事件发送。
+   将自动为此事件生成ID。 此ID存储在 **[!UICONTROL eventID]** 字段(“_experience > campaign > orchestration > eventID”)。 推送事件的系统不应生成ID，它应使用有效负荷预览中提供的ID。 在我们的用例中，此ID用于标识信标位置。 每当人员在大堂信标附近行走时，都会发送一个包含此特定事件ID的事件。 同样的原则也适用于餐馆信标事件。 这允许系统知道哪些信标触发了事件发送。
 
    ![](../assets/journeyuc2_2.png)
 
@@ -49,7 +49,7 @@ ht-degree: 9%
 
 1. 单击 **[!UICONTROL Save]**。
 
-1. 单击&#x200B;**[!UICONTROL View Payload]**&#x200B;图标可预览系统预期的有效负载，并将其共享给负责事件发送的人员。  需要在Mobile Services管理控制台的回发中配置此负载。
+1. 单击 **[!UICONTROL View Payload]** 图标来预览系统预期的有效负载，并将其共享给负责事件发送的人员。  需要在Mobile Services管理控制台的回发中配置此负载。
 
    ![](../assets/journeyuc2_5.png)
 

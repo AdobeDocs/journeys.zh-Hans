@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Journey Orchestration限制
 description: 了解有关Journey Orchestration限制的更多信息
-feature: 历程
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -21,18 +21,18 @@ ht-degree: 2%
 
 * 没有发送限制。 
 * 系统会在发生错误时执行三次重试。 您无法根据收到的错误消息调整重试次数。 
-* 内置的&#x200B;**Reaction**&#x200B;事件允许您对即装即用的操作做出响应（请参阅此[page](../building-journeys/reaction-events.md)）。 如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。 
+* 内置 **反应** 事件允许您对即装即用的操作做出反应(请参阅 [页面](../building-journeys/reaction-events.md))。 如果要对通过自定义操作发送的消息做出响应，则需要配置专用事件。 
 
 ## 历程版本限制 {#journey-versions-limitations}
 
-* 从v1中的事件活动开始的历程不能以其他版本中的事件以外的内容开头。 您无法以&#x200B;**区段鉴别**&#x200B;事件开始历程。
-* 从v1中的&#x200B;**区段鉴别**&#x200B;活动开始的历程必须始终以其他版本中的&#x200B;**区段鉴别**&#x200B;开始。
-* 在新版本中，无法更改在&#x200B;**区段鉴别**（第一个节点）中选择的区段和命名空间。
+* 从v1中的事件活动开始的历程不能以其他版本中的事件以外的内容开头。 您不能使用 **区段鉴别** 事件。
+* 历程从 **区段鉴别** v1中的活动必须始终以 **区段鉴别** 中。
+* 中选择的区段和命名空间 **区段鉴别** （第一个节点）在新版本中无法更改。
 * 在所有历程版本中，重新进入规则必须相同。
 
 ## 区段限定条件 {#segment-qualification}
 
-* 由于吞吐量限制，**区段鉴别**&#x200B;活动不能与Adobe Campaign Standard事务型消息传递结合使用。 请参阅[Adobe Campaign Standard产品说明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
+* 的 **区段鉴别** 由于吞吐量限制，无法将活动与Adobe Campaign Standard事务型消息传递结合使用。 请参阅 [Adobe Campaign Standard产品描述](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## 自定义操作限制
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 ## Adobe Campaign操作限制
 
-* Adobe Campaign Standard事务型消息传递在给定实例的各个渠道中每小时最多有50,000条消息。 请参阅[Adobe Campaign Standard产品说明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)。 
+* Adobe Campaign Standard事务型消息传递在给定实例的各个渠道中每小时最多有50,000条消息。 请参阅 [Adobe Campaign Standard产品描述](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## 事件限制

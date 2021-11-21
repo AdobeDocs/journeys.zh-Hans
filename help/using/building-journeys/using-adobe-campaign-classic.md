@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 使用Adobe Campaign v7/v8操作
 description: 了解Adobe Campaign v7/v8操作
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 13%
+source-wordcount: '164'
+ht-degree: 12%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 13%
 
 Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时通过 Adobe 来设置的。联系Adobe。
 
-要使此功能正常工作，您需要配置专用操作。 请参阅此[部分](../action/acc-action.md)。
+要使此功能正常工作，您需要配置专用操作。 请参阅 [部分](../action/acc-action.md).
 
-此[部分](../usecase/campaign-classic-use-case.md)中提供了端到端用例。
+本节介绍了端到端用例 [部分](../usecase/campaign-classic-use-case.md).
 
-1. 从事件开始设计您的历程。 请参阅此[部分](../building-journeys/journey.md)。
-1. 在面板的&#x200B;**Action**&#x200B;部分中，选择Campaign操作并将其添加到历程中。
-1. 在&#x200B;**操作参数**&#x200B;中，将显示消息有效负荷中预期的所有字段。 您需要将每个字段与要使用的字段进行映射（来自事件或来自数据源）。 这类似于自定义操作。 请参阅此[部分](../building-journeys/using-custom-actions.md)。
+1. 从事件开始设计您的历程。 请参阅 [部分](../building-journeys/journey.md).
+1. 在 **操作** 选择Campaign操作并将其添加到历程中。
+1. 在 **操作参数**，则会显示消息有效负载中预期的所有字段。 您需要将每个字段与要使用的字段进行映射（来自事件或来自数据源）。 这类似于自定义操作。 请参阅 [部分](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)

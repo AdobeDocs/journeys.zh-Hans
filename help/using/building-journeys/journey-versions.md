@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 历程版本
 description: 了解历程版本
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->要了解有关历程版本限制的更多信息，请参阅[此页面](../about/limitations.md#journey-versions-limitations)
+>要了解有关历程版本限制的更多信息，请参阅 [本页](../about/limitations.md#journey-versions-limitations)
 
-1. 打开实时历程的最新版本，单击&#x200B;**[!UICONTROL Create a new version]**&#x200B;并确认。
+1. 打开实时历程的最新版本，单击 **[!UICONTROL Create a new version]** 确认。
 
    ![](../assets/journeyversions2.png)
 
@@ -33,7 +33,7 @@ ht-degree: 3%
    >
    >您只能从历程的最新版本创建新版本。
 
-1. 进行修改，单击&#x200B;**[!UICONTROL Publish]**&#x200B;并确认。
+1. 进行修改，单击 **[!UICONTROL Publish]** 确认。
 
    ![](../assets/journeyversions3.png)
 
@@ -43,4 +43,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->当您发布新版本的历程时，以前的版本会自动结束并切换到&#x200B;**已关闭**&#x200B;状态。 旅程中不会有入口。 即使停止最新版本，以前的版本也将保持关闭状态。
+>当您发布新版本的历程时，之前的版本会自动结束并切换到 **已关闭** 状态。 旅程中不会有入口。 即使停止最新版本，以前的版本也将保持关闭状态。

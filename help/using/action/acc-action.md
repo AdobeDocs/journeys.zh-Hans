@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 关于Campaign v7/v8集成
 description: 了解Campaign v7/v8集成
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 7%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 7%
 
 Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时通过 Adobe 来设置的。
 
-此[部分](../usecase/campaign-classic-use-case.md)中提供了端到端用例。
+本节介绍了端到端用例 [部分](../usecase/campaign-classic-use-case.md).
 
-对于配置的每个操作，历程设计器面板中都提供了一个操作活动。 请参阅此[部分](../building-journeys/using-adobe-campaign-classic.md)。
+对于配置的每个操作，历程设计器面板中都提供了一个操作活动。 请参阅 [部分](../building-journeys/using-adobe-campaign-classic.md).
 
 ## 重要说明
 
@@ -37,7 +37,7 @@ Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时
 
 ## 先决条件
 
-在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)。
+在Campaign中，您需要创建并发布事务型消息及其关联事件。 请参阅 [Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
 
 您可以按照以下模式构建与每个消息对应的JSON有效负载。 然后，在Journey Orchestration中配置操作时，您将粘贴此有效负载（请参阅下文）
 
@@ -54,7 +54,7 @@ Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时
 }
 ```
 
-* **渠道**:为营销活动事务型模板定义的渠道
+* **频道**:为营销活动事务型模板定义的渠道
 * **eventType**:营销活动事件的内部名称
 * **ctx**:变量。
 
@@ -62,10 +62,10 @@ Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时
 
 在Journey Orchestration中，您需要为每个事务型消息配置一个操作。 请执行以下步骤：
 
-1. 创建新操作。 请参阅此[部分](../action/action.md)。
+1. 创建新操作。 请参阅 [部分](../action/action.md).
 1. 输入名称和描述。
-1. 在&#x200B;**Action type**&#x200B;字段中，选择&#x200B;**Adobe Campaign Classic**。
-1. 单击&#x200B;**有效负荷**&#x200B;字段，并粘贴与Campaign消息对应的JSON有效负荷示例。 联系Adobe以获取此有效负载。
+1. 在 **操作类型** 字段，选择 **Adobe Campaign Classic**.
+1. 单击 **负载** 字段中，并粘贴与Campaign消息对应的JSON有效负载示例。 联系Adobe以获取此有效负载。
 1. 根据要在历程画布上映射不同字段，将其调整为静态字段或变量字段。 某些字段(例如电子邮件地址和个性化字段(ctx)的渠道参数)，您可能希望定义为用于在历程上下文中映射的变量。
 1. 单击&#x200B;**保存**。
 

@@ -2,13 +2,13 @@
 product: adobe campaign
 title: journeysteps事件常用字段
 description: journeysteps事件常用字段
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 9%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 此混合将由journeyStepEvent和journeyStepProfileEvent共享。
 
-这些是[!DNL Journey Orchestration]发送到Adobe Experience Platform的常用XDM字段。 对于历程中处理的每个步骤，都将发送通用字段。 自定义操作和扩充使用更多特定字段。
+这些是常见的XDM字段， [!DNL Journey Orchestration] 发送到Adobe Experience Platform。 对于历程中处理的每个步骤，都将发送通用字段。 自定义操作和扩充使用更多特定字段。
 
 其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件的大小。
 

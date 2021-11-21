@@ -2,14 +2,14 @@
 product: adobe campaign
 title: toDateTime
 description: 了解函数toDateTime
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 11%
+source-wordcount: '93'
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->时区ID必须是字符串常量。 它不能是字段引用或表达式。 有关数据类型的更多信息，请参阅[此页面](../expression/data-types.md)。
+>时区ID必须是字符串常量。 它不能是字段引用或表达式。 有关数据类型的更多信息，请参阅 [本页](../expression/data-types.md).
 
 ## 签名和返回的类型
 
@@ -46,7 +46,7 @@ ht-degree: 11%
 
 `toDateTime(<integer>)`
 
-返回&#x200B;**dateTime**。
+返回 **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 

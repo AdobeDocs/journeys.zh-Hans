@@ -2,14 +2,14 @@
 product: adobe campaign
 title: journeyStep 事件操作执行字段
 description: journeyStep 事件操作执行字段
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 13%
+source-wordcount: '320'
+ht-degree: 12%
 
 ---
 

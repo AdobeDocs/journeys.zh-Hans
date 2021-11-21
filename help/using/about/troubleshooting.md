@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: 疑难解答
+title: 故障排除
 description: 了解有关故障排除的更多信息
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1038'
 ht-degree: 99%
 
 ---
 
-# 疑难解答{#concept_nlv_bcv_2fb}
+# 故障排除{#concept_nlv_bcv_2fb}
 
 在本部分中，您将了解如何在测试或发布之前对历程进行故障排除。当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。建议在测试模式下进行以下所有检查，然后继续发布。请参阅[此页](../building-journeys/testing-the-journey.md)。
 

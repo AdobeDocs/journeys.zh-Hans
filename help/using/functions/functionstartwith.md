@@ -2,14 +2,14 @@
 product: adobe campaign
 title: startWith
 description: 了解函数startWith
-feature: 历程
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: bf0e75d6-cc7c-4a76-b215-8735eb62163b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 27%
+source-wordcount: '43'
+ht-degree: 25%
 
 ---
 

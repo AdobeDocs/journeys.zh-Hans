@@ -2,13 +2,13 @@
 product: adobe campaign
 title: 构建历程
 description: 了解如何构建简单的用例历程
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '393'
 ht-degree: 42%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 42%
 **业务用户**&#x200B;现在可以构建历程。我们的历程将仅包含一个包含以下活动的路径：
 
 * &quot;SpaBeacon&quot; **[!UICONTROL Event]**:当人员在spa信标附近行走时，系统将收到一个事件，并且该人员的历程将开始。
-* **[!UICONTROL Condition]**&#x200B;活动，用于检查此人是否为女性
-* **[!UICONTROL Email]**&#x200B;活动(使用Adobe Campaign Standard)
-* **[!UICONTROL End]**&#x200B;活动
+* a **[!UICONTROL Condition]** 活动来检查此人是否是女人
+* an **[!UICONTROL Email]** 活动(使用Adobe Campaign Standard)
+* an **[!UICONTROL End]** 活动
 
 >[!NOTE]
 >
@@ -48,15 +48,15 @@ ht-degree: 42%
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用简单的表达式编辑器，查找性别字段(_person > gender_)，并将其放置到创建以下条件的权限中：&quot;性别等于&quot;女性&quot;。
+1. 使用简单的表达式编辑器，查找性别字段(_人员>性别_)并将其拖放到创建以下条件的右侧：&quot;性别等于&quot;女性&quot;。
 
    ![](../assets/journeyuc1_12.png)
 
-1. 删除&#x200B;**[!UICONTROL Email]**&#x200B;活动，并选择“Spa discount”事务型消息传递模板。 此模板是使用Adobe Campaign设计的。 请参见此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
+1. 删除 **[!UICONTROL Email]** 活动，然后选择“Spa折扣”事务型消息传递模板。 此模板是使用Adobe Campaign设计的。 请参阅 [页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
 
    ![](../assets/journeyuc1_13.png)
 
-1. 在&#x200B;**[!UICONTROL Email]**&#x200B;字段内单击，然后从数据源中选择电子邮件地址。
+1. 在 **[!UICONTROL Email]** 字段，然后从数据源中选择电子邮件地址。
 
    ![](../assets/journeyuc1_14.png)
 
@@ -64,11 +64,11 @@ ht-degree: 42%
 
    ![](../assets/journeyuc1_15.png)
 
-1. 删除&#x200B;**[!UICONTROL End]**&#x200B;活动。
+1. 删除 **[!UICONTROL End]** 活动。
 
    ![](../assets/journeyuc1_17.png)
 
-1. 单击&#x200B;**[!UICONTROL Test]**&#x200B;切换开关，然后使用测试用户档案测试您的历程。 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
+1. 单击 **[!UICONTROL Test]** 使用测试用户档案切换和测试您的历程。 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
 
    ![](../assets/journeyuc1_18bis.png)
 

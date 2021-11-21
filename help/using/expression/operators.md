@@ -74,7 +74,7 @@ ht-degree: 6%
 not <expression>
 ```
 
-&lt;expression> 必须是布尔值。 结果为布尔值。
+&lt;expression> 必须是布尔值。 The result is boolean.
 
 示例：
 
@@ -84,7 +84,7 @@ not 3.15 < 1
 
 ## 比较 {#comparison}
 
-### 为null
+### is null
 
 
 
@@ -94,7 +94,7 @@ not 3.15 < 1
 
 结果为布尔值。
 
-请注意，null表示表达式没有计算值。
+Note that null means the expression has no evaluated value.
 
 示例：
 
@@ -112,7 +112,7 @@ not 3.15 < 1
 
 结果为布尔值。
 
-请注意，null表示表达式没有计算值。
+Note that null means the expression has no evaluated value.
 
 示例：
 
@@ -194,9 +194,9 @@ not 3.15 < 1
 
 可以将Datetimeonly与Datetimeonly进行比较。
 
-可以将整数或小数都与整数或小数进行比较。
+Both integer or decimal can be compared with both integer or decimal.
 
-禁止任何其他组合。
+Any other combination is forbidden.
 
 结果为布尔值。
 
@@ -242,7 +242,7 @@ not 3.15 < 1
 
 可以将Datetimeonly与Datetimeonly进行比较。
 
-可以将整数或小数都与整数或小数进行比较。
+Both integer or decimal can be compared with both integer or decimal.
 
 禁止任何其他组合。
 
@@ -306,7 +306,7 @@ not 3.15 < 1
 <expression1> - <expression2>
 ```
 
-两个表达式都必须为数字（整数或小数）。
+Both expressions must be numeric (integer or decimal).
 
 结果也是数字。
 
@@ -344,7 +344,7 @@ not 3.15 < 1
 <expression1> * <expression2>
 ```
 
-两个表达式都必须为数字（整数或小数）。
+Both expressions must be numeric (integer or decimal).
 
 结果也是数字。
 
@@ -398,7 +398,7 @@ not 3.15 < 1
 <expression> is integer
 ```
 
-表达式的类型为整数。
+The type of the expression is integer.
 
 示例：
 
@@ -436,9 +436,9 @@ not 3.15 < 1
 <expression> + <string>
 ```
 
-它连接两个表达式。
+It concatenates two expressions.
 
-一个表达式必须是链式字符串。
+One expression must be a chained string.
 
 示例：
 

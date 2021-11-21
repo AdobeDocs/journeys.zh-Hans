@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 历程字段
 description: 历程字段
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 26%
+source-wordcount: '67'
+ht-degree: 25%
 
 ---
 
@@ -43,6 +43,6 @@ ht-degree: 26%
 
 ## 版本
 
-版本，表示为`major`。`minor`
+版本，表示为 `major`.`minor`
 
 类型：字符串

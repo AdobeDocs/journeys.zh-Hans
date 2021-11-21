@@ -8,7 +8,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: e758d4430bb28c109633c96e330b56ad08a61c02
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -66,7 +66,7 @@ _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 ```
 
-结果应大于0。 此查询返回用户档案进入历程的确切次数。
+结果应大于0。 此查询会返回用户档案进入历程的确切次数。
 
 ### 查找用户档案是否发送了特定消息
 

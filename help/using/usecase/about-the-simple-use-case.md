@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 关于简单用例
 description: 进一步了解历程简单用例
-feature: 历程
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '173'
+ht-degree: 11%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 ## 先决条件 {#prerequisites}
 
-对于我们的用例，我们在Adobe Campaign Standard中设计了一个电子邮件事务型消息传递模板。 我们使用的是事件事务型消息模板。 请参见此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
+对于我们的用例，我们在Adobe Campaign Standard中设计了一个电子邮件事务型消息传递模板。 我们使用的是事件事务型消息模板。 请参阅 [页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
 
 Adobe Campaign Standard配置为发送电子邮件。
 
