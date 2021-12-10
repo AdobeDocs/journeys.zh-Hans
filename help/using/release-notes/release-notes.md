@@ -37,7 +37,7 @@ ht-degree: 67%
 
 ### 改进
 
-* **Expression editor** - As a power user, you can now use functions to work with maps. [了解详情](../expression/field-references.md)
+* **表达式编辑器**  — 作为高级用户，您现在可以使用函数处理映射。 [了解详情](../expression/field-references.md)
 * **辅助功能**  — 已实施辅助功能增强。 Journey Orchestration现在在无障碍方面完全兼容。
 * **收藏集**  — 现在支持包含子对象的对象数组。 [了解更多信息](../usecase/collections.md)
 * **监控**  — 实时历程和测试模式的步骤事件已得到增强。 [新字段](../building-journeys/sharing-field-list.md#serviceevents) 已添加与配置文件导出作业相关的内容。 为了获得更好的用户体验，在历程步骤事件架构中，步骤事件字段现在按不同类别进行组织以进行Journey Orchestration。 上一步的所有事件字段仍可在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 类别。
@@ -53,10 +53,10 @@ ht-degree: 67%
 <tbody>
 <tr>
 <td>
-<p>You can now pass collections or a list of data in your custom action parameters that will be dynamically populated at runtime. 支持两种收藏集：简单集合和对象集合。 之前创建的自定义操作将继续工作。 </p>
+<p>您现在可以在自定义操作参数中传递将在运行时动态填充的集合或数据列表。 支持两种收藏集：简单集合和对象集合。 之前创建的自定义操作将继续工作。 </p>
 <p>有关收藏集的更多信息，请参阅 <a href="../usecase/collections.md">详细文档</a>. </p>
 <p>过滤器和交集函数已添加到高级表达式编辑器中可用函数的列表。 这为收藏集筛选和比较提供了更多可能性。</p>
-<p>Consult the documentation on the <a href="../functions/functionfilter.md">filter</a> and <a href="../functions/functionintersect.md">intersect</a> functions.</p>
+<p>请查阅有关 <a href="../functions/functionfilter.md">过滤器</a> 和 <a href="../functions/functionintersect.md">相交</a> 函数。</p>
 </td>
 </tr>
 </tbody>
@@ -65,9 +65,9 @@ ht-degree: 67%
 ### 改进
 
 * 系统生成的架构和在为步骤事件配置期间创建的数据集现在处于只读模式，可防止对关键架构进行任何意外修改。 [了解详情](../building-journeys/sharing-overview.md)
-* 将 **等待** 活动，该活动的标签将显示在画布中。 The label is also used in reporting and test mode logs to clearly identify what you are doing. [了解详情](../building-journeys/using-the-journey-designer.md)
-* 通过过滤 **事件** 和 **操作** 类别。 Orchestration activities are no longer filtered. [了解详情](../building-journeys/using-the-journey-designer.md)
-* When defining an event ID condition in a rule-based, the &quot;contains&quot; operator is now available for string types of fields. [了解详情](../event/about-creating.md)
+* 将 **等待** 活动，该活动的标签将显示在画布中。 在报告和测试模式日志中也会使用标签，以明确标识您正在执行的操作。 [了解详情](../building-journeys/using-the-journey-designer.md)
+* 通过过滤 **事件** 和 **操作** 类别。 编排活动不再过滤。 [了解详情](../building-journeys/using-the-journey-designer.md)
+* 现在，在基于规则的字段中定义事件ID条件时，“包含”运算符可用于字符串类型的字段。 [了解详情](../event/about-creating.md)
 
 ## 2021 年 8 月版 {#august-2021-release}
 
@@ -124,22 +124,22 @@ ht-degree: 67%
 
 * 对于外部数据源，现在会自动定义每秒15次调用的上限规则。 [了解更多信息](../about/external-systems.md#capping)
 * 现在，简单而高级的表达式编辑器支持XDM日期格式。
-* In the journey list screen, a new filter has been added. You can now filter by journey type: **[!UICONTROL Unitary event]** or **[!UICONTROL Segment qualification]**. [了解更多信息](../about/user-interface.md#section_lgm_hpz_pgb)
+* 在历程列表屏幕中，添加了新过滤器。 您现在可以按历程类型过滤： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. [了解更多信息](../about/user-interface.md#section_lgm_hpz_pgb)
 * 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 在复制历程的技术详细信息时，也可以使用此信息。 [了解更多信息](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## 2021 年 4 月版 {#april-2021-release}
 
 ### 改进
 
-* 在 **事件配置** 在测试模式的屏幕中，现在会为希望显示枚举的字段显示下拉列表。 Simply select one of the available values. This will avoid errors when triggering the event if an incorrect value is defined. [了解更多信息](../building-journeys/testing-the-journey.md#firing_events)
+* 在 **事件配置** 在测试模式的屏幕中，现在会为希望显示枚举的字段显示下拉列表。 只需选择一个可用值即可。 如果定义的值不正确，这将避免在触发事件时出错。 [了解更多信息](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2021 年 3 月版 {#march-2021-release}
 
 ### 改进
 
-* A new status has been added to journeys. 当历程结束或手动关闭时，其状态将从 **已关闭** to **已完成** 30天后关闭。 This will allow you to identify inactive journeys more easily while making sure all individuals still present have time to finish the journey. [了解更多信息](../building-journeys/journey.md#ending_a_journey)
+* 历程中添加了新状态。 当历程结束或手动关闭时，其状态将从 **已关闭** to **已完成** 30天后关闭。 这样，您就可以更轻松地识别不活动的历程，同时确保所有人员仍有时间完成历程。 [了解更多信息](../building-journeys/journey.md#ending_a_journey)
 * 现在，在草稿历程的活动右窗格中，默认情况下隐藏只读字段。 此界面简化将帮助您更轻松地配置活动。 要显示它们，请单击 **显示只读字段** 图标（位于活动配置窗格的左上角）。 [了解更多信息](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* In test mode, in the **Event configuration** screen, the **Key** field used to define the test profile&#39;s ID has been renamed **Profile identifier** for a better user experience. [了解更多信息](../building-journeys/testing-the-journey.md)。
+* 在测试模式下，在 **事件配置** 屏幕， **键** 用于定义测试用户档案ID的字段已重命名 **用户档案标识符** 以获得更好的用户体验。 [了解更多信息](../building-journeys/testing-the-journey.md)。
 * 对于反应事件，超时持续时间现在只能设置为40秒到30天之间。 测试使用反应事件的历程时，测试模式 **[!UICONTROL Wait time]** 默认值和最小值现在为40秒。 [了解更多信息](../building-journeys/reaction-events.md)。
 
 ## 2021 年 2 月版 {#february-2021-release}
@@ -162,16 +162,16 @@ ht-degree: 67%
 
 ### 其他改进
 
-* 现在，在配置事件时，默认情况下只会预先选择XDM验证中必填的字段。 These fields cannot be unselected.
-* In the journey palette, a new filter has been added. 除了现成事件和操作之外，它还允许您仅显示最近使用的五个事件和操作。 This is specific to each user. 默认情况下，将显示所有项目。 [了解更多信息](../building-journeys/using-the-journey-designer.md#palette)
-* 现在，在开始新历程时，无法作为第一步放入画布中的元素会被隐藏。 This concerns all actions, the condition activity, the wait and the reaction.
-* In the left part of the advanced expression editor, functions are now regrouped under a **Functions** section at the end of the list.
+* 现在，在配置事件时，默认情况下只会预先选择XDM验证中必填的字段。 无法取消选择这些字段。
+* 在历程面板中，添加了新过滤器。 除了现成事件和操作之外，它还允许您仅显示最近使用的五个事件和操作。 这特定于每个用户。 默认情况下，将显示所有项目。 [了解更多信息](../building-journeys/using-the-journey-designer.md#palette)
+* 现在，在开始新历程时，无法作为第一步放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
+* 在高级表达式编辑器的左部，函数现在重组到 **函数** 列表末尾的部分。
 
 ## 2021 年 1 月版 {#january-2021-release}
 
-When selecting a schema in the event configuration, only fields that are mandatory for the event to be received properly by Journey Orchestration are selected. [了解更多信息](../event/defining-the-payload-fields.md)
+在事件配置中选择架构时，只会选择Journey Orchestration正确接收事件所必需的字段。 [了解更多信息](../event/defining-the-payload-fields.md)
 
-Journey properties attributes are now available in the simple expression editor. [了解更多信息](../expression/journey-properties.md)
+历程属性属性现在在简单的表达式编辑器中可用。 [了解更多信息](../expression/journey-properties.md)
 
 添加了两个新的历程属性属性（sandboxName和organizationId）。 [了解更多信息](../expression/journey-properties.md)
 

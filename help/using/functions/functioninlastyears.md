@@ -15,13 +15,13 @@ ht-degree: 18%
 
 # inLastYears {#inLastYears}
 
-Returns true if a given date or dateTime is between now and now - delta years.
+如果给定的日期或dateTime介于现在和现在之间 — 增量年，则返回true。
 
 ## 类别
 
 日期
 
-## Function syntax
+## 函数语法
 
 `inLastYears(<dateTime>,<delta>)`
 
@@ -29,14 +29,14 @@ Returns true if a given date or dateTime is between now and now - delta years.
 
 | 参数 | 类型 |
 |-----------|------------------|
-| date time | dateTime |
-| delta | integer |
+| 日期时间 | dateTime |
+| 三角洲 | 整数 |
 
 ## 签名和返回类型
 
 `inLastYears(<dateTime>,<integer>)`
 
-Returns a boolean.
+返回布尔值。
 
 ## 示例
 

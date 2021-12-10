@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 关于自定义操作配置
-description: Learn how to configure a custom action
+description: 了解如何配置自定义操作
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,12 +15,12 @@ ht-degree: 15%
 
 # 关于自定义操作配置 {#concept_sxy_bzs_dgb}
 
-如果您使用第三方系统来发送消息，或者 [!DNL Journey Orchestration] 要向第三方系统发送API调用，您可以在此配置其与 [!DNL Journey Orchestration]. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [this page](../building-journeys/about-action-activities.md). 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Facebook、Adobe.io、Firebase等
-Limitations are listed in [this page](../about/limitations.md).
+如果您使用第三方系统来发送消息，或者 [!DNL Journey Orchestration] 要向第三方系统发送API调用，您可以在此配置其与 [!DNL Journey Orchestration]. 然后，技术用户定义的自定义操作将在历程的左侧面板中的 **[!UICONTROL Action]** 类别(请参阅 [本页](../building-journeys/about-action-activities.md). 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Facebook、Adobe.io、Firebase等
+限制列在 [本页](../about/limitations.md).
 
 以下是配置自定义操作所需的主要步骤：
 
-1. From the **[!UICONTROL Actions]** list, click **[!UICONTROL Add]** to create a new action. 操作配置窗格将在屏幕右侧打开。
+1. 从 **[!UICONTROL Actions]** 列表，单击 **[!UICONTROL Add]** 创建新操作。 操作配置窗格将在屏幕右侧打开。
 
    ![](../assets/custom2.png)
 
@@ -30,8 +30,8 @@ Limitations are listed in [this page](../about/limitations.md).
    >
    >请勿使用空格或特殊字符。请勿使用超过 30 个字符。
 
-1. Add a description to your action. 此步骤是可选的。
-1. 使用此操作的历程数显示在 **[!UICONTROL Used in]** 字段。 You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
+1. 向操作添加描述。 此步骤是可选的。
+1. 使用此操作的历程数显示在 **[!UICONTROL Used in]** 字段。 您可以单击 **[!UICONTROL View journeys]** 按钮以显示使用此操作的历程列表。
 1. 定义不同的 **[!UICONTROL URL Configuration]** 参数。 请参阅[此页](../action/url-configuration.md)。
 1. 配置 **[!UICONTROL Authentication]** 中。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
 1. 定义 **[!UICONTROL Action parameters]**. 请参阅[此页](../action/defining-the-message-parameters.md)。

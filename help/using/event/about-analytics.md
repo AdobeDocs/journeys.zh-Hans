@@ -13,15 +13,15 @@ ht-degree: 9%
 
 ---
 
-# Leveraging Adobe Analytics data{#analytics-data}
+# 利用Adobe Analytics数据{#analytics-data}
 
 >[!NOTE]
 >
->This section only applies for rule-based events and customers who need to use Adobe Analytics data.
+>本节仅适用于基于规则的事件和需要使用Adobe Analytics数据的客户。
 
 您可以利用已在捕获并流入到平台中的所有Adobe Analytics行为事件数据，以触发历程并自动化客户体验。
 
-For this to work, you need to activate, in Adobe Experience Platform, the report suite that you want to leverage:
+要使此功能正常工作，您需要在Adobe Experience Platform中激活要利用的报表包：
 
 1. 在Adobe Experience Platform中，选择 **[!UICONTROL Sources]** then **[!UICONTROL Add data]** 在Adobe Analytics部分。 此时会显示可用的Adobe Analytics报表包列表。
 
@@ -29,8 +29,8 @@ For this to work, you need to activate, in Adobe Experience Platform, the report
 
 1. 与Alpha程序联系人共享源数据ID。
 
-This enables the Analytics source connector for that report suite. 每当数据传入时，它都会转换为体验事件并发送到Adobe Experience Platform。
+这会为该报表包启用Analytics源连接器。 每当数据传入时，它都会转换为体验事件并发送到Adobe Experience Platform。
 
 ![](../assets/alpha-event9.png)
 
-For more information on the Adobe Analytics source connector, refer to the [documentation](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans) and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans).
+有关Adobe Analytics源连接器的详细信息，请参阅 [文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans) 和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans).
