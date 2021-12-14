@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: filter
-description: 了解函数过滤器
+description: Learn about the function filter
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,9 +13,9 @@ ht-degree: 10%
 
 ---
 
-# 过滤器{#filter}
+# filter{#filter}
 
-返回一个listObject，其对象具有与给定键值之一匹配的键属性。
+Returns a listObject with objects having the key attribute matching one of the given key values.
 
 ## 类别
 
@@ -83,4 +83,4 @@ filter(
 )
 ```
 
-返回一个listObject，其中包含以“product2”和“product3”作为ID的两个对象。
+Returns a listObject containing the two objects with &quot;product2&quot; and &quot;product3&quot; as id.
