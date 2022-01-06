@@ -6,9 +6,9 @@ user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 96%
    + 与 Adobe Experience Platform 共享历程步骤 {#sharing-journey-steps}
       + [历程步骤共享概述](using/building-journeys/sharing-overview.md)
       + [步骤事件字段列表](using/building-journeys/sharing-field-list.md)
-      + 旧版步骤事件字段 {#legacy-step-event-fields}
+      + 旧版步骤事件字段{#legacy-step-event-fields}
          + [关于旧版字段](using/building-journeys/sharing-legacy-fields.md)
          + [journeySteps 事件常用字段](using/building-journeys/sharing-common-fields.md)
          + [journeyStep 事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
@@ -97,7 +97,7 @@ ht-degree: 96%
          + [journeyStep 事件身份字段](using/building-journeys/sharing-identity-fields.md)
          + [历程字段](using/building-journeys/sharing-journey-fields.md)
       + [查询示例](using/building-journeys/query-examples.md)
-+ 生成表达式 {#building-advanced-conditions-journeys}
++ 构建表达式 {#building-advanced-conditions-journeys}
    + [概述](using/expression/expressionadvanced.md)
    + 语法 {#syntax}
       + [概述](using/expression/generalities.md)
