@@ -6,7 +6,7 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->设置Adobe Campaign Standard集成后，将为Adobe Campaign Standard操作自动定义每秒13个调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。
+>设置Adobe Campaign Standard集成后，将为Adobe Campaign Standard操作自动定义每5分钟4000个调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。
 >
 >有关事务性消息传递SLA的更多信息，请参阅 [Adobe Campaign Standard产品描述](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 

@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 67%
+source-wordcount: '3130'
+ht-degree: 77%
 
 ---
 
@@ -18,29 +18,21 @@ ht-degree: 67%
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
 
-## 2021 年 10 月版 {#october-2021-release}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+## 2022 年 1 月版 {#january-2022-release}
 
 ### 改进
 
-* **表达式编辑器**  — 作为高级用户，您现在可以使用函数处理映射。 [了解详情](../expression/field-references.md)
+* Journey Orchestration步骤事件现在可以链接到 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans). 的 **profileID** 字段，在内置的历程步骤事件架构中，现在定义为标识字段。 [了解详情](../building-journeys/sharing-overview.md#integration-cja)
+* Adobe Campaign Standard操作的上限规则已更改为4000次调用/ 5分钟。 [了解更多信息](../action/working-with-adobe-campaign.md)
+
+## 2021 年 10 月版 {#october-2021-release}
+
+### 改进
+
+* **表达式编辑器** - 作为高级用户，您现在可以使用函数处理映射。[了解详情](../expression/field-references.md)
 * **辅助功能**  — 已实施辅助功能增强。 Journey Orchestration现在在无障碍方面完全兼容。
-* **收藏集**  — 现在支持包含子对象的对象数组。 [了解更多信息](../usecase/collections.md)
-* **监控**  — 实时历程和测试模式的步骤事件已得到增强。 [新字段](../building-journeys/sharing-field-list.md#serviceevents) 已添加与配置文件导出作业相关的内容。 为了获得更好的用户体验，在历程步骤事件架构中，步骤事件字段现在按不同类别进行组织以进行Journey Orchestration。 上一步的所有事件字段仍可在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 类别。
+* **集合** - 现在支持包含子对象的对象数组。[了解更多信息](../usecase/collections.md)
+* **监控** - 改进了实时历程和测试模式的步骤事件。已添加与用户档案导出作业相关的[新字段](../building-journeys/sharing-field-list.md#serviceevents)。为了获得更好的用户体验，在历程步骤事件架构中，步骤事件字段现在按不同类别进行组织以进行Journey Orchestration。 所有先前的步骤事件字段在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 类别中仍然可用。
 
 ## 2021 年 9 月版 {#september-2021-release}
 
@@ -53,10 +45,10 @@ ht-degree: 67%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在自定义操作参数中传递将在运行时动态填充的集合或数据列表。 支持两种收藏集：简单集合和对象集合。 之前创建的自定义操作将继续工作。 </p>
-<p>有关收藏集的更多信息，请参阅 <a href="../usecase/collections.md">详细文档</a>. </p>
-<p>过滤器和交集函数已添加到高级表达式编辑器中可用函数的列表。 这为收藏集筛选和比较提供了更多可能性。</p>
-<p>请查阅有关 <a href="../functions/functionfilter.md">过滤器</a> 和 <a href="../functions/functionintersect.md">相交</a> 函数。</p>
+<p>您现在可以在自定义操作参数中传递集合或数据列表，这些参数将在运行时动态填充。支持两种集合：简单集合和对象集合。之前创建的自定义操作将继续运行。 </p>
+<p>有关详细信息，请参阅<a href="../usecase/collections.md">详细文档</a>。 </p>
+<p>筛选条件和交集函数已添加到高级表达式编辑器的可用函数列表中。这为集合筛选和比较提供了更多可能性。</p>
+<p>请查阅有关<a href="../functions/functionfilter.md">筛选条件</a>和<a href="../functions/functionintersect.md">交集</a>函数的文档。</p>
 </td>
 </tr>
 </tbody>
@@ -64,9 +56,9 @@ ht-degree: 67%
 
 ### 改进
 
-* 系统生成的架构和在为步骤事件配置期间创建的数据集现在处于只读模式，可防止对关键架构进行任何意外修改。 [了解详情](../building-journeys/sharing-overview.md)
-* 将 **等待** 活动，该活动的标签将显示在画布中。 在报告和测试模式日志中也会使用标签，以明确标识您正在执行的操作。 [了解详情](../building-journeys/using-the-journey-designer.md)
-* 通过过滤 **事件** 和 **操作** 类别。 编排活动不再过滤。 [了解详情](../building-journeys/using-the-journey-designer.md)
+* 系统生成的架构以及在为步骤事件进行配置期间创建的数据集现在处于只读模式，以防止对关键架构进行任何意外修改。[了解详情](../building-journeys/sharing-overview.md)
+* 用一个会显示在画布中的标签清晰地标示 **Wait** 活动。在报告和测试模式日志中也会使用这个标签，以清楚地标识您正在执行的操作。[了解详情](../building-journeys/using-the-journey-designer.md)
+* 通过使用搜索功能过滤 **Events** 和 **Action** 类别中的元素，更快地找到您的事件和操作。不再对编排活动进行过滤。[了解详情](../building-journeys/using-the-journey-designer.md)
 * 现在，在基于规则的字段中定义事件ID条件时，“包含”运算符可用于字符串类型的字段。 [了解详情](../event/about-creating.md)
 
 ## 2021 年 8 月版 {#august-2021-release}
@@ -75,8 +67,8 @@ ht-degree: 67%
 
 **历程**
 
-* **动态标题**  — 您现在可以在HTTP标头参数中传递动态数据。 集成系统可以使用这些参数接收历程操作 HTTP 调用，例如时间戳或跟踪 ID。[了解更多信息](../action/url-configuration.md)
-* **动态URL路径**  — 您现在可以为自定义操作设置动态URL路径。 [了解更多信息](../action/url-configuration.md)
+* **动态标头** - 您现在可以在 HTTP 标头参数中传递动态数据。集成系统可以使用这些参数接收历程操作 HTTP 调用，例如时间戳或跟踪 ID。[了解更多信息](../action/url-configuration.md)
+* **动态 URL 路径** - 您现在可为自定义操作设置动态 URL 路径。[了解更多信息](../action/url-configuration.md)
 
 ## 2021 年 7 月版 {#july-2021-release}
 
@@ -99,7 +91,7 @@ ht-degree: 67%
 
 ### 改进
 
-* 的 **缓存时长** 字段，已从数据源配置窗格中删除。 [了解更多信息](../datasource/about-data-sources.md)
+* **缓存时长**&#x200B;字段已从数据源配置面板中移除。[了解更多信息](../datasource/about-data-sources.md)
 
 ## 2021 年 6 月版 {#june-2021-release}
 
@@ -122,10 +114,10 @@ ht-degree: 67%
 
 ### 改进
 
-* 对于外部数据源，现在会自动定义每秒15次调用的上限规则。 [了解更多信息](../about/external-systems.md#capping)
+* 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。[了解更多信息](../about/external-systems.md#capping)
 * 现在，简单而高级的表达式编辑器支持XDM日期格式。
 * 在历程列表屏幕中，添加了新过滤器。 您现在可以按历程类型过滤： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. [了解更多信息](../about/user-interface.md#section_lgm_hpz_pgb)
-* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 在复制历程的技术详细信息时，也可以使用此信息。 [了解更多信息](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。在复制历程的技术详细信息时，也可以使用此信息。 [了解更多信息](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## 2021 年 4 月版 {#april-2021-release}
 
