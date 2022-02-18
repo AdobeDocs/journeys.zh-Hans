@@ -1,21 +1,20 @@
 ---
 product: adobe campaign
 title: filter
-description: Learn about the function filter
+description: 了解函数过滤器
 feature: Journeys
 role: Data Engineer
 level: Experienced
-exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 10%
 
 ---
 
-# filter{#filter}
+# 过滤器{#filter}
 
-Returns a listObject with objects having the key attribute matching one of the given key values.
+返回一个listObject，其对象具有与给定键值之一匹配的键属性。
 
 ## 类别
 
@@ -83,4 +82,4 @@ filter(
 )
 ```
 
-Returns a listObject containing the two objects with &quot;product2&quot; and &quot;product3&quot; as id.
+返回一个listObject，其中包含以“product2”和“product3”作为ID的两个对象。

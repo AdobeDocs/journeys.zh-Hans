@@ -1,18 +1,17 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: 使用自定义操作动态传递收藏集
+title: 使用自定义操作动态传递集合
 description: 使用 Campaign v7/v8 发送消息
-exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
+source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# 使用自定义操作动态传递收藏集{#passing-collection}
+# 使用自定义操作动态传递集合{#passing-collection}
 
 您可以在自定义操作参数中传递将在运行时动态填充的集合。 支持两种收藏集：
 
