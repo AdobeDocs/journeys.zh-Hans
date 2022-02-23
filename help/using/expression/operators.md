@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 6%
+source-wordcount: '457'
+ht-degree: 7%
 
 ---
 
@@ -32,7 +32,11 @@ ht-degree: 6%
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-以下是支持的运算符列表：
+## 重要说明{#important-notes}
+
+* 使用乘数(`*`)，则两个运算字段必须具有相同的类型（整数或小数）。 示例 :
+   * 以下示例正确： `3.0 * 4.0`
+   * `3 * 4.0` 会导致错误
 
 ## 逻辑  {#logical}
 

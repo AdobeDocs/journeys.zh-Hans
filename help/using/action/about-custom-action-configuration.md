@@ -6,17 +6,20 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
+source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 15%
+source-wordcount: '301'
+ht-degree: 12%
 
 ---
 
 # 关于自定义操作配置 {#concept_sxy_bzs_dgb}
 
 如果您使用第三方系统来发送消息，或者 [!DNL Journey Orchestration] 要向第三方系统发送API调用，您可以在此配置其与 [!DNL Journey Orchestration]. 然后，技术用户定义的自定义操作将在历程的左侧面板中的 **[!UICONTROL Action]** 类别(请参阅 [本页](../building-journeys/about-action-activities.md). 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Facebook、Adobe.io、Firebase等
+
 限制列在 [本页](../about/limitations.md).
+
+在自定义操作参数中，您可以传递简单的集合以及对象集合。 有关限制，请参阅 [本页](../usecase/collections.md#limitations). 另请注意，这些参数具有预期的格式(例如：字符串、小数等)。 您必须谨慎遵循这些预期格式。 请参阅 [用例](../usecase/collections.md).
 
 以下是配置自定义操作所需的主要步骤：
 

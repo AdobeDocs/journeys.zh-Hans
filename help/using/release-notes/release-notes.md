@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
+source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 77%
+source-wordcount: '3164'
+ht-degree: 76%
 
 ---
 
@@ -18,11 +18,17 @@ ht-degree: 77%
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
 
+## 2022 年 2 月版 {#february-2022-release}
+
+### 改进
+
+* 为了优化性能并防止过时的资源使用，所有处于测试模式且一周内未触发的历程现在都将切换回草稿状态。 [了解更多信息](../building-journeys/testing-the-journey.md#important_notes)
+
 ## 2022 年 1 月版 {#january-2022-release}
 
 ### 改进
 
-* Journey Orchestration步骤事件现在可以链接到 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans). 的 **profileID** 字段，在内置的历程步骤事件架构中，现在定义为标识字段。 [了解详情](../building-journeys/sharing-overview.md#integration-cja)
+* Journey Orchestration步骤事件现在可以链接到 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans). **profileID** 字段，在内置的历程步骤事件架构中，现在定义为标识字段。[了解详情](../building-journeys/sharing-overview.md#integration-cja)
 * Adobe Campaign Standard操作的上限规则已更改为4000次调用/ 5分钟。 [了解更多信息](../action/working-with-adobe-campaign.md)
 
 ## 2021 年 10 月版 {#october-2021-release}

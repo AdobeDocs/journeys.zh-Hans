@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: 从一个历程转到另一个历程
-description: 从一个历程转到另一个历程
+title: 更新用户档案
+description: 更新用户档案
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 4%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 4%
 * 与任何其他操作一样，在出现错误或超时时，您可以定义替代路径，并且不能同时放置两个操作。
 * 发送到Platform的更新请求将会很快，但不会立即/在一秒内发送。 通常需要几秒钟，但有时候需要更多时间，而且无法保证。 因此，例如，如果某个操作使用的是“字段1”，该字段1由位于前面的“更新用户档案”操作更新，则您不应期望该操作中会更新“字段1”。
 * 在测试模式下，将不模拟用户档案更新。 将对测试用户档案执行更新。
+* 的 **更新用户档案** 活动不支持定义为枚举的XDM字段。
 
 ## 使用用户档案更新
 

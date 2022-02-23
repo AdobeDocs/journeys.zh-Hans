@@ -6,17 +6,21 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 96%
 
 ---
 
 # 文档更新
 
-此页面列出了
-[!DNL Journey Orchestration]的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+此页面列出了 [!DNL Journey Orchestration] 的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+
+## 2022 年 2 月 {#feb-2022}
+
+* 的 [替换](../functions/functionreplace.md#example_2) 和 [replaceAll](../functions/functionreplaceall.md#example) 函数文档页面已更新，其中包含有关target参数的其他信息和示例。
+* 最佳实践已添加到 [运算符](../expression/operators.md#important-notes) 页面。
 
 ## 2021 年 9 月
 

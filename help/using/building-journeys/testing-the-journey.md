@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 141937cd16d5676a80412b2b72750710ee1e537f
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 3%
+source-wordcount: '1692'
+ht-degree: 2%
 
 ---
 
@@ -61,6 +61,7 @@ ht-degree: 3%
 * 您可以根据需要多次启用/禁用测试模式。
 * 激活测试模式后，您无法修改历程。 在测试模式下，您可以直接发布历程，无需先停用测试模式。
 * 达到拆分时，始终选择顶部分支。 如果希望测试选择其他路径，则可以重新组织拆分分支的位置。
+* 为优化性能并防止过时的资源使用，所有处于测试模式且一周内未触发的历程都将切换回草稿状态。
 
 ## 将轮廓转换为测试轮廓{#turning-profile-into-test}
 

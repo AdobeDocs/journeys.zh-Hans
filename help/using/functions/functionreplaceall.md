@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 16%
+source-wordcount: '105'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 16%
 | 参数 | 类型 |
 |-----------|--------------|
 | 基础 | 字符串 |
-| Target | 字符串 |
+| Target | 字符串（正则表达式） |
 | 替换 | 字符串 |
 
 ## 签名和返回的类型
@@ -41,8 +41,10 @@ ht-degree: 16%
 
 返回字符串。
 
-## 示例
+## 示例{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
 返回“Hexxo Worxd”。
+
+由于target参数是正则表达式，因此根据要替换的字符串，您可能需要对某些字符进行转义。 请参阅 [本页](../functions/functionreplace.md#example_2).

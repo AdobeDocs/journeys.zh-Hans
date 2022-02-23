@@ -5,9 +5,9 @@ title: Journey Orchestration 指南
 user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [定义有效负载字段](using/event/defining-the-payload-fields.md)
    + [选择命名空间](using/event/selecting-the-namespace.md)
    + [定义事件键](using/event/defining-the-event-key.md)
-   + [添加条件](using/event/adding-a-condition.md)
    + [预览有效负载](using/event/previewing-the-payload.md)
 + 配置数据源 {#data-source-journeys}
    + [关于数据源](using/datasource/about-data-sources.md)
