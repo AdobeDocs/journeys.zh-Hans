@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: 使用区段
+title: 创建区段
 description: 了解如何使用区段
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 

@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: 构建历程
+title: 构建历程 — 高级
 description: '了解如何构建高级用例历程 '
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 100%
+source-wordcount: '848'
+ht-degree: 99%
 
 ---
 
