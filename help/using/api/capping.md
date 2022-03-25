@@ -167,9 +167,9 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 在此部分中，您将找到在中管理上限配置可执行的五个主要用例 [!DNL Journey Orchestration].
 
-为了帮助您进行测试和配置，提供了Postman集合 [此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+为帮助您进行测试和配置，提供了Postman集合 [此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-此Postman集合已设置为共享通过 __[Adobe I/O控制台的集成](https://console.adobe.io/integrations) >试用>下载到Postman__，它会生成一个包含选定集成值的Postman环境文件。
+此Postman集合已设置为共享通过 __[Adobe I/O控制台的集成](https://console.adobe.io/integrations) >试用>下载到Postman__，它会使用选定的集成值生成Postman环境文件。
 
 下载并上传到Postman后，您需要添加三个变量： `{JO_HOST}`,`{Base_Path}` 和 `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] 网关URL

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: nowWithDelta
-description: 了解函数nowWithDelta
+description: Learn about the function nowWithDelta
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # nowWithDelta {#nowWithDelta}
 
-返回包含偏移的当前日期时间。 如果指定了时区ID，则将应用时区偏移。 有关数据类型的更多信息，请参阅 [本页](../expression/data-types.md).
+Returns the current datetime including an offset. If a time zone id is specified, the time zone offset will be applied. For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## 类别
 
@@ -31,15 +31,15 @@ ht-degree: 7%
 |--- |--- |
 | 三角洲 | 正整数或负整数值 |
 | 日期部分 | 年、月、日、小时、分钟或秒（字符串） |
-| 时区id | 时区值的字符串表示形式。 有关更多信息，请参阅 [数据类型](../expression/data-types.md). 时区ID必须是字符串常量。 它不能是字段引用或表达式。 |
+| 时区id | 时区值的字符串表示形式。 For more, see [Data types](../expression/data-types.md). 时区ID必须是字符串常量。 It cannot be a field reference nor an expression. |
 
-## 签名和返回类型
+## Signatures and returned type
 
 `nowWithDelta(<delta>,<date part>`
 
 `nowWithDelta(<delta>,<date part>,"<timeZone id>")`
 
-返回dateTime。
+Returns a dateTime.
 
 ## 示例
 
@@ -47,4 +47,4 @@ ht-degree: 7%
 
 `nowWithDelta(-2, "hours", "Europe/Paris")`
 
-返回恰好2小时前的dateTime。
+Returns a dateTime exactly 2 hours ago.

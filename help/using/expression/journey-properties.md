@@ -53,7 +53,7 @@ ht-degree: 5%
 |  | externalKey | 外部键 | 触发历程的单个标识符 |
 |  | organizationId | 组织标识符 | 品牌组织 |
 |  | sandboxName | 沙盒名称 | 沙盒的名称 |
-| 身份 | profileId | 配置文件标识符 | 历程中用户档案的标识符 |
+| 标识 | profileId | 配置文件标识符 | 历程中用户档案的标识符 |
 |  | namespace | 配置文件标识命名空间 | 历程中用户档案的命名空间(示例：ECID) |
 | 当前节点 | currentNodeId | 当前节点标识符 | 当前活动（节点）的标识符 |
 |  | currentNodeName | 当前节点名称 | 当前活动的名称（节点） |

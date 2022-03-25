@@ -5,7 +5,8 @@ description: 了解Adobe Campaign操作
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
+exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
+source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 5%

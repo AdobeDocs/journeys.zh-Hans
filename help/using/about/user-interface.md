@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 63%
+ht-degree: 94%
 
 ---
 
@@ -95,21 +95,21 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
 * 颜色对比度
 * 验证必填字段
 
-[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html)Adobe Experience Platform文档中的{target=&quot;_blank&quot;}。
+在 Adobe Experience Platform 文档中[了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
 您可以在Adobe Journey Optimizer中使用以下常用键盘快捷键：
 
 | 操作 | 快捷键 |
 | --- | --- |
-| 在用户界面元素、节和菜单组之间移动 | 选项卡 |
-| 在用户界面元素、节和菜单组之间向后移动 | Shift +选项卡 |
-| 在部分内移动以将焦点设置到单个元素 | 箭头 |
-| 选择或清除焦点元素 | Enter 或空格键 |
+| 在用户界面元素、部分和菜单组之间移动 | Tab |
+| 在用户界面元素、部分和菜单组之间向后移动 | Shift + Tab |
+| 在部分内移动，将焦点设置到单个元素 | 箭头 |
+| 选择或清除焦点元素 | 回车键或空格键 |
 | 取消选择、折叠面板或关闭对话框 | Esc |
 
-[了解更多](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html)Adobe Experience Platform文档中的{target=&quot;_blank&quot;}。
+在 Adobe Experience Platform 文档中[了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hans){target=&quot;_blank&quot;}。
 
-您可以在Journey Optimizer的特定部分中使用以下快捷键：
+您可以在 Journey Optimizer 的特定部分中使用这些快捷键：
 
 <table>
   <thead>
@@ -121,7 +121,7 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
   </thead>
   <tr>
     <td>历程、操作、数据源或事件列表</td>
-    <td>创建旅程、操作、数据源或事件</td>
+    <td>创建历程、操作、数据源或事件</td>
     <td>C</td>
   </tr>
   <tr>
@@ -131,11 +131,11 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
   </tr>
   <tr>
     <td>选择所有活动</td>
-    <td>Ctrl + A(Windows)<br/>Command + A(Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
   <tr>
     <td>删除选定的活动</td>
-    <td>删除或Backspace，然后按Enter以确认删除</td>
+    <td>Delete 键或退格键，然后按回车键以确认删除</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -144,7 +144,7 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
 
 <ul>
   <li>历程中的活动</li>
-  <li>活动</li>
+  <li>事件</li>
   <li>数据源</li>
   <li>操作</li>
 </ul>
@@ -155,14 +155,14 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
-    <td>输入</td>
+    <td>回车键</td>
   </tr>
   <tr>
     <td>放弃更改并关闭配置窗格</td>
     <td>Esc</td>
   </tr>
   <tr>
-    <td rowspan="4">历程模式</td>
+    <td rowspan="4">测试模式下的历程</td>
     <td>启用或禁用测试模式</td>
     <td>T</td>
   </tr>
@@ -197,7 +197,7 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
   <tr>
     <td rowspan="2">弹出窗口</td>
     <td>保存更改或确认操作</td>
-    <td>输入</td>
+    <td>回车键</td>
   </tr>
   <tr>
     <td>关闭窗口</td>
@@ -209,7 +209,7 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
     <td>双击字段</td>
   </tr>
   <tr>
-    <td>浏览XDM字段</td>
+    <td>浏览 XDM 字段</td>
     <td>选择节点的所有字段</td>
     <td>选择父节点</td>
   </tr>

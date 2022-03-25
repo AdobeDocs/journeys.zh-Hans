@@ -5,7 +5,8 @@ description: 了解有关Journey Orchestration限制的更多信息
 feature: Journeys
 role: User
 level: Beginner
-source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
+exl-id: fef039ae-c04d-4198-a082-4be27710255f
+source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 2%

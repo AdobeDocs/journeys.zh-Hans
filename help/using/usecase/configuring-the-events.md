@@ -49,7 +49,7 @@ ht-degree: 9%
 
 1. 单击 **[!UICONTROL Save]**。
 
-1. 单击 **[!UICONTROL View Payload]** 图标来预览系统预期的有效负载，并将其共享给负责事件发送的人员。  需要在Mobile Services管理控制台的回发中配置此负载。
+1. 单击 **[!UICONTROL View Payload]** 图标来预览系统预期的有效负载，并将其共享给负责事件发送的人员。  需要在Mobile服务管理控制台的回发中配置此负载。
 
    ![](../assets/journeyuc2_5.png)
 

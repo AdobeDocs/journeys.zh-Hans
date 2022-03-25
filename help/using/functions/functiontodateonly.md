@@ -5,7 +5,8 @@ description: 了解函数toDateOnly
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 2195ee3863b38ead504eb6785ceb3c37735fade9
+exl-id: 2d7b132e-5ee0-4fa0-bacc-ce4c6ec7e794
+source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 21%

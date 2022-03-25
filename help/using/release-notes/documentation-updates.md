@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 96%
 
 ## 2022 年 2 月 {#feb-2022}
 
-* 的 [替换](../functions/functionreplace.md#example_2) 和 [replaceAll](../functions/functionreplaceall.md#example) 函数文档页面已更新，其中包含有关target参数的其他信息和示例。
-* 最佳实践已添加到 [运算符](../expression/operators.md#important-notes) 页面。
+* 更新了 [replace](../functions/functionreplace.md#example_2) 和 [replaceAll](../functions/functionreplaceall.md#example) 函数文档页面，添加了有关目标参数的其他信息和示例。
+* [运算符](../expression/operators.md#important-notes)页面中添加了最佳实践。
 
 ## 2021 年 9 月
 
