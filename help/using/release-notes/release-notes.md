@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '3164'
-ht-degree: 76%
+source-wordcount: '3228'
+ht-degree: 75%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 76%
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
+
+## 2022 年 3 月版 {#feb-2022-release}
+
+### 新功能
+
+### 改进
+
+**历程**
+
+* 为避免统一用户档案架构中存在不必要的字段，默认情况下将不再为用户档案启用历程步骤事件架构。 如果需要，您可以激活它。 [了解详情](../building-journeys/sharing-overview.md)
+* 与导出作业相关的新步骤事件现在由Journey Optimizer发送到Adobe Experience Platform。 向文档中添加了查询示例。 [了解详情](../building-journeys/query-examples.md)
 
 ## 2022 年 2 月版 {#february-2022-release}
 

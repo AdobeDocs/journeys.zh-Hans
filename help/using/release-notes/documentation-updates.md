@@ -6,16 +6,20 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 100%
+source-wordcount: '951'
+ht-degree: 98%
 
 ---
 
 # 文档更新
 
 此页面列出了 [!DNL Journey Orchestration] 的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+
+## 2022 年 3 月 {#march-2022}
+
+* 添加了一个示例，说明如何在表达式编辑器中将表达式添加为默认值。 [了解更多信息](../expression/field-references.md#default-value)
 
 ## 2022 年 2 月 {#feb-2022}
 
