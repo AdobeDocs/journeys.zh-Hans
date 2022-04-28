@@ -14,7 +14,7 @@ solution: Journey Orchestration
 type: Documentation
 feature: Journeys
 source-git-commit: 68e4ff7fd2c2fda60aa02a62d9a97dbcd3a62cd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7'
 ht-degree: 100%
 
