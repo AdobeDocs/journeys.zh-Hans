@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3226'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -24,30 +24,30 @@ ht-degree: 75%
 
 **历程**
 
-* 为避免统一用户档案架构中存在不必要的字段，默认情况下将不再为用户档案启用历程步骤事件架构。 如果需要，您可以激活它。 [了解详情](../building-journeys/sharing-overview.md)
-* 与导出作业相关的新步骤事件现在由Journey Optimizer发送到Adobe Experience Platform。 向文档中添加了查询示例。 [了解详情](../building-journeys/query-examples.md)
+* 为了避免统一用户档案架构中出现不必要的字段，默认情况下将不再为用户档案启用历程步骤事件架构。如有需要，您可以启用它。[了解详情](../building-journeys/sharing-overview.md)
+* 与导出作业相关的新步骤事件现在由 Journey Optimizer 发送至 Adobe Experience Platform。文档中添加了查询示例。[了解详情](../building-journeys/query-examples.md)
 
 ## 2022 年 2 月版 {#february-2022-release}
 
 ### 改进
 
-* 为了优化性能并防止过时的资源使用，所有处于测试模式且一周内未触发的历程现在都将切换回草稿状态。 [了解更多信息](../building-journeys/testing-the-journey.md#important_notes)
+* 为优化性能并防止使用过时资源，现在，所有处于测试模式且一周内未触发的历程都将切换回草稿状态。[了解更多信息](../building-journeys/testing-the-journey.md#important_notes)
 
 ## 2022 年 1 月版 {#january-2022-release}
 
 ### 改进
 
-* Journey Orchestration步骤事件现在可以链接到 [AdobeCustomer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans). **profileID** 字段，在内置的历程步骤事件架构中，现在定义为标识字段。[了解详情](../building-journeys/sharing-overview.md#integration-cja)
-* Adobe Campaign Standard操作的上限规则已更改为4000次调用/ 5分钟。 [了解更多信息](../action/working-with-adobe-campaign.md)
+* Journey Orchestration 步骤事件现在可以链接到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans) 中的其他数据集。**profileID** 字段，在内置的历程步骤事件架构中，现在定义为标识字段。[了解详情](../building-journeys/sharing-overview.md#integration-cja)
+* Adobe Campaign Standard 操作的上限规则已更改为 4000 次调用/5 分钟。[了解更多信息](../action/working-with-adobe-campaign.md)
 
 ## 2021 年 10 月版 {#october-2021-release}
 
 ### 改进
 
 * **表达式编辑器** - 作为高级用户，您现在可以使用函数处理映射。[了解详情](../expression/field-references.md)
-* **辅助功能**  — 已实施辅助功能增强。 Journey Orchestration现在在无障碍方面完全兼容。
+* **辅助功能** - 实施了辅助功能改进。Journey Orchestration 现在在辅助功能方面完全符合要求。
 * **集合** - 现在支持包含子对象的对象数组。[了解更多信息](../usecase/collections.md)
-* **监控** - 改进了实时历程和测试模式的步骤事件。已添加与用户档案导出作业相关的[新字段](../building-journeys/sharing-field-list.md#serviceevents)。为了获得更好的用户体验，在历程步骤事件架构中，步骤事件字段现在按不同类别进行组织以进行Journey Orchestration。 所有先前的步骤事件字段在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 类别中仍然可用。
+* **监控** - 改进了实时历程和测试模式的步骤事件。已添加与用户档案导出作业相关的[新字段](../building-journeys/sharing-field-list.md#serviceevents)。为了提供更好的用户体验，在 Journey Orchestration 的历程步骤事件架构中，按不同类别组织了步骤事件字段。所有先前的步骤事件字段在 [stepEvents](../building-journeys/sharing-legacy-fields.md) 类别中仍然可用。
 
 ## 2021 年 9 月版 {#september-2021-release}
 
@@ -74,7 +74,7 @@ ht-degree: 75%
 * 系统生成的架构以及在为步骤事件进行配置期间创建的数据集现在处于只读模式，以防止对关键架构进行任何意外修改。[了解详情](../building-journeys/sharing-overview.md)
 * 用一个会显示在画布中的标签清晰地标示 **Wait** 活动。在报告和测试模式日志中也会使用这个标签，以清楚地标识您正在执行的操作。[了解详情](../building-journeys/using-the-journey-designer.md)
 * 通过使用搜索功能过滤 **Events** 和 **Action** 类别中的元素，更快地找到您的事件和操作。不再对编排活动进行过滤。[了解详情](../building-journeys/using-the-journey-designer.md)
-* 现在，在基于规则的字段中定义事件ID条件时，“包含”运算符可用于字符串类型的字段。 [了解详情](../event/about-creating.md)
+* 在基于规则的事件中定义事件 ID 条件时，“contains”运算符现在可用于字符串类型的字段。[了解详情](../event/about-creating.md)
 
 ## 2021 年 8 月版 {#august-2021-release}
 
@@ -96,7 +96,7 @@ ht-degree: 75%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。 Journey Orchestration现在可以利用来自链接架构的数据。</p>
+<p>Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。Journey Orchestration 现在可以利用来自链接架构的数据。</p>
 <p>这些字段在统一事件配置、历程条件和自定义操作个性化中可用。
 <p>有关更多信息，请参阅<a href="../event/experience-event-schema.md#leverage_schema_relationships">详细文档</a>。</p>
 </td>
@@ -113,14 +113,14 @@ ht-degree: 75%
 <table>
 <thead>
 <tr>
-<th><strong> Adobe Campaign Classic集成</strong><br/></th>
+<th><strong> Adobe Campaign Classic 集成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>与Adobe Campaign Classic集成的集成现已正式启用。 它允许您使用Adobe Campaign v7或v8事务型消息传送功能发送电子邮件、推送通知和短信。</p>
-<p>Journey Orchestration 实例和 Campaign 实例之间的连接是在预配置时通过 Adobe 来设置的。</p>
+<p>正式发布版中已推出与 Adobe Campaign Classic 的集成。它让您可以使用 Adobe Campaign v7 或 v8 事务性消息传递功能发送电子邮件、推送通知和短信。</p>
+<p>Journey Orchestration 实例和 Campaign 实例之间的连接是在配置时通过 Adobe 来设置的。</p>
 <p>有关更多信息，请参阅<a href="../action/acc-action.md">详细文档</a>。</p>
 </td>
 </tr>
@@ -130,24 +130,24 @@ ht-degree: 75%
 ### 改进
 
 * 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。[了解更多信息](../about/external-systems.md#capping)
-* 现在，简单而高级的表达式编辑器支持XDM日期格式。
-* 在历程列表屏幕中，添加了新过滤器。 您现在可以按历程类型过滤： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. [了解更多信息](../about/user-interface.md#section_lgm_hpz_pgb)
-* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。在复制历程的技术详细信息时，也可以使用此信息。 [了解更多信息](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* 简单和高级表达式编辑器现在支持 XDM 日期格式。
+* 在历程列表屏幕中，添加了新的筛选器。您现在可以按历程类型筛选：**[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**。[了解更多信息](../about/user-interface.md#section_lgm_hpz_pgb)
+* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。在复制历程的技术详情时，也可以使用此信息。[了解更多信息](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## 2021 年 4 月版 {#april-2021-release}
 
 ### 改进
 
-* 在 **事件配置** 在测试模式的屏幕中，现在会为希望显示枚举的字段显示下拉列表。 只需选择一个可用值即可。 如果定义的值不正确，这将避免在触发事件时出错。 [了解更多信息](../building-journeys/testing-the-journey.md#firing_events)
+* 在测试模式的 **Event Configuration** 屏幕中，现在会显示需要枚举的字段的下拉列表。选择一个可用值即可。这将可以避免在定义的值不正确的情况下触发事件时出错。[了解更多信息](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2021 年 3 月版 {#march-2021-release}
 
 ### 改进
 
-* 历程中添加了新状态。 当历程结束或手动关闭时，其状态将从 **已关闭** to **已完成** 30天后关闭。 这样，您就可以更轻松地识别不活动的历程，同时确保所有人员仍有时间完成历程。 [了解更多信息](../building-journeys/journey.md#ending_a_journey)
-* 现在，在草稿历程的活动右窗格中，默认情况下隐藏只读字段。 此界面简化将帮助您更轻松地配置活动。 要显示它们，请单击 **显示只读字段** 图标（位于活动配置窗格的左上角）。 [了解更多信息](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* 在测试模式下，在 **事件配置** 屏幕， **键** 用于定义测试用户档案ID的字段已重命名 **用户档案标识符** 以获得更好的用户体验。 [了解更多信息](../building-journeys/testing-the-journey.md)。
-* 对于反应事件，超时持续时间现在只能设置为40秒到30天之间。 测试使用反应事件的历程时，测试模式 **[!UICONTROL Wait time]** 默认值和最小值现在为40秒。 [了解更多信息](../building-journeys/reaction-events.md)。
+* 历程中添加了新状态。当历程结束或被手动关闭时，其状态会在关闭 30 天后从 **Closed** 切换为 **Finished**。这样，您就可以更轻松地识别非活动的历程，同时确保所有仍然存在的人员有时间完成历程。[了解更多信息](../building-journeys/journey.md#ending_a_journey)
+* 在草稿历程的显示活动的右侧窗格中，默认情况下隐藏只读字段。这种界面简化将帮助您更轻松地配置活动。要显示它们，请单击 **Show read-only fields** 图标（位于活动配置窗格的左上角）。[了解更多信息](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* 在测试模式的 **Event Configuration** 屏幕上，用于定义测试用户档案 ID 的 **Key** 字段已重命名为 **Profile Identifier** 以提供更好的用户体验。[了解更多信息](../building-journeys/testing-the-journey.md)。
+* 对于反应事件，超时持续时间现在只能设置为 40 秒到 30 天之间。测试使用反应事件的历程时，测试模式 **[!UICONTROL Wait time]** 的默认值和最小值现在为 40 秒。[了解更多信息](../building-journeys/reaction-events.md)。
 
 ## 2021 年 2 月版 {#february-2021-release}
 
@@ -160,7 +160,7 @@ ht-degree: 75%
 <tbody>
 <tr>
 <td>
-<p>此新操作活动允许您使用来自事件、数据源或使用特定值的信息来更新现有Adobe Experience Platform配置文件。</p>
+<p>这个新的操作活动让您可以使用来自事件、数据源的信息或使用特定值更新现有 Adobe Experience Platform 用户档案。</p>
 <p>有关更多信息，请参阅<a href="../building-journeys/update-profiles.md">有详细说明的文档</a>。</p>
 </td>
 </tr>
@@ -169,24 +169,24 @@ ht-degree: 75%
 
 ### 其他改进
 
-* 现在，在配置事件时，默认情况下只会预先选择XDM验证中必填的字段。 无法取消选择这些字段。
-* 在历程面板中，添加了新过滤器。 除了现成事件和操作之外，它还允许您仅显示最近使用的五个事件和操作。 这特定于每个用户。 默认情况下，将显示所有项目。 [了解更多信息](../building-journeys/using-the-journey-designer.md#palette)
-* 现在，在开始新历程时，无法作为第一步放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
-* 在高级表达式编辑器的左部，函数现在重组到 **函数** 列表末尾的部分。
+* 现在，在配置事件时，默认情况下只会预先选择 XDM 验证中必填的字段。无法取消选择这些字段。
+* 在历程调板中，添加了新筛选器。除了开箱即用型事件和操作之外，它还允许您仅显示最近使用的五个事件和操作。这具体取决于每个用户。默认情况下，将显示所有项目。[了解更多信息](../building-journeys/using-the-journey-designer.md#palette)
+* 现在，在开始新历程时，无法在第一步操作中放入画布中的元素会被隐藏。这涉及所有操作、条件活动、等待和反应。
+* 在高级表达式编辑器的左部，函数现在重新组合到了列表末尾的 **Functions** 部分。
 
 ## 2021 年 1 月版 {#january-2021-release}
 
-在事件配置中选择架构时，只会选择Journey Orchestration正确接收事件所必需的字段。 [了解更多信息](../event/defining-the-payload-fields.md)
+在事件配置中选择架构时，只会选择 Journey Orchestration 正确接收事件所必需的字段。[了解更多信息](../event/defining-the-payload-fields.md)
 
-历程属性属性现在在简单的表达式编辑器中可用。 [了解更多信息](../expression/journey-properties.md)
+现在，可在简单表达式编辑器中使用历程属性。[了解更多信息](../expression/journey-properties.md)
 
-添加了两个新的历程属性属性（sandboxName和organizationId）。 [了解更多信息](../expression/journey-properties.md)
+添加了两个新的历程属性（sandboxName 和 organizationId）。[了解更多信息](../expression/journey-properties.md)
 
-为了符合Adobe Campaign Standard SLA的要求，现在，一旦设置了Adobe Campaign Standard集成，就会为Adobe Campaign Standard操作自动定义每秒13个调用数的上限规则。 [了解更多信息](../action/working-with-adobe-campaign.md)
+为了与 Adobe Campaign Standard SLA 保持一致，现在设置 Adobe Campaign Standard 集成后，就会为 Adobe Campaign Standard 操作自动定义每秒 13 次调用的上限规则。[了解更多信息](../action/working-with-adobe-campaign.md)
 
-现在，在超时路径上更清楚地指定了事件超时持续时间。 [了解更多信息](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+现在，可在超时路径上更明确地指定事件超时持续时间。[了解更多信息](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-的 [getListItem](../functions/functiongetlistitem.md) 和 [拆分](../functions/functionsplit.md) 函数已添加到高级表达式编辑器中可用的函数列表中。 这将在字符串计算用例中提供更多可能性。
+[getListItem](../functions/functiongetlistitem.md) 和 [split](../functions/functionsplit.md) 函数已添加到高级表达式编辑器的可用函数列表中。这将在字符串计算用例中提供更多可能性。
 
 ## 2020 年 11 月版 {#november-release}
 
@@ -205,7 +205,7 @@ ht-degree: 75%
 <li>通过将非常复杂的历程分成若干个历程来简化其设计 </li>
 <li>基于通用且可重用的历程模式构建历程</li>
 </ul>
-<p>有关更多信息，请参阅 <a href="../building-journeys/jump.md">详细文档</a> 和 <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hans">教程视频</a>.</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/jump.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hans">教程视频</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -275,7 +275,7 @@ ht-degree: 75%
 
 ## 2020 年 9 月版 {#september-release}
 
-### GA 更新{#september-ga-update}
+### 正式发布版更新{#september-ga-update}
 
 <table>
 <thead>
@@ -374,7 +374,7 @@ ht-degree: 75%
 </tbody>
 </table>
 
-## Alpha 版本 - 2020 年 7 月 {#alpha-release---july-2020}
+## Alpha 版 - 2020 年 7 月 {#alpha-release---july-2020}
 
 Alpha 程序提供目前在有限的一组客户中经过测试的功能。这样，我们就可以根据收到的反馈来改进产品。这些功能并非对于所有 Journey Orchestration 客户都可用。
 
@@ -433,7 +433,7 @@ Alpha 程序提供目前在有限的一组客户中经过测试的功能。这�
 </table>
 
 
-## 第 2 季度发行 - 2020 年 6 月 {#q2-release---june-2020}
+## 2 季度版 - 2020 年 6 月 {#q2-release---june-2020}
 
 <table>
 <thead>
@@ -500,7 +500,7 @@ Journey Orchestration 现已在 APAC（澳大利亚数据中心）提供。可�
 
 Journey Orchestration 界面提供日语版。
 
-## 第 1 季度发行 - 2020 年 3 月 {#q1-release---march-2020}
+## 1 季度版 - 2020 年 3 月 {#q1-release---march-2020}
 
 <table>
 <thead>
@@ -590,7 +590,7 @@ Journey Orchestration 界面提供日语版。
 
 * 除美国以外，现在&#x200B;**欧洲、中东和非洲地区**&#x200B;也提供 Journey Orchestration。应用程序和文档提供法语和德语两个版本。
 
-* Experience League 现已集成到产品中。这简化了对相关内容的访问，并有助于您充分利用 Experience Cloud。直接访问“帮助”选项卡底部的 Journey Orchestration 文档。此外，单击帮助 > 反馈，可报告问题或与 Adobe 分享您的想法。
+* Experience League 现已集成到产品中。这简化了对相关内容的访问，并有助于您充分利用 Experience Cloud。直接访问“帮助”选项卡底部的 Journey Orchestration 文档。此外，单击“Help”>“Feedback”，可报告问题或与 Adobe 分享您的想法。
 
 * 现在，所有列表屏幕中都提供 **C** 键盘快捷键，它允许您创建新项目：历程、数据源、操作和事件。[了解更多信息](../about/user-interface.md#section_ksq_zr1_ffb)
 
@@ -598,9 +598,9 @@ Journey Orchestration 界面提供日语版。
 
 * 浏览 **Adobe Experience Platform 字段**（XDM 格式）时，除了字段名称外，您现在还会看到显示名称。此信息可从体验数据模型中的架构定义中检索。当可用时，将显示替代显示名称。此用户友好型描述（在 eVar 字段中尤为有用）使您能够更轻松地识别字段。[了解更多信息](../about/user-interface.md#friendly-names-display)
 
-## 正式全面发行 - 2019 年 12 月 {#ga-release---december-2019}
+## 正式发布版 - 2019 年 12 月 {#ga-release---december-2019}
 
-旅程编排现已正式推出。
+Journey Orchestration 现已正式推出。
 
 利用存储在事件或数据源中的上下文数据构建实时编排用例。
 
@@ -611,5 +611,5 @@ Journey Orchestration 允许由事件的情境数据、Adobe Experience Platform
 
 其他资源：
 
-* [教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=zh-Hans)
 * [社区](https://www.adobe.com/go/journeyorchestrationcommunity)
