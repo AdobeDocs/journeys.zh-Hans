@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ## 2022 年 3 月 {#march-2022}
 
-* 添加了一个示例，说明如何在表达式编辑器中将表达式添加为默认值。 [了解更多信息](../expression/field-references.md#default-value)
+* 添加了一个示例，说明如何在表达式编辑器中添加默认表达式。[了解更多信息](../expression/field-references.md#default-value)
 
 ## 2022 年 2 月 {#feb-2022}
 
