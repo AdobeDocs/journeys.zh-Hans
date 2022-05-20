@@ -2,19 +2,19 @@
 keywords: 历程；主页；热门话题
 product: adobe campaign
 title: Journey Orchestration 产品文档
-description: Journey Orchestration 产品文档
+description: 有关实施和构建历程的简单操作说明，请参阅我们的AdobeJourney Orchestration指南。
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: b0bf5c12adc6e9c538f2264f79b7c43656424f05
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 帮助中心 {#journeys-documentation}
+# Journey Orchestration指南 {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
