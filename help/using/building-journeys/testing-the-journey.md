@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1576'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >在历程中使用反应事件时，等待时间默认值和最小值为40秒。 请参阅[此小节](../building-journeys/reaction-events.md)。
+   >在历程中使用超时的反应事件时，等待时间默认值和最小值为40秒。 请参阅[此小节](../building-journeys/reaction-events.md)。
 
 1. 单击 **[!UICONTROL Trigger an event]** 配置事件并将事件发送到历程。
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 ## 重要说明 {#important_notes}
 
-* 提供了一个界面来触发事件到测试历程，但事件也可以由第三方系统（如Postman）发送。
+* 提供了一个界面来触发事件到测试历程，但事件也可由第三方系统(如Postman)发送。
 * 只允许在实时客户用户档案服务中标记为“测试用户档案”的个人进入测试历程。 请参阅 [部分](../building-journeys/creating-test-profiles.md).
 * 测试模式仅在使用命名空间的草稿历程中可用。 测试模式需要检查进入历程的人员是否为测试用户档案，因此必须能够访问Adobe Experience Platform。
 * 在测试会话期间，可以进入历程的测试用户档案最大数为100。
@@ -135,7 +135,7 @@ curl -X POST \
 
 >[!NOTE]
 >
->将为需要枚举的字段显示下拉列表。 只需选择一个可用值即可。
+>将为需要枚举的字段显示下拉列表。 选择一个可用值即可。
 
 如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和执行事件发送。 界面可帮助您在事件有效负载中传递正确的信息，并确保信息类型正确。 测试模式会保存测试会话中使用的最后一个参数，以供日后使用。
 

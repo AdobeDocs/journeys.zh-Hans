@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 18%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
 # 排序 {#sort}
 
-按自然顺序对值列表进行排序。 第一个参数是值列表，第二个是布尔值，用于指示排序是升序(true)还是降序(false)。
+按自然顺序对值或对象列表进行排序。
 
 ## 类别
 
@@ -27,17 +27,11 @@ ht-degree: 18%
 
 ## 参数
 
-| 参数 | 类型 |
-|-----------|------------------|
-| 列表 | listString |
-| 列表 | listBoolean |
-| 列表 | listInteger |
-| 列表 | listDecimal |
-| 列表 | listDuration |
-| 列表 | listDateTime |
-| 列表 | listDateTimeOnly |
-| 列表 | listDateOnly |
-| 布尔型 | 布尔型 |
+| 参数 | 类型 | 描述 |
+|-----------|------------------|------------------|
+| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 列表进行整理。 对于listObject，它必须是字段引用。 |
+| keyAttributeName | 字符串 | 此参数仅用于listObject。 给定列表对象中的属性名称用作排序键。 |
+| sortingOrder | 布尔 | 升序(true)或降序(false) |
 
 ## 签名和返回的类型
 
@@ -69,6 +63,10 @@ ht-degree: 18%
 
 返回布尔值列表。
 
+`sort(<listObject>,<string>,<boolean>)`
+
+返回对象列表。
+
 ## 示例
 
 `sort(["A", "C", "B"], true)`
@@ -78,3 +76,4 @@ ht-degree: 18%
 `sort([1, 3, 2], false)`
 
 返回结果 `[3, 2, 1]`.
+

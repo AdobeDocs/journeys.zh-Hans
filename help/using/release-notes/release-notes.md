@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
-workflow-type: ht
-source-wordcount: '3226'
-ht-degree: 100%
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+workflow-type: tm+mt
+source-wordcount: '3274'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 此页面列出了 Journey Orchestration 的所有新功能和改进。
 您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
 
-## 2022 年 3 月版 {#feb-2022-release}
+## 2022 年 5 月版 {#may-2022-release}
 
 ### 改进
 
-**历程**
+* **表达式编辑器** - [限制](../functions/functionlimit.md) 函数，以限制列表的项目数。 的 [排序](../functions/functionsort.md) 函数现在允许您对列表对象进行排序。 还向 [disct](../functions/functiondistinct.md) 和 [distinctWithNull](../functions/functiondistinctwithnull.md) 函数。
+
+## 2022 年 3 月版 {#feb-2022-release}
+
+### 改进
 
 * 为了避免统一用户档案架构中出现不必要的字段，默认情况下将不再为用户档案启用历程步骤事件架构。如有需要，您可以启用它。[了解详情](../building-journeys/sharing-overview.md)
 * 与导出作业相关的新步骤事件现在由 Journey Optimizer 发送至 Adobe Experience Platform。文档中添加了查询示例。[了解详情](../building-journeys/query-examples.md)
