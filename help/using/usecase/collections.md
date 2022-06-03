@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 使用自定义操作动态传递集合
 description: 使用 Campaign v7/v8 发送消息
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 7%
@@ -66,6 +66,7 @@ ht-degree: 7%
     ]
    }
    ```
+
 * 要使用测试模式测试收藏集，您需要使用代码视图模式。 目前，业务事件不支持代码视图模式。 您只能发送包含单个元素的集合。
 
 ## 一般程序 {#general-procedure}
