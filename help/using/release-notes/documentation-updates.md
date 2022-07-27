@@ -6,16 +6,21 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 99%
+source-wordcount: '992'
+ht-degree: 96%
 
 ---
 
 # 文档更新
 
 此页面列出了 [!DNL Journey Orchestration] 的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+
+## 2022 年 7 月 {#july-2022}
+
+* 在历程属性中， **配置文件时区** 选项现在默认处于禁用状态。 [了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 在 **等待** 活动， **固定日期** 选项不再可用。 [了解详情](../building-journeys/wait-activity.md)
 
 ## 2022 年 6 月 {#june-2022}
 
