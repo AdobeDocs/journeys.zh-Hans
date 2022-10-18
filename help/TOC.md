@@ -5,9 +5,9 @@ title: Journey Orchestration 指南
 user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 19760b779c2b105286d502b3bf4edda5bec79194
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 + 新增功能 {#release-notes}
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
+   + [迁移到Journey Optimizer](using/release-notes/migration-to-ajo.md)
 + [!DNL Journey Orchestration] 入门{#starting-with-journeys}
    + [关于 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
@@ -152,7 +153,7 @@ ht-degree: 99%
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
          + [intersect](using/functions/functionintersect.md)
-         + [限制](using/functions/functionlimit.md)
+         + [limit](using/functions/functionlimit.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
