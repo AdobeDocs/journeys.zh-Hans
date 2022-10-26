@@ -3,7 +3,7 @@ title: 升级到Adobe Journey Optimizer
 description: 了解如何升级到Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: e7d1b6401f03603a56d963672da1b402d0fe5e80
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 2%
@@ -65,11 +65,11 @@ Journey Orchestration是一项基于Adobe Experience Platform构建的服务，�
 
 ## 常见问题
 
-## 我需要规划从Journey Orchestration到Adobe Journey Optimizer的任何内容吗？
+### 我需要规划从Journey Orchestration到Adobe Journey Optimizer的任何内容吗？
 
 不需要，没有迁移，没有工作需要，没有停机时间，也没有额外的投资。 您只需使用Adobe更新您的协议，然后我们会执行其余操作。 有关如何启动此过程的说明，请联系您的客户代表。
 
-## 换衣服后我会失去什么吗？
+### 换衣服后我会失去什么吗？
 
 否，您将保留所有现有Journey Orchestration和Adobe Experience Platform对象：架构、数据集、历程、事件、数据源、操作。 不会丢失任何内容，所有实时历程都将继续工作且不会中断。
 
