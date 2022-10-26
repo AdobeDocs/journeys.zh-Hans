@@ -3,7 +3,7 @@ title: 升级到Adobe Journey Optimizer
 description: 了解如何升级到Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: e7d1b6401f03603a56d963672da1b402d0fe5e80
+source-git-commit: 8591ed266f5a360dbc7bea8dd8a6d7a089aa346f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 2%
