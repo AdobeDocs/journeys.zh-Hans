@@ -6,9 +6,9 @@ user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
 source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 + 新增功能 {#release-notes}
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
-   + [升级到Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
+   + [升级到 Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
 + [!DNL Journey Orchestration] 入门{#starting-with-journeys}
    + [关于 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
