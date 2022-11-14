@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 96%
 
 ## 2022 年 7 月 {#july-2022}
 
-* 在历程属性中， **配置文件时区** 选项现在默认处于禁用状态。 [了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
-* 在 **等待** 活动， **固定日期** 选项不再可用。 [了解详情](../building-journeys/wait-activity.md)
+* 在历程属性中，**配置文件时区**&#x200B;选项现在默认处于禁用状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 在&#x200B;**等待**&#x200B;活动中，**固定日期**&#x200B;选项不再可用。[了解详情](../building-journeys/wait-activity.md)
 
 ## 2022 年 6 月 {#june-2022}
 
-* 此中新增了查询示例 [页面](../building-journeys/query-examples.md)
+* 此[页面](../building-journeys/query-examples.md)中新增了查询示例
 
 ## 2022 年 3 月 {#march-2022}
 
