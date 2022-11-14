@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3274'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 ### 改进
 
-* **表达式编辑器** - [限制](../functions/functionlimit.md) 函数，以限制列表的项目数。 的 [排序](../functions/functionsort.md) 函数现在允许您对列表对象进行排序。 还向 [disct](../functions/functiondistinct.md) 和 [distinctWithNull](../functions/functiondistinctwithnull.md) 函数。
+* **表达式编辑器** - 添加了 [limit](../functions/functionlimit.md) 函数，以限制列表的项目数。 现在，使用 [sort](../functions/functionsort.md) 函数可对列表对象进行排序。 此外，还向 [disctinct](../functions/functiondistinct.md) 和 [distinctWithNull](../functions/functiondistinctwithnull.md) 函数添加了 listObject 支持。
 
 ## 2022 年 3 月版 {#feb-2022-release}
 
