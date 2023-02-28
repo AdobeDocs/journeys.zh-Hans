@@ -9,7 +9,7 @@ exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 14%
 * 历程通过 **[!UICONTROL Close to new entrances]** 按钮。
 * 到达历程的结束日期。
 
-当历程关闭（出于上述任何原因）时，将具有状态 **[!UICONTROL Closed]**. 历程将不再让新人进入历程。 已在历程中的人员将正常完成历程。 在默认的全局超时为30天后，历程将切换到 **已完成** 状态。 请参阅 [部分](../building-journeys/changing-properties.md#entrance).
+当历程关闭（出于上述任何原因）时，将具有状态 **[!UICONTROL Closed]**. 历程将不再让新人进入历程。 已在历程中的人员将正常完成历程。 在默认的全局超时为30天后，历程将切换到 **已完成** 状态。 请参阅此[部分](../building-journeys/changing-properties.md#entrance)。
 
 如果您需要阻止历程中所有个人的进度，则可以阻止该进度。 停止历程将超时历程中的所有个人。
 
