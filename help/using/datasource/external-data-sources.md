@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: '外部数据源 '
-description: '了解如何配置外部数据源 '
+title: 外部数据源
+description: 了解如何配置外部数据源
 feature: Journeys
 role: User
 level: Intermediate
