@@ -6,9 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 历程API支持每秒最多5000个事件，但某些外部系统或API的吞吐量可能不相等。 为防止这些系统过载，您可以使用 **上限** 和 **限制** 用于限制每秒发送的事件数的API。
 
-每次按历程执行API调用时，它都会通过API引擎。 如果达到API中设置的限制，则如果您使用上限API，则调用将被拒绝；如果您使用限制API，则会按收到调用的顺序尽快排队和处理。
+每次按历程执行API调用时，它都会通过API引擎。 如果达到API中设置的限制，则如果您使用上限API，则调用将被拒绝；或者，如果您使用限制API，则调用会按收到的顺序尽快排队6小时进行处理。
 
 例如，假设您为外部系统定义了每秒100次调用的上限或限制规则。 在10个不同历程中，系统由自定义操作调用。 如果一个历程每秒收到200个调用，则它将使用100个可用插槽，并丢弃或排入剩余100个插槽的队列。 由于超出了最大速率，因此其他9个历程将没有任何插槽。 此粒度有助于保护外部系统免遭过载和崩溃。
 
