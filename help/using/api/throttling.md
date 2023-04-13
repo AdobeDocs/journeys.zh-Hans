@@ -6,16 +6,17 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
+exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
+source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '799'
+ht-degree: 2%
 
 ---
 
 # 使用限制API
 
-限制API可帮助您创建、配置和监视限制配置。
+限制API可帮助您创建、配置和监视限制配置，以限制每秒发送的事件数。
 
 >[!IMPORTANT]
 >
