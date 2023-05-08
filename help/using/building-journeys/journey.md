@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 关于历程构建
-description: 作为企业用户，了解如何结合事件、编排和行为活动来构建历程。
+description: 作为企业用户，了解如何组合事件、编排和行为活动以构建历程。
 feature: Journeys
 role: User
 level: Intermediate
