@@ -15,18 +15,18 @@ ht-degree: 27%
 
 # journeyStep 事件身份字段 {#sharing-identity-fields}
 
-此混合内容专用于journeyStepEvent:此事件与历程相关，并且没有identityMap，用于描述用户档案身份（如果有）。
+此Mixin專用於journeyStepEvent：此事件與歷程有關，沒有identityMap，無法描述設定檔身分（若有）。
 
-对于journeyStepEvent，我们还需要添加与标识相关的字段：
+若為journeyStepEvent，我們還需要新增與身分相關的欄位：
 
 ## profileID
 
-用户档案标识符
+設定檔識別碼
 
 类型：字符串
 
 ## profileNamespace
 
-配置文件标识符命名空间
+設定檔識別碼名稱空間
 
 类型：字符串

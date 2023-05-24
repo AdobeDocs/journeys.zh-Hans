@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: endWithIgnoreCase
-description: 了解函数endWithIgnoreCase
+description: 瞭解函式endWithIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 18%
 
 # endWithIgnoreCase {#endWithIgnoreCase}
 
-检查第一个参数字符串是否以特定字符串（第二个参数字符串）结尾，而不考虑大小写。
+檢查第一個引數字串是否以特定字串（第二個引數字串）結尾，而不考慮大小寫。
 
 ## 类别
 
 字符串
 
-## 函数语法
+## 函式語法
 
 `endWithIgnoreCase(<parameters>)`
 
@@ -30,16 +30,16 @@ ht-degree: 18%
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 后缀 | 字符串 |
+| 字尾 | 字符串 |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `endWithIgnoreCase(<string>,<string>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `endWithIgnoreCase("rowing is great", "AT")`
 
-返回true。
+傳回true。

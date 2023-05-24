@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 构建历程 — 高级
-description: '了解如何构建高级用例历程 '
+title: 建立歷程 — 進階
+description: 了解如何构建高级用例历程
 feature: Journeys
 role: User
 level: Intermediate

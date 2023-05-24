@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inSegment
-description: 了解inSegment的函数
+description: 瞭解inSegment函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,33 +15,33 @@ ht-degree: 6%
 
 # inSegment {#inSegment}
 
-检查个人是否属于给定区段。
+檢查個人是否屬於指定的區段。
 
 >[!NOTE]
 >
->您最多可以检索100个区段。
+>您最多可以擷取100個區段。
 
-区段名称必须是字符串常量。 它不能是字段引用或表达式。
+區段名稱必須是字串常數。 它不能是欄位參考或運算式。
 
-区段在 [Adobe Experience Platform](https://platform.adobe.com/segment/overview). 表达式编辑器提供了自动完成的区段列表。
+區段定義於 [Adobe Experience Platform](https://platform.adobe.com/segment/overview). 運算式編輯器提供自動完成的區段清單。
 
-区段可以具有三种状态：
+區段可以有三種狀態：
 
-* 现有：实体继续在分部中。
-* 已实现：实体正在输入区段。
-* 退出：实体正在退出区段。
+* existing： entity會繼續存在於區段中。
+* 已實現：實體正在進入區段。
+* 退出：實體正在退出區段。
 
-只有 **已实现** 和 **现有** 区段参与状态将被视为区段的成员。 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+只有具備下列條件的個人 **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` 表示您拥有已输入/现有状态的segmentMembership。
+`IF inSegment('segmentName') == true` 表示您擁有狀態為已輸入/現有狀態的segmentMembership。
 
-`ELSE inSegment('segmentName') == false` 表示您具有退出状态的segmentMembership。
+`ELSE inSegment('segmentName') == false` 表示您擁有退出狀態的segmentMembership。
 
 ## 类别
 
 Adobe Experience Platform
 
-## 函数语法
+## 函式語法
 
 `inSegment(<parameter>)`
 
@@ -49,18 +49,18 @@ Adobe Experience Platform
 
 | 参数 | 描述 | 类型 |
 |--- |--- |--- |
-| 区段 | 区段名称 | `<string>` |
+| 区段 | 區段名稱 | `<string>` |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `inSegment(<string>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `inSegment("men over 50")`
 
-解释：
+解释:
 
-函数将返回 **[!UICONTROL true]** 如果历程实例中的个人是名为“50岁以上的男士”的Adobe Experience Platform区段的一部分， **[!UICONTROL false]** 否则。
+函式將傳回 **[!UICONTROL true]** 如果歷程例項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform區段， **[!UICONTROL false]** 否則。

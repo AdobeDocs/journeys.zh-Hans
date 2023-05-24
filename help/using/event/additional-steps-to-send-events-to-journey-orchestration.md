@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 将事件发送到Journey Orchestration的其他步骤
-description: 了解将事件发送到Journey Orchestration的其他步骤
+title: 傳送事件給Journey Orchestration的其他步驟
+description: 瞭解將事件傳送至Journey Orchestration的其他步驟
 feature: Journeys
 role: User
 level: Intermediate
@@ -13,26 +13,26 @@ ht-degree: 4%
 
 ---
 
-# 将事件发送到的其他步骤 [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
+# 將事件傳送至的其他步驟 [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->创建事件时， [!DNL Journey Orchestration] 自动为此事件生成ID。 推送事件的系统不应生成ID，它应使用有效负荷预览中提供的ID。 请参阅[此页](../event/previewing-the-payload.md)。
+>建立事件時， [!DNL Journey Orchestration] 自動產生此事件的ID。 推播事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 请参阅[此页](../event/previewing-the-payload.md)。
 
-配置要发送到的事件 **[!UICONTROL Streaming Ingestion APIs]** 和 [!DNL Journey Orchestration]，则需要执行以下步骤：
+若要設定要傳送至的事件 **[!UICONTROL Streaming Ingestion APIs]** 並將用於 [!DNL Journey Orchestration]，您必須遵循下列步驟：
 
-1. 从Adobe Experience Platform API获取入口URL(请参阅 [流式引入API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans))。
-1. 从 **[!UICONTROL Event]** 菜单。 请参阅[此页](../event/defining-the-payload-fields.md)。
+1. 從Adobe Experience Platform API取得入口URL (請參閱 [串流擷取API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans))。
+1. 從中的裝載預覽複製裝載 **[!UICONTROL Event]** 功能表。 请参阅[此页](../event/defining-the-payload-fields.md)。
 
-然后，您需要配置数据系统，以使用您复制的有效负载将事件推送到流摄取API:
+然後，您需要設定資料系統，使用您複製的裝載將事件推送至串流獲取API：
 
-1. 设置对流摄取API URL的POSTAPI调用（称为入口）。
-1. 使用您复制的有效负荷 [!DNL Journey Orchestration] 在对流摄取API的API调用的正文（“数据部分”）中。 请参阅下面的示例
-1. 确定在何处获取有效负载中存在的所有变量。 示例：如果事件应传达地址，则粘贴的有效负载将显示“地址”：&quot;string&quot;。 “string”应被自动填充正确值（要向其发送消息的人员的电子邮件）的变量替换。 请注意，在有效负荷预览中， **[!UICONTROL Header]** 部分，我们会自动填充许多值，以便您的工作。
-1. 选择“application/json”作为正文类型。
-1. 在标题中使用键“x-gw-ims-org-id”传递您的IMS组织ID。 对于值，请使用您的IMS组织ID(&quot;XXX@AdobeOrg&quot;)。
+1. 設定串流獲取API URL的POSTAPI呼叫（稱為入口）。
+1. 使用您複製自的裝載 [!DNL Journey Orchestration] 串流獲取API之API呼叫的內文（「資料區段」）中。 如需範例，請參閱下文
+1. 決定從何處取得裝載中出現的所有變數。 範例：如果事件應該要傳達位址，貼上的裝載會顯示「address」：「string」。 「string」應取代為會自動填入正確值的變數，也就是傳送訊息的收件者電子郵件。 請注意，在裝載預覽中，在 **[!UICONTROL Header]** 章節，我們會自動填入許多值，以利您順利完成工作。
+1. 選取「application/json」作為內文型別。
+1. 使用索引鍵「x-gw-ims-org-id」在標題中傳遞您的IMS組織ID。 此值使用您的IMS組織ID (&quot;XXX@AdobeOrg&quot;)。
 
-以下是流摄取API事件的示例：
+以下是串流擷取API事件的範例：
 
 ```
 {
@@ -89,6 +89,6 @@ ht-degree: 4%
 }
 ```
 
-为便于确定粘贴“数据”部件的位置，您可以使用JSON可视化工具，例如 [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
+為方便您識別「資料」部分的貼上位置，您可以使用JSON視覺化工具，例如 [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-要对流摄取API进行故障诊断，请参阅 [页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
+若要疑難排解串流獲取API，請參閱此 [頁面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).

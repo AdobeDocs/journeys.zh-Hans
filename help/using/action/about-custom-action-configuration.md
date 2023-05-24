@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 关于自定义操作配置
-description: 了解如何配置自定义操作
+description: 瞭解如何設定自訂動作
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,33 +15,33 @@ ht-degree: 12%
 
 # 关于自定义操作配置 {#concept_sxy_bzs_dgb}
 
-如果您使用第三方系统来发送消息，或者 [!DNL Journey Orchestration] 要向第三方系统发送API调用，您可以在此配置其与 [!DNL Journey Orchestration]. 然后，技术用户定义的自定义操作将在历程的左侧面板中的 **[!UICONTROL Action]** 类别(请参阅 [本页](../building-journeys/about-action-activities.md). 以下是可通过自定义操作连接到的一些系统示例：Epsilon、Facebook、Adobe.io、Firebase等
+如果您使用協力廠商系統來傳送訊息，或是您想要的話 [!DNL Journey Orchestration] 若要將API呼叫傳送至協力廠商系統，您可以在此處設定其連線至 [!DNL Journey Orchestration]. 之後，技術使用者定義的自訂動作將可在您歷程的左側浮動視窗中使用，位於 **[!UICONTROL Action]** 類別(請參閱 [此頁面](../building-journeys/about-action-activities.md). 以下是一些您可以透過自訂動作連線的系統範例：Epsilon、Facebook、Adobe.io、Firebase等。
 
-限制列在 [本页](../about/limitations.md).
+限制列於 [此頁面](../about/limitations.md).
 
-在自定义操作参数中，您可以传递简单的集合以及对象集合。 有关限制，请参阅 [本页](../usecase/collections.md#limitations). 另请注意，这些参数具有预期的格式(例如：字符串、小数等)。 您必须谨慎遵循这些预期格式。 请参阅 [用例](../usecase/collections.md).
+在自訂動作引數中，您可以傳遞簡單的集合以及物件集合。 關於限制，請參閱 [此頁面](../usecase/collections.md#limitations). 另請注意，引數具有預期格式（例如：字串、小數等）。 您必須注意遵守這些預期的格式。 請參閱此 [使用案例](../usecase/collections.md).
 
-以下是配置自定义操作所需的主要步骤：
+以下是設定自訂動作所需的主要步驟：
 
-1. 从 **[!UICONTROL Actions]** 列表，单击 **[!UICONTROL Add]** 创建新操作。 操作配置窗格将在屏幕右侧打开。
+1. 從 **[!UICONTROL Actions]** 清單，按一下 **[!UICONTROL Add]** 以建立新動作。 動作設定窗格會在畫面右側開啟。
 
    ![](../assets/custom2.png)
 
-1. 输入操作的名称。
+1. 輸入動作的名稱。
 
    >[!NOTE]
    >
    >请勿使用空格或特殊字符。请勿使用超过 30 个字符。
 
-1. 向操作添加描述。 此步骤是可选的。
-1. 使用此操作的历程数显示在 **[!UICONTROL Used in]** 字段。 您可以单击 **[!UICONTROL View journeys]** 按钮以显示使用此操作的历程列表。
-1. 定义不同的 **[!UICONTROL URL Configuration]** 参数。 请参阅[此页](../action/url-configuration.md)。
-1. 配置 **[!UICONTROL Authentication]** 中。 此配置与数据源的配置相同。  请参阅[此小节](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
-1. 定义 **[!UICONTROL Action parameters]**. 请参阅[此页](../action/defining-the-message-parameters.md)。
+1. 為動作新增說明。 此步骤是可选的。
+1. 使用此動作的歷程次數會顯示在 **[!UICONTROL Used in]** 欄位。 您可以按一下 **[!UICONTROL View journeys]** 按鈕來顯示使用此動作的歷程清單。
+1. 定義不同的 **[!UICONTROL URL Configuration]** 引數。 请参阅[此页](../action/url-configuration.md)。
+1. 設定 **[!UICONTROL Authentication]** 區段。 此設定與資料來源的設定相同。  请参阅[此小节](../datasource/external-data-sources.md#section_wjp_nl5_nhb)。
+1. 定義 **[!UICONTROL Action parameters]**. 请参阅[此页](../action/defining-the-message-parameters.md)。
 1. 单击 **[!UICONTROL Save]**。
 
-   自定义操作现已配置完成，可随时用于您的历程。 请参阅[此页](../building-journeys/about-action-activities.md)。
+   自訂動作現已設定完畢，且可供您在歷程中使用。 请参阅[此页](../building-journeys/about-action-activities.md)。
 
    >[!NOTE]
    >
-   >在历程中使用自定义操作时，大多数参数都是只读的。 您只能修改 **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** 字段和 **[!UICONTROL Authentication]** 中。
+   >在歷程中使用自訂動作時，大部分引數均為唯讀。 您只能修改 **[!UICONTROL Name]**， **[!UICONTROL Description]**， **[!UICONTROL URL]** 欄位和 **[!UICONTROL Authentication]** 區段。

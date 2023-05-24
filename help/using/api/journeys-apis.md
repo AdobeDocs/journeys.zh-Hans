@@ -6,8 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
-workflow-type: ht
+exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
+source-git-commit: 03a58d765a6c98df6a976a5b9c537bdb5cc3ce99
+workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 

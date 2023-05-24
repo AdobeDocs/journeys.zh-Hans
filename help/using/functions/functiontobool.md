@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toBool
-description: 了解函数toBool
+description: 瞭解函式toBool
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,33 +9,33 @@ exl-id: 490144c2-1ecd-4772-ab15-e23b1b7d8f0c
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
 # toBool {#toBool}
 
-根据参数值的类型，将参数值转换为布尔值。
+根據其型別，將引數值轉換為布林值。
 
-* 从字符串：尝试将字符串值转换为布尔值，如果字符串值为“true”，则从“true”转换为false，否则从“true”转换为“false”
-* 从数值：如果数值不等于0，则为true；否则为false
+* 從字串：嘗試將字串值轉換為布林值，如果字串值為「true」，則從「true」，否則從「false」
+* 從數值：如果數值不等於0，則為true；否則為false
 
 ## 类别
 
 转化
 
-## 函数语法
+## 函式語法
 
 `toBool(<parameter>)`
 
 ## 参数
 
-* 小数
+* 小數
 * 布尔
 * 字符串
 * 整数
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `toBool(<decimal>)`
 
@@ -45,7 +45,7 @@ ht-degree: 10%
 
 `toBool(<integer>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
@@ -53,8 +53,8 @@ ht-degree: 10%
 
 `toBool(1)`
 
-返回true。
+傳回true。
 
 `toBool("this is not a boolean")`
 
-返回false。
+傳回false。

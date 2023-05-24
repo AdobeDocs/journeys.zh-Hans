@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: sort
-description: 了解函数排序
+description: 瞭解函式排序
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,15 +13,15 @@ ht-degree: 9%
 
 ---
 
-# 排序 {#sort}
+# sort {#sort}
 
-按自然顺序对值或对象列表进行排序。
+以自然順序排序值清單或物件。
 
 ## 类别
 
 列表
 
-## 函数语法
+## 函式語法
 
 `sort(<parameters>)`
 
@@ -29,43 +29,43 @@ ht-degree: 9%
 
 | 参数 | 类型 | 描述 |
 |-----------|------------------|------------------|
-| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 列表进行整理。 对于listObject，它必须是字段引用。 |
-| keyAttributeName | 字符串 | 此参数仅用于listObject。 给定列表对象中的属性名称用作排序键。 |
-| sortingOrder | 布尔 | 升序(true)或降序(false) |
+| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要排序的清單。 對於listObject，它必須是欄位參考。 |
+| keyAttributeName | 字符串 | 此引數僅適用於listObject。 給定清單的物件中的屬性名稱會用作排序的索引鍵。 |
+| sortingOrder | 布尔 | 遞增(true)或遞減(false) |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `sort(<listInteger>,<boolean>)`
 
-返回整数列表。
+傳回整數清單。
 
 `sort(<listDecimal>,<boolean>)`
 
-返回小数列表。
+傳回小數點清單。
 
 `sort(<listString>,<boolean>)`
 
-返回字符串列表。
+傳回字串清單。
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-返回不考虑时区的日期时间列表。
+傳回日期時間清單，不考慮時區。
 
 `sort(<listDateTime>,<boolean>)`
 
-返回datetimes列表。
+傳回日期時間清單。
 
 `sort(<listDateOnly>,<boolean>)`
 
-返回日期列表。
+傳回日期清單。
 
 `sort(<listBoolean>,<boolean>)`
 
-返回布尔值列表。
+傳回布林值清單。
 
 `sort(<listObject>,<string>,<boolean>)`
 
-返回对象列表。
+傳回物件清單。
 
 ## 示例
 

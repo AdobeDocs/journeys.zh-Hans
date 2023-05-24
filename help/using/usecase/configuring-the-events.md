@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 配置事件
-description: 了解如何为历程高级用例配置事件
+description: 瞭解如何設定歷程進階使用案例的事件
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,42 +15,42 @@ ht-degree: 9%
 
 # 配置事件 {#concept_sbp_5cy_w2b}
 
-在我们的情景中，每当一个人进入马尔顿酒店和餐厅时，我们都需要收到一个活动。 的 **技术用户** 需要配置我们希望系统在我们的历程中侦听的两个事件。
+在我們的案例中，每次有人進入馬爾頓飯店和餐廳時，我們都需要收到一個事件。 此 **技術使用者** 需要設定兩個事件，讓系統在歷程中接聽。
 
-有关事件配置的其他信息，请参阅 [本页](../event/about-events.md).
+有關事件設定的其他資訊，請參閱 [此頁面](../event/about-events.md).
 
-1. 在顶部菜单中，单击 **[!UICONTROL Events]** 选项卡，单击 **[!UICONTROL Add]** 创建新事件。
+1. 在頂端功能表中，按一下 **[!UICONTROL Events]** 標籤並按一下 **[!UICONTROL Add]** 以建立新事件。
 
    ![](../assets/journeyuc1_1.png)
 
-1. 我们输入的名称中不带空格或特殊字符：&quot;LobbyBeacon&quot;。
+1. 我們輸入不含空格或特殊字元的名稱：「LobbyBeacon」。
 
    ![](../assets/journeyuc2_1.png)
 
-1. 然后，我们选择架构并定义此事件所需的有效负载。 我们从XDM标准化模型中选择所需的字段。 我们需要Experience CloudID来识别实时客户资料数据库中的人员：&quot;endUserIDs > _experience > mcid > id&quot;。
+1. 然後，我們選取結構描述並定義此事件預期的裝載。 我們從XDM標準化模型中選取所需的欄位。 我們需要Experience CloudID來識別即時客戶設定檔資料庫中的人員：「endUserIDs > _experience > mcid > id」。
 
-   我们还需要注册令牌才能发送推送消息：&quot;_experience > campaign > message > profile > pushNotificationTokens > token&quot;
+   我們還需要註冊Token才能傳送推送訊息：「_experience > campaign >訊息>設定檔> pushNotificationToken > token」
 
-   将自动为此事件生成ID。 此ID存储在 **[!UICONTROL eventID]** 字段(“_experience > campaign > orchestration > eventID”)。 推送事件的系统不应生成ID，它应使用有效负荷预览中提供的ID。 在我们的用例中，此ID用于标识信标位置。 每当人员在大堂信标附近行走时，都会发送一个包含此特定事件ID的事件。 同样的原则也适用于餐馆信标事件。 这允许系统知道哪些信标触发了事件发送。
+   系統會自動為此事件產生ID。 此ID儲存在 **[!UICONTROL eventID]** 欄位（「_experience > campaign >協調流程> eventID」）。 推播事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 在我們的使用案例中，此ID可用來識別信標位置。 每次有人靠近大廳信標時，系統都會傳送包含此特定事件ID的事件。 相同的原則適用於餐廳信標事件。 這可讓系統知道哪個信標觸發了事件傳送。
 
    ![](../assets/journeyuc2_2.png)
 
    >[!NOTE]
    >
-   >字段列表因架构而异。 根据架构定义，某些字段可能是必填的，并且是预选的。
+   >欄位清單會因結構描述而異。 根據結構描述定義，某些欄位可能是必填欄位並預先選定。
 
 1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
    ![](../assets/journeyuc2_4.png)
 
-1. 根据模式属性和选择的命名空间预先选择键。 你可以留着它。
+1. 系統會根據結構描述屬性及選取的名稱空間預先選取金鑰。 您可以保留它。
 
    ![](../assets/journeyuc2_4bis.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
-1. 单击 **[!UICONTROL View Payload]** 图标来预览系统预期的有效负载，并将其共享给负责事件发送的人员。  需要在Mobile服务管理控制台的回发中配置此负载。
+1. 按一下 **[!UICONTROL View Payload]** 圖示可預覽系統預期的裝載，並與負責事件傳送的人員共用。  需要在Mobile Services管理主控台的回傳中設定此裝載。
 
    ![](../assets/journeyuc2_5.png)
 
-同样，创建“RestaurantBeacon”事件。 您的两个信标事件已创建，现在可用于我们的历程。 现在，您需要配置移动应用程序，以便它可以将预期的有效负载发送到流摄取API端点。 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+以相同方式建立「RestaurantBeacon」事件。 您的兩個指標事件已建立，且現在可用於我們的歷程。 您現在需要設定行動應用程式，好讓它能將預期的裝載傳送至串流獲取API端點。 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。

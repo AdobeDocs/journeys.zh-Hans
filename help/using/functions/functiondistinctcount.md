@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinctCount
-description: 了解distinctCount函数
+description: 瞭解函式distinctCount
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 32%
 
 # distinctCount{#distinctCount}
 
-计算忽略空值的不同值的数量。
+計算忽略空值的不同值數目。
 
 ## 类别
 
 聚合
 
-## 函数语法
+## 函式語法
 
 `distinctCount(<listAny>)`
 
@@ -38,14 +38,14 @@ ht-degree: 32%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `distinctCount(<listAny>)`
 
-返回整数。
+傳回整數。
 
 ## 示例
 
 `distinctCount([10,2,10,null])`
 
-返回2。
+傳回2。

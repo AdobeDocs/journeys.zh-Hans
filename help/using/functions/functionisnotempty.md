@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: isNotEmpty
-description: 了解函数isNotEmpty
+description: 瞭解函式isNotEmpty
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 19%
 
 # isNotEmpty {#isNotEmpty}
 
-如果参数中的字符串不为空，则返回true。
+如果引數中的字串不是空的，則傳回true。
 
 ## 类别
 
 字符串
 
-## 函数语法
+## 函式語法
 
 `isNotEmpty(<parameters>)`
 
@@ -29,18 +29,18 @@ ht-degree: 19%
 
 * 字符串
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `isNotEmpty(<string>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `isNotEmpty("")`
 
-返回false。
+傳回false。
 
 `isNotEmpty("hello")`
 
-返回true。
+傳回true。

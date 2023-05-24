@@ -36,16 +36,16 @@ ht-degree: 98%
    * 管理历程
    * 发布历程
    * 管理事件、数据源和操作
-   * 管理报告
+   * 管理报表
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用 Adobe Campaign Standard 在历程中发送消息，则需要此产品用户档案。不应在管理控制台中对其重命名。
+   >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用 Adobe Campaign Standard 在历程中发送消息，则需要此产品用户档案。請勿在Admin Console中重新命名。
 
 * **[!UICONTROL Standard User]**：具有基本访问权限的用户，如历程管理。此产品用户档案包括以下权限：
    * 管理历程
    * 发布历程
-   * 管理报告
+   * 管理报表
    * 读取事件、数据源和操作
 
 如果现成的用户档案不足以管理用户，您还可以创建自己的产品用户档案。
@@ -65,13 +65,13 @@ ht-degree: 98%
 
 ## 创建产品用户档案 {#create-product-profile}
 
-[!DNL Journey Orchestration] 允许您创建自己的产品用户档案，并为用户分配一组权限和沙箱。通过产品用户档案，您可以授权或拒绝对界面中特定功能或对象的访问。
+[!DNL Journey Orchestration] 允许您创建自己的产品用户档案，并为用户分配一组权限和沙盒。通过产品用户档案，您可以授权或拒绝对界面中特定功能或对象的访问。
 
-有关如何创建和管理沙箱的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
+有关如何创建和管理沙盒的更多信息，请参阅 [Adobe Experience Platform 文档](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
 
-要创建产品用户档案并分配一组权限和沙箱，请执行以下操作：
+要创建产品用户档案并分配一组权限和沙盒，请执行以下操作：
 
-1. 在 Admin Console 中，选择 **[!UICONTROL Journey Orchestration]**。在选项卡 **[!UICONTROL Product profile]** 中，单击 **[!UICONTROL New Profile]**。
+1. 在 Admin Console 中，选择 **[!UICONTROL Journey Orchestration]**。在 **[!UICONTROL Product profile]** 选项卡中，单击 **[!UICONTROL New Profile]**。
 
    ![](../assets/do-not-localize/user_management_5.png)
 
@@ -91,7 +91,7 @@ ht-degree: 98%
 
    ![](../assets/do-not-localize/user_management_7.png)
 
-1. 在 **[!UICONTROL Sandboxes]** 权限类别中，选择要分配给产品用户档案的沙箱。在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙箱分配给用户档案。如需有关沙箱的详细信息，请参阅此[部分](../about/access-management.md#sandboxes)。
+1. 在 **[!UICONTROL Sandboxes]** 权限类别中，选择要分配给产品用户档案的沙盒。在 **[!UICONTROL Available Permissions Items]** 下，单击加号 (+) 图标，将沙盒分配给用户档案。如需有关沙盒的详细信息，请参阅此[部分](../about/access-management.md#sandboxes)。
 
    ![](../assets/do-not-localize/user_management_8.png)
 
@@ -134,11 +134,11 @@ ht-degree: 98%
 
 随后，您的用户将收到一封重定向到您的 [!DNL Journey Orchestration] 实例的电子邮件。
 
-## 使用沙箱 {#sandboxes}
+## 使用沙盒 {#sandboxes}
 
-[!DNL Journey Orchestration] 允许您将实例分区为称为沙箱的分隔虚拟环境。
-沙箱通过 Admin Console 中的产品用户档案进行分配。有关如何分配沙箱的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
+[!DNL Journey Orchestration] 允许您将实例分区为称为沙盒的分隔虚拟环境。
+沙盒通过 Admin Console 中的产品用户档案进行分配。有关如何分配沙盒的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙箱。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙箱。有关详细步骤，请参阅[沙箱用户指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)。
+[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙盒。可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。有关详细步骤，请参阅[沙盒用户指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
 
-您可以在屏幕左上角找到沙箱切换器控件。要从一个沙箱切换到另一个沙箱，请单击切换器中当前活动的沙箱，然后从下拉列表中选择另一个沙箱。
+您可以在屏幕左上角找到沙盒切换器控件。要从一个沙盒切换到另一个沙盒，请单击切换器中当前活动的沙盒，然后从下拉列表中选择另一个沙盒。

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: avg
-description: 了解函数avg
+description: 瞭解函式avg
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,33 +9,33 @@ exl-id: 6c9f3a5d-20b4-4c0a-b17f-5221f5db51be
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
 # avg {#avg}
 
-返回一组表达式中的平均值（以列表或两个表达式的形式提供）。 将忽略空值。
+傳回一組運算式中的平均值，以清單或兩個運算式形式給出。 Null值會被忽略。
 
 
 ## 类别
 
 聚合
 
-## 函数语法
+## 函式語法
 
 `avg(<parameter>)`
 
 ## 参数
 
-支持的类型：
+支援的型別：
 
 * listInteger
 * listDecimal
-* 小数
+* 小數
 * 整数
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `avg(<listInteger>)`
 
@@ -49,7 +49,7 @@ ht-degree: 12%
 
 `avg(<integer>,<integer>)`
 
-返回小数。
+傳回小數。
 
 ## 示例
 
@@ -57,8 +57,8 @@ ht-degree: 12%
 
 `avg([10,3,8])`
 
-返回7.0。
+傳回7.0。
 
 `avg(10.2, 3)`
 
-返回6.6。
+傳回6.6。

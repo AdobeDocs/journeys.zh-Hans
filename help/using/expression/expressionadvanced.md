@@ -9,14 +9,13 @@ exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 88%
+ht-degree: 94%
 
 ---
 
 # 关于高级表达式编辑器 {#concept_uyj_trt_52b}
 
-使用高级表达式编辑器在界面的各种屏幕中构建高级表达式。 例如，您可以在配置和使用历程以及定义数据源条件时构建表达式。
-它还可在您每次需要定义需要特定数据操作的操作参数时使用。您可以利用来自事件的数据或从数据源检索的其他信息。在历程中，显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。
+使用高级表达式编辑器可以在界面的各个屏幕中构建高级表达式。例如，您可以在配置和使用历程时以及在定义数据源条件时构建表达式。它还可在您每次需要定义需要特定数据操作的操作参数时使用。您可以利用来自事件的数据或从数据源检索的其他信息。在历程中，显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。
 
 高级表达式编辑器提供一组内置函数和运算符，让您处理值并定义一个专门满足您需求的表达式。高级表达式编辑器还允许您定义外部数据源参数的值、处理映射字段和集合，如体验事件。
 
@@ -57,11 +56,11 @@ _高级表达式编辑器界面_
 
 屏幕左侧显示了可用字段和函数：
 
-* **[!UICONTROL Events]**：选择从入站事件接收的字段之一。显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[了解更多信息](../event/about-events.md)
-* **[!UICONTROL Segments]**:如果您 **[!UICONTROL Segment qualification]** 事件，选择要在表达式中使用的区段。 [了解更多信息](../segment/using-a-segment.md)
-* **[!UICONTROL Data Sources]**：从数据源的字段组提供的字段列表中进行选择。[了解更多信息](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**:本节重组与给定用户档案的历程相关的技术字段。 [了解更多信息](../expression/journey-properties.md)
-* **[!UICONTROL Functions]**：从允许执行复杂筛选的内置函数列表中进行选择。函数按类别组织。[了解更多信息](../expression/functions.md)
+* **[!UICONTROL Events]**：选择从入站事件接收的字段之一。显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。[了解详情](../event/about-events.md)
+* **[!UICONTROL Segments]**：如果您已卸除 **[!UICONTROL Segment qualification]** 事件，選擇您要在運算式中使用的區段。 [了解详情](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**：从数据源的字段组提供的字段列表中进行选择。[了解详情](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**：本節會對特定設定檔中與歷程相關的技術欄位進行重新分組。 [了解详情](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**：从允许执行复杂筛选的内置函数列表中进行选择。函数按类别组织。[了解详情](../expression/functions.md)
 
 ![](../assets/journey65.png)
 

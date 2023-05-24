@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: listSize
-description: 了解函数listSize
+description: 瞭解函式listSize
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 34%
 
 # listSize {#listSize}
 
-计算列表中的元素数。
+計算清單中的元素數量。
 
 ## 类别
 
 列表
 
-## 函数语法
+## 函式語法
 
 `listSize(<parameters>)`
 
@@ -38,7 +38,7 @@ ht-degree: 34%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `listSize(<listInteger>)`
 
@@ -58,10 +58,10 @@ ht-degree: 34%
 
 `listSize(<listPoint>)`
 
-返回整数。
+傳回整數。
 
 ## 示例
 
 `listSize([10,2,3])`
 
-返回3。
+傳回3。

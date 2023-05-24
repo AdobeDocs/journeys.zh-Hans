@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toString
-description: 了解函数toString
+description: 瞭解函式toString
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,19 +9,19 @@ exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 # toString {#toString}
 
-根据参数值的类型，将其转换为字符串值。 有关数据类型的更多信息，请参阅 [本页](../expression/data-types.md).
+根據其型別，將引數值轉換為字串值。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
 
 ## 类别
 
 转化
 
-## 函数语法
+## 函式語法
 
 `toString(<parameter>)`
 
@@ -29,14 +29,14 @@ ht-degree: 8%
 
 | 参数 | 描述 |
 |--- |--- |
-| dateTime | 以UTC日期格式转换日期 |
-| dateTimeOnly | 以UTC日期格式转换日期 |
-| 持续时间 | 转换为字符串形式的相应毫秒数 |
-| 整数 | 转换为值的字符串表示形式（1变为“1”） |
-| 小数 | 转换为值的字符串表示形式（1.5变为“1.5”） |
-| 布尔 | 如果为true，则将布尔值转换为“true”；如果为false，则将布尔值转换为“false” |
+| dateTime | 將日期轉換為UTC日期格式 |
+| dateTimeOnly | 將日期轉換為UTC日期格式 |
+| 持續時間 | 轉換為字串形式的對應毫秒數 |
+| 整数 | 轉換為值的字串表示法（1會變成「1」） |
+| 小數 | 轉換為值的字串表示法（1.5變成&quot;1.5&quot;） |
+| 布尔 | 將布林值轉換為&#39;true&#39; （如果為true）、&#39;false&#39; （如果為false） |
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `toString(<dateTimeOnly>)`
 
@@ -50,10 +50,10 @@ ht-degree: 8%
 
 `toString(<decimal>)`
 
-返回字符串。
+傳回字串。
 
 ## 示例
 
 `toString(4)`
 
-返回“4”。
+傳回「4」。

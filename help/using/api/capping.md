@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: API描述上限
-description: 进一步了解上限API。
+title: 設定API說明上限
+description: 深入瞭解上限API。
 products: journeys
 feature: Journeys
 role: User
@@ -10,34 +10,34 @@ exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 3%
+ht-degree: 32%
 
 ---
 
 
 # 使用上限API {#work}
 
-上限API可帮助您创建、配置和监控上限配置。
+上限API可幫助您建立、設定和監控您的上限設定。
 
-## API描述上限
+## 設定API說明上限
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
-| [!DNL POST] | list/endpointConfigs | 获取端点上限配置的列表 |
-| [!DNL POST] | /endpointConfigs | 创建端点上限配置 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | 部署端点上限配置 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | 取消部署端点上限配置 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 检查是否可以部署端点上限配置 |
-| [!DNL PUT] | /endpointConfigs/`{uid}` | 更新端点上限配置 |
-| [!DNL GET] | /endpointConfigs/`{uid}` | 检索端点上限配置 |
-| [!DNL DELETE] | /endpointConfigs/`{uid}` | 删除入点上限配置 |
+| [!DNL POST] | list/endpointConfig | 取得端點上限設定清單 |
+| [!DNL POST] | /endpointConfigs | 建立端點上限設定 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | 部署端點上限設定 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | 取消部署端點上限設定 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 檢查是否可以部署端點上限設定 |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | 更新端點上限設定 |
+| [!DNL GET] | /endpointConfigs/`{uid}` | 擷取端點上限設定 |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | 刪除端點上限設定 |
 
-创建或更新配置后，将自动执行检查以保证有效负载的语法和完整性。
-如果出现某些问题，操作会返回警告或错误，以帮助您更正配置。
+建立或更新設定時，會自動執行檢查以確保語法和裝載的完整性。
+如果發生某些問題，作業會傳回警告或錯誤，以協助您更正設定。
 
-## 端点配置
+## 端點設定
 
-以下是端点配置的基本结构：
+以下是端點設定的基本結構：
 
 ```
 {
@@ -77,78 +77,78 @@ ht-degree: 3%
 }
 ```
 
-## 警告和错误
+## 警告和錯誤
 
-当 **canDeploy** 方法调用时，该过程将验证配置并返回由其唯一ID标识的验证状态，其中任一ID:
+當 **canDeploy** 方法呼叫，該程式會驗證設定並傳回由其唯一ID識別的驗證狀態，其形式為：
 
 ```
 "ok" or "error"
 ```
 
-潜在错误包括：
+可能的錯誤包括：
 
-* **ERR_ENDPOINTCONFIG_100**:上限配置：缺少或无效的url
-* **ERR_ENDPOINTCONFIG_101**:上限配置：格式错误的url
-* **ERR_ENDPOINTCONFIG_102**:上限配置：url格式错误：host:port中不允许在url中使用通配符
-* **ERR_ENDPOINTCONFIG_103**:上限配置：缺少HTTP方法
-* **ERR_ENDPOINTCONFIG_104**:上限配置：未定义呼叫评级
-* **ERR_ENDPOINTCONFIG_107**:上限配置：最大调用计数无效(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**:上限配置：最大调用计数无效(periodInMs)
-* **ERR_ENDPOINTCONFIG_111**:上限配置：无法创建端点配置：无效负载
-* **ERR_ENDPOINTCONFIG_112**:上限配置：无法创建端点配置：应为JSON有效负载
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**:无效的服务名称 `<!--<given value>-->`:必须是“dataSource”或“action”
+* **ERR_ENDPOINTCONFIG_100**：上限設定：遺失或無效的url
+* **ERR_ENDPOINTCONFIG_101**：上限設定：格式錯誤的url
+* **ERR_ENDPOINTCONFIG_102**：上限設定：格式錯誤的url：host：port中不允許url中的wildchar
+* **ERR_ENDPOINTCONFIG_103**：上限設定：遺失HTTP方法
+* **ERR_ENDPOINTCONFIG_104**：上限設定：未定義任何通話分級
+* **ERR_ENDPOINTCONFIG_107**：上限設定：無效的最大呼叫計數(maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**：上限設定：無效的最大呼叫計數(periodInMs)
+* **ERR_ENDPOINTCONFIG_111**：上限設定：無法建立端點設定：無效的承載
+* **ERR_ENDPOINTCONFIG_112**：上限設定：無法建立端點設定：預期JSON裝載
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**：無效的服務名稱 `<!--<given value>-->`：必須為「dataSource」或「action」
 
-潜在的警告是：
+可能的警告是：
 
-**ERR_ENDPOINTCONFIG_106**:上限配置：未定义的最大HTTP连接数：默认情况下不限制
+**ERR_ENDPOINTCONFIG_106**：上限設定：未定義最大HTTP連線：預設無限制
 
 ## 用例
 
-在此部分中，您将找到在中管理上限配置可执行的五个主要用例 [!DNL Journey Orchestration].
+在本節中，您將找到五個主要使用案例，您可以執行這些案例來管理您的上限設定，位置在 [!DNL Journey Orchestration].
 
-为帮助您进行测试和配置，提供了Postman集合 [此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+为帮助您进行测试和配置，可点击[此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)获取 Postman 集合。
 
-此Postman集合已设置为共享通过 __[Adobe I/O控制台的集成](https://console.adobe.io/integrations) >试用>下载到Postman__，它会使用选定的集成值生成Postman环境文件。
+此“Postman 集合”已设置为通过 __[Adobe I/O 控制台的集成](https://console.adobe.io/integrations) > 试用 > 为 Postman 下载__&#x200B;共享 Postman 变量集合，它会使用选定的集成值生成 Postman 环境文件。
 
-下载并上传到Postman后，您需要添加三个变量： `{JO_HOST}`,`{BASE_PATH}` 和 `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Orchestration] 网关URL
-* `{BASE_PATH}` :API的入口点。 值为“/authoring”
-* `{SANDBOX_NAME}` :标题 **x-sandbox-name** （例如，“prod”），对应于将执行API操作的沙盒名称。 请参阅 [沙箱概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans) 以了解更多信息。
+下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
+* `{JO_HOST}`：[!DNL Journey Orchestration]网关 URL
+* `{BASE_PATH}`：API 的入口点。值为“/authoring”
+* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
 
-在以下部分中，您将找到用于执行用例的Rest API调用排序列表。
+在以下部分中，您将找到用于执行用例的 Rest API 调用排序列表。
 
-用例n°1: **创建和部署新的上限配置**
+使用案例n°1： **建立及部署新的上限設定**
 
 1. list
-1. 创建
+1. create
 1. candeploy
-1. 部署
+1. deploy
 
-用例n°2: **更新和部署尚未部署的上限配置**
+使用案例n°2： **更新和部署尚未部署的上限設定**
 
 1. list
 1. get
-1. 更新
+1. update
 1. candeploy
-1. 部署
+1. deploy
 
-用例n°3: **取消部署和删除已部署的上限配置**
+使用案例n°3： **取消部署和刪除已部署的上限設定**
 
 1. list
-1. 取消部署
-1. 删除
+1. undeploy
+1. delete
 
-用例n°4: **删除已部署的上限配置。**
+使用案例n°4： **刪除已部署的上限設定。**
 
-在仅一个API调用中，您可以使用forceDelete参数取消部署和删除配置。
+在仅一个 API 调用中，您可以使用 forceDelete 参数取消部署和删除配置。
 1. list
-1. 删除，使用forceDelete参数
+1. 删除，使用 forceDelete 参数
 
-用例n°5: **更新已部署的上限配置**
+使用案例n°5： **更新已部署的上限設定**
 
 1. list
 1. get
-1. 更新
-1. 取消部署
+1. update
+1. undeploy
 1. candeploy
-1. 部署
+1. deploy

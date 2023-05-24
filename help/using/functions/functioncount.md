@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: count
-description: 了解函数计数
+description: 瞭解函式計數
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,15 +13,15 @@ ht-degree: 30%
 
 ---
 
-# 计数 {#count}
+# count {#count}
 
-计算列表的元素，而不考虑null值。
+計算清單的元素而不考慮null值。
 
 ## 类别
 
 聚合
 
-## 函数语法
+## 函式語法
 
 `count(<listAny>)`
 
@@ -38,14 +38,14 @@ ht-degree: 30%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `count(<listAny>)`
 
-返回整数。
+傳回整數。
 
 ## 示例
 
 `count([10,2,10,null])`
 
-返回3。
+傳回3。

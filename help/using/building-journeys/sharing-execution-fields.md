@@ -15,43 +15,43 @@ ht-degree: 12%
 
 # journeyStep 事件操作执行字段 {#sharing-execution-fields}
 
-此混合将由journeyStepEvent和journeyStepProfileEvent共享。
+此mixin將由journeyStepEvent和journeyStepProfileEvent共用。
 
-如果步骤包含要处理的操作，则这些字段将添加到事件有效负载中。
+如果步驟有要處理的動作，這些欄位將會新增至事件裝載。
 
 ## actionID
 
-正在执行的操作的ID。
+正在執行的動作ID。
 
 类型：字符串
 
 ## actionName
 
-操作的名称。 如果未设置名称，则将执行stepName。
+動作的名稱。 如果尚未設定名稱，則會採用stepName。
 
 类型：字符串
 
 ## actionType
 
-操作的类型。
+動作的型別。
 
 类型：字符串
 
-## actionParameted
+## actionParameterized
 
-指示操作是否已参数化。
+指出動作是否已引數化。
 
 类型：布尔值
 
 ## actionExecutionTime
 
-执行当前操作所花费的时间（以毫秒为单位）。
+執行目前動作所需的時間（毫秒）。
 
-类型：long
+型別： long
 
 ## actionExecutionError
 
-调用操作时发生的错误类型。
+呼叫動作時發生的錯誤型別。
 
 类型：字符串
 
@@ -63,18 +63,18 @@ ht-degree: 12%
 
 ## actionExecutionErrorCode
 
-操作执行错误的代码。 如果错误包含代码（如HTTP代码），则存在。
+動作執行錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼），則會出現。
 
 类型：字符串
 
 ## actionExecutionOriginError
 
-超时可能出现以下两种情况：
+在以下兩種情況下，可能會發生逾時：
 
-* 首次尝试时，将执行操作。 在这种情况下，执行未完成，因此不存在基本错误
-* 重试时：在这种情况下，actionExecOrigError/actionExecOrigErrorCode描述在重试前尝试时遇到的错误。
+* 在第一次嘗試時會執行動作。 在此情況下，執行尚未完成，因此沒有基礎錯誤
+* 重試：在此情況下，actionExecOrigError/actionExecOrigErrorCode會說明在重試之前嘗試遇到的錯誤。
 
-例如，正在发送电子邮件，并在首次尝试时返回HTTP 500错误。 重试获取，但2次尝试的持续时间超过超时。 然后，操作执行被标记为超时。 操作部分将如下所示：
+例如，會傳送電子郵件，而第一次嘗試時會傳回HTTP 500錯誤。 會重試擷取，但2次嘗試的持續時間超過逾時。 然後該動作執行會標籤為逾時。 動作部分看起來會像這樣：
 
 ```
     ...
@@ -91,21 +91,21 @@ ht-degree: 12%
 
 ## actionExecutionOriginCode
 
-actionExecOrigError的错误代码。
+actionExecOrigError的錯誤碼。
 
 类型：字符串
 
 ## actionBusinessType
 
-指示操作类型。
+指示動作的型別。
 
 值：
 
-* 建筑物
-* ACS电子邮件
-* ACS SMS
-* ACS推送
-* 客户
+* 內建
+* ACS電子郵件
+* ACS簡訊
+* ACS推播
+* 客戶
 * Epsilon
 * ...
 
@@ -113,24 +113,24 @@ actionExecOrigError的错误代码。
 
 ## deliveryJobID
 
-这描述了批处理历程的提交作业ID。
+這描述了批次歷程的傳遞工作ID。
 
 类型：字符串
 
-## batchDeliveryID
+## batchdeliveriyid
 
-此变量描述批处理历程的提交ID。
+這描述了批次歷程的傳遞ID。
 
 类型：字符串
 
 ## fromSegmentTrigger
 
-此描述是否从受众区段触发批量历程。
+這描述了批次歷程是否從受眾區段觸發。
 
 类型：布尔值
 
 ## actionSchedulerCount
 
-在步骤处理期间发送到调度程序服务的调度程序通知请求计数。
+在步驟處理期間傳送至排程器服務的排程器通知要求計數。
 
-类型：long
+型別： long

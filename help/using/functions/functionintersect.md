@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: intersect
-description: 了解函数相交
+description: 瞭解函式交集
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,15 +13,15 @@ ht-degree: 12%
 
 ---
 
-# 相交{#intersect}
+# intersect{#intersect}
 
-返回两个输入列表中的公共值。 如果两个列表之一为空，则返回空列表。
+傳回兩個輸入清單中的通用值。 如果兩個清單之一為Null，則傳回空白清單。
 
 ## 类别
 
 列表
 
-## 函数语法
+## 函式語法
 
 `intersect(<parameters>)`
 
@@ -29,21 +29,21 @@ ht-degree: 12%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 列表1 | 列表 |
-| 列表2 | 列表 |
+| 清單1 | list |
+| 清單2 | list |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
-`intersect(listString,listString)`:listString
-`intersect(listDecimal,listDecimal)`:listDecimal
-`intersect(listInteger,listInteger)`:listInteger
-`intersect(listDateTime,listDateTime)`:listDateTime
-`intersect(listDateTimeOnly,listDateTimeOnly)`:listDateTimeOnly
-`intersect(listDateOnly,listDateOnly)`:listDateOnly
-`intersect(listDuration,listDuration)`:listDuration
-`intersect(listBoolean,listBoolean)`:listBoolean
+`intersect(listString,listString)`： listString
+`intersect(listDecimal,listDecimal)`： listDecimal
+`intersect(listInteger,listInteger)`： listInteger
+`intersect(listDateTime,listDateTime)`： listDateTime
+`intersect(listDateTimeOnly,listDateTimeOnly)`： listDateTimeOnly
+`intersect(listDateOnly,listDateOnly)`： listDateOnly
+`intersect(listDuration,listDuration)`： listDuration
+`intersect(listBoolean,listBoolean)`：listBoolean
 
-返回列表。
+傳回清單。
 
 ## 示例
 
@@ -54,7 +54,7 @@ intersect(
 )
 ```
 
-返回结果 [&quot;sports&quot;、&quot;news&quot;]
+傳回 [&quot;sports&quot;， &quot;news&quot;]
 
 ```json
 intersect(
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-返回配置文件属性和给定类别列表之间的通用项目。
+傳回設定檔屬性與指定類別清單之間的通用專案。
 
 ```json
 intersect(
@@ -72,4 +72,4 @@ intersect(
 )
 ```
 
-返回用户档案属性和给定事件字段之间的常用项目。
+傳回設定檔屬性和指定事件欄位之間的通用專案。

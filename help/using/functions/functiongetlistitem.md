@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: getListItem
-description: 了解gstListItem函数
+description: 瞭解函式gstListItem
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -9,19 +9,19 @@ exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
 # getListItem {#gestListItem}
 
-返回给定索引处列表的项目。
+傳回指定索引處的清單專案。
 
 ## 类别
 
 列表
 
-## 函数语法
+## 函式語法
 
 `getListItem(<parameters>)`
 
@@ -30,59 +30,59 @@ ht-degree: 20%
 | 参数 | 类型 |
 |-----------|------------------|
 | list | listString |
-| 列表 | listBoolean |
-| 列表 | listInteger |
-| 列表 | listDecimal |
-| 列表 | listDuration |
-| 列表 | listDateTime |
-| 列表 | listDateTimeOnly |
-| 列表 | listDateOnly |
+| list | listBoolean |
+| list | listInteger |
+| list | listDecimal |
+| list | listDuration |
+| list | listDateTime |
+| list | listDateTimeOnly |
+| list | listDateOnly |
 | index | 整数 |
 
-## 签名和返回类型
+## 簽章和傳回型別
 
 `getListItem(<listInteger>,<index>)`
 
-返回整数。
+傳回整數。
 
 `getListItem(<listDecimal>,<index>)`
 
-返回小数。
+傳回小數。
 
 `getListItem(<listString>,<index>)`
 
-返回字符串。
+傳回字串。
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-返回日期时间，而不考虑时区。
+傳回不考慮時區的日期時間。
 
 `getListItem(<listDateTime>,<index>)`
 
-返回日期时间。
+傳回日期時間。
 
 `getListItem(<listDateOnly>,<index>)`
 
-返回日期列表。
+傳回日期清單。
 
 `getListItem(<listBoolean>,<index>)`
 
-返回布尔值。
+傳回布林值。
 
 `getListItem(<listDuration>,<index>)`
 
-返回持续时间。
+傳回持續時間。
 
 ## 示例
 
 `getListItem([10, 2, 3], 1)`
 
-返回“2”
+傳回「2」
 
 `getListItem(["A", "B", "C"], 2)`
-返回“C”
+傳回「C」
 
-事件字段为“event.appVersion”且值为的示例：&quot;20.45.2.3434&quot;
+具有事件欄位「event.appVersion」且值為「20.45.2.3434」的範例
 
 `split(@{event.appVersion}, "\\.")`
 
@@ -90,4 +90,4 @@ ht-degree: 20%
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 
-返回“20”
+傳回「20」

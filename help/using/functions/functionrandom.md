@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: random
-description: 了解函数随机性
+description: 瞭解隨機函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -13,21 +13,21 @@ ht-degree: 16%
 
 ---
 
-# 随机 {#random}
+# random {#random}
 
-生成一个介于0和1之间的随机数。
+產生介於0和1之間的隨機數字。
 
 ## 类别
 
 数学
 
-## 函数语法
+## 函式語法
 
 `random(<parameters>)`
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `random()`
 
-返回小数。
+傳回小數。
 

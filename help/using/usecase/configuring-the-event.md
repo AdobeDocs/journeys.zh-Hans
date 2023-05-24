@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 配置事件
-description: 了解如何为历程简单用例配置事件
+description: 瞭解如何為歷程簡單使用案例設定事件
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,38 +15,38 @@ ht-degree: 10%
 
 # 配置事件{#concept_y44_hcy_w2b}
 
-在我们的情景中，每当某人在位于SPA旁边的信标附近走动时，我们都需要接收一个事件。 的 **技术用户** 需要配置系统在我们的历程中将侦听的事件。
+在我們的案例中，每次有人走到位在spa旁的指標附近時，我們都會收到一個事件。 此 **技術使用者** 需要設定系統將在歷程中接聽的事件。
 
-有关事件配置的其他信息，请参阅 [本页](../event/about-events.md).
+有關事件設定的其他資訊，請參閱 [此頁面](../event/about-events.md).
 
-1. 在顶部菜单中，单击 **[!UICONTROL Events]** 选项卡，单击 **[!UICONTROL Add]** 创建新事件。
+1. 在頂端功能表中，按一下 **[!UICONTROL Events]** 標籤並按一下 **[!UICONTROL Add]** 以建立新事件。
 
    ![](../assets/journeyuc1_1.png)
 
-1. 我们输入名称时不带空格或特殊字符：&quot;SpaBeacon&quot;。
+1. 我們輸入名稱（不含空格或特殊字元）：「SpaBeacon」。
 
    ![](../assets/journeyuc1_2.png)
 
-1. 然后，我们选择架构并定义此事件所需的有效负载。 我们从XDM标准化模型中选择所需的字段。 我们需要Experience CloudID来识别实时客户资料数据库中的人员： _endUserIDs > experience > mcid > id_. 将自动为此事件生成ID。 此ID存储在 **[!UICONTROL eventID]** 字段(_experience > campaign > orchestration > eventID_)。 推送事件的系统不应生成ID，它应使用有效负荷预览中提供的ID。 在我们的用例中，此ID用于标识信标位置。 每次人员在Spa信标附近走动时，都会发送一个包含此特定事件ID的事件。 这允许系统知道哪些信标触发了事件发送。
+1. 然後，我們選取結構描述並定義此事件預期的裝載。 我們從XDM標準化模型中選取所需的欄位。 我們需要Experience CloudID才能在即時客戶設定檔資料庫中識別人員： _endUserIDs > experience > mcid > id_. 系統會自動為此事件產生ID。 此ID儲存在 **[!UICONTROL eventID]** 欄位(_experience > campaign >協調> eventID_)。 推播事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 在我們的使用案例中，此ID可用來識別信標位置。 每次有人接近spa信標時，都會傳送包含此特定事件ID的事件。 這可讓系統知道哪個信標觸發了事件傳送。
 
    ![](../assets/journeyuc1_3.png)
 
    >[!NOTE]
    >
-   >字段列表因架构而异。 根据架构定义，某些字段可能是必填的，并且是预选的。
+   >欄位清單會因結構描述而異。 根據結構描述定義，某些欄位可能是必填欄位並預先選定。
 
 1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
    ![](../assets/journeyuc1_6.png)
 
-1. 根据模式属性和选择的命名空间预先选择键。 你可以留着它。
+1. 系統會根據結構描述屬性及選取的名稱空間預先選取金鑰。 您可以保留它。
 
    ![](../assets/journeyuc1_5.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
-1. 单击 **[!UICONTROL View Payload]** 图标来预览系统预期的有效负载，并将其共享给负责事件发送的人员。 需要在Mobile服务管理控制台的回发中配置此负载。
+1. 按一下 **[!UICONTROL View Payload]** 圖示可預覽系統預期的裝載，並與負責事件傳送的人員共用。 需要在Mobile Services管理主控台的回傳中設定此裝載。
 
    ![](../assets/journeyuc1_7.png)
 
-   事件已准备好用在您的历程中。 现在，您需要配置移动应用程序，以便它可以将预期的有效负载发送到流摄取API端点。 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+   事件已準備好用於您的歷程。 您現在需要設定行動應用程式，好讓它能將預期的裝載傳送至串流獲取API端點。 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。

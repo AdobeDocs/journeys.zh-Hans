@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 函数
-description: 了解函数
+description: 瞭解函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,15 +15,15 @@ ht-degree: 75%
 
 # 函数 {#concept_p1r_qj5_dgb}
 
-一个函数可以具有不同的签名（一组不同的有序参数）。 函数签名可以具有0-N表达式作为有序参数。
+函式可以有不同的簽名（一組不同的有序引數）。 函式簽章可以有0-N運算式做為有序引數。
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-每个函数都具有特定的返回类型。
+每個函式都有特定的傳回型別。
 
-以下是受支持的函数的列表。
+以下是支援的函式清單。
 
-## 主要函数
+## 主要函式
 
 | 类别 | 函数 |
 |-------------|-----------------------|

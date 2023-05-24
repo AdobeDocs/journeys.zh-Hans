@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: nowWithDelta
-description: Learn about the function nowWithDelta
+description: 瞭解nowWithDelta函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 7%
 
 # nowWithDelta {#nowWithDelta}
 
-Returns the current datetime including an offset. If a time zone id is specified, the time zone offset will be applied. For more information on data types, refer to [this page](../expression/data-types.md).
+傳回包含位移的目前日期時間。 如果指定了時區識別碼，則會套用時區位移。 如需資料型別的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
 
 ## 类别
 
 日期
 
-## 函数语法
+## 函式語法
 
 `nowWithDelta(<parameters>)`
 
@@ -29,17 +29,17 @@ Returns the current datetime including an offset. If a time zone id is specified
 
 | 参数 | 描述 |
 |--- |--- |
-| 三角洲 | 正整数或负整数值 |
-| 日期部分 | 年、月、日、小时、分钟或秒（字符串） |
-| 时区id | 时区值的字符串表示形式。 For more, see [Data types](../expression/data-types.md). 时区ID必须是字符串常量。 It cannot be a field reference nor an expression. |
+| delta | 正整數或負整數 |
+| 日期部分 | 年、月、日、小時、分鐘或秒作為字串 |
+| 時區id | 時區值的字串表示。 如需詳細資訊，請參閱 [資料型別](../expression/data-types.md). 時區ID必須是字串常數。 它不能是欄位參考或運算式。 |
 
-## Signatures and returned type
+## 簽章和傳回型別
 
 `nowWithDelta(<delta>,<date part>`
 
 `nowWithDelta(<delta>,<date part>,"<timeZone id>")`
 
-Returns a dateTime.
+傳回日期時間。
 
 ## 示例
 
@@ -47,4 +47,4 @@ Returns a dateTime.
 
 `nowWithDelta(-2, "hours", "Europe/Paris")`
 
-Returns a dateTime exactly 2 hours ago.
+傳回2小時前的日期時間。

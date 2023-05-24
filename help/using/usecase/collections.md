@@ -13,9 +13,9 @@ ht-degree: 7%
 
 # 使用自定义操作动态传递集合{#passing-collection}
 
-您可以在自定义操作参数中传递将在运行时动态填充的集合。 支持两种收藏集：
+您可以在自訂動作引數中傳遞集合，這些引數將在執行階段以動態方式填入。 支援兩種集合：
 
-* 简单收藏集：简单数据类型的数组，例如，具有listString的数组：
+* 簡單集合：簡單資料型別的陣列，例如，使用listString：
 
    ```
    {
@@ -26,7 +26,7 @@ ht-degree: 7%
    }
    ```
 
-* 对象集合：JSON对象数组，例如：
+* 物件集合：JSON物件的陣列，例如：
 
    ```
    {
@@ -52,7 +52,7 @@ ht-degree: 7%
 
 ## 限制 {#limitations}
 
-* 当前不支持对象数组中对象的嵌套数组。 例如：
+* 目前不支援物件陣列中物件的巢狀陣列。 例如：
 
    ```
    {
@@ -67,11 +67,11 @@ ht-degree: 7%
    }
    ```
 
-* 要使用测试模式测试收藏集，您需要使用代码视图模式。 目前，业务事件不支持代码视图模式。 您只能发送包含单个元素的集合。
+* 若要使用測試模式測試集合，您需要使用程式碼檢視模式。 目前商業事件不支援程式碼檢視模式。 您只能傳送包含單一元素的集合。
 
-## 一般程序 {#general-procedure}
+## 一般程式 {#general-procedure}
 
-在此部分中，我们将使用以下JSON有效负载示例。 这是一个对象数组，其中的字段是一个简单的集合。
+在本節中，我們將使用以下JSON裝載範例。 這是物件的陣列，其欄位是簡單的集合。
 
 ```
 {
@@ -97,51 +97,51 @@ ht-degree: 7%
 }
 ```
 
-您可以看到“products”是两个对象的数组。 您至少需要一个对象。
+您可以看到「products」是兩個物件的陣列。 您至少需要一個物件。
 
-1. 创建自定义操作。 请参阅[此页](../action/about-custom-action-configuration.md)。
+1. 建立您的自訂動作。 请参阅[此页](../action/about-custom-action-configuration.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 部分，并粘贴JSON示例。 显示的结构是静态的：粘贴有效负载时，所有字段都被定义为常量。
+1. 在 **[!UICONTROL Action parameters]** 區段，貼上JSON範例。 顯示的結構是靜態的：貼上裝載時，所有欄位都會定義為常數。
 
    ![](../assets/uc-collection-1.png)
 
-1. 如果需要，请调整字段类型。 集合支持以下字段类型：listString， listInteger， listDecimal， listBoolean， listDateTime， listDateTimeOnly， listDateOnly， listObject
+1. 如有需要，請調整欄位型別。 集合支援下列欄位型別：listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listObject
 
    >[!NOTE]
    >
-   >根据有效负载示例自动推断字段类型。
+   >根據裝載範例自動推斷欄位型別。
 
-1. 如果要动态传递对象，则需要将它们设置为变量。 在本例中，我们将“products”设置为变量。 对象中包含的所有对象字段都会自动设置为变量。
+1. 如果您想要以動態方式傳遞物件，則需要將物件設定為變數。 在此範例中，我們將「products」設為變數。 物件中包含的所有物件欄位都會自動設定為變數。
 
    >[!NOTE]
    >
-   >有效负载示例的第一个对象用于定义字段。
+   >裝載範例的第一個物件用於定義欄位。
 
-1. 对于每个字段，定义将在历程画布中显示的标签。
+1. 對於每個欄位，定義將顯示在歷程畫布中的標籤。
 
    ![](../assets/uc-collection-2.png)
 
-1. 创建历程并添加您创建的自定义操作。 请参阅[此页](../building-journeys/using-custom-actions.md)。
+1. 建立您的歷程並新增您建立的自訂動作。 请参阅[此页](../building-journeys/using-custom-actions.md)。
 
-1. 在 **[!UICONTROL Action parameters]** 部分中，使用高级表达式编辑器定义数组参数（本例中的“products”）。
+1. 在 **[!UICONTROL Action parameters]** 區段，使用進階運算式編輯器來定義陣列引數（範例中為「products」）。
 
    ![](../assets/uc-collection-3.png)
 
-1. 对于以下每个对象字段，从源XDM架构中键入相应的字段名称。 如果名称相同，则不需要。 在本例中，我们只需定义“产品ID”和“颜色”即可。
+1. 對於以下每個物件欄位，輸入來源XDM結構描述中的對應欄位名稱。 如果名稱相同，則不需要。 在我們的範例中，我們只需要定義「product id」和「color」。
 
    ![](../assets/uc-collection-4.png)
 
-对于数组字段，您还可以使用高级表达式编辑器执行数据处理。 在以下示例中，我们使用 [过滤器](../functions/functionfilter.md) 和 [相交](../functions/functionintersect.md) 函数：
+針對陣列欄位，您也可以使用進階運算式編輯器來執行資料操作。 在以下範例中，我們使用 [篩選](../functions/functionfilter.md) 和 [相交](../functions/functionintersect.md) 函式：
 
 ![](../assets/uc-collection-5.png)
 
 ## 特定案例{#examples}
 
-对于阵列的异构类型和阵列，使用listAny类型定义阵列。 您只能映射单个项目，但无法将数组更改为变量。
+對於異質型別和陣列陣列，陣列是以listAny型別定義。 您只能對應個別專案，但無法將陣列變更為變數。
 
 ![](../assets/uc-collection-heterogeneous.png)
 
-异源类型示例：
+異質型別範例：
 
 ```
 {
@@ -154,7 +154,7 @@ ht-degree: 7%
 }
 ```
 
-数组的示例：
+陣列陣列範例：
 
 ```
 {
@@ -170,4 +170,4 @@ ht-degree: 7%
 
 **相关主题**
 
-[使用自定义操作](../building-journeys/using-custom-actions.md)
+[使用自訂動作](../building-journeys/using-custom-actions.md)

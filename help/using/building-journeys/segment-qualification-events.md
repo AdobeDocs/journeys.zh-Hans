@@ -17,7 +17,7 @@ ht-degree: 85%
 
 ## 关于客户细分资格事件{#about-segment-qualification}
 
-此活动允许您的历程侦听 Adobe Experience Platform 客户细分中用户档案的进出口，以便使个人进入历程或在历程中前进。有关创建客户细分的更多信息，请参阅此[部分](../segment/about-segments.md)。
+此活动允许您的历程侦听 Adobe Experience Platform 区段中配置文件的进入和退出，以便使个人进入历程或在历程中向前推进。有关创建客户细分的更多信息，请参阅此[部分](../segment/about-segments.md)。
 
 假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
 
@@ -50,13 +50,13 @@ ht-degree: 85%
 
    ![](../assets/segment-copy.png)
 
-1. 在 **[!UICONTROL Behaviour]** 字段中，选择要侦听客户细分入口和/或出口。
+1. 在 **[!UICONTROL Behaviour]** 欄位，選擇您要監聽區段入口、出口或兩者。
 
    >[!NOTE]
    >
-   >请注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 与 **已实现** 和 **已退出** 区段参与状态。Adobe Experience Platform 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >請注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 對應至 **已實現** 和 **已退出** 來自Adobe Experience Platform的區段參與狀態。 如需如何評估區段的詳細資訊，請參閱 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-1. 选择命名空间。仅当事件被定位为历程的第一步时，才需要此操作。
+1. 选择命名空间。只有在將事件定位為歷程的第一步時，才需要此專案。
 
    ![](../assets/segment7.png)
 
@@ -72,7 +72,7 @@ ht-degree: 85%
 
 ![](../assets/segment8.png)
 
-包含区段鉴别事件的新历程在您发布后10分钟内可运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待十分钟，才能使用此历程。
+包含區段資格事件的新歷程在發佈十分鐘後即可運作。 此時間間隔對應於專用服務的快取重新整理間隔。 因此，您必須等待十分鐘才能使用此歷程。
 
 ## 最佳实践 {#best-practices-segments}
 

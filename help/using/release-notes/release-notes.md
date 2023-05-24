@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 100%
 
@@ -462,7 +462,7 @@ Alpha 程序提供目前在有限的一组客户中经过测试的功能。这�
 <li><p>Journey Orchestration 现在会自动将历程中执行的步骤传递到 Adobe Experience Platform。这包括遇到的潜在错误。此信息可用于通过对特定历程或所有历程的历程步骤事件执行查询，从而实现报告和故障排除。<a href="../building-journeys/sharing-overview.md">了解更多信息</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Journey Orchestration 现在可以连接到生产和非生产 Adobe Experience Platform 沙箱。请注意，沙箱是测试版功能。<a href="../about/access-management.md#sandboxes">了解更多信息</a></p>
+<li><p>Journey Orchestration 现在可以连接到生产和非生产 Adobe Experience Platform 沙盒。请注意，沙盒是测试版功能。<a href="../about/access-management.md#sandboxes">了解更多信息</a></p>
 </li>
 </ul>
 </td>

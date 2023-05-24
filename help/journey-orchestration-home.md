@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: b0bf5c12adc6e9c538f2264f79b7c43656424f05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 * [Journey Orchestration 产品页](https://www.adobe.com/cn/experience-platform/journey-orchestration.html)
 * [Experience Platform 文档](https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html)
-* [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
+* [Real-time Customer Profile 文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
 * [Experience Cloud XDM 字段定义](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
 * [身份命名空间文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
 * [流式引入 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)

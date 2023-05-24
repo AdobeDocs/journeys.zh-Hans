@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: containIgnoreCase
-description: 了解函数containIgnoreCase
+description: 瞭解函式containIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 22%
 
 # containIgnoreCase {#containIgnoreCase}
 
-检查第二个参数字符串是否包含在第一个参数字符串中，而不考虑大小写。
+檢查第二個引數字串是否包含在第一個引數字串中，而不考慮大小寫。
 
 ## 类别
 
 字符串
 
-## 函数语法
+## 函式語法
 
 `containIgnoreCase(<parameters>)`
 
@@ -30,16 +30,16 @@ ht-degree: 22%
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 搜索字符串 | 字符串 |
+| 字串已搜尋 | 字符串 |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `containIgnoreCase(<string>,<string>)`
 
-返回布尔值。
+傳回布林值。
 
 ## 示例
 
 `containIgnoreCase("rowing is great", "GREAT")`
 
-返回true。
+傳回true。

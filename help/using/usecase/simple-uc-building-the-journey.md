@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 构建历程 — 简单
-description: 了解如何构建简单的用例历程
+title: 建立歷程 — 簡單
+description: 瞭解如何建立簡單的使用案例歷程
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,12 +15,12 @@ ht-degree: 41%
 
 # 构建历程{#concept_eyw_mcy_w2b}
 
-**业务用户**&#x200B;现在可以构建历程。我们的历程将仅包含一个包含以下活动的路径：
+**业务用户**&#x200B;现在可以构建历程。我們的歷程將僅包含一個包含以下活動的路徑：
 
-* &quot;SpaBeacon&quot; **[!UICONTROL Event]**:当人员在spa信标附近行走时，系统将收到一个事件，并且该人员的历程将开始。
-* a **[!UICONTROL Condition]** 活动来检查此人是否是女人
-* an **[!UICONTROL Email]** 活动(使用Adobe Campaign Standard)
-* an **[!UICONTROL End]** 活动
+* 「SpaBeacon」 **[!UICONTROL Event]**：當有人接近spa信標時，系統將會收到事件，且會為該人開始歷程。
+* a **[!UICONTROL Condition]** 活動以檢查該人員是否為女性
+* 一個 **[!UICONTROL Email]** 活動(使用Adobe Campaign Standard)
+* 一個 **[!UICONTROL End]** 活動
 
 >[!NOTE]
 >
@@ -32,15 +32,15 @@ ht-degree: 41%
 
    ![](../assets/journey31.png)
 
-1. 编辑右侧显示的配置窗格中的历程属性。我们将其命名为“Spa历程”，并将其设置为持续一个月，从12月1日到31日。
+1. 编辑右侧显示的配置窗格中的历程属性。我們將其命名為「Spa journey」，並將其設定為持續一個月（從12月1日至31日）。
 
    ![](../assets/journeyuc1_8.png)
 
-1. 通过将“SpaBeacon”事件从面板拖放到画布，开始设计历程。 您还可以双击调色板中的事件来将其添加到画布。
+1. 從浮動視窗拖放「SpaBeacon」事件至畫布，開始設計您的歷程。 您还可以双击调色板中的事件来将其添加到画布。
 
    ![](../assets/journeyuc1_9.png)
 
-1. 现在，让我们添加一个条件来检查此人是否为女性。 将条件活动拖放到历程中。
+1. 現在新增條件，以檢查該人員是否為女性。 将条件活动拖放到历程中。
 
    ![](../assets/journeyuc1_10.png)
 
@@ -48,27 +48,27 @@ ht-degree: 41%
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用简单的表达式编辑器，查找性别字段(_人员>性别_)并将其拖放到创建以下条件的右侧：&quot;性别等于&quot;女性&quot;。
+1. 使用簡單運算式編輯器，尋找性別欄位(_人員>性別_)，並拖曳至右側以建立下列條件：「性別等於」女性。
 
    ![](../assets/journeyuc1_12.png)
 
-1. 删除 **[!UICONTROL Email]** 活动，然后选择“Spa折扣”事务型消息传递模板。 此模板是使用Adobe Campaign设计的。 请参阅 [页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
+1. 放置 **[!UICONTROL Email]** 活動並選取您的「Spa折扣」交易式訊息範本。 此範本是使用Adobe Campaign設計的。 請參閱此 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
 
    ![](../assets/journeyuc1_13.png)
 
-1. 在 **[!UICONTROL Email]** 字段，然后从数据源中选择电子邮件地址。
+1. 按一下 **[!UICONTROL Email]** 欄位並從資料來源選取電子郵件地址。
 
    ![](../assets/journeyuc1_14.png)
 
-1. 同样，从数据源定义名字和姓氏个性化字段。
+1. 以相同方式，從資料來源定義名字和姓氏個人化欄位。
 
    ![](../assets/journeyuc1_15.png)
 
-1. 删除 **[!UICONTROL End]** 活动。
+1. 放置 **[!UICONTROL End]** 活動。
 
    ![](../assets/journeyuc1_17.png)
 
-1. 单击 **[!UICONTROL Test]** 使用测试用户档案切换和测试您的历程。 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
+1. 按一下 **[!UICONTROL Test]** 使用測試設定檔切換及測試您的歷程。 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
 
    ![](../assets/journeyuc1_18bis.png)
 
@@ -76,4 +76,4 @@ ht-degree: 41%
 
    ![](../assets/journeyuc1_18.png)
 
-下次，当一位女士在Spa信标附近散步时，她会立即收到一封“Spa折扣”个性化电子邮件。
+下次當女性在Spa指標附近散步時，會立即收到「Spa折扣」個人化電子郵件。

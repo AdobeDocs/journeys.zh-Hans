@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: lower
-description: 了解下面的函数
+description: 瞭解下方的函式
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 23%
 
 # lower {#lower}
 
-返回参数的小写版本。
+傳回小寫版本的引數。
 
 ## 类别
 
 字符串
 
-## 函数语法
+## 函式語法
 
 `lower(<parameter>)`
 
@@ -29,14 +29,14 @@ ht-degree: 23%
 
 * 字符串
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `lower(<string>)`
 
-返回字符串。
+傳回字串。
 
 ## 示例
 
 `lower("A")`
 
-返回“a”。
+傳回「a」。

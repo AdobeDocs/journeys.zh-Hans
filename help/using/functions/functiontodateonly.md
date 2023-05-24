@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDateOnly
-description: 了解函数toDateOnly
+description: 瞭解函式toDateOnly
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 21%
 
 # toDateOnly{#toDateOnly}
 
-将参数值转换为仅限日期的值。
+將引數值轉換為僅日期值。
 
 ## 类别
 
 转化
 
-## 函数语法
+## 函式語法
 
 `toDateOnly(<parameters>)`
 
@@ -29,19 +29,19 @@ ht-degree: 21%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期格式（XDM日期格式） | 字符串 |
+| ISO-8601或&quot;YYYY-MM-DD&quot;格式的日期（XDM日期格式） | 字符串 |
 | 日期 | 日期 |
 
-## 签名和返回的类型
+## 簽章和傳回的型別
 
 `toDateOnly(<date>)`
 
 `toDateOnly(<string>)`
 
-不考虑时区而返回日期时间。
+傳回日期時間而不考慮時區。
 
 ## 示例
 
 `toDateOnly("2016-08-18")`
 
-返回表示2016-08-18的dateOnly对象。
+傳回代表2016-08-18的dateOnly物件。

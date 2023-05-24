@@ -18,7 +18,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="关于数据源"
->abstract="数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息。"
+>abstract="数据源配置允许您定义与系统的连接，以检索将在历程中使用的其他信息。"
 
 数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息，例如：
 
@@ -44,7 +44,7 @@ ht-degree: 96%
 >
 >数据源配置操作必须始终由&#x200B;**技术用户**&#x200B;执行。
 
-1. 在菜单窗格中，选择 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 部分中，单击 **[!UICONTROL Manage]**。
+1. 在功能表窗格中，選取 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 部分中，单击 **[!UICONTROL Manage]**。
 
    将显示数据源列表。有关该界面的更多信息，请参阅[此页面](../about/user-interface.md)。
 

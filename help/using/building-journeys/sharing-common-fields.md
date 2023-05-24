@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: journeysteps事件常用字段
-description: journeysteps事件常用字段
+title: journeysteps事件常見欄位
+description: journeysteps事件常見欄位
 feature: Journeys
 role: User
 level: Intermediate
@@ -13,194 +13,194 @@ ht-degree: 9%
 
 ---
 
-# journeysteps事件常用字段 {#sharing-common-fields}
+# journeysteps事件常見欄位 {#sharing-common-fields}
 
-此混合将由journeyStepEvent和journeyStepProfileEvent共享。
+此mixin將由journeyStepEvent和journeyStepProfileEvent共用。
 
-这些是常见的XDM字段， [!DNL Journey Orchestration] 发送到Adobe Experience Platform。 对于历程中处理的每个步骤，都将发送通用字段。 自定义操作和扩充使用更多特定字段。
+這些是常見的XDM欄位， [!DNL Journey Orchestration] 傳送至Adobe Experience Platform。 歷程中處理的每個步驟都會傳送通用欄位。 自訂動作和增強功能會使用更具體的欄位。
 
-其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件的大小。
+其中一些欄位僅適用於特定處理模式（動作執行、資料擷取等） 以限制事件大小。
 
 ## 入口
 
-指示用户是否已进入历程。 如果不存在，则我们假定该值为false。
+指出使用者是否已進入歷程。 如果不存在，我們會假設值為false。
 
 类型：布尔值
 
-值：true/false
+值： true/false
 
-## 重入
+## 重新進入
 
-指示用户是否使用同一实例重新进入历程。 如果不存在，则我们假定该值为false。
+指出使用者是否已重新進入具有相同執行個體的歷程。 如果不存在，我們會假設值為false。
 
 类型：布尔值
 
-值：true/false
+值： true/false
 
 ## instanceEnded
 
-指示实例是否已结束（成功或未成功）。
+指示執行個體是否已結束（成功或失敗）。
 
 类型：布尔值
 
 ## eventID
 
-处理中的事件ID，用于步骤处理。 如果事件是外部事件，则值为其eventId。 如果事件是内部事件，则值为内部eventId（例如scheduledNotificationReceived、exceutedAction等）。
+處理中的事件ID，用於步驟處理。 如果事件是外部事件，則值為其eventId。 如果事件是內部事件，則值為內部eventId （例如scheduledNotificationReceived、executedAction等）。
 
 类型：字符串
 
 ## nodeID
 
-客户端节点id（从画布中）。
+使用者端節點id （來自畫布）。
 
 类型：字符串
 
 ## stepID
 
-当前正在处理的步骤的唯一ID。
+目前正在處理的步驟的唯一ID。
 
 类型：字符串
 
 ## stepName
 
-当前正在处理的步骤的名称。
+目前正在處理的步驟名稱。
 
 类型：字符串
 
 ## stepType
 
-步骤的类型。
+步驟型別。
 
 类型：字符串
 
-可能值：
+可能的值：
 
 * 条件
 * 操作
 * 调度程序
-* 计时器
+* 計時器
 
-## stepStatus
+## 步驟狀態
 
-完成处理（触发步骤事件）后，步骤的状态，表示步骤的状态。
+步驟的狀態，代表步驟的狀態，表示其處理已完成（且已引發步驟事件）的時間。
 
 类型：字符串
 
 状态可以是：
 
-* 结束：该步骤没有过渡，且其处理已成功结束。
-* 错误：步骤处理引发错误。
-* 过渡：该步骤正在等待事件转换到另一个步骤。
-* 上限：在操作或扩充期间引发的上限错误导致步骤失败。
-* timedout:在操作或扩充过程中引发的超时错误导致步骤失败。
-* instanceTimedout:该步骤已停止处理，因为实例已达到其超时。
+* 已結束：步驟沒有轉變，其處理已成功結束。
+* 錯誤：步驟處理發生錯誤。
+* 轉變：步驟正在等待事件轉變到另一個步驟。
+* 上限：步驟因上限錯誤而失敗，在動作或擴充期間引發。
+* 逾時：步驟因逾時錯誤而失敗，在動作或擴充期間發生。
+* instanceTimedout：步驟已停止處理，因為執行個體已達到其逾時。
 
 ## journeyID
 
-历程的ID。
+歷程的ID。
 
 类型：字符串
 
 ## journeyVersionID
 
-历程版本的ID。 此ID表示对历程的身份引用，对于journeyStepEvent。
+歷程版本的ID。 在journeyStepEvent的情況下，此id代表歷程的身分參考。
 
 类型：字符串
 
 ## journeyVersionName
 
-历程版本的名称。
+歷程版本的名稱。
 
 类型：字符串
 
 ## journeyVersion
 
-历程版本的版本。
+歷程版本的版本。
 
 类型：字符串
 
-## instanceID
+## 執行個體識別碼
 
-历程实例的内部ID。
+歷程執行個體的內部ID。
 
 类型：字符串
 
 ## externalKey
 
-从事件提取的外部键值以处理它。
+從事件擷取以處理的外部金鑰。
 
 类型：字符串
 
-## parentStepID
+## parentstepid
 
-实例中当前已处理步骤的父级的步骤ID。
+執行個體中目前已處理步驟的父級步驟ID。
 
 类型：字符串
 
 ## parentStepName
 
-当前步骤的父项的步骤名称。
+目前步驟之父項的步驟名稱。
 
 类型：字符串
 
 ## parentTransitionID
 
-将实例引入已处理步骤的过渡的ID。
+將執行個體帶到已處理步驟的轉變ID。
 
 类型：字符串
 
 ## parentTransitionName
 
-将实例引入已处理步骤的过渡的名称。
+將執行個體帶到已處理步驟的轉變名稱。
 
 类型：字符串
 
 ## inTest
 
-指示此历程是否处于测试模式。
+指出此歷程是否處於測試模式。
 
 类型：布尔值
 
 ## processingTime
 
-从实例步骤进入到处理结束的总时间（以毫秒为单位）。
+從執行個體步驟進入到處理結束的總時間量（毫秒）。
 
-类型：long
+型別： long
 
 ## instanceType
 
-指示实例类型（如果是批类型或单一类型）。
+指示執行個體型別（如果是批次或單一）。
 
 类型：字符串
 
-值：批次/单一
+值：批次/單一
 
 ## recurrenceIndex
 
-当历程是批处理并且是定期的时，循环的索引（首次运行的recurrenceIndex = 1）。
+如果歷程是批次和週期性（第一次執行有recurrenceIndex = 1）的週期索引。
 
-类型：long
+型別： long
 
-## isBatchToUnimation
+## isBatchToUnitary
 
-指示此单一实例是否已从批处理实例触发。
+指出此單一執行個體是否已從批次執行個體觸發。
 
 类型：布尔值
 
 ## batchExternalKey
 
-批处理事件的外部键。
+批次事件的外部金鑰。
 
 类型：字符串
 
 ## batchInstanceID
 
-这是批量实例ID。
+這是批次例項ID。
 
 类型：字符串
 
-## batchUneminaryBranchID
+## batchUnitaryBranchID
 
-如果实例是从批处理实例触发的，则表示唯一的分支ID。
+如果執行個體是從批次執行個體觸發，則為單一分支ID。
 
 类型：字符串
