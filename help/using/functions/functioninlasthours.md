@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inLastHours
-description: 瞭解函式inLastHours
+description: 了解inLastHours函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 20%
 
 # inLastHours {#inLastHours}
 
-如果指定的日期時間介於現在和現在之間 — 差異小時，則傳回true。
+如果给定的日期时间介于现在和现在之间 — 增量小时，则返回true。
 
 ## 类别
 
 日期
 
-## 函式語法
+## 函数语法
 
 `inLastHours(<dateTime>,<delta>)`
 
@@ -29,21 +29,21 @@ ht-degree: 20%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期時間 | dateTime |
+| 日期时间 | dateTime |
 | delta | 整数 |
 
-## 簽章和傳回型別
+## 签名和返回类型
 
 `inLastHours(<dateTime>,<integer>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
 `inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-傳回true。
+返回真。
 
 `inLastHours(@{MyEvent.timestamp}, 4)`
 
-傳回true。
+返回真。

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: trim
-description: 瞭解函式修剪
+description: 了解函数修剪
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 32%
 
 # trim {#trim}
 
-移除開始和結束空格。
+删除起始和结束空格。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `trim(<parameters>)`
 
@@ -31,14 +31,14 @@ ht-degree: 32%
 |-----------|------------------|
 | 字符串 | 字符串 |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `trim(<string>)`
 
-傳回字串。
+返回字符串。
 
 ## 示例
 
 `trim(" Hello ")`
 
-傳回「Hello」。
+返回“Hello”。

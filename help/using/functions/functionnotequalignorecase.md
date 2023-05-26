@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: notEqualIgnoreCase
-description: 瞭解函式notEqualIgnoreCase
+description: 了解函数notEqualIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 13%
 
 # notEqualIgnoreCase {#notEqualIgnoreCase}
 
-檢查第一個引數字串與第二個引數字串是否不同，忽略大小寫考量。
+检查第一个参数字符串与第二个参数字符串是否不同，忽略大小写注意事项。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `notEqualIgnoreCase(<parameters>)`
 
@@ -29,11 +29,11 @@ ht-degree: 13%
 
 * 字符串
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `notEqualIgnoreCase(<string>,<string>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 

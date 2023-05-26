@@ -1,6 +1,6 @@
 ---
-title: 步驟事件欄位清單
-description: 舊版欄位
+title: 步骤事件字段列表
+description: 旧版字段
 feature: Journeys
 topic: Content Management
 role: User
@@ -15,7 +15,7 @@ ht-degree: 50%
 
 # 关于旧版字段 {#sharing-legacy-fields}
 
-此類別包含原始步驟事件欄位。 這些欄位是以下欄位群組的一部分：
+此类别包含原始步骤事件字段。 这些字段是以下字段组的一部分：
 
 * [journeySteps 事件常用字段](../building-journeys/sharing-common-fields.md)
 * [journeyStep 事件操作执行字段](../building-journeys/sharing-execution-fields.md)

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: replaceAll
-description: 瞭解函式replaceAll
+description: 了解函数replaceAll
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,15 +15,15 @@ ht-degree: 10%
 
 # replaceAll {#replaceAll}
 
-以基礎字串中的取代字串取代符合目標字串的所有專案。
+使用基字符串中的替换字符串替换匹配目标字符串的所有匹配项。
 
-取代會從字串的開頭到結尾進行，例如，將字串「aaa」中的「aa」取代為「b」將會產生「ba」而不是「ab」。
+例如，替换操作从字符串的开头到结尾进行，将字符串“aaa”中的“aa”替换为“b”将导致“ba”而不是“ab”。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `replaceAll(<parameters>)`
 
@@ -31,20 +31,20 @@ ht-degree: 10%
 
 | 参数 | 类型 |
 |-----------|--------------|
-| 基底 | 字符串 |
-| Target | 字串(RegExp) |
-| 取代 | 字符串 |
+| 基础 | 字符串 |
+| Target | 字符串（正则表达式） |
+| 替换 | 字符串 |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 
-傳回字串。
+返回字符串。
 
 ## 示例{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
-傳回「Hexxo Worxd」。
+返回“Hexxo Worxd”。
 
-由於目標引數是RegExp，因此根據您要取代的字串，您可能需要逸出部分字元。 請參考中的範例 [此頁面](../functions/functionreplace.md#example_2).
+由于目标参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 请参阅中的示例 [此页面](../functions/functionreplace.md#example_2).

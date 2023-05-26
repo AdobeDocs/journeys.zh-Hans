@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: endWith
-description: 瞭解函式endWith
+description: 了解函数endWith
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 25%
 
 # endWith {#endWith}
 
-如果第二個引數是第一個引數的尾碼，則傳回true。
+如果第二个参数是第一个参数的后缀，则返回true。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `endWith(<parameters>)`
 
@@ -30,20 +30,20 @@ ht-degree: 25%
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 字尾 | 字符串 |
+| 后缀 | 字符串 |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `endWith(<string>,<string>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
 `endWith("Hello World", "World")`
 
-傳回true。
+返回真。
 
 `endWith("Hello World", "Hello")`
 
-傳回false。
+返回假。

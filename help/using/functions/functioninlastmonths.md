@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inLastMonths
-description: 瞭解函式inLastMonths
+description: 了解inLastMonths函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 20%
 
 # inLastMonths {#inLastMonths}
 
-如果指定的日期或dateTime介於現在和現在 — 差異月份之間，則傳回true。
+如果给定的日期或日期时间介于现在和现在之间 — 增量月份，则返回true。
 
 ## 类别
 
 日期
 
-## 函式語法
+## 函数语法
 
 `inLastMonths(<dateTime>,<delta>)`
 
@@ -29,17 +29,17 @@ ht-degree: 20%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 日期時間 | dateTime |
+| 日期时间 | dateTime |
 | delta | 整数 |
 
-## 簽章和傳回型別
+## 签名和返回类型
 
 `inLastMonths(<dateTime>,<integer>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
 `inLastMonths(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-傳回true。
+返回真。

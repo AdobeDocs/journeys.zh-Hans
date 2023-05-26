@@ -15,51 +15,51 @@ ht-degree: 6%
 
 # 历程步骤共享概述{#sharing-overview}
 
-[!DNL Journey Orchestration] 自動將歷程績效資料傳送至Adobe Experience Platform，以便與其他資料結合進行分析。
+[!DNL Journey Orchestration] 自动将旅程性能数据发送到Adobe Experience Platform，以便可以与其他数据结合进行分析。
 
 >[!NOTE]
 >
->此功能預設會在歷程步驟事件的所有執行個體上啟動。 您無法修改或更新在布建步驟事件期間建立的結構描述和資料集。 預設情況下，這些結構描述和資料集處於唯讀模式。
+>默认情况下，历程步骤事件的所有实例都会激活此功能。 您无法修改或更新在配置步骤事件期间创建的架构和数据集。 默认情况下，这些架构和数据集处于只读模式。
 
-例如，您已設定傳送多封電子郵件的歷程。 此功能可讓您合併 [!DNL Journey Orchestration] 含有下游事件資料的資料，例如已發生的轉換次數、網站上發生的參與度或是商店中發生的交易數。 歷程資訊可以與Adobe Experience Platform上的資料結合，來自其他數位屬性或離線屬性，以提供更完整的效能檢視。
+例如，您已设置发送多个电子邮件的历程。 此功能允许您合并 [!DNL Journey Orchestration] 包含下游事件数据的数据，例如发生了多少转化、网站上发生了多少参与度或商店中发生了多少交易。 旅程信息可与Adobe Experience Platform上的其他数字资产或离线资产中的数据相结合，以更全面地查看性能。
 
-[!DNL Journey Orchestration] 自動建立必要的結構描述，並針對個人在歷程中執行的每個步驟，將資料集串流至Adobe Experience Platform。 步驟事件對應於在歷程中從某個節點移動到另一個節點的個人。 例如，在包含事件、條件和動作的歷程中，三個步驟事件會傳送至Adobe Experience Platform。
+[!DNL Journey Orchestration] 自动创建必要的架构，并针对个人在旅程中执行的每个步骤将数据集流式传输到Adobe Experience Platform。 步骤事件对应于在历程中从一个节点移动到另一个节点的个人。 例如，在包含事件、条件和操作的历程中，会将三个步骤事件发送到Adobe Experience Platform。
 
-傳遞的XDM欄位清單很完整。 有些包含系統產生的程式碼，有些則具有人類看得懂的易記名稱。 範例包括歷程活動或步驟狀態的標籤：動作逾時或錯誤結束的次數。
+传递的XDM字段列表是完整的。 一些包含系统生成的代码，而其他则具有易于用户识别的友好名称。 示例包括历程活动的标签或步骤状态：操作超时或出错的次数。
 
 >[!CAUTION]
 >
->無法為即時設定檔服務開啟資料集。 請確定 **[!UICONTROL Profile]** 切換功能已關閉。
+>无法为实时配置文件服务打开数据集。 请确保 **[!UICONTROL Profile]** 切换功能已关闭。
 
-歷程會在資料發生時以串流方式傳送資料。 您可以使用查詢服務來查詢此資料。 您可以連線至Customer Journey Analytics或其他BI工具，以檢視與這些步驟相關的資料。
+历程会在发生数据时以流式方式发送数据。 您可以使用查询服务查询此数据。 您可以连接到Customer Journey Analytics或其他BI工具以查看与这些步骤相关的数据。
 
-已建立下列結構描述：
+将创建以下架构：
 
-* 的歷程步驟事件結構描述 [!DNL Journey Orchestration]  — 繫結至歷程中繼資料的歷程步驟事件。
-* 具有歷程欄位的歷程結構描述 [!DNL Journey Orchestration]  — 說明歷程的歷程中繼資料。
+* 的历程步骤事件架构 [!DNL Journey Orchestration]  — 与历程元数据绑定的历程步骤事件。
+* 具有历程字段的历程架构 [!DNL Journey Orchestration] -历程元数据以描述历程。
 
 ![](../assets/sharing1.png)
 
 ![](../assets/sharing2.png)
 
-傳遞的資料集如下：
+传递的数据集如下：
 
-* 歷程步驟事件
+* 历程步骤事件
 * 历程
 
 ![](../assets/sharing3.png)
 
-傳遞至Adobe Experience Platform的XDM欄位清單的詳細資訊如下：
+此处详细列出了传递到Adobe Experience Platform的XDM字段列表：
 
 * [步骤事件字段列表](../building-journeys/sharing-field-list.md)
 * [旧版步骤事件字段](../building-journeys/sharing-legacy-fields.md)
 
-如需向Adobe Experience Platform報告步驟事件的詳細資訊，請觀看此影片 [教學課程影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+有关向Adobe Experience Platform报告事件的步骤的更多信息，请观看此视频 [教程视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
 
-## 與Customer Journey Analytics整合{#integration-cja}
+## 与客户历程分析集成{#integration-cja}
 
-Journey Orchestration步驟事件可以連結到中的其他資料集 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans). 以下是一般工作流程：
+Journey Orchestration步骤事件可以链接到中的其他数据集 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans). 以下是常规工作流程：
 
-* Customer Journey Analytics會擷取「歷程步驟事件」資料集。
-* 此 **profileID** 相關聯「Journey Orchestration的歷程步驟事件結構描述」中的欄位定義為身分欄位。 在Customer Journey Analytics中，您可以將此資料集連結至任何與以人員為基礎的識別碼具有相同值的其他資料集。
-* 如果您想要在Customer Journey Analytics中使用此資料集，如需跨管道歷程分析，請參閱此 [檔案](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+* Customer Journey Analytics摄取“历程步骤事件”数据集。
+* 此 **profileID** 关联的“Journey Orchestration的历程步骤事件架构”中的字段定义为标识字段。 在Customer Journey Analytics中，您可以将此数据集链接到与基于人员的标识符具有相同值的任何其他数据集。
+* 如果要在Customer Journey Analytics中使用此数据集，请参阅此 [文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).

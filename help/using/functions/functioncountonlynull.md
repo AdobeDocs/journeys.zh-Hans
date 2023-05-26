@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: countOnlyNull
-description: 瞭解函式countOnlyNull
+description: 了解函数countOnlyNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 33%
 
 # countOnlyNull {#countOnlyNull}
 
-計算清單中null值的數量。
+计算列表中的空值的数量。
 
 ## 类别
 
 聚合
 
-## 函式語法
+## 函数语法
 
 `countOnlyNull(<listAny>)`
 
@@ -38,14 +38,14 @@ ht-degree: 33%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `countOnlyNull(<listAny>)`
 
-傳回整數。
+返回一个整数。
 
 ## 示例
 
 `countOnlyNull([10,2,10,null])`
 
-傳回1。
+返回1。

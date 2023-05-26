@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 等待活动
-description: 瞭解等待活動
+description: 了解等待活动
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,39 +15,39 @@ ht-degree: 8%
 
 # 等待活动{#section_rlm_nft_dgb}
 
-如果您想在執行路徑中的下一個活動之前等待，可以使用 **[!UICONTROL Wait]** 活動。 这让您可以定义执行下一个活动的时刻。有三個可用選項：
+如果您想在执行路径中的下一个活动之前等待，可以使用 **[!UICONTROL Wait]** 活动。 这让您可以定义执行下一个活动的时刻。提供了三个选项：
 
-* [持續時間](#duration)
+* [持续时间](#duration)
 * [自定义](#custom)
    <!--* [Email send time optimization](#email_send_time_optimization)-->
 
-## 關於等待活動{#about_wait}
+## 关于等待活动{#about_wait}
 
-以下說明當您同時使用數個等待時，如何排定等待的優先順序。 如果它們具有相同的時間設定和不同的但重疊的條件，則位於上方的等待將會是優先的等待。 例如，第一次等待的條件是「成為女性」，而第二次平行等待的條件是「成為VIP」。 系統會優先處理第一個等待活動。
+下面显示了当您同时使用多个等待时，如何区分等待的优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则上面定位的等待将优先处理。 例如，第一次等待的条件是“成为女性”，而第二次并行等待的条件是“成为VIP”。 将优先处理第一个等待活动。
 
-另請注意，如果兩個不同的等待是平行的，則無論其垂直位置為何，先發生的等待將會獲得優先順序。 例如，如果等待1小時以上，等待30分鐘以下，則在30分鐘後，將處理30分鐘等待。
+另请注意，如果同时存在两个不同的等待，则无论其垂直位置如何，都会优先考虑首先发生的等待。 例如，如果等待1小时而等待时间少于30分钟，则在30分钟后，将处理30分钟的等待。
 
 >[!NOTE]
 >
->最長等待時間為30天。
+>最长等待时间为30天。
 >
->在測試模式中， **[!UICONTROL Wait time in test]** 引數可讓您定義每個等待活動的持續時間。 默认时间为 10 秒。這可確保您快速獲得測試結果。 另請參閱 [此頁面](../building-journeys/testing-the-journey.md)
+>在测试模式下， **[!UICONTROL Wait time in test]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 参见 [此页面](../building-journeys/testing-the-journey.md)
 
-## 持續時間等待{#duration}
+## 持续时间等待{#duration}
 
-選取下一個活動執行前等待的持續時間。
+选择下一个活动执行前等待的持续时间。
 
 ![](../assets/journey55.png)
 
-## 自訂等待{#custom}
+## 自定义等待{#custom}
 
-此選項可讓您根據來自事件或資料來源的欄位，使用進階運算式來定義自訂日期，例如2020年7月12日下午5點。 它無法讓您定義自訂持續時間，例如7天。 運算式編輯器中的運算式應提供dateTimeOnly格式。 请参阅[此页](../expression/expressionadvanced.md)。如需dateTimeOnly格式的詳細資訊，請參閱 [此頁面](../expression/data-types.md).
+利用此选项，您可以使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](../expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参见 [此页面](../expression/data-types.md).
 
 >[!NOTE]
 >
->您可以運用dateTimeOnly運算式，或使用函式轉換為dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的欄位格式為2016-08-12T09:46:06Z。
+>您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段格式为2016-08-12T09:46:06Z。
 >
->此 **時區** 應在您歷程的屬性中找到。 因此，目前無法從介面直接指向完整的ISO-8601時間戳記，混合時間和時區位移，例如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
+>此 **时区** 应在历程的属性中找到。 因此，目前无法从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05. 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 

@@ -15,34 +15,34 @@ ht-degree: 28%
 
 # 历程字段 {#sharing-journey-fields}
 
-此Mixin用於歷程結構描述（與journeyStepEvent相關）。 它包含下列欄位：
+此mixin用在历程模式中（与journeyStepEvent相关）。 它包含以下字段：
 
 ## journeyID
 
-主要歷程的ID。
+主历程的ID。
 
 类型：字符串
 
 ## journeyVersionID
 
-歷程版本的ID。 此ID代表歷程的身分。
+历程版本的ID。 此ID表示历程的身份。
 
 类型：字符串
 
 ## name
 
-歷程的名稱。
+历程的名称。
 
 类型：字符串
 
 ## 描述
 
-歷程的說明。
+历程描述。
 
 类型：字符串
 
 ## version
 
-版本，表示為 `major`.`minor`
+版本，表示为 `major`.`minor`
 
 类型：字符串

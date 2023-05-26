@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinctWithNull
-description: 瞭解函式distinctWithNull
+description: 了解distinctWithNull函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 5%
 
 # distinctWithNull {#distinctWithNull}
 
-傳回給定清單的不同值或物件。 如果清單中至少有一個null專案，則傳回的清單中將會出現null專案。
+返回给定列表的不同值或对象。 如果列表至少有一个null条目，则返回的列表中将显示一个null条目。
 
 ## 类别
 
 列表
 
-## 函式語法
+## 函数语法
 
 `distinctWithNull(<parameters>)`
 
@@ -29,51 +29,51 @@ ht-degree: 5%
 
 | 参数 | 类型 | 描述 |
 |-----------|------------------|------------------|
-| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要處理的清單。 對於listObject，它必須是欄位參考。 |
-| keyAttributeName | 字符串 | 此引數是選用引數，僅適用於listObject。 如果未提供引數，如果所有屬性的值都相同，則會將物件視為重複。 否則，如果給定的屬性具有相同的值，則會將物件視為重複。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要处理的列表。 对于listObject，它必须是字段引用。 |
+| keyAttributeName | 字符串 | 此参数是可选的，仅适用于listObject。 如果未提供参数，则在所有属性具有相同的值时，会将对象视为重复。 否则，如果给定的属性具有相同的值，则对象被视为重复。 |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `distinctWithNull(<listInteger>)`
 
-傳回整數清單。
+返回整数的列表。
 
 `distinctWithNull(<listDecimal>)`
 
-傳回小數點清單。
+返回小数位数列表。
 
 `distinctWithNull(<listString>)`
 
-傳回字串清單。
+返回字符串列表。
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-傳回日期時間清單，不考慮時區。
+返回不考虑时区的日期时间列表。
 
 `distinctWithNull(<listDateTime>)`
 
-傳回日期時間清單。
+返回日期时间列表。
 
 `distinctWithNull(<listDateOnly>)`
 
-傳回日期清單。
+返回日期列表。
 
 `distinctWithNull(<listBoolean>)`
 
-傳回布林值清單。
+返回布尔值列表。
 
 `distinctWithNull(<listDuration>)`
 
-傳回持續時間清單。
+返回持续时间列表。
 
 `distinctWithNull(<listObject>)`
 
 `distinctWithNull(<listObject>,<string>)`
 
-傳回物件清單。
+返回对象列表。
 
 ## 示例
 
 `distinctWithNull([10,2,10,null])`
 
-傳回 [10， 2， null]
+返回 [10， 2，空]

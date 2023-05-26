@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: intersect
-description: 瞭解函式交集
+description: 了解函数交集
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 12%
 
 # intersect{#intersect}
 
-傳回兩個輸入清單中的通用值。 如果兩個清單之一為Null，則傳回空白清單。
+返回两个输入列表中的公用值。 如果两个列表之一为null，则返回空列表。
 
 ## 类别
 
 列表
 
-## 函式語法
+## 函数语法
 
 `intersect(<parameters>)`
 
@@ -29,10 +29,10 @@ ht-degree: 12%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 清單1 | list |
-| 清單2 | list |
+| 列表1 | list |
+| 列表2 | list |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `intersect(listString,listString)`： listString
 `intersect(listDecimal,listDecimal)`： listDecimal
@@ -43,7 +43,7 @@ ht-degree: 12%
 `intersect(listDuration,listDuration)`： listDuration
 `intersect(listBoolean,listBoolean)`：listBoolean
 
-傳回清單。
+返回列表。
 
 ## 示例
 
@@ -54,7 +54,7 @@ intersect(
 )
 ```
 
-傳回 [&quot;sports&quot;， &quot;news&quot;]
+返回 [“体育”、“新闻”]
 
 ```json
 intersect(
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-傳回設定檔屬性與指定類別清單之間的通用專案。
+返回配置文件属性和给定类别列表之间的通用项。
 
 ```json
 intersect(
@@ -72,4 +72,4 @@ intersect(
 )
 ```
 
-傳回設定檔屬性和指定事件欄位之間的通用專案。
+返回配置文件属性和给定事件字段之间的公用项。

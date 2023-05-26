@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: countWithNull
-description: 瞭解函式countWithNull
+description: 了解函数countWithNull
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 32%
 
 # countWithNull {#countWithNull}
 
-計算清單中的所有元素，包括null值。
+计算列表的所有元素，包括null值。
 
 ## 类别
 
 聚合
 
-## 函式語法
+## 函数语法
 
 `countWithNull(<listAny>)`
 
@@ -38,14 +38,14 @@ ht-degree: 32%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `countWithNull(<listAny>)`
 
-傳回整數。
+返回一个整数。
 
 ## 示例
 
 `countWithNull([10,2,10,null])`
 
-傳回4。
+返回4。

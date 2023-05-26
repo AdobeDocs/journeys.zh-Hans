@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 关于编排活动
-description: 瞭解協調活動
+description: 了解编排活动
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 # 关于编排活动 {#concept_ksq_2rt_52b}
 
-從浮動視窗的畫面左側，提供下列協調活動：
+从屏幕左侧的面板中，提供了以下编排活动：
 
 * [条件活动](../building-journeys/condition-activity.md)
 * [结束活动](../building-journeys/end-activity.md)

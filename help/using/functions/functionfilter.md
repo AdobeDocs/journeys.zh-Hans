@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: filter
-description: 瞭解函式篩選器
+description: 了解函数筛选器
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 10%
 
 # filter{#filter}
 
-傳回listObject，其中物件的索引鍵屬性符合其中一個指定的索引鍵值。
+返回一个listObject，其对象具有匹配给定键值之一的键属性。
 
 ## 类别
 
 列表
 
-## 函式語法
+## 函数语法
 
 `filter(<parameters>)`
 
@@ -29,11 +29,11 @@ ht-degree: 10%
 
 | 参数 | 类型 | 描述 |
 |-----------|------------------|------------------|
-| listToFilter | listObject | 要篩選的物件清單。 它必須是欄位參考。 |
-| keyAttributeName | 字符串 | 指定清單物件中的屬性名稱，用來作為篩選的索引鍵 |
-| keyValueList | list | 用於篩選的索引鍵值陣列 |
+| listToFilter | listObject | 要筛选的对象列表。 它必须是字段引用。 |
+| keyAttributeName | 字符串 | 给定列表对象中的属性名称，用作筛选键 |
+| keyValueList | list | 用于筛选的键值数组 |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `filter(listObject, string, listString)`
 
@@ -51,11 +51,11 @@ ht-degree: 10%
 
 `filter(listObject, string, listBoolean)`
 
-傳回listObject。
+返回listObject。
 
 ## 示例
 
-以下是在傳入事件「myevent」中傳遞的裝載範例：
+以下是在传入事件“myevent”中传递的有效负载示例：
 
 ```json
 "productListItems": [{
@@ -73,7 +73,7 @@ ht-degree: 10%
 }]
 ```
 
-您可以使用下列運算式：
+您可以使用以下表达式：
 
 ```json
 filter(
@@ -83,4 +83,4 @@ filter(
 )
 ```
 
-傳回listObject，其中包含以&quot;product2&quot;和&quot;product3&quot;作為id的兩個物件。
+返回包含两个对象的listObject，其中“product2”和“product3”作为ID。

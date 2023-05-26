@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 使用 Adobe Campaign
-description: 瞭解Adobe Campaign動作
+description: 了解Adobe Campaign操作
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,40 +15,40 @@ ht-degree: 4%
 
 # 使用 Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-您可以使用Adobe Campaign Standard的「交易訊息」功能來傳送電子郵件、推播通知和簡訊。
+您可以使用Adobe Campaign Standard的事务性消息传送功能发送电子邮件、推送通知和短信。
 
-[!DNL Journey Orchestration] 隨附立即可用的動作，可連線至Adobe Campaign Standard。
+[!DNL Journey Orchestration] 附带一个开箱即用的操作，用于连接到Adobe Campaign Standard。
 
-必須發佈Campaign Standard交易式訊息及其相關事件，才能在Journey Orchestration中使用。 如果事件已發佈，但訊息尚未發佈，則不會顯示在Journey Orchestration介面中。 如果訊息已發佈，但其關聯事件尚未發佈，則會顯示在Journey Orchestration介面中，但無法使用。
+必须发布Campaign Standard事务型消息及其相关事件，才能在Journey Orchestration中使用。 如果事件已发布，但消息未发布，则不会显示在Journey Orchestration界面中。 如果消息已发布，但其关联事件未发布，则它将在Journey Orchestration界面中可见，但不可用。
 
 >[!NOTE]
 >
->設定Adobe Campaign Standard整合後，Adobe Campaign Standard動作就會自動定義每5分鐘4000次呼叫的上限規則。 這與Adobe Campaign Standard交易式訊息的官方規模相對應。
+>一旦设置了Adobe Campaign Standard集成，就会为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这与Adobe Campaign Standard事务性消息传递的官方规模相对应。
 >
->閱讀中有關交易式訊息傳送SLA的詳細資訊 [Adobe Campaign Standard產品說明](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
+>有关事务性消息传递SLA的更多信息，请参阅 [Adobe Campaign Standard产品描述](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
-以下是設定它的步驟：
+以下是配置它的步骤：
 
-1. 從 **[!UICONTROL Actions]** 清單中，按一下內建 **[!UICONTROL AdobeCampaignStandard]** 動作。 動作設定窗格會在畫面右側開啟。
+1. 从 **[!UICONTROL Actions]** 列表中，单击内置 **[!UICONTROL AdobeCampaignStandard]** 操作。 操作配置窗格将在屏幕右侧打开。
 
    ![](../assets/actioncampaign.png)
 
-1. 複製您的Adobe Campaign Standard執行個體URL並貼到 **[!UICONTROL URL]** 欄位。
+1. 复制Adobe Campaign Standard实例URL并将其粘贴到 **[!UICONTROL URL]** 字段。
 
-1. 按一下 **[!UICONTROL Test the instance URL]** 以測試例項的有效性。
+1. 单击 **[!UICONTROL Test the instance URL]** 以测试实例的有效性。
 
    >[!NOTE]
    >
-   >此測試會驗證：
+   >此测试可验证：
    >
-   >主機為「.campaign.adobe.com」、「.campaign-sandbox.adobe.com」、「.campaign-demo.adobe.com」、「.ats.adobe.com」或「.adls.adobe.com」。
+   >主机为“.campaign.adobe.com”、“.campaign-sandbox.adobe.com”、“.campaign-demo.adobe.com”、“.ats.adobe.com”或“.adls.adobe.com”。
    >
-   >URL以https開頭，
+   >URL以https开头，
    >
-   >與此Adobe Campaign Standard例項關聯的組織與Journey Orchestration的組織相同。
+   >与此Adobe Campaign Standard实例关联的组织与Journey Orchestration的组织相同。
 
-設計您的歷程時，三個動作將適用於 **[!UICONTROL Action]** 類別： **[!UICONTROL Email]**， **[!UICONTROL Push]**， **[!UICONTROL SMS]** (請參閱 [使用Adobe Campaign動作](../building-journeys/using-adobe-campaign-actions.md))。 **回應事件** 也可讓您對訊息點按、開啟等做出反應。 (請參閱 [回應事件](../building-journeys/reaction-events.md))。
+设计旅程时，以下三个操作将可用： **[!UICONTROL Action]** 类别： **[!UICONTROL Email]**， **[!UICONTROL Push]**， **[!UICONTROL SMS]** (请参阅 [使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-actions.md))。 **反应事件** 还允许您对消息点击次数、打开次数等做出反应。 (请参阅 [反应事件](../building-journeys/reaction-events.md))。
 
 ![](../assets/journey58.png)
 
-如果您使用協力廠商系統來傳送訊息，則需要新增及設定自訂動作。 另請參閱 [關於自訂動作組態](../action/about-custom-action-configuration.md).
+如果您使用第三方系统来发送消息，则需要添加和配置自定义操作。 参见 [关于自定义操作配置](../action/about-custom-action-configuration.md).

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 预览有效负载
-description: 瞭解如何預覽裝載
+description: 了解如何预览有效负载
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,20 +15,20 @@ ht-degree: 7%
 
 # 预览有效负载 {#concept_jgf_4yk_4fb}
 
-裝載預覽可讓您驗證裝載定義。
+利用有效负载预览，可验证有效负载定义。
 
 >[!NOTE]
 >
->對於系統產生的事件，當您建立事件時，在檢視裝載預覽之前，請儲存事件並重新開啟。 在裝載中產生事件ID時，需要執行此步驟。
+>对于系统生成的事件，在创建事件时，在查看有效负载预览之前，请保存事件并重新打开它。 在有效负载中生成事件ID时需要此步骤。
 
-1. 按一下 **[!UICONTROL View Payload]** 圖示以預覽系統預期的裝載。
+1. 单击 **[!UICONTROL View Payload]** 图标以预览系统预期的有效负载。
 
    ![](../assets/journey13.png)
 
-   您可以注意到已選取的欄位已顯示。
+   您可以注意到已选择的字段已显示。
 
    ![](../assets/journey14.png)
 
-1. 檢查預覽以驗證裝載定義。
+1. 检查预览以验证有效负载定义。
 
-1. 然後，您可以將裝載預覽與共用給負責事件傳送的人員。 此裝載可協助他們設計事件推送至的設定 [!DNL Journey Orchestration]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。
+1. 然后，您可以将有效负载预览与共享给负责事件发送的人员。 此有效负载可以帮助他们设计推送到的事件设置 [!DNL Journey Orchestration]. 请参阅[此页](../event/additional-steps-to-send-events-to-journey-orchestration.md)。

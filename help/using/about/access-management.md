@@ -40,7 +40,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用 Adobe Campaign Standard 在历程中发送消息，则需要此产品用户档案。請勿在Admin Console中重新命名。
+   >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用 Adobe Campaign Standard 在历程中发送消息，则需要此产品用户档案。不应在Admin Console中重命名它。
 
 * **[!UICONTROL Standard User]**：具有基本访问权限的用户，如历程管理。此产品用户档案包括以下权限：
    * 管理历程

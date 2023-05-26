@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 建立歷程 — 進階
+title: 构建旅程 — 高级
 description: 了解如何构建高级用例历程
 feature: Journeys
 role: User

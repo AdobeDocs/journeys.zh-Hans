@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: in
-description: 瞭解中的函式
+description: 了解中的函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,15 +15,15 @@ ht-degree: 19%
 
 # in {#in}
 
-檢查第一個引數值是否在清單中。 檢查會透過每個引數值上的「等於」來執行。 如果找到引數值，則會傳回true，否則會傳回false。
+检查第一个参数值是否在列表中。 检查通过每个参数值的“等于”来执行。 如果找到参数值，则返回true，否则返回false。
 
-型別 `<expression>` 必須與清單專案相符。 作為提醒，清單的專案型別必須彼此相符。
+的类型 `<expression>` 必须与列表的项目匹配。 作为提醒，列表的项目类型必须匹配。
 
 ## 类别
 
 列表
 
-## 函式語法
+## 函数语法
 
 `in(<parameters>)`
 
@@ -34,9 +34,9 @@ ht-degree: 19%
 | 字符串 | 字符串 |
 | 布尔值 | 布尔型 |
 | 整数 | 整数 |
-| 小數 | 小數 |
-| 持續時間 | 持續時間 |
-| 日期時間 | 日期時間 |
+| 小数 | 小数 |
+| 持续时间 | 持续时间 |
+| 日期时间 | 日期时间 |
 | DateTimeOnly | DateTimeOnly |
 | 列表 | listString |
 | 列表 | listBoolean |
@@ -47,7 +47,7 @@ ht-degree: 19%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `in(<integer>,<listInteger>)`
 
@@ -65,16 +65,16 @@ ht-degree: 19%
 
 `in(<duration>,<listDuration>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
 `in(4,[4,5,3,4])`
 
-傳回true。
+返回真。
 
 `in(8,[4,5,3,4])`
 
-傳回false。
+返回假。
 
 `in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`

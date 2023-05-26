@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: max
-description: 瞭解函式max
+description: 了解函数max
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 7%
 
 # max{#max}
 
-傳回一組運算式中的最大值，以清單或兩個運算式形式給出。 Null值會被忽略。
+返回一组表达式中的最大值，以列表或两个表达式形式给定。 Null值将被忽略。
 
 ## 类别
 
 聚合
 
-## 函式語法
+## 函数语法
 
 `max(<parameter>)`
 
@@ -33,57 +33,57 @@ ht-degree: 7%
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* 持續時間
+* 持续时间
 * 整数
-* 小數
+* 十进制
 * dateTime
 * dateTimeOnly
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `max(<listDuration>)`
 
-傳回持續時間。
+返回持续时间。
 
 `max(<listInteger>)`
 
-傳回持續時間。
+返回持续时间。
 
 `max(<listDateTimeOnly>)`
 
-傳回不考慮時區的日期時間。
+返回不考虑时区的日期时间。
 
 `max(<listDateTime>)`
 
-傳回日期時間。
+返回日期时间。
 
 `max(<listDateOnly>)`
 
-傳回日期。
+返回日期。
 
 `max(<listDecimal>)`
 
-傳回小數。
+返回小数。
 
 `max(<decimal>,<decimal>)`
 
-傳回小數。
+返回小数。
 
 `max(<duration>,<duration>)`
 
-傳回持續時間。
+返回持续时间。
 
 `max(<dateTime>,<dateTime>)`
 
-傳回日期時間。
+返回日期时间。
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-傳回不考慮時區的日期時間。
+返回不考虑时区的日期时间。
 
 `max(<integer>,<integer>)`
 
-傳回整數。
+返回一个整数。
 
 ## 示例
 
@@ -91,8 +91,8 @@ ht-degree: 7%
 
 `max([10,3,8])`
 
-傳回10。
+返回10。
 
 `max([10,null,8])`
 
-傳回10。
+返回10。

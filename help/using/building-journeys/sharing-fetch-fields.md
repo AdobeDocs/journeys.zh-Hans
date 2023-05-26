@@ -15,52 +15,52 @@ ht-degree: 7%
 
 # journeyStep 事件数据提取字段 {#sharing-fetch-fields}
 
-此mixin將由journeyStepEvent和journeyStepProfileEvent共用。
+此mixin将由journeyStepEvent和journeyStepProfileEvent共享。
 
-在步驟處理期間，我們可以在欄位群組中擷取N筆資料。
+在步骤处理过程中，我们可以在字段组上获取N个数据。
 
 ## fetchTotalTime
 
-在步驟處理期間，花費在資料擷取上的總時間（毫秒）。
+在步骤处理期间用于数据提取的总时间（以毫秒为单位）。
 
-型別： long
+类型： long
 
 ## fetchTypeInError
 
-定義擷取作業發生錯誤時是在Adobe Experience Platform上還是在自訂資料來源上。
+定义错误获取是在Adobe Experience Platform上还是在自定义数据源上。
 
 类型：字符串
 
 值：
 * aep
-* 自訂
+* 自定义
 
 ## fetchError
 
-處理資料擷取時發生的錯誤型別。
+处理数据获取时发生的错误类型。
 
 类型：字符串
 
 值：
 * http
 * 上限
-* 逾時
+* 超时
 * error
 
 ## fetchErrorCode
 
-擷取錯誤的程式碼。 如果錯誤有程式碼（例如HTTP程式碼），則會出現。 例如，如果actionExecError是http，則代碼404代表HTTP 404錯誤。
+提取错误的代码。 如果错误包含代码（例如HTTP代码），则会出现。 例如，如果actionExecError为http，则代码404表示HTTP 404错误。
 
 类型：字符串
 
 ## fetchOriginError
 
-在以下兩種情況下，可能會發生逾時：
+在以下两种情况下，可能会出现超时：
 
-* 在第一次嘗試執行動作時。 在此情況下，執行尚未完成，因此沒有基礎錯誤
-* 重試：在此情況下，actionExecOrigError/actionExecOrigErrorCode會說明在重試之前嘗試遇到的錯誤。
+* 在第一次尝试时，执行操作。 在这种情况下，执行未完成，因此没有基础错误
+* 重试：在这种情况下，actionExecOrigError/actionExecOrigErrorCode描述在重试之前尝试遇到的错误。
 
-例如，正在從統一設定檔服務擷取資料，第一次嘗試時會傳回HTTP 500錯誤。 會重試擷取，但2次嘗試的持續時間超過逾時。 然後該動作執行會標籤為逾時。 動作部分看起來會像這樣：
+例如，正在从统一配置文件服务中获取数据，第一次尝试时返回HTTP 500错误。 将重试获取，但2次尝试的持续时间超过了超时。 然后，该操作执行将标记为超时。 操作部分将如下所示：
 
 ```
     ...
@@ -75,36 +75,36 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode
 
-系統提供的錯誤代碼 [!DNL Journey Orchestration] 正在查詢。 例如，可以是404、500等。
+系统提供的错误代码 [!DNL Journey Orchestration] 正在查询。 例如，可以是404、500等。
 
 类型：字符串
 
 ## fetchCount
 
-擷取資料的次數，無論來源型別為何。
+获取数据的次数，不考虑源的类型。
 
-型別： long
+类型： long
 
 ## fetchPlatformTotalTime
 
-從Adobe Experience Platform擷取資料所需的總時間（以毫秒為單位）。 備註：此時間長度是從引擎將擴充事件傳送至擴充服務並接收回應時算起。
+从Adobe Experience Platform获取数据所花费的总时间（以毫秒为单位）。 注释：此时间量从引擎将扩充事件发送到扩充服务并接收响应时开始计算。
 
-型別： long
+类型： long
 
 ## fetchPlatformCount
 
-從Adobe Experience Platform擷取資料的次數。
+从Adobe Experience Platform获取数据的次数。
 
-型別： long
+类型： long
 
-## fetchCustomTotaltime
+## fetchCustomTotalTime
 
-擷取自訂資料的時間長度（以毫秒為單位）。 備註：此時間長度是從引擎將擴充事件傳送至擴充服務並接收回應時算起
+获取自定义数据的时间（以毫秒为单位）。 注释：此时间量从引擎将扩充事件发送到扩充服务并接收响应时开始计算
 
-型別： long
+类型： long
 
 ## fetchCustomCount
 
-從外部系統擷取自訂資料的次數。
+从外部系统获取自定义数据的次数。
 
-型別： long
+类型： long

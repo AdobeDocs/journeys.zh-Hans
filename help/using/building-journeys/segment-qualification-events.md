@@ -50,13 +50,13 @@ ht-degree: 85%
 
    ![](../assets/segment-copy.png)
 
-1. 在 **[!UICONTROL Behaviour]** 欄位，選擇您要監聽區段入口、出口或兩者。
+1. 在 **[!UICONTROL Behaviour]** 字段中，选择要侦听区段入口、出口，还是同时侦听两者。
 
    >[!NOTE]
    >
-   >請注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 對應至 **已實現** 和 **已退出** 來自Adobe Experience Platform的區段參與狀態。 如需如何評估區段的詳細資訊，請參閱 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >请注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 对应于 **已实现** 和 **已退出** 来自Adobe Experience Platform的区段参与状态。 有关如何评估区段的更多信息，请参阅 [分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-1. 选择命名空间。只有在將事件定位為歷程的第一步時，才需要此專案。
+1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要执行此操作。
 
    ![](../assets/segment7.png)
 
@@ -72,7 +72,7 @@ ht-degree: 85%
 
 ![](../assets/segment8.png)
 
-包含區段資格事件的新歷程在發佈十分鐘後即可運作。 此時間間隔對應於專用服務的快取重新整理間隔。 因此，您必須等待十分鐘才能使用此歷程。
+包括区段鉴别事件的新历程将在您发布十分钟后开始运行。 此时间间隔对应于专用服务的缓存刷新时间间隔。 因此，您必须等待10分钟才能使用此历程。
 
 ## 最佳实践 {#best-practices-segments}
 

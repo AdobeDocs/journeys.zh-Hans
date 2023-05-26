@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: round
-description: 瞭解函式回合
+description: 了解函数轮次
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,43 +15,43 @@ ht-degree: 17%
 
 # round {#round}
 
-傳回與引數最接近的整數值，並將四捨五入與正無窮大繫結。
+返回与参数最接近的整数值，并将舍入绑定到正无穷大。
 
 ## 类别
 
 数学
 
-## 函式語法
+## 函数语法
 
 `round(<parameters>)`
 
 ## 参数
 
-* 小數
+* 十进制
 * 整数
 
-## 簽章和傳回型別
+## 签名和返回类型
 
 `round(<decimal>)`
 
 `round(<integer>)`
 
-傳回整數。
+返回整数。
 
 ## 示例
 
 `round(3.14)`
 
-傳回3。
+返回3。
 
 `round(3.54)`
 
-傳回4。
+返回4。
 
 `round(-3.14)`
 
-傳回–3。
+返回–3。
 
 `round(3)`
 
-傳回3。
+返回3。

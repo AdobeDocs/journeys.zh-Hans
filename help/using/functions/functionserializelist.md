@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: serializeList
-description: 瞭解函式serializeList
+description: 了解serializeList函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 22%
 
 # serializeList {#serializeList}
 
-將第一個引數中指定的清單（任何型別）轉換為字串。 第二個引數代表要使用的分隔符號。 第三個引數是布林值，指出運算式的每個元素是否應該包含引號。
+将第一个参数中给定的列表（任何类型）转换为字符串。 第二个参数表示要使用的分隔符。 第三个参数是一个布尔值，指示表达式的每个元素是否应包含引号。
 
 ## 类别
 
 列表
 
-## 函式語法
+## 函数语法
 
 `serializeList(<parameters>)`
 
@@ -41,7 +41,7 @@ ht-degree: 22%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 
@@ -61,14 +61,14 @@ ht-degree: 22%
 
 `serializeList(<listPoint>,<string>,<boolean>)`
 
-傳回字串。
+返回字符串。
 
 ## 示例
 
 `serializeList(["Hello","World"], " ", false)`
 
-傳回「Hello World」。
+返回“Hello World”。
 
 `serializeList(["Hello", "World"], ",", true)`
 
-傳回「Hello」、「World」。
+返回“Hello”、“World”。

@@ -15,18 +15,18 @@ ht-degree: 27%
 
 # journeyStep 事件身份字段 {#sharing-identity-fields}
 
-此Mixin專用於journeyStepEvent：此事件與歷程有關，沒有identityMap，無法描述設定檔身分（若有）。
+此mixin特定于journeyStepEvent：此事件与历程相关，不具有描述配置文件身份（如果有）的identityMap。
 
-若為journeyStepEvent，我們還需要新增與身分相關的欄位：
+对于journeyStepEvent，我们还需要添加与标识相关的字段：
 
 ## profileID
 
-設定檔識別碼
+配置文件标识符
 
 类型：字符串
 
-## profileNamespace
+## 配置文件命名空间
 
-設定檔識別碼名稱空間
+配置文件标识符命名空间
 
 类型：字符串

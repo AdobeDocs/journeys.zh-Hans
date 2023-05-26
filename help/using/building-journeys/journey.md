@@ -15,25 +15,25 @@ ht-degree: 21%
 
 # 创建历程 {#concept_gq5_sqt_52b}
 
-此步驟由執行 **業務使用者**. 這是您建立歷程的位置。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
+此步骤由 **商业用户**. 您可以在此处创建历程。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
 
-历程界面让您可以轻松地将活动从调色板拖放到画布中。您还可以双击一个活动，以便在可以进行后续步骤时将其添加到画布中。每個活動在流&#39;b5&#39;7b中具有特定的角色和位置。 活動會進行序列化。 活動完成後，流程會繼續並處理下一個活動，依此類推。
+历程界面让您可以轻松地将活动从调色板拖放到画布中。您还可以双击一个活动，以便在可以进行后续步骤时将其添加到画布中。每个活动在流程中具有特定的角色和位置。 活动将按顺序排列。 活动完成后，流会继续并处理下一个活动，依此类推。
 
-每個歷程只允許一個名稱空間。 當您拖放第一個事件時，具有不同名稱空間的事件將會呈現灰色。 如果第一個事件沒有名稱空間，則具有名稱空間的所有事件都將變成灰色。 请参阅[此页](../event/selecting-the-namespace.md)。此外，如果歷程具有沒有名稱空間的事件，Adobe Experience Platform欄位群組會呈現灰色。 最後，如果您在同一個歷程中使用數個事件，則它們需要使用相同的名稱空間。
+每个历程只允许一个命名空间。 当您删除第一个事件时，具有不同命名空间的事件将显示为灰色。 如果第一个事件没有命名空间，则具有命名空间的所有事件都将灰显。 请参阅[此页](../event/selecting-the-namespace.md)。此外，如果历程具有没有命名空间的事件，则Adobe Experience Platform字段组将灰显。 最后，如果您在同一历程中使用多个事件，则需要使用相同的命名空间。
 
-開始新歷程時，無法在第一步驟放入畫布的元素會隱藏。 这涉及所有操作、条件活动、等待和反应。
+开始新历程时，无法在第一步操作中放入画布的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
 
 ## 快速启动 {#creating_journey}
 
-以下是建立和發佈歷程的主要步驟。
+以下是创建和发布历程的主要步骤。
 
 1. 在顶部菜单中，单击 **[!UICONTROL Home]**&#x200B;选项卡。
 
-   隨即顯示歷程清單。 請參閱 [此頁面](../building-journeys/using-the-journey-designer.md) 以取得介面的詳細資訊。
+   将显示历程列表。 请参阅 [此页面](../building-journeys/using-the-journey-designer.md) 以了解有关该界面的详细信息。
 
    ![](../assets/journey30.png)
 
-1. 按一下 **[!UICONTROL Create]** 以建立新歷程。
+1. 单击 **[!UICONTROL Create]** 以创建新旅程。
 
    ![](../assets/journey31.png)
 
@@ -41,34 +41,34 @@ ht-degree: 21%
 
    ![](../assets/journey32.png)
 
-1. 首先，將事件活動從浮動視窗拖放至畫布中。 您也可以連按兩下活動，將其新增至畫布。
+1. 首先，将事件活动从面板拖放到画布中。 您还可以双击某个活动以将其添加到画布。
 
    ![](../assets/journey33.png)
 
-1. 拖放其他活動並進行設定。 請參閱頁面 [事件活動](../building-journeys/event-activities.md)， [關於協調活動](../building-journeys/about-orchestration-activities.md) 和 [關於動作活動](../building-journeys/about-action-activities.md).
+1. 拖放其他活动并进行配置。 请参阅页面 [事件活动](../building-journeys/event-activities.md)， [关于编排活动](../building-journeys/about-orchestration-activities.md) 和 [关于操作活动](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. 您的歷程會自動儲存。 測試您的歷程並發佈。 另請參閱 [測試歷程](../building-journeys/testing-the-journey.md) 和 [發佈歷程](../building-journeys/publishing-the-journey.md).
+1. 您的历程会自动保存。 测试您的历程并发布它。 参见 [测试历程](../building-journeys/testing-the-journey.md) 和 [发布历程](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
-## 結束歷程 {#ending_a_journey}
+## 结束历程 {#ending_a_journey}
 
-歷程可以因個人原因結束：
+历程可能因个人原因而结束：
 
-* 該人員到達路徑的最後一個活動。 此最後一個活動可以是結束活動或其他活動。 沒有義務以結束活動來結束路徑。 请参阅[此页](../building-journeys/end-activity.md)。
-* 該人員到達條件活動（或具有條件的等待活動），但不符合任何條件。
+* 该人员到达路径的最后一个活动。 最后一个活动可以是结束活动或其他活动。 没有义务使用结束活动来结束路径。 请参阅[此页](../building-journeys/end-activity.md)。
+* 人员到达条件活动（或具有条件的等待活动），但不匹配任何条件。
 
-如果允許重新進入，則人員可以重新進入歷程。 请参阅[此页](../building-journeys/changing-properties.md)。
+如果允许重新进入，人员可以重新进入历程。 请参阅[此页](../building-journeys/changing-properties.md)。
 
-歷程可以關閉，原因如下：
+旅程可以关闭，原因如下：
 
-* 已透過手動關閉歷程 **[!UICONTROL Close to new entrances]** 按鈕。
-* 已達到歷程的結束日期。
+* 历程已通过 **[!UICONTROL Close to new entrances]** 按钮。
+* 已达到历程的结束日期。
 
-當歷程關閉時（基於上述任何原因），它將具有狀態 **[!UICONTROL Closed]**. 歷程將停止讓新個人進入歷程。 已在歷程中的人員將正常完成歷程。 在預設全域逾時30天後，歷程將切換為 **已完成** 狀態。 请参阅此[部分](../building-journeys/changing-properties.md#entrance)。
+当历程关闭时（由于上述任何原因），它将具有状态 **[!UICONTROL Closed]**. 历程将停止让新个人进入历程。 已在历程中的人员将正常完成历程。 默认全局超时30天后，历程将切换到 **已完成** 状态。 请参阅此[部分](../building-journeys/changing-properties.md#entrance)。
 
-如果您需要停止歷程中所有個人的進度，您可以停止它。 停止歷程將會讓歷程中的所有個人逾時。
+如果您需要停止历程中所有个人的进度，则可以停止它。 停止历程将超时历程中的所有个人。
 
-若要瞭解如何手動關閉或停止歷程，請參閱此 [區段](../building-journeys/terminating-a-journey.md).
+要了解如何手动关闭或停止历程，请参阅此 [部分](../building-journeys/terminating-a-journey.md).

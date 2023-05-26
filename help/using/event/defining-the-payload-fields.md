@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 定义有效负载字段
-description: 瞭解如何定義裝載欄位
+description: 了解如何定义有效负载字段
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,32 +15,32 @@ ht-degree: 5%
 
 # 定义有效负载字段 {#concept_yrw_3qt_52b}
 
-裝載定義可讓您選擇系統預期從歷程中的事件接收的資訊，以及識別與事件相關聯之人員的金鑰。 有效負載以Experience CloudXDM欄位定義為基礎。 如需XDM的詳細資訊，請參閱 [此頁面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans).
+有效负载定义允许您选择系统预期从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans).
 
-1. 從清單中選取XDM結構描述，然後按一下 **[!UICONTROL Payload]** 欄位或位於 **[!UICONTROL Edit]** 圖示。
+1. 从列表中选择一个XDM架构，然后单击 **[!UICONTROL Payload]** 字段或 **[!UICONTROL Edit]** 图标。
 
    ![](../assets/journey8.png)
 
-   將顯示結構描述中定義的所有欄位。 欄位清單會因結構描述而異。 您可以搜尋特定欄位，或使用篩選器來顯示所有節點和欄位，或僅顯示選定的欄位。 根據結構描述定義，某些欄位可能是必填欄位並預先選定。 您無法取消選取它們。 依預設，會選取事件必須填寫的所有欄位，才能透過Journey Orchestration正確接收事件。
+   将显示架构中定义的所有字段。 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段或仅显示选定的字段。 根据架构定义，某些字段可能是必填字段，并且已预先选定。 不能取消选择它们。 默认情况下，必须填写所有字段才能使Journey Orchestration正确接收事件。
 
    >[!NOTE]
    >
-   >請確定您已將「協調流程」Mixin新增至XDM結構描述。 這將確保您的結構描述包含使用的所有必要資訊 [!DNL Journey Orchestration].
+   >确保已将“编排”mixin添加到XDM架构中。 这将确保您的架构包含要使用的所有必需信息 [!DNL Journey Orchestration].
 
    ![](../assets/journey9.png)
 
-1. 選取您預期會從事件接收的欄位。 這些是業務使用者將在歷程中善用的欄位。 它們也必須包含用來識別與事件相關聯之人員的金鑰(請參閱 [此頁面](../event/defining-the-event-key.md))。
+1. 选择您希望从事件接收的字段。 这些是商业用户将在历程中利用的字段。 还必须包含用于识别与事件关联的人员的键(请参阅 [此页面](../event/defining-the-event-key.md))。
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >對於系統產生的事件， **[!UICONTROL eventID]** 欄位會自動新增到所選欄位清單中，以便 [!DNL Journey Orchestration] 可以識別事件。 推播事件的系統不應產生ID，而應使用有效負載預覽中可用的ID。 请参阅[此页](../event/previewing-the-payload.md)。
+   >对于系统生成的事件， **[!UICONTROL eventID]** 字段会自动添加到所选字段的列表中，以便 [!DNL Journey Orchestration] 可以识别事件。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 请参阅[此页](../event/previewing-the-payload.md)。
 
-1. 選取完所需欄位後，按一下 **[!UICONTROL Save]** 或按 **[!UICONTROL Enter]**.
+1. 选择完所需的字段后，单击 **[!UICONTROL Save]** 或按 **[!UICONTROL Enter]**.
 
    ![](../assets/journey11.png)
 
-   所選欄位的數量會出現在 **[!UICONTROL Payload]** 欄位。
+   所选字段的数目将显示在 **[!UICONTROL Payload]** 字段。
 
    ![](../assets/journey12.png)

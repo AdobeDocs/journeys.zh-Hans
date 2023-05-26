@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 数据类型
-description: 瞭解進階運算式中的資料型別
+description: 了解高级表达式中的数据类型
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,21 +15,21 @@ ht-degree: 5%
 
 # 数据类型 {#concept_gp3_rj5_dgb}
 
-技術上，常數一律包含資料型別。 在常值運算式中，我們僅指定值。 資料型別可從值推斷（例如字串、整數、小數等）。 對於日期時間等特定情況，我們會使用專用功能進行表示。
+从技术上讲，常量始终包含数据类型。 在文本表达式中，我们仅指定值。 可以从值推断数据类型（例如，字符串、整数、小数等）。 对于日期时间等特定情况，我们使用专门的函数进行表示。
 
-以下各節提供有關不同資料型別運算式及其表示方式的資訊。
+以下各节提供了有关不同数据类型表达式及其表示方式的信息。
 
 ## 字符串 {#string}
 
 **描述**
 
-常見的字元順序。 除了來自環境的隱含大小（例如可用的記憶體數量）之外，它沒有任何特定大小。
+常用字符序列。 除来自环境的隐式大小（例如可用内存量）外，它没有任何特定的大小。
 
-JSON格式：字串
+JSON格式：字符串
 
-序列化格式： UTF-8
+序列化格式：UTF-8
 
-**常值表示法**
+**文本呈现**
 
 ```json
 "<value>"
@@ -53,11 +53,11 @@ JSON格式：字串
 
 **描述**
 
-從–2^63到2^63-1的整數值。
+从–2^63到2^63-1的整数值。
 
-JSON格式：數字
+JSON格式：数字
 
-**常值表示法**
+**文本呈现**
 
 ```json
 <integer value>
@@ -69,21 +69,21 @@ JSON格式：數字
 42
 ```
 
-## 小數 {#decimal}
+## 十进制 {#decimal}
 
 **描述**
 
-小数. 它代表一個浮點數值：
+小数. 它表示一个浮动值：
 
-* 型別double的最大正有限值，(2-2^-52)x2^1023
-* 型別double的最小正常數值，2-1022
-* 型別double的最小正非零值，2 p-1074
+* 双精度型的最大正有限值，(2-2^-52)x2^1023
+* double类型的最小正正规值，2-1022
+* double类型的最小正非零值，2 p-1074
 
-JSON格式：數字
+JSON格式：数字
 
-序列化格式：使用「。」 做為小數分隔符號。
+序列化格式：使用“。” 作为小数分隔符。
 
-**常值表示法**
+**文本呈现**
 
 ```json
 <integer value>.<integer value>
@@ -99,11 +99,11 @@ JSON格式：數字
 
 **描述**
 
-布林值會寫入小寫： true或false
+写入小写的布尔值： true或false
 
-JSON格式：布林值
+JSON格式：布尔型
 
-**常值表示法**
+**文本呈现**
 
 ```json
 true
@@ -119,23 +119,23 @@ false
 true
 ```
 
-## dateOnly {#date-only}
+## dateonly {#date-only}
 
 **描述**
 
-只代表沒有時區的日期，以年 — 月 — 日檢視。
+表示没有时区的日期，以年 — 月 — 日形式查看。
 
-這是日期的說明，用於生日。
+它是日期的描述，用于生日。
 
-JSON格式：字串。
+JSON格式：字符串。
 
-格式為：YYYY-MM-DD (ISO-8601)，例如：「2021-03-11」。
+格式为：YYYY-MM-DD (ISO-8601)，例如：“2021-03-11”。
 
-可封裝在toDateOnly函式中。
+它可以封装在toDateOnly函数中。
 
-它會使用DateTimeFormatter ISO_LOCAL_DATE_TIME將值還原序列化及序列化。 [了解详情](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化该值。 [了解详情](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
-**常值表示法**
+**文本呈现**
 
 ```json
 date("<dateOnly in ISO-8601 format>")  
@@ -151,21 +151,21 @@ date("2021-02-19")
 
 **描述**
 
-代表沒有時區的日期時間，以年 — 月 — 日 — 小時 — 分鐘 — 秒 — 毫秒的方式檢視。
+表示不带时区的日期时间，它以年 — 月 — 日 — 小时 — 分钟 — 秒 — 毫秒形式查看。
 
-JSON格式：字串。
+JSON格式：字符串。
 
-它不會儲存或表示時區。 相反地，它是日期的描述（如生日所用），與牆上時鐘所顯示的當地時間相結合。
+它不存储或表示时区。 相反，它是对日期的描述（用于生日），与墙上时钟上显示的当地时间相结合。
 
-若沒有位移或時區等額外資訊，就無法表示時間軸上的瞬間。
+如果没有偏移或时区等附加信息，它不能表示时间线上的某个时刻。
 
-可封裝在toDateTimeOnly函式中。
+它可以封装在toDateTimeOnly函数中。
 
-序列化格式：ISO-8601延伸位移日期 — 時間格式。
+序列化格式：ISO-8601扩展偏移日期时间格式。
 
-它會使用DateTimeFormatter ISO_LOCAL_DATE_TIME將值還原序列化及序列化。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化该值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
-**常值表示法**
+**文本呈现**
 
 ```json
 date("<dateTimeOnly in ISO-8601 format>")  
@@ -182,23 +182,23 @@ date("2021-02-19T00.00")
 
 **描述**
 
-日期時間常數，也會考量時區。 它表示與UTC有偏移的日期時間。
+日期时间常量，也会考虑时区。 它表示与UTC偏移的日期时间。
 
-它可視為具有位移之其他資訊的即時狀態。 這是一種表示世界上某個地方特定「時刻」的方式。
+它可以被视为带有偏移量附加信息的即时时刻。 它是一种在世界某个特定位置表示特定“时刻”的方式。
 
-JSON格式：字串。
+JSON格式：字符串。
 
-可封裝在toDateTime函式中。
+它可以封装在toDateTime函数中。
 
-序列化格式：ISO-8601延伸位移日期 — 時間格式。
+序列化格式：ISO-8601扩展偏移日期时间格式。
 
-它使用DateTimeFormatter ISO_OFFSET_DATE_TIME將值還原序列化和序列化。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+它使用DateTimeFormatter ISO_OFFSET_DATE_TIME来反序列化和序列化值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-您也可以傳遞傳遞epoch值的整數。 [了解详情](https://www.epochconverter.com)
+您还可以传递一个传递epoch值的整数。 [了解详情](https://www.epochconverter.com)
 
-時區可由位移或時區代碼指定（例如：歐洲/巴黎、Z — 表示UTC）。
+时区可以通过偏移或时区代码（例如：欧洲/巴黎，Z — 表示UTC）指定。
 
-**常值表示法**
+**文本呈现**
 
 ```json
 toDateTime("<dateTime in ISO-8601 format>")
@@ -242,23 +242,23 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## 持續時間 {#duration}
+## 持续时间 {#duration}
 
 **描述**
 
-這代表以時間為基礎的時間量，例如「34.5秒」。 它會以毫秒為單位模擬時間量或時間量。
+它表示基于时间的时间量，如“34.5秒”。 它以毫秒为单位建模时间量或时间量。
 
-支援的臨時單位為：毫秒、秒、分鐘、小時、天，其中一天等於24小時。 不支援年份和月份，因為它們不是固定時間量。
+支持的临时单位为：毫秒、秒、分钟、小时、天，其中一天等于24小时。 不支持年份和月份，因为它们不是固定时间量。
 
-JSON格式：字串。
+JSON格式：字符串。
 
-它必須封裝在toDuration函式中。
+必须封装在toDuration函数中。
 
-序列化格式：若要將時區ID還原序列化，會使用java函式java.time。
+序列化格式：要反序列化时区ID，它使用java函数java.time。
 
-Duration.parse：接受的格式是以ISO-8601期間格式PnDTnHnMn.nS為基礎，天數被視為剛好24小時。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse：接受的格式基于ISO-8601持续时间格式PnDTnHnMn.nS，天数被认为正好是24小时。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
-**常值表示法**
+**文本呈现**
 
 ```json
 toDuration("<duration in ISO-8601 format>")
@@ -314,11 +314,11 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 
 **描述**
 
-以逗號分隔的運算式清單，使用方括弧做為分隔符號。
+使用方括号作为分隔符的逗号分隔表达式列表。
 
-不支援多型，因此清單中包含的所有運算式都應該有相同的型別。
+不支持多态性，因此列表中包含的所有表达式都应具有相同的类型。
 
-**常值表示法**
+**文本呈现**
 
 ```json
 [<expression>, <expression>, ... ]

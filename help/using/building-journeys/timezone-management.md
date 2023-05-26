@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 时区管理
-description: 瞭解時區管理
+description: 了解时区管理
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,38 +15,38 @@ ht-degree: 2%
 
 # 时区管理 {#timezone_management}
 
-您可在以下位置定義時區： [屬性](../building-journeys/changing-properties.md) 您的歷程。
+您可以在中定义时区 [属性](../building-journeys/changing-properties.md) 你旅程的一部分。
 
-若要存取「屬性」，請按一下畫面右上方的鉛筆圖示。
+要访问属性，请单击屏幕右上角的铅笔图标。
 
-此時區將用於包含時間元素的歷程的每個活動，例如：
+此时区将用于包含时间元素的历程的每个活动，例如：
 
-* [時間條件](../building-journeys/condition-activity.md#time_condition)
-* [日期條件](../building-journeys/condition-activity.md#date_condition)
-* [自訂等待](../building-journeys/wait-activity.md#custom)
+* [时间条件](../building-journeys/condition-activity.md#time_condition)
+* [日期条件](../building-journeys/condition-activity.md#date_condition)
+* [自定义等待](../building-journeys/wait-activity.md#custom)
 
-您可以選取時區，或選擇使用使用者設定檔中定義的時區。
+您可以选择时区，也可以选择使用用户配置文件中定义的时区。
 
 >[!NOTE]
 >
->設定檔時區可與 **時區** 欄位存在於 **偏好設定詳細資料** 欄位群組。
+>配置文件时区适用于 **时区** 字段存在于 **首选项详细信息** 字段组。
 
-## 定義固定時區 {#fixed-timezone}
+## 定义固定时区 {#fixed-timezone}
 
-時區也可以固定。 清除預先定義的時區，並從下拉式清單中選取一個時區。 如果您使用固定時區，則所有進入歷程的個人都將使用相同的時區。
+时区也可以固定。 清除预定义的时区并从下拉列表中选择一个时区。 如果您使用固定时区，则所有进入旅程的个人都将使用相同的时区。
 
-若要這麼做，請在中 **[!UICONTROL Properties]**，選取時區。
+要执行此操作，请在 **[!UICONTROL Properties]**&#x200B;中，选择时区。
 
 ![](../assets/journey72.png)
 
-## 使用設定檔來定義歷程時區 {#timezone-from-profiles}
+## 使用配置文件定义历程时区 {#timezone-from-profiles}
 
-如果歷程的進入事件具有名稱空間，這表示歷程可以到達Adobe Experience Platform的即時客戶設定檔服務，您可能會想要使用設定檔層級定義的時區。 若要這麼做，請在中 **屬性**，檢查 **在等待和條件中使用設定檔時區**. 依預設，此選項未核取。
+如果历程的进入事件具有命名空间，这意味着历程可以访问Adobe Experience Platform的实时客户档案服务，则您可能希望使用在档案级别定义的时区。 要执行此操作，请在 **属性**，检查 **在等待和条件中使用配置文件时区**. 默认情况下不选中此选项。
 
-如果為設定檔定義了時區，則會擷取該時區並由歷程使用。 如果沒有，使用的時區將會是時區欄位中定義的時區。
+如果为用户档案定义了时区，则历程将检索并使用它。 如果没有，则使用的时区将是时区字段中定义的时区。
 
 ![](../assets/journey73.png)
 
-## 在運算式中使用時區 {#timezone-in-expressions}
+## 在表达式中使用时区 {#timezone-in-expressions}
 
-歷程的開始和結束日期無法連結至特定時區。 它們會自動與執行個體的時區相關聯。
+历程的开始和结束日期无法链接到特定时区。 它们会自动与实例的时区相关联。

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 設定API說明上限
-description: 深入瞭解上限API。
+title: 上限API描述
+description: 了解有关Capping API的更多信息。
 products: journeys
 feature: Journeys
 role: User
@@ -17,27 +17,27 @@ ht-degree: 32%
 
 # 使用上限API {#work}
 
-上限API可幫助您建立、設定和監控您的上限設定。
+上限API可帮助您创建、配置和监控上限配置。
 
-## 設定API說明上限
+## 上限API描述
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
-| [!DNL POST] | list/endpointConfig | 取得端點上限設定清單 |
-| [!DNL POST] | /endpointConfigs | 建立端點上限設定 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | 部署端點上限設定 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | 取消部署端點上限設定 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 檢查是否可以部署端點上限設定 |
-| [!DNL PUT] | /endpointConfigs/`{uid}` | 更新端點上限設定 |
-| [!DNL GET] | /endpointConfigs/`{uid}` | 擷取端點上限設定 |
-| [!DNL DELETE] | /endpointConfigs/`{uid}` | 刪除端點上限設定 |
+| [!DNL POST] | list/endpointConfig | 获取端点上限配置的列表 |
+| [!DNL POST] | /endpointConfigs | 创建端点上限配置 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | 部署端点上限配置 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | 取消部署端点上限配置 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 检查是否可以部署端点上限配置 |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | 更新端点上限配置 |
+| [!DNL GET] | /endpointConfigs/`{uid}` | 检索端点上限配置 |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | 删除端点上限配置 |
 
-建立或更新設定時，會自動執行檢查以確保語法和裝載的完整性。
-如果發生某些問題，作業會傳回警告或錯誤，以協助您更正設定。
+创建或更新配置时，将自动执行检查以确保有效负载的语法和完整性。
+如果出现一些问题，该操作将返回警告或错误，以帮助您更正配置。
 
-## 端點設定
+## 端点配置
 
-以下是端點設定的基本結構：
+以下是端点配置的基本结构：
 
 ```
 {
@@ -77,34 +77,34 @@ ht-degree: 32%
 }
 ```
 
-## 警告和錯誤
+## 警告和错误
 
-當 **canDeploy** 方法呼叫，該程式會驗證設定並傳回由其唯一ID識別的驗證狀態，其形式為：
+当 **canDeploy** 方法时，该过程将验证配置并返回由其唯一ID标识的验证状态，即：
 
 ```
 "ok" or "error"
 ```
 
-可能的錯誤包括：
+潜在的错误包括：
 
-* **ERR_ENDPOINTCONFIG_100**：上限設定：遺失或無效的url
-* **ERR_ENDPOINTCONFIG_101**：上限設定：格式錯誤的url
-* **ERR_ENDPOINTCONFIG_102**：上限設定：格式錯誤的url：host：port中不允許url中的wildchar
-* **ERR_ENDPOINTCONFIG_103**：上限設定：遺失HTTP方法
-* **ERR_ENDPOINTCONFIG_104**：上限設定：未定義任何通話分級
-* **ERR_ENDPOINTCONFIG_107**：上限設定：無效的最大呼叫計數(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**：上限設定：無效的最大呼叫計數(periodInMs)
-* **ERR_ENDPOINTCONFIG_111**：上限設定：無法建立端點設定：無效的承載
-* **ERR_ENDPOINTCONFIG_112**：上限設定：無法建立端點設定：預期JSON裝載
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**：無效的服務名稱 `<!--<given value>-->`：必須為「dataSource」或「action」
+* **ERR_ENDPOINTCONFIG_100**：上限配置：缺失或无效的url
+* **ERR_ENDPOINTCONFIG_101**：上限配置：格式错误的url
+* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url：host：port中不允许使用url中的wildchar
+* **ERR_ENDPOINTCONFIG_103**：上限配置：缺少HTTP方法
+* **ERR_ENDPOINTCONFIG_104**：上限配置：未定义调用评级
+* **ERR_ENDPOINTCONFIG_107**：上限配置：无效的最大调用计数(maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**：上限配置：无效的最大调用计数(periodInMs)
+* **ERR_ENDPOINTCONFIG_111**：上限配置：无法创建终结点配置：有效负载无效
+* **ERR_ENDPOINTCONFIG_112**：上限配置：无法创建终结点配置：应为JSON有效负载
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**：服务名称无效 `<!--<given value>-->`：必须为“dataSource”或“action”
 
-可能的警告是：
+潜在的警告是：
 
-**ERR_ENDPOINTCONFIG_106**：上限設定：未定義最大HTTP連線：預設無限制
+**ERR_ENDPOINTCONFIG_106**：上限配置：未定义最大HTTP连接：默认情况下无限制
 
 ## 用例
 
-在本節中，您將找到五個主要使用案例，您可以執行這些案例來管理您的上限設定，位置在 [!DNL Journey Orchestration].
+在此部分中，您将找到五个主要用例，您可以执行这些用例来管理上限配置 [!DNL Journey Orchestration].
 
 为帮助您进行测试和配置，可点击[此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)获取 Postman 集合。
 
@@ -117,14 +117,14 @@ ht-degree: 32%
 
 在以下部分中，您将找到用于执行用例的 Rest API 调用排序列表。
 
-使用案例n°1： **建立及部署新的上限設定**
+用例n°1： **创建和部署新的上限配置**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-使用案例n°2： **更新和部署尚未部署的上限設定**
+用例n°2： **更新和部署尚未部署的上限配置**
 
 1. list
 1. get
@@ -132,19 +132,19 @@ ht-degree: 32%
 1. candeploy
 1. deploy
 
-使用案例n°3： **取消部署和刪除已部署的上限設定**
+用例n°3： **取消部署和删除已部署的上限配置**
 
 1. list
 1. undeploy
 1. delete
 
-使用案例n°4： **刪除已部署的上限設定。**
+用例n°4： **删除已部署的上限配置。**
 
 在仅一个 API 调用中，您可以使用 forceDelete 参数取消部署和删除配置。
 1. list
 1. 删除，使用 forceDelete 参数
 
-使用案例n°5： **更新已部署的上限設定**
+用例n°5： **更新已部署的上限配置**
 
 1. list
 1. get

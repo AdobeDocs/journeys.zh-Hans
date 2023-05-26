@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 配置数据源
-description: 瞭解如何為歷程簡單使用案例設定資料來源
+description: 了解如何为历程简单用例配置数据源
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,22 +15,22 @@ ht-degree: 9%
 
 # 配置数据源{#concept_ax3_bcy_w2b}
 
-在我們的使用案例中，我們希望對訊息使用個人化資料。 我們還需要檢查這個人是不是女性。 此資訊儲存在即時客戶設定檔資料庫中。 此 **技術使用者** 需要檢查這些欄位是否在內建的Adobe Experience Platform資料來源中定義。
+在我们的用例中，我们希望为消息使用个性化数据。 我们还需要检查这个人是不是女人。 此信息存储在Real-time Customer Profile数据库中。 此 **技术用户** 需要检查这些字段是否在内置的Adobe Experience Platform数据源中定义。
 
-有關資料來源設定的其他資訊，請參閱 [此頁面](../datasource/about-data-sources.md).
+有关数据源配置的其他信息，请参阅 [此页面](../datasource/about-data-sources.md).
 
-1. 在功能表窗格中，選取 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 部分中，单击 **[!UICONTROL Manage]**。
-1. 選取內建的Adobe Experience Platform資料來源。
+1. 在菜单窗格中，选择 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 部分中，单击 **[!UICONTROL Manage]**。
+1. 选择内置的Adobe Experience Platform数据源。
 
    ![](../assets/journey23.png)
 
-1. 在欄位群組中，檢查是否已選取下列欄位：
+1. 在字段组中，检查是否选择了以下字段：
 
-   * _person > name > firstName_
-   * _person > name > lastName_
-   * _人員>性別_
+   * _人员>姓名>名字_
+   * _人员>姓名>姓氏_
+   * _人员>性别_
    * _personalEmail >地址_
 
 1. 单击 **[!UICONTROL Save]**。
 
-資料來源現已設定完畢，可隨時用於您的歷程。
+数据源现已配置完毕，可随时用于您的旅程。

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: split
-description: 瞭解函式分割
+description: 了解函数拆分
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 19%
 
 # split {#split}
 
-以分隔字串分割第一個引數字串（第二個引數字串，可以是規則運算式），以產生字串清單（代號）。
+使用分隔符字符串（第二个参数字符串，可以是正则表达式）拆分第一个参数字符串以生成字符串（令牌）列表。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `split(<parameters>)`
 
@@ -29,14 +29,14 @@ ht-degree: 19%
 
 | 参数 | 类型 |
 |-----------|------------------|
-| 輸入字串 | 字符串 |
-| 分隔符號字串 | 字符串 |
+| 输入字符串 | 字符串 |
+| 分隔符字符串 | 字符串 |
 
-## 簽章和傳回型別
+## 签名和返回类型
 
 `split(<input string>, <separator string>)`
 
-傳回listString。
+返回listString。
 
 ## 示例
 
@@ -44,7 +44,7 @@ ht-degree: 19%
 
 返回结果 `["A","B","C"]`
 
-具有值「20.45.2.3434」的事件欄位「event.appVersion」的範例
+事件字段“event.appVersion”的示例，其值为：“20.45.2.3434”
 
 `split(@{event.appVersion}, "\\.")`
 

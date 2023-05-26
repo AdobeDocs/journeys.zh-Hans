@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 关于简单用例
-description: 進一步瞭解歷程簡單使用案例
+description: 详细了解历程简单用例
 feature: Journeys
 role: User
 level: Intermediate
@@ -17,18 +17,18 @@ ht-degree: 11%
 
 ## 用途 {#purpose}
 
-以一個名為Marlton的飯店品牌為例。 在酒店內，他們在所有策略區域附近都放置了信標裝置：大廳、地板、餐廳、健身房、游泳池等。
+我们举一个名叫Marlton的酒店品牌为例。 在酒店里，他们在所有战略区域附近都放置了信标装置：大厅、地板、餐厅、健身房、游泳池等。
 
-在此使用案例中，我們將瞭解如何即時傳送個人化訊息給站在spa附近信標旁邊的人。
+在此使用案例中，我们将了解如何实时向位于spa附近信标旁边的人发送个性化消息。
 
-我們只想在該人是女性時傳送訊息。 訊息必須在秒內收到。
+我们只想在当事人是妇女的情况下发送消息。 必须在秒内收到消息。
 
 ![](../assets/journeyuc1_16.png)
 
 ## 先决条件 {#prerequisites}
 
-針對我們的使用案例，我們在Adobe Campaign Standard中設計了一個電子郵件交易式訊息範本。 我們正在使用事件交易式訊息範本。 請參閱此 [頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
+对于我们的用例，我们在Adobe Campaign Standard中设计了一个电子邮件事务型消息传递模板。 我们正在使用事件事务性消息模板。 请参阅此 [页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
 
-Adobe Campaign Standard已設定為傳送電子郵件。
+Adobe Campaign Standard配置为发送电子邮件。
 
-在信標附近偵測到事件時，會從客戶的行動電話傳送事件。 您需要設計行動應用程式，將事件從客戶的行動電話傳送至Mobile SDK。
+当在信标附近检测到事件时，会从客户的手机发送事件。 您需要设计移动应用程序，以将事件从客户的手机发送到Mobile SDK。

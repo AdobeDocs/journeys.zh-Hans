@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: isEmpty
-description: 瞭解函式isEmpty
+description: 了解函数isEmpty
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 19%
 
 # isEmpty {#isEmpty}
 
-如果引數中的字串沒有字元，則傳回true。
+如果参数中的字符串不含字符，则返回true。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `isEmpty(<parameters>)`
 
@@ -29,18 +29,18 @@ ht-degree: 19%
 
 * 字符串
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `isEmpty(<string>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
 `isEmpty("")`
 
-傳回true。
+返回真。
 
 `isEmpty("Hello World")`
 
-傳回false。
+返回假。

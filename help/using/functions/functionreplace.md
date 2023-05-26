@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: replace
-description: 瞭解函式取代
+description: 了解函数替换
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,15 +15,15 @@ ht-degree: 10%
 
 # replace {#replace}
 
-以基礎字串中的取代字串取代符合目標字串的第一個專案。
+使用基本字符串中的替换字符串替换匹配目标字符串的第一个匹配项。
 
-取代會從字串的開頭到結尾進行，例如，將字串「aaa」中的「aa」取代為「b」將會產生「ba」而不是「ab」。
+例如，替换操作从字符串的开头到结尾进行，将字符串“aaa”中的“aa”替换为“b”将导致“ba”而不是“ab”。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `replace(<parameters>)`
 
@@ -31,38 +31,38 @@ ht-degree: 10%
 
 | 参数 | 类型 |
 |-----------|--------------|
-| 基底 | 字符串 |
-| Target | 字串(RegExp) |
-| 取代 | 字符串 |
+| 基础 | 字符串 |
+| Target | 字符串（正则表达式） |
+| 替换 | 字符串 |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `replace(<base>,<target>,<replacement>)`
 
-傳回字串。
+返回字符串。
 
 ## 示例 1
 
 `replace("Hello World", "l", "x")`
 
-傳回「Hexlo World」。
+返回“Hexlo World”。
 
 ## 示例 2 {#example_2}
 
-由於目標引數是RegExp，因此根據您要取代的字串，您可能需要逸出部分字元。 示例如下：
+由于目标参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 示例如下：
 
-* 要評估的字串： `|OFFER_A|OFFER_B`
-* 由設定檔屬性提供 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
-* 要取代的字串： `|OFFER_A`
-* 字串取代為： `''`
-* 您需要新增 `\\` 早於 `|` 字元。
+* 要计算的字符串： `|OFFER_A|OFFER_B`
+* 由配置文件属性提供 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* 要替换的字符串： `|OFFER_A`
+* 字符串替换为： `''`
+* 您需要添加 `\\` 早于 `|` 字符。
 
-運算式為：
+表达式为：
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
 
-傳回的字串是： `|OFFER_B`
+返回的字符串是： `|OFFER_B`
 
-您也可以建置要由指定屬性取代的字串：
+您还可以构建要从给定属性替换的字符串：
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: lastIndexOf
-description: 瞭解函式lastIndexOf
+description: 了解lastIndexOf函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 20%
 
 # lastIndexOf {#lastIndexOf}
 
-傳回第二個引數最後一次出現的位置（在第一個引數中）。 如果沒有相符專案，則傳回–1。
+返回第二个参数在第一个参数中最后一次出现的位置。 如果没有匹配项，则返回–1。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `lastIndexOf(<parameters>)`
 
@@ -30,20 +30,20 @@ ht-degree: 20%
 | 参数 | 类型 |
 |-----------|------------------|
 | 字符串 | 字符串 |
-| 指定的值 | 字符串 |
+| 指定值 | 字符串 |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `lastIndexOf(<string>,<string>)`
 
-傳回整數。
+返回一个整数。
 
 ## 示例
 
 `lastIndexOf("Hello, "l")`
 
-傳回3。
+返回3。
 
 解释:
 
-在「Hello」中，「l」的最後一次出現位在位置3。
+在“Hello”中，“l”的最后一次出现在位置3。

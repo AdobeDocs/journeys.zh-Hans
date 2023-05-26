@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: 配置数据源
-description: 瞭解如何設定歷程進階使用案例的資料來源
+description: 了解如何为历程高级用例配置数据源
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,51 +15,51 @@ ht-degree: 16%
 
 # 配置数据源 {#concept_vml_hdy_w2b}
 
-在我們的使用案例中，我們希望對訊息使用個人化資料。 我們還需要檢查該人士是否為忠誠會員，且在過去24小時內未與其聯絡。 此資訊儲存在即時客戶設定檔資料庫中。 此 **技術使用者** 需要設定Adobe Experience Platform資料來源以擷取這些欄位。
+在我们的用例中，我们希望为消息使用个性化数据。 我们还需要检查此人是否是忠诚会员，以及是否在过去24小时内未与其联系。 此信息存储在Real-time Customer Profile数据库中。 此 **技术用户** 需要配置Adobe Experience Platform数据源以检索这些字段。
 
-有關資料來源設定的其他資訊，請參閱 [此頁面](../datasource/about-data-sources.md).
+有关数据源配置的其他信息，请参阅 [此页面](../datasource/about-data-sources.md).
 
-1. 在功能表窗格中，選取 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 部分中，单击 **[!UICONTROL Manage]**。
-1. 選取內建的Adobe Experience Platform資料來源。
+1. 在菜单窗格中，选择 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 部分中，单击 **[!UICONTROL Manage]**。
+1. 选择内置的Adobe Experience Platform数据源。
 
    ![](../assets/journey23.png)
 
-1. 在預先設定的群組欄位中，檢查是否已選取下列欄位：
+1. 在预配置的组字段中，检查是否选择了以下字段：
 
-   * _person > name > firstName_
-   * _person > name > lastName_
+   * _人员>姓名>名字_
+   * _人员>姓名>姓氏_
    * _personalEmail >地址_
 
-1. 按一下 **[!UICONTROL Add a New Field Group]**，選取 **[!UICONTROL Profiles]** 結構描述並新增 **熟客會員** 條件欄位。 此 **熟客會員** 欄位是自訂欄位，已在XDM中新增：「_customer > marlton > loyaltyMember」
+1. 单击 **[!UICONTROL Add a New Field Group]**，选择一个 **[!UICONTROL Profiles]** 架构并添加 **忠诚会员** 这是我们的条件对应的字段。 此 **忠诚会员** 字段是一个自定义字段，添加在XDM中：&quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. 按一下 **[!UICONTROL Add a New Field Group]**，選取 **[!UICONTROL ExperienceEvent]** 結構描述，並根據指定時段內傳送的訊息數，選擇條件所需的欄位： _timestamp_ 日期和 _directMarketing >傳送>值_ （已傳送的訊息數）。
+1. 单击 **[!UICONTROL Add a New Field Group]**，选择一个 **[!UICONTROL ExperienceEvent]** 架构，并根据在给定时段内发送的消息数选择我们的条件所需的字段： _时间戳_ 日期和 _directMarketing >发送>值_ 用于已发送的消息数。
 
    ![](../assets/journeyuc2_7.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
-我們還需要檢查客人在飯店訂房系統中是否有預訂。 此 **技術使用者** 需要設定第二個資料來源來擷取此欄位。
+我们还需要检查客人在酒店预订系统中是否有预订。 此 **技术用户** 需要配置第二个数据源以检索此字段。
 
-1. 在資料來源清單中，按一下 **[!UICONTROL Add]** 以新增外部資料來源，定義與您的飯店訂房系統的連線。
+1. 在数据源列表中，单击 **[!UICONTROL Add]** 添加新的外部数据源以定义与您的酒店预订系统的连接。
 
    ![](../assets/journeyuc2_9.png)
 
-1. 輸入資料來源和外部服務URL的名稱，例如： _https://marlton.com/reservation_
+1. 输入数据源的名称和外部服务的URL，例如： _https://marlton.com/reservation_
 
    >[!CAUTION]
    >
    >出于安全原因，我们强烈建议使用 HTTPS。
 
-1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。在我們的範例中，我們為型別選擇「基本」，並指定API呼叫的使用者名稱和密碼。
+1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。在我们的示例中，我们为类型选择“基本”，并指定API调用的用户名和密码。
 
    ![](../assets/journeyuc2_10.png)
 
-1. 按一下 **[!UICONTROL Add a New Field Group]** 以定義要擷取的資訊和API引數。 在我們的範例中，只有一個引數(id)，因此我們需要建立一個包含下列資訊的欄位群組：
+1. 单击 **[!UICONTROL Add a New Field Group]** 定义要检索的信息和API参数。 在我们的示例中，只有一个参数(id)，因此我们需要创建一个包含以下信息的字段组：
 
    * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
-   * **[!UICONTROL Response Payload]**：按一下 **[!UICONTROL Payload]** 欄位並貼上裝載的範例。 验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。在我們的範例中，裝載僅包含預訂狀態：
+   * **[!UICONTROL Response Payload]**：在 **[!UICONTROL Payload]** 字段并粘贴有效负载示例。 验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。在我们的示例中，有效负载仅包含预订状态：
 
    ```
    {
@@ -67,10 +67,10 @@ ht-degree: 16%
    }
    ```
 
-   * **[!UICONTROL Dynamic Values]**：輸入與用於識別每個客戶的金鑰對應的引數，在我們的範例中為「id」。 此引數的值將在歷程中定義。
+   * **[!UICONTROL Dynamic Values]**：输入与用于标识每个客户的键对应的参数，在本例中为“id”。 此参数的值将在历程中定义。
 
    ![](../assets/journeyuc2_11.png)
 
 1. 单击 **[!UICONTROL Save]**。
 
-   資料來源現已設定完畢，可隨時用於您的歷程。
+   数据源现已配置完毕，可随时用于您的旅程。

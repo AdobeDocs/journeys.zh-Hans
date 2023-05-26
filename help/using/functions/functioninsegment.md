@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inSegment
-description: 瞭解inSegment函式
+description: 了解inSegment中的函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,33 +15,33 @@ ht-degree: 6%
 
 # inSegment {#inSegment}
 
-檢查個人是否屬於指定的區段。
+检查个人是否属于给定区段。
 
 >[!NOTE]
 >
->您最多可以擷取100個區段。
+>您最多可以检索100个区段。
 
-區段名稱必須是字串常數。 它不能是欄位參考或運算式。
+区段名称必须是字符串常量。 它不能是字段引用或表达式。
 
-區段定義於 [Adobe Experience Platform](https://platform.adobe.com/segment/overview). 運算式編輯器提供自動完成的區段清單。
+区段在下文中定义： [Adobe Experience Platform](https://platform.adobe.com/segment/overview). 表达式编辑器提供自动完成的区段列表。
 
-區段可以有三種狀態：
+区段可以具有三种状态：
 
-* existing： entity會繼續存在於區段中。
-* 已實現：實體正在進入區段。
-* 退出：實體正在退出區段。
+* 现有：实体继续位于区段中。
+* 已实现：实体正在进入分段。
+* 退出：实体正在退出区段。
 
-只有具備下列條件的個人 **已實現** 和 **現有** 區段參與狀態會視為區段的成員。 如需如何評估區段的詳細資訊，請參閱 [Segment Service檔案](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+仅具有 **已实现** 和 **现有** 区段参与状态将被视为区段的成员。 有关如何评估区段的更多信息，请参阅 [分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` 表示您擁有狀態為已輸入/現有狀態的segmentMembership。
+`IF inSegment('segmentName') == true` 表示您拥有segmentMembership且状态为entered/existing。
 
-`ELSE inSegment('segmentName') == false` 表示您擁有退出狀態的segmentMembership。
+`ELSE inSegment('segmentName') == false` 表示您具有已退出状态的segmentMembership。
 
 ## 类别
 
 Adobe Experience Platform
 
-## 函式語法
+## 函数语法
 
 `inSegment(<parameter>)`
 
@@ -49,13 +49,13 @@ Adobe Experience Platform
 
 | 参数 | 描述 | 类型 |
 |--- |--- |--- |
-| 区段 | 區段名稱 | `<string>` |
+| 区段 | 区段名称 | `<string>` |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `inSegment(<string>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
@@ -63,4 +63,4 @@ Adobe Experience Platform
 
 解释:
 
-函式將傳回 **[!UICONTROL true]** 如果歷程例項中的個人屬於名為「50歲以上的男性」的Adobe Experience Platform區段， **[!UICONTROL false]** 否則。
+函数将返回 **[!UICONTROL true]** 如果旅程实例中的个人是名为“50岁以上的男性”的Adobe Experience Platform区段的一部分， **[!UICONTROL false]** 否则。

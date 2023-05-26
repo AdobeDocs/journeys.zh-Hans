@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: AI服務總覽
-description: AI服務總覽
+title: AI服务概述
+description: AI服务概述
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,10 +15,10 @@ ht-degree: 3%
 
 # 关于 AI 集成 {#ai-overview}
 
-與Intelligent Services的整合可讓您在客戶體驗使用案例中運用人工智慧和機器學習的強大功能。 這可讓行銷分析人員使用業務層級設定，針對公司需求設定專屬預測，而不需要資料科學專業知識。
+与智能服务集成允许您在客户体验用例中利用人工智能和机器学习的强大功能。 这允许营销分析人员使用业务级别配置设置特定于公司需求的预测，而无需数据科学专业知识。
 
-如需Intelligent Services的詳細資訊，請參閱 [檔案](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
+有关智能服务的详细信息，请参阅 [文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
 
-此整合可讓您運用客戶預測，請參閱 [善用客戶AI](../ai-services/leveraging-customer-ai.md)
+此集成允许您利用客户预测，请参见 [利用客户AI](../ai-services/leveraging-customer-ai.md)
 
 <!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->

@@ -38,7 +38,7 @@ ht-degree: 93%
 
 如果您拥有 Adobe Campaign Standard，您需要配置开箱即用的操作，以使用 Adobe Campaign Standard 的事务性消息传送功能发送电子邮件、推送通知和短信。请参见[此页面](../action/working-with-adobe-campaign.md)。
 
-如果您有Adobe Campaign v7或v8，可應要求提供整合。 请参见[此页面](../action/acc-action.md)。
+如果您使用的是Adobe Campaign v7或v8，则可以应请求提供集成。 请参见[此页面](../action/acc-action.md)。
 
 如果您使用第三方系统发送消息，如 Epsilon、Facebook、Adobe.io、Firebase 等，则需要添加和配置自定义操作。请参见[此页面](../action/about-custom-action-configuration.md)。
 

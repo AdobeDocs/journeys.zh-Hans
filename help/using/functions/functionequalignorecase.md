@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: equalIgnoreCase
-description: 瞭解函式equalIgnoreCase
+description: 了解函数equalIgnoreCase
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 19%
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-比較第一個引數字串與第二個引數字串，忽略大小寫考量。
+将第一个参数字符串与第二个参数字符串进行比较，忽略大小写方面的考虑。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `equalIgnoreCase(<parameters>)`
 
@@ -29,14 +29,14 @@ ht-degree: 19%
 
 * 字符串
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `equalIgnoreCase(<string>,<string>)`
 
-傳回布林值。
+返回布尔值。
 
 ## 示例
 
 `equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
-傳回true。
+返回真。

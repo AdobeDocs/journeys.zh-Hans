@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: uuid
-description: 瞭解函式uuid
+description: 了解函数uuid
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,28 +15,28 @@ ht-degree: 14%
 
 # uuid {#uuid}
 
-產生隨機UUID （通用唯一識別碼）。
+生成随机UUID（通用唯一标识符）。
 
 ## 类别
 
 字符串
 
-## 函式語法
+## 函数语法
 
 `uuid()`
 
 ## 参数
 
-此函式不需要引數。
+此函数不需要参数。
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `uuid()`
 
-傳回字串。
+返回字符串。
 
 ## 示例
 
 `uuid()`
 
-傳回「79e70b7f-8a85-400b-97a1-9f9826121553」。s
+返回“79e70b7f-8a85-400b-97a1-9f9826121553”。s

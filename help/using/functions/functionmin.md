@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: min
-description: 瞭解函式最小值
+description: 了解函数min
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 7%
 
 # min {#min}
 
-傳回一組運算式中的最小值，以清單或兩個運算式形式給出。 Null值會被忽略。
+返回一组表达式中的最小值，以列表或两个表达式形式给出。 Null值将被忽略。
 
 ## 类别
 
 聚合
 
-## 函式語法
+## 函数语法
 
 `min(<parameters>)`
 
@@ -33,57 +33,57 @@ ht-degree: 7%
 * listDateTime
 * listDateTimeOnly
 * listDateOnly
-* 持續時間
+* 持续时间
 * 整数
-* 小數
+* 十进制
 * dateTime
 * dateTimeOnly
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `min(<listDuration>)`
 
-傳回持續時間。
+返回持续时间。
 
 `min(<listInteger>)`
 
-傳回持續時間。
+返回持续时间。
 
 `min(<listDateTimeOnly>)`
 
-傳回不考慮時區的日期時間。
+返回不考虑时区的日期时间。
 
 `min(<listDateTime>)`
 
-傳回日期時間。
+返回日期时间。
 
 `min(<listDateOnly>)`
 
-傳回日期。
+返回日期。
 
 `min(<listDecimal>)`
 
-傳回小數。
+返回小数。
 
 `min(<decimal>,<decimal>)`
 
-傳回小數。
+返回小数。
 
 `min(<duration>,<duration>)`
 
-傳回持續時間。
+返回持续时间。
 
 `min(<dateTime>,<dateTime>)`
 
-傳回日期時間。
+返回日期时间。
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-傳回不考慮時區的日期時間。
+返回不考虑时区的日期时间。
 
 `min(<integer>,<integer>)`
 
-傳回整數。
+返回一个整数。
 
 ## 示例
 
@@ -91,8 +91,8 @@ ht-degree: 7%
 
 `min([10,3,8])`
 
-傳回3。
+返回3。
 
 `min([10,null,8])`
 
-傳回8。
+返回8。

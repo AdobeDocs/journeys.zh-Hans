@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinctCountWithNull
-description: 瞭解函式distinctCountWithNull
+description: 了解distinctCountWithNull函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,13 +15,13 @@ ht-degree: 32%
 
 # distinctCountWithNull {#distinctCountWithNull}
 
-計算包括null值的不同值數目。
+计算包括空值在内的不同值的数量。
 
 ## 类别
 
 聚合
 
-## 函式語法
+## 函数语法
 
 `distinctCountWithNull(<listAny>)`
 
@@ -38,14 +38,14 @@ ht-degree: 32%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 簽章和傳回的型別
+## 签名和返回的类型
 
 `distinctCountWithNull(<listAny>)`
 
-傳回整數。
+返回一个整数。
 
 ## 示例
 
 `distinctCountWithNull([10,2,10,null])`
 
-傳回3。
+返回3。

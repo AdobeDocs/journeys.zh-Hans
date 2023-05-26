@@ -55,7 +55,7 @@ ht-degree: 94%
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，使用 **[!UICONTROL Creation filters]** 按创建日期和用户进行过滤。例如，您可以选择仅显示您在过去 30 天中创建的事件。
 
-在歷程清單中（在下） **[!UICONTROL Home]**)，以及 **[!UICONTROL Creation filters]**，您也可以根據顯示的歷程狀態、型別和版本(**[!UICONTROL Status and version filters]**)。 型別可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. 您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的历程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时历程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
+在历程列表中（位于下） **[!UICONTROL Home]**)，以及 **[!UICONTROL Creation filters]**，您还可以根据显示的旅程的状态、类型和版本(**[!UICONTROL Status and version filters]**)。 类型可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. 您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的历程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时历程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ ht-degree: 94%
 
 ## 辅助功能{#accessibility}
 
-Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提供：
+Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
 
 * 键盘辅助功能
 * 颜色对比度
@@ -97,7 +97,7 @@ Adobe Journey Optimizer中的協助工具功能由Adobe Experience Platform提�
 
 在 Adobe Experience Platform 文档中[了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"}。
 
-您可以在Adobe Journey Optimizer中使用這些常見的鍵盤快速鍵：
+您可以在Adobe Journey Optimizer中使用以下常用键盘快捷键：
 
 | 操作 | 快捷键 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 關於Adobe Analytics資料
-description: 瞭解如何善用Adobe Analytics資料
+title: 关于Adobe Analytics数据
+description: 了解如何利用Adobe Analytics数据
 feature: Journeys
 role: User
 level: Intermediate
@@ -13,24 +13,24 @@ ht-degree: 9%
 
 ---
 
-# 運用Adobe Analytics資料{#analytics-data}
+# 利用Adobe Analytics数据{#analytics-data}
 
 >[!NOTE]
 >
->本節僅適用於規則型事件，以及需要使用Adobe Analytics資料的客戶。
+>本节仅适用于需要使用Adobe Analytics数据的基于规则的事件和客户。
 
-您可以善用已擷取並串流至Platform的所有Adobe Analytics行為事件資料，以觸發歷程並自動化客戶體驗。
+您可以利用已在捕获并流入到Platform中的所有Adobe Analytics行为事件数据，以触发历程并自动化客户体验。
 
-為了讓此功能發揮作用，您需要在Adobe Experience Platform中啟用您要運用的報表套裝：
+要使此功能正常工作，您需要在Adobe Experience Platform中激活要利用的报表包：
 
-1. 在Adobe Experience Platform中選取 **[!UICONTROL Sources]** 則 **[!UICONTROL Add data]** 在Adobe Analytics區段中。 隨即顯示可用Adobe Analytics報表套裝清單。
+1. 在Adobe Experience Platform中，选择 **[!UICONTROL Sources]** 则 **[!UICONTROL Add data]** 在Adobe Analytics部分中。 此时将显示可用Adobe Analytics报表包的列表。
 
-1. 挑選您要啟用的報表套裝，按一下 **[!UICONTROL Next]** 並按一下 **[!UICONTROL Finish]**.
+1. 选择要启用的报表包，然后单击 **[!UICONTROL Next]** 并单击 **[!UICONTROL Finish]**.
 
-1. 與您的Alpha程式聯絡人共用來源資料ID。
+1. 与Alpha程序联系人共享源数据ID。
 
-如此將可啟用該報表套裝的Analytics來源聯結器。 只要有資料進來，就會轉換為體驗事件並傳送到Adobe Experience Platform。
+这将为该报表包启用Analytics Source Connector。 无论何时收到数据，这些数据都会转换为Experience事件并发送到Adobe Experience Platform中。
 
 ![](../assets/alpha-event9.png)
 
-如需Adobe Analytics來源聯結器的詳細資訊，請參閱 [檔案](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans) 和 [教學課程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans).
+有关Adobe Analytics源连接器的更多信息，请参阅 [文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans) 和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans).
