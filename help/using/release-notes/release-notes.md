@@ -6,17 +6,93 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
 workflow-type: tm+mt
-source-wordcount: '3274'
-ht-degree: 100%
+source-wordcount: '4188'
+ht-degree: 90%
 
 ---
 
 # 发行说明 {#release-notes}
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。
-您还可以查阅最新的[文档更新](../release-notes/documentation-updates.md)。
+有关Experience Platform功能，请参阅以下内容 [发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans).
+
+>[!NOTE]
+>
+>对于2022年和2023年发布的功能，链接将直接指向Adobe Journey Optimizer文档。
+
+## 2023 年 4 月版 {#apr-rn-2023}
+
+### 改进 {#april-2023-improvements}
+
+**历程**
+
+* 配置窗格的布局（显示在操作、数据源、事件和历程中）已得到改进。
+* 您现在可以在自定义操作中定义静态或动态查询参数。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration).
+* 管理历程提供的体验增长的新护栏：
+   * 我们建议您将节点数量限制为50个或更少，以保证历程的性能、易读性、QA和故障排除。 活动数将显示在历程画布的左上部。 请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+   * 当您开发和启动旅程时，我们会在您同时达到100个实时旅程的里程碑时通知您。 如果您的计划一次需要100个以上的历程，请在看到通知后创建支持工单，我们将帮助您。 请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+
+## 2023 年 3 月版 {#mar-2023}
+
+### 改进 {#mar-2023-improvements}
+
+* 借助全新的&#x200B;**限制 API** 功能，您可以对每秒发送的事件数量设置限制，以防止外部系统或 API 出现流量激增。达到设置限制后，所有后续 API 调用将按接收到的顺序尽快排入队列并进行处理。请注意，此功能仅支持在所有沙箱中配置一个限制。[了解详情](../api/throttling.md)
+* 历程画布已得到改进，可提供更简单、更优质的用户体验。移除了在画布中每个路径的末尾的空占位符。现在，您只需将活动拖动到路径末尾即可添加活动。
+* 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。用户可以根据需要手动添加自定义标签。
+* 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html#timeout).
+* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。通过外部工具发送的事件不会考虑在内。 请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=zh-Hans).
+
+## 2023 年 2 月版 {#feb-2023}
+
+### 改进 {#feb-2023-improvements}
+
+* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许用户档案再次进入单一历程（以事件或区段鉴别开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#entrance).
+* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。这允许用户档案在到期时自动退出。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#dates).
+
+## 2023 年 1 月版 {#jan-2023-release}
+
+### 改进 {#jan-2023-improvements}
+
+* 添加 **区段鉴别** 在历程中，现在默认使用最后一个使用的命名空间预填充命名空间。 请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html#about-segment-qualification).
+* 在历程画布中，工具栏中新增了一个按钮，用于下载历程的屏幕截图。
+
+## 2022 年 9 月版{#sept-2022-release}
+
+### 新功能{#sept-2022-features}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>数据管理和隐私</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>凭借其数据使用标签和执行(DULE)治理框架，Journey Orchestration现在可以利用Adobe Experience Platform治理策略，防止通过自定义操作将敏感字段导出到第三方系统。 如果系统在自定义操作参数中识别出受限字段，则会显示一条错误消息，阻止您发布历程。</p>
+<p>数据使用标签和执行 (DULE) 的使用当前仅限于选定客户，并且将在未来版本中部署到所有环境。</p>
+<p>有关更多信息，请参阅Journey Optimizer <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/action-privacy.html">文档</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改进{#sept-2022-improvements}
+
+* 向单一历程（从事件或区段鉴别开始）添加了新护栏，以防止历程因同一事件被错误地触发多次。默认情况下，重新进入用户档案会被暂时阻止 5 分钟。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#events-g).
+
+### 其他更改{#sept-2022-other}
+
+* 为了提高性能，从区段资格活动开始的历程中无法再使用体验事件字段组。 此更改仅适用于新历程。现有历程将保留当前行为。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#expression-editor).
+
+### 改进
+
+* **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html).
+
+*  默认情况下，历程属性中的&#x200B;**配置文件时区**&#x200B;选项现在处于未选中状态。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html#timezone-from-profiles)。
 
 ## 2022 年 5 月版 {#may-2022-release}
 
