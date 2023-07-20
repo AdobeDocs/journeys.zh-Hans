@@ -7,9 +7,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: b0bf5c12adc6e9c538f2264f79b7c43656424f05
+source-git-commit: c4d9ebacf2083f4df76e59228a75c51c4d7b006e
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
@@ -79,9 +79,3 @@ ht-degree: 100%
 * [流式引入 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)
 * [Campaign Standard 事务性消息传送文档](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)
 
-## 技术教程
-
-* [Journey Orchestration 配置](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=zh-Hans#6.-journey-orchestration)
-* [外部天气 API、SMS 操作等](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html?lang=zh-Hans#module12)
-* [在 Dynamics 365 中使用 Journey Orchestration 创建联系人](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=zh-Hans#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
-* [使用 Journey Orchestration 触发电子邮件跟进](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=zh-Hans#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
