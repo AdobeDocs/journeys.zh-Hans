@@ -1,16 +1,16 @@
 ---
 product: adobe campaign
-title: 上限API描述
+title: API说明上限
 description: 了解有关Capping API的更多信息。
 products: journeys
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 32%
+source-wordcount: '580'
+ht-degree: 29%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 32%
 
 上限API可帮助您创建、配置和监控上限配置。
 
-## 上限API描述
+## API说明上限
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
@@ -30,10 +30,10 @@ ht-degree: 32%
 | [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | 检查是否可以部署端点上限配置 |
 | [!DNL PUT] | /endpointConfigs/`{uid}` | 更新端点上限配置 |
 | [!DNL GET] | /endpointConfigs/`{uid}` | 检索端点上限配置 |
-| [!DNL DELETE] | /endpointConfigs/`{uid}` | 删除端点上限配置 |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | 删除端点封顶配置 |
 
-创建或更新配置时，将自动执行检查以确保有效负载的语法和完整性。
-如果出现一些问题，该操作将返回警告或错误，以帮助您更正配置。
+创建或更新配置时，将自动执行检查以确保语法和有效负载的完整性。
+如果发生某些问题，该操作将返回警告或错误，以帮助您更正配置。
 
 ## 端点配置
 
@@ -45,7 +45,7 @@ ht-degree: 32%
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -55,6 +55,12 @@ ht-degree: 32%
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>此 **maxHttpConnections** 参数是可选的。 它允许您限制Journey Optimizer将打开到外部系统的连接数。
+>
+>可以设置的最大值为400。 如果未指定任何内容，则系统可能会打开数千个连接，具体取决于系统的动态缩放情况。
 
 ### 示例：
 
@@ -66,9 +72,9 @@ ht-degree: 32%
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
@@ -79,7 +85,7 @@ ht-degree: 32%
 
 ## 警告和错误
 
-当 **canDeploy** 方法时，该过程将验证配置并返回由其唯一ID标识的验证状态，即：
+当 **canDeploy** 方法调用时，该过程将验证配置并返回由其唯一ID标识的验证状态，即：
 
 ```
 "ok" or "error"
@@ -87,20 +93,20 @@ ht-degree: 32%
 
 潜在的错误包括：
 
-* **ERR_ENDPOINTCONFIG_100**：上限配置：缺失或无效的url
+* **ERR_ENDPOINTCONFIG_100**：上限配置：缺少url或无效的url
 * **ERR_ENDPOINTCONFIG_101**：上限配置：格式错误的url
-* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url：host：port中不允许使用url中的wildchar
+* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url： host：port中不允许使用url中的wildchar
 * **ERR_ENDPOINTCONFIG_103**：上限配置：缺少HTTP方法
 * **ERR_ENDPOINTCONFIG_104**：上限配置：未定义调用评级
 * **ERR_ENDPOINTCONFIG_107**：上限配置：无效的最大调用计数(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**：上限配置：无效的最大调用计数(periodInMs)
+* **ERR_ENDPOINTCONFIG_108**：上限配置：调用数上限无效(periodInMs)
 * **ERR_ENDPOINTCONFIG_111**：上限配置：无法创建终结点配置：有效负载无效
 * **ERR_ENDPOINTCONFIG_112**：上限配置：无法创建终结点配置：应为JSON有效负载
 * **ERR_AUTHORING_ENDPOINTCONFIG_1**：服务名称无效 `<!--<given value>-->`：必须为“dataSource”或“action”
 
 潜在的警告是：
 
-**ERR_ENDPOINTCONFIG_106**：上限配置：未定义最大HTTP连接：默认情况下无限制
+**ERR_ENDPOINTCONFIG_106**：上限配置：未定义最大HTTP连接数：默认情况下无限制
 
 ## 用例
 
