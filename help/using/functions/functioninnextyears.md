@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inNextYears
-description: 了解inNextYears中的函数
+description: 了解函数inNextYears
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -30,9 +30,9 @@ ht-degree: 20%
 | 参数 | 类型 |
 |-----------|------------------|
 | 日期时间 | dateTime |
-| delta | 整数 |
+| 增量 | 整数 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `inNextYears(<dateTime>,<integer>)`
 

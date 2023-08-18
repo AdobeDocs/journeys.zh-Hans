@@ -39,11 +39,11 @@ ht-degree: 21%
 | list | listDateOnly |
 | index | 整数 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `getListItem(<listInteger>,<index>)`
 
-返回一个整数。
+返回整数。
 
 `getListItem(<listDecimal>,<index>)`
 
@@ -82,7 +82,7 @@ ht-degree: 21%
 `getListItem(["A", "B", "C"], 2)`
 返回“C”
 
-事件字段“event.appVersion”具有值“20.45.2.3434”的示例
+具有事件字段&quot;event.appVersion&quot;且值为&quot;20.45.2.3434&quot;的示例
 
 `split(@{event.appVersion}, "\\.")`
 

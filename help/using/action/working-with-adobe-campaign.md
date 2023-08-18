@@ -17,17 +17,17 @@ ht-degree: 4%
 
 您可以使用Adobe Campaign Standard的事务性消息传送功能发送电子邮件、推送通知和短信。
 
-[!DNL Journey Orchestration] 附带一个开箱即用的操作，用于连接到Adobe Campaign Standard。
+[!DNL Journey Orchestration] 附带的开箱即用操作，用于连接到Adobe Campaign Standard。
 
-必须发布Campaign Standard事务型消息及其相关事件，才能在Journey Orchestration中使用。 如果事件已发布，但消息未发布，则不会显示在Journey Orchestration界面中。 如果消息已发布，但其关联事件未发布，则它将在Journey Orchestration界面中可见，但不可用。
+必须发布Campaign Standard事务型消息及其关联的事件，才能在Journey Orchestration中使用。 如果事件已发布但消息未发布，则不会在Journey Orchestration界面中看到该消息。 如果消息已发布，但其关联事件未发布，则它将在Journey Orchestration界面中可见，但不可用。
 
 >[!NOTE]
 >
->一旦设置了Adobe Campaign Standard集成，就会为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这与Adobe Campaign Standard事务性消息传递的官方规模相对应。
+>一旦设置了Adobe Campaign Standard集成，就会为Adobe Campaign Standard操作自动定义每5分钟4000次调用的上限规则。 这对应于Adobe Campaign Standard事务型消息传递的官方规模。
 >
 >有关事务性消息传递SLA的更多信息，请参阅 [Adobe Campaign Standard产品描述](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
-以下是配置它的步骤：
+以下是配置此功能的步骤：
 
 1. 从 **[!UICONTROL Actions]** 列表中，单击内置 **[!UICONTROL AdobeCampaignStandard]** 操作。 操作配置窗格将在屏幕右侧打开。
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >此测试可验证：
+   >此测试将验证：
    >
    >主机为“.campaign.adobe.com”、“.campaign-sandbox.adobe.com”、“.campaign-demo.adobe.com”、“.ats.adobe.com”或“.adls.adobe.com”。
    >
@@ -47,8 +47,8 @@ ht-degree: 4%
    >
    >与此Adobe Campaign Standard实例关联的组织与Journey Orchestration的组织相同。
 
-设计旅程时，以下三个操作将可用： **[!UICONTROL Action]** 类别： **[!UICONTROL Email]**， **[!UICONTROL Push]**， **[!UICONTROL SMS]** (请参阅 [使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-actions.md))。 **反应事件** 还允许您对消息点击次数、打开次数等做出反应。 (请参阅 [反应事件](../building-journeys/reaction-events.md))。
+设计历程时，以下三个操作将可用： **[!UICONTROL Action]** 类别： **[!UICONTROL Email]**， **[!UICONTROL Push]**， **[!UICONTROL SMS]** (请参阅 [使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-actions.md))。 **反应事件** 还允许您对消息点击次数、打开次数等做出反应。 (请参阅 [反应事件](../building-journeys/reaction-events.md))。
 
 ![](../assets/journey58.png)
 
-如果您使用第三方系统来发送消息，则需要添加和配置自定义操作。 参见 [关于自定义操作配置](../action/about-custom-action-configuration.md).
+如果您使用第三方系统来发送消息，则需要添加和配置自定义操作。 请参阅 [关于自定义操作配置](../action/about-custom-action-configuration.md).

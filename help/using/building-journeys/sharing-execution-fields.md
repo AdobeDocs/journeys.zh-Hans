@@ -27,7 +27,7 @@ ht-degree: 12%
 
 ## actionName
 
-操作的名称。 如果尚未设置名称，将采用stepName。
+操作的名称。 如果未设置名称，则采用stepName。
 
 类型：字符串
 
@@ -63,7 +63,7 @@ ht-degree: 12%
 
 ## actionExecutionErrorCode
 
-操作执行错误的代码。 如果错误包含代码（例如HTTP代码），则会出现。
+操作执行错误的代码。 如果错误包含代码（如HTTP代码），则显示。
 
 类型：字符串
 
@@ -71,10 +71,10 @@ ht-degree: 12%
 
 在以下两种情况下，可能会出现超时：
 
-* 在第一次尝试时，执行操作。 在这种情况下，执行未完成，因此没有基础错误
-* 重试：在这种情况下，actionExecOrigError/actionExecOrigErrorCode描述在重试之前尝试遇到的错误。
+* 在第一次尝试时，执行操作。 在这种情况下，执行未完成，因此不存在基础错误
+* 重试：在这种情况下，actionExecOrigError/actionExecOrigErrorCode将描述在重试之前尝试时遇到的错误。
 
-例如，发送电子邮件，第一次尝试时返回HTTP 500错误。 将重试获取，但2次尝试的持续时间超过了超时。 然后，该操作执行将标记为超时。 操作部分将如下所示：
+例如，会发送电子邮件，并在第一次尝试时返回HTTP 500错误。 将重试获取，但两次尝试的持续时间超过了超时。 然后，操作执行将标记为超时。 操作部分将如下所示：
 
 ```
     ...
@@ -101,7 +101,7 @@ actionExecOrigError的错误代码。
 
 值：
 
-* builtin
+* 内置
 * ACS电子邮件
 * ACS短信
 * ACS推送
@@ -111,15 +111,15 @@ actionExecOrigError的错误代码。
 
 类型：字符串
 
-## deliveryJobID
+## deliveryJobId
 
-这将描述批处理历程的投放作业ID。
+此字段描述批处理历程的投放作业ID。
 
 类型：字符串
 
-## batchdeliveriyid
+## batchDeliveryID
 
-这将描述批处理历程的投放ID。
+此字段描述批处理历程的投放ID。
 
 类型：字符串
 

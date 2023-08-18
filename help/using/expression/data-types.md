@@ -15,15 +15,15 @@ ht-degree: 5%
 
 # 数据类型 {#concept_gp3_rj5_dgb}
 
-从技术上讲，常量始终包含数据类型。 在文本表达式中，我们仅指定值。 可以从值推断数据类型（例如，字符串、整数、小数等）。 对于日期时间等特定情况，我们使用专门的函数进行表示。
+从技术上讲，常量始终包含数据类型。 在文本表达式中，我们仅指定值。 可以从值推断数据类型（例如字符串、整数、小数等）。 对于日期时间等具体情况，我们使用专门的函数进行表示。
 
-以下各节提供了有关不同数据类型表达式及其表示方式的信息。
+以下各部分提供了有关不同数据类型表达式及其表示方式的信息。
 
 ## 字符串 {#string}
 
 **描述**
 
-常用字符序列。 除来自环境的隐式大小（例如可用内存量）外，它没有任何特定的大小。
+常用字符序列。 除来自环境的隐式大小（例如可用内存量）外，它没有任何特定大小。
 
 JSON格式：字符串
 
@@ -69,7 +69,7 @@ JSON格式：数字
 42
 ```
 
-## 十进制 {#decimal}
+## 小数 {#decimal}
 
 **描述**
 
@@ -99,7 +99,7 @@ JSON格式：数字
 
 **描述**
 
-写入小写的布尔值： true或false
+布尔值写入小写： true或false
 
 JSON格式：布尔型
 
@@ -119,15 +119,15 @@ false
 true
 ```
 
-## dateonly {#date-only}
+## dateOnly {#date-only}
 
 **描述**
 
-表示没有时区的日期，以年 — 月 — 日形式查看。
+表示不带时区的日期，以年 — 月 — 日形式查看。
 
 它是日期的描述，用于生日。
 
-JSON格式：字符串。
+json格式：字符串。
 
 格式为：YYYY-MM-DD (ISO-8601)，例如：“2021-03-11”。
 
@@ -153,11 +153,11 @@ date("2021-02-19")
 
 表示不带时区的日期时间，它以年 — 月 — 日 — 小时 — 分钟 — 秒 — 毫秒形式查看。
 
-JSON格式：字符串。
+json格式：字符串。
 
 它不存储或表示时区。 相反，它是对日期的描述（用于生日），与墙上时钟上显示的当地时间相结合。
 
-如果没有偏移或时区等附加信息，它不能表示时间线上的某个时刻。
+如果没有偏移或时区等附加信息，它不能表示时间线上的瞬间。
 
 它可以封装在toDateTimeOnly函数中。
 
@@ -182,21 +182,21 @@ date("2021-02-19T00.00")
 
 **描述**
 
-日期时间常量，也会考虑时区。 它表示与UTC偏移的日期时间。
+日期时间常量，也会考虑时区。 它表示一个日期时间，带有与UTC的偏移。
 
-它可以被视为带有偏移量附加信息的即时时刻。 它是一种在世界某个特定位置表示特定“时刻”的方式。
+它可以被视为带有偏移量附加信息的即时时刻。 这是一种在世界特定地点表示特定“时刻”的方式。
 
-JSON格式：字符串。
+json格式：字符串。
 
 它可以封装在toDateTime函数中。
 
 序列化格式：ISO-8601扩展偏移日期时间格式。
 
-它使用DateTimeFormatter ISO_OFFSET_DATE_TIME来反序列化和序列化值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+它使用DateTimeFormatter ISO_OFFSET_DATE_TIME反序列化和序列化值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
 您还可以传递一个传递epoch值的整数。 [了解详情](https://www.epochconverter.com)
 
-时区可以通过偏移或时区代码（例如：欧洲/巴黎，Z — 表示UTC）指定。
+时区可以通过偏移或时区代码指定（例如：欧洲/巴黎，Z — 表示UTC）。
 
 **文本呈现**
 
@@ -246,17 +246,17 @@ toDateTime(1560762190189)
 
 **描述**
 
-它表示基于时间的时间量，如“34.5秒”。 它以毫秒为单位建模时间量或时间量。
+它表示基于时间的时间量，如“34.5秒”。 它以毫秒为单位对时间量或时间量建模。
 
-支持的临时单位为：毫秒、秒、分钟、小时、天，其中一天等于24小时。 不支持年份和月份，因为它们不是固定时间量。
+支持的临时单位为：毫秒、秒、分钟、小时、天，其中天等于24小时。 不支持年份和月份，因为它们不是固定时间。
 
-JSON格式：字符串。
+json格式：字符串。
 
-必须封装在toDuration函数中。
+必须将其封装在toDuration函数中。
 
 序列化格式：要反序列化时区ID，它使用java函数java.time。
 
-Duration.parse：接受的格式基于ISO-8601持续时间格式PnDTnHnMn.nS，天数被认为正好是24小时。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse：可接受的格式基于ISO-8601持续时间格式PnDTnHnMn.nS，天数被认为刚好是24小时。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **文本呈现**
 
@@ -314,7 +314,7 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 
 **描述**
 
-使用方括号作为分隔符的逗号分隔表达式列表。
+使用方括号作为分隔符的表达式逗号分隔列表。
 
 不支持多态性，因此列表中包含的所有表达式都应具有相同的类型。
 

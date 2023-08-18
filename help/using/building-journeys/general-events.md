@@ -15,6 +15,6 @@ ht-degree: 52%
 
 # 一般事件 {#section_ofg_jss_dgb}
 
-对于此类事件，只能添加标签和描述。无法编辑配置的其余部分。 该操作由技术用户执行。 请参阅[此页](../event/about-events.md)。
+对于此类事件，只能添加标签和描述。配置的其他部分无法编辑。 该操作由技术用户执行。 请参阅[此页](../event/about-events.md)。
 
 ![](../assets/general-events.png)

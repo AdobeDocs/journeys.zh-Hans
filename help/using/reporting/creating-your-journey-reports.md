@@ -19,9 +19,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->删除历程后，所有关联的报告将不再可用。
+>删除历程后，所有关联的报表将不再可用。
 
-本节将介绍如何创建或使用现成的报告。 将面板、组件和可视化图表组合在一起，以便更好地跟踪您的旅程是否成功。
+本节将向您介绍如何创建或使用现成的报告。 将面板、组件和可视化图表组合在一起，以便更好地跟踪您的历程是否成功。
 
 要访问历程报告并开始跟踪投放是否成功，请执行以下操作：
 
@@ -29,19 +29,19 @@ ht-degree: 3%
 
 1. 选择要报告的历程。
 
-   请注意，您还可以通过单击 **报告** 将鼠标悬停在历程列表中的历程上时。
+   请注意，您还可以通过单击 **报表** 将鼠标悬停在历程列表中的历程上时。
 
    ![](../assets/dynamic_report_journey.png)
 
-1. 单击 **[!UICONTROL Report]** 图标。
+1. 单击 **[!UICONTROL Report]** 图标（位于屏幕右上方）。
 
    ![](../assets/dynamic_report_journey_2.png)
 
-1. 此 **[!UICONTROL Journey summary]** 现成的报告会显示在屏幕上。 要访问自定义报表，请单击 **[!UICONTROL Close]** 按钮。
+1. 此 **[!UICONTROL Journey summary]** 现成报告将显示在屏幕上。 要访问自定义报表，请单击 **[!UICONTROL Close]** 按钮。
 
    ![](../assets/dynamic_report_journey_12.png)
 
-1. 单击 **[!UICONTROL Create new project]** 以从头开始创建报告。
+1. 单击 **[!UICONTROL Create new project]** 以从头开始创建报表。
 
    ![](../assets/dynamic_report_journey_3.png)
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. 然后，您可以通过从以下位置拖放维度和量度来开始筛选数据： **[!UICONTROL Components]** 选项卡。 有关更多信息，请参阅此 [部分](#adding-components).
+1. 然后，您可以通过从以下位置拖放维度和量度来开始过滤数据： **[!UICONTROL Components]** 选项卡，转到自由格式表。 有关更多信息，请参阅此 [部分](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
@@ -59,11 +59,11 @@ ht-degree: 3%
 
 ### 添加空白面板 {#adding-a-blank-panel}
 
-要启动报表，可向现成报表或自定义报表添加一组面板。 每个面板包含不同的数据集，由自由格式表和可视化图表组成。
+要启动报表，可将一组面板添加到现成或自定义报表中。 每个面板包含不同的数据集，由自由格式表和可视化图表组成。
 
-利用此面板，可根据需要构建报告。 您可以在报表中添加任意数量的面板，以按不同的时间段筛选数据。
+利用此面板，可根据需要构建报告。 您可以在报表中添加所需数量的面板，以按不同的时间段过滤数据。
 
-1. 单击 **[!UICONTROL Panels]** 图标。您还可以通过单击 **[!UICONTROL Insert tab]** 和选择 **[!UICONTROL New Blank Panel]**.
+1. 单击 **[!UICONTROL Panels]** 图标。您还可以通过单击 **[!UICONTROL Insert tab]** 并选择 **[!UICONTROL New Blank Panel]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
@@ -71,7 +71,7 @@ ht-degree: 3%
 
    ![](../assets/dynamic_report_panel.png)
 
-您现在可以将自由格式表添加到面板中以开始定位数据。
+您现在可以向面板中添加自由格式表以开始定位数据。
 
 ### 添加自由格式表 {#adding-a-freeform-table}
 
@@ -89,7 +89,7 @@ ht-degree: 3%
 
    ![](../assets/dynamic_report_panel_2.png)
 
-1. 将项目从 **[!UICONTROL Components]** 按Tab键进入列和行以构建表。
+1. 从拖放项目 **[!UICONTROL Components]** 制表符以生成表。
 
    ![](../assets/dynamic_report_freeform_3.png)
 
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 组件可帮助您使用不同的维度、量度和时间段自定义报表。
 
-1. 单击 **[!UICONTROL Components]** 选项卡以访问组件列表。
+1. 单击 **[!UICONTROL Components]** 选项卡访问组件列表。
 
    ![](../assets/dynamic_report_components.png)
 
@@ -123,8 +123,8 @@ ht-degree: 3%
 
    组件表分为三类：
 
-   * **[!UICONTROL Dimensions]**：从投放日志获取详细信息，例如收件人的浏览器或域，或者投放是否成功。
-   * **[!UICONTROL Metrics]**：获取有关消息状态的详细信息。 例如，如果消息已投放且用户已打开。
+   * **[!UICONTROL Dimensions]**：从投放日志获取详细信息，如收件人的浏览器或域，或投放是否成功。
+   * **[!UICONTROL Metrics]**：获取有关消息状态的详细信息。 例如，已投放消息且用户已将其打开。
    * **[!UICONTROL Time]**：为表设置时间段。
 
 1. 将组件拖放到面板中以开始筛选数据。
@@ -133,26 +133,26 @@ ht-degree: 3%
 
 ## 添加可视化{#adding-visualizations}
 
-此 **[!UICONTROL Visualizations]** 选项卡允许您拖放可视化图表项目，例如区域、圆环图和图形。 可视化图表为您提供数据的图形表示形式。
+此 **[!UICONTROL Visualizations]** 选项卡允许您拖放可视化项目，例如面积图、圆环图和图形。 可视化可为您提供数据的图形表示。
 
 1. 在 **[!UICONTROL Visualizations]** 选项卡，将可视化项拖放到面板中。
 
    ![](../assets/dynamic_report_visualization_1.png)
 
 1. 向面板添加可视化图表后，报表将自动检测自由格式表中的数据。 选择可视化图表的设置。
-1. 如果您有多个自由格式表，请在的图表中选择要添加的可用数据源 **[!UICONTROL Data Source Settings]** 窗口。 单击可视化图表标题旁边的彩色圆点也可使用此窗口。
+1. 如果您有多个自由格式表，请在的图表中选择要添加的可用数据源 **[!UICONTROL Data Source Settings]** 窗口。 单击可视化图表标题旁边的彩色圆点，也可以使用此窗口。
 
    ![](../assets/dynamic_report_visualization_2.png)
 
-1. 单击 **[!UICONTROL Visualization]** 设置按钮直接更改图形类型或图形上显示的内容，例如：
+1. 单击 **[!UICONTROL Visualization]** “设置”按钮可直接更改图形类型或图形上显示的内容，例如：
 
    * **[!UICONTROL Percentages]**：以百分比显示值。
    * **[!UICONTROL Anchor Y Axis at Zero]**：强制将y轴设为零，即使值范围在零以上也是如此。
    * **[!UICONTROL Legend visible]**：用于隐藏图例。
-   * **[!UICONTROL Normalization]**：强制值匹配。
+   * **[!UICONTROL Normalization]**：强制匹配各个值。
    * **[!UICONTROL Display Dual Axis]**：向图形中添加另一个轴。
    * **[!UICONTROL Limit Max Items]**：限制显示的图形数量。
-   * **[!UICONTROL Threshold]**：用于为图表设置阈值。 它显示为黑色虚线。
+   * **[!UICONTROL Threshold]**：用于为图形设置阈值。 它显示为黑色虚线。
 
    ![](../assets/dynamic_report_visualization_3.png)
 

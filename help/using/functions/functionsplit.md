@@ -32,7 +32,7 @@ ht-degree: 19%
 | 输入字符串 | 字符串 |
 | 分隔符字符串 | 字符串 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `split(<input string>, <separator string>)`
 
@@ -44,7 +44,7 @@ ht-degree: 19%
 
 返回结果 `["A","B","C"]`
 
-事件字段“event.appVersion”的示例，其值为：“20.45.2.3434”
+具有事件字段“event.appVersion”且值为“20.45.2.3434”的示例
 
 `split(@{event.appVersion}, "\\.")`
 

@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # 关于 AI 集成 {#ai-overview}
 
-与智能服务集成允许您在客户体验用例中利用人工智能和机器学习的强大功能。 这允许营销分析人员使用业务级别配置设置特定于公司需求的预测，而无需数据科学专业知识。
+与智能服务集成允许您在客户体验用例中利用人工智能和机器学习的强大功能。 借助此功能，营销分析人员可以使用业务级配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
 
 有关智能服务的详细信息，请参阅 [文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
 

@@ -15,21 +15,21 @@ ht-degree: 5%
 
 # 定义有效负载字段 {#concept_yrw_3qt_52b}
 
-有效负载定义允许您选择系统预期从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans).
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的详细信息，请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans).
 
-1. 从列表中选择一个XDM架构，然后单击 **[!UICONTROL Payload]** 字段或 **[!UICONTROL Edit]** 图标。
+1. 从列表中选择一个XDM架构，然后单击 **[!UICONTROL Payload]** 字段或在 **[!UICONTROL Edit]** 图标。
 
    ![](../assets/journey8.png)
 
-   将显示架构中定义的所有字段。 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段或仅显示选定的字段。 根据架构定义，某些字段可能是必填字段，并且已预先选定。 不能取消选择它们。 默认情况下，必须填写所有字段才能使Journey Orchestration正确接收事件。
+   将显示架构中定义的所有字段。 字段列表因架构而异。 您可以搜索特定字段，或使用过滤器显示所有节点和字段或仅显示选定的字段。 根据架构定义，某些字段可能是必填字段，并且已预先选择。 不能取消选择它们。 默认情况下，必须填写所有字段才能使Journey Orchestration正确接收事件。
 
    >[!NOTE]
    >
-   >确保已将“编排”mixin添加到XDM架构中。 这将确保您的架构包含要使用的所有必需信息 [!DNL Journey Orchestration].
+   >确保您已将“编排”mixin添加到XDM架构中。 这将确保您的架构包含与配合使用所需的所有信息 [!DNL Journey Orchestration].
 
    ![](../assets/journey9.png)
 
-1. 选择您希望从事件接收的字段。 这些是商业用户将在历程中利用的字段。 还必须包含用于识别与事件关联的人员的键(请参阅 [此页面](../event/defining-the-event-key.md))。
+1. 选择您希望从事件接收的字段。 这些是业务用户在历程中将利用的字段。 还必须包含用于识别与事件关联的人员的键(请参阅 [此页面](../event/defining-the-event-key.md))。
 
    ![](../assets/journey10.png)
 
@@ -41,6 +41,6 @@ ht-degree: 5%
 
    ![](../assets/journey11.png)
 
-   所选字段的数目将显示在 **[!UICONTROL Payload]** 字段。
+   所选字段的数目显示在 **[!UICONTROL Payload]** 字段。
 
    ![](../assets/journey12.png)

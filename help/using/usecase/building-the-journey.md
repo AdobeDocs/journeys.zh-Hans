@@ -130,9 +130,9 @@ ht-degree: 99%
    * **[!UICONTROL Push platform]**：选择平台：**[!UICONTROL Apple Push Notification Server]** (Apple) 或 **[!UICONTROL Firebase Cloud Messaging]** (Android)。
    * **[!UICONTROL Registration token]**：使用高级模式添加以下表达式（基于配置的事件）：
 
-      ```
-      @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-      ```
+     ```
+     @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+     ```
 
 1. 定义推送通知个性化字段。在我们的示例中：名字和姓氏。
 

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: distinct
-description: 了解非重复函数
+description: 了解distinct函数
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -30,13 +30,13 @@ ht-degree: 7%
 | 参数 | 类型 | 描述 |
 |-----------|------------------|------------------|
 | listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要处理的列表。 对于listObject，它必须是字段引用。 |
-| keyAttributeName | 字符串 | 此参数是可选的，仅适用于listObject。 如果未提供参数，则在所有属性具有相同的值时，会将对象视为重复。 否则，如果给定的属性具有相同的值，则对象被视为重复。 |
+| keyAttributeName | 字符串 | 此参数是可选的，并且仅适用于listObject。 如果未提供参数，则当所有属性都具有相同的值时，会将对象视为重复。 否则，如果给定的属性具有相同的值，则将对象视为重复。 |
 
 ## 签名和返回的类型
 
 `distinct(<listInteger>)`
 
-返回整数的列表。
+返回整数列表。
 
 `distinct(<listDecimal>)`
 

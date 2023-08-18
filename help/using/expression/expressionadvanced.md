@@ -43,7 +43,7 @@ _高级表达式编辑器界面_
 
 * 在创建数据源条件时，可以通过单击 **[!UICONTROL Advanced mode]** 访问高级编辑器 。
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * 创建自定义计时器时，系统将直接显示高级编辑器。
 * 映射操作参数时，单击 **[!UICONTROL Advanced mode]**。

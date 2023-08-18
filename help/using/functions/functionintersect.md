@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: intersect
-description: 了解函数交集
+description: 了解函数intersect
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -34,7 +34,7 @@ ht-degree: 12%
 
 ## 签名和返回的类型
 
-`intersect(listString,listString)`： listString
+`intersect(listString,listString)`：列表字符串
 `intersect(listDecimal,listDecimal)`： listDecimal
 `intersect(listInteger,listInteger)`： listInteger
 `intersect(listDateTime,listDateTime)`： listDateTime
@@ -63,7 +63,7 @@ intersect(
 )
 ```
 
-返回配置文件属性和给定类别列表之间的通用项。
+返回配置文件属性和给定类别列表之间的通用项目。
 
 ```json
 intersect(
@@ -72,4 +72,4 @@ intersect(
 )
 ```
 
-返回配置文件属性和给定事件字段之间的公用项。
+返回用户档案属性和给定事件字段之间的公用项。

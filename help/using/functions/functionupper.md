@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: upper
-description: 了解upper函数
+description: 了解函数上限
 feature: Journeys
 role: Data Engineer
 level: Experienced

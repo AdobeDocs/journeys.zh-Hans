@@ -25,7 +25,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->您不能在历程中设置URL的静态部分，而应在自定义操作的全局配置中设置。 [了解详情](../action/about-custom-action-configuration.md)。
+>您无法在历程中设置URL的静态部分，但可以在自定义操作的全局配置中设置。 [了解详情](../action/about-custom-action-configuration.md)。
 
 要连接字段和纯文本字符串，请使用高级表达式编辑器中的字符串函数或加号(+)。 将纯文本字符串用单引号(&#39;)或双引号(&#39;&#39;)括起来。 [了解详情](../expression/expressionadvanced.md)。
 
@@ -44,7 +44,7 @@ ht-degree: 11%
 
 ### 标头
 
-此 **[!UICONTROL URL Configuration]** 部分显示动态标头字段，但不显示常量标头字段。 动态标头字段是指其值配置为变量的HTTP标头字段。 [了解详情](../action/about-custom-action-configuration.md)。
+此 **[!UICONTROL URL Configuration]** 部分显示动态标题字段，但不显示常量标题字段。 动态标头字段是将其值配置为变量的HTTP标头字段。 [了解详情](../action/about-custom-action-configuration.md)。
 
 如果需要，请指定动态标头字段的值：
 
@@ -53,7 +53,7 @@ ht-degree: 11%
 
    ![](../assets/journey-dynamicheaderfield.png)
 
-1. 选择一个字段并单击 **[!UICONTROL OK]**.
+1. 选择字段并单击 **[!UICONTROL OK]**.
 
 ## 操作参数
 

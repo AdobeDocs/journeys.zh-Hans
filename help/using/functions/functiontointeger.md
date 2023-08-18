@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toInteger
-description: 了解toInteger函数
+description: 了解函数toInteger
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -31,10 +31,10 @@ ht-degree: 14%
 |--- |--- |
 | 字符串 | 将字符串值转换为整数 |
 | dateTime | 将日期转换为毫秒数（纪元毫秒） |
-| 十进制 | 通过删除小数部分转换为整数（示例： 1.5变为1） |
-| 布尔 | 将布尔值转换为1（如果为true），0（如果为false） |
+| 小数 | 通过删除小数部分转换为整数（示例：1.5变为1） |
+| 布尔 | 如果为true，则将布尔值转换为1；如果为false，则将布尔值转换为0 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `toInteger(<dateTime>)`
 

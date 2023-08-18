@@ -33,7 +33,7 @@ ht-degree: 20%
 
 `length(<string>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

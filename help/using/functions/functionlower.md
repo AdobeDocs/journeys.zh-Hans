@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: lower
-description: 了解函数lower
+description: 了解函数下限
 feature: Journeys
 role: Data Engineer
 level: Experienced

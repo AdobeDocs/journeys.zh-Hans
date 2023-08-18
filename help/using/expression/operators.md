@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # 操作员 {#concept_wd5_pj5_dgb}
 
-运算符分为一元运算符和二元运算符。 左一元运算符和右一元运算符。
+运算符分为二类：一元运算符和二元运算符。 有左一元运算符和右一元运算符。
 
 ```json
     // left-hand unary operators
@@ -46,7 +46,7 @@ ht-degree: 7%
 <expression1> and <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须为布尔型。 结果是一个布尔值。
+两者 &lt;expression1> 和 &lt;expression2> 必须为布尔型。 结果是布尔值。
 
 示例：
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 <expression1> or <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须为布尔型。 结果是一个布尔值。
+两者 &lt;expression1> 和 &lt;expression2> 必须为布尔型。 结果是布尔值。
 
 示例：
 
@@ -78,7 +78,7 @@ ht-degree: 7%
 not <expression>
 ```
 
-&lt;expression> 必须为布尔型。 结果是一个布尔值。
+&lt;expression> 必须为布尔型。 结果是布尔值。
 
 示例：
 
@@ -96,7 +96,7 @@ not 3.15 < 1
 <expression> is null
 ```
 
-结果是一个布尔值。
+结果是布尔值。
 
 请注意，null表示表达式没有计算值。
 
@@ -114,7 +114,7 @@ not 3.15 < 1
 <expression> is not null
 ```
 
-结果是一个布尔值。
+结果是布尔值。
 
 请注意，null表示表达式没有计算值。
 
@@ -132,9 +132,9 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;expression> 必须为列表。 结果是一个布尔值。
+&lt;expression> 必须为列表。 结果是布尔值。
 
-用于标识列表是否至少包含一个null值。
+用于标识列表是否包含至少一个null值。
 
 示例：
 
@@ -154,7 +154,7 @@ not 3.15 < 1
 <expression1> == <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果是一个布尔值。
+两者 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果是布尔值。
 
 示例：
 
@@ -174,7 +174,7 @@ not 3.15 < 1
 <expression1> != <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果是一个布尔值。
+两者 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果是布尔值。
 
 示例：
 
@@ -194,15 +194,15 @@ not 3.15 < 1
 <expression1> > <expression2>
 ```
 
-Datetime可以与Datetime进行比较。
+日期时间可以与日期时间进行比较。
 
-Datetimeonly可以与Datetimeonly进行比较。
+只能将Datetimeonly与Datetimeonly进行比较。
 
-整数或小数均可与整数或小数进行比较。
+整数或小数都可与整数或小数进行比较。
 
 禁止任何其他组合。
 
-结果是一个布尔值。
+结果是布尔值。
 
 示例：
 
@@ -218,15 +218,15 @@ Datetimeonly可以与Datetimeonly进行比较。
 <expression1> >= <expression2>
 ```
 
-Datetime可以与Datetime进行比较。
+日期时间可以与日期时间进行比较。
 
-Datetimeonly可以与Datetimeonly进行比较。
+只能将Datetimeonly与Datetimeonly进行比较。
 
-整数或小数均可与整数或小数进行比较。
+整数或小数都可与整数或小数进行比较。
 
 禁止任何其他组合。
 
-结果是一个布尔值。
+结果是布尔值。
 
 示例：
 
@@ -242,15 +242,15 @@ Datetimeonly可以与Datetimeonly进行比较。
 <expression1> < <expression2>
 ```
 
-Datetime可以与Datetime进行比较。
+日期时间可以与日期时间进行比较。
 
-Datetimeonly可以与Datetimeonly进行比较。
+只能将Datetimeonly与Datetimeonly进行比较。
 
-整数或小数均可与整数或小数进行比较。
+整数或小数都可与整数或小数进行比较。
 
 禁止任何其他组合。
 
-结果是一个布尔值。
+结果是布尔值。
 
 示例：
 
@@ -266,15 +266,15 @@ Datetimeonly可以与Datetimeonly进行比较。
 <expression1> <= <expression2>
 ```
 
-Datetime可以与Datetime进行比较。
+日期时间可以与日期时间进行比较。
 
-Datetimeonly可以与Datetimeonly进行比较。
+只能将Datetimeonly与Datetimeonly进行比较。
 
-整数或小数均可与整数或小数进行比较。
+整数或小数都可与整数或小数进行比较。
 
 禁止任何其他组合。
 
-结果是一个布尔值。
+结果是布尔值。
 
 示例：
 
@@ -378,7 +378,7 @@ Datetimeonly可以与Datetimeonly进行比较。
 
 ## 数学 {#math}
 
-### 为数字
+### 是数字
 
 
 
@@ -418,7 +418,7 @@ Datetimeonly可以与Datetimeonly进行比较。
 <expression> is decimal
 ```
 
-表达式的类型是十进制。
+表达式的类型为小数。
 
 示例：
 

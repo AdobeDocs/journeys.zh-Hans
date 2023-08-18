@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 构建历程 — 简单
+title: 构建旅程 — 简单
 description: 了解如何构建简单的用例历程
 feature: Journeys
 role: User
@@ -17,8 +17,8 @@ ht-degree: 41%
 
 **业务用户**&#x200B;现在可以构建历程。我们的历程将仅包含一个包含以下活动的路径：
 
-* “SpaBeacon” **[!UICONTROL Event]**：当有人靠近spa信标时，系统将收到一个事件，并将为该人开始旅程。
-* a **[!UICONTROL Condition]** 用于检查该人员是否为女性的活动
+* “SpaBeacon” **[!UICONTROL Event]**：当某人靠近spa信标时，系统将收到一个事件，并将为该人开始旅程。
+* a **[!UICONTROL Condition]** 检查人员是否为女性的活动
 * 一个 **[!UICONTROL Email]** 活动(使用Adobe Campaign Standard)
 * 一个 **[!UICONTROL End]** 活动
 
@@ -32,11 +32,11 @@ ht-degree: 41%
 
    ![](../assets/journey31.png)
 
-1. 编辑右侧显示的配置窗格中的历程属性。我们将其命名为“Spa journey”，并将其设置为持续一个月（从12月1日至31日）。
+1. 编辑右侧显示的配置窗格中的历程属性。我们将其命名为“Spa journey”，并将其设置为持续1个月（从12月1日至31日）。
 
    ![](../assets/journeyuc1_8.png)
 
-1. 通过将“SpaBeacon”事件从调色板拖放到画布，开始设计旅程。 您还可以双击调色板中的事件来将其添加到画布。
+1. 通过将“SpaBeacon”事件从调色板拖放到画布，开始设计历程。 您还可以双击调色板中的事件来将其添加到画布。
 
    ![](../assets/journeyuc1_9.png)
 
@@ -48,7 +48,7 @@ ht-degree: 41%
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用简单表达式编辑器查找性别字段(_人员>性别_)，并将其拖放到创建以下条件的权限中：“性别等于”女性“。
+1. 使用简单表达式编辑器查找性别字段(_人员>性别_)，并将其拖到右侧以创建以下条件：“性别等于“女性”。
 
    ![](../assets/journeyuc1_12.png)
 
@@ -56,7 +56,7 @@ ht-degree: 41%
 
    ![](../assets/journeyuc1_13.png)
 
-1. 在 **[!UICONTROL Email]** 字段并从数据源中选择电子邮件地址。
+1. 在 **[!UICONTROL Email]** 字段，并从数据源中选择电子邮件地址。
 
    ![](../assets/journeyuc1_14.png)
 
@@ -76,4 +76,4 @@ ht-degree: 41%
 
    ![](../assets/journeyuc1_18.png)
 
-下次，当一个女人走近水疗信标时，她将立即收到一封“水疗折扣”的个人化电子邮件。
+下次当一个女人走近水疗信标时，她马上会收到一封“水疗折扣”的个性化电子邮件。

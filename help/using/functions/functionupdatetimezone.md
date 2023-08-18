@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # updateTimeZone {#updateTimeZone}
 
-返回新的日期时间，并在同一时刻使用新时区。
+返回新的日期时间，同一时刻具有新的时区。
 
 ## 类别
 

@@ -38,11 +38,11 @@ ht-degree: 30%
 | 列表 | listDateTimeOnly |
 | 列表 | listDateOnly |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `count(<listAny>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

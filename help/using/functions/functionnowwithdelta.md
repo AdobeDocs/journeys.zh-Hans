@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: nowWithDelta
-description: 了解nowWithDelta函数
+description: 了解函数nowWithDelta
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # nowWithDelta {#nowWithDelta}
 
-返回包含偏移量的当前日期时间。 如果指定了时区ID，则会应用时区偏移。 有关数据类型的更多信息，请参阅 [此页面](../expression/data-types.md).
+返回包含偏移量的当前日期时间。 如果指定了时区ID，将应用时区偏移。 有关数据类型的详细信息，请参阅 [此页面](../expression/data-types.md).
 
 ## 类别
 
@@ -29,11 +29,11 @@ ht-degree: 7%
 
 | 参数 | 描述 |
 |--- |--- |
-| delta | 正整数或负整数 |
-| 日期部分 | 年、月、日、小时、分钟或秒作为字符串 |
-| 时区id | 时区值的字符串表示形式。 有关更多信息，请参阅 [数据类型](../expression/data-types.md). 时区ID必须是字符串常量。 它不能是字段引用或表达式。 |
+| 增量 | 正或负整数值 |
+| 日期部分 | 年、月、日、小时、分钟或秒 |
+| 时区id | 时区值的字符串表示形式。 有关更多信息，请参阅 [数据类型](../expression/data-types.md). 时区ID必须是字符串常量。 它不能是字段引用，也不能是表达式。 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `nowWithDelta(<delta>,<date part>`
 

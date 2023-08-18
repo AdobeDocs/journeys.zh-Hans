@@ -16,7 +16,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->预测疲劳得分功能仅适用于使用 [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
+>预测疲劳得分功能仅适用于使用 [Adobe Experience Platform数据连接器](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
 
 ## 配置事件 {#section_ptb_ws1_ffb}
 
@@ -42,9 +42,9 @@ ht-degree: 12%
 
 要创建、验证和发布历程，请按照中所述的步骤操作 [此页面](../building-journeys/journey.md).
 
-在我们的用例中，我们利用 **[!UICONTROL fatigueLevel]** 字段。 您还可以使用 **[!UICONTROL fatigueScore]** 字段。
+在我们的用例中，我们利用 **[!UICONTROL fatigueLevel]** 字段。 您也可以使用 **[!UICONTROL fatigueScore]** 字段。
 
-执行以下步骤以在旅程中利用疲劳级别：
+执行以下步骤以在历程中利用疲劳级别：
 
 1. 在历程中添加事件和条件。
 
@@ -54,7 +54,7 @@ ht-degree: 12%
 
    ![](../assets/journeyuc3_2.png)
 
-1. 使用简单表达式编辑器，查找 **[!UICONTROL fatigueLevel]** 字段(_ExperiencePlatformDataSource > JourneyAIScores >配置文件> journeyAI > emailScore >疲劳_)，将其拖放到右侧并创建以下条件：“fatigueLevel is equal to &quot;Low&quot;。 单击 **[!UICONTROL Ok]**。
+1. 使用简单表达式编辑器查找 **[!UICONTROL fatigueLevel]** 字段(_ExperiencePlatformDataSource > JourneyAIScores >配置文件> journeyAI > emailScore >疲劳_)，将其拖放到右侧并创建以下条件：“fatigueLevel等于“Low”。 单击 **[!UICONTROL Ok]**。
 
    ![](../assets/journeyuc3_3.png)
 
@@ -64,7 +64,7 @@ ht-degree: 12%
    #{ExperiencePlatformDataSource.JourneyAIScores.Profile.journeyAI.emailScore.fatigue.fatigueLevel} == "low"
    ```
 
-1. 在条件中，为中疲劳级别和高疲劳级别创建其他两个路径。
+1. 在条件中，为中和高疲劳级别创建另外两个路径。
 
    ![](../assets/journeyuc3_4.png)
 

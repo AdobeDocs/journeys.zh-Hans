@@ -64,10 +64,10 @@ ht-degree: 99%
 * 您是否使用“事件配置”窗格中的有效负载结构预览遵循了流摄取 API 的有效负载结构？请参阅[此页](../event/previewing-the-payload.md)。
 * 您是否在事件标题中使用了正确的键/值对？
 
-   ```
-   X-gw-ims-org-id - your ORGID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your ORGID
+  Content-type - application/json
+  ```
 
 ## 检查人员在历程中的导航方式{#section_l5y_yzs_dgb}
 

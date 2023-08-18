@@ -23,14 +23,14 @@ ht-degree: 9%
 
 要使此功能正常工作，您需要在Adobe Experience Platform中激活要利用的报表包：
 
-1. 在Adobe Experience Platform中，选择 **[!UICONTROL Sources]** 则 **[!UICONTROL Add data]** 在Adobe Analytics部分中。 此时将显示可用Adobe Analytics报表包的列表。
+1. 在Adobe Experience Platform中，选择 **[!UICONTROL Sources]** 则 **[!UICONTROL Add data]** 在Adobe Analytics部分中。 此时会显示可用Adobe Analytics报表包的列表。
 
-1. 选择要启用的报表包，然后单击 **[!UICONTROL Next]** 并单击 **[!UICONTROL Finish]**.
+1. 选取要启用的报表包，单击 **[!UICONTROL Next]** 并单击 **[!UICONTROL Finish]**.
 
 1. 与Alpha程序联系人共享源数据ID。
 
-这将为该报表包启用Analytics Source Connector。 无论何时收到数据，这些数据都会转换为Experience事件并发送到Adobe Experience Platform中。
+这将启用该报表包的Analytics Source Connector。 无论何时收到数据，这些数据都会转换为Experience事件并发送到Adobe Experience Platform中。
 
 ![](../assets/alpha-event9.png)
 
-有关Adobe Analytics源连接器的更多信息，请参阅 [文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans) 和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans).
+有关Adobe Analytics源连接器的更多信息，请参阅 [文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) 和 [教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).

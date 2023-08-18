@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: filter
-description: 了解函数筛选器
+description: 了解函数过滤器
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # filter{#filter}
 
-返回一个listObject，其对象具有匹配给定键值之一的键属性。
+返回一个listObject，其中的对象具有匹配给定键值之一的键属性。
 
 ## 类别
 
@@ -29,9 +29,9 @@ ht-degree: 10%
 
 | 参数 | 类型 | 描述 |
 |-----------|------------------|------------------|
-| listToFilter | listObject | 要筛选的对象列表。 它必须是字段引用。 |
+| listToFilter | listObject | 要过滤的对象列表。 它必须是字段引用。 |
 | keyAttributeName | 字符串 | 给定列表对象中的属性名称，用作筛选键 |
-| keyValueList | list | 用于筛选的键值数组 |
+| keyValueList | list | 用于过滤的键值数组 |
 
 ## 签名和返回的类型
 

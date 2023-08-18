@@ -15,26 +15,26 @@ ht-degree: 2%
 
 # 高级表达式示例
 
-高级表达式编辑器可用于创建条件，以允许您在历程中筛选用户。 通过这些条件，可按时间、日期、位置、持续时间或操作（例如购买或放弃购物车）定位用户，以便在历程中重新定位这些用户。
+高级表达式编辑器可用于创建条件，以允许您在历程中筛选用户。 通过这些条件，可按时间、日期、位置、持续时间或操作（例如购买或放弃购物车）定位用户，以便在历程中重新定位他们。
 
 >[!NOTE]
 >
 >事件以@开头，数据源以#开头。
 
-## 在Experience Events上构建条件
+## 基于体验事件构建条件
 
-高级表达式编辑器必须对时间序列执行查询，例如消息的购买或过去点击的列表。 无法使用简单编辑器执行此类查询。
+高级表达式编辑器必须对时间序列执行查询，例如消息的购买或过去点击列表。 无法使用简单编辑器执行此类查询。
 
-体验事件作为收藏集从Adobe Experience Platform中按反时间顺序进行检索，因此：
+体验事件将作为集合，以反向时间顺序从Adobe Experience Platform中进行检索，因此：
 
 * 第一个函数将返回最近的事件
-* 最后一个函数将返回最早的函数。
+* last函数将返回最早的函数。
 
-例如，假设您希望定位过去7天内放弃购物车的客户，以便在客户接近商店时发送消息，提供他们想要的店内商品的优惠。
+例如，假设您想定位过去7天内放弃购买购物车的客户，以便在客户接近商店时发送消息，提供有关他们想要的店内商品的优惠。
 
 **您需要生成以下条件：**
 
-首先，定位浏览了在线商店但在过去7天内未完成订单的客户。
+首先，定位浏览在线商店但在过去7天内未完成订单的客户。
 
 <!--**This expression looks for a specified value in a string value:**
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 >
 >要在表达式中快速插入字段，请双击编辑器左侧面板中的字段。
 
-指定的时间戳用作日期时间值，第二个是天数。
+指定的时间戳将用作日期时间值，第二个时间戳是天数。
 
 ```json
         in( "addToCart", #{ExperiencePlatformDataSource
@@ -68,7 +68,7 @@ ht-degree: 2%
                         .productInteraction}))
 ```
 
-此表达式返回一个布尔值。
+此表达式返回布尔值。
 
 **现在，让我们构建一个表达式，检查产品是否有库存**
 
@@ -76,25 +76,25 @@ ht-degree: 2%
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* 在右侧，指定了必要的值，这里，我们需要检索存储的位置，即从事件“EndaysLumaStudio”的位置映射的位置：
+* 在右边，指定必要的值，这里，我们需要检索存储的位置，该位置是从事件“EndaysLumaStudio”的位置映射的：
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
 * 并使用函数指定SKU `first` 要检索最新的“addToCart”交互，请执行以下操作：
 
-   ```json
-       #{ExperiencePlatformDataSource
-                       .ExperienceEventFieldGroup
-                       .experienceevent
-                       .first(
-                       currentDataPackField
-                       .productData
-                       .productInteraction == "addToCart"
-                       )
-                       .SKU}
-   ```
+  ```json
+      #{ExperiencePlatformDataSource
+                      .ExperienceEventFieldGroup
+                      .experienceevent
+                      .first(
+                      currentDataPackField
+                      .productData
+                      .productInteraction == "addToCart"
+                      )
+                      .SKU}
+  ```
 
-从该位置，您可以在历程中添加另一个路径（当产品不在商店中时），并发送包含参与选件的通知。 相应地配置消息并使用个性化数据增强消息目标。
+从该位置，您可以在历程中添加其他路径（产品不在商店中）并发送包含参与选件的通知。 相应地配置消息并使用个性化数据增强消息目标。
 
 ## 使用高级表达式编辑器进行字符串处理的示例
 
@@ -110,7 +110,7 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-解释：这是一个严格的字符串比较（区分大小写），等同于使用简单模式的查询 `equal to` 替换为 `Is sensitive` 已选中。
+解释：这是一种严格的字符串比较（区分大小写），相当于在使用简单模式下的查询 `equal to` 替换为 `Is sensitive` 已选中。
 
 相同的查询 `Is sensitive` 取消选中将在高级模式下生成以下表达式：
 
@@ -122,7 +122,7 @@ ht-degree: 2%
                         .name}, "Arlington")
 ```
 
-**在操作中**
+**操作中**
 
 以下表达式允许您在操作个性化字段中定义CRM ID：
 
@@ -143,6 +143,6 @@ substr(
 )
 ```
 
-说明：此示例使用 `substr` 和 `lastIndexOf` 用于删除包含通过移动设备应用程序启动事件传递的CRM ID的大括号函数。
+说明：此示例使用 `substr` 和 `lastIndexOf` 用于移除在移动设备应用程序启动事件中传递的CRM ID所包含的大括号函数。
 
-有关如何使用高级表达式编辑器的更多信息，请观看 [此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+有关如何使用高级表达式编辑器的更多信息，请关注 [此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # sum {#sum}
 
-返回一组表达式值的总和。 Null值将被忽略。
+返回一组表达式的值的总和。 Null值将被忽略。
 
 ## 类别
 
@@ -31,7 +31,7 @@ ht-degree: 13%
 * listDecimal
 * 持续时间
 * 整数
-* 十进制
+* 小数
 
 ## 签名和返回的类型
 
@@ -41,11 +41,11 @@ ht-degree: 13%
 
 `sum(<listInteger>)`
 
-返回一个整数。
+返回整数。
 
 `sum(<integer>,<integer>)`
 
-返回一个整数。
+返回整数。
 
 `sum(<decimal>,<decimal>)`
 

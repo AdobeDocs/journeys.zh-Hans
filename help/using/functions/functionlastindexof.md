@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: lastIndexOf
-description: 了解lastIndexOf函数
+description: 了解函数lastIndexOf
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -36,7 +36,7 @@ ht-degree: 20%
 
 `lastIndexOf(<string>,<string>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 

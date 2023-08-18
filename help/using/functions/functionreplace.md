@@ -32,7 +32,7 @@ ht-degree: 10%
 | 参数 | 类型 |
 |-----------|--------------|
 | 基础 | 字符串 |
-| Target | 字符串（正则表达式） |
+| Target | 字符串(RegExp) |
 | 替换 | 字符串 |
 
 ## 签名和返回的类型
@@ -49,7 +49,7 @@ ht-degree: 10%
 
 ## 示例 2 {#example_2}
 
-由于目标参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 示例如下：
+由于target参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 示例如下：
 
 * 要计算的字符串： `|OFFER_A|OFFER_B`
 * 由配置文件属性提供 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
@@ -63,6 +63,6 @@ ht-degree: 10%
 
 返回的字符串是： `|OFFER_B`
 
-您还可以构建要从给定属性替换的字符串：
+您还可以构建要替换给定属性的字符串：
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|' + #{ExperiencePlatform.myFieldGroup.profile.myOfferCode}, '')`

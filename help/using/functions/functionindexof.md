@@ -36,7 +36,7 @@ ht-degree: 20%
 
 `indexOf(<string>,<string>)`
 
-返回一个整数。
+返回整数。
 
 ## 示例
 
@@ -46,4 +46,4 @@ ht-degree: 20%
 
 解释:
 
-在“Hello”中，“l”的第一次出现位于位置2。
+在“Hello”中，“l”的第一个实例位于位置2。

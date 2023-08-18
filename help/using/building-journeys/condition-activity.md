@@ -9,7 +9,7 @@ exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -24,30 +24,30 @@ ht-degree: 16%
 
 ![](../assets/journey49.png)
 
-## 关于Condition活动 {#about_condition}
+## 关于条件活动 {#about_condition}
 
-在历程中使用多个条件时，您可以为每个条件定义标签，以便更轻松地识别它们。
+在历程中使用多个条件时，您可以为每个条件定义标签，以便更轻松地对其进行识别。
 
-单击 **[!UICONTROL Add a path]** 如果要定义多个条件，请执行以下操作。 对于每个条件，都会在活动后的画布中添加一个新路径。
+单击 **[!UICONTROL Add a path]** 如果您要定义多个条件。 对于每个条件，都会在活动后的画布中添加一个新路径。
 
 ![](../assets/journey47.png)
 
-请注意，历程的设计会产生功能影响。 当在条件后定义多个路径时，将只执行第一个符合条件的路径。 这意味着您可以通过将路径置于彼此上方或下方来更改路径的优先级。
+请注意，历程的设计会产生功能影响。 当在条件后定义多个路径时，将仅执行第一个符合条件的路径。 这意味着，可以通过将路径置于彼此上方或下方来更改路径的优先级。
 
-例如，我们以第一个路径的条件“Person is a VIP”和第二个路径的条件“Person is a male”为例。 如果同时满足两个条件的人(男性，一个VIP)通过此步骤，即使他也符合第二个路径的资格，也将选择第一个路径，因为第一个路径“在上”。 要更改此优先级，请以其他垂直顺序移动您的活动。
+例如，我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果同时满足两个条件的人(男性，即VIP)通过此步骤，则即使他也符合第二条条件时，也会选择第一条路径，因为第一条路径“位于上方”。 要更改此优先级，请以其他垂直顺序移动您的活动。
 
 ![](../assets/journey48.png)
 
-您可以通过勾选为不符合所定义条件的受众创建其他路径 **[!UICONTROL Show path for other cases than the one(s) above]**. 请注意，此选项在拆分条件中不可用。 参见 [百分比拆分](#percentage_split).
+您可以通过勾选为不符合所定义条件的受众创建其他路径 **[!UICONTROL Show path for other cases than the one(s) above]**. 请注意，此选项在拆分条件中不可用。 请参阅 [百分比拆分](#percentage_split).
 
 利用简单模式，可根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。将字段拖放到主区域中。要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
-* AND：两个条件的交集。 只考虑匹配所有条件的元素。
+* AND：两个条件的交集。 只考虑符合所有条件的元素。
 * 或：两个条件的并集。 考虑至少符合一个条件的元素。
 
 ![](../assets/journey64.png)
 
-如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) 要创建区段，您可以在历程条件中利用它们。 请参阅 [在条件中使用区段](../segment/using-a-segment.md).
+如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans) 要创建区段，您可以在历程条件中利用它们。 请参阅 [在条件中使用区段](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -60,7 +60,7 @@ ht-degree: 16%
 
 ## 数据源条件 {#data_source_condition}
 
-这允许您根据数据源中的字段或之前位于历程中的事件定义条件。 要了解如何使用表达式编辑器，请参阅 [此页面](../expression/expressionadvanced.md). 使用高级表达式编辑器，您可以设置更高级的条件，以处理收藏集或使用需要传递参数的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
+这允许您根据数据源中的字段或之前位于历程中的事件定义条件。 要了解如何使用表达式编辑器，请参阅 [此页面](../expression/expressionadvanced.md). 使用高级表达式编辑器，您可以设置更高级的条件，以处理集合或使用需要传递参数的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
 
 ![](../assets/journey50.png)
 
@@ -70,29 +70,29 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->时区不再特定于条件，而是现在在历程属性中的历程级别定义。 请参见[此页面](../building-journeys/timezone-management.md)。
+>时区不再特定于条件，而是现在在历程属性的历程级别定义。 请参见[此页面](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey51.png)
 
 ## 百分比拆分 {#percentage_split}
 
-此选项允许您随机拆分受众，以便为每个组定义不同的操作。 定义每个路径的分割数和重新分区。 拆分计算是统计性的，因为系统无法预测将在历程的这个活动中流动的人数。 因此，分割具有非常低的误差容限。 此函数基于Java随机机制(请参阅此 [页面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
+此选项允许您随机拆分受众，以为每个组定义不同的操作。 定义每个路径的分割数和重新分区。 拆分计算是统计性的，因为系统无法预测将在历程的这个活动中流动的人数。 因此，分割具有非常低的误差容限。 此函数基于Java随机机制（请参阅此） [页面](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html))。
 
 在测试模式下，当达到拆分时，始终选择顶部分支。 如果希望测试选择其他路径，可以重新组织拆分分支的位置。 请参见[此页面](../building-journeys/testing-the-journey.md)。
 
 >[!NOTE]
 >
->请注意，在百分比拆分条件中没有用于添加路径的按钮。 路径的数量将取决于拆分的次数。 在拆分条件中，无法为其他情况添加路径，因为它不会发生。 人们总是会走上一条不同的道路。
+>请注意，在百分比拆分条件中没有用于添加路径的按钮。 路径的数量将取决于拆分的次数。 在拆分条件中，您无法为其他情况添加路径，因为它不会发生。 人们总是会走上一条不同的道路。
 
 ![](../assets/journey52.png)
 
 ## 日期条件 {#date_condition}
 
-这允许您根据日期定义不同的流。 例如，如果人员在“销售”期间进入该步骤，您将向他们发送一条特定消息。 一年余下的时间里，您将发送另一条消息。
+这允许您根据日期定义不同的流。 例如，如果人员在“销售”期间进入该步骤，您将向他们发送一条特定消息。 一年余下时间里，您将发送另一条消息。
 
 >[!NOTE]
 >
->时区不再特定于条件，而是现在在历程属性中的历程级别定义。 请参阅[此页](../building-journeys/timezone-management.md)。
+>时区不再特定于条件，而是现在在历程属性的历程级别定义。 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey53.png)
 

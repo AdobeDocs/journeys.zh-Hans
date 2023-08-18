@@ -19,15 +19,16 @@ ht-degree: 4%
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. 在 **[!UICONTROL URL]** 字段中，指定外部服务的URL：
+1. 在 **[!UICONTROL URL]** 字段，指定外部服务的URL：
 
    * 如果URL是静态的，请在此字段中输入URL。
 
    * 如果URL包含动态路径，则仅输入URL的静态部分，即方案、主机、端口，以及（可选）路径的静态部分。
 
-      示例：`https://xxx.yyy.com/somethingstatic/`
+     示例：`https://xxx.yyy.com/somethingstatic/`
 
-      将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
+     将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
+
    >[!NOTE]
    >
    >出于安全原因，我们强烈建议您对URL使用HTTPS方案。 我们不允许使用非公共Adobe地址和IP地址。
@@ -42,17 +43,18 @@ ht-degree: 4%
 
       例如，对于时间戳，您可以设置动态值。
 
-   1. 如果已选择 **[!UICONTROL Constant]**，然后输入常量值。
+   1. 如果您已选择 **[!UICONTROL Constant]**，然后输入常量值。
 
-      如果已选择 **[!UICONTROL Variable]**，则在将自定义操作添加到历程时，将指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
+      如果您已选择 **[!UICONTROL Variable]**，则您将在向历程添加自定义操作时指定此变量。 [了解详情](../building-journeys/using-custom-actions.md)。
 
       ![](../assets/journeyurlconfiguration2.png)
 
    1. 要删除标题字段，请指向标题字段并单击 **[!UICONTROL Delete]** 图标。
+
    此 **[!UICONTROL Content-Type]** 和 **[!UICONTROL Charset]** 默认设置标题字段。 您无法修改或删除这些字段。
 
-   将自定义操作添加到历程后，如果历程处于草稿状态，您仍然可以向其添加标题字段。 如果您不希望历程受配置更改的影响，请复制自定义操作并将标题字段添加到新的自定义操作。
+   将自定义操作添加到历程后，如果历程处于草稿状态，您仍然可以向历程添加标题字段。 如果您不希望历程受配置更改的影响，请复制自定义操作并将标题字段添加到新的自定义操作。
 
    >[!NOTE]
    >
-   >根据字段解析规则验证标头。 [了解详情](https://tools.ietf.org/html/rfc7230#section-3.2.4)。
+   >将根据字段解析规则验证标头。 [了解详情](https://tools.ietf.org/html/rfc7230#section-3.2.4)。

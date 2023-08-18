@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # isNotEmpty {#isNotEmpty}
 
-如果参数中的字符串不为空，则返回true。
+如果参数中的字符串不为空，则返回真。
 
 ## 类别
 

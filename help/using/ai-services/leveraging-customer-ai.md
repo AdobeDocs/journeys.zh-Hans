@@ -17,10 +17,10 @@ ht-degree: 2%
 
 客户人工智能是智能服务的一部分。 它有助于预测客户可能会做什么。 请参阅 [文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
 
-借助客户人工智能，品牌商可基于流失率或转化率机器学习创建分数，这些分数将作为Adobe Experience Platform用户档案（实时客户用户档案）中的用户档案属性提供。
+借助客户人工智能，品牌商可利用流失率或转化率机器学习功能来建立分数，这些分数将在Adobe Experience Platform用户档案（实时客户用户档案）中作为用户档案属性提供。
 
 因此，它们可以用作Journey Orchestration条件（做出最佳决策）、操作或区段构建中的任何其他配置文件属性。
 
 ![](../assets/customer-ai.png)
 
-请注意，客户人工智能是Adobe Experience Platform的一项付费功能。
+请注意，客户人工智能是Adobe Experience Platform的一个付费功能。

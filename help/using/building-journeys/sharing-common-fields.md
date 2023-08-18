@@ -17,27 +17,27 @@ ht-degree: 9%
 
 此mixin将由journeyStepEvent和journeyStepProfileEvent共享。
 
-这些是常见的XDM字段， [!DNL Journey Orchestration] 发送至Adobe Experience Platform。 将为历程中处理的每个步骤发送公共字段。 更具体的字段用于自定义操作和增强。
+以下是常见的XDM字段 [!DNL Journey Orchestration] 发送至Adobe Experience Platform。 对于历程中处理的每个步骤，都将发送公共字段。 更具体的字段用于自定义操作和增强。
 
-其中某些字段仅可用于特定的处理模式（操作执行、数据获取等） 以限制事件大小。
+其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件大小。
 
 ## 入口
 
-指示用户是否已进入历程。 如果不存在，则假定值为false。
+指示用户是否已进入历程。 如果不存在，我们假定值为false。
 
 类型：布尔值
 
 值： true/false
 
-## 重新进入
+## 重入
 
-指示用户是否已使用同一实例重新进入历程。 如果不存在，则假定值为false。
+指示用户是否已重新进入具有相同实例的历程。 如果不存在，我们假定值为false。
 
 类型：布尔值
 
 值： true/false
 
-## instanceEnd
+## instanceEnded
 
 指示实例是否已结束（成功或失败）。
 
@@ -55,7 +55,7 @@ ht-degree: 9%
 
 类型：字符串
 
-## 步骤ID
+## stepID
 
 当前正在处理的步骤的唯一ID。
 
@@ -67,7 +67,7 @@ ht-degree: 9%
 
 类型：字符串
 
-## 步骤类型
+## stepType
 
 步骤的类型。
 
@@ -80,9 +80,9 @@ ht-degree: 9%
 * 调度程序
 * 计时器
 
-## stepStatus
+## 步骤状态
 
-步骤的状态，表示步骤的状态，表示步骤的处理何时完成（且步骤事件已触发）。
+步骤的状态，表示步骤在处理完成（并触发步骤事件）时的状态。
 
 类型：字符串
 
@@ -103,7 +103,7 @@ ht-degree: 9%
 
 ## journeyVersionID
 
-历程版本的ID。 对于journeyStepEvent，此id表示对历程的身份引用。
+历程版本的ID。 在journeyStepEvent的情况下，此id表示对历程的标识引用。
 
 类型：字符串
 
@@ -127,11 +127,11 @@ ht-degree: 9%
 
 ## externalkey
 
-从事件中提取的外部键以对其进行处理。
+从事件提取外部键以对其进行处理。
 
 类型：字符串
 
-## parentStepID
+## parentstepid
 
 实例中当前已处理步骤的父步骤ID。
 
@@ -145,7 +145,7 @@ ht-degree: 9%
 
 ## parentTransitionID
 
-将实例带到已处理步骤的过渡ID。
+将实例带到已处理步骤的过渡的ID。
 
 类型：字符串
 
@@ -169,19 +169,19 @@ ht-degree: 9%
 
 ## instancetype
 
-指示实例类型（批次）或单一实例类型。
+指示实例类型（批处理或单一实例）。
 
 类型：字符串
 
-值：批次/单一
+值：批处理/单一
 
 ## recurrenceIndex
 
-如果历程是批次和周期性的（第一次运行具有recurrenceIndex = 1），则为周期性索引。
+如果历程是批处理周期性的（第一次运行具有recurrenceIndex = 1），则为循环的索引。
 
 类型： long
 
-## isBatchToUnitary
+## isBatchToUniary
 
 指示此单一实例是否已从批处理实例触发。
 
@@ -193,7 +193,7 @@ ht-degree: 9%
 
 类型：字符串
 
-## batchInstanceID
+## batchinstanceid
 
 这是批次实例ID。
 
@@ -201,6 +201,6 @@ ht-degree: 9%
 
 ## batchUnitaryBranchID
 
-如果实例是从批处理实例触发的，则为统一分支ID。
+如果实例是从批处理实例触发的，则为单一分支ID。
 
 类型：字符串

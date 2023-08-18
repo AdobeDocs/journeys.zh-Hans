@@ -33,7 +33,7 @@ ht-degree: 9%
 | 不考虑时区的日期时间 | dateTimeOnly |
 | 小时 | 整数 |
 
-## 签名和返回类型
+## 签名和返回的类型
 
 `setHours(<dateTime>,<hours>)`
 

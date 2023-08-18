@@ -17,61 +17,61 @@ ht-degree: 7%
 
 * 简单集合：简单数据类型的数组，例如，使用listString：
 
-   ```
-   {
-    "deviceTypes": [
-        "android",
-        "ios"
-    ]
-   }
-   ```
+  ```
+  {
+   "deviceTypes": [
+       "android",
+       "ios"
+   ]
+  }
+  ```
 
 * 对象集合：由JSON对象组成的数组，例如：
 
-   ```
-   {
-   "products":[
-      {
-         "id":"productA",
-         "name":"A",
-         "price":20.1
-      },
-      {
-         "id":"productB",
-         "name":"B",
-         "price":10.0
-      },
-      {
-         "id":"productC",
-         "name":"C",
-         "price":5.99
-      }
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+     {
+        "id":"productA",
+        "name":"A",
+        "price":20.1
+     },
+     {
+        "id":"productB",
+        "name":"B",
+        "price":10.0
+     },
+     {
+        "id":"productC",
+        "name":"C",
+        "price":5.99
+     }
+   ]
+  }
+  ```
 
 ## 限制 {#limitations}
 
 * 目前不支持对象数组中的对象嵌套数组。 例如：
 
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "price":20,
-        "locations": [{"name": "Paris"}, {"name": "London"}]
-     },
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+    {
+       "id":"productA",
+       "name":"A",
+       "price":20,
+       "locations": [{"name": "Paris"}, {"name": "London"}]
+    },
+   ]
+  }
+  ```
 
 * 要使用测试模式测试收藏集，您需要使用代码视图模式。 当前业务事件不支持代码视图模式。 您只能发送一个包含单个元素的集合。
 
-## 一般过程 {#general-procedure}
+## 一般程序 {#general-procedure}
 
-在本部分中，我们将使用以下JSON有效负载示例。 这是一个对象数组，其中的字段是一个简单的集合。
+在此部分中，我们将使用以下JSON有效负载示例。 这是一个对象数组，其中的字段是一个简单的集合。
 
 ```
 {
@@ -97,7 +97,7 @@ ht-degree: 7%
 }
 ```
 
-您可以看到“products”是由两个对象组成的数组。 您需要至少有一个对象。
+您可以看到，“products”是由两个对象组成的数组。 您需要至少具有一个对象。
 
 1. 创建自定义操作。 请参阅[此页](../action/about-custom-action-configuration.md)。
 
@@ -105,13 +105,13 @@ ht-degree: 7%
 
    ![](../assets/uc-collection-1.png)
 
-1. 如果需要，调整字段类型。 集合支持以下字段类型：listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listObject
+1. 如果需要，请调整字段类型。 集合支持以下字段类型：listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listObject
 
    >[!NOTE]
    >
    >根据有效负载示例自动推断字段类型。
 
-1. 如果要动态传递对象，则需要将对象设置为变量。 在此示例中，我们将“products”设置为变量。 对象中包含的所有对象字段都会自动设置为变量。
+1. 如果要动态传递对象，则需要将它们设置为变量。 在此示例中，我们将“products”设置为变量。 对象中包含的所有对象字段都会自动设置为变量。
 
    >[!NOTE]
    >
@@ -127,17 +127,17 @@ ht-degree: 7%
 
    ![](../assets/uc-collection-3.png)
 
-1. 对于以下每个对象字段，键入源XDM架构中的相应字段名称。 如果名称相同，则不需要这样做。 在我们的示例中，我们只需要定义“product id”和“color”。
+1. 对于以下每个对象字段，键入源XDM架构中的相应字段名称。 如果名称相同，则不需要此操作。 在我们的示例中，我们只需要定义“product id”和“color”。
 
    ![](../assets/uc-collection-4.png)
 
-对于数组字段，您还可以使用高级表达式编辑器执行数据操作。 在以下示例中，我们使用 [过滤器](../functions/functionfilter.md) 和 [相交](../functions/functionintersect.md) 函数：
+对于数组字段，您还可以使用高级表达式编辑器执行数据操作。 在以下示例中，我们使用 [筛选](../functions/functionfilter.md) 和 [相交](../functions/functionintersect.md) 函数：
 
 ![](../assets/uc-collection-5.png)
 
 ## 特定案例{#examples}
 
-对于异构类型和阵列阵列，使用listAny类型定义阵列。 您只能映射单个项目，但不能将数组更改为变量。
+对于异构类型和阵列阵列，使用listAny类型定义阵列。 只能映射单个项，但不能将数组更改为变量。
 
 ![](../assets/uc-collection-heterogeneous.png)
 

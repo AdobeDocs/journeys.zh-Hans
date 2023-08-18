@@ -54,9 +54,9 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >请注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 对应于 **已实现** 和 **已退出** 来自Adobe Experience Platform的区段参与状态。 有关如何评估区段的更多信息，请参阅 [分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >请注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 对应于 **已实现** 和 **已退出** 来自Adobe Experience Platform的区段参与状态。 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要执行此操作。
+1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。
 
    ![](../assets/segment7.png)
 

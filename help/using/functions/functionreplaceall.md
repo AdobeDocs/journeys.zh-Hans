@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # replaceAll {#replaceAll}
 
-使用基字符串中的替换字符串替换匹配目标字符串的所有匹配项。
+使用基本字符串中的替换字符串替换匹配目标字符串的所有匹配项。
 
 例如，替换操作从字符串的开头到结尾进行，将字符串“aaa”中的“aa”替换为“b”将导致“ba”而不是“ab”。
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 | 参数 | 类型 |
 |-----------|--------------|
 | 基础 | 字符串 |
-| Target | 字符串（正则表达式） |
+| Target | 字符串(RegExp) |
 | 替换 | 字符串 |
 
 ## 签名和返回的类型
@@ -47,4 +47,4 @@ ht-degree: 10%
 
 返回“Hexxo Worxd”。
 
-由于目标参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 请参阅中的示例 [此页面](../functions/functionreplace.md#example_2).
+由于target参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 请参阅中的示例。 [此页面](../functions/functionreplace.md#example_2).

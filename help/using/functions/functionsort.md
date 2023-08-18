@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # sort {#sort}
 
-按自然顺序对值列表或对象进行排序。
+以自然顺序对值列表或对象进行排序。
 
 ## 类别
 
@@ -30,14 +30,14 @@ ht-degree: 9%
 | 参数 | 类型 | 描述 |
 |-----------|------------------|------------------|
 | listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly或listObject | 要排序的列表。 对于listObject，它必须是字段引用。 |
-| keyAttributeName | 字符串 | 此参数仅适用于listObject。 给定列表的对象中的属性名称用作排序的键。 |
+| keyAttributeName | 字符串 | 此参数仅适用于listObject。 给定列表中的对象中的属性名称用作排序的键。 |
 | sortingOrder | 布尔 | 升序(true)或降序(false) |
 
 ## 签名和返回的类型
 
 `sort(<listInteger>,<boolean>)`
 
-返回整数的列表。
+返回整数列表。
 
 `sort(<listDecimal>,<boolean>)`
 

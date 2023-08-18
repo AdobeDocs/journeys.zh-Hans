@@ -15,7 +15,7 @@ ht-degree: 37%
 
 # 关于编排活动 {#concept_ksq_2rt_52b}
 
-从屏幕左侧的面板中，提供了以下编排活动：
+在屏幕左侧的面板中，提供了以下编排活动：
 
 * [条件活动](../building-journeys/condition-activity.md)
 * [结束活动](../building-journeys/end-activity.md)

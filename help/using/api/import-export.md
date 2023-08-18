@@ -14,14 +14,14 @@ ht-degree: 27%
 # 使用Export-Import API
 
 通过单个API调用导出历程版本及其所有相关对象（历程、事件、数据源、字段组、自定义操作）。 导出结果有效负载可用于轻松将历程导入其他环境（实例或沙盒）。
-此功能允许您跨多个实例或多个测试环境工作流管理历程。
+此功能允许您跨多个实例或针对多个测试环境工作流管理历程。
 
 
 ## 资源
 
 在可用的Swagger文件中介绍了Journey OrchestrationExport-Import API [此处](https://adobedocs.github.io/JourneyAPI/docs/).
 
-要在您的Journey Orchestration实例中使用此API，您需要使用AdobeI/O控制台。 您可以按照以下步骤开始操作 [Adobe Developer Console入门](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 然后使用此页中的部分。
+要在您的Journey Orchestration实例中使用此API，您需要使用AdobeI/O控制台。 您可以按照以下步骤开始操作 [Adobe Developer控制台快速入门](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 然后使用此页中的部分。
 
 要测试和准备集成，可使用Postman收藏集 [此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 
@@ -32,14 +32,14 @@ ht-degree: 27%
 
 1. 在启动环境中创建旅程并为其参数。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
 1. 检查历程版本是否没有错误。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
-1. 调用 **/list/journeys** 用于检索UID历程和最新历程版本的UID的API。 如果需要，您可以调用 **/journeys/`{uid}`/latest** 以查找最新历程版本的UID。
+1. 调用 **/list/journey** 用于检索UID历程和最新历程版本的UID的API。 如有需要，您可以致电 **/journeys/`{uid}`/latest** 以查找最新历程版本的UID。
 1. 调用 **导出** 包含启动环境参数（orgID和sandboxName）的API。
-1. 打开返回有效负载，然后检查以下项目：
+1. 打开返回有效负载，然后选中以下项：
    * 如果导出的历程包含 **特定凭据**，您需要将这些凭据替换为与新环境对应的凭据。
-   * 如果导出的历程包含 **事件** 指向 **XDM架构**，如果ID值不同，则需要在xdmEntity节点中手动使用新环境的架构ID更新架构ID引用。 需要对每个事件进行此更新。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * 如果导出的历程包含 **事件** 指向 **XDM架构**，如果ID值不同，您需要在xdmEntity节点中手动使用新环境的架构ID更新架构ID引用。 需要对每个事件进行此更新。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * 如果您的历程包含电子邮件、短信或推送操作，并且目标环境中的名称与启动环境中的名称不同，则您可能需要更新模板名称或mobileApp名称。
 1. 调用 **导入** 包含目标环境参数（orgID和sandboxName）的API。 请注意，您可以根据需要多次调用导入API。 每次调用导入API时，都会生成历程中包含的每个对象的UUID和名称。
-1. 导入历程后，您可以在Journey Orchestration应用程序中发布它。 更多信息 [此处](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. 导入历程后，您可以在Journey Orchestration应用程序中发布该变量。 更多信息 [此处](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## 身份验证
@@ -69,7 +69,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;organization>**：这是您的个人组织ID，Adobe会为您每个实例提供一个组织ID：
 
    * &lt;organization> ：您的生产实例
-   要获取“ORGANIZATION ID”值，请咨询管理员或 Adobe 技术联系人。您还可以在创建新集成时，在许可证列表中将其检索到 Adobe I/O 中（请参阅 [Adobe I/O 文档](https://www.adobe.io/authentication.html)）。
+
+  要获取“ORGANIZATION ID”值，请咨询管理员或 Adobe 技术联系人。您还可以在创建新集成时，在许可证列表中将其检索到 Adobe I/O 中（请参阅 [Adobe I/O 文档](https://www.adobe.io/authentication.html)）。
 
 * **&lt;ACCESS_TOKEN>**：您的个人访问令牌，通过 POST 请求交换 JWT 时可以找到。
 
@@ -79,25 +80,25 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## Export-Import API描述
 
-此API允许您导出通过其UID标识的历程版本，以及通过其UID标识所有相关对象（历程、事件、数据源、字段组、自定义操作）。
-生成的有效负载可用于在另一个环境（沙盒或实例）中导入历程版本。
+通过此API，可导出由其UID标识的历程版本以及所有相关对象（历程、事件、数据源、字段组、自定义操作）。
+生成的有效负载可用于导入其他环境（沙盒或实例）中的历程版本。
 
 | 方法 | 路径 | 描述 |
 |---|---|---|
-| `[POST]` | /journeyVersions/import | 导入通过历程版本导出生成的历程版本内容 |
+| `[POST]` | /journeyVersions/import | 导入由历程版本导出生成的历程版本内容 |
 | `[GET]` | /journeyVersions/`{uid}`/export | 导出历程版本 |
 | `[GET]` | /journeys/`{uid}`/latest | 获取历程的最新历程版本 |
-| `[POST]` | /list/journeys | 列出历程的元数据及其历程版本 |
+| `[POST]` | /list/journey | 列出历程的元数据及其历程版本 |
 
 
-### 导出特性和护栏
+### 导出特征和护栏
 
 * 导出前历程必须有效。
 
-* 凭据不会导出，并且响应有效负载中会插入占位符（即INSERT_SECRET_HERE）。
-在导出调用后，您必须手动插入新凭据（对应于目标环境），然后才能在目标环境中导入有效负载。
+* 不会导出凭据，并且响应有效负载中会插入占位符（即INSERT_SECRET_HERE）。
+在导出调用后，必须先手动插入新凭据（对应于目标环境），然后才能在目标环境中导入有效负载。
 
-* 以下对象已导出，但绝不会在目标环境中导入它们。 这些是由Journey Orchestration自动管理的系统资源。 您无需替换“INSERT_SECRET_HERE”。
+* 将导出以下对象，但绝不会在目标环境中导入它们。 这些是由Journey Orchestration自动管理的系统资源。 您无需替换“INSERT_SECRET_HERE”。
    * **DataProviders**：“Adobe Campaign Standard数据提供程序”(acsDataProvider)和“Experience Platform”(acppsDataProvider)
    * **字段组** (dataEntities)：“ProfileFieldGroup”(acppsDataPack)
 
@@ -105,9 +106,9 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ### 导入特征
 
-* 在导入过程中，将使用新UID和新名称创建历程对象，以确保在目标环境（实例或沙盒）中的唯一性。
+* 在导入期间，将使用新UID和新名称创建历程对象，以确保在目标环境（实例或沙盒）中的唯一性。
 
-* 如果导入有效负载包含密钥占位符，则会引发错误。 必须在POST调用导入历程之前替换凭据信息。
+* 如果导入有效负载包含密钥占位符，则会引发错误。 您必须在POST调用导入旅程之前替换凭据信息。
 
 ## 警告和错误
 
@@ -115,6 +116,6 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * 在 **导出时间**，如果历程版本无效：错误500
 
-* 在 **导入时间**，如果有效负载在修改后无效，或者有效负载中未正确定义凭据：错误400
+* 在 **导入时间**，如果有效负载在修改后无效，或者如果在有效负载中未正确定义凭据：错误400
 
-* 在导入步骤之后，如果您事件的XDM架构ID在Journey Orchestration环境中无效，则目标应用程序中将出现一个错误。 在这种情况下，无法发布旅程。
+* 在导入步骤之后，如果事件的XDM架构ID在Journey Orchestration环境中无效，则目标应用程序中会显示错误。 在这种情况下，将无法发布历程。

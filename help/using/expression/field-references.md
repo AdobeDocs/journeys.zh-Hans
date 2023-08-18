@@ -15,13 +15,13 @@ ht-degree: 3%
 
 # 字段引用 {#concept_fkj_ll5_dgb}
 
-字段引用可以附加到事件或字段组。 唯一有意义的信息是字段名称及其路径。
+字段引用可以附加到事件或字段组。 唯一有意义的信息是字段的名称及其路径。
 
-如果您在字段中使用特殊字符，则需要使用双引号或简单引号。 以下是需要提供引号的情况：
+如果您在字段中使用特殊字符，则需要使用双引号或简单引号。 以下是需要引用时的情况：
 
-* 字段以数字字符开头
+* 该字段以数字字符开头
 * 字段以“ — ”字符开头
-* 该字段包含除以下之外的任何其他内容： _a_-_z_， _A_-_Z_， _0_-_9_， _ ， _-_
+* 该字段包含除以下内容之外的任何其他内容： _a_-_z_， _A_-_Z_， _0_-_9_， _ ， _-_
 
 例如，如果您的字段为 _3h_： _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 在表达式中，事件字段通过“@”引用，数据源字段通过“#”引用。
 
-语法颜色用于在视觉上区分事件字段（绿色）和字段组（蓝色）。
+语法颜色用于直观地区分事件字段（绿色）和字段组（蓝色）。
 
 ## 字段引用的默认值 {#default-value}
 
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs._experience.emailid.id， defaultValue ： 2}将无效，因为默认值为整数，而预期值应为字符串。
+>字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs._experience.emailid.id， defaultValue ： 2} 无效，因为默认值为整数，而预期值应为字符串。
 
 示例：
 
@@ -97,7 +97,7 @@ expression examples:
 
 ## 对收藏集中字段的引用
 
-使用特定函数引用收藏集中定义的元素 `all`， `first` 和 `last`. 有关详细信息，请参见[此页面](../expression/collection-management-functions.md)。
+收藏集中定义的元素使用特定函数进行引用 `all`， `first` 和 `last`. 有关详细信息，请参见[此页面](../expression/collection-management-functions.md)。
 
 示例：
 
@@ -109,7 +109,7 @@ expression examples:
 
 ### `entry` 函数
 
-为了检索映射中的元素，我们使用具有给定键的入口函数。 例如，在根据选定的命名空间定义事件的键时使用该名称。 请参阅选择命名空间。 有关更多信息，请参阅 [此页面](../event/selecting-the-namespace.md).
+为了检索映射中的元素，我们使用带有给定键的入口函数。 例如，在根据选定的命名空间定义事件的键时使用该变量。 请参阅选择命名空间。 有关更多信息，请参阅 [此页面](../event/selecting-the-namespace.md).
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
@@ -119,7 +119,7 @@ expression examples:
 
 ### `firstEntryKey` 函数
 
-要检索映射的第一个条目键，请使用 `firstEntryKey` 函数。
+要检索映射的第一个输入键，请使用 `firstEntryKey` 函数。
 
 此示例说明如何检索特定列表订阅者的第一个电子邮件地址：
 
@@ -127,7 +127,7 @@ expression examples:
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-在此示例中，订阅列表名为 `daily-email`. 电子邮件地址在中定义为键 `subscribers` 映射，链接到订阅列表映射。
+在此示例中，将命名订阅列表 `daily-email`. 电子邮件地址在中定义为键 `subscribers` 映射，链接到订阅列表映射。
 
 ### `keys` 函数
 
@@ -141,7 +141,7 @@ expression examples:
 
 ## 数据源的参数值（数据源动态值）
 
-如果从外部数据源中选择字段，需要调用参数，则右侧将显示一个新选项卡，允许您指定此参数。 请参阅[此页](../expression/expressionadvanced.md)。
+如果您从外部数据源中选择字段，则需要调用一个参数，则右侧会显示一个新选项卡，允许您指定此参数。 请参阅[此页](../expression/expressionadvanced.md)。
 
 对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用关键字定义其值 _参数_. 参数可以是任何有效的表达式，即使来自还包含另一个参数的另一个数据源也是如此。
 

@@ -32,9 +32,9 @@ ht-degree: 100%
 
 * **基于规则**&#x200B;的事件：此类型的事件不生成 eventID。使用简单表达式编辑器，您只需定义规则即可，系统将使用该规则来识别将触发历程的相关事件。此规则可以基于事件有效负荷中可用的任何字段，例如用户档案的位置或添加到用户档案购物车的项目数。
 
-   >[!CAUTION]
-   >
-   >为基于规则的事件定义上限规则。它将历程可为给定组织 (ORG) 处理的合格事件数限制为每秒 5000 个。它对应于 Journey Orchestration SLA。请参阅此[页面](https://helpx.adobe.com/cn/legal/product-descriptions/journey-orchestration.html)。
+  >[!CAUTION]
+  >
+  >为基于规则的事件定义上限规则。它将历程可为给定组织 (ORG) 处理的合格事件数限制为每秒 5000 个。它对应于 Journey Orchestration SLA。请参阅此[页面](https://helpx.adobe.com/cn/legal/product-descriptions/journey-orchestration.html)。
 
 * **系统生成**&#x200B;的事件：这些事件需要 eventID。创建事件时会自动生成此 eventID 字段。推送事件的系统不应生成 ID，它应传递有效负荷预览中可用的 ID。
 

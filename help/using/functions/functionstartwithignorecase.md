@@ -15,7 +15,7 @@ ht-degree: 25%
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-如果第二个参数是第一个参数的前缀，而不考虑大小写，则返回true。
+如果第二个参数是第一个参数的前缀而不考虑大小写，则返回true。
 
 ## 类别
 
