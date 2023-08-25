@@ -3,10 +3,10 @@ product: adobe campaign
 title: 导入导出API描述
 description: 了解有关导入导出API的更多信息。
 products: journeys
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 27%
+source-wordcount: '1119'
+ht-degree: 21%
 
 ---
 
@@ -54,8 +54,16 @@ ht-degree: 27%
 
 1. **检查您是否拥有数字证书**，或在必要时创建一个。在以下步骤中需要随证书一起提供的公钥和私钥。
 1. **在 Adobe I/O 中创建与 [!DNL Journey Orchestration] 服务**&#x200B;的新集成并对其进行配置。Journey Orchestration和Adobe Experience Platform需要产品配置文件访问权限。 随后将生成您的证书（API 密钥、客户端密钥等）。
-1. 使用您的私钥在之前生成的证书中&#x200B;**创建 JSON Web 令牌 (JWT)** 并对其进行签名。对于 Adobe 验证身份并授予 API 访问权限所需的所有身份和安全信息，JWT 会进行编码。要详细了解此步骤，请参阅此[部分](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. 通过 POST 请求或 Developer Console 界面&#x200B;**将 JWT 换为访问令牌**。在 API 请求的每个标头中必须使用此访问令牌。
+
+>[!CAUTION]
+>
+>已弃用用于生成访问令牌的JWT方法。 所有新的集成都必须使用 [OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe 还建议您将现有集成迁移到 OAuth 方法。
+>
+>请阅读以下重要文档：
+>[应用程序从JWT到OAuth的迁移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，
+>[采用 OAuth 的新旧应用程序的实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[使用OAuth服务器到服务器凭据方法的优势](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+
 
 要建立安全的服务到服务 Adobe I/O API 会话，对 Adobe 服务提出的每个请求都必须在“Authorization”标头中包含以下信息。
 
@@ -72,7 +80,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
   要获取“ORGANIZATION ID”值，请咨询管理员或 Adobe 技术联系人。您还可以在创建新集成时，在许可证列表中将其检索到 Adobe I/O 中（请参阅 [Adobe I/O 文档](https://www.adobe.io/authentication.html)）。
 
-* **&lt;ACCESS_TOKEN>**：您的个人访问令牌，通过 POST 请求交换 JWT 时可以找到。
+* **&lt;access_token>**：您的个人访问令牌
 
 * **&lt;API_KEY>**：您的个人 API 密钥。在将创建与 [!DNL Journey Orchestration] 服务的新集成后，可在 Adobe I/O 中找到。
 
