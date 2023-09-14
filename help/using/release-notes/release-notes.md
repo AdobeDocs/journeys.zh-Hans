@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
+source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
 workflow-type: tm+mt
-source-wordcount: '4188'
-ht-degree: 100%
+source-wordcount: '4232'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +21,15 @@ ht-degree: 100%
 >
 >对于 2022 年和 2023 年发布的功能，链接将直接指向 Adobe Journey Optimizer 文档。
 
+## 2023 年 8 月版 {#aug-rn-2023}
+
+### 改进 {#aug-2023-improvements}
+
+* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为独享 Beta 版提供。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html)。
+
 ## 2023 年 4 月版 {#apr-rn-2023}
 
 ### 改进 {#april-2023-improvements}
-
-**历程**
 
 * 配置窗格的布局（显示在操作、数据源、事件和历程中）已得到改进。
 * 您现在可以在自定义操作中定义静态或动态查询参数。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hans#url-configuration)。
