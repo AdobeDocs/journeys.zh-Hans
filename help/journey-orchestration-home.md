@@ -7,7 +7,7 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: c4d9ebacf2083f4df76e59228a75c51c4d7b006e
+source-git-commit: d9d41f2fbde16237257a95b3b396fcbe5261e390
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Journey Orchestration 指南 {#journeys-documentation}
 
-![](using/assets/do-not-localize/bannerjourney.png)
+<!--![](using/assets/do-not-localize/bannerjourney.png) -->
 
 ## 入门
 
