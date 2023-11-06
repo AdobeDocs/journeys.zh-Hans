@@ -31,7 +31,7 @@ ht-degree: 94%
 
 ![](../assets/journey1bis.png)
 
-## 了解界面{#section_jsq_zr1_ffb}
+## 探索界面{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
