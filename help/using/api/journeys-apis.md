@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+source-git-commit: 87d5cf223d9adec27eabcb55f2e09aa6d40b23a6
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 89%
+source-wordcount: '791'
+ht-degree: 87%
 
 ---
 
@@ -62,11 +62,11 @@ Swagger 文件中也对这两个 API 进行了说明，请点击[此处](https:/
 
 >[!CAUTION]
 >
->已弃用用于生成访问令牌的JWT方法。 所有新的集成都必须使用 [OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe 还建议您将现有集成迁移到 OAuth 方法。
+>已弃用用于生成访问令牌的JWT方法。 所有新的集成都必须使用 [OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe还建议您将现有集成迁移到OAuth方法。
 >
 >请阅读以下重要文档：
 >[应用程序从JWT到OAuth的迁移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，
->[采用 OAuth 的新旧应用程序的实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[使用OAuth的新旧应用程序的实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)，
 >[使用OAuth服务器到服务器凭据方法的优势](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 要建立安全的服务到服务 Adobe I/O API 会话，对 Adobe 服务提出的每个请求都必须在“Authorization”标头中包含以下信息。
@@ -78,7 +78,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;ORGANIZATION>**：这是您的个人组织 ID，Adobe 会为每个实例提供一个组织 ID。要获取“ORGANIZATION ID”值，请咨询管理员或 Adobe 技术联系人。您还可以在创建新集成时，在许可证列表中将其检索到 Adobe I/O 中（请参阅 <a href="https://www.adobe.io/authentication.html">Adobe I/O 文档</a>）。
+* **&lt;ORGANIZATION>**：这是您的个人组织 ID，Adobe 会为每个实例提供一个组织 ID。要获取“ORGANIZATION ID”值，请咨询管理员或 Adobe 技术联系人。您还可以在创建新集成时，在许可证列表中将其检索到 Adobe I/O 中（请参阅 [Adobe I/O 文档](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)）。
 
 * **&lt;access_token>**：您的个人访问令牌
 
