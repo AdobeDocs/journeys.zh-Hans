@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
+source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
 workflow-type: tm+mt
-source-wordcount: '4232'
-ht-degree: 99%
+source-wordcount: '4352'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,23 @@ ht-degree: 99%
 >[!NOTE]
 >
 >对于 2022 年和 2023 年发布的功能，链接将直接指向 Adobe Journey Optimizer 文档。
+
+## 2024 年 2 月版 {#feb-rn-2024}
+
+### 改进 {#feb-2024-improvements}
+
+* **筛选您的历程**  — 您现在可以使用 **用于筛选历程的自定义日期** 库存，以及现有的预定义日期过滤器。 这允许您细化列表，显示在特定日期、特定月份、整个年份或指定时间范围内创建或发布的历程。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **自定义操作**  — 您现在可以更新 **content-type** 标题。 此新 **content-type** 应引用JSON内容。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hans#url-configuration)
+* **配置** - stepEvents中的identityMap属性现在已预填充。 主标识被定义为“primary = true”。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **用户界面**  — 历程屏幕中的顶部栏已重新组织，以改善体验。 在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+
+## 2024 年 1 月版 {#jan-rn-2024}
+
+### 改进 {#jan-2024-improvements}
+
+* **反应事件持续时间** - 现在，您可以定义的最长&#x200B;**反应事件**&#x200B;持续时间为 29 天，而不是 30 天。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
+* **字段组**  — 此版本修复了在某些情况下阻止保存字段组的问题。
+* 在多个函数中修改了对 `<listObject>` 的支持。
 
 ## 2023 年 8 月版 {#aug-rn-2023}
 
@@ -41,7 +58,7 @@ ht-degree: 99%
 
 ### 改进 {#mar-2023-improvements}
 
-* 借助全新的&#x200B;**限制 API** 功能，您可以对每秒发送的事件数量设置限制，以防止外部系统或 API 出现流量激增。达到设置限制后，所有后续 API 调用将按接收到的顺序尽快排入队列并进行处理。请注意，此功能仅支持在所有沙箱中配置一个限制。[了解详情](../api/throttling.md)
+* 借助全新的&#x200B;**限制 API** 功能，您可以对每秒发送的事件数量设置限制，以防止外部系统或 API 出现流量激增。达到设置限制后，所有后续 API 调用将按接收到的顺序尽快排入队列并进行处理。请注意，此功能仅支持在所有沙盒中配置一个限制。[了解详情](../api/throttling.md)
 * 历程画布已得到改进，可提供更简单、更优质的用户体验。移除了在画布中每个路径的末尾的空占位符。现在，您只需将活动拖动到路径末尾即可添加活动。
 * 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。用户可以根据需要手动添加自定义标签。
 * 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=zh-Hans#timeout)。
@@ -305,7 +322,7 @@ ht-degree: 99%
 <td>
 <p>在高级表达式编辑器中，我们在字段和函数列表中添加了新类别。这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。这将为您在构建历程时提供更多可能性。例如，在条件或操作中遇到错误的情况下，您将能够提醒第三方系统。
 </p>
-<p>有关详细信息，请参阅<a href="../expression/journey-properties.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../expression/journey-properties.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
