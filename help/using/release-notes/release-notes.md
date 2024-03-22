@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
+source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
 workflow-type: tm+mt
-source-wordcount: '4352'
-ht-degree: 96%
+source-wordcount: '4418'
+ht-degree: 98%
 
 ---
 
@@ -21,14 +21,26 @@ ht-degree: 96%
 >
 >对于 2022 年和 2023 年发布的功能，链接将直接指向 Adobe Journey Optimizer 文档。
 
+## 2024 年 3 月版 {#mar-rn-2024}
+
+### 改进 {#mar-2024-improvements}
+
+历程创作生命周期中添加了新的中间状态：
+
+* **发布** 介于两者之间的状态 **草稿** 状态和 **实时** 状态
+* **正在停止** 介于两者之间的状态 **实时** 状态和 **已停止** 状态
+* **激活测试模式** 或 **停用测试模式** 介于以下各项之间的状态： **草稿** 状态和 **草稿（测试）** 状态
+
+当历程处于中间状态时，它是只读的。 [了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+
 ## 2024 年 2 月版 {#feb-rn-2024}
 
 ### 改进 {#feb-2024-improvements}
 
-* **筛选您的历程**  — 您现在可以使用 **用于筛选历程的自定义日期** 库存，以及现有的预定义日期过滤器。 这允许您细化列表，显示在特定日期、特定月份、整个年份或指定时间范围内创建或发布的历程。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
-* **自定义操作**  — 您现在可以更新 **content-type** 标题。 此新 **content-type** 应引用JSON内容。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hans#url-configuration)
-* **配置** - stepEvents中的identityMap属性现在已预填充。 主标识被定义为“primary = true”。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **用户界面**  — 历程屏幕中的顶部栏已重新组织，以改善体验。 在不同的更新中，请注意允许您访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **筛选您的历程** - 您现在可以使用&#x200B;**自定义日期筛选历程**&#x200B;库存，以及现有的预定义日期筛选器。这允许您通过显示特定日期、特定月内、全年或指定时间范围内创建或发布的历程来优化列表。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **自定义操作** - 您现在可以更新 **content-type** 标头。此新 **content-type** 标头应引用 JSON 内容。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hans#url-configuration)
+* **配置** - stepEvents 中的 identityMap 属性现在会预填充。主标识被定义为“primary = true”。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。在不同的更新中，请注意，用于访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
 
 ## 2024 年 1 月版 {#jan-rn-2024}
 
