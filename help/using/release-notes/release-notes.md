@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4418'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,36 +25,36 @@ ht-degree: 98%
 
 ### 改进 {#mar-2024-improvements}
 
-历程创作生命周期中添加了新的中间状态：
+历程创作生命周期中增添了新的中间状态：
 
-* **发布** 介于两者之间的状态 **草稿** 状态和 **实时** 状态
-* **正在停止** 介于两者之间的状态 **实时** 状态和 **已停止** 状态
-* **激活测试模式** 或 **停用测试模式** 介于以下各项之间的状态： **草稿** 状态和 **草稿（测试）** 状态
+* **发布**&#x200B;状态介于&#x200B;**草稿**&#x200B;状态和&#x200B;**实时**&#x200B;状态
+* **正在停止**&#x200B;状态介于&#x200B;**实时**&#x200B;状态和&#x200B;**已停止**&#x200B;状态
+* **激活测试模式**&#x200B;或&#x200B;**停用测试模式**&#x200B;状态介于&#x200B;**草稿**&#x200B;状态和&#x200B;**草稿（测试）**&#x200B;状态
 
-当历程处于中间状态时，它是只读的。 [了解详情](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+当历程处于中间状态时，只可读取。[了解详情](https://experienceleague.adobe.com/zh-hant/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
 
 ## 2024 年 2 月版 {#feb-rn-2024}
 
 ### 改进 {#feb-2024-improvements}
 
-* **筛选您的历程** - 您现在可以使用&#x200B;**自定义日期筛选历程**&#x200B;库存，以及现有的预定义日期筛选器。这允许您通过显示特定日期、特定月内、全年或指定时间范围内创建或发布的历程来优化列表。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **筛选您的历程** - 您现在可以使用&#x200B;**自定义日期筛选历程**&#x200B;库存，以及现有的预定义日期筛选器。这允许您通过显示特定日期、特定月内、全年或指定时间范围内创建或发布的历程来优化列表。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hans#filter)
 * **自定义操作** - 您现在可以更新 **content-type** 标头。此新 **content-type** 标头应引用 JSON 内容。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hans#url-configuration)
-* **配置** - stepEvents 中的 identityMap 属性现在会预填充。主标识被定义为“primary = true”。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。在不同的更新中，请注意，用于访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **配置** - stepEvents 中的 identityMap 属性现在会预填充。主标识被定义为“primary = true”。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=zh-Hans)
+* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。在不同的更新中，请注意，用于访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hans#change-properties)
 
 ## 2024 年 1 月版 {#jan-rn-2024}
 
 ### 改进 {#jan-2024-improvements}
 
-* **反应事件持续时间** - 现在，您可以定义的最长&#x200B;**反应事件**&#x200B;持续时间为 29 天，而不是 30 天。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
-* **字段组**  — 此版本修复了在某些情况下阻止保存字段组的问题。
+* **反应事件持续时间** - 现在，您可以定义的最长&#x200B;**反应事件**&#x200B;持续时间为 29 天，而不是 30 天。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=zh-Hans)
+* **字段组** - 此版本修复了在某些情况下阻止保存字段组的问题。
 * 在多个函数中修改了对 `<listObject>` 的支持。
 
 ## 2023 年 8 月版 {#aug-rn-2023}
 
 ### 改进 {#aug-2023-improvements}
 
-* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为独享 Beta 版提供。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html)。
+* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为独享 Beta 版提供。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=zh-Hans)。
 
 ## 2023 年 4 月版 {#apr-rn-2023}
 
@@ -124,7 +124,7 @@ ht-degree: 98%
 
 * **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=zh-Hans)。
 
-*  默认情况下，历程属性中的&#x200B;**配置文件时区**&#x200B;选项现在处于未选中状态。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hans#timezone-from-profiles)。
+* 默认情况下，历程属性中的&#x200B;**配置文件时区**&#x200B;选项现在处于未选中状态。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hans#timezone-from-profiles)。
 
 ## 2022 年 5 月版 {#may-2022-release}
 
@@ -343,7 +343,7 @@ ht-degree: 98%
 <table>
 <thead>
 <tr>
-<th><strong>基于规则的事件（测试版）</strong><br/></th>
+<th><strong>基于规则的事件（Beta 版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
