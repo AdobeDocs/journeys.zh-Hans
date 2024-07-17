@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 98%
+source-wordcount: '828'
+ht-degree: 95%
 
 ---
 
@@ -36,16 +36,16 @@ ht-degree: 98%
    * 管理历程
    * 发布历程
    * 管理事件、数据源和操作
-   * 管理报表
+   * 管理报告
 
   >[!NOTE]
   >
-  >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用 Adobe Campaign Standard 在历程中发送消息，则需要此产品用户档案。不应在Admin Console中重命名它。
+  >**[!UICONTROL Administrators]** 是唯一允许在 Adobe Campaign Standard 中创建、编辑和发布事务性消息（或消息模板）的产品用户档案。如果您使用Adobe Campaign Standard在历程中发送消息，则需要此产品用户档案。 不应在Admin Console中重命名它。
 
 * **[!UICONTROL Standard User]**：具有基本访问权限的用户，如历程管理。此产品用户档案包括以下权限：
    * 管理历程
    * 发布历程
-   * 管理报表
+   * 管理报告
    * 读取事件、数据源和操作
 
 如果现成的用户档案不足以管理用户，您还可以创建自己的产品用户档案。
@@ -63,7 +63,7 @@ ht-degree: 98%
 
 ![](../assets/do-not-localize/journey_permission.png)
 
-## 创建产品用户档案 {#create-product-profile}
+## 创建产品配置文件 {#create-product-profile}
 
 [!DNL Journey Orchestration] 允许您创建自己的产品用户档案，并为用户分配一组权限和沙盒。通过产品用户档案，您可以授权或拒绝对界面中特定功能或对象的访问。
 
@@ -108,7 +108,7 @@ ht-degree: 98%
 
 您的产品用户档案现已创建并配置。链接到此用户档案的用户现在可以连接到 [!DNL Journey Orchestration]。
 
-## 分配产品用户档案 {#assigning-product-profile}
+## 分配产品配置文件 {#assigning-product-profile}
 
 产品用户档案会分配给您组织内共享相同权限的一组用户。本部分提供每个现成产品用户档案及已分配权限的列表。
 

@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 概述
+title: 通则
 description: 了解高级表达式一般性
 feature: Journeys
 role: Data Engineer
@@ -8,16 +8,16 @@ level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 5%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
-# 概述 {#concept_rcy_qj5_dgb}
+# 通则 {#concept_rcy_qj5_dgb}
 
 ## 括号和表达式优先级{#section_edf_fks_bgb}
 
-可使用括号使复杂表达式更易读。 _(&lt;expression>)_ 等同于 _&lt;expression>_. 括号也可用于定义评估顺序和关联性。
+可使用括号使复杂表达式更易读。 _（&lt;表达式>）_&#x200B;等同于&#x200B;_&lt;表达式>_。 括号也可用于定义评估顺序和关联性。
 
 将按从左到右的顺序计算表达式。 必须应用算术运算符的相关性：乘法和除优先于加法和减法。 为了限定特定的顺序，必须添加括号以分隔操作。 例如：
 
@@ -32,8 +32,8 @@ ht-degree: 5%
 
 以下是不同的区分大小写规则：
 
-* 所有运算符（and、or等） 应该写成小写。 例如， _`<expression1>`和`<expression2>`_ 是有效表达式，但表达式 _`<expression1>`和`<expression2>`_ 不是。
-* 所有函数名称都区分大小写。 例如， _inSegment()_ 有效，但函数 _INSEGMENT()_ 不是。
+* 所有运算符（and、or等） 应该写成小写。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的表达式，而表达式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;则无效。
+* 所有函数名称都区分大小写。 例如，_inSegment()_&#x200B;有效，而函数&#x200B;_INSEGMENT()_&#x200B;无效。
 * 字段引用和常量值区分大小写：它们不是语言的内置元素（与运算符和函数相反），而是由最终用户创作。
 
 ## 返回的表达式类型{#section_gyc_435_53b}

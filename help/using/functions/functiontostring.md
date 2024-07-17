@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '107'
 ht-degree: 9%
 
 ---
 
 # toString {#toString}
 
-根据类型将参数值转换为字符串值。 有关数据类型的详细信息，请参阅 [此页面](../expression/data-types.md).
+根据类型将参数值转换为字符串值。 有关数据类型的详细信息，请参阅[此页面](../expression/data-types.md)。
 
 ## 类别
 

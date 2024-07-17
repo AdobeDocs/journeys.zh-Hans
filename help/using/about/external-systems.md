@@ -9,8 +9,8 @@ level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 6%
+source-wordcount: '1039'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ Journey Orchestration允许您通过自定义数据源和自定义操作配置�
 
 对于外部数据源，每秒的最大调用数设置为15。 如果呼叫数超过每秒15次，则会丢弃剩余的呼叫。 您可以提高专用外部数据源的此限制。 联系Adobe列入允许列表以将端点包含在中。 对于公共外部数据源，这是不可能的。
 
-对于自定义操作，您需要评估外部 API 的容量。例如，如果Journey Optimizer每秒发送1000次调用，而您的系统仅支持每秒100次调用，则需要定义上限规则，以便您的系统不会饱和。
+对于自定义操作，您需要评估外部API的容量。 例如，如果Journey Optimizer每秒发送1000次调用，而您的系统仅支持每秒100次调用，则需要定义上限规则，以便您的系统不会饱和。
 
 为特定端点（调用的URL）在沙盒级别定义上限规则。 在运行时，Journey Orchestration验证是否定义了上限规则，并在调用该端点期间应用定义的速率。 如果呼叫数超过定义的速率，则会丢弃剩余的呼叫，并在报表中计为错误。
 
@@ -44,7 +44,7 @@ Journey Orchestration允许您通过自定义数据源和自定义操作配置�
 
 例如，假设您为外部系统定义了每秒100次调用的上限规则。 在 10 个不同历程中，系统由自定义操作调用。如果一个历程每秒接收200次调用，它将使用可用的100个插槽并放弃剩余的100个插槽。 由于超出了最大使用率，因此其他 9 个历程将没有任何位置。此粒度有助于避免使外部系统出现过载和崩溃。
 
-要了解有关API上限以及如何配置上限规则的更多信息，请参阅 [此页面](../api/capping.md).
+要了解有关API上限以及如何配置上限规则的更多信息，请参阅[此页面](../api/capping.md)。
 
 ## 超时和重试{#timeout}
 
@@ -70,14 +70,14 @@ Journey Orchestration允许您通过自定义数据源和自定义操作配置�
 
 ## 常见问题解答{#faq}
 
-**如何配置上限规则？ 是否有默认的上限规则？**
+**如何配置上限规则？ 是否存在默认上限规则？**
 
-默认情况下，没有上限规则。 使用上限API，在特定端点（调用的URL）的沙盒级别定义上限规则。 请参阅 [本节](../about/external-systems.md#capping) 和 [此页面](../api/capping.md).
+默认情况下，没有上限规则。 使用上限API，在特定端点（调用的URL）的沙盒级别定义上限规则。 请参阅[此部分](../about/external-systems.md#capping)和[此页面](../api/capping.md)。
 
 **执行多少次重试？ 我可以更改重试次数或定义重试之间的最短等待时间吗？**
 
 对于给定的调用，在第一次调用后最多可以执行三次重试，直到达到超时持续时间结束为止。 无法更改重试次数和每次重试之间的时间。 请参阅[此小节](../about/external-systems.md#timeout)。
 
-**可在何处配置超时？ 是否存在最大值？**
+**我可以在何处配置超时？ 是否存在最大值？**
 
-在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅 [本节](../about/external-systems.md#timeout) 和 [此页面](../building-journeys/changing-properties.md#timeout_and_error).
+在每个历程中，您可以定义超时持续时间。 超时持续时间在历程的属性中配置。 超时持续时间必须介于1秒和30秒之间。 请参阅[此部分](../about/external-systems.md#timeout)和[此页面](../building-journeys/changing-properties.md#timeout_and_error)。

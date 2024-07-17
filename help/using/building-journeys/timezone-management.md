@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 2%
+source-wordcount: '276'
+ht-degree: 9%
 
 ---
 
 # 时区管理 {#timezone_management}
 
-您可以在中定义时区 [属性](../building-journeys/changing-properties.md) 你旅程的一部分。
+您可以在历程的[属性](../building-journeys/changing-properties.md)中定义时区。
 
 要访问属性，请单击屏幕右上角的铅笔图标。
 
@@ -29,21 +29,21 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->配置文件时区与 **时区** 字段存在于 **偏好设置详细信息** 字段组。
+>配置文件时区与&#x200B;**首选项详细信息**&#x200B;字段组中现有的&#x200B;**时区**&#x200B;字段一起使用。
 
 ## 定义固定时区 {#fixed-timezone}
 
 时区也可以固定。 清除预定义的时区并从下拉列表中选择一个时区。 如果您使用固定时区，则所有进入旅程的个人都将使用相同的时区。
 
-为此，请在中 **[!UICONTROL Properties]**&#x200B;中，选择时区。
+为此，请在&#x200B;**[!UICONTROL Properties]**&#x200B;中选择时区。
 
 ![](../assets/journey72.png)
 
 ## 使用配置文件定义历程时区 {#timezone-from-profiles}
 
-如果历程的进入事件具有命名空间，这意味着历程可以访问Adobe Experience Platform的实时客户个人资料服务，则您可能希望使用在个人资料级别定义的时区。 为此，请在中 **属性**，检查 **在等待和条件中使用配置文件时区**. 默认情况下不选中此选项。
+如果历程的进入事件具有命名空间，这意味着历程可以访问Adobe Experience Platform的实时客户个人资料服务，则您可能希望使用在个人资料级别定义的时区。 为此，请在&#x200B;**属性**&#x200B;中选中&#x200B;**在等待和条件中使用配置文件时区**。 默认情况下不选中此选项。
 
-如果为用户档案定义了时区，则历程将检索并使用它。 如果未指定，则使用的时区将是时区字段中定义的时区。
+如果已为配置文件定义了时区，则该历程将会检索并使用该时区。如果未指定，则使用的时区将是时区字段中定义的时区。
 
 ![](../assets/journey73.png)
 

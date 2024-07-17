@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # 配置事件 {#concept_sbp_5cy_w2b}
 
-在我们的场景中，我们需要在每次有人进入马尔顿酒店和餐厅时收到一个事件。 此 **技术用户** 需要配置我们希望系统在历程中侦听的两个事件。
+在我们的场景中，我们需要在每次有人进入马尔顿酒店和餐厅时收到一个事件。 **技术用户**&#x200B;需要配置我们希望系统在历程中侦听的两个事件。
 
-有关事件配置的其他信息，请参阅 [此页面](../event/about-events.md).
+有关事件配置的其他信息，请参阅[此页面](../event/about-events.md)。
 
-1. 在顶部菜单中，单击 **[!UICONTROL Events]** 选项卡，然后单击 **[!UICONTROL Add]** 以创建新事件。
+1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Events]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新事件。
 
    ![](../assets/journeyuc1_1.png)
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 
    我们还需要注册令牌以发送推送消息：&quot;_experience > campaign >消息>用户档案> pushNotificationTokens >令牌&quot;
 
-   系统会自动为此事件生成ID。 此ID存储在 **[!UICONTROL eventID]** 字段（“_experience > campaign >编排> eventID”）。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 在我们的用例中，此ID用于标识信标位置。 每次有人靠近大厅信标时，都会发送一个包含此特定事件ID的事件。 同一原则适用于餐厅信标事件。 这允许系统知道哪些信标触发了事件发送。
+   系统会自动为此事件生成ID。 此ID存储在&#x200B;**[!UICONTROL eventID]**&#x200B;字段中(“_experience > campaign > orchestration > eventID”)。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 在我们的用例中，此ID用于标识信标位置。 每次有人靠近大厅信标时，都会发送一个包含此特定事件ID的事件。 同一原则适用于餐厅信标事件。 这允许系统知道哪些信标触发了事件发送。
 
    ![](../assets/journeyuc2_2.png)
 
@@ -49,7 +49,7 @@ ht-degree: 9%
 
 1. 单击 **[!UICONTROL Save]**。
 
-1. 单击 **[!UICONTROL View Payload]** 图标以预览系统所需的有效负载，并将其与负责事件发送的人共享。  此有效负载需要在Mobile Services管理控制台的回发中进行配置。
+1. 单击&#x200B;**[!UICONTROL View Payload]**&#x200B;图标可预览系统期望的有效负载，并将其共享给负责事件发送的人员。  此有效负载需要在Mobile Services管理控制台的回发中进行配置。
 
    ![](../assets/journeyuc2_5.png)
 

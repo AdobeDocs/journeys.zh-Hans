@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 77f068fa-678e-49a4-b45f-843c3287390a
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
 
 # toDuration {#toDuration}
 
-将参数值转换为持续时间。 有关数据类型的详细信息，请参阅 [此页面](../expression/data-types.md).
+将参数值转换为持续时间。 有关数据类型的详细信息，请参阅[此页面](../expression/data-types.md)。
 
 ## 类别
 

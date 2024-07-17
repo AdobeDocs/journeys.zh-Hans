@@ -8,16 +8,16 @@ level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 5%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
 # 定义有效负载字段 {#concept_yrw_3qt_52b}
 
-有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的详细信息，请参阅 [此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans).
+有效负载定义允许您选择系统预计从历程中的事件接收的信息，以及用于识别哪个人员与事件关联的键。 有效负载基于Experience CloudXDM字段定义。 有关XDM的详细信息，请参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)。
 
-1. 从列表中选择一个XDM架构，然后单击 **[!UICONTROL Payload]** 字段或在 **[!UICONTROL Edit]** 图标。
+1. 从列表中选择XDM架构，然后单击&#x200B;**[!UICONTROL Payload]**&#x200B;字段或&#x200B;**[!UICONTROL Edit]**&#x200B;图标。
 
    ![](../assets/journey8.png)
 
@@ -25,22 +25,22 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >确保您已将“编排”mixin添加到XDM架构中。 这将确保您的架构包含与配合使用所需的所有信息 [!DNL Journey Orchestration].
+   >确保您已将“编排”mixin添加到XDM架构中。 这将确保您的架构包含使用[!DNL Journey Orchestration]所需的所有信息。
 
    ![](../assets/journey9.png)
 
-1. 选择您希望从事件接收的字段。 这些是业务用户在历程中将利用的字段。 还必须包含用于识别与事件关联的人员的键(请参阅 [此页面](../event/defining-the-event-key.md))。
+1. 选择您希望从事件接收的字段。 这些是业务用户在历程中将利用的字段。 它们还必须包含用于识别与事件关联的人员的键（请参阅[此页面](../event/defining-the-event-key.md)）。
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >对于系统生成的事件， **[!UICONTROL eventID]** 字段会自动添加到所选字段的列表中，以便 [!DNL Journey Orchestration] 可以识别事件。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 请参阅[此页](../event/previewing-the-payload.md)。
+   >对于系统生成的事件，**[!UICONTROL eventID]**&#x200B;字段会自动添加到所选字段列表中，以便[!DNL Journey Orchestration]可以识别该事件。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 请参阅[此页](../event/previewing-the-payload.md)。
 
-1. 选择完所需的字段后，单击 **[!UICONTROL Save]** 或按 **[!UICONTROL Enter]**.
+1. 选择完所需的字段后，单击&#x200B;**[!UICONTROL Save]**&#x200B;或按&#x200B;**[!UICONTROL Enter]**。
 
    ![](../assets/journey11.png)
 
-   所选字段的数目显示在 **[!UICONTROL Payload]** 字段。
+   所选字段的数目显示在&#x200B;**[!UICONTROL Payload]**&#x200B;字段中。
 
    ![](../assets/journey12.png)

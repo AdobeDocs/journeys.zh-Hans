@@ -8,16 +8,16 @@ level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '776'
 ht-degree: 85%
 
 ---
 
 # 区段鉴别事件 {#segment-qualification}
 
-## 关于客户细分资格事件{#about-segment-qualification}
+## 关于区段鉴别事件{#about-segment-qualification}
 
-此活动允许您的历程侦听 Adobe Experience Platform 区段中配置文件的进入和退出，以便使个人进入历程或在历程中向前推进。有关创建客户细分的更多信息，请参阅此[部分](../segment/about-segments.md)。
+此活动允许您的历程侦听 Adobe Experience Platform 客户细分中用户档案的进出口，以便使个人进入历程或在历程中前进。有关创建客户细分的更多信息，请参阅此[部分](../segment/about-segments.md)。
 
 假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
 
@@ -50,11 +50,11 @@ ht-degree: 85%
 
    ![](../assets/segment-copy.png)
 
-1. 在 **[!UICONTROL Behaviour]** 字段中，选择要侦听区段入口、出口，还是同时侦听两者。
+1. 在&#x200B;**[!UICONTROL Behaviour]**&#x200B;字段中，选择要侦听客户细分入口和/或出口。
 
    >[!NOTE]
    >
-   >请注意 **[!UICONTROL Enter]** 和 **[!UICONTROL Exit]** 对应于 **已实现** 和 **已退出** 来自Adobe Experience Platform的区段参与状态。 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >请注意，**[!UICONTROL Enter]**&#x200B;和&#x200B;**[!UICONTROL Exit]**&#x200B;对应于Adobe Experience Platform中的&#x200B;**已实现**&#x200B;和&#x200B;**已退出**&#x200B;区段参与状态。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
 1. 选择命名空间。仅当将事件定位为历程的第一步时，才需要此操作。
 

@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 然后，根据以下数据创建条件：
 
-* 次
+* 时间
 * 来自事件有效负载的数据
 * 来自数据源的信息：实时客户档案数据源或自定义数据源
 

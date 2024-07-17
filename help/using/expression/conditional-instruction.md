@@ -17,7 +17,7 @@ ht-degree: 0%
 
 高级编辑器中支持条件指令(if， then， else)。 它允许定义更复杂的表达式。 它由以下元素组成：
 
-* **[!UICONTROL if]**：首先计算的条件。
+* **[!UICONTROL if]**：首先要计算的条件。
 * **[!UICONTROL then]**：条件评估结果为true时要评估的表达式。
 * **[!UICONTROL else]**：条件评估结果为false时要评估的表达式。
 
@@ -33,9 +33,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` 必须返回 **布尔型**.
+`<expression1>`必须返回&#x200B;**布尔值**。
 
-`<expression2>` 和 `<expression3>` 必须具有相同类型或兼容类型。 支持的签名和返回的类型包括：
+`<expression2>`和`<expression3>`必须具有相同的类型或兼容的类型。 支持的签名和返回的类型包括：
 
 ```json
 boolean,boolean : boolean

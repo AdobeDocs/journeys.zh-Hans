@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 96%
+source-wordcount: '338'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="关于数据源"
->abstract="数据源配置允许您定义与系统的连接，以检索将在历程中使用的其他信息。"
+>abstract="数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息。"
 
 数据源配置允许您定义与系统的连接，以检索将在您的历程中使用的其他信息，例如：
 
@@ -44,7 +44,7 @@ ht-degree: 96%
 >
 >数据源配置操作必须始终由&#x200B;**技术用户**&#x200B;执行。
 
-1. 在菜单窗格中，选择 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 部分中，单击 **[!UICONTROL Manage]**。
+1. 在菜单窗格中，选择&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。
 
    将显示数据源列表。有关该界面的更多信息，请参阅[此页面](../about/user-interface.md)。
 

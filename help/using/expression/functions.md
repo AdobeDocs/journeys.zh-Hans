@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 函数
+title: 功能
 description: 了解函数
 feature: Journeys
 role: Data Engineer
@@ -9,15 +9,15 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 75%
+ht-degree: 70%
 
 ---
 
-# 函数 {#concept_p1r_qj5_dgb}
+# 功能 {#concept_p1r_qj5_dgb}
 
 一个函数可以有不同的特征码（一组不同的有序参数）。 函数签名可以有0-N个表达式作为有序参数。
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`， `<expression as param 2>`， ... ，`<expression as param N>`)
 
 每个函数都有一个特定的返回类型。
 
@@ -61,10 +61,10 @@ ht-degree: 75%
 | 日期 | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | 列表 | [distinct](../functions/functiondistinct.md) |
 | 列表 | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| 列表 | [filter](../functions/functionfilter.md) |
+| 列表 | [筛选器](../functions/functionfilter.md) |
 | 列表 | [getListItem](../functions/functiongetlistitem.md) |
 | 列表 | [in](../functions/functionin.md) |
-| 列表 | [intersect](../functions/functionintersect.md) |
+| 列表 | [相交](../functions/functionintersect.md) |
 | 列表 | [listSize](../functions/functionlistsize.md) |
 | 列表 | [serializeList](../functions/functionserializelist.md) |
 | 列表 | [sort](../functions/functionsort.md) |
@@ -80,7 +80,7 @@ ht-degree: 75%
 | 字符串 | [isEmpty](../functions/functionisempty.md) |
 | 字符串 | [isNotEmpty](../functions/functionisnotempty.md) |
 | 字符串 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 字符串 | [长度](../functions/functionlength.md) |
+| 字符串 | [length](../functions/functionlength.md) |
 | 字符串 | [lower](../functions/functionlower.md) |
 | 字符串 | [matchRegExp](../functions/functionmatchregexp.md) |
 | 字符串 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |

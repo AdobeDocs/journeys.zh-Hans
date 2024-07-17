@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 65a904c1-14ff-42b3-8f03-abb97ef47625
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '169'
 ht-degree: 5%
 
 ---
@@ -76,4 +76,4 @@ ht-degree: 5%
 
 `distinctWithNull([10,2,10,null])`
 
-返回 [10， 2，空]
+返回[10， 2， null]

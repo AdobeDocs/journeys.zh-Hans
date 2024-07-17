@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 8%
+source-wordcount: '368'
+ht-degree: 7%
 
 ---
 
 # 等待活动{#section_rlm_nft_dgb}
 
-如果您希望在执行路径中的下一个活动之前等待，则可以使用 **[!UICONTROL Wait]** 活动。 这让您可以定义执行下一个活动的时刻。提供了三个选项：
+如果要等待再执行路径中的下一个活动，则可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 这让您可以定义执行下一个活动的时刻。提供了三个选项：
 
 * [持续时间](#duration)
 * [自定义](#custom)
@@ -31,7 +31,7 @@ ht-degree: 8%
 >
 >最长等待时间为30天。
 >
->在测试模式下， **[!UICONTROL Wait time in test]** 参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 请参阅 [此页面](../building-journeys/testing-the-journey.md)
+>在测试模式下，**[!UICONTROL Wait time in test]**&#x200B;参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 查看[此页面](../building-journeys/testing-the-journey.md)
 
 ## 持续时间等待{#duration}
 
@@ -41,13 +41,13 @@ ht-degree: 8%
 
 ## 自定义等待{#custom}
 
-此选项允许您使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](../expression/expressionadvanced.md)。有关dateTimeOnly格式的详细信息，请参见 [此页面](../expression/data-types.md).
+此选项允许您使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 查看[此页面](../expression/expressionadvanced.md)。 有关dateTimeOnly格式的详细信息，请参阅[此页面](../expression/data-types.md)。
 
 >[!NOTE]
 >
 >您可以利用dateTimeOnly表达式或使用函数转换为dateTimeOnly。 例如： toDateTimeOnly(@{Event.offerOpened.activity.endTime})，事件中的字段格式为2016-08-12T09:46:06Z。
 >
->此 **时区** 应在历程的属性中找到。 因此，目前不可能从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，如2016-08-12T09:46:06.982-05. 请参阅[此页](../building-journeys/timezone-management.md)。
+>历程的属性中应为&#x200B;**时区**。 因此，目前无法从界面直接指向完整的ISO-8601时间戳混合时间和时区偏移，例如2016-08-12T09:46:06.982-05。 请参阅[此页](../building-journeys/timezone-management.md)。
 
 ![](../assets/journey57.png)
 

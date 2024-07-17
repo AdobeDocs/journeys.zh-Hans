@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 41%
+source-wordcount: '387'
+ht-degree: 36%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 41%
 
 **业务用户**&#x200B;现在可以构建历程。我们的历程将仅包含一个包含以下活动的路径：
 
-* “SpaBeacon” **[!UICONTROL Event]**：当某人靠近spa信标时，系统将收到一个事件，并将为该人开始旅程。
-* a **[!UICONTROL Condition]** 检查人员是否为女性的活动
-* 一个 **[!UICONTROL Email]** 活动(使用Adobe Campaign Standard)
-* 一个 **[!UICONTROL End]** 活动
+* “SpaBeacon” **[!UICONTROL Event]**：当某人靠近spa信标时，系统将收到一个事件，并将为该人员开始历程。
+* **[!UICONTROL Condition]**&#x200B;活动以检查此人是否为女性
+* **[!UICONTROL Email]**&#x200B;活动(使用Adobe Campaign Standard)
+* **[!UICONTROL End]**&#x200B;活动
 
 >[!NOTE]
 >
@@ -44,19 +44,19 @@ ht-degree: 41%
 
    ![](../assets/journeyuc1_10.png)
 
-1. 选择 **[!UICONTROL Data Source Condition]** 类型，然后在 **[!UICONTROL Expression]** 字段中单击。您还可以定义将在画布中的箭头上显示的条件标签。
+1. 选择 **[!UICONTROL Data Source Condition]** 类型，然后在 **[!UICONTROL Expression]** 字段中单击。您还可以定义将在画布的箭头上显示的条件标签。
 
    ![](../assets/journeyuc1_11.png)
 
-1. 使用简单表达式编辑器查找性别字段(_人员>性别_)，并将其拖到右侧以创建以下条件：“性别等于“女性”。
+1. 使用简单表达式编辑器，查找性别字段(_person > gender_)，并将其拖放到右侧以创建以下条件：“gender is equal to &quot;Female&quot;。
 
    ![](../assets/journeyuc1_12.png)
 
-1. 放置 **[!UICONTROL Email]** 活动并选择“Spa折扣”事务型消息模板。 此模板是使用Adobe Campaign设计的。 请参阅此 [页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
+1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活动并选择“Spa折扣”事务型消息模板。 此模板是使用Adobe Campaign设计的。 请参阅此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
 
    ![](../assets/journeyuc1_13.png)
 
-1. 在 **[!UICONTROL Email]** 字段，并从数据源中选择电子邮件地址。
+1. 单击&#x200B;**[!UICONTROL Email]**&#x200B;字段并从数据源中选择电子邮件地址。
 
    ![](../assets/journeyuc1_14.png)
 
@@ -64,11 +64,11 @@ ht-degree: 41%
 
    ![](../assets/journeyuc1_15.png)
 
-1. 放置 **[!UICONTROL End]** 活动。
+1. 删除&#x200B;**[!UICONTROL End]**&#x200B;活动。
 
    ![](../assets/journeyuc1_17.png)
 
-1. 单击 **[!UICONTROL Test]** 使用测试用户档案切换和测试您的历程。 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
+1. 单击&#x200B;**[!UICONTROL Test]**&#x200B;切换并使用测试配置文件测试您的历程。 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
 
    ![](../assets/journeyuc1_18bis.png)
 

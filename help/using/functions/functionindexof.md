@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 7617bb25-ec4c-498f-947a-66bbdecd1069
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 20%
+source-wordcount: '63'
+ht-degree: 17%
 
 ---
 
@@ -44,6 +44,6 @@ ht-degree: 20%
 
 返回2。
 
-解释:
+说明：
 
 在“Hello”中，“l”的第一个实例位于位置2。

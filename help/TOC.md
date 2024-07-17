@@ -7,7 +7,7 @@ index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 100%
       + 事件活动 {#events-activities}
          + [关于事件活动](using/building-journeys/event-activities.md)
          + [一般事件](using/building-journeys/general-events.md)
-         + [反应 事件](using/building-journeys/reaction-events.md)
+         + [反应事件](using/building-journeys/reaction-events.md)
          + [区段鉴别事件](using/building-journeys/segment-qualification-events.md)
       + 编排活动 {#orchestration-activities}
          + [关于编排活动](using/building-journeys/about-orchestration-activities.md)
@@ -100,11 +100,11 @@ ht-degree: 100%
 + 构建表达式 {#building-advanced-conditions-journeys}
    + [概述](using/expression/expressionadvanced.md)
    + 语法 {#syntax}
-      + [概述](using/expression/generalities.md)
-      + [条件指令](using/expression/conditional-instruction.md)
+      + [通则](using/expression/generalities.md)
+      + [条件说明](using/expression/conditional-instruction.md)
       + [数据类型](using/expression/data-types.md)
       + [字段引用](using/expression/field-references.md)
-      + [收藏集管理函数](using/expression/collection-management-functions.md)
+      + [集合管理函数](using/expression/collection-management-functions.md)
       + [操作员](using/expression/operators.md)
       + [历程属性](using/expression/journey-properties.md)
       + [示例](using/expression/advanced-editor-use-cases.md)

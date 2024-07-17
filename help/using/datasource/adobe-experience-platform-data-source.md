@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 14%
+source-wordcount: '346'
+ht-degree: 13%
 
 ---
 
 # Adobe Experience Platform 数据源 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源是内置且预配置的。 无法删除它。 此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Real-time Customer Profile服务的详细信息，请参阅此 [页面](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans).
+Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源是内置且预配置的。 无法删除它。 此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Real-time Customer Profile Service的详细信息，请参阅此[页](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)。
 
 >[!NOTE]
 >
@@ -33,12 +33,12 @@ Adobe Experience Platform数据源定义与实时客户资料服务的连接。 
 
    ![](../assets/journey23.png)
 
-1. 单击 **[!UICONTROL Add a New Field Group]** 以定义要检索的一系列新字段。 请参阅[此页](../datasource/field-groups.md)。
+1. 单击&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;可定义要检索的一系列新字段。 请参阅[此页](../datasource/field-groups.md)。
 
    ![](../assets/journey24.png)
 
-1. 从中选择架构 **[!UICONTROL Schema]** 下拉菜单。 此字段列出Adobe Experience Platform中可用的配置文件和Experience Events架构。 架构创建不在中执行 [!DNL Journey Orchestration]. 它在Adobe Experience Platform中执行。
+1. 从&#x200B;**[!UICONTROL Schema]**&#x200B;下拉列表中选择架构。 此字段列出Adobe Experience Platform中可用的配置文件和Experience Events架构。 未在[!DNL Journey Orchestration]中执行架构创建。 它在Adobe Experience Platform中执行。
 1. 选择要使用的字段。
 1. 单击&#x200B;**[!UICONTROL Save]**。
 
-将光标放在字段组的名称上时，您会在右侧看到两个图标。 它们允许您删除和复制字段组。 请注意 **[!UICONTROL Delete]** 仅当字段组未在任何实时或草稿历程中使用时，图标才可用(信息显示在 **[!UICONTROL Used in]** 字段)。
+将光标放在字段组的名称上时，您会在右侧看到两个图标。 它们允许您删除和复制字段组。 请注意，仅当字段组未在任何实时或草稿历程中使用（**[!UICONTROL Used in]**&#x200B;字段中显示的信息）时，**[!UICONTROL Delete]**&#x200B;图标才可用。

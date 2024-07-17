@@ -8,8 +8,8 @@ level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 7%
 
 ## 重要说明{#important-notes}
 
-* 使用乘法时(`*`)，则两个操作字段必须具有相同的类型，即整数或小数。 示例：
+* 使用乘法(`*`)时，两个操作字段必须具有相同的类型，可以是整数或小数。 示例：
    * 以下示例是正确的： `3.0 * 4.0`
-   * `3 * 4.0` 将导致错误
+   * `3 * 4.0`将导致错误
 
 ## 逻辑  {#logical}
 
@@ -46,7 +46,7 @@ ht-degree: 7%
 <expression1> and <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须为布尔型。 结果是布尔值。
+&lt;expression1>和&lt;expression2>都必须是布尔值。 结果是布尔值。
 
 示例：
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 <expression1> or <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须为布尔型。 结果是布尔值。
+&lt;expression1>和&lt;expression2>都必须是布尔值。 结果是布尔值。
 
 示例：
 
@@ -78,7 +78,7 @@ ht-degree: 7%
 not <expression>
 ```
 
-&lt;expression> 必须为布尔型。 结果是布尔值。
+&lt;expression>必须为布尔值。 结果是布尔值。
 
 示例：
 
@@ -132,7 +132,7 @@ not 3.15 < 1
 <expression> has null
 ```
 
-&lt;expression> 必须为列表。 结果是布尔值。
+&lt;expression>必须为列表。 结果是布尔值。
 
 用于标识列表是否包含至少一个null值。
 
@@ -154,7 +154,7 @@ not 3.15 < 1
 <expression1> == <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果是布尔值。
+&lt;expression1>和&lt;expression2>必须具有相同的数据类型。 结果是布尔值。
 
 示例：
 
@@ -166,7 +166,7 @@ not 3.15 < 1
 "foo" == "bar"
 ```
 
-### !=
+### ！=
 
 
 
@@ -174,7 +174,7 @@ not 3.15 < 1
 <expression1> != <expression2>
 ```
 
-两者 &lt;expression1> 和 &lt;expression2> 必须具有相同的数据类型。 结果是布尔值。
+&lt;expression1>和&lt;expression2>必须具有相同的数据类型。 结果是布尔值。
 
 示例：
 
@@ -332,7 +332,7 @@ not 3.15 < 1
 
 结果也是数字。
 
-&lt;expression2> 不得等于0（返回0）。
+&lt;expression2>不能等于0（返回0）。
 
 示例：
 

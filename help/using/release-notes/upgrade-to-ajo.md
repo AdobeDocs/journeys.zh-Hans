@@ -6,8 +6,8 @@ hidefromtoc: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
 source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 2%
+source-wordcount: '731'
+ht-degree: 0%
 
 ---
 
@@ -17,41 +17,41 @@ ht-degree: 2%
 
 Adobe Journey Optimizer是一款灵活的、可扩展的应用程序，它原生构建于Adobe Experience Platform上，可在任何应用程序、设备、屏幕或渠道中编排和提供个性化、连接且及时的客户历程&#x200B;。
 
-## Journey Orchestration 是什么？
+## 什么是Journey Orchestration？
 
 Journey Orchestration是一项基于Adobe Experience Platform构建的服务，允许您根据每位客户先前的行为和偏好为其定制各个历程。 Journey Orchestration是Journey Optimizer的前沿应用。
 
 ## 为何要迁移到Adobe Journey Optimizer？
 
-**访问简化的界面** 通过Experience Platform功能，可快速访问历程、数据集、用户档案、警报等。 无需在Adobe Experience Platform和Journey Orchestration之间来回切换即可访问架构或数据集，所有内容均可直接从Adobe Journey Optimizer获得。 有关更多信息，请参阅此 [页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
+**访问简化的界面**，该界面具有快速访问历程、数据集、个人资料、警报等的Experience Platform功能。 无需在Adobe Experience Platform和Journey Orchestration之间来回切换即可访问架构或数据集，所有内容均可直接从Adobe Journey Optimizer获得。 有关详细信息，请参阅此[页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html)。
 
 <table>
 <tr>
-<th>之前</th>
+<th>早于</th>
 <th>之后</th>
 </tr>
 <tr>
 <td><img src="../assets/migration-ajo-1.png"><p>访问Journey Orchestration中的历程、区段和管理员部分（数据源、事件和操作）。 可在Adobe Experience Platform中访问区段和数据集。 </p></td>
-<td><img src="../assets/migration-ajo-2.png"><p>对历程、区段、管理员、区段和数据集的访问权限， <strong>Adobe Journey Optimizer中的所有组件</strong>. <strong>其他Adobe Experience Platform功能</strong> 也可在此处访问。</p></td>
+<td><img src="../assets/migration-ajo-2.png"><p>访问Adobe Journey Optimizer</strong>中的历程、区段、管理员、区段和数据集<strong>所有。 <strong>其他Adobe Experience Platform功能</strong>也可在此处访问。</p></td>
 </tr>
 </table>
 
-**新的报表界面** 以及访问新的报表功能：
+**新报告界面**&#x200B;以及对新报告功能的访问权限：
 
 <table>
 <tr>
-<th>之前</th>
+<th>早于</th>
 <th>之后</th>
 </tr>
 <tr>
 <td><img src="../assets/migration-ajo-5.png"></td>
-<td><img src="../assets/migration-ajo-6.png"><p><strong>全局视图</strong> 用于衡量所选时段内历程和投放的影响。 要获得更多实时指标，您可以访问 <strong>实时视图</strong>. 对于您的历程中使用的每个投放渠道（电子邮件、短信、推送），应 <strong>专用部分</strong> 可用于查看指标。 仅当您使用现成可用时，才适用 <strong>Adobe Journey Optimizer消息传送功能</strong>. 请联系您的帐户团队以了解更多信息。</p></td>
+<td><img src="../assets/migration-ajo-6.png"><p><strong>全局视图</strong>允许您测量选定时间段内历程和投放的影响。 如需更多实时量度，您可以访问<strong>实时视图</strong>。 对于您的历程中使用的每个投放渠道（电子邮件、短信、推送），报表中提供了<strong>专用部分</strong>以查看指标。 仅当您使用现成的<strong>Adobe Journey Optimizer消息传送功能</strong>时，才适用。 请联系您的帐户团队以了解更多信息。</p></td>
 </tr>
 </table>
 
 改进报告体验或在发布新功能后丰富报告体验的任何演变，都只能在新的报告界面上使用。 开始使用它以获取更全面的Adobe Journey Optimizer体验。
 
-获取其他当前活动的收益 **Adobe Journey Optimizer功能** 以及即将推出的新功能，如字段级访问控制和对象级访问控制。 请联系您的帐户团队以获取更多信息。
+获取其他当前&#x200B;**Adobe Journey Optimizer功能**&#x200B;以及即将推出的新功能（如字段级访问控制和对象级访问控制）的好处。 请联系您的帐户团队以获取更多信息。
 
 ## 如何升级Journey Orchestration环境？
 
@@ -59,7 +59,7 @@ Journey Orchestration是一项基于Adobe Experience Platform构建的服务，�
 
 1. 等待我们的工程团队完成更改。
 
-1. 使用Journey Optimizer的产品配置文件更新您的权限。 请参阅此 [页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html?lang=zh-Hans).
+1. 使用Journey Optimizer的产品配置文件更新您的权限。 请参阅此[页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html?lang=zh-Hans)。
 
 1. 您现在可以访问Adobe Journey Optimizer了！
 
@@ -75,7 +75,7 @@ Journey Orchestration是一项基于Adobe Experience Platform构建的服务，�
 
 <table>
 <tr>
-<th>之前</th>
+<th>早于</th>
 <th>之后</th>
 </tr>
 <tr>
@@ -94,8 +94,8 @@ Journey Orchestration是一项基于Adobe Experience Platform构建的服务，�
 
 迁移到Adobe Journey Optimizer后，您仍然能够使用历程与Adobe Campaign Standard之间的集成，方法是在Adobe Journey Optimizer中设计客户历程并让Adobe Campaign Standard发送投放。
 
-但是，由于Adobe Journey Optimizer报表栈栈的工作方式，报表不会将历程数据和Campaign Standard数据结合使用。 历程信息可在Adobe Journey Optimizer报表中获取，投放信息可在Adobe Campaign Standard中获取。 可以进行Experience Platform配置以将Adobe Campaign Standard数据恢复到Adobe Experience Platform中，使其可供Customer Journey Analytics([了解详情](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html))或其他第三方报表工具，例如Tableau或PowerBI。
+但是，由于Adobe Journey Optimizer报表栈栈的工作方式，报表不会将历程数据和Campaign Standard数据结合使用。 历程信息可在Adobe Journey Optimizer报表中获取，投放信息可在Adobe Campaign Standard中获取。 可以进行Experience Platform配置以将Adobe Campaign Standard数据导入Adobe Experience Platform，使其可供Customer Journey Analytics（[了解更多](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)）或其他第三方报表工具（如Tableau或PowerBI）使用。
 
-Adobe Journey Optimizer报表在使用Adobe Journey Optimizer的现成消息传送功能时操作最佳(可在专门的Adobe Journey Optimizer产品中获取)。 有关如何在历程画布中创作消息的更多信息，请参阅此 [页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html).
+Adobe Journey Optimizer报表在使用Adobe Journey Optimizer的现成消息传送功能时操作最佳(可在专门的Adobe Journey Optimizer产品中获取)。 有关如何在历程画布中创作消息的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html)。
 
 请联系您的帐户团队以了解更多信息。

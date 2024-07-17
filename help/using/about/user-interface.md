@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 94%
+source-wordcount: '959'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 94%
 
 在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，使用 **[!UICONTROL Creation filters]** 按创建日期和用户进行过滤。例如，您可以选择仅显示您在过去 30 天中创建的事件。
 
-在历程列表中(在 **[!UICONTROL Home]**)，以及 **[!UICONTROL Creation filters]**，您还可以根据显示的历程的状态、类型和版本(**[!UICONTROL Status and version filters]**)。 类型可以是： **[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**. 您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的历程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时历程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
+在历程列表（**[!UICONTROL Home]**&#x200B;下）中，除了&#x200B;**[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据显示的历程的状态、类型和版本(**[!UICONTROL Status and version filters]**)筛选它们。 类型可以是： **[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的历程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时历程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ ht-degree: 94%
 
 ![](../assets/journey4.png)
 
-## 浏览 Adobe Experience Platform 字段 {#friendly-names-display}
+## 浏览Adobe Experience Platform字段 {#friendly-names-display}
 
 在定义[事件有效负载](../event/defining-the-payload-fields.md)、[字段组有效负载](../datasource/field-groups.md)以及在[表达式编辑器](../expression/expressionadvanced.md)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
 

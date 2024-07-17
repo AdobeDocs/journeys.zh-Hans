@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '562'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 * 该字段以数字字符开头
 * 字段以“ — ”字符开头
-* 该字段包含除以下内容之外的任何其他内容： _a_-_z_， _A_-_Z_， _0_-_9_， _ ， _-_
+* 该字段包含&#x200B;_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_&#x200B;以外的任何内容
 
-例如，如果您的字段为 _3h_： _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+例如，如果您的字段是&#x200B;_3h_： _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs._experience.emailid.id， defaultValue ： 2} 无效，因为默认值为整数，而预期值应为字符串。
+>字段的类型和默认值必须相同。 例如，@{LobbyBeacon.endUserIDs._experience.emailid.id， defaultValue ： 2}将无效，因为默认值为整数，而预期值应为字符串。
 
 示例：
 
@@ -97,7 +97,7 @@ expression examples:
 
 ## 对收藏集中字段的引用
 
-收藏集中定义的元素使用特定函数进行引用 `all`， `first` 和 `last`. 有关详细信息，请参见[此页面](../expression/collection-management-functions.md)。
+集合中定义的元素使用特定函数`all`、`first`和`last`引用。 有关详细信息，请参见[此页面](../expression/collection-management-functions.md)。
 
 示例：
 
@@ -107,19 +107,19 @@ expression examples:
 
 ## 对映射中定义的字段的引用
 
-### `entry` 函数
+### `entry`函数
 
-为了检索映射中的元素，我们使用带有给定键的入口函数。 例如，在根据选定的命名空间定义事件的键时使用该变量。 请参阅选择命名空间。 有关更多信息，请参阅 [此页面](../event/selecting-the-namespace.md).
+为了检索映射中的元素，我们使用带有给定键的入口函数。 例如，在根据选定的命名空间定义事件的键时使用该变量。 请参阅选择命名空间。 有关详细信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-在此表达式中，我们将获得事件的“IdentityMap”字段的“Email”键的条目。 “Email”条目是一个集合，我们从其中使用“first()”获取第一个元素中的“id”。 有关更多信息，请参阅 [此页面](../expression/collection-management-functions.md).
+在此表达式中，我们将获得事件的“IdentityMap”字段的“Email”键的条目。 “Email”条目是一个集合，我们从其中使用“first()”获取第一个元素中的“id”。 有关详细信息，请参阅[此页面](../expression/collection-management-functions.md)。
 
-### `firstEntryKey` 函数
+### `firstEntryKey`函数
 
-要检索映射的第一个输入键，请使用 `firstEntryKey` 函数。
+要检索映射的第一个条目键，请使用`firstEntryKey`函数。
 
 此示例说明如何检索特定列表订阅者的第一个电子邮件地址：
 
@@ -127,11 +127,11 @@ expression examples:
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-在此示例中，将命名订阅列表 `daily-email`. 电子邮件地址在中定义为键 `subscribers` 映射，链接到订阅列表映射。
+在此示例中，订阅列表名为`daily-email`。 电子邮件地址在`subscribers`映射中定义为键，该映射链接到订阅列表映射。
 
-### `keys` 函数
+### `keys`函数
 
-要检索到映射的所有键，请使用 `keys` 函数。
+要检索到映射的所有键，请使用`keys`函数。
 
 此示例说明如何为特定用户档案检索与特定列表订阅者关联的所有电子邮件地址：
 
@@ -143,7 +143,7 @@ expression examples:
 
 如果您从外部数据源中选择字段，则需要调用一个参数，则右侧会显示一个新选项卡，允许您指定此参数。 请参阅[此页](../expression/expressionadvanced.md)。
 
-对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用关键字定义其值 _参数_. 参数可以是任何有效的表达式，即使来自还包含另一个参数的另一个数据源也是如此。
+对于更复杂的用例，如果要在主表达式中包含数据源的参数，可以使用关键字&#x200B;_params_&#x200B;定义其值。 参数可以是任何有效的表达式，即使来自还包含另一个参数的另一个数据源也是如此。
 
 >[!NOTE]
 >

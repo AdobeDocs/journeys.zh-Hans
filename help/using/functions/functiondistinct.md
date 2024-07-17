@@ -9,7 +9,7 @@ exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -77,4 +77,4 @@ ht-degree: 7%
 
 `distinct([10,2,10,null])`
 
-返回结果 `[10, 2]`.
+返回`[10, 2]`。

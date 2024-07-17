@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '100'
 ht-degree: 11%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->时区ID必须是字符串常量。 它不能是字段引用，也不能是表达式。 有关数据类型的详细信息，请参阅 [此页面](../expression/data-types.md).
+>时区ID必须是字符串常量。 它不能是字段引用，也不能是表达式。 有关数据类型的详细信息，请参阅[此页面](../expression/data-types.md)。
 
 ## 签名和返回的类型
 
@@ -46,7 +46,7 @@ ht-degree: 11%
 
 `toDateTime(<integer>)`
 
-返回 **dateTime**.
+返回&#x200B;**日期时间**。
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-返回2016-08-18T23:17:59.123赫
+返回2016-08-18T23:17:59.123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-返回2016-08-18T23:17:59.123赫
+返回2016-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-返回2019-06-17T09:03:10.189赫
+返回2019-06-17T09:03:10.189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

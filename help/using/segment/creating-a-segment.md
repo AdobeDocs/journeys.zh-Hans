@@ -8,21 +8,21 @@ level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 19%
+source-wordcount: '126'
+ht-degree: 12%
 
 ---
 
 # 创建区段 {#creating-a-segment}
 
-您可以使用以下任一方式创建区段： [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans) 或者，您可以直接在中访问和创建它们 [!DNL Journey Orchestration].
+您可以使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)创建区段，也可以直接在[!DNL Journey Orchestration]中访问和创建区段。
 
 1. 在顶部菜单中，单击&#x200B;**[!UICONTROL Segments]**&#x200B;选项卡。此时将显示Adobe Experience Platform区段的列表。 您可以在列表中搜索特定区段。
 
    ![](../assets/segment1.png)
 
-1. 单击 **[!UICONTROL Add]** 以创建新区段。 利用区段定义屏幕，可配置定义区段所需的所有字段。 该配置与分段服务中的配置相同。 请参阅 [区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans).
+1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;以创建新区段。 利用区段定义屏幕，可配置定义区段所需的所有字段。 该配置与分段服务中的配置相同。 请参阅[区段生成器用户指南](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=zh-Hans)。
 
    ![](../assets/segment2.png)
 
-您的区段现在可用于构建条件或添加 **[!UICONTROL Segment qualification]** 事件。 请参阅 [在条件中使用区段](../segment/using-a-segment.md) 和 [事件活动](../building-journeys/segment-qualification-events.md).
+您的区段现在可用于您的历程以构建条件或添加&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件。 请参阅[在条件](../segment/using-a-segment.md)和[事件活动](../building-journeys/segment-qualification-events.md)中使用区段。

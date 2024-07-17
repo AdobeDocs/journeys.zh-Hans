@@ -32,7 +32,7 @@ ht-degree: 10%
 | 参数 | 类型 |
 |-----------|--------------|
 | 基础 | 字符串 |
-| Target | 字符串(RegExp) |
+| 目标 | 字符串(RegExp) |
 | 替换 | 字符串 |
 
 ## 签名和返回的类型
@@ -47,4 +47,4 @@ ht-degree: 10%
 
 返回“Hexxo Worxd”。
 
-由于target参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 请参阅中的示例。 [此页面](../functions/functionreplace.md#example_2).
+由于target参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 请参阅[此页面](../functions/functionreplace.md#example_2)中的示例。

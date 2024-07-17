@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b362589a-32b0-4dbd-8ceb-a371e1e048ac
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 79%
+source-wordcount: '219'
+ht-degree: 78%
 
 ---
 
@@ -21,4 +21,4 @@ ht-degree: 79%
 
 事件通过流式引入 API 到达后，会流入名为 Pipeline 的内部服务，然后流入 Adobe Experience Platform。如果事件架构启用了实时客户资料服务标志，并且数据集 ID 也具有实时客户资料标志，则会流入实时客户资料服务。
 
-对于系统生成的事件，Pipeline会筛选有效负载包含以下内容的事件 [!DNL Journey Orchestration] eventIDs（请参阅下面的事件创建流程）由提供 [!DNL Journey Orchestration] 并包含在事件有效负载中。 对于基于规则的事件，系统会使用eventID条件标识事件。 这些事件通过 [!DNL Journey Orchestration] 侦听，并触发相应的旅程。
+对于系统生成的事件，Pipeline会筛选有效负载由[!DNL Journey Orchestration]提供并包含在事件有效负载中的事件，这些有效负载包含[!DNL Journey Orchestration]个事件ID（请参阅下面的事件创建流程）。 对于基于规则的事件，系统会使用eventID条件标识事件。 这些事件通过 [!DNL Journey Orchestration] 侦听，并触发相应的旅程。

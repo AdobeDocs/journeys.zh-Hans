@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 关于 Adobe Experience Platform 区段
+title: 关于Adobe Experience Platform区段
 description: 了解如何配置Adobe Experience Platform区段
 feature: Journeys
 role: User
@@ -8,23 +8,23 @@ level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 20%
+source-wordcount: '358'
+ht-degree: 10%
 
 ---
 
-# 关于 Adobe Experience Platform 区段 {#about-segments}
+# 关于Adobe Experience Platform区段 {#about-segments}
 
-如果您使用 [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans) 要创建区段，您可以在中利用它们 [!DNL Journey Orchestration]. 通过专门的活动活动，您可以根据Adobe Experience Platform区段入口和出口，让个人进入历程或是在历程中前进。 这还允许您使用简单或高级表达式编辑器在历程中构建复杂条件。
+如果您使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)创建区段，则可以在[!DNL Journey Orchestration]中利用它们。 通过专门的活动活动，您可以根据Adobe Experience Platform区段入口和出口，让个人进入历程或是在历程中前进。 这还允许您使用简单或高级表达式编辑器在历程中构建复杂条件。
 
-假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。您还可以基于此区段轻松构建条件。
+假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向他们发送一系列个性化消息。 您还可以基于此区段轻松构建条件。
 
-下面是各种可能性 [!DNL Journey Orchestration] 为您提供区段：
+以下是[!DNL Journey Orchestration]可为您提供区段的可能性：
 
-* 访问Adobe Experience Platform区段的列表。 请参阅 [创建区段](../segment/creating-a-segment.md).
-* 直接在中创建区段 [!DNL Journey Orchestration] 使用分段服务创建分段的方式相同。 请参阅 [创建区段](../segment/creating-a-segment.md).
-* 使用简单或高级表达式编辑器在历程的条件下利用区段。 请参阅 [在条件中使用区段](../segment/using-a-segment.md).
-* 添加 **[!UICONTROL Segment qualification]** 历程的事件，以便侦听Adobe Experience Platform区段中用户档案的进出口。 请参阅 [事件活动](../building-journeys/segment-qualification-events.md).
+* 访问Adobe Experience Platform区段的列表。 请参阅[创建区段](../segment/creating-a-segment.md)。
+* 直接在[!DNL Journey Orchestration]中创建区段，其方式与使用分段服务创建区段的方式相同。 请参阅[创建区段](../segment/creating-a-segment.md)。
+* 使用简单或高级表达式编辑器在历程的条件下利用区段。 请参阅[在条件](../segment/using-a-segment.md)中使用区段。
+* 将&#x200B;**[!UICONTROL Segment qualification]**&#x200B;事件添加到您的历程，以侦听Adobe Experience Platform区段中用户档案的进出口。 查看[事件活动](../building-journeys/segment-qualification-events.md)。
 
 ## Journey Orchestration中的评估方法 {#evaluation-method-in-journey-orchestration}
 
@@ -35,7 +35,7 @@ ht-degree: 20%
 
 系统根据分段规则的复杂性和评估成本，对每个分段定义进行批量分段和流式分段之间的确定。
 
-您可以在中查看每个区段的评估方法 **[!UICONTROL Evaluation method]** 段列表的列。
+您可以在区段列表的&#x200B;**[!UICONTROL Evaluation method]**&#x200B;列中查看每个区段的评估方法。
 
 首次定义区段后，用户档案将在符合条件时添加到受众。
 

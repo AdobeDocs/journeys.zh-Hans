@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '611'
 ht-degree: 5%
 
 ---
@@ -73,7 +73,7 @@ JSON格式：数字
 
 **描述**
 
-小数. 它表示一个浮动值：
+十进制数。 它表示一个浮动值：
 
 * 双精度型的最大正有限值，(2-2^-52)x2^1023
 * double类型的最小正正规值，2-1022

@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 4%
+source-wordcount: '411'
+ht-degree: 2%
 
 ---
 
 # 关于高级用例{#concept_vzy_ncy_w2b}
 
-## 用途 {#purpose}
+## 目的 {#purpose}
 
 以一个叫马尔顿的酒店品牌为例。 在酒店里，他们在所有战略区域附近都放置了信标设备：大厅、地板、餐厅、健身房、游泳池等。
 
@@ -36,19 +36,19 @@ ht-degree: 4%
 
 ![](../assets/journeyuc2_29.png)
 
-对于此用例，我们需要创建两个事件(请参阅 [此页面](../usecase/configuring-the-events.md))：
+对于此用例，我们需要创建两个事件（请参阅[此页面](../usecase/configuring-the-events.md)）：
 
 * 大厅信标事件，当客户进入酒店时将推送到系统。
 * 当客户进入餐厅时将推送的餐厅信标事件。
 
-我们需要配置与两个数据源的连接(请参阅 [此页面](../usecase/configuring-the-data-sources.md))：
+我们需要配置与两个数据源的连接（请参阅[此页面](../usecase/configuring-the-data-sources.md)）：
 
 * 内置的Adobe Experience Platform数据源，用于检索有关我们的两个条件（忠诚度会员资格和上次联系日期）的信息以及消息个性化信息。
 * 酒店预订系统，用于检索预订状态信息。
 
 ## 先决条件 {#prerequisites}
 
-在我们的用例中，我们设计了三个Adobe Campaign Standard事务性消息传递模板。 我们正在使用事件事务性消息模板。 请参阅此 [页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
+在我们的用例中，我们设计了三个Adobe Campaign Standard事务性消息传递模板。 我们正在使用事件事务性消息模板。 请参阅此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
 
 Adobe Campaign Standard配置为发送电子邮件和推送通知。
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '148'
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 | 参数 | 类型 |
 |-----------|--------------|
 | 基础 | 字符串 |
-| Target | 字符串(RegExp) |
+| 目标 | 字符串(RegExp) |
 | 替换 | 字符串 |
 
 ## 签名和返回的类型
@@ -51,11 +51,11 @@ ht-degree: 10%
 
 由于target参数是RegExp，因此根据要替换的字符串，您可能需要转义某些字符。 示例如下：
 
-* 要计算的字符串： `|OFFER_A|OFFER_B`
-* 由配置文件属性提供 `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* 要计算的字符串：`|OFFER_A|OFFER_B`
+* 由配置文件属性`#{ExperiencePlatform.myFieldGroup.profile.myOffers}`提供
 * 要替换的字符串： `|OFFER_A`
 * 字符串替换为： `''`
-* 您需要添加 `\\` 早于 `|` 字符。
+* 您需要在`|`字符之前添加`\\`。
 
 表达式为：
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
 source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 21%
+source-wordcount: '94'
+ht-degree: 19%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 21%
 
 `split(@{event.appVersion}, "\\.")`
 
-返回结果 `["20", "45", "2", "3434"]`
+返回`["20", "45", "2", "3434"]`
 
 `getListItem(split(@{event.appVersion}, "\\."), 0)`
 

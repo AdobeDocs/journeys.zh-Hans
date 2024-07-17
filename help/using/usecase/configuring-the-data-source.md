@@ -9,17 +9,17 @@ exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
 # 配置数据源{#concept_ax3_bcy_w2b}
 
-在我们的用例中，我们希望为消息使用个性化数据。 我们还需要检查这个人是不是女人。 此信息存储在Real-time Customer Profile数据库中。 此 **技术用户** 需要检查这些字段是否在内置的Adobe Experience Platform数据源中定义。
+在我们的用例中，我们希望为消息使用个性化数据。 我们还需要检查这个人是不是女人。 此信息存储在Real-time Customer Profile数据库中。 **技术用户**&#x200B;需要检查这些字段是否在内置的Adobe Experience Platform数据源中定义。
 
-有关数据源配置的其他信息，请参阅 [此页面](../datasource/about-data-sources.md).
+有关数据源配置的其他信息，请参阅[此页面](../datasource/about-data-sources.md)。
 
-1. 在菜单窗格中，选择 **[!UICONTROL Admin]**. 在 **[!UICONTROL Data sources]** 部分中，单击 **[!UICONTROL Manage]**。
+1. 在菜单窗格中，选择&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。
 1. 选择内置的Adobe Experience Platform数据源。
 
    ![](../assets/journey23.png)
@@ -29,7 +29,7 @@ ht-degree: 9%
    * _人员>姓名>名字_
    * _人员>姓名>姓氏_
    * _人员>性别_
-   * _personalEmail >地址_
+   * _个人电子邮件>地址_
 
 1. 单击 **[!UICONTROL Save]**。
 

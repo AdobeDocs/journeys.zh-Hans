@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '377'
+ht-degree: 4%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 7%
 * http
 * 上限
 * 超时
-* error
+* 错误
 
 ## fetchErrorCode
 
@@ -75,7 +75,7 @@ ht-degree: 7%
 
 ## fetchOriginErrorCode
 
-系统提供的错误代码 [!DNL Journey Orchestration] 正在查询。 例如，它可以是404、500等。
+系统[!DNL Journey Orchestration]提供的错误代码正在查询。 例如，它可以是404、500等。
 
 类型：字符串
 

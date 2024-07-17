@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1305'
 ht-degree: 94%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 以下是创建和配置新外部数据源的主要步骤：
 
-1. 在数据源列表中，单击 **[!UICONTROL Create data source]** 以创建新的外部数据源。
+1. 在数据源列表中，单击&#x200B;**[!UICONTROL Create data source]**&#x200B;以创建新的外部数据源。
 
    ![](../assets/journey25.png)
 

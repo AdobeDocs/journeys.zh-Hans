@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '185'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 区段名称必须是字符串常量。 它不能是字段引用，也不能是表达式。
 
-区段在下文中定义： [Adobe Experience Platform](https://platform.adobe.com/segment/overview). 表达式编辑器提供自动完成的区段列表。
+在[Adobe Experience Platform](https://platform.adobe.com/segment/overview)中定义区段。 表达式编辑器提供自动完成的区段列表。
 
 区段可以具有三种状态：
 
@@ -31,11 +31,11 @@ ht-degree: 6%
 * 已实现：实体正在进入分部。
 * 退出：实体正在退出区段。
 
-仅具有 **已实现** 和 **现有** 区段参与状态将被视为区段的成员。 有关如何评估区段的更多信息，请参阅 [Segmentation Service文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+只有具有&#x200B;**已实现**&#x200B;和&#x200B;**现有**&#x200B;区段参与状态的个人才会被视为该区段的成员。 有关如何评估区段的更多信息，请参阅[分段服务文档](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results)。
 
-`IF inSegment('segmentName') == true` 表示您拥有segmentMembership且状态为entered/existing。
+`IF inSegment('segmentName') == true`表示您拥有segmentMembership且状态为entered/existing。
 
-`ELSE inSegment('segmentName') == false` 表示您具有已退出状态的segmentMembership。
+`ELSE inSegment('segmentName') == false`表示您具有已退出状态的segmentMembership。
 
 ## 类别
 
@@ -61,6 +61,6 @@ Adobe Experience Platform
 
 `inSegment("men over 50")`
 
-解释:
+说明：
 
-函数将返回 **[!UICONTROL true]** 如果旅程实例中的个人是名为“50岁以上的男性”的Adobe Experience Platform区段的一部分， **[!UICONTROL false]** 否则。
+如果历程实例中的个人是名为“50岁以上的男性”的Adobe Experience Platform区段的一部分，则函数将返回&#x200B;**[!UICONTROL true]**，否则返回&#x200B;**[!UICONTROL false]**。

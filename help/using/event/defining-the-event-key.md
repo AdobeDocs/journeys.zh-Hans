@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 5%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 键值是字段或字段组合是事件有效负载数据的一部分，这将允许系统识别与事件关联的个人。 例如，键可以是Experience CloudID、CRM ID或电子邮件地址。
 
-如果您计划利用存储在Real-time Customer Profile数据库中的数据，则必须选择在 [Real-time Customer Profile Service](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans).
+如果您计划利用存储在实时客户资料数据库中的数据，则必须选择在[实时客户资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)中定义为个人资料标识的信息，作为事件键。
 
-它将允许系统在事件和个人配置文件之间执行协调。 如果选择具有主标识的架构，则 **[!UICONTROL Key]** 和 **[!UICONTROL Namespace]** 字段是预填充的。 如果未定义标识，我们将选择 _identityMap > id_ 作为主键。 然后，您必须选择一个命名空间，并且密钥将会预填充(位于 **[!UICONTROL Namespace]** 字段)，使用 _identityMap > id_.
+它将允许系统在事件和个人配置文件之间执行协调。 如果选择具有主标识的架构，则会预填充&#x200B;**[!UICONTROL Key]**&#x200B;和&#x200B;**[!UICONTROL Namespace]**&#x200B;字段。 如果未定义标识，我们选择&#x200B;_identityMap > id_&#x200B;作为主键。 然后，您必须选择一个命名空间，并使用&#x200B;_identityMap > id_&#x200B;预填充键（在&#x200B;**[!UICONTROL Namespace]**&#x200B;字段下）。
 
 选择字段时，将标记主要标识字段。
 
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 如果您需要使用其他密钥，如CRM ID或电子邮件地址，则需要手动添加它：
 
-1. 在 **[!UICONTROL Key]** 字段或铅笔图标上。
+1. 在&#x200B;**[!UICONTROL Key]**&#x200B;字段内或铅笔图标上单击。
 
    ![](../assets/journey16.png)
 
@@ -35,6 +35,7 @@ ht-degree: 5%
 
    ![](../assets/journey20.png)
 
-当收到事件时，键的值将允许系统识别与事件相关联的人员。 与命名空间关联(请参阅 [此页面](../event/selecting-the-namespace.md))，密钥可用于在Adobe Experience Platform上执行查询。 请参阅[此页](../building-journeys/about-orchestration-activities.md)。密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
+当收到事件时，键的值将允许系统识别与事件相关联的人员。 与命名空间关联（请参阅[此页面](../event/selecting-the-namespace.md)），密钥可用于在Adobe Experience Platform上执行查询。 查看[此页面](../building-journeys/about-orchestration-activities.md)。
+密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
-您还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询的值，例如更改格式、执行字段连接，同时仅考虑字段的一部分（例如，前10个字符）。 请参阅[此页](../expression/expressionadvanced.md)。
+如果要执行其他操作，还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询的值，例如更改格式、执行字段连接，同时仅考虑字段的一部分（例如，前10个字符）。 请参阅[此页](../expression/expressionadvanced.md)。

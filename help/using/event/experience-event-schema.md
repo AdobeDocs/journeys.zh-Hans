@@ -8,30 +8,30 @@ level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 4%
+source-wordcount: '717'
+ht-degree: 0%
 
 ---
 
-# 关于的ExperienceEvent架构 [!DNL Journey Orchestration] 活动
+# 关于[!DNL Journey Orchestration]事件的ExperienceEvent架构
 
-[!DNL Journey Orchestration] 事件是通过流式摄取发送到Adobe Experience Platform的XDM体验事件。
+[!DNL Journey Orchestration]事件是通过流式摄取发送到Adobe Experience Platform的XDM Experience事件。
 
-因此，设置事件的重要先决条件 [!DNL Journey Orchestration] 您是否熟悉Adobe Experience Platform的Experience Data Model（或XDM）、如何构建XDM Experience Event架构，以及如何将XDM格式的数据流式传输到Adobe Experience Platform。
+因此，为[!DNL Journey Orchestration]设置事件的一项重要先决条件是，您熟悉Adobe Experience Platform的Experience Data Model（或XDM）、如何构建XDM Experience Event架构以及如何将XDM格式的数据流式传输到Adobe Experience Platform。
 
-## 架构要求 [!DNL Journey Orchestration] 活动
+## [!DNL Journey Orchestration]事件的架构要求
 
-设置事件的第一步 [!DNL Journey Orchestration] 是确保您定义了用于表示事件的XDM架构，并创建了数据集以在Adobe Experience Platform上记录事件的实例。 严格来说，为事件创建数据集并不是必需的，但将事件发送到特定数据集将允许您维护用户的事件历史记录，以供将来参考和分析，因此始终是一个不错的主意。 如果您还没有适合事件的架构和数据集，则可以在Adobe Experience Platform Web界面中完成这两项任务。
+为[!DNL Journey Orchestration]设置事件的第一步是确保您定义了用于表示该事件的XDM架构，并创建了数据集以在Adobe Experience Platform上记录该事件的实例。 严格来说，为事件创建数据集并不是必需的，但将事件发送到特定数据集将允许您维护用户的事件历史记录，以供将来参考和分析，因此始终是一个不错的主意。 如果您还没有适合事件的架构和数据集，则可以在Adobe Experience Platform Web界面中完成这两项任务。
 
 ![](../assets/schema1.png)
 
-任何将用于以下项目的XDM架构： [!DNL Journey Orchestration] 事件应满足以下要求：
+将用于[!DNL Journey Orchestration]事件的任何XDM架构都应满足以下要求：
 
 * 架构必须为XDM ExperienceEvent类。
 
   ![](../assets/schema2.png)
 
-* 对于系统生成的事件，架构必须包括Orchestration eventID mixin。 [!DNL Journey Orchestration] 使用此字段标识历程中使用的事件。
+* 对于系统生成的事件，架构必须包括Orchestration eventID mixin。 [!DNL Journey Orchestration]使用此字段识别历程中使用的事件。
 
   ![](../assets/schema3.png)
 
@@ -53,7 +53,7 @@ ht-degree: 4%
 
 ## 利用架构关系{#leverage_schema_relationships}
 
-Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
+Adobe Experience Platform允许您定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
 
 假设您的品牌数据模型具有一个用于捕获购买的架构。 此外，您还有一个产品目录架构。 您可以捕获购买架构中的产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您就可以为购买笔记本电脑的所有客户创建一个区段，而无需明确列出所有笔记本电脑ID或在事务系统中捕获每个产品详细信息。
 
@@ -69,13 +69,13 @@ Adobe Experience Platform 让您可以定义架构之间的关系，以便将一
 
 >[!NOTE]
 >
->在中了解有关架构关系的更多信息 [Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>在[架构文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中了解有关Experience Platform关系的更多信息。
 
 在Journey Orchestration中，您随后可以利用链接表中的所有字段：
 
-* 配置单一事件时， [了解更多](../event/experience-event-schema.md#unitary_event_configuration)
-* 在历程中使用条件时， [了解更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* 在自定义操作个性化中， [了解更多](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* 配置单一事件时，[了解更多](../event/experience-event-schema.md#unitary_event_configuration)
+* 在历程中使用条件时，[了解更多](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* 在自定义操作个性化中，[了解更多](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### 单一事件配置{#unitary_event_configuration}
 
@@ -91,7 +91,7 @@ Adobe Experience Platform 让您可以定义架构之间的关系，以便将一
 * 在事件键公式中
 * 在事件id条件中（基于规则的事件）
 
-要了解如何配置单一事件，请参阅此 [页面](../event/about-creating.md).
+要了解如何配置单一事件，请参阅此[页面](../event/about-creating.md)。
 
 ### 使用事件上下文的历程条件{#journey_conditions_using_event_context}
 
@@ -101,7 +101,7 @@ Adobe Experience Platform 让您可以定义架构之间的关系，以便将一
 
 ![](../assets/schema12.png)
 
-要了解如何定义历程条件，请参阅此 [页面](../building-journeys/condition-activity.md).
+要了解如何定义历程条件，请参阅此[页面](../building-journeys/condition-activity.md)。
 
 ### 使用历程事件上下文进行操作个性化{#custom_action_personalization_with_journey_event_context}
 
@@ -109,5 +109,5 @@ Adobe Experience Platform 让您可以定义架构之间的关系，以便将一
 
 ![](../assets/schema13.png)
 
-要了解如何使用自定义操作，请参阅此 [页面](../building-journeys/using-custom-actions.md).
+要了解如何使用自定义操作，请参阅此[页面](../building-journeys/using-custom-actions.md)。
 

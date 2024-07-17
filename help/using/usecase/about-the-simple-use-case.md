@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 11%
+source-wordcount: '166'
+ht-degree: 7%
 
 ---
 
 # 关于简单用例{#concept_grh_vby_w2b}
 
-## 用途 {#purpose}
+## 目的 {#purpose}
 
 以一个叫马尔顿的酒店品牌为例。 在酒店里，他们在所有战略区域附近都放置了信标设备：大厅、地板、餐厅、健身房、游泳池等。
 
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ## 先决条件 {#prerequisites}
 
-对于我们的用例，我们在Adobe Campaign Standard中设计了一个电子邮件事务型消息传递模板。 我们正在使用事件事务性消息模板。 请参阅此 [页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans).
+对于我们的用例，我们在Adobe Campaign Standard中设计了一个电子邮件事务型消息传递模板。 我们正在使用事件事务性消息模板。 请参阅此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
 
 Adobe Campaign Standard配置为发送电子邮件。
 

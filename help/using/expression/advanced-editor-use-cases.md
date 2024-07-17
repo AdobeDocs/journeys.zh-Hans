@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
 source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 2%
+source-wordcount: '490'
+ht-degree: 1%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 此表达式返回布尔值。
 
-**现在，让我们构建一个表达式，检查产品是否有库存**
+**现在，让我们构建一个表达式，检查产品是否已有库存**
 
 * 在库存中，此表达式查找产品的数量字段，并指定它应大于0。
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* 并使用函数指定SKU `first` 要检索最新的“addToCart”交互，请执行以下操作：
+* 并使用函数`first`指定SKU以检索最新的“addToCart”交互：
 
   ```json
       #{ExperiencePlatformDataSource
@@ -110,9 +110,9 @@ ht-degree: 2%
                     .name} == "Arlington"
 ```
 
-解释：这是一种严格的字符串比较（区分大小写），相当于在使用简单模式下的查询 `equal to` 替换为 `Is sensitive` 已选中。
+解释：这是一个严格的字符串比较（区分大小写），相当于简单模式中的查询，该模式使用`equal to`并选中`Is sensitive`。
 
-相同的查询 `Is sensitive` 取消选中将在高级模式下生成以下表达式：
+取消选中`Is sensitive`的相同查询将在高级模式下生成以下表达式：
 
 ```json
         equalIgnoreCase(@{GeofenceEntry
@@ -143,6 +143,6 @@ substr(
 )
 ```
 
-说明：此示例使用 `substr` 和 `lastIndexOf` 用于移除在移动设备应用程序启动事件中传递的CRM ID所包含的大括号函数。
+解释：此示例使用`substr`和`lastIndexOf`函数删除包含通过移动设备应用程序启动事件传递的CRM ID的大括号。
 
-有关如何使用高级表达式编辑器的更多信息，请关注 [此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+有关如何使用高级表达式编辑器的详细信息，请观看[此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。

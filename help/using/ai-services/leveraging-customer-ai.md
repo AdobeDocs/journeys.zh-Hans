@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: b507ed24-820f-41e2-b8ce-63e992710e3a
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
 # 利用客户人工智能 {#customer-ai}
 
-客户人工智能是智能服务的一部分。 它有助于预测客户可能会做什么。 请参阅 [文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
+客户人工智能是智能服务的一部分。 它有助于预测客户可能会做什么。 请参阅[文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html)。
 
 借助客户人工智能，品牌商可利用流失率或转化率机器学习功能来建立分数，这些分数将在Adobe Experience Platform用户档案（实时客户用户档案）中作为用户档案属性提供。
 

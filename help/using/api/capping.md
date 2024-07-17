@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '554'
 ht-degree: 29%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 29%
 
 >[!IMPORTANT]
 >
->此 **maxHttpConnections** 参数是可选的。 它允许您限制Journey Optimizer将打开到外部系统的连接数。
+>**maxHttpConnections**&#x200B;参数是可选的。 它允许您限制Journey Optimizer将打开到外部系统的连接数。
 >
 >可以设置的最大值为400。 如果未指定任何内容，则系统可能会打开数千个连接，具体取决于系统的动态缩放情况。
 
@@ -85,7 +85,7 @@ ht-degree: 29%
 
 ## 警告和错误
 
-当 **canDeploy** 方法调用时，该过程将验证配置并返回由其唯一ID标识的验证状态，即：
+调用&#x200B;**canDeploy**&#x200B;方法时，进程将验证配置并返回由其唯一ID标识的验证状态：
 
 ```
 "ok" or "error"
@@ -93,24 +93,24 @@ ht-degree: 29%
 
 潜在的错误包括：
 
-* **ERR_ENDPOINTCONFIG_100**：上限配置：缺少url或无效的url
-* **ERR_ENDPOINTCONFIG_101**：上限配置：格式错误的url
-* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url： host：port中不允许使用url中的wildchar
+* **ERR_ENDPOINTCONFIG_100**：配置上限：缺少URL或无效的URL
+* **ERR_ENDPOINTCONFIG_101**：上限配置：错误的url
+* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url：主机：端口中不允许使用url中的通配符
 * **ERR_ENDPOINTCONFIG_103**：上限配置：缺少HTTP方法
-* **ERR_ENDPOINTCONFIG_104**：上限配置：未定义调用评级
+* **ERR_ENDPOINTCONFIG_104**：上限配置：未定义调用等级
 * **ERR_ENDPOINTCONFIG_107**：上限配置：无效的最大调用计数(maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**：上限配置：调用数上限无效(periodInMs)
+* **ERR_ENDPOINTCONFIG_108**：上限配置：无效的最大调用计数(periodInMs)
 * **ERR_ENDPOINTCONFIG_111**：上限配置：无法创建终结点配置：有效负载无效
-* **ERR_ENDPOINTCONFIG_112**：上限配置：无法创建终结点配置：应为JSON有效负载
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**：服务名称无效 `<!--<given value>-->`：必须为“dataSource”或“action”
+* **ERR_ENDPOINTCONFIG_112**：上限配置：无法创建终结点配置：应为JSON负载
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**：无效的服务名称`<!--<given value>-->`：必须为“dataSource”或“action”
 
 潜在的警告是：
 
-**ERR_ENDPOINTCONFIG_106**：上限配置：未定义最大HTTP连接数：默认情况下无限制
+**ERR_ENDPOINTCONFIG_106**：上限配置：未定义最大HTTP连接：默认情况下无限制
 
 ## 用例
 
-在此部分中，您将找到五个主要用例，您可以执行这些用例来管理上限配置 [!DNL Journey Orchestration].
+在此部分中，您将找到五个主要用例，您可以执行这些用例来管理[!DNL Journey Orchestration]中的上限配置。
 
 为帮助您进行测试和配置，可点击[此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json)获取 Postman 集合。
 
@@ -123,14 +123,14 @@ ht-degree: 29%
 
 在以下部分中，您将找到用于执行用例的 Rest API 调用排序列表。
 
-用例n°1： **创建和部署新的上限配置**
+用例n°1： **创建和部署新上限配置**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-用例n°2： **更新和部署尚未部署的上限配置**
+用例n°2： **更新和部署尚未部署上限配置**
 
 1. list
 1. get
@@ -138,7 +138,7 @@ ht-degree: 29%
 1. candeploy
 1. deploy
 
-用例n°3： **取消部署和删除已部署的上限配置**
+用例n°3： **取消部署并删除已部署的上限配置**
 
 1. list
 1. undeploy

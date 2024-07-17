@@ -5,8 +5,8 @@ description: 了解有关导入导出API的更多信息。
 products: journeys
 source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 21%
+source-wordcount: '1027'
+ht-degree: 17%
 
 ---
 
@@ -19,27 +19,27 @@ ht-degree: 21%
 
 ## 资源
 
-在可用的Swagger文件中介绍了Journey OrchestrationExport-Import API [此处](https://adobedocs.github.io/JourneyAPI/docs/).
+Journey OrchestrationExport-Import API在[此处](https://adobedocs.github.io/JourneyAPI/docs/)提供的Swagger文件中进行了说明。
 
-要在您的Journey Orchestration实例中使用此API，您需要使用AdobeI/O控制台。 您可以按照以下步骤开始操作 [Adobe Developer控制台快速入门](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) 然后使用此页中的部分。
+要在您的Journey Orchestration实例中使用此API，您需要使用AdobeI/O控制台。 您可以按照此[Adobe Developer Console快速入门](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md)开始操作，然后使用此页中的部分。
 
-要测试和准备集成，可使用Postman收藏集 [此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
+若要测试和准备集成，可在[此处](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json)使用Postman收藏集。
 
 
 ## Export-Import流
 
 我们建议按照以下步骤跨环境导出和导入您的历程：
 
-1. 在启动环境中创建旅程并为其参数。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
-1. 检查历程版本是否没有错误。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
-1. 调用 **/list/journey** 用于检索UID历程和最新历程版本的UID的API。 如有需要，您可以致电 **/journeys/`{uid}`/latest** 以查找最新历程版本的UID。
-1. 调用 **导出** 包含启动环境参数（orgID和sandboxName）的API。
+1. 在启动环境中创建旅程并为其参数。 [更多信息在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. 检查历程版本是否没有错误。 [更多信息在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
+1. 调用&#x200B;**/list/journeys** API以检索您的最新历程版本的UID历程和UID。 如果需要，您可以调用&#x200B;**/journeys/`{uid}`/latest**&#x200B;来查找您的最新历程版本的UID。
+1. 使用启动环境参数（orgID和sandboxName）调用&#x200B;**export** API。
 1. 打开返回有效负载，然后选中以下项：
-   * 如果导出的历程包含 **特定凭据**，您需要将这些凭据替换为与新环境对应的凭据。
-   * 如果导出的历程包含 **事件** 指向 **XDM架构**，如果ID值不同，您需要在xdmEntity节点中手动使用新环境的架构ID更新架构ID引用。 需要对每个事件进行此更新。 [此处提供更多信息](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * 如果导出的历程包含&#x200B;**特定凭据**，则需要将这些凭据替换为与新环境对应的凭据。
+   * 如果导出的历程包含指向&#x200B;**XDM架构**&#x200B;的&#x200B;**事件**，并且如果ID值不同，则需要在xdmEntity节点中手动使用新环境的架构ID更新架构ID引用。 需要对每个事件进行此更新。 [更多信息在此](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * 如果您的历程包含电子邮件、短信或推送操作，并且目标环境中的名称与启动环境中的名称不同，则您可能需要更新模板名称或mobileApp名称。
-1. 调用 **导入** 包含目标环境参数（orgID和sandboxName）的API。 请注意，您可以根据需要多次调用导入API。 每次调用导入API时，都会生成历程中包含的每个对象的UUID和名称。
-1. 导入历程后，您可以在Journey Orchestration应用程序中发布该变量。 更多信息 [此处](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. 使用目标环境参数（orgID和sandboxName）调用&#x200B;**Import** API。 请注意，您可以根据需要多次调用导入API。 每次调用导入API时，都会生成历程中包含的每个对象的UUID和名称。
+1. 导入历程后，您可以在Journey Orchestration应用程序中发布该变量。 [此处](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)了解更多信息
 
 
 ## 身份验证
@@ -57,11 +57,11 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->已弃用用于生成访问令牌的JWT方法。 所有新的集成都必须使用 [OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe 还建议您将现有集成迁移到 OAuth 方法。
+>已弃用用于生成访问令牌的JWT方法。 必须使用[OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)创建所有新集成。 Adobe还建议您将现有集成迁移到OAuth方法。
 >
 >请阅读以下重要文档：
->[应用程序从JWT到OAuth的迁移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，
->[采用 OAuth 的新旧应用程序的实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[应用程序从JWT到OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的迁移指南，
+>[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的新旧应用程序的实施指南，
 >[使用OAuth服务器到服务器凭据方法的优势](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
@@ -74,13 +74,13 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;organization>**：这是您的个人组织ID，Adobe会为您每个实例提供一个组织ID：
+* **&lt;组织>**：这是您的个人组织ID，Adobe会为您每个实例提供一个组织ID：
 
-   * &lt;organization> ：您的生产实例
+   * &lt;组织> ：您的生产实例
 
   要获取“ORGANIZATION ID”值，请咨询管理员或 Adobe 技术联系人。您还可以在创建新集成时，在许可证列表中将其检索到 Adobe I/O 中（请参阅 [Adobe I/O 文档](https://www.adobe.io/authentication.html)）。
 
-* **&lt;access_token>**：您的个人访问令牌
+* **&lt;ACCESS_TOKEN>**：您的个人访问令牌
 
 * **&lt;API_KEY>**：您的个人 API 密钥。在将创建与 [!DNL Journey Orchestration] 服务的新集成后，可在 Adobe I/O 中找到。
 
@@ -94,7 +94,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 | 方法 | 路径 | 描述 |
 |---|---|---|
 | `[POST]` | /journeyVersions/import | 导入由历程版本导出生成的历程版本内容 |
-| `[GET]` | /journeyVersions/`{uid}`/export | 导出历程版本 |
+| `[GET]` | /journeyVersion/`{uid}`/export | 导出历程版本 |
 | `[GET]` | /journeys/`{uid}`/latest | 获取历程的最新历程版本 |
 | `[POST]` | /list/journey | 列出历程的元数据及其历程版本 |
 
@@ -108,7 +108,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * 将导出以下对象，但绝不会在目标环境中导入它们。 这些是由Journey Orchestration自动管理的系统资源。 您无需替换“INSERT_SECRET_HERE”。
    * **DataProviders**：“Adobe Campaign Standard数据提供程序”(acsDataProvider)和“Experience Platform”(acppsDataProvider)
-   * **字段组** (dataEntities)：“ProfileFieldGroup”(acppsDataPack)
+   * **字段组** (dataEntities)： &quot;ProfileFieldGroup&quot; (acppsDataPack)
 
 
 
@@ -122,8 +122,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 潜在的错误包括：
 
-* 在 **导出时间**，如果历程版本无效：错误500
+* 在&#x200B;**导出时间**，如果历程版本无效：错误500
 
-* 在 **导入时间**，如果有效负载在修改后无效，或者如果在有效负载中未正确定义凭据：错误400
+* 在&#x200B;**导入时间**，如果有效负载在修改后无效，或者有效负载中未正确定义凭据：错误400
 
 * 在导入步骤之后，如果事件的XDM架构ID在Journey Orchestration环境中无效，则目标应用程序中会显示错误。 在这种情况下，将无法发布历程。

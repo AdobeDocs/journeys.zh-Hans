@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 9%
+source-wordcount: '582'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 此mixin将由journeyStepEvent和journeyStepProfileEvent共享。
 
-以下是常见的XDM字段 [!DNL Journey Orchestration] 发送至Adobe Experience Platform。 对于历程中处理的每个步骤，都将发送公共字段。 更具体的字段用于自定义操作和增强。
+这些是[!DNL Journey Orchestration]发送到Adobe Experience Platform的公共XDM字段。 对于历程中处理的每个步骤，都将发送公共字段。 更具体的字段用于自定义操作和增强。
 
 其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件大小。
 
