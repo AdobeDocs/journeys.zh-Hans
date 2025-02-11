@@ -5,8 +5,10 @@ description: 了解文档更新
 feature: Journeys
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 100%
@@ -19,7 +21,7 @@ ht-degree: 100%
 
 ## 2022 年 7 月 {#july-2022}
 
-* 在历程属性中，**配置文件时区**&#x200B;选项现在默认处于禁用状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
+* 在历程属性中，**轮廓时区**&#x200B;选项现在默认处于禁用状态。[了解详情](../building-journeys/timezone-management.md#timezone-from-profiles)
 * 在&#x200B;**等待**&#x200B;活动中，**固定日期**&#x200B;选项不再可用。[了解详情](../building-journeys/wait-activity.md)
 
 ## 2022 年 6 月 {#june-2022}
@@ -57,11 +59,11 @@ ht-degree: 100%
 
 ## 2021 年 3 月 {#march-2021}
 
-* 我们详细介绍了在 Adobe Experience Platform 中创建测试用户档案的完整过程。[了解更多信息](../building-journeys/creating-test-profiles.md)。
+* 我们详细介绍了在 Adobe Experience Platform 中创建测试轮廓的完整过程。[了解更多信息](../building-journeys/creating-test-profiles.md)。
 
 ## 2021 月 1 日 {#january-2021}
 
-* 添加了在创建用户档案的同时触发历程的最佳实践。[了解更多信息](../about/limitations.md#journeys-limitation-profile-creation)。
+* 添加了在创建轮廓的同时触发历程的最佳实践。[了解更多信息](../about/limitations.md#journeys-limitation-profile-creation)。
 
 ## 2020 年 10 月 {#october-2020}
 
@@ -82,11 +84,11 @@ ht-degree: 100%
 
 * 添加了一个链接，指向有关向 Adobe Experience Platform 报告事件的步骤的新教程视频。[了解更多信息](../building-journeys/sharing-overview.md)
 * 事件活动部分已重新组织为每种事件类型的专用子部分。[了解更多信息](../building-journeys/event-activities.md)
-* 添加了避免区段鉴别过载的最佳实践。[了解更多信息](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* 添加了避免细分资格筛选过载的最佳实践。[了解更多信息](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 添加了注释，以说明如何在操作或条件出现错误后继续历程。[了解更多信息](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * 新增了 Alpha 功能部分，这些功能在有限的一组客户中进行测试。
 * 添加了有关与智能服务集成的新部分。[了解更多信息](../ai-services/ai-services-overview.md)
-* 在创建测试用户档案时添加了新部分。[了解更多信息](../building-journeys/testing-the-journey.md)
+* 在创建测试轮廓时添加了新部分。[了解更多信息](../building-journeys/testing-the-journey.md)
 * 添加了有关如何在历程条件或操作中使用 **[!UICONTROL SegmentQualification]** 节点的信息。[了解更多信息](../building-journeys/segment-qualification-events.md)
 * 已在 Campaign 事务性消息和事件出版中添加注释。请参阅[使用 Adobe Campaign](../action/working-with-adobe-campaign.md) 和 [使用 Adobe Campaign 操作](../building-journeys/using-adobe-campaign-actions.md)。
 * 已在测试 Campaign Standard 实例 URL 时执行的检查中添加了信息。[了解更多信息](../action/working-with-adobe-campaign.md)
@@ -103,7 +105,7 @@ ht-degree: 100%
 
 ## 2020 年 4 月 {#april-2020}
 
-* 添加了有关体验事件模式定义的新部分，以帮助用户配置其第一个事件。[了解更多信息](../event/experience-event-schema.md)
+* 添加了有关体验事件架构定义的新部分，以帮助用户配置其第一个事件。[了解更多信息](../event/experience-event-schema.md)
 * 更新了 [!DNL Journey Orchestration] 文档主页，添加了其他有用链接。[了解更多信息](../../journey-orchestration-home.md)
 
 ## 2020 年 3 月 {#march-2020}
