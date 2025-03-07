@@ -65,13 +65,13 @@ ht-degree: 100%
       + [历程版本](using/building-journeys/journey-versions.md)
       + [终止历程](using/building-journeys/terminating-a-journey.md)
       + [时区管理](using/building-journeys/timezone-management.md)
-      + [测试用户档案](using/building-journeys/creating-test-profiles.md)
+      + [测试轮廓](using/building-journeys/creating-test-profiles.md)
    + 活动 {#about-journey-building}
       + 事件活动 {#events-activities}
          + [关于事件活动](using/building-journeys/event-activities.md)
          + [一般事件](using/building-journeys/general-events.md)
          + [反应事件](using/building-journeys/reaction-events.md)
-         + [区段鉴别事件](using/building-journeys/segment-qualification-events.md)
+         + [细分资格筛选事件](using/building-journeys/segment-qualification-events.md)
       + 编排活动 {#orchestration-activities}
          + [关于编排活动](using/building-journeys/about-orchestration-activities.md)
          + [条件活动](using/building-journeys/condition-activity.md)
@@ -83,7 +83,7 @@ ht-degree: 100%
          + [使用 Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [使用自定义操作](using/building-journeys/using-custom-actions.md)
          + [从一个历程转到另一个历程](using/building-journeys/jump.md)
-         + [更新用户档案](using/building-journeys/update-profiles.md)
+         + [更新轮廓](using/building-journeys/update-profiles.md)
    + [测试历程](using/building-journeys/testing-the-journey.md)
    + [发布历程](using/building-journeys/publishing-the-journey.md)
    + 与 Adobe Experience Platform 共享历程步骤 {#sharing-journey-steps}
@@ -94,7 +94,7 @@ ht-degree: 100%
          + [journeySteps 事件常用字段](using/building-journeys/sharing-common-fields.md)
          + [journeyStep 事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
          + [journeyStep 事件数据提取字段](using/building-journeys/sharing-fetch-fields.md)
-         + [journeyStep 事件身份字段](using/building-journeys/sharing-identity-fields.md)
+         + [journeyStep 事件身份标识字段](using/building-journeys/sharing-identity-fields.md)
          + [历程字段](using/building-journeys/sharing-journey-fields.md)
       + [查询示例](using/building-journeys/query-examples.md)
 + 构建表达式 {#building-advanced-conditions-journeys}

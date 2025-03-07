@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 快速入门{#concept_y4b_4qt_52b}
 
-在 [!DNL Journey Orchestration] 中，有两种用户，每种用户都执行特定任务：**技术用户**&#x200B;和&#x200B;**商业用户。**&#x200B;用户访问权限通过产品资料和权限进行管理。请参阅[此页面](../about/access-management.md)以了解如何配置用户访问权限。
+在 [!DNL Journey Orchestration] 中，有两种用户，每种用户都执行特定任务：**技术用户**&#x200B;和&#x200B;**商业用户。**&#x200B;用户访问权限通过产品配置文件和权限进行管理。请参阅[此页面](../about/access-management.md)以了解如何配置用户访问权限。
 
 以下是配置和使用 [!DNL Journey Orchestration] 的主要步骤：
 
