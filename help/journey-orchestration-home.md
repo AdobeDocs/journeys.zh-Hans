@@ -7,16 +7,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: d9d41f2fbde16237257a95b3b396fcbe5261e390
+source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 78%
 
 ---
 
 # Journey Orchestration 指南 {#journeys-documentation}
 
 <!--![](using/assets/do-not-localize/bannerjourney.png) -->
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}查看Journey Optimizer文档。
+>
+>本文档介绍了已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。
+
 
 ## 入门
 
@@ -73,7 +80,7 @@ ht-degree: 100%
 
 * [Journey Orchestration 产品页](https://www.adobe.com/cn/experience-platform/journey-orchestration.html)
 * [Experience Platform 文档](https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html)
-* [实时客户资料文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
+* [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
 * [Experience Cloud XDM 字段定义](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
 * [身份命名空间文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
 * [流式引入 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)
