@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '473'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,6 @@ ht-degree: 3%
 * [步骤事件字段列表](../building-journeys/sharing-field-list.md)
 * [旧版步骤事件字段](../building-journeys/sharing-legacy-fields.md)
 
-有关向Adobe Experience Platform报告事件的步骤的更多信息，请观看此[教程视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)。
 
 ## 与客户历程分析集成{#integration-cja}
 
@@ -62,4 +61,4 @@ Journey Orchestration步骤事件可以链接到[Adobe Customer Journey Analytic
 
 * Customer Journey Analytics摄取“历程步骤事件”数据集。
 * 关联的“Journey Orchestration的历程步骤事件架构”中的&#x200B;**profileID**&#x200B;字段被定义为标识字段。 在Customer Journey Analytics中，您可以将此数据集链接到与基于人员的标识符具有相同值的任何其他数据集。
-* 如果要在Customer Journey Analytics中使用此数据集，对于跨渠道历程分析，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)。
+* 如果要在Customer Journey Analytics中使用此数据集，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)以进行跨渠道历程分析。

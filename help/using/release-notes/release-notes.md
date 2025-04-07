@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 53e4d6af0e3d5fa2f3870802dc67c6200fec3ce8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '4462'
+source-wordcount: '4452'
 ht-degree: 96%
 
 ---
@@ -322,7 +322,7 @@ ht-degree: 96%
 <li>通过将非常复杂的历程分成若干个历程来简化其设计 </li>
 <li>基于通用且可重用的历程模式构建历程</li>
 </ul>
-<p>有关更多信息，请参阅<a href="../building-journeys/jump.md">详细文档</a>和<a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hans">教程视频</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/jump.md">详细文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -725,8 +725,3 @@ Journey Orchestration 允许由事件的情境数据、Adobe Experience Platform
 
 [](../action/working-with-adobe-campaign.md)
 详细了解 Journey Orchestration。
-
-其他资源：
-
-* [教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=zh-Hans)
-* [社区](https://www.adobe.com/go/journeyorchestrationcommunity)

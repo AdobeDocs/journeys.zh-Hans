@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
-workflow-type: ht
-source-wordcount: '1010'
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
+workflow-type: tm+mt
+source-wordcount: '992'
 ht-degree: 100%
 
 ---
@@ -82,7 +82,6 @@ ht-degree: 100%
 
 ## 2020 年 7 月 {#july-2020}
 
-* 添加了一个链接，指向有关向 Adobe Experience Platform 报告事件的步骤的新教程视频。[了解更多信息](../building-journeys/sharing-overview.md)
 * 事件活动部分已重新组织为每种事件类型的专用子部分。[了解更多信息](../building-journeys/event-activities.md)
 * 添加了避免细分资格筛选过载的最佳实践。[了解更多信息](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 添加了注释，以说明如何在操作或条件出现错误后继续历程。[了解更多信息](../about/troubleshooting.md#section_h3q_kqk_fhb)

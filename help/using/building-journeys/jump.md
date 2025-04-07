@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '777'
 ht-degree: 6%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 6%
 在起源历程中，只需添加&#x200B;**[!UICONTROL Jump]**&#x200B;活动并选择目标历程即可。 当个人进入&#x200B;**[!UICONTROL Jump]**&#x200B;步骤时，内部事件将发送到目标历程的第一个事件。 如果&#x200B;**[!UICONTROL Jump]**&#x200B;操作成功，个人将继续在历程中前进。 该行为与其他操作类似。
 
 在目标历程中，**[!UICONTROL Jump]**&#x200B;活动在内部触发的第一个事件将生成历程中的单个流程。
-
->[!NOTE]
->
->另请参阅教程视频[此处](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
 
 ## 生命周期
 
