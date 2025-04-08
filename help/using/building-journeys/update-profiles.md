@@ -1,19 +1,28 @@
 ---
 product: adobe campaign
-title: 更新用户档案
-description: 更新用户档案
+title: 更新轮廓
+description: 更新轮廓
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
 
-# 更新用户档案 {#update-profile}
+# 更新轮廓 {#update-profile}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 **[!UICONTROL Update profile]**&#x200B;操作活动允许您使用来自事件、数据源的信息或使用特定值更新现有Adobe Experience Platform配置文件。
 

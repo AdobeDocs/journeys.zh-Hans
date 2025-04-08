@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
-source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 97%
+source-wordcount: '902'
+ht-degree: 92%
 
 ---
 
 # 构建历程 {#concept_owm_kdy_w2b}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 **业务用户**&#x200B;现在可以构建历程。我们的历程将包括以下活动：
 
@@ -75,9 +84,9 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >在表达式的第二部分中，“用户档案”是可选的。
+   >在表达式的第二部分中，“轮廓”是可选的。
 
-1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
+1. 我们需要选择命名空间。根据架构属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
 在我们的用例中，我们只希望对这两种情况做出反应，因此不会选中 **[!UICONTROL Show path for other cases than the one(s) above]** 框。
 

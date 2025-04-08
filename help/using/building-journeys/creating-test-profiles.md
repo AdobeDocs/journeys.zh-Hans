@@ -3,14 +3,23 @@ product: adobe campaign
 title: 创建测试用户档案
 description: 了解测试用户档案创建
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '681'
 ht-degree: 3%
 
 ---
 
-# 创建测试用户档案 {#create-test-profiles}
+# 创建测试轮廓 {#create-test-profiles}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 在历程中使用测试模式时需要测试配置文件。 要了解如何使用测试模式，请参阅[本节](../building-journeys/testing-the-journey.md)。
 

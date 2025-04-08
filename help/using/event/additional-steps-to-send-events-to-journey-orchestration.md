@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '350'
 ht-degree: 2%
 
 ---
 
 # 将事件发送到[!DNL Journey Orchestration]的其他步骤 {#concept_xrz_n1q_y2b}
+
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 >[!NOTE]
 >
@@ -26,7 +36,7 @@ ht-degree: 2%
 
 然后，您需要配置数据系统，以使用您复制的有效负载将事件推送到流式引入API：
 
-1. 设置对流式引入API URL的POSTAPI调用（称为入口）。
+1. 对流式引入API URL（称为入口）设置POST API调用。
 1. 在流摄取API调用主体（“数据部分”）中使用您从[!DNL Journey Orchestration]复制的有效负载。 有关示例，请参阅下文
 1. 确定从何处获取有效负载中存在的所有变量。 示例：如果事件应传递地址，则粘贴的有效负载将显示“address”：“string”。 “string”应替换为自动填充正确值的变量，即向其发送消息的人员的电子邮件。 请注意，在有效负载预览的&#x200B;**[!UICONTROL Header]**&#x200B;部分中，我们自动填充了许多预期有助于您完成工作的值。
 1. 选择“application/json”作为主体类型。

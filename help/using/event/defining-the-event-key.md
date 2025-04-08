@@ -6,16 +6,25 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
 # 定义事件键 {#concept_ond_hqt_52b}
 
-键值是字段或字段组合是事件有效负载数据的一部分，这将允许系统识别与事件关联的个人。 例如，键可以是Experience CloudID、CRM ID或电子邮件地址。
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
+键值是字段或字段组合是事件有效负载数据的一部分，这将允许系统识别与事件关联的个人。 例如，密钥可以是Experience Cloud ID、CRM ID或电子邮件地址。
 
 如果您计划利用存储在实时客户资料数据库中的数据，则必须选择在[实时客户资料服务](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)中定义为个人资料标识的信息，作为事件键。
 

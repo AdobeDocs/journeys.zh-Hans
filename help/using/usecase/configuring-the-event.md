@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 10%
+source-wordcount: '402'
+ht-degree: 9%
 
 ---
 
 # 配置事件{#concept_y44_hcy_w2b}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 在我们的方案中，每当有人靠近位于spa旁边的信标时，我们都需要接收一个事件。 **技术用户**&#x200B;需要配置系统将在我们的历程中侦听的事件。
 
@@ -27,7 +36,7 @@ ht-degree: 10%
 
    ![](../assets/journeyuc1_2.png)
 
-1. 然后，我们选择架构并定义此事件所需的有效负载。 我们从XDM标准化模型中选择所需的字段。 我们需要Experience CloudID来识别实时客户档案数据库中的人员： _endUserIDs > experience > mcid > id_。 系统会自动为此事件生成ID。 此ID存储在&#x200B;**[!UICONTROL eventID]**&#x200B;字段(_experience > campaign > orchestration > eventID_)中。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 在我们的用例中，此ID用于标识信标位置。 每次有人接近spa信标时，都将发送一个包含此特定事件ID的事件。 这允许系统知道哪些信标触发了事件发送。
+1. 然后，我们选择架构并定义此事件所需的有效负载。 我们从XDM标准化模型中选择所需的字段。 我们需要Experience Cloud ID来识别实时客户档案数据库中的人员： _endUserIDs > experience > mcid > id_。 系统会自动为此事件生成ID。 此ID存储在&#x200B;**[!UICONTROL eventID]**&#x200B;字段(_experience > campaign > orchestration > eventID_)中。 推送事件的系统不应生成ID，它应使用有效负载预览中可用的ID。 在我们的用例中，此ID用于标识信标位置。 每次有人接近spa信标时，都将发送一个包含此特定事件ID的事件。 这允许系统知道哪些信标触发了事件发送。
 
    ![](../assets/journeyuc1_3.png)
 
@@ -35,7 +44,7 @@ ht-degree: 10%
    >
    >字段列表因架构而异。 根据架构定义，某些字段可能是必填字段，并且已预先选择。
 
-1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
+1. 我们需要选择命名空间。根据架构属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
    ![](../assets/journeyuc1_6.png)
 

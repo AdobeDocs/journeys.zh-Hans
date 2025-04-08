@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 13%
+source-wordcount: '482'
+ht-degree: 12%
 
 ---
 
 # 使用 Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 此集成适用于Adobe Campaign Classic v7（从21.1版本开始）和Adobe Campaign v8。 通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。
 
@@ -25,9 +34,9 @@ Journey Orchestration 实例和 Campaign 实例之间的连接是在配置时通
 
 ## 重要说明
 
-* 消息不受限制。 根据我们当前的Campaign SLA，我们将可发送的消息数量限制在每小时50,000以上。 因此，历程编排应仅用于单一用例（单个事件，而不是区段）。
+* 消息不受限制。 根据我们当前的Campaign SLA，我们会将可发送超过50,000条/小时的消息数量限制在50,000条/小时。 因此，历程编排应仅用于单一用例（单个事件，而不是区段）。
 
-* 您需要在要使用的每个模板的画布上配置一个操作。 您需要为要从Adobe Campaign使用的每个模板在Journey Orchestration中配置一个操作。
+* 您需要在要使用的每个模板的画布上配置一个操作。 您需要在Journey Orchestration中为要从Adobe Campaign使用的每个模板配置一个操作。
 
 * 我们建议您使用为此集成托管的专用消息中心实例，以避免影响您可能正在执行的任何其他Campaign操作。 营销服务器可以托管，也可以内部部署。 所需的版本是21.1版本候选版本或更高版本。
 

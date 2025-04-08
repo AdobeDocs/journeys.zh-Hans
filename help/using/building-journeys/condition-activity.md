@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 17%
+source-wordcount: '869'
+ht-degree: 16%
 
 ---
 
 # 条件活动{#section_e2n_pft_dgb}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
 
 提供了四种类型的条件：
 
@@ -34,7 +44,7 @@ ht-degree: 17%
 
 请注意，历程的设计会产生功能影响。 当在条件后定义多个路径时，将仅执行第一个符合条件的路径。 这意味着，可以通过将路径置于彼此上方或下方来更改路径的优先级。
 
-例如，我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果同时满足两个条件的人(男性，即VIP)通过此步骤，则即使他也符合第二条条件时，也会选择第一条路径，因为第一条路径“位于上方”。 要更改此优先级，请以其他垂直顺序移动您的活动。
+例如，我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果同时满足两个条件的人(男性，VIP成员)通过此步骤，那么即使他也符合第二条条件时，也会选择第一条路径，因为第一条路径“以上”。 要更改此优先级，请以其他垂直顺序移动您的活动。
 
 ![](../assets/journey48.png)
 

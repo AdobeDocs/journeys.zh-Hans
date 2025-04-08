@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 10%
+source-wordcount: '403'
+ht-degree: 9%
 
 ---
 
 # 关于Adobe Experience Platform区段 {#about-segments}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 如果您使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)创建区段，则可以在[!DNL Journey Orchestration]中利用它们。 通过专门的活动活动，您可以根据Adobe Experience Platform区段入口和出口，让个人进入历程或是在历程中前进。 这还允许您使用简单或高级表达式编辑器在历程中构建复杂条件。
 
@@ -28,7 +37,7 @@ ht-degree: 10%
 
 ## Journey Orchestration中的评估方法 {#evaluation-method-in-journey-orchestration}
 
-在Journey Orchestration中，使用下列评估方法之一从区段定义生成受众：
+在Journey Orchestration中，受众可通过以下评估方法之一从区段定义生成：
 
 * 流式分段 — 当新数据流入系统时，区段的受众列表会实时保持最新。
 * 批量分段 — 区段的受众列表会根据过去一小时内到达的数据每小时更新一次。

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '456'
 ht-degree: 2%
 
 ---
 
 # 关于高级用例{#concept_vzy_ncy_w2b}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 ## 目的 {#purpose}
 
@@ -52,7 +61,7 @@ ht-degree: 2%
 
 Adobe Campaign Standard配置为发送电子邮件和推送通知。
 
-Experience CloudID用作酒店预订系统中识别客户的键。
+Experience Cloud ID用作酒店预订系统中标识客户的键。
 
 当客户在信标附近检测到事件时，会从客户的手机发送事件。 您需要设计一个移动应用程序，以将事件从客户的手机发送到Mobile SDK。
 

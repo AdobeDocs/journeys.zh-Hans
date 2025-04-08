@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '631'
 ht-degree: 3%
 
 ---
 
 # 历程属性属性 {#journey-properties}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 在高级表达式编辑器中，您将在事件和数据源类别下找到&#x200B;**历程属性**&#x200B;类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，例如历程ID或遇到的特定错误。
 
@@ -53,7 +62,7 @@ ht-degree: 3%
 | | externalkey | 外部密钥 | 触发历程的单个标识符 |
 | | organizationId | 组织标识符 | 品牌组织 |
 | | sandboxName | 沙盒名称 | 沙盒的名称 |
-| 标识 | profileId | 配置文件身份标识符 | 历程中用户档案的标识符 |
+| 身份标识 | profileId | 配置文件身份标识符 | 历程中用户档案的标识符 |
 | | 命名空间 | 配置文件身份命名空间 | 历程中配置文件的命名空间（示例：ECID） |
 | 当前节点 | currentNodeId | 当前节点标识符 | 当前活动（节点）的标识符 |
 | | currentNodeName | 当前节点名称 | 当前活动的名称（节点） |

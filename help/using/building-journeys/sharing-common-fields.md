@@ -6,20 +6,29 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
 # journeysteps事件常用字段 {#sharing-common-fields}
 
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
 此mixin将由journeyStepEvent和journeyStepProfileEvent共享。
 
 这些是[!DNL Journey Orchestration]发送到Adobe Experience Platform的公共XDM字段。 对于历程中处理的每个步骤，都将发送公共字段。 更具体的字段用于自定义操作和增强。
 
-其中某些字段仅在特定处理模式（操作执行、数据获取等）中可用 以限制事件大小。
+其中某些字段仅可用于特定的处理模式（操作执行、数据获取等），以限制事件的大小。
 
 ## 入口
 

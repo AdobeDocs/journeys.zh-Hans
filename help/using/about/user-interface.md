@@ -6,20 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 93%
+source-wordcount: '944'
+ht-degree: 85%
 
 ---
 
 # 用户界面{#concept_rcq_lqt_52b}
 
->[!NOTE]
+
+>[!CAUTION]
 >
->为了充分利用 [!DNL Journey Orchestration]，我们建议将 Chrome 用作您的 Internet 浏览器。接口以 IMS 中定义的语言显示。如果 IMS 语言不受 [!DNL Journey Orchestration] 支持，则界面将以英语显示。
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
 >
->此文档会经常更新以反映产品中的最新更改。但是，某些屏幕截图可能与产品的界面略有不同。
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 ## 访问 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
@@ -77,7 +80,7 @@ ht-degree: 93%
 
 在定义[事件有效负载](../event/defining-the-payload-fields.md)、[字段组有效负载](../datasource/field-groups.md)以及在[表达式编辑器](../expression/expressionadvanced.md)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
 
-如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。在使用“eVars”和通用字段时尤为有用。您可以通过 API 调用配置友好名称描述符。有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
+如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。它在使用“eVars”和通用字段时特别有用。您可以通过API调用配置友好名称描述符。 有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -95,7 +98,7 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
 * 颜色对比度
 * 验证必填字段
 
-在 Adobe Experience Platform 文档中[了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"}。
+[在Adobe Experience Platform文档中了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=zh-Hans){target="_blank"}。
 
 您可以在Adobe Journey Optimizer中使用这些常用键盘快捷键：
 
@@ -107,7 +110,7 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
 | 选择或清除焦点元素 | 回车键或空格键 |
 | 取消选择、折叠面板或关闭对话框 | Esc |
 
-在 Adobe Experience Platform 文档中[了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hans){target="_blank"}。
+[在Adobe Experience Platform文档中了解详情](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=zh-Hans){target="_blank"}。
 
 您可以在 Journey Optimizer 的特定部分中使用这些快捷键：
 

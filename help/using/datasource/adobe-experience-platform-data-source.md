@@ -6,16 +6,25 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 13%
+source-wordcount: '391'
+ht-degree: 11%
 
 ---
 
 # Adobe Experience Platform 数据源 {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源是内置且预配置的。 无法删除它。 此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用用户档案数据和体验事件数据。有关Real-time Customer Profile Service的详细信息，请参阅此[页](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)。
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
+Adobe Experience Platform数据源定义与实时客户资料服务的连接。 此数据源是内置且预配置的。 无法删除它。 此数据源旨在检索和使用来自Real-time Customer Profile Service的数据（例如，检查进入历程的人员是否为女性）。 该数据源允许您使用轮廓数据和体验事件数据。有关Real-time Customer Profile Service的详细信息，请参阅此[页](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)。
 
 >[!NOTE]
 >

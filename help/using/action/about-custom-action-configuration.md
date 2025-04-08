@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 12%
+source-wordcount: '347'
+ht-degree: 11%
 
 ---
 
 # 关于自定义操作配置 {#concept_sxy_bzs_dgb}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 如果您使用第三方系统发送消息，或者您希望[!DNL Journey Orchestration]向第三方系统发送API调用，则可以在此处配置其与[!DNL Journey Orchestration]的连接。 技术用户定义的自定义操作随后将显示在历程左侧面板的&#x200B;**[!UICONTROL Action]**&#x200B;类别中（请参阅[此页面](../building-journeys/about-action-activities.md)）。 以下是一些可通过自定义操作连接到的系统示例：Epsilon、Facebook、Adobe.io、Firebase等。
 

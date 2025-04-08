@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '922'
 ht-degree: 2%
 
 ---
 
 # 使用 Adobe Campaign Standard {#using_campaign_action}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
 
 如果您有Adobe Campaign Standard，则以下现成的操作活动可用： **[!UICONTROL Email]**、**[!UICONTROL Push]**&#x200B;和&#x200B;**[!UICONTROL SMS]**。
 
@@ -45,7 +55,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->对于电子邮件，如果您使用用户档案事务型模板，则会按Campaign Standard处理现成的退订机制。 您只需在模板中添加&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;内容块即可（[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)）。 如果您使用的是基于事件的模板(rtEvent)，则需要在消息中添加一个链接，在URL参数中传递用户的电子邮件并指向退订登陆页面。 您需要创建此登陆页面，并确保将人员取消订阅的决定传输到Adobe。
+>对于电子邮件，如果您使用用户档案事务型模板，则取消订阅机制是由Campaign Standard现成处理的。 您只需在模板中添加&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;内容块即可（[了解更多](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)）。 如果您使用的是基于事件的模板(rtEvent)，则需要在消息中添加一个链接，在URL参数中传递用户的电子邮件并指向退订登陆页面。 您需要创建此登陆页面，并确保将人员取消订阅的决策传输到Adobe。
 
 首先，您需要选择事务型消息传递模板。 请参见[此页面](../building-journeys/about-action-activities.md)。
 
@@ -75,7 +85,7 @@ ht-degree: 2%
 
 ## 推送 {#section_im3_hvf_nhb}
 
-在使用推送活动之前，需要在Campaign Standard的同时配置您的移动应用程序，以发送推送通知。 使用此[文章](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)为移动设备执行必要的实施步骤。
+在使用推送活动之前，需要配置您的移动设备应用程序以及Campaign Standard以发送推送通知。 使用此[文章](https://helpx.adobe.com/cn/campaign/kb/integrate-mobile-sdk.html)为移动设备执行必要的实施步骤。
 
 首先，您需要从下拉列表中选择移动设备应用程序和事务型消息。 请参阅[此页](../building-journeys/about-action-activities.md)。
 

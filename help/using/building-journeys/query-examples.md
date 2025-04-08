@@ -5,14 +5,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1328'
 ht-degree: 2%
 
 ---
 
 # 查询示例{#query-examples}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 本节列出了在数据湖中查询历程步骤事件的几个常用示例。
 
@@ -112,7 +121,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 用于在历程中为用户摄取步骤事件的数据集。
 
-相关架构是用于Journey Orchestration的历程步骤事件架构。
+相关架构是Journey Orchestration的“历程步骤事件”架构。
 
 _报告用例_
 

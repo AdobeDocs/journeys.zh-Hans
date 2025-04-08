@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1474'
 ht-degree: 5%
 
 ---
 
 # 使用历程设计器 {#concept_m1g_5qt_52b}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 历程主页菜单允许您查看历程的&#x200B;**列表**。 创建新历程或单击现有历程以打开&#x200B;**历程设计器的界面**。 设计器由以下区域组成：调色板、画布和活动配置窗格。
 

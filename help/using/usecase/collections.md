@@ -4,14 +4,23 @@ solution: Journey Orchestration
 title: 使用自定义操作动态传递集合
 description: 使用 Campaign v7/v8 发送消息
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '469'
 ht-degree: 7%
 
 ---
 
 # 使用自定义操作动态传递集合{#passing-collection}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 您可以在自定义操作参数中传递集合，这些参数将在运行时动态填充。 支持两种集合：
 

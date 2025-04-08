@@ -4,14 +4,23 @@ solution: Journey Orchestration
 title: 使用 Campaign v7/v8 发送消息
 description: 使用 Campaign v7/v8 发送消息
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 6%
+source-wordcount: '439'
+ht-degree: 5%
 
 ---
 
 # 使用 Campaign v7/v8 发送消息 {#campaign-classic-use-case}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 此用例展示了使用与Adobe Campaign Classic v7和Adobe Campaign v8的集成发送电子邮件所需的所有步骤。
 
@@ -38,11 +47,11 @@ ht-degree: 6%
 
    ![](../assets/accintegration-uc-2.png)
 
-1. 设计您的模板。 在此示例中，我们对用户档案的名字和订单号使用个性化设置。 名字在Adobe Experience Platform数据源中，订单号是我们的Journey Orchestration事件中的字段。 确保在Campaign中使用正确的字段名称。
+1. 设计您的模板。 在此示例中，我们对用户档案的名字和订单号使用个性化设置。 名字在Adobe Experience Platform数据源中，订单号是Journey Orchestration事件中的字段。 确保在Campaign中使用正确的字段名称。
 
    ![](../assets/accintegration-uc-3.png)
 
-1. Publish您的事务型模板。
+1. 发布事务型模板。
 
    ![](../assets/accintegration-uc-4.png)
 

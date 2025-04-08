@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 96%
+source-wordcount: '1075'
+ht-degree: 83%
 
 ---
 
 # 故障排除{#concept_nlv_bcv_2fb}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
 
 在本部分中，您将了解如何在测试或发布之前对历程进行故障排除。当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。建议在测试模式下进行以下所有检查，然后继续发布。请参阅[此页](../building-journeys/testing-the-journey.md)。
 
@@ -29,7 +39,7 @@ ht-degree: 96%
 
 ![](../assets/canvas-disconnected.png)
 
-在 **[!UICONTROL Test]** 切换和 **[!UICONTROL Publish]**&#x200B;按钮旁边，会显示一个警告标记。此警告标记显示系统检测到的错误，并阻止测试模式激活或历程发布。大多数时间，系统检测到的错误都与活动上可见的错误相关，但有时它们也与其他问题相关。在这种情况下，您可以显示它们，尝试使用错误描述来识别问题。如果您无法识别问题，可以复制详细信息并发送给管理员或支持团队。请注意，阻止测试的错误和阻止发布的错误是相似的。
+在 **[!UICONTROL Test]** 切换和 **[!UICONTROL Publish]**&#x200B;按钮旁边，会显示一个警告标记。此警告标记显示系统检测到的错误，并阻止测试模式激活或历程发布。大多数时间，系统检测到的错误都与活动上可见的错误相关，但有时它们也与其他问题相关。在这种情况下，您可以显示它们，尝试使用错误描述来识别问题。如果您无法识别问题，则可以复制详细信息并将其发送给管理员或支持人员。 请注意，阻止测试的错误和阻止发布的错误是相似的。
 
 系统检测到两种问题：错误和警告。错误阻止发布和测试激活。警告指示未阻止测试激活或发布的潜在问题。您将看到问题的描述和 ERR_XXX_XXX 类型的问题日志 ID。这将帮助技术支持人员确定问题。
 
@@ -47,7 +57,7 @@ ht-degree: 96%
 
 您可以检查通过这些工具发送的 API 调用是否正确发送。如果返回错误，则表示您的调用有问题。再次检查有效负载、标题（特别是组织 ID）以及目标 URL。您可以询问管理员要点击的正确 URL。
 
-事件不会直接从源推送到 [!DNL Journey Orchestration]。实际上，[!DNL Journey Orchestration] 依赖于 Adobe Experience Platform 的流摄取 API。因此，如果出现与事件相关的问题，您可以参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)，以了解流摄取 API 故障排除。
+事件不会直接从源推送到 [!DNL Journey Orchestration]。事实上，[!DNL Journey Orchestration]依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)，以了解流摄取 API 故障排除。
 
 ## 检查人员是否进入历程{#section_x4v_zzs_dgb}
 
@@ -85,4 +95,4 @@ ht-degree: 96%
 * 事务性消息正确包含了发送消息的请求。商业用户可以访问应发送的事务性消息，并检查最新执行的时间是否与历程的执行时间对应。他还可以检查事务消息接收的最新 API 调用/事件。
 * 事务性消息已成功发送消息。在事务性消息的发送日志中，您可以看到每个执行的状态。您可以看看其是绿色的还是红色的，以及出现了什么问题。商业用户可以访问此屏幕并将日志发送给管理员以进一步调查。
 
-对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。
+对于通过自定义操作发送的消息，在历程测试中可以检查的唯一一点就是自定义操作系统的调用是否会导致错误。 如果与自定义操作关联的对外部系统的调用不会导致错误，但也不会导致消息发送，则应对外部系统进行一些调查。

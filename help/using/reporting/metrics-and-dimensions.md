@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1080'
 ht-degree: 3%
 
 ---
 
 # 量度和维度 {#concept_rfj_wpt_52b}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 >[!NOTE]
 >
@@ -90,7 +99,7 @@ ht-degree: 3%
 |--- |--- |
 | 阻止列表&#x200B;**上的** | 将电子邮件声明为垃圾邮件或垃圾邮件的收件人数量。 |
 | **阻止列表率** | 与发送的邮件相比，阻止列表上的邮件总数。 |
-| **退回+错误** | 投放和自动返回处理期间累积的错误的总数与已发送邮件总数有关。 |
+| **退回+错误** | 投放和自动返回处理期间累积的错误的总数与已发送消息总数有关。 |
 | **退回+错误率** | 与发送的消息相比退回的消息总数。 |
 | **点击** | 在投放中点击内容的次数。 |
 | **点进率** | 与已投放消息数相比，投放中的总点击次数。 |

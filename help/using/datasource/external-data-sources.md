@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 94%
+source-wordcount: '1350'
+ht-degree: 89%
 
 ---
 
 # 外部数据源 {#concept_t2s_kqt_52b}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。
 
@@ -75,8 +84,8 @@ ht-degree: 94%
 
 如果 GET 调用需要参数，则在&#x200B;**[!UICONTROL Dynamic Values]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。如果是 POST 调用，您需要：
 
-* 在 **[!UICONTROL Dynamic Values]**&#x200B;字段中列出调用时要传递的参数（在下面的示例中为“identifier”）。
-* 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。请遵循以下语法：
+* 在&#x200B;**[!UICONTROL Dynamic Values]**&#x200B;字段中列出调用时要传递的参数（在以下示例中：“identifier”）。
+* 在发送的有效负载主体中使用完全相同的语法指定它们。为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
 
   ```
   {"id":{"param":"identifier"}}

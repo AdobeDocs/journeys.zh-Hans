@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 9%
+source-wordcount: '441'
+ht-degree: 8%
 
 ---
 
 # 配置事件 {#concept_sbp_5cy_w2b}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 在我们的场景中，我们需要在每次有人进入马尔顿酒店和餐厅时收到一个事件。 **技术用户**&#x200B;需要配置我们希望系统在历程中侦听的两个事件。
 
@@ -27,7 +36,7 @@ ht-degree: 9%
 
    ![](../assets/journeyuc2_1.png)
 
-1. 然后，我们选择架构并定义此事件所需的有效负载。 我们从XDM标准化模型中选择所需的字段。 我们需要Experience CloudID来识别实时客户档案数据库中的人员：“endUserIDs > _experience > mcid > id”。
+1. 然后，我们选择架构并定义此事件所需的有效负载。 我们从XDM标准化模型中选择所需的字段。 我们需要Experience Cloud ID来识别实时客户档案数据库中的人员：“endUserIDs > _experience > mcid > id”。
 
    我们还需要注册令牌以发送推送消息：&quot;_experience > campaign >消息>用户档案> pushNotificationTokens >令牌&quot;
 
@@ -39,7 +48,7 @@ ht-degree: 9%
    >
    >字段列表因架构而异。 根据架构定义，某些字段可能是必填字段，并且已预先选择。
 
-1. 我们需要选择命名空间。根据模式属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
+1. 我们需要选择命名空间。根据架构属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
    ![](../assets/journeyuc2_4.png)
 

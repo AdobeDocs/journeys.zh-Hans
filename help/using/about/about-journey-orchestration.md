@@ -6,20 +6,27 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 89%
 
 ---
 
 # 关于 [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
 利用存储在事件或数据源中的上下文数据构建实时编排用例。
 
 [!DNL Journey Orchestration] 是与 Adobe Experience Platform 集成的应用程序服务。
-
-![](../assets/journeydiagram.png)
 
 [!DNL Journey Orchestration] 允许由事件的情境数据、Adobe Experience Platform 信息或第三方 API 服务数据提供支持的实时编排。如果您使用第三方系统发送消息，则可以配置自定义操作。如果您拥有 Adobe Campaign Standard，则可以使用 Adobe Campaign Standard 的[事务性消息传送功能](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)发送电子邮件、推送通知和短信。
 
@@ -36,7 +43,7 @@ ht-degree: 100%
 
 * 时间
 * 来自事件有效负载的数据
-* 来自数据源的信息：实时客户档案数据源或自定义数据源
+* 来自数据源的信息：实时客户轮廓数据源或自定义数据源
 
 您可以使用拆分条件将历程中的人定向到不同的方向。
 

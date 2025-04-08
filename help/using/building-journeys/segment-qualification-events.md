@@ -1,23 +1,33 @@
 ---
 product: adobe campaign
-title: 区段鉴别事件
-description: 了解客户细分资格事件
+title: 细分资格筛选事件
+description: 了解细分资格筛选事件
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 85%
+source-wordcount: '821'
+ht-degree: 80%
 
 ---
 
-# 区段鉴别事件 {#segment-qualification}
+# 细分资格筛选事件 {#segment-qualification}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
 
 ## 关于区段鉴别事件{#about-segment-qualification}
 
-此活动允许您的历程侦听 Adobe Experience Platform 客户细分中用户档案的进出口，以便使个人进入历程或在历程中前进。有关创建客户细分的更多信息，请参阅此[部分](../segment/about-segments.md)。
+此活动允许您的历程侦听 Adobe Experience Platform 客户细分中轮廓的进出口，以便使个人进入历程或在历程中前进。有关创建客户细分的更多信息，请参阅此[部分](../segment/about-segments.md)。
 
 假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。
 
@@ -46,7 +56,7 @@ ht-degree: 85%
 
    添加客户细分后，即可通过&#x200B;**[!UICONTROL Copy]**&#x200B;按钮复制其名称和 ID：
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-copy.png)
 
@@ -63,7 +73,7 @@ ht-degree: 85%
 有效负荷包含以下可以在条件和操作中使用的上下文信息：
 
 * 行为（入口、出口）
-* 资格时间戳
+* 资格筛选时间戳
 * 客户细分 ID
 
 在&#x200B;**[!UICONTROL Segment qualification]**&#x200B;活动后的条件或操作中使用表达式编辑器时，您有权访问&#x200B;**[!UICONTROL SegmentQualification]**&#x200B;节点。您可以选择&#x200B;**[!UICONTROL Last qualification time]**&#x200B;或&#x200B;**[!UICONTROL status]**（进入或退出）。
@@ -82,13 +92,13 @@ ht-degree: 85%
 
 ### 批处理客户细分{#batch-speed-segment-qualification}
 
-在对批处理客户细分使用客户细分资格时，请注意，在每日计算时将出现入口峰值。峰值的大小将取决于每天进入（或退出）客户细分的个人数量。
+在对批处理细分使用细分资格筛选时，请注意，在每日计算时将出现入口峰值。峰值的大小将取决于每天进入（或退出）客户细分的个人数量。
 
 此外，如果在历程中新建并立即使用批处理客户细分，则第一批计算可能会使大量个人进入历程。
 
 ### 流式处理客户细分{#streamed-speed-segment-qualification}
 
-在对流式处理客户细分使用客户细分资格时，由于持续评估客户细分，因此入口/出口出现大量峰值的风险较小。如果客户细分定义导致大量客户同时获得资格，则仍然可能出现峰值。
+在对流式处理细分使用细分资格筛选时，由于持续评估细分，因此入口/出口出现大量峰值的风险较小。如果客户细分定义导致大量客户同时获得资格，则仍然可能出现峰值。
 
 有关流式客户细分的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)。
 

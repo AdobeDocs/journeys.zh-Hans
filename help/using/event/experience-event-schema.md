@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
-title: 关于Journey Orchestration事件的ExperienceEvent架构
+title: 关于适用于Journey Orchestration事件的ExperienceEvent架构
 description: 了解用于Journey Orchestration活动的ExperienceEvent架构
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '762'
+ht-degree: 1%
 
 ---
 
 # 关于[!DNL Journey Orchestration]事件的ExperienceEvent架构
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
 
 [!DNL Journey Orchestration]事件是通过流式摄取发送到Adobe Experience Platform的XDM Experience事件。
 
@@ -69,9 +79,9 @@ Adobe Experience Platform允许您定义架构之间的关系，以便将一个�
 
 >[!NOTE]
 >
->在[架构文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中了解有关Experience Platform关系的更多信息。
+>在[Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中了解有关架构关系的更多信息。
 
-在Journey Orchestration中，您随后可以利用链接表中的所有字段：
+在Journey Orchestration中，您可以利用链接表中的所有字段：
 
 * 配置单一事件时，[了解更多](../event/experience-event-schema.md#unitary_event_configuration)
 * 在历程中使用条件时，[了解更多](../event/experience-event-schema.md#journey_conditions_using_event_context)

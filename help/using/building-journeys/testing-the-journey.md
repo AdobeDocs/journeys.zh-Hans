@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1619'
 ht-degree: 4%
 
 ---
 
 # 测试历程{#testing_the_journey}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 在能够测试历程之前，您必须解决所有错误（如果有）。 请参阅[此小节](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
@@ -200,4 +209,4 @@ curl -X POST \
 
 当使用测试模式触发事件时，将自动使用源名称生成数据集。
 
-测试模式会自动创建体验事件并将其发送到Adobe Experience Platform。 此Experience Event的源名称为“Journey Orchestration测试事件”。
+测试模式会自动创建体验事件并将其发送到Adobe Experience Platform。 此体验事件的源名称是“Journey Orchestration测试事件”。

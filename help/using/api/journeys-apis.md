@@ -7,14 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 87d5cf223d9adec27eabcb55f2e09aa6d40b23a6
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 87%
+source-wordcount: '836'
+ht-degree: 83%
 
 ---
 
 # 历程 API 入门
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
 
 ## 关于 API 上限和 API 限制
 
@@ -58,7 +67,7 @@ Swagger 文件中也对这两个 API 进行了说明，请点击[此处](https:/
 >要在 Adobe I/O 中管理证书，请确保您具有组织<b>系统管理员</b>权限或拥有 Admin Console [开发人员帐户](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。
 
 1. **检查您是否拥有数字证书**，或在必要时创建一个。在以下步骤中需要随证书一起提供的公钥和私钥。
-1. **在 Adobe I/O 中创建与 [!DNL Journey Orchestration] 服务**&#x200B;的新集成并对其进行配置。[!DNL Journey Orchestration] 和 Adobe Experience Platform 需要产品配置文件访问权限。随后将生成您的证书（API 密钥、客户端密钥等）。
+1. **在 Adobe I/O 中创建与 [!DNL Journey Orchestration] 服务**&#x200B;的新集成并对其进行配置。[!DNL Journey Orchestration] 和 Adobe Experience Platform 需要产品轮廓访问权限。随后将生成您的凭据（API 密钥、客户端密钥等）。
 
 >[!CAUTION]
 >

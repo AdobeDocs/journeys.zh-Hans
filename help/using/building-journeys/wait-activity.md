@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '412'
 ht-degree: 7%
 
 ---
 
 # 等待活动{#section_rlm_nft_dgb}
+
+
+>[!CAUTION]
+>
+>**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>
+>
+>_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+
+
 
 如果要等待再执行路径中的下一个活动，则可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 这让您可以定义执行下一个活动的时刻。提供了三个选项：
 
@@ -23,7 +33,7 @@ ht-degree: 7%
 
 ## 关于等待活动{#about_wait}
 
-下面显示了当您同时使用多个等待时，如何区分等待的优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则上面定位的等待将获得优先顺序。 例如，第一次等待的条件是“成为女性”，而第二次并行等待的条件是“成为VIP”。 第一个等待活动将得到优先处理。
+下面显示了当您同时使用多个等待时，如何区分等待的优先级。 如果它们具有相同的时间配置和不同但重叠的条件，则上面定位的等待将获得优先顺序。 例如，第一次等待的条件是“成为女性”，而第二次同时等待的条件是“成为VIP”。 第一个等待活动将得到优先处理。
 
 另请注意，如果两个不同的等待是并行的，则优先处理第一个出现的等待，而不考虑其垂直位置。 例如，如果等待1小时以上，等待30分钟以下，则在30分钟后会处理30分钟等待。
 
@@ -57,7 +67,7 @@ ht-degree: 7%
 >
 >The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
 
 >[!NOTE]
 >
