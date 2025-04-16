@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}查看Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 此页面列出了 Journey Orchestration 的所有新功能和改进。有关 Experience Platform 功能的信息，请参阅下面的[发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)。
 
-对于2022年后发布的功能，链接将直接指向[Adobe Journey Optimizer文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}。
+对于 2022 年之后发布的功能，链接将定向至 [Adobe Journey Optimizer 文档](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}。
 
 ## 2024 年 3 月版 {#mar-rn-2024}
 
@@ -59,17 +59,17 @@ ht-degree: 96%
 
 ### 改进 {#aug-2023-improvements}
 
-* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为独享 Beta 版提供。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=zh-Hans){target="_blank"}。
+* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。此功能目前作为独享 Beta 版提供。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=zh-Hans){target="_blank"}。
 
 ## 2023 年 4 月版 {#apr-rn-2023}
 
 ### 改进 {#april-2023-improvements}
 
 * 配置窗格的布局（显示在操作、数据源、事件和历程中）已得到改进。
-* 您现在可以在自定义操作中定义静态或动态查询参数。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hans#url-configuration){target="_blank"}。
+* 您现在可以在自定义操作中定义静态或动态查询参数。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hans#url-configuration){target="_blank"}。
 * 用于管理历程体验增长的新护栏：
-   * 我们建议您将节点数量限制为 50 个或以下，以保证历程的性能、易读性、QA 和故障排除功能的流畅运行。活动数显示在历程画布的左上角部分。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#journeys-guardrails-journeys){target="_blank"}
-   * 当您开发和发布历程时，我们会在接近达成 100 个实时历程的里程碑时向您发送通知。如果计划一次发布 100 个以上的历程，请在收到通知后创建支持工单，我们将为您提供帮助。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#journeys-guardrails-journeys){target="_blank"}
+   * 我们建议您将节点数量限制为 50 个或以下，以保证历程的性能、易读性、QA 和故障排除功能的流畅运行。活动数显示在历程画布的左上角部分。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#journeys-guardrails-journeys){target="_blank"}
+   * 当您开发和发布历程时，我们会在接近达成 100 个实时历程的里程碑时向您发送通知。如果计划一次发布 100 个以上的历程，请在收到通知后创建支持工单，我们将为您提供帮助。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#journeys-guardrails-journeys){target="_blank"}
 
 ## 2023 年 3 月版 {#mar-2023}
 
@@ -78,21 +78,21 @@ ht-degree: 96%
 * 借助全新的&#x200B;**限制 API** 功能，您可以对每秒发送的事件数量设置限制，以防止外部系统或 API 出现流量激增。达到设置限制后，所有后续 API 调用将按接收到的顺序尽快排入队列并进行处理。请注意，此功能仅支持在所有沙盒中配置一个限制。[了解详情](../api/throttling.md)
 * 历程画布已得到改进，可提供更简单、更优质的用户体验。移除了在画布中每个路径的末尾的空占位符。现在，您只需将活动拖动到路径末尾即可添加活动。
 * 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。用户可以根据需要手动添加自定义标签。
-* 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=zh-Hans#timeout){target="_blank"}。
-* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。不会侦听通过外部工具发送的事件。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=zh-Hans){target="_blank"}。
+* 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=zh-Hans#timeout){target="_blank"}。
+* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。不会侦听通过外部工具发送的事件。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=zh-Hans){target="_blank"}。
 
 ## 2023 年 2 月版 {#feb-2023}
 
 ### 改进 {#feb-2023-improvements}
 
-* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或细分资格筛选开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hans#entrance){target="_blank"}。
-* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。这允许轮廓在到期时自动退出。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hans#dates){target="_blank"}。
+* **重新进入等待期**&#x200B;字段已添加到历程属性。使用该字段，您可以定义允许轮廓再次进入单一历程（以事件或细分资格筛选开始）之前等待的时间。这可防止同一事件多次错误触发历程。默认情况下，字段设置为 5 分钟。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hans#entrance){target="_blank"}。
+* 对&#x200B;**历程开始和结束日期**&#x200B;做出了一些改进。如果您未指定开始日期，现在会在发布时自动添加。这允许轮廓在到期时自动退出。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hans#dates){target="_blank"}。
 
 ## 2023 年 1 月版 {#jan-2023-release}
 
 ### 改进 {#jan-2023-improvements}
 
-* 在历程中添加&#x200B;**细分资格筛选**&#x200B;时，现在会默认使用上次用过的命名空间预填充命名空间。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=zh-Hans#about-segment-qualification){target="_blank"}。
+* 在历程中添加&#x200B;**细分资格筛选**&#x200B;时，现在会默认使用上次用过的命名空间预填充命名空间。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=zh-Hans#about-segment-qualification){target="_blank"}。
 * 在历程画布中，工具栏中新增了一个按钮，用于下载历程的屏幕截图。
 
 ## 2022 年 9 月版{#sept-2022-release}
@@ -119,15 +119,15 @@ ht-degree: 96%
 
 ### 改进{#sept-2022-improvements}
 
-* 向单一历程（从事件或细分资格筛选开始）添加了新护栏，以防止历程因同一事件被错误地触发多次。默认情况下，重新进入轮廓会被暂时阻止 5 分钟。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#events-g){target="_blank"}。
+* 向单一历程（从事件或细分资格筛选开始）添加了新护栏，以防止历程因同一事件被错误地触发多次。默认情况下，重新进入轮廓会被暂时阻止 5 分钟。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#events-g){target="_blank"}。
 
 ### 其他更改{#sept-2022-other}
 
-* 为提高性能，在以细分资格筛选活动开始的历程中无法再使用“体验”事件字段组。此更改仅适用于新历程。现有历程将保留当前行为。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#expression-editor){target="_blank"}。
+* 为提高性能，在以细分资格筛选活动开始的历程中无法再使用“体验”事件字段组。此更改仅适用于新历程。现有历程将保留当前行为。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#expression-editor){target="_blank"}。
 
 ### 改进
 
-* **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=zh-Hans){target="_blank"}。
+* **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=zh-Hans){target="_blank"}。
 
 * 默认情况下，历程属性中的&#x200B;**轮廓时区**&#x200B;选项现在处于未选中状态。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hans#timezone-from-profiles){target="_blank"}。
 
@@ -154,7 +154,7 @@ ht-degree: 96%
 
 ### 改进
 
-* Journey Orchestration步骤事件现在可以链接到[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans){target="_blank"}中的其他数据集。 **profileID** 字段，在内置的历程步骤事件架构中，现在定义为身份标识字段。[了解详情](../building-journeys/sharing-overview.md#integration-cja)
+* Journey Orchestration 步骤事件现在可以链接到 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hans){target="_blank"} 中的其他数据集。**profileID** 字段，在内置的历程步骤事件架构中，现在定义为身份标识字段。[了解详情](../building-journeys/sharing-overview.md#integration-cja)
 * Adobe Campaign Standard 操作的上限规则已更改为 4000 次调用/5 分钟。[了解更多信息](../action/working-with-adobe-campaign.md)
 
 ## 2021 年 10 月版 {#october-2021-release}
@@ -322,7 +322,7 @@ ht-degree: 96%
 <li>通过将非常复杂的历程分成若干个历程来简化其设计 </li>
 <li>基于通用且可重用的历程模式构建历程</li>
 </ul>
-<p>有关更多信息，请参阅<a href="../building-journeys/jump.md">详细文档</a>。</p>
+<p>有关更多信息，请参阅<a href="../building-journeys/jump.md">详情文档</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -457,7 +457,7 @@ ht-degree: 96%
 <ul>
 <li><p>活动的名称已更改为“读取区段”。 </p>
 </li>
-<li><p>已从活动的属性中删除历程调度程序的配置。 现在可直接从历程的属性访问该活动，该活动位于在“读取区段”活动放入画布后将显示的专用部分中。 </p>
+<li><p>已从活动的属性中移除历程调度程序的配置。现在可直接从历程的属性访问该活动，该活动位于在“读取区段”活动放入画布后将显示的专用部分中。 </p>
 </li>
 <li><p>您现在可以在单一轮廓上测试历程，并使用视觉流跟踪其在历程中的进度。</p>
 </li>
