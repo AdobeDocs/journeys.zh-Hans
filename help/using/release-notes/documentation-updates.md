@@ -136,7 +136,7 @@ ht-degree: 100%
 
 * 所有屏幕截图都已更新，以反映界面的更改。
 * 测试模式部分已更新。[了解更多信息](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hans).-->
 * 现在可删除已停止的历程。相关文档页面已更新。
 * 在历程中检测到问题时，会显示两种颜色。红色表示错误，橙色表示警告。[了解更多信息](../about/troubleshooting.md)
 * 高级表达式编辑器部分已更新。[了解更多信息](../expression/expressionadvanced.md)。

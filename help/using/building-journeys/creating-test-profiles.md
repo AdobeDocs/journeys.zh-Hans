@@ -23,7 +23,7 @@ ht-degree: 3%
 
 在历程中使用测试模式时需要测试配置文件。 要了解如何使用测试模式，请参阅[本节](../building-journeys/testing-the-journey.md)。
 
-可通过多种方式在Adobe Experience Platform中创建测试用户档案。 在本文档中，我们侧重于两种方法：上传[csv文件](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)和使用[API调用](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您还可以在数据集中上传json文件，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
+可通过多种方式在Adobe Experience Platform中创建测试用户档案。 在本文档中，我们侧重于两种方法：上传[csv文件](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)和使用[API调用](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您还可以在数据集中上传json文件，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans#add-data-to-dataset)。
 
 这些导入方法还允许您更新用户档案属性。 这样，您可以将现有配置文件转换为测试配置文件。 只需使用相似的文件或API调用，并仅包含值为“true”的“testProfile”字段。
 
@@ -56,7 +56,7 @@ mixin列表显示在架构概述屏幕上。
 
 >[!NOTE]
 >
->有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites)。
+>有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hans#prerequisites)。
 
 然后，您需要&#x200B;**创建要在其中导入用户档案的数据集**。 执行以下步骤：
 
@@ -73,7 +73,7 @@ mixin列表显示在架构概述屏幕上。
 
 >[!NOTE]
 >
-> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
+> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#getting-started)。
 
 ## 使用csv文件创建测试配置文件{#create-test-profiles-csv}
 
@@ -103,7 +103,7 @@ mixin列表显示在架构概述屏幕上。
 您的测试用户档案已添加，现在可以在测试历程时使用。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
 >[!NOTE]
 >
-> 有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials)。
+> 有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans#tutorials)。
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 

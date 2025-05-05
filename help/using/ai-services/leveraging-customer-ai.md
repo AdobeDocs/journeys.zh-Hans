@@ -24,7 +24,7 @@ ht-degree: 2%
 >_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
 
 
-客户人工智能是智能服务的一部分。 它有助于预测客户可能会做什么。 请参阅[文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html)。
+客户人工智能是智能服务的一部分。 它有助于预测客户可能会做什么。 请参阅[文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=zh-Hans)。
 
 借助客户人工智能，品牌商可利用流失率或转化率机器学习功能来建立分数，这些分数将在Adobe Experience Platform用户档案（实时客户用户档案）中作为用户档案属性提供。
 

@@ -101,4 +101,4 @@ ht-degree: 2%
 
 为了便于识别粘贴“数据”部分的位置，您可以使用JSON可视化工具，如[https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-要排查流式引入API问题，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)。
+要排查流式引入API问题，请参阅此[页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans)。

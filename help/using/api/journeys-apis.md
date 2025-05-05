@@ -71,7 +71,7 @@ Swagger 文件中也对这两个 API 进行了说明，请点击[此处](https:/
 
 >[!CAUTION]
 >
->已弃用用于生成访问令牌的JWT方法。 必须使用[OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)创建所有新集成。 Adobe还建议您将现有集成迁移到OAuth方法。
+>已弃用用于生成访问令牌的JWT方法。 必须使用[OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hans#select-oauth-server-to-server)创建所有新集成。 Adobe还建议您将现有集成迁移到OAuth方法。
 >
 >请阅读以下重要文档：
 >[应用程序从JWT到OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的迁移指南，

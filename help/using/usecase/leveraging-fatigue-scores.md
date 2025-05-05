@@ -16,7 +16,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->预测疲劳得分功能仅适用于使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)的客户。
+>预测疲劳得分功能仅适用于使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hans)的客户。
 
 ## 配置事件 {#section_ptb_ws1_ffb}
 

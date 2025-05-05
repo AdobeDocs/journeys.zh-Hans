@@ -46,7 +46,7 @@ Journey Orchestration 实例和 Campaign 实例之间的连接是在配置时通
 
 ## 先决条件
 
-在Campaign中，您需要创建和发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)。
+在Campaign中，您需要创建和发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=zh-Hans#transactional-messaging)。
 
 您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Orchestration中配置操作时，您会粘贴此有效负载（请参阅下文）
 

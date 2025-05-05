@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ![](../assets/alpha-event9.png)
 
-有关Adobe Analytics源连接器的更多信息，请参阅[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html)和[教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)。
+有关Adobe Analytics源连接器的更多信息，请参阅[文档](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=zh-Hans)和[教程](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hans)。

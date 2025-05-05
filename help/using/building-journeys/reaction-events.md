@@ -48,7 +48,7 @@ ht-degree: 2%
 >
 >反应事件无法跟踪在其他历程中发生的电子邮件、短信或推送操作。
 >
->反应事件跟踪“已跟踪”类型链接的点击次数（请参阅此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)）。 未考虑退订和镜像页面链接。
+>反应事件跟踪“已跟踪”类型链接的点击次数（请参阅此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=zh-Hans#about-tracked-urls)）。 未考虑退订和镜像页面链接。
 
 >[!IMPORTANT]
 >

@@ -154,4 +154,4 @@ substr(
 
 解释：此示例使用`substr`和`lastIndexOf`函数删除包含通过移动设备应用程序启动事件传递的CRM ID的大括号。
 
-有关如何使用高级表达式编辑器的详细信息，请观看[此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html)。
+有关如何使用高级表达式编辑器的详细信息，请观看[此视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html?lang=zh-Hans)。
