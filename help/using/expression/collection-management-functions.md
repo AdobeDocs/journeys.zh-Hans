@@ -167,8 +167,8 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**&#x200B;仅在处理事件集合和&#x200B;**currentDataPackField**时可用
->处理数据源集合时。 处理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**的集合时，我们
+>**[!UICONTROL currentEventField]**&#x200B;仅在处理事件集合和&#x200B;**currentDataPackField**&#x200B;时可用
+>处理数据源集合时。 处理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;的集合时，我们
 >逐个循环集合的每个元素。 **[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
 >对应于正在循环的元素。
 
@@ -218,7 +218,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函数“at(`<index>`)”**
 
-**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_

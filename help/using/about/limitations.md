@@ -48,6 +48,7 @@ ht-degree: 42%
 
 * 由于吞吐量限制，**区段鉴别**&#x200B;活动不能与Adobe Campaign Standard事务性消息结合使用。 请参阅[Adobe Campaign Standard产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)。 
  
+
 ## 自定义操作限制
 
 * 自定义操作 URL 不支持动态参数。 
@@ -56,14 +57,17 @@ ht-degree: 42%
 * 不允许使用IP地址。 
 * 不允许使用内部Adobe地址(.adobe.)。
  
+
 ## Adobe Campaign操作限制
 
 * 对于给定实例，Adobe Campaign Standard事务性消息传递在各个渠道上的规模为每小时最多50,000条消息。 请参阅[Adobe Campaign Standard产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)。 
  
+
 ## 事件限制
 
 * 对于系统生成的事件，必须先在Journey Orchestration中配置用于启动客户历程的流数据，才能获取唯一的编排ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。 此限制不适用于基于规则的事件。
  
+
 ## 数据源限制
 
 * 可在客户历程中利用外部数据源实时查找外部数据。 这些源必须可通过REST API使用，支持JSON，并能够处理大量请求。

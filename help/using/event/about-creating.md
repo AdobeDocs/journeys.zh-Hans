@@ -55,7 +55,7 @@ ht-degree: 47%
    >
    >选择&#x200B;**[!UICONTROL System Generated]**&#x200B;类型时，只有具有eventID类型mixin的架构可用。 当您选择&#x200B;**[!UICONTROL Rule Based]**&#x200B;类型时，所有体验事件架构都可用。
 
-1. 对于基于规则的事件，请单击&#x200B;**[!UICONTROL Event ID condition]**字段中的。 使用简单表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
+1. 对于基于规则的事件，请单击&#x200B;**[!UICONTROL Event ID condition]**&#x200B;字段中的。 使用简单表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
    ![](../assets/alpha-event6.png)
 
    在我们的示例中，我们根据用户档案所在的城市编写了条件。 这意味着每当系统收到与此条件（**[!UICONTROL City]**&#x200B;字段和&#x200B;**[!UICONTROL Paris]**&#x200B;值）匹配的事件，它就会将其传递到Journey Orchestration。

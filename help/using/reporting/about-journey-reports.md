@@ -71,7 +71,7 @@ ht-degree: 1%
 ## 历程摘要模板 {#ootb-template}
 
 报告分为两类：现成模板和自定义报告。
-现成模板**[!UICONTROL Journey summary]**&#x200B;为您提供了最重要的跟踪数据的清晰视图。
+现成模板&#x200B;**[!UICONTROL Journey summary]**&#x200B;为您提供了最重要的跟踪数据的清晰视图。
 
 ![](../assets/dynamic_report_journey_8.png)
 

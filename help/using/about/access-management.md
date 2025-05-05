@@ -34,7 +34,7 @@ ht-degree: 83%
 要能够访问 [!DNL Journey Orchestration]，用户必须是：
 
 * 与权限 [!DNL Journey Orchestration]关联&#x200B;**[!UICONTROL product profile]**&#x200B;的一 [!DNL Journey Orchestration]部分。
-* [!DNL Adobe Experience Platform]**[!UICONTROL product profile]** 的一部分。无需强制许可。用户应具有从 [!DNL Journey Orchestration] 界面创建和编辑 Platform 区段的 **[!UICONTROL profile management]** 权限。有关详细信息，请参见此 [ 页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)。
+* [!DNL Adobe Experience Platform]&#x200B;**[!UICONTROL product profile]** 的一部分。无需强制许可。用户应具有从 [!DNL Journey Orchestration] 界面创建和编辑 Platform 区段的 **[!UICONTROL profile management]** 权限。有关详细信息，请参见此 [ 页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)。
 
 在Admin Console中，您可以将以下现成的产品配置文件之一分配给用户：
 

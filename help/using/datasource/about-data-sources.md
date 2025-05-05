@@ -58,7 +58,7 @@ ht-degree: 82%
 
    ![](../assets/journey18.png)
 
-1. 然后，您可以将字段组添加到内置数据源（请参阅[此页面](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页面](../datasource/external-data-sources.md)）和关联的字段组（请参阅](../datasource/field-groups.md)此页面[）。
+1. 然后，您可以将字段组添加到内置数据源（请参阅[此页面](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页面](../datasource/external-data-sources.md)）和关联的字段组（请参阅[&#128279;](../datasource/field-groups.md)此页面）。
 
    ![](../assets/journey23.png)
 
