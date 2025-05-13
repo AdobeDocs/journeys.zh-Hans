@@ -14,7 +14,7 @@ type: Documentation
 feature: Journeys
 dummy: false
 source-git-commit: 014164624f0ea30577dbab214a3a9f8a4b271d14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4'
 ht-degree: 100%
 
