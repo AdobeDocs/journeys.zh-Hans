@@ -3,10 +3,10 @@ product: adobe campaign
 title: containIgnoreCase
 description: 了解函数containIgnoreCase
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 22%

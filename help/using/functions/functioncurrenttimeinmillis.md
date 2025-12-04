@@ -3,10 +3,10 @@ product: adobe campaign
 title: currentTimeInMillis
 description: 了解函数currentTimeInMillis
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 1cccbf9d-d078-4979-83cf-f5be67f28f46
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 12%

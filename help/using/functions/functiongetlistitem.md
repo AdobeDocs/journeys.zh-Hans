@@ -3,10 +3,10 @@ product: adobe campaign
 title: getListItem
 description: 了解函数gstListItem
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 19%

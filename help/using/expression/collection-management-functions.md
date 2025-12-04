@@ -3,10 +3,10 @@ product: adobe campaign
 title: 集合管理函数
 description: 了解集合管理函数中的数据类型
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 1%
@@ -167,8 +167,8 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**&#x200B;仅在处理事件集合和&#x200B;**currentDataPackField**&#x200B;时可用
->处理数据源集合时。 处理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;的集合时，我们
+>**[!UICONTROL currentEventField]**&#x200B;仅在处理事件集合和&#x200B;**currentDataPackField**时可用
+>处理数据源集合时。 处理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**的集合时，我们
 >逐个循环集合的每个元素。 **[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
 >对应于正在循环的元素。
 
@@ -218,7 +218,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函数“at(`<index>`)”**
 
-**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_

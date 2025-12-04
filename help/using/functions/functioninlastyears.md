@@ -3,10 +3,10 @@ product: adobe campaign
 title: inLastYears
 description: 了解函数inLastYears
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 95ca3d7d-2340-4378-9af4-aa1188bed614
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 20%

@@ -3,10 +3,10 @@ product: adobe campaign
 title: limit
 description: 了解函数限制
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
-source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 8%

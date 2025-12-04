@@ -3,10 +3,10 @@ product: adobe campaign
 title: toBool
 description: 了解函数toBool
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 490144c2-1ecd-4772-ab15-e23b1b7d8f0c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 12%

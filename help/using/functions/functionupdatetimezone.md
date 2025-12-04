@@ -3,12 +3,12 @@ product: adobe campaign
 title: updateTimeZone
 description: 了解函数updateTimeZone
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 2ce60ed2-161a-4b98-9694-eb47cc0e04a9
-source-git-commit: d5531d0aad22f33da2cc5612cc289c600411fd8c
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '57'
 ht-degree: 10%
 
 ---

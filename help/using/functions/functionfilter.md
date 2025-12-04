@@ -3,10 +3,10 @@ product: adobe campaign
 title: filter
 description: 了解函数过滤器
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 3c1c188c-0ffd-44c5-b1b3-1758ed12235e
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 10%

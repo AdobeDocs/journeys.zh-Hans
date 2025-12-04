@@ -3,10 +3,10 @@ product: adobe campaign
 title: replace
 description: 了解函数替换
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
-source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 12%
@@ -55,7 +55,7 @@ ht-degree: 12%
 * 由配置文件属性`#{ExperiencePlatform.myFieldGroup.profile.myOffers}`提供
 * 要替换的字符串： `|OFFER_A`
 * 字符串替换为： `''`
-* 您需要在`|`字符之前添加`\\`。
+* 您需要在`\\`字符之前添加`|`。
 
 表达式为：
 

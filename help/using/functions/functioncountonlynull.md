@@ -3,10 +3,10 @@ product: adobe campaign
 title: countOnlyNull
 description: 了解函数countOnlyNull
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e6170a21-0418-4311-a43b-fd4f323cd020
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 32%

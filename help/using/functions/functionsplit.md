@@ -3,10 +3,10 @@ product: adobe campaign
 title: split
 description: 了解函数拆分
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 15%

@@ -3,10 +3,10 @@ product: adobe campaign
 title: setDays
 description: 了解函数setDays
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: eee7bf61-9101-4959-aa93-27d0f221c517
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 13%

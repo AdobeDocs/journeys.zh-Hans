@@ -3,10 +3,10 @@ product: adobe campaign
 title: distinct
 description: 了解distinct函数
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 6%

@@ -3,10 +3,10 @@ product: adobe campaign
 title: intersect
 description: 了解函数intersect
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 12%
