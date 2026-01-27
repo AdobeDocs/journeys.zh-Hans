@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4452'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 99%
 <table>
 <thead>
 <tr>
-<th><strong>数据管理和隐私</strong><br/></th>
+<th><strong>数据治理和隐私</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -129,7 +129,7 @@ ht-degree: 99%
 
 * **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。现在，会默认将结束标记添加到每个路径的末尾，且无法移除。这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=zh-Hans){target="_blank"}。
 
-* 默认情况下，历程属性中的&#x200B;**轮廓时区**&#x200B;选项现在处于未选中状态。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hans#timezone-from-profiles){target="_blank"}。
+* 现在，历程属性中的&#x200B;**轮廓时区**&#x200B;选项默认处于未选中状态。[了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hans#timezone-from-profiles){target="_blank"}。
 
 ## 2022 年 5 月版 {#may-2022-release}
 
@@ -721,7 +721,6 @@ Journey Orchestration 现已正式推出。
 
 利用存储在事件或数据源中的上下文数据构建实时编排用例。
 
-Journey Orchestration 允许由事件的情境数据、Adobe Experience Platform 信息或第三方 API 服务数据提供支持的实时编排。应用程序根据消费者的轮廓和行为确定在称为历程的多步流中特定于消费者的下一个最佳操作。这包括最佳时间和操作类型，如通过 Adobe Campaign Standard 事务性消息传送功能（需要 Adobe Campaign Standard）向消费者发送推送通知或第三方系统通知。这些决策是根据规则和AI得分做出的。
+Journey Orchestration 允许由事件的情境数据、Adobe Experience Platform 信息或第三方 API 服务数据提供支持的实时编排。应用程序根据消费者的轮廓和行为确定在称为历程的多步流中特定于消费者的下一个最佳操作。这包括最佳时间和操作类型，如通过 Adobe Campaign Standard 事务性消息传送功能（需要 Adobe Campaign Standard）向消费者发送推送通知或第三方系统通知。这些决策是根据规则和 AI 得分做出的。
 
-[&#128279;](../action/working-with-adobe-campaign.md)
-详细了解 Journey Orchestration。
+[详细了解](../action/working-with-adobe-campaign.md) Journey Orchestration。
