@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 85%
+source-wordcount: '988'
+ht-degree: 89%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 ## 访问 [!DNL Journey Orchestration]{#accessing_journey_orchestration}
@@ -46,7 +46,7 @@ ht-degree: 85%
 
 ![](../assets/journey2.png)
 
-单击屏幕右上角的![](../assets/icon-context.png)图标以显示情景帮助。它可以在不同的 [!DNL Journey Orchestration] 列表屏幕（历程、事件、操作和数据源）中使用。通过此情景帮助，您可以查看当前功能的快速说明，并访问相关文章和视频。
+单击屏幕右上角的![](../assets/icon-context.png)图标以显示情景帮助。 它可以在不同的 [!DNL Journey Orchestration] 列表屏幕（历程、事件、操作和数据源）中使用。 通过此情景帮助，您可以查看当前功能的快速说明，并访问相关文章和视频。
 
 ![](../assets/journey2bis.png)
 
@@ -54,37 +54,37 @@ ht-degree: 85%
 
 在 **[!UICONTROL Home]**、**[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，搜索栏允许您搜索项目。
 
-单击列表左上角的过滤器图标即可访问 **[!UICONTROL Filters]**。通过过滤器菜单，您可以根据不同的条件筛选显示的元素。您可以选择仅显示特定类型或状态、您创建的元素或最近 30 天内修改的元素。
+单击列表左上角的过滤器图标即可访问 **[!UICONTROL Filters]**。 通过过滤器菜单，您可以根据不同的条件筛选显示的元素。 您可以选择仅显示特定类型或状态、您创建的元素或最近 30 天内修改的元素。
 
-在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，使用 **[!UICONTROL Creation filters]** 按创建日期和用户进行过滤。例如，您可以选择仅显示您在过去 30 天中创建的事件。
+在 **[!UICONTROL Data Sources]**、**[!UICONTROL Events]** 和 **[!UICONTROL Actions]** 列表中，使用 **[!UICONTROL Creation filters]** 按创建日期和用户进行过滤。 例如，您可以选择仅显示您在过去 30 天中创建的事件。
 
-在历程列表（**[!UICONTROL Home]**&#x200B;下）中，除了&#x200B;**[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据显示的历程的状态、类型和版本(**[!UICONTROL Status and version filters]**)筛选它们。 类型可以是： **[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的历程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。例如，您可以选择仅显示昨天发布的最新版实时历程。请参阅[此页](../building-journeys/using-the-journey-designer.md)。
+在历程列表（**[!UICONTROL Home]**&#x200B;下）中，除了&#x200B;**[!UICONTROL Creation filters]**&#x200B;之外，您还可以根据显示的历程的状态、类型和版本(**[!UICONTROL Status and version filters]**)筛选它们。 类型可以是： **[!UICONTROL Unitary event]**&#x200B;或&#x200B;**[!UICONTROL Segment qualification]**。 您还可以选择仅显示使用特定事件、字段组或操作（**[!UICONTROL Activity filters]**&#x200B;和 **[!UICONTROL Data filters]**）的历程。通过&#x200B;**[!UICONTROL Publication filters]**，您可以选择发布日期或用户。 例如，您可以选择仅显示昨天发布的最新版实时历程。 请参阅[此页](../building-journeys/using-the-journey-designer.md)。
 
 >[!NOTE]
 >
->请注意，显示的列可以使用列表右上角的配置按钮进行个性化设置。为每个用户保存个性化设置。
+>请注意，显示的列可以使用列表右上角的配置按钮进行个性化设置。 为每个用户保存个性化设置。
 
 通过 **[!UICONTROL Last update]**&#x200B;和 **[!UICONTROL Last update by]** 列，可显示您的历程的上次更新时间以及运行该更新的用户。
 
 ![](../assets/journey74.png)
 
-在“事件”、“数据源”和“操作配置”窗格中，**[!UICONTROL Used in]**&#x200B;字段显示使用该特定事件、字段组或操作的历程数。您可以单击“**[!UICONTROL View journeys]**”按钮以显示相应历程的列表。
+在“事件”、“数据源”和“操作配置”窗格中，**[!UICONTROL Used in]**&#x200B;字段显示使用该特定事件、字段组或操作的历程数。 您可以单击“**[!UICONTROL View journeys]**”按钮以显示相应历程的列表。
 
 ![](../assets/journey3bis.png)
 
-在不同的列表中，您可以对每个元素执行基本操作。例如，您可以删除项目或制作项目副本。
+在不同的列表中，您可以对每个元素执行基本操作。 例如，您可以删除项目或制作项目副本。
 
 ![](../assets/journey4.png)
 
 ## 浏览Adobe Experience Platform字段 {#friendly-names-display}
 
-在定义[事件有效负载](../event/defining-the-payload-fields.md)、[字段组有效负载](../datasource/field-groups.md)以及在[表达式编辑器](../expression/expressionadvanced.md)中选择字段时，除字段名称外，还会显示其显示名称。此信息可从体验数据模型中的架构定义中检索。
+在定义[事件有效负载](../event/defining-the-payload-fields.md)、[字段组有效负载](../datasource/field-groups.md)以及在[表达式编辑器](../expression/expressionadvanced.md)中选择字段时，除字段名称外，还会显示其显示名称。 此信息可从体验数据模型中的架构定义中检索。
 
-如果在设置架构时提供了诸如“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。它在使用“eVars”和通用字段时特别有用。您可以通过API调用配置友好名称描述符。 有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
+如果在设置架构时提供了“xdm:alternateDisplayInfo”之类的描述符，则用户友好型名称将替换显示名称。 它在使用“eVars”和通用字段时特别有用。您可以通过 API 调用配置友好型名称描述符。 有关详细信息，请参阅[架构注册开发人员指南](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=zh-Hans)。
 
 ![](../assets/xdm-from-descriptors.png)
 
-如果友好名称可用，则字段将显示为`<friendly-name>(<name>)`。如果没有可用的友好名称，将显示其显示名称，如`<display-name>(<name>)`。如果这两种名称均未定义，则仅显示字段的技术名称 `<name>`。
+如果友好名称可用，则字段将显示为`<friendly-name>(<name>)`。 如果没有可用的友好名称，将显示其显示名称，如`<display-name>(<name>)`。 如果这两种名称均未定义，则仅显示字段的技术名称 `<name>`。
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
 
 | 操作 | 快捷键 |
 | --- | --- |
-| 在用户界面元素、部分和菜单组之间移动 | Tab |
+| 在用户界面元素、部分和菜单组之间移动 | 选项卡 |
 | 在用户界面元素、部分和菜单组之间向后移动 | Shift + Tab |
 | 在部分内移动，将焦点设置到单个元素 | 箭头 |
 | 选择或清除焦点元素 | 回车键或空格键 |
@@ -147,14 +147,14 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
 
 <ul>
   <li>历程中的活动</li>
-  <li>事件</li>
+  <li>活动</li>
   <li>数据源</li>
   <li>操作</li>
 </ul>
 
 </td>
     <td>移到要配置的下一个字段</td>
-    <td>Tab</td>
+    <td>选项卡</td>
   </tr>
   <tr>
     <td>保存更改并关闭配置窗格</td>
@@ -185,7 +185,8 @@ Adobe Journey Optimizer中的辅助功能由Adobe Experience Platform提供：
     <td>显示测试日志</td>
     <td>L</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+//Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>

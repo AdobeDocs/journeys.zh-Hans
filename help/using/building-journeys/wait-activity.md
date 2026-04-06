@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 7%
+source-wordcount: '421'
+ht-degree: 19%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
-如果要等待再执行路径中的下一个活动，则可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 这让您可以定义执行下一个活动的时刻。提供了三个选项：
+如果要等待再执行路径中的下一个活动，则可以使用&#x200B;**[!UICONTROL Wait]**&#x200B;活动。 这让您可以定义执行下一个活动的时刻。 提供了三个选项：
 
 * [持续时间](#duration)
 * [自定义](#custom)
@@ -41,7 +41,7 @@ ht-degree: 7%
 >
 >最长等待时间为30天。
 >
->在测试模式下，**[!UICONTROL Wait time in test]**&#x200B;参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。这将确保您快速获得测试结果。 查看[此页面](../building-journeys/testing-the-journey.md)
+>在测试模式下，**[!UICONTROL Wait time in test]**&#x200B;参数允许您定义每个等待活动的持续时间。 默认时间为 10 秒。 这将确保您快速获得测试结果。 查看[此页面](../building-journeys/testing-the-journey.md)
 
 ## 持续时间等待{#duration}
 
@@ -51,7 +51,7 @@ ht-degree: 7%
 
 ## 自定义等待{#custom}
 
-此选项允许您使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 查看[此页面](../expression/expressionadvanced.md)。 有关dateTimeOnly格式的详细信息，请参阅[此页面](../expression/data-types.md)。
+此选项允许您使用基于来自事件或数据源的字段的高级表达式来定义自定义日期，例如2020年7月12日下午5点。 它不允许您定义自定义持续时间，例如7天。 表达式编辑器中的表达式应提供dateTimeOnly格式。 请参阅[此页](../expression/expressionadvanced.md)。 有关dateTimeOnly格式的详细信息，请参阅[此页面](../expression/data-types.md)。
 
 >[!NOTE]
 >
@@ -61,7 +61,8 @@ ht-degree: 7%
 
 ![](../assets/journey57.png)
 
-<!--## Email send time optimization{#email_send_time_optimization}
+<!--
+## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
@@ -83,4 +84,5 @@ This type of wait uses a score calculated in the Adobe Experience Platform. The 
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](../assets/journey57bis.png)
+-->

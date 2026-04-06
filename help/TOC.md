@@ -5,10 +5,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 87%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 100%
    + [发行说明](using/release-notes/release-notes.md)
    + [文档更新](using/release-notes/documentation-updates.md)
    + [升级到 Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
-+ [!DNL Journey Orchestration] 入门{#starting-with-journeys}
++ 以[!DNL Journey Orchestration]开始 {#starting-with-journeys}
    + [关于 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
    + [快速入门](using/about/get-started.md)
    + [用户界面](using/about/user-interface.md)
    + [访问管理](using/about/access-management.md)
-   + [故障排除](using/about/troubleshooting.md)
+   + [疑难解答](using/about/troubleshooting.md)
    + [与外部系统集成](using/about/external-systems.md)
 + 配置事件 {#events-journeys}
    + 关于事件 {#about-events}
@@ -34,7 +34,7 @@ ht-degree: 100%
       + [数据周期](using/event/about-data-cycle.md)
       + [创建事件](using/event/about-creating.md)
       + [利用 Adobe Analytics](using/event/about-analytics.md)
-      + [关于 ExperienceEvent Schemas](using/event/experience-event-schema.md)
+      + [关于 ExperienceEvent 架构](using/event/experience-event-schema.md)
       + [用于发送事件的其他步骤](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [定义有效负载字段](using/event/defining-the-payload-fields.md)
    + [选择命名空间](using/event/selecting-the-namespace.md)
@@ -57,7 +57,7 @@ ht-degree: 100%
    + [关于区段](using/segment/about-segments.md)
    + [创建区段](using/segment/creating-a-segment.md)
    + [在条件中使用区段](using/segment/using-a-segment.md)
-+ 构建历程 {#building-journeys}
++ 构建旅程 {#building-journeys}
    + 关于历程构建 {#about-journey-building}
       + [创建历程](using/building-journeys/journey.md)
       + [使用历程设计器](using/building-journeys/using-the-journey-designer.md)
@@ -82,14 +82,14 @@ ht-degree: 100%
          + [使用 Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
          + [使用 Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [使用自定义操作](using/building-journeys/using-custom-actions.md)
-         + [从一个历程转到另一个历程](using/building-journeys/jump.md)
+         + [从一个历程到另一个历程](using/building-journeys/jump.md)
          + [更新轮廓](using/building-journeys/update-profiles.md)
    + [测试历程](using/building-journeys/testing-the-journey.md)
    + [发布历程](using/building-journeys/publishing-the-journey.md)
-   + 与 Adobe Experience Platform 共享历程步骤 {#sharing-journey-steps}
+   + 与Adobe Experience Platform共享旅程步骤 {#sharing-journey-steps}
       + [历程步骤共享概述](using/building-journeys/sharing-overview.md)
       + [步骤事件字段列表](using/building-journeys/sharing-field-list.md)
-      + 旧版步骤事件字段{#legacy-step-event-fields}
+      + 旧版步骤事件字段 {#legacy-step-event-fields}
          + [关于旧版字段](using/building-journeys/sharing-legacy-fields.md)
          + [journeySteps 事件常用字段](using/building-journeys/sharing-common-fields.md)
          + [journeyStep 事件操作执行字段](using/building-journeys/sharing-execution-fields.md)
@@ -99,7 +99,7 @@ ht-degree: 100%
       + [查询示例](using/building-journeys/query-examples.md)
 + 构建表达式 {#building-advanced-conditions-journeys}
    + [概述](using/expression/expressionadvanced.md)
-   + 语法 {#syntax}
+   + 句法 {#syntax}
       + [通则](using/expression/generalities.md)
       + [条件说明](using/expression/conditional-instruction.md)
       + [数据类型](using/expression/data-types.md)
@@ -108,7 +108,7 @@ ht-degree: 100%
       + [操作员](using/expression/operators.md)
       + [历程属性](using/expression/journey-properties.md)
       + [示例](using/expression/advanced-editor-use-cases.md)
-   + 函数 {#main-functions-journey}
+   + 功能 {#main-functions-journey}
       + [主要函数](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
          + [inSegment](using/functions/functioninsegment.md)
@@ -204,7 +204,7 @@ ht-degree: 100%
       + [构建历程](using/usecase/building-the-journey.md)
    + [使用 Campaign v7/v8 发送消息](using/usecase/campaign-classic-use-case.md)
    + [使用自定义操作动态传递收藏集](using/usecase/collections.md)
-+ 使用 API{#working-with-apis}
++ 使用API{#working-with-apis}
    + [历程 API 入门](using/api/journeys-apis.md)
    + [API 上限](using/api/capping.md)
    + [API 限制](using/api/throttling.md)
