@@ -5,17 +5,17 @@ solution-image: assets/campaign-icon-24.png
 getting-started-title: Community
 getting-started-url: https://adobe.com/go/journeyorchestrationcommunity
 tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hans
-git-repo: https://github.com/AdobeDocs/journeys.zh-Hans
+tutorials-url: https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html
+git-repo: https://github.com/AdobeDocs/journeys.en
 index: true
 feature-set: Journey Orchestration
 solution: Journey Orchestration
-landing-page-name: journey-optimizer
-landing-page-breadcrumb-title: Journey Optimizer
+landing-page-name: journey-orchestration
+landing-page-breadcrumb-title: Journey Orchestration
 type: Documentation
 feature: Journeys
 dummy: false
-source-git-commit: ddc650f09921f66af2045a4a0d67a3ffe8f85503
+source-git-commit: 4085d43f84bc195c0aca5d62a13833ed3af5979c
 workflow-type: tm+mt
 source-wordcount: '7'
 ht-degree: 0%
