@@ -5,10 +5,10 @@ title: Journey Orchestration 指南
 user-guide-description: 提供实施和构建历程的操作说明。
 index: true
 feature: Journeys
-source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 87%
 + [产品文档](journey-orchestration-home.md)
 + 新增功能 {#release-notes}
    + [发行说明](using/release-notes/release-notes.md)
-   + [文档更新](using/release-notes/documentation-updates.md)
-   + [升级到 Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
+   + {hide-from-toc}[文档更新](using/release-notes/documentation-updates.md)
+   + {hide-from-toc}[升级到Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
 + 以[!DNL Journey Orchestration]开始 {#starting-with-journeys}
    + [关于 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
