@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 82%
+source-wordcount: '362'
+ht-degree: 95%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 82%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
@@ -37,14 +37,14 @@ ht-degree: 82%
 * [自定义等待定义](../building-journeys/wait-activity.md#custom)
 * [时区定义](../building-journeys/timezone-management.md)
 
-如果您的历程只利用来自事件有效负载的本地数据，则不需要此配置。例如，如果您的历程由一个事件组成，后跟一个只使用事件数据的电子邮件活动，则无需配置数据源。
+如果您的历程只利用来自事件有效负载的本地数据，则不需要此配置。 例如，如果您的历程由一个事件组成，后跟一个只使用事件数据的电子邮件活动，则无需配置数据源。
 
 数据源有两种类型：
 
-* 预配置的 Adobe Experience Platform 数据源，它定义与实时客户轮廓服务的连接。这是一种内置数据源。请参阅[此页](../datasource/adobe-experience-platform-data-source.md)。
-* 外部数据源，它允许您定义与外部系统的连接。这些是您可以创建的数据源。请参阅[此页](../datasource/external-data-sources.md)。
+* 预配置的 Adobe Experience Platform 数据源，它定义与实时客户轮廓服务的连接。 这是一种内置数据源。 请参阅[此页](../datasource/adobe-experience-platform-data-source.md)。
+* 外部数据源，它允许您定义与外部系统的连接。 这些是您可以创建的数据源。 请参阅[此页](../datasource/external-data-sources.md)。
 
-对于每个数据源，您定义要使用字段组检索的信息。字段组是可从数据源检索的字段集。请参阅[此页](../datasource/field-groups.md)。
+对于每个数据源，您定义要使用字段组检索的信息。 字段组是可从数据源检索的字段集。 请参阅[此页](../datasource/field-groups.md)。
 
 以下是主要的数据源配置步骤：
 
@@ -54,11 +54,11 @@ ht-degree: 82%
 
 1. 在菜单窗格中，选择&#x200B;**[!UICONTROL Admin]**。 在&#x200B;**[!UICONTROL Data sources]**&#x200B;部分中，单击&#x200B;**[!UICONTROL Manage]**。
 
-   将显示数据源列表。有关该界面的更多信息，请参阅[此页面](../about/user-interface.md)。
+   将显示数据源列表。 有关该界面的更多信息，请参阅[此页面](../about/user-interface.md)。
 
    ![](../assets/journey18.png)
 
-1. 然后，您可以将字段组添加到内置数据源（请参阅[此页面](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页面](../datasource/external-data-sources.md)）和关联的字段组（请参阅[&#128279;](../datasource/field-groups.md)此页面）。
+1. 然后，您可以将字段组添加到内置数据源（请参阅[此页面](../datasource/adobe-experience-platform-data-source.md)）或创建新的外部数据源（请参阅[此页面](../datasource/external-data-sources.md)）和关联的字段组（请参阅](../datasource/field-groups.md)此页面[）。
 
    ![](../assets/journey23.png)
 
