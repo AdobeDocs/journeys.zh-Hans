@@ -3,7 +3,7 @@ title: 升级到Adobe Journey Optimizer
 description: 了解如何升级到Adobe Journey Optimizer
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 2%
