@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 >title="关于事件"
 >abstract="事件与个人相关联。 它与个人的行为或者与个人发生的事情有关。 这就是 [!DNL Journey Orchestration] 在历程中将侦听的内容，以编排最佳的后续行动。"
 
-事件与个人相关联。 它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等） 或者与个人相关的某件事情有关（例如，某人达到10,000个忠诚点数）。 这就是 [!DNL Journey Orchestration] 在历程中将侦听的内容，以编排最佳的后续行动。
+事件与个人相关联。 它与个人的行为有关（例如，某人购买了产品、访问了商店、退出了网站等） 或与某个人相关的某个事件发生（例如，某人的忠诚度积分达到 10,000）。这就是 [!DNL Journey Orchestration] 在历程中将侦听的内容，以编排最佳的后续行动。
 
 此配置是&#x200B;**强制性的**，因为 [!DNL Journey Orchestration] 设计用于侦听事件，并且始终由&#x200B;**技术用户**&#x200B;执行。
 

@@ -9,7 +9,7 @@ level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
 workflow-type: ht
-source-wordcount: '206'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -18,19 +18,19 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->**希望了解 Adobe Journey Optimizer**？请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-## 入门
+## 快速入门
 
 * **[Journey Orchestration 是什么？](using/about/about-journey-orchestration.md)**<br/>
 详细了解 Journey Orchestration。
 
 * **[构建您的第一个历程](using/about/get-started.md)**<br/>
-发现设置 Journey Orchestration 并构建第一个历程的主要步骤。
+了解设置 Journey Orchestration 的主要步骤并构建您的第一个历程。
 
 * **[配置事件](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
 了解如何配置您的历程将侦听的事件。
@@ -47,7 +47,7 @@ ht-degree: 100%
        <img alt="开发者" src="using/assets/do-not-localize/FAQ.png" />
        </a>
     <div>
-    <a href="using/about/troubleshooting.md"><strong>疑难解答</strong></a>
+    <a href="using/about/troubleshooting.md"><strong>故障排除</strong></a>
     </div>
     <em>了解可用于对历程进行故障排除的各种工具。</em>
     <br>
@@ -59,7 +59,7 @@ ht-degree: 100%
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>用例</strong></a>
     </div>
-    <em>了解如何分步创建高级历程。</em>
+    <em>了解创建高级历程的分步操作。</em>
     <br>
   </td>
   <td valign="top">
@@ -83,5 +83,5 @@ ht-degree: 100%
 * [Experience Cloud XDM 字段定义](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
 * [身份命名空间文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
 * [流式引入 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)
-* [Campaign Standard 事务性消息传送文档](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)
+* [Campaign Standard 事务性消息文档](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)
 
