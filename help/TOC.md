@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
    + [发行说明](using/release-notes/release-notes.md)
    + {hide-from-toc}[文档更新](using/release-notes/documentation-updates.md)
    + {hide-from-toc}[升级到Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
-+ 以[!DNL Journey Orchestration]开始 {#starting-with-journeys}
++ 从 [!DNL Journey Orchestration] 开始 {#starting-with-journeys}
    + [关于 [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [限制](using/about/limitations.md)
    + [快速入门](using/about/get-started.md)
@@ -57,7 +57,7 @@ ht-degree: 86%
    + [关于区段](using/segment/about-segments.md)
    + [创建区段](using/segment/creating-a-segment.md)
    + [在条件中使用区段](using/segment/using-a-segment.md)
-+ 构建旅程 {#building-journeys}
++ 构建历程 {#building-journeys}
    + 关于历程构建 {#about-journey-building}
       + [创建历程](using/building-journeys/journey.md)
       + [使用历程设计器](using/building-journeys/using-the-journey-designer.md)
@@ -86,7 +86,7 @@ ht-degree: 86%
          + [更新轮廓](using/building-journeys/update-profiles.md)
    + [测试历程](using/building-journeys/testing-the-journey.md)
    + [发布历程](using/building-journeys/publishing-the-journey.md)
-   + 与Adobe Experience Platform共享旅程步骤 {#sharing-journey-steps}
+   + 与 Adobe Experience Platform 共享历程步骤 {#sharing-journey-steps}
       + [历程步骤共享概述](using/building-journeys/sharing-overview.md)
       + [步骤事件字段列表](using/building-journeys/sharing-field-list.md)
       + 旧版步骤事件字段 {#legacy-step-event-fields}
@@ -204,7 +204,7 @@ ht-degree: 86%
       + [构建历程](using/usecase/building-the-journey.md)
    + [使用 Campaign v7/v8 发送消息](using/usecase/campaign-classic-use-case.md)
    + [使用自定义操作动态传递收藏集](using/usecase/collections.md)
-+ 使用API{#working-with-apis}
++ 使用 API{#working-with-apis}
    + [历程 API 入门](using/api/journeys-apis.md)
    + [API 上限](using/api/capping.md)
    + [API 限制](using/api/throttling.md)
