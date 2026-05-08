@@ -10,7 +10,8 @@ git-repo: https://github.com/AdobeDocs/journeys.en
 index: true
 feature-set: Journey Orchestration
 solution: Journey Orchestration
-product_v2: id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
 landing-page-name: journey-orchestration
 landing-page-breadcrumb-title: Journey Orchestration
 type: Documentation
