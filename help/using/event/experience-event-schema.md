@@ -79,7 +79,7 @@ Adobe Experience Platform 让您可以定义架构之间的关系，以便将一
 
 >[!NOTE]
 >
->在[Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)中了解有关架构关系的更多信息。
+>在[Experience Platform文档](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=zh-Hans)中了解有关架构关系的更多信息。
 
 在Journey Orchestration中，您可以利用链接表中的所有字段：
 
