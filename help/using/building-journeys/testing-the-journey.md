@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 4%
+source-wordcount: '1641'
+ht-degree: 10%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 在能够测试历程之前，您必须解决所有错误（如果有）。 请参阅[此小节](../about/troubleshooting.md#section_h3q_kqk_fhb)。
 
 您可以在发布历程之前使用测试用户档案测试历程。 这使您可以分析个人如何在历程中流动，并在发布前进行故障排除。
 
-只有测试配置文件才能进入处于测试模式的历程。 您可以创建新的测试配置文件，或将现有配置文件转换为测试配置文件。 请参阅此[章节](../building-journeys/creating-test-profiles.md)。
+只有测试轮廓才能进入处于测试模式的历程。 您可以创建新的测试配置文件，或将现有配置文件转换为测试配置文件。 请参阅此[章节](../building-journeys/creating-test-profiles.md)。
 
 要使用测试模式，请执行以下步骤：
 
-1. 在测试旅程之前，请验证其是否有效以及是否没有错误。 您将无法启动出现错误的历程测试。 请参阅[此部分](../about/troubleshooting.md#section_h3q_kqk_fhb)。 出现错误时，将显示警告符号。
+1. 在测试旅程之前，请验证其是否有效以及是否没有错误。 您将无法启动出现错误的历程测试。 请参阅[此小节](../about/troubleshooting.md#section_h3q_kqk_fhb)。 出现错误时，将显示警告符号。
 
 1. 要激活测试模式，请单击右上角的&#x200B;**[!UICONTROL Test]**&#x200B;切换开关。
 
@@ -58,11 +58,11 @@ ht-degree: 4%
 
    ![](../assets/journeyuctest2.png)
 
-1. 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。当测试得出结果时，您可以发布旅程。 请参阅[此页](../building-journeys/publishing-the-journey.md)。
+1. 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。 当测试得出结果时，您可以发布旅程。 请参阅[此页](../building-journeys/publishing-the-journey.md)。
 
 ## 重要说明 {#important_notes}
 
-* 提供了一个界面来触发已测试历程的事件，但事件也可以由第三方系统(如Postman)发送。
+* 提供了一个界面来触发已测试历程的事件，但事件也可以由第三方系统（如Postman）发送。
 * 只有在Real-time Customer Profile Service中标记为“测试配置文件”的个人才能进入测试历程。 请参阅此[章节](../building-journeys/creating-test-profiles.md)。
 * 测试模式仅适用于使用命名空间的草稿历程。 测试模式需要检查进入旅程的人员是否为测试用户档案，因此必须能够访问Adobe Experience Platform。
 * 在测试会话期间可进入历程的测试用户档案的最大数量为100。
@@ -144,9 +144,9 @@ curl -X POST \
 
 >[!NOTE]
 >
->对于需要枚举的字段，将显示下拉列表。 只需选择一个可用值。
+>对于需要枚举的字段，将显示下拉列表。 选择一个可用值即可。
 
-如果您的历程包含多个事件，请使用下拉列表选择一个事件。然后，对于每个事件，配置传递的字段以及事件发送的执行。 界面可帮助您在事件有效载荷中传递正确的信息并确保信息类型正确无误。 测试模式会保存测试会话中使用的最后一个参数以供将来使用。
+如果您的历程包含多个事件，请使用下拉列表选择一个事件。 然后，对于每个事件，配置传递的字段和事件发送的执行。 界面可帮助您在事件有效载荷中传递正确的信息并确保信息类型正确无误。 测试模式会保存测试会话中使用的最后一个参数以供将来使用。
 
 ![](../assets/journeytest4.png)
 
@@ -164,7 +164,7 @@ curl -X POST \
 
 在测试中打开历程时，显示的路径对应于上次执行的测试。
 
-无论事件是通过界面还是外部(例如，使用Postman)触发，可视流均起作用。
+无论事件是通过界面还是外部（例如，使用Postman）触发，可视流均起作用。
 
 ## 基于规则的历程的测试模式 {#test-rule-based}
 
