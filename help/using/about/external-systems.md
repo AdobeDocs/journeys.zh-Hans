@@ -9,8 +9,8 @@ level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 5%
+source-wordcount: '1096'
+ht-degree: 10%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
@@ -40,7 +40,7 @@ Journey Orchestration允许您通过自定义数据源和自定义操作配置�
 
 2. 超时并重试：如果达到了上限规则，Journey Orchestration将尝试执行调用，直到到达超时持续时间结束为止。
 
-## 上限{#capping}
+## 频次封顶{#capping}
 
 内置的Capping API提供有助于保护外部系统的上游技术护栏。
 
@@ -52,7 +52,7 @@ Journey Orchestration允许您通过自定义数据源和自定义操作配置�
 
 上限规则特定于一个端点，但全局适用于沙盒的所有历程。 这意味着沙盒的所有历程之间共享上限插槽。
 
-例如，假设您为外部系统定义了每秒100次调用的上限规则。 在 10 个不同历程中，系统由自定义操作调用。如果一个历程每秒接收200次调用，它将使用可用的100个插槽并放弃剩余的100个插槽。 由于超出了最大使用率，因此其他 9 个历程将没有任何位置。此粒度有助于避免使外部系统出现过载和崩溃。
+例如，假设您为外部系统定义了每秒100次调用的上限规则。 在 10 个不同历程中，系统由自定义操作调用。 如果一个历程每秒接收200次调用，它将使用可用的100个插槽并放弃剩余的100个插槽。 由于超出了最大使用率，因此其他 9 个历程将没有任何位置。 此粒度有助于避免使外部系统出现过载和崩溃。
 
 要了解有关API上限以及如何配置上限规则的更多信息，请参阅[此页面](../api/capping.md)。
 
@@ -78,7 +78,7 @@ Journey Orchestration允许您通过自定义数据源和自定义操作配置�
    * 如果在5秒结束前三次重试均成功，则会执行调用，且不会出现任何错误。
    * 如果在重试期间到达超时时长的结尾，则调用会被取消，并在报表中计为超时错误。
 
-## 常见问题解答{#faq}
+## 常见问题{#faq}
 
 **如何配置上限规则？ 是否存在默认上限规则？**
 
