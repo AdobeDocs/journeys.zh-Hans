@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 9%
+source-wordcount: '421'
+ht-degree: 28%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 如果您使用[Adobe Experience Platform分段服务](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=zh-Hans)创建区段，则可以在[!DNL Journey Orchestration]中利用它们。 通过专门的活动活动，您可以根据Adobe Experience Platform区段入口和出口，让个人进入历程或是在历程中前进。 这还允许您使用简单或高级表达式编辑器在历程中构建复杂条件。
 
-假设您拥有“白银客户”客户细分。通过此活动，您可以使所有新的白银客户进入历程，并向他们发送一系列个性化消息。 您还可以基于此区段轻松构建条件。
+假设您拥有“白银客户”客户细分。 通过此活动，您可以使所有新的白银客户进入历程，并向其发送一系列个性化消息。 您还可以基于此区段轻松构建条件。
 
 以下是[!DNL Journey Orchestration]可为您提供区段的可能性：
 
@@ -48,4 +48,4 @@ ht-degree: 9%
 
 首次定义区段后，用户档案将在符合条件时添加到受众。
 
-从先前数据回填受众最多可能需要 24 小时。回填受众后，受众会持续保持最新状态，并始终准备好用于定位。
+从先前数据回填受众最多可能需要 24 小时。 回填受众后，受众会持续保持最新状态，并始终准备好用于定位。
