@@ -7,17 +7,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
+source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
 
 # 文档更新
 
-此页面列出了 [!DNL Journey Orchestration] 的所有文档更新。
-您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
+此页面列出了 [!DNL Journey Orchestration] 的所有文档更新。您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
 
 ## 2022 年 7 月 {#july-2022}
 
@@ -40,15 +39,10 @@ ht-degree: 100%
 ## 2021 年 9 月
 
 * 以下函数页面已更新：[sethours](../functions/functionsethours.md)、[getListItem](../functions/functiongetlistitem.md)、[inSegment](../functions/functioninsegment.md)
-
 * 添加了以下函数：[filter](../functions/functionfilter.md)、[intersect](../functions/functionintersect.md)、[toDateOnly](../functions/functiontodateonly.md)
-
 * 在表达式编辑器文档中添加了 dateOnly 日期类型。 [了解详情](../expression/data-types.md)
-
 * 添加了有关自定义操作缓存持续时间的详细信息。 [了解详情](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-
 * 添加了有关自定义操作默认端口的信息。 [了解详情](../action/url-configuration.md)
-
 * 添加了在数据湖中查询历程步骤事件的常用示例。 [了解详情](../building-journeys/query-examples.md)
 
 ## 2021 年 8 月
@@ -135,8 +129,7 @@ ht-degree: 100%
 ## 2019 年 12 月 {#december-2019}
 
 * 所有屏幕截图都已更新，以反映界面的更改。
-* 测试模式部分已更新。 [了解更多信息](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hans).-->
+* 测试模式部分已更新。 [了解更多信息  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * 现在可删除已停止的历程。 相关文档页面已更新。
 * 在历程中检测到问题时，会显示两种颜色。 红色表示错误，橙色表示警告。 [了解详情](../about/troubleshooting.md)
 * 高级表达式编辑器部分已更新。 [了解详情](../expression/expressionadvanced.md)。
