@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 1%
+source-wordcount: '796'
+ht-degree: 7%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
@@ -70,8 +70,7 @@ ht-degree: 1%
 
 ## 历程摘要模板 {#ootb-template}
 
-报告分为两类：现成模板和自定义报告。
-现成模板&#x200B;**[!UICONTROL Journey summary]**&#x200B;为您提供了最重要的跟踪数据的清晰视图。
+报告分为两类：现成模板和自定义报告。现成模板&#x200B;**[!UICONTROL Journey summary]**&#x200B;为您提供了最重要的跟踪数据的清晰视图。
 
 ![](../assets/dynamic_report_journey_8.png)
 
