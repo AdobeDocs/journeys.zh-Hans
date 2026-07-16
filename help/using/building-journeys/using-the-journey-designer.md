@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 5%
+source-wordcount: '1492'
+ht-degree: 9%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 历程主页菜单允许您查看历程的&#x200B;**列表**。 创建新历程或单击现有历程以打开&#x200B;**历程设计器的界面**。 设计器由以下区域组成：调色板、画布和活动配置窗格。
 
 ## 历程列表 {#journey_list}
 
-**历程列表**&#x200B;允许您同时查看所有历程、查看其状态并执行基本操作。 您可以重复、停止或删除您的历程。某些操作可能不可用，具体取决于历程。例如，您无法删除或重新启动已关闭的历程。您可以从中创建新版本、复制它或停止它。 您还可以使用搜索栏搜索历程。
+**历程列表**&#x200B;允许您同时查看所有历程、查看其状态并执行基本操作。 您可以重复、停止或删除您的历程。 某些操作可能不可用，具体取决于历程。 例如，您无法删除或重新启动已关闭的历程。 您可以从中创建新版本、复制它或停止它。 您还可以使用搜索栏搜索历程。
 
-单击列表左上角的过滤器图标即可访问 **[!UICONTROL Filters]**。过滤器菜单允许您根据不同的条件（状态、您创建的条件、过去30天内修改的条件、仅限最新版本等）筛选显示的历程。 您还可以选择仅显示使用特定事件、字段组或操作的历程。 可以配置列表中显示的列。 每个用户都会保存所有筛选器和列。
+单击列表左上角的过滤器图标即可访问 **[!UICONTROL Filters]**。 过滤器菜单允许您根据不同的条件（状态、您创建的条件、过去30天内修改的条件、仅限最新版本等）筛选显示的历程。 您还可以选择仅显示使用特定事件、字段组或操作的历程。 可以配置列表中显示的列。 每个用户都会保存所有筛选器和列。
 
 ![](../assets/journey74.png)
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 
 * **仅显示可用项**：在面板中隐藏或显示不可用的元素，例如使用不同于您的历程中使用的命名空间的事件。 默认情况下，不可用项目处于隐藏状态。 如果选择显示它们，它们将显示为灰色。
 
-* **仅显示最近使用的项目**：此筛选器除开箱即用的事件和操作外，还允许您仅显示最近使用的五个事件和操作。 这具体取决于每个用户。默认情况下，将显示所有项目。
+* **仅显示最近使用的项目**：此筛选器除开箱即用的事件和操作外，还允许您仅显示最近使用的五个事件和操作。 这具体取决于每个用户。 默认情况下，将显示所有项目。
 
 ![](../assets/palette-filter.png)
 
@@ -123,5 +123,5 @@ ht-degree: 5%
 1. 按&#x200B;**Ctrl/Command + C**。
 如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
    ![](../assets/copy-paste2.png)
-1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。 粘贴的活动将链接到节点。
+1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
    ![](../assets/copy-paste3.png)
