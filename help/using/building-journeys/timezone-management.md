@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 8%
+source-wordcount: '334'
+ht-degree: 23%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
@@ -53,7 +53,7 @@ ht-degree: 8%
 
 如果历程的进入事件具有命名空间，这意味着历程可以访问Adobe Experience Platform的实时客户个人资料服务，则您可能希望使用在个人资料级别定义的时区。 为此，请在&#x200B;**属性**&#x200B;中选中&#x200B;**在等待和条件中使用配置文件时区**。 默认情况下不选中此选项。
 
-如果已为轮廓定义了时区，则该历程将会检索并使用该时区。如果未指定，则使用的时区将是时区字段中定义的时区。
+如果已为轮廓定义了时区，则该历程将会检索并使用该时区。 如果未指定，则使用的时区将是时区字段中定义的时区。
 
 ![](../assets/journey73.png)
 

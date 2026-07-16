@@ -5,8 +5,8 @@ description: 了解测试用户档案创建
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '745'
+ht-degree: 11%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 在历程中使用测试模式时需要测试配置文件。 要了解如何使用测试模式，请参阅[本节](../building-journeys/testing-the-journey.md)。
 
-可通过多种方式在Adobe Experience Platform中创建测试用户档案。 在本文档中，我们侧重于两种方法：上传[csv文件](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)和使用[API调用](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您还可以在数据集中上传json文件，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=zh-Hans#add-data-to-dataset)。
+可通过多种方式在Adobe Experience Platform中创建测试用户档案。 在本文档中，我们侧重于两种方法：上传[csv文件](../building-journeys/creating-test-profiles.md#create-test-profiles-csv)和使用[API调用](../building-journeys/creating-test-profiles.md#create-test-profiles-api)。 您还可以在数据集中上传json文件，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)。
 
 这些导入方法还允许您更新用户档案属性。 这样，您可以将现有配置文件转换为测试配置文件。 只需使用相似的文件或API调用，并仅包含值为“true”的“testProfile”字段。
 
@@ -50,13 +50,13 @@ mixin列表显示在架构概述屏幕上。
    ![](../assets/test-profiles-3.png)
 1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右侧面板中，检查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;选项并选择命名空间。 如果希望主标识是电子邮件地址，请选择&#x200B;**[!UICONTROL Email]**&#x200B;命名空间。 单击 **[!UICONTROL Apply]**。
    ![](../assets/test-profiles-4.png)
-1. 选择架构并在&#x200B;**[!UICONTROL Schema properties]**&#x200B;中启用&#x200B;**[!UICONTROL Profile]**&#x200B;选项。
+1. 选择架构并在&#x200B;**[!UICONTROL Schema properties]**&#x200B;中启用&#x200B;**[!UICONTROL Profile]**选项。
    ![](../assets/test-profiles-5.png)
 1. 单击 **[!UICONTROL Save]**。
 
 >[!NOTE]
 >
->有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=zh-Hans#prerequisites)。
+>有关创建架构的更多信息，请参阅[XDM文档](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites)。
 
 然后，您需要&#x200B;**创建要在其中导入用户档案的数据集**。 执行以下步骤：
 
@@ -68,12 +68,12 @@ mixin列表显示在架构概述屏幕上。
    ![](../assets/test-profiles-8.png)
 1. 选择一个名称，然后单击&#x200B;**[!UICONTROL Finish]**。
    ![](../assets/test-profiles-9.png)
-1. 启用&#x200B;**[!UICONTROL Profile]**&#x200B;选项。
+1. 启用&#x200B;**[!UICONTROL Profile]**选项。
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hans#getting-started)。
+> 有关创建数据集的详细信息，请参阅[目录服务文档](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started)。
 
 ## 使用csv文件创建测试配置文件{#create-test-profiles-csv}
 
@@ -103,7 +103,7 @@ mixin列表显示在架构概述屏幕上。
 您的测试用户档案已添加，现在可以在测试历程时使用。 请参阅[此小节](../building-journeys/testing-the-journey.md)。
 >[!NOTE]
 >
-> 有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=zh-Hans#tutorials)。
+> 有关csv导入的详细信息，请参阅[数据摄取文档](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials)。
 
 ## 使用API调用创建测试用户档案{#create-test-profiles-api}
 
