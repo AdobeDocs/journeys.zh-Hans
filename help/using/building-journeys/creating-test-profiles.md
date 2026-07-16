@@ -50,7 +50,7 @@ mixin列表显示在架构概述屏幕上。
    ![](../assets/test-profiles-3.png)
 1. 在&#x200B;**[!UICONTROL Field properties]**&#x200B;右侧面板中，检查&#x200B;**[!UICONTROL Identity]**&#x200B;和&#x200B;**[!UICONTROL Primary Identity]**&#x200B;选项并选择命名空间。 如果希望主标识是电子邮件地址，请选择&#x200B;**[!UICONTROL Email]**&#x200B;命名空间。 单击 **[!UICONTROL Apply]**。
    ![](../assets/test-profiles-4.png)
-1. 选择架构并在&#x200B;**[!UICONTROL Schema properties]**&#x200B;中启用&#x200B;**[!UICONTROL Profile]**选项。
+1. 选择架构并在&#x200B;**[!UICONTROL Schema properties]**&#x200B;中启用&#x200B;**[!UICONTROL Profile]**&#x200B;选项。
    ![](../assets/test-profiles-5.png)
 1. 单击 **[!UICONTROL Save]**。
 
@@ -68,7 +68,7 @@ mixin列表显示在架构概述屏幕上。
    ![](../assets/test-profiles-8.png)
 1. 选择一个名称，然后单击&#x200B;**[!UICONTROL Finish]**。
    ![](../assets/test-profiles-9.png)
-1. 启用&#x200B;**[!UICONTROL Profile]**选项。
+1. 启用&#x200B;**[!UICONTROL Profile]**&#x200B;选项。
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
