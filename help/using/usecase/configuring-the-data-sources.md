@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 12%
+source-wordcount: '497'
+ht-degree: 24%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 在我们的用例中，我们希望为消息使用个性化数据。 我们还需要检查此人是否为忠诚会员，以及是否在过去24小时内未与其联系。 此信息存储在Real-time Customer Profile数据库中。 **技术用户**&#x200B;需要配置Adobe Experience Platform数据源以检索这些字段。
@@ -59,16 +59,16 @@ ht-degree: 12%
 
    >[!CAUTION]
    >
-   >出于安全原因，我们强烈建议使用HTTPS。
+   >出于安全原因，我们强烈建议使用 HTTPS。
 
-1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。在我们的示例中，我们为类型选择“基本”，并指定API调用的用户名和密码。
+1. 根据外部服务配置以配置身份验证：**[!UICONTROL No authentication]**、**[!UICONTROL Basic]**、**[!UICONTROL Custom]** 或&#x200B;**[!UICONTROL API key]**。 在我们的示例中，我们为类型选择“基本”，并指定API调用的用户名和密码。
 
    ![](../assets/journeyuc2_10.png)
 
 1. 单击&#x200B;**[!UICONTROL Add a New Field Group]**&#x200B;以定义要检索的信息和API参数。 在我们的示例中，只有一个参数(id)，因此我们需要创建一个包含以下信息的字段组：
 
-   * **[!UICONTROL Method]**：选择 POST 或 GET 方法。在我们的示例中，我们选择 GET 方法。
-   * **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]**&#x200B;字段并粘贴有效负载示例。 验证字段类型是否正确。每次调用 API 时，系统将检索有效负载示例中包含的所有字段。在我们的示例中，有效负载仅包含保留状态：
+   * **[!UICONTROL Method]**：选择 POST 或 GET 方法。 在我们的示例中，我们选择 GET 方法。
+   * **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]**&#x200B;字段并粘贴有效负载示例。 验证字段类型是否正确。 每次调用 API 时，系统将检索有效负载示例中包含的所有字段。 在我们的示例中，有效负载仅包含保留状态：
 
    ```
    {

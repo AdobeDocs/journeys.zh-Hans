@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 92%
+source-wordcount: '912'
+ht-degree: 97%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-**业务用户**&#x200B;现在可以构建历程。我们的历程将包括以下活动：
+**业务用户**&#x200B;现在可以构建历程。 我们的历程将包括以下活动：
 
 * 两个 **[!UICONTROL Event]** 活动：“LobbyBeacon”和“RestaurantBeacon”
 * 两个 **[!UICONTROL Condition]** 活动
@@ -44,23 +44,23 @@ ht-degree: 92%
 
    ![](../assets/journey31.png)
 
-1. 编辑右侧显示的配置窗格中的历程属性。添加名称，并将其设置为持续 1 个月（从 12 月 1 日至 31 日）。
+1. 编辑右侧显示的配置窗格中的历程属性。 添加名称，并将其设置为持续 1 个月（从 12 月 1 日至 31 日）。
 
    ![](../assets/journeyuc2_12.png)
 
-1. 通过将“LobbyBeacon”事件从调色板拖放到画布，开始设计历程。您还可以双击调色板中的事件来将其添加到画布。
+1. 通过将“LobbyBeacon”事件从调色板拖放到画布，开始设计历程。 您还可以双击调色板中的事件来将其添加到画布。
 
    ![](../assets/journeyuc2_13.png)
 
-1. 现在，让我们添加条件，以检查过去 24 小时内是否未联系该人员，并检查其是否是忠诚会员。将条件活动拖放到历程中。
+1. 现在，让我们添加条件，以检查过去 24 小时内是否未联系该人员，并检查其是否是忠诚会员。 将条件活动拖放到历程中。
 
    ![](../assets/journeyuc2_14.png)
 
-1. 选择 **[!UICONTROL Data Source Condition]** 类型，然后在 **[!UICONTROL Expression]** 字段中单击。您还可以定义将在画布中的箭头上显示的条件标签。在示例中，我们将“条件1”替换为“忠诚会员”。
+1. 选择 **[!UICONTROL Data Source Condition]** 类型，然后在 **[!UICONTROL Expression]** 字段中单击。 您还可以定义将在画布中的箭头上显示的条件标签。 在示例中，我们将“条件1”替换为“忠诚会员”。
 
    ![](../assets/journeyuc2_15.png)
 
-1. 单击 **[!UICONTROL Advanced mode]** 并根据来自 Adobe Experience Platform 数据源的“timestamp”和“directMarketing.sends.value”字段定义以下条件。表达式的语法为：
+1. 单击 **[!UICONTROL Advanced mode]** 并根据来自 Adobe Experience Platform 数据源的“timestamp”和“directMarketing.sends.value”字段定义以下条件。 表达式的语法为：
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -72,7 +72,7 @@ ht-degree: 92%
 
    ![](../assets/journeyuc2_30.png)
 
-1. 单击 **[!UICONTROL Add a path]** 按钮，并为过去 24 小时内未联系且不是忠诚度会员的客户创建第二个路径。将路径命名为“不忠诚会员”。表达式的语法为：
+1. 单击 **[!UICONTROL Add a path]** 按钮，并为过去 24 小时内未联系且不是忠诚度会员的客户创建第二个路径。 将路径命名为“不忠诚会员”。 表达式的语法为：
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -86,7 +86,7 @@ ht-degree: 92%
    >
    >在表达式的第二部分中，“轮廓”是可选的。
 
-1. 我们需要选择命名空间。根据架构属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
+1. 我们需要选择命名空间。 根据架构属性预先选择命名空间。 您可以使命名空间保持处于预选状态。 有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
 在我们的用例中，我们只希望对这两种情况做出反应，因此不会选中 **[!UICONTROL Show path for other cases than the one(s) above]** 框。
 
@@ -99,7 +99,7 @@ ht-degree: 92%
 
 ## 第一个路径：客户是忠诚会员 {#section_otb_ws1_ffb}
 
-1. 在第一个路径中，让我们添加条件来检查客户是否有预订。将条件活动拖放到历程中。
+1. 在第一个路径中，让我们添加条件来检查客户是否有预订。 将条件活动拖放到历程中。
 
    ![](../assets/journeyuc2_17.png)
 
@@ -111,7 +111,7 @@ ht-degree: 92%
 
    ![](../assets/journeyuc2_18.png)
 
-1. 从外部数据源选择字段时，屏幕的右侧部分显示配置外部数据源时定义的参数列表（请参阅[此页面](../usecase/configuring-the-data-sources.md)）。单击参数名称并定义预订系统键（在我们的示例中为 Experience Cloud ID）的值：
+1. 从外部数据源选择字段时，屏幕的右侧部分显示配置外部数据源时定义的参数列表（请参阅[此页面](../usecase/configuring-the-data-sources.md)）。 单击参数名称并定义预订系统键（在我们的示例中为 Experience Cloud ID）的值：
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -143,21 +143,21 @@ ht-degree: 92%
      @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
      ```
 
-1. 定义推送通知个性化字段。在我们的示例中：名字和姓氏。
+1. 定义推送通知个性化字段。 在我们的示例中：名字和姓氏。
 
 1. 添加“RestaurantBeacon”事件。
 
    ![](../assets/journeyuc2_23.png)
 
-1. 添加新 **[!UICONTROL Push]** 活动，选择“餐饮折扣”模板并定义 **[!UICONTROL Address]** 和 **[!UICONTROL Personalization]** 字段。添加 **[!UICONTROL End]** 活动。
+1. 添加新 **[!UICONTROL Push]** 活动，选择“餐饮折扣”模板并定义 **[!UICONTROL Address]** 和 **[!UICONTROL Personalization]** 字段。 添加 **[!UICONTROL End]** 活动。
 
    ![](../assets/journeyuc2_24.png)
 
-1. 我们希望仅当客人在欢迎推送后的 6 小时内进入餐厅时发送餐饮折扣推送通知。为此，我们需要使用等待活动。将光标放在欢迎推送活动上并单击“+”符号。在新路径中，添加等待活动并定义 6 小时的持续时间。将选择第一个符合条件的活动。如果在欢迎推送后不到 6 小时收到餐馆事件，则发送推送活动。如果在未来 6 小时内未收到餐馆事件，则选择等待。在等待活动后放置 **[!UICONTROL End]** 活动。
+1. 我们希望仅当客人在欢迎推送后的 6 小时内进入餐厅时发送餐饮折扣推送通知。 为此，我们需要使用等待活动。 将光标放在欢迎推送活动上并单击“+”符号。 在新路径中，添加等待活动并定义 6 小时的持续时间。 将选择第一个符合条件的活动。 如果在欢迎推送后不到 6 小时收到餐馆事件，则发送推送活动。 如果在未来 6 小时内未收到餐馆事件，则选择等待。 在等待活动后放置 **[!UICONTROL End]** 活动。
 
    ![](../assets/journeyuc2_31.png)
 
-1. 在遵循预订条件（未预订房间）的第二个路径中，添加 **[!UICONTROL Push]** 活动并选择“房费”模板。添加 **[!UICONTROL End]** 活动。
+1. 在遵循预订条件（未预订房间）的第二个路径中，添加 **[!UICONTROL Push]** 活动并选择“房费”模板。 添加 **[!UICONTROL End]** 活动。
 
    ![](../assets/journeyuc2_25.png)
 
@@ -177,7 +177,7 @@ ht-degree: 92%
 
 1. 添加 **[!UICONTROL End]** 活动。
 
-单击 **[!UICONTROL Test]** 切换并测试您的历程。如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
+单击 **[!UICONTROL Test]** 切换并测试您的历程。 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。 有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
 
 ![](../assets/journeyuc2_32bis.png)
 
