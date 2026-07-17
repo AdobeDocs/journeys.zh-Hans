@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 2%
+source-wordcount: '482'
+ht-degree: 17%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-## 目的 {#purpose}
+## 用途 {#purpose}
 
 以一个叫马尔顿的酒店品牌为例。 在酒店里，他们在所有战略区域附近都放置了信标设备：大厅、地板、餐厅、健身房、游泳池等。
 
@@ -40,8 +40,8 @@ ht-degree: 2%
 
 * 如果此人员不是忠诚会员，我们向他们发送电子邮件，让他们加入忠诚会员资格优惠。
 * 如果此人已经是忠诚会员，我们会检查他是否有订房：
-   * 如果他没有，我们会向他们发送包含房费的推送通知。
-   * 如果是，我们会向他们发送欢迎推送通知。 如果他在接下来的6小时内进餐厅，我们会给他们发一则推送通知，并附上一顿饭的折扣。
+  * 如果他没有，我们会向他们发送包含房费的推送通知。
+  * 如果是，我们会向他们发送欢迎推送通知。 如果他在接下来的6小时内进餐厅，我们会给他们发一则推送通知，并附上一顿饭的折扣。
 
 ![](../assets/journeyuc2_29.png)
 
@@ -57,11 +57,11 @@ ht-degree: 2%
 
 ## 先决条件 {#prerequisites}
 
-在我们的用例中，我们设计了三个Adobe Campaign Standard事务性消息传递模板。 我们正在使用事件事务性消息模板。 请参阅此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
+在我们的用例中，我们设计了三个Adobe Campaign Standard事务性消息传递模板。 我们正在使用事件事务性消息模板。 请参见[此页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
 
 Adobe Campaign Standard配置为发送电子邮件和推送通知。
 
-Experience Cloud ID用作酒店预订系统中标识客户的键。
+Experience Cloud ID用作酒店预订系统中识别客户的键。
 
 当客户在信标附近检测到事件时，会从客户的手机发送事件。 您需要设计一个移动应用程序，以将事件从客户的手机发送到Mobile SDK。
 
