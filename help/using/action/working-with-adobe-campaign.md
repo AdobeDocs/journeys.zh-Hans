@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 2%
+source-wordcount: '366'
+ht-degree: 17%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 您可以使用Adobe Campaign Standard的事务性消息传送功能发送电子邮件、推送通知和短信。
@@ -56,7 +56,7 @@ ht-degree: 2%
    >
    >与此Adobe Campaign Standard实例关联的组织与Journey Orchestration的组织相同。
 
-设计历程时，**[!UICONTROL Action]**&#x200B;类别中将提供三个操作： **[!UICONTROL Email]**、**[!UICONTROL Push]**、**[!UICONTROL SMS]**(请参阅[使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-actions.md))。 **反应事件**&#x200B;还将允许您对消息点击次数、打开次数等做出反应。 （请参阅[反应事件](../building-journeys/reaction-events.md)）。
+设计历程时，**[!UICONTROL Action]**&#x200B;类别中将提供三个操作： **[!UICONTROL Email]**、**[!UICONTROL Push]**、**[!UICONTROL SMS]**（请参阅[使用Adobe Campaign操作](../building-journeys/using-adobe-campaign-actions.md)）。 **反应事件**&#x200B;还将允许您对消息点击次数、打开次数等做出反应（请参阅[反应事件](../building-journeys/reaction-events.md)）。
 
 ![](../assets/journey58.png)
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 10%
+source-wordcount: '614'
+ht-degree: 11%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->**希望了解 Adobe Journey Optimizer**？请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 字段引用可以附加到事件或字段组。 唯一有意义的信息是字段的名称及其路径。
@@ -30,7 +30,7 @@ ht-degree: 10%
 
 * 该字段以数字字符开头
 * 字段以“ — ”字符开头
-* 该字段包含&#x200B;_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_&#x200B;以外的任何内容
+* 该字段包含&#x200B;_a_-_z_、_A_-_Z_、_0_-_9_、_、_-_以外的任何内容
 
 例如，如果您的字段是&#x200B;_3h_： _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5436602f-af7a-41db-8b10-d3d28a6d0cd0
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 22%
+source-wordcount: '231'
+ht-degree: 44%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
@@ -29,7 +29,7 @@ ht-degree: 22%
 
 ![](../assets/journey58.png)
 
-这些活动代表各种的可用通信渠道。您可以将它们组合在一起，创建跨渠道方案。
+这些活动代表各种的可用通信渠道。 您可以将它们组合在一起，创建跨渠道方案。
 
 如果您有Adobe Campaign Standard，则以下现成的操作活动可用： **[!UICONTROL Email]**、**[!UICONTROL Push]**&#x200B;和&#x200B;**[!UICONTROL SMS]**。 请参见[此页面](../building-journeys/using-adobe-campaign-actions.md)。
 
@@ -39,4 +39,4 @@ ht-degree: 22%
 
 ![](../assets/journey59bis.png)
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。 使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。

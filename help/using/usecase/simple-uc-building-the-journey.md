@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 33%
+source-wordcount: '456'
+ht-degree: 50%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 33%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-**业务用户**&#x200B;现在可以构建历程。我们的历程将仅包含一个包含以下活动的路径：
+**业务用户**&#x200B;现在可以构建历程。 我们的历程将仅包含一个包含以下活动的路径：
 
 * “SpaBeacon” **[!UICONTROL Event]**：当某人靠近spa信标时，系统将收到一个事件，并将为该人员开始历程。
 * **[!UICONTROL Condition]**&#x200B;活动以检查此人是否为女性
-* **[!UICONTROL Email]**&#x200B;活动(使用Adobe Campaign Standard)
+* **[!UICONTROL Email]**&#x200B;活动（使用Adobe Campaign Standard）
 * **[!UICONTROL End]**&#x200B;活动
 
 >[!NOTE]
@@ -41,7 +41,7 @@ ht-degree: 33%
 
    ![](../assets/journey31.png)
 
-1. 编辑右侧显示的配置窗格中的历程属性。我们将其命名为“Spa journey”，并将其设置为持续1个月（从12月1日至31日）。
+1. 编辑右侧显示的配置窗格中的历程属性。 我们将其命名为“Spa journey”，并将其设置为持续1个月（从12月1日至31日）。
 
    ![](../assets/journeyuc1_8.png)
 
@@ -53,7 +53,7 @@ ht-degree: 33%
 
    ![](../assets/journeyuc1_10.png)
 
-1. 选择 **[!UICONTROL Data Source Condition]** 类型，然后在 **[!UICONTROL Expression]** 字段中单击。您还可以定义将在画布的箭头上显示的条件标签。
+1. 选择 **[!UICONTROL Data Source Condition]** 类型，然后在 **[!UICONTROL Expression]** 字段中单击。 您还可以定义将在画布中的箭头上显示的条件标签。
 
    ![](../assets/journeyuc1_11.png)
 
@@ -61,7 +61,7 @@ ht-degree: 33%
 
    ![](../assets/journeyuc1_12.png)
 
-1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活动并选择“Spa折扣”事务型消息模板。 此模板是使用Adobe Campaign设计的。 请参阅此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
+1. 拖放&#x200B;**[!UICONTROL Email]**&#x200B;活动并选择“Spa折扣”事务型消息模板。 此模板是使用Adobe Campaign设计的。 请参见[此页面](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)。
 
    ![](../assets/journeyuc1_13.png)
 
@@ -77,7 +77,7 @@ ht-degree: 33%
 
    ![](../assets/journeyuc1_17.png)
 
-1. 单击&#x200B;**[!UICONTROL Test]**&#x200B;切换并使用测试配置文件测试您的历程。 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
+1. 单击&#x200B;**[!UICONTROL Test]**&#x200B;切换并使用测试配置文件测试您的历程。 如果有任何错误，请取消激活测试模式，修改历程并再次进行测试。 有关测试模式的更多信息，请参阅[此页面](../building-journeys/testing-the-journey.md)。
 
    ![](../assets/journeyuc1_18bis.png)
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 12%
+source-wordcount: '506'
+ht-degree: 21%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-此集成适用于Adobe Campaign Classic v7（从21.1版本开始）和Adobe Campaign v8。 通过它，可使用 Adobe Campaign 交易型消息传递功能发送电子邮件、推送通知和短信。
+此集成适用于Adobe Campaign Classic v7（从21.1版本开始）和Adobe Campaign v8。 通过它，可使用 Adobe Campaign 事务性消息传递功能发送电子邮件、推送通知和短信。
 
 Journey Orchestration 实例和 Campaign 实例之间的连接是在配置时通过 Adobe 来设置的。
 
@@ -46,7 +46,7 @@ Journey Orchestration 实例和 Campaign 实例之间的连接是在配置时通
 
 ## 先决条件
 
-在Campaign中，您需要创建和发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=zh-Hans#transactional-messaging)。
+在Campaign中，您需要创建和发布事务型消息及其关联的事件。 请参阅[Adobe Campaign文档](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging)。
 
 您可以按照以下模式构建与每条消息对应的JSON有效负载。 然后，在Journey Orchestration中配置操作时，您会粘贴此有效负载（请参阅下文）
 

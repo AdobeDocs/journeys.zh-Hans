@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 13%
+source-wordcount: '219'
+ht-degree: 44%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 13%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。利用此功能，可使用Adobe Campaign事务性消息传送功能发送电子邮件、推送通知和短信。
+如果您使用 Adobe Campaign v7 或 v8，则可以利用集成。 利用此功能，可使用Adobe Campaign事务性消息传送功能发送电子邮件、推送通知和短信。
 
-Journey Orchestration实例和Campaign实例之间的连接是在预配时由Adobe设置的。 联系Adobe。
+Journey Orchestration 实例和 Campaign 实例之间的连接是在配置时通过 Adobe 来设置的。 联系Adobe。
 
 要使此功能正常工作，您需要配置专用操作。 请参阅此[章节](../action/acc-action.md)。
 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 3%
+source-wordcount: '546'
+ht-degree: 15%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 [!DNL Journey Orchestration]自动将旅程性能数据发送到Adobe Experience Platform，以便与其他数据结合进行分析。
@@ -70,4 +70,4 @@ Journey Orchestration步骤事件可以链接到[Adobe Customer Journey Analytic
 
 * Customer Journey Analytics摄取“历程步骤事件”数据集。
 * 关联的“Journey Orchestration的历程步骤事件架构”中的&#x200B;**profileID**&#x200B;字段被定义为标识字段。 在Customer Journey Analytics中，您可以将此数据集链接到与基于人员的标识符具有相同值的任何其他数据集。
-* 如果要在Customer Journey Analytics中使用此数据集，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=zh-Hans)以进行跨渠道历程分析。
+* 如果要在Customer Journey Analytics中使用此数据集，请参阅此[文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html)以进行跨渠道历程分析。

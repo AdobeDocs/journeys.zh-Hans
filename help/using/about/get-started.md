@@ -7,8 +7,8 @@ role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '367'
+workflow-type: tm+mt
+source-wordcount: '380'
 ht-degree: 100%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->**希望了解 Adobe Journey Optimizer**？请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
 
-在 [!DNL Journey Orchestration] 中，有两种用户，每种用户都执行特定任务：**技术用户**&#x200B;和&#x200B;**商业用户。**&#x200B;用户访问权限通过产品配置文件和权限进行管理。请参阅[此页面](../about/access-management.md)以了解如何配置用户访问权限。
+在 [!DNL Journey Orchestration] 中，有两种用户，每种用户都执行特定任务：**技术用户**&#x200B;和&#x200B;**商业用户。** 用户访问权限通过产品配置文件和权限进行管理。 请参阅[此页面](../about/access-management.md)以了解如何配置用户访问权限。
 
 以下是配置和使用 [!DNL Journey Orchestration] 的主要步骤：
 
 1. **配置事件**
 
-   您需要定义预期信息以及如何处理信息。此配置是强制性的。此步骤由&#x200B;**技术用户**&#x200B;执行。
+   您需要定义预期信息以及如何处理信息。 此配置是强制性的。 此步骤由&#x200B;**技术用户**&#x200B;执行。
 
    有关详细信息，请参见[此页面](../event/about-events.md)。
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 1. **配置数据源**
 
-   您需要定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。在预配时还会配置内置 Adobe Experience Platform 数据源。如果您仅利用历程中事件的数据，则不需要执行此步骤。此步骤由&#x200B;**技术用户**&#x200B;执行。
+   您需要定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 在预配时还会配置内置 Adobe Experience Platform 数据源。 如果您仅利用历程中事件的数据，则不需要执行此步骤。 此步骤由&#x200B;**技术用户**&#x200B;执行。
 
    有关详细信息，请参见[此页面](../datasource/about-data-sources.md)。
 
@@ -48,9 +48,9 @@ ht-degree: 100%
 
 1. **配置操作**
 
-   如果您使用第三方系统来发送消息，则需要配置其与 [!DNL Journey Orchestration] 的连接。请参阅[此页](../action/about-custom-action-configuration.md)。
+   如果您使用第三方系统来发送消息，则需要配置其与 [!DNL Journey Orchestration] 的连接。 请参阅[此页](../action/about-custom-action-configuration.md)。
 
-   如果您使用 Adobe Campaign Standard 来发送消息，则需要配置内置操作。请参阅[此页](../action/working-with-adobe-campaign.md)。
+   如果您使用 Adobe Campaign Standard 来发送消息，则需要配置内置操作。 请参阅[此页](../action/working-with-adobe-campaign.md)。
 
    这些步骤由&#x200B;**技术用户**&#x200B;执行。
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 1. **设计您的历程**
 
-   结合不同的事件、编排和操作活动，构建多步跨渠道方案。此步骤由&#x200B;**商业用户**&#x200B;执行。
+   结合不同的事件、编排和操作活动，构建多步跨渠道方案。 此步骤由&#x200B;**商业用户**&#x200B;执行。
 
    有关更多信息，请参阅[此页面](../building-journeys/journey.md)。
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 1. **测试并发布历程**
 
-   您需要验证并激活历程。此步骤由&#x200B;**商业用户**&#x200B;执行。
+   您需要验证并激活历程。 此步骤由&#x200B;**商业用户**&#x200B;执行。
 
    有关更多信息，请参阅页面[测试历程](../building-journeys/testing-the-journey.md)和[发布历程](../building-journeys/publishing-the-journey.md)。
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 1. **监控您的历程**
 
-   使用专用的报告工具衡量历程的有效性。此步骤由&#x200B;**商业用户**&#x200B;执行。
+   使用专用的报告工具衡量历程的有效性。 此步骤由&#x200B;**商业用户**&#x200B;执行。
 
    有关更多信息，请参阅[此页面](../reporting/about-journey-reports.md)。
 

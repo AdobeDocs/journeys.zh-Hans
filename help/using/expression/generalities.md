@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 19%
+source-wordcount: '278'
+ht-degree: 21%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 19%
 
 >[!CAUTION]
 >
->**希望了解 Adobe Journey Optimizer**？请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 ## 括号和表达式优先级{#section_edf_fks_bgb}
@@ -41,7 +41,7 @@ ht-degree: 19%
 
 以下是不同的区分大小写规则：
 
-* 所有运算符（和、或等）都应小写。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的表达式，而表达式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;则无效。
+* 所有运算符（and、or等） 应该写成小写。 例如，_`<expression1>`和`<expression2>`_&#x200B;是有效的表达式，而表达式&#x200B;_`<expression1>`AND`<expression2>`_&#x200B;则无效。
 * 所有函数名称都区分大小写。 例如，_inSegment()_&#x200B;有效，而函数&#x200B;_INSEGMENT()_&#x200B;无效。
 * 字段引用和常量值区分大小写：它们不是语言的内置元素（与运算符和函数相反），而是由最终用户创作。
 
@@ -53,4 +53,4 @@ ht-degree: 19%
 |--- |--- |
 | 条件（数据源条件、日期条件） | 布尔 |
 | 自定义计时器 | dateTimeOnly |
-| 操作参数映射 | 任何 |
+| 操作参数映射 | “任一” |

@@ -127,20 +127,20 @@ ht-degree: 92%
 * 端点上 HTTP 请求的方法（GET 或 POST）
 * 标头：键/值对将作为标头插入此调用（如果需要）
 * 主体：描述在方法为 POST 时调用的主体。 我们支持一个有限的主体结构，在 bodyParams（键/值对）中定义。 bodyType 描述调用中主体的格式和编码：
-   * “form”：表示内容类型将为 application/x-www-form-urlencoded (charset UTF-8)，键/值对将按如下方式序列化：key1=value1&amp;key2=value2&amp;...
-   * “json”：表示内容类型将为 application/json (charset UTF-8)，并且键值对将序列化为 json 对象，如下所示：_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+  * “form”：表示内容类型将为 application/x-www-form-urlencoded (charset UTF-8)，键/值对将按如下方式序列化：key1=value1&amp;key2=value2&amp;...
+  * “json”：表示内容类型将为 application/json (charset UTF-8)，并且键值对将序列化为 json 对象，如下所示：_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 在操作的 HTTP 请求中必须插入访问令牌方式的定义：
 
 * authorizationType：定义如何在操作的 HTTP 调用中插入生成的访问令牌。 可能的值包括：
 
-   * 载体：指示必须在授权标头中插入的访问令牌，如：_授权：载体&lt;access token>_
-   * 标头：指示必须将访问令牌作为标头插入，即由 tokenTarget 属性定义的标头名。 例如，如果 tokenTarget 是 myHeader，则访问令牌将作为标头插入：_myHeader：&lt;access token>_
-   * queryParam：指示访问令牌必须作为 queryParam 插入，即由属性 tokenTarget 定义的查询参数名称。 例如，如果 tokenTarget 是 myQueryParam，则操作调用的 URL 将为：_&lt;url>?myQueryParam=&lt;access token>_
+  * 载体：指示必须在授权标头中插入的访问令牌，如：_授权：载体&lt;access token>_
+  * 标头：指示必须将访问令牌作为标头插入，即由 tokenTarget 属性定义的标头名。 例如，如果 tokenTarget 是 myHeader，则访问令牌将作为标头插入：_myHeader：&lt;access token>_
+  * queryParam：指示访问令牌必须作为 queryParam 插入，即由属性 tokenTarget 定义的查询参数名称。 例如，如果 tokenTarget 是 myQueryParam，则操作调用的 URL 将为：_&lt;url>?myQueryParam=&lt;access token>_
 
 * tokenInResponse：指示如何从身份验证调用中提取访问令牌。 此属性可以是：
-   * “response”：指示 HTTP 响应是访问令牌
-   * json 中的选择器（假定响应是 json，我们不支持 XML 等其他格式）。 此选择器的格式为 _json://&lt;path to the access token property>_。 例如，如果调用的响应为 _{ &quot;access_ token&quot;: &quot;theToken&quot;、&quot;timestamp&quot;: 12323445656 }_，则 tokenInResponse 将为_ json: //access_token_
+  * “response”：指示 HTTP 响应是访问令牌
+  * json 中的选择器（假定响应是 json，我们不支持 XML 等其他格式）。 此选择器的格式为 _json://&lt;path to the access token property>_。 例如，如果调用的响应为 _{ &quot;access_ token&quot;: &quot;theToken&quot;、&quot;timestamp&quot;: 12323445656 }_，则 tokenInResponse 将为_ json: //access_token_
 
 此身份验证的格式为：
 

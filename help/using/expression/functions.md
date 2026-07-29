@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 函数
+title: 功能
 description: 了解函数
 feature: Journeys
 role: Developer
@@ -8,25 +8,25 @@ level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '231'
 ht-degree: 77%
 
 ---
 
-# 函数 {#concept_p1r_qj5_dgb}
+# 功能 {#concept_p1r_qj5_dgb}
 
 
 >[!CAUTION]
 >
->**希望了解 Adobe Journey Optimizer**？请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 一个函数可以有不同的特征码（一组不同的有序参数）。 函数签名可以有0-N个表达式作为有序参数。
 
-`<function name>`(`<expression as param 1>`， `<expression as param 2>`， ... ，`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 每个函数都有一个特定的返回类型。
 

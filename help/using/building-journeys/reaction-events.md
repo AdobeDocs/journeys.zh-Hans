@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 2%
+source-wordcount: '475'
+ht-degree: 13%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
@@ -44,11 +44,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->无论反应事件部署在Adobe Campaign Standard上还是AWS服务器上，均可与它配合使用。
+>无论反应事件是部署在Adobe Campaign Standard上还是AWS服务器上，它都可以与Azure配合使用。
 >
 >反应事件无法跟踪在其他历程中发生的电子邮件、短信或推送操作。
 >
->反应事件跟踪“已跟踪”类型链接的点击次数（请参阅此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=zh-Hans#about-tracked-urls)）。 未考虑退订和镜像页面链接。
+>反应事件跟踪“已跟踪”类型链接的点击次数（请参阅此[页面](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)）。 未考虑退订和镜像页面链接。
 
 >[!IMPORTANT]
 >

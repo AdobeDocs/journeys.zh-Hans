@@ -22,7 +22,7 @@ Journey Orchestration是一项基于Adobe Experience Platform构建的服务，�
 
 ## 为何要迁移到Adobe Journey Optimizer？
 
-**访问简化的界面**，其中具有Experience Platform功能，可快速访问历程、数据集、用户档案、警报等。 无需在Adobe Experience Platform和Journey Orchestration之间来回切换即可访问架构或数据集，所有内容均可直接从Adobe Journey Optimizer获得。 有关详细信息，请参阅此[页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=zh-Hans)。
+**访问简化的界面**，其中具有Experience Platform功能，可快速访问历程、数据集、用户档案、警报等。 无需在Adobe Experience Platform和Journey Orchestration之间来回切换即可访问架构或数据集，所有内容均可直接从Adobe Journey Optimizer获得。 有关详细信息，请参阅此[页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html)。
 
 <table>
 <tr>
@@ -90,8 +90,8 @@ Journey Orchestration是一项基于Adobe Experience Platform构建的服务，�
 
 迁移到Adobe Journey Optimizer后，您仍然能够使用历程与Adobe Campaign Standard之间的集成，方法是在Adobe Journey Optimizer中设计客户历程并让Adobe Campaign Standard发送投放。
 
-但是，由于Adobe Journey Optimizer报表栈栈的工作方式，报表不会将历程数据与Campaign Standard数据相结合。 历程信息可在Adobe Journey Optimizer报表中获取，投放信息可在Adobe Campaign Standard中获取。 可以对Experience Platform进行配置，以将Adobe Campaign Standard数据导入Adobe Experience Platform，使其可供Customer Journey Analytics （[了解更多](https://business.adobe.com/cn/products/experience-platform/customer-journey-analytics.html)）或其他第三方报表工具（如Tableau或PowerBI）使用。
+但是，由于Adobe Journey Optimizer报表栈栈的工作方式，报表不会将历程数据与Campaign Standard数据相结合。 历程信息可在Adobe Journey Optimizer报表中获取，投放信息可在Adobe Campaign Standard中获取。 可以对Experience Platform进行配置，以将Adobe Campaign Standard数据导入Adobe Experience Platform，使其可供Customer Journey Analytics （[了解更多](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)）或其他第三方报表工具（如Tableau或PowerBI）使用。
 
-Adobe Journey Optimizer报表在使用Adobe Journey Optimizer的现成消息传送功能时操作最佳（可在专门的Adobe Journey Optimizer产品中获取）。 有关如何在历程画布中创作消息的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=zh-Hans)。
+Adobe Journey Optimizer报表在使用Adobe Journey Optimizer的现成消息传送功能时操作最佳（可在专门的Adobe Journey Optimizer产品中获取）。 有关如何在历程画布中创作消息的更多信息，请参阅此[页面](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html)。
 
 请联系您的帐户团队以了解更多信息。

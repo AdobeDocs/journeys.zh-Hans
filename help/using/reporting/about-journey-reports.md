@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '776'
 ht-degree: 7%
 
 ---
@@ -70,7 +70,8 @@ ht-degree: 7%
 
 ## 历程摘要模板 {#ootb-template}
 
-报告分为两类：现成模板和自定义报告。现成模板&#x200B;**[!UICONTROL Journey summary]**&#x200B;为您提供了最重要的跟踪数据的清晰视图。
+报告分为两类：现成模板和自定义报告。
+现成模板**[!UICONTROL Journey summary]**&#x200B;为您提供了最重要的跟踪数据的清晰视图。
 
 ![](../assets/dynamic_report_journey_8.png)
 

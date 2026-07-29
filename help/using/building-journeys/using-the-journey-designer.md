@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 9%
+source-wordcount: '1397'
+ht-degree: 10%
 
 ---
 
@@ -118,10 +118,10 @@ ht-degree: 9%
 以下是复制/粘贴活动的步骤：
 
 1. 打开历程。
-1. 单击时移动鼠标，选择要复制的活动。 在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。 如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
+1. 单击时移动鼠标，选择要复制的活动。在按&#x200B;**Ctrl/Command**&#x200B;键时，您还可以单击每个活动。如果要选择所有活动，请使用&#x200B;**Ctrl/Command + A**。
    ![](../assets/copy-paste1.png)
 1. 按&#x200B;**Ctrl/Command + C**。
-如果只想复制一个活动，可以单击该活动并使用活动配置窗格左上角的&#x200B;**复制**&#x200B;图标。
+如果只想复制一个活动，则可以单击该活动并使用活动配置窗格左上角的**复制**图标。
    ![](../assets/copy-paste2.png)
-1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。 粘贴的活动将按相同顺序放置。 粘贴后，活动将保持选中状态，以便您轻松移动活动。 您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
+1. 在任何历程中，按&#x200B;**Ctrl/Command + V**&#x200B;粘贴活动而不将其链接到现有节点。粘贴的活动将按相同顺序放置。粘贴后，活动将保持选中状态，以便您轻松移动活动。您还可以将光标放在空的占位符上并点击&#x200B;**Ctrl/Command + V**。粘贴的活动将链接到节点。
    ![](../assets/copy-paste3.png)

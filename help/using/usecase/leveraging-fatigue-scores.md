@@ -4,8 +4,8 @@ title: 利用疲劳分数
 description: 了解如何在历程中利用疲劳分数
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 4%
+source-wordcount: '262'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->预测疲劳得分功能仅适用于使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hans)的客户。
+>预测疲劳得分功能仅适用于使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)的客户。
 
 ## 配置事件 {#section_ptb_ws1_ffb}
 
@@ -50,7 +50,7 @@ ht-degree: 4%
 
    ![](../assets/journeyuc2_14.png)
 
-1. 选择&#x200B;**[!UICONTROL Data Source Condition]**&#x200B;类型并单击&#x200B;**[!UICONTROL Expression]**&#x200B;字段。
+1. 选择 **[!UICONTROL Data Source Condition]** 类型，然后在 **[!UICONTROL Expression]** 字段中单击。
 
    ![](../assets/journeyuc3_2.png)
 
