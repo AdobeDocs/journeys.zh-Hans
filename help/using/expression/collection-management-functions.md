@@ -8,7 +8,7 @@ level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
 source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '567'
 ht-degree: 3%
 
 ---
@@ -171,8 +171,8 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**&#x200B;仅在处理事件集合和&#x200B;**currentDataPackField时可用**
->处理数据源集合时。 处理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;的集合时，我们>逐个循环集合的每个元素。 **[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
+>**[!UICONTROL currentEventField]**&#x200B;仅在处理事件集合和&#x200B;**currentDataPackField**&#x200B;时可用
+>处理数据源集合时>。处理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;的集合时，我们>逐个循环处理集合的每个元素。**[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
 >对应于正在循环的元素。
 
 **函数“first(`<condition>`)”和“last(`<condition>`)”**

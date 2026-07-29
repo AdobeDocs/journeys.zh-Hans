@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 83%
+source-wordcount: '895'
+ht-degree: 86%
 
 ---
 
@@ -73,7 +73,7 @@ Swagger 文件中也对这两个 API 进行了说明，请点击[此处](https:/
 >
 >已弃用用于生成访问令牌的JWT方法。 必须使用[OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hans#select-oauth-server-to-server)创建所有新集成。 Adobe 还建议您将现有集成迁移到 OAuth 方法。
 >
->请阅读以下重要文档：应用程序从JWT到OAuth&rbrack;(https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的迁移指南，OAuth&rbrack;(https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的新旧应用程序的实施指南，使用OAuth服务器到服务器凭据方法的优势&rbrack;(https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>请阅读以下重要文档：>[应用程序从JWT迁移到OAuth的迁移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，>[新旧应用程序与OAuth的实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)，>[使用OAuth服务器到服务器凭据方法的优势](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 要建立安全的服务到服务 Adobe I/O API 会话，对 Adobe 服务提出的每个请求都必须在“Authorization”标头中包含以下信息。
 

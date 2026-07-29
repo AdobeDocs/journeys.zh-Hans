@@ -8,7 +8,7 @@ level: Experienced
 exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '106'
 ht-degree: 9%
 
 ---
@@ -51,4 +51,4 @@ ht-degree: 9%
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-返回明天晚上8:XY，XY是当前时间评估时刻的分钟数。 如果评估发生在凌晨2:45，则返回的时间将为晚上8:45。
+返回明天晚上8:XY，XY是当前时间评估时刻的分钟数。 如果评估在凌晨2:45进行，则返回时间将为晚上8:45。

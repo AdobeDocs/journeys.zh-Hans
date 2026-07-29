@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: e7cba6c4-a231-44f9-927a-10115e7ab1dd
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 3%
+source-wordcount: '385'
+ht-degree: 16%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 配置自定义操作时，您需要定义以下&#x200B;**[!UICONTROL URL Configuration]**&#x200B;参数：
@@ -35,7 +35,7 @@ ht-degree: 3%
 
    * 如果URL包含动态路径，则仅输入URL的静态部分，即方案、主机、端口，以及（可选）路径的静态部分。
 
-     示例：`https://xxx.yyy.com/somethingstatic/`
+     示例: `https://xxx.yyy.com/somethingstatic/`
 
      将自定义操作添加到历程时，您将指定URL的动态路径。 [了解详情](../building-journeys/using-custom-actions.md)。
 

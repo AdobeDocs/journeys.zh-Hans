@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 91%
+source-wordcount: '835'
+ht-degree: 95%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 91%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 节流API可帮助您创建、配置和监视节流配置，以限制每秒发送的事件数。
 
 >[!IMPORTANT]
 >
->目前，仅允许为每个组织使用一个配置。必须在生产沙盒上定义配置（通过标头中的 x-sandbox-name 提供）。
+>目前，仅允许为每个组织使用一个配置。 必须在生产沙盒上定义配置（通过标头中的 x-sandbox-name 提供）。
 >
 >配置会在组织级别应用。
 >
->当达到 API 中设置的限制时，后续事件将排队等待 6 小时。无法修改此值。
+>当达到 API 中设置的限制时，后续事件将排队等待 6 小时。 无法修改此值。
 
 ## API 限制说明 {#description}
 
@@ -48,9 +48,9 @@ ht-degree: 91%
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 检索限制配置 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 删除限制配置 |
 
-## 限制配置{#configuration}
+## 限制配置 {#configuration}
 
-以下是限制配置的结构。**name** 和 **description** 属性是可选项。
+以下是限制配置的结构。 **name** 和 **description** 属性是可选项。
 
 ```
 {
@@ -95,7 +95,7 @@ ht-degree: 91%
 * **ERR_THROTTLING_CONFIG_104**：限制配置：格式错误的 URL 模式
 * **ERR_THROTTLING_CONFIG_105**：限制配置：URL 模式的主机部分不允许使用通配符
 * **ERR_THROTTLING_CONFIG_106**：限制配置：无效负载
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**，“无法删除已部署的限制配置。请在删除之前取消部署”
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**，“无法删除已部署的限制配置。 请在删除之前取消部署”
 * **THROTTLING_CONFIG_DELETE_ERROR: 1457**，“无法删除限制配置：发生意外错误”
 * **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**，“无法部署限制配置：发生意外错误”
 * **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**，“无法取消部署限制配置：发生意外错误”
@@ -149,8 +149,8 @@ ht-degree: 91%
 
 下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
 * `{JO_HOST}`：[!DNL Journey Orchestration]网关 URL
-* `{BASE_PATH}`：API 的入口点。值为“/authoring”
-* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
+* `{BASE_PATH}`：API 的入口点。 值为“/authoring”
+* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。 有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
 
 在以下部分中，您将找到用于执行用例的 Rest API 调用排序列表。
 
@@ -194,11 +194,11 @@ ht-degree: 91%
 
 ## 运行时级别的配置生命周期 {#config}
 
-取消部署配置后，该配置在运行时级别被标记为不活动，并且在 24 小时内将继续处理待处理事件。然后，会在运行时服务中删除它。
+取消部署配置后，该配置在运行时级别被标记为不活动，并且在 24 小时内将继续处理待处理事件。 然后，会在运行时服务中删除它。
 
-取消部署配置后，可以更新和重新部署配置。这将创建新的运行时配置，在即将执行的操作中将使用该配置。
+取消部署配置后，可以更新和重新部署配置。 这将创建新的运行时配置，在即将执行的操作中将使用该配置。
 
-更新已部署的配置时，会立即使用新值。底层系统资源将自动调整。与取消部署然后重新部署配置相比，这是最佳选择。
+更新已部署的配置时，会立即使用新值。 底层系统资源将自动调整。 与取消部署然后重新部署配置相比，这是最佳选择。
 
 ## 响应示例 {#responses}
 

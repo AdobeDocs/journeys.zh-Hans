@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 16%
+source-wordcount: '891'
+ht-degree: 22%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 16%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
@@ -44,13 +44,13 @@ ht-degree: 16%
 
 请注意，历程的设计会产生功能影响。 当在条件后定义多个路径时，将仅执行第一个符合条件的路径。 这意味着，可以通过将路径置于彼此上方或下方来更改路径的优先级。
 
-例如，我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果同时满足两个条件的人(男性，VIP成员)通过此步骤，那么即使他也符合第二条条件时，也会选择第一条路径，因为第一条路径“以上”。 要更改此优先级，请以其他垂直顺序移动您的活动。
+例如，我们以第一个路径的条件“人员是VIP”和第二个路径的条件“人员是男性”为例。 如果同时满足两个条件的人（男性，VIP成员）通过此步骤，那么即使他也符合第二条条件时，也会选择第一条路径，因为第一条路径“以上”。 要更改此优先级，请以其他垂直顺序移动您的活动。
 
 ![](../assets/journey48.png)
 
 通过选中&#x200B;**[!UICONTROL Show path for other cases than the one(s) above]**，可以为不符合所定义条件的受众创建其他路径。 请注意，此选项在拆分条件中不可用。 请参阅[百分比拆分](#percentage_split)。
 
-利用简单模式，可根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。将字段拖放到主区域中。要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。然后，您可以选择逻辑运算符来组合同一级别上的元素：
+利用简单模式，可根据字段组合执行简单查询。 所有可用的字段都显示在屏幕的左侧。 将字段拖放到主区域中。 要组合不同元素，请将它们互相联锁，以创建不同的分组和/或分组级别。 然后，您可以选择逻辑运算符来组合同一级别上的元素：
 
 * AND：两个条件的交集。 只考虑符合所有条件的元素。
 * 或：两个条件的并集。 考虑至少符合一个条件的元素。
@@ -64,9 +64,9 @@ ht-degree: 16%
 >
 >使用简单编辑器无法对时间序列（例如购买列表、过去对消息的点击）执行查询。 为此，您需要使用高级编辑器。 请参阅[此页](../expression/expressionadvanced.md)。
 
-当操作或条件中发生错误时，个人历程将停止。使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。请参阅[此章节](../building-journeys/using-the-journey-designer.md#paths)。
+当操作或条件中发生错误时，个人历程将停止。 使其继续的唯一方法是选中 **[!UICONTROL Add an alternative path in case of a timeout or an error]** 框。 请参阅[此小节](../building-journeys/using-the-journey-designer.md#paths)。
 
-在简单编辑器中，您还可以在事件和数据源类别下找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。有关详细信息，请参阅[此页面](../expression/journey-properties.md)
+在简单编辑器中，您还可以在事件和数据源类别下找到历程属性类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。 有关详细信息，请参阅[此页面](../expression/journey-properties.md)
 
 ## 数据Source条件 {#data_source_condition}
 

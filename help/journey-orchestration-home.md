@@ -9,8 +9,8 @@ level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9154a81a257f51820e71334880e58b56ec39676e
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 100%
+source-wordcount: '265'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 
 ## 快速入门
 
-* **[Journey Orchestration 是什么？](using/about/about-journey-orchestration.md)**<br/>
-详细了解 Journey Orchestration。
+* **[什么是Journey Orchestration？](using/about/about-journey-orchestration.md)**<br/>
+了解有关Journey Orchestration的更多信息。
 
 * **[构建您的第一个历程](using/about/get-started.md)**<br/>
 了解设置 Journey Orchestration 的主要步骤并构建您的第一个历程。
@@ -46,7 +46,7 @@ ht-degree: 100%
        <img alt="开发者" src="using/assets/do-not-localize/FAQ.png" />
        </a>
     <div>
-    <a href="using/about/troubleshooting.md"><strong>故障排除</strong></a>
+    <a href="using/about/troubleshooting.md"><strong>疑难解答</strong></a>
     </div>
     <em>了解可用于对历程进行故障排除的各种工具。</em>
     <br>
@@ -58,7 +58,7 @@ ht-degree: 100%
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>用例</strong></a>
     </div>
-    <em>了解创建高级历程的分步操作。</em>
+    <em>了解如何分步创建高级历程。</em>
     <br>
   </td>
   <td valign="top">

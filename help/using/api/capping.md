@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 27%
+source-wordcount: '623'
+ht-degree: 37%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 27%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 上限API可帮助您创建、配置和监控上限配置。
@@ -104,7 +104,7 @@ ht-degree: 27%
 
 * **ERR_ENDPOINTCONFIG_100**：配置上限：缺少URL或无效的URL
 * **ERR_ENDPOINTCONFIG_101**：上限配置：错误的url
-* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url：主机：端口中不允许使用url中的通配符
+* **ERR_ENDPOINTCONFIG_102**：上限配置：格式错误的url：主机:port中不允许使用url中的通配符
 * **ERR_ENDPOINTCONFIG_103**：上限配置：缺少HTTP方法
 * **ERR_ENDPOINTCONFIG_104**：上限配置：未定义调用等级
 * **ERR_ENDPOINTCONFIG_107**：上限配置：无效的最大调用计数(maxCallsCount)
@@ -127,8 +127,8 @@ ht-degree: 27%
 
 下载并上传到 Postman 后，您需要添加三个变量：`{JO_HOST}`、`{BASE_PATH}` 和 `{SANDBOX_NAME}`。
 * `{JO_HOST}`：[!DNL Journey Orchestration]网关 URL
-* `{BASE_PATH}`：API 的入口点。值为“/authoring”
-* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
+* `{BASE_PATH}`：API 的入口点。 值为“/authoring”
+* `{SANDBOX_NAME}`：标头 **x-sandbox-name**（例如，“prod”），对应将执行 API 操作的沙盒名称。 有关更多信息，请参阅[沙盒概述](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=zh-Hans)。
 
 在以下部分中，您将找到用于执行用例的 Rest API 调用排序列表。
 

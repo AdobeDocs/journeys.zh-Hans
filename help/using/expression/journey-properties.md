@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 9%
+source-wordcount: '642'
+ht-degree: 14%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->**希望了解 Adobe Journey Optimizer**？请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-在高级表达式编辑器中，您将在事件和数据源类别下找到&#x200B;**历程属性**&#x200B;类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，例如历程ID或遇到的特定错误。
+在高级表达式编辑器中，您将在事件和数据源类别下找到&#x200B;**历程属性**&#x200B;类别。 此类别包含与给定用户档案的历程相关的技术字段。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 9%
 | | organizationId | 组织标识符 | 品牌组织 |
 | | sandboxName | 沙盒名称 | 沙盒的名称 |
 | 身份标识 | profileId | 配置文件身份标识符 | 历程中用户档案的标识符 |
-| | 命名空间 | 配置文件身份命名空间 | 历程中配置文件的命名空间（示例：ECID） |
+| | namespace | 配置文件身份命名空间 | 历程中配置文件的命名空间（示例：ECID） |
 | 当前节点 | currentNodeId | 当前节点标识符 | 当前活动（节点）的标识符 |
 | | currentNodeName | 当前节点名称 | 当前活动的名称（节点） |
 | 上一个节点 | previousNodeId | 上一节点标识符 | 上一个活动（节点）的标识符 |

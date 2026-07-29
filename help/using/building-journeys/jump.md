@@ -1,27 +1,27 @@
 ---
 product: adobe campaign
-title: 从一个历程转到另一个历程
-description: 从一个历程转到另一个历程
+title: 从一个历程到另一个历程
+description: 从一个历程到另一个历程
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 13%
 
 ---
 
-# 从一个历程转到另一个历程 {#jump}
+# 从一个历程到另一个历程 {#jump}
 
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 5%
    ![](../assets/jump2.png)
 
 1. 在&#x200B;**目标历程**&#x200B;字段中单击。
-列表会显示草稿、实时或测试模式中的所有历程版本。 使用其他命名空间或以&#x200B;**区段鉴别**&#x200B;历程开头的事件不可用。 还会过滤掉会创建循环模式的目标历程。
+列表会显示草稿、实时或测试模式中的所有历程版本。使用其他命名空间或以&#x200B;**区段鉴别**&#x200B;历程开头的事件不可用。还会过滤掉会创建循环模式的目标历程。
 
    ![](../assets/jump3.png)
 
@@ -92,7 +92,7 @@ ht-degree: 5%
    >您可以单击右侧的&#x200B;**打开目标历程**&#x200B;图标，以在新选项卡中打开目标历程。
 
 1. 选择要跳转到的目标历程。
-**First event**&#x200B;字段已使用目标历程第一个事件的名称预填充。 如果您的目标历程包含多个事件，则仅允许在第一个事件中使用&#x200B;**[!UICONTROL Jump]**。
+**First event**&#x200B;字段已使用目标历程第一个事件的名称预填充。如果您的目标历程包含多个事件，则仅允许在第一个事件中使用&#x200B;**[!UICONTROL Jump]**。
 
    ![](../assets/jump4.png)
 
@@ -112,7 +112,7 @@ ht-degree: 5%
 
 ![](../assets/jump7.png)
 
-## 故障排除
+## 疑难解答
 
 发布历程或处于测试模式时，如果出现以下情况，将发生错误：
 * 目标历程不再存在

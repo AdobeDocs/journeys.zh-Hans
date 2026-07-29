@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 2%
+source-wordcount: '616'
+ht-degree: 10%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 单击右上角的铅笔图标可访问历程的属性。
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 入口{#entrance}
 
-默认情况下，允许重入新的历程。您可以取消选中“一次性”旅程选项，例如，如果您想要在人员进入商店时提供一次性礼品。 在这种情况下，您不希望客户能够重新进入历程并再次收到选件。
+默认情况下，允许重入新的历程。 您可以取消选中“一次性”旅程选项，例如，如果您想要在人员进入商店时提供一次性礼品。 在这种情况下，您不希望客户能够重新进入历程并再次收到选件。
 
 历程“结束”时，其状态为&#x200B;**[!UICONTROL Closed (no entrance)]**。 历程将停止让新个人进入历程。 已在历程中的人员将正常完成历程。
 

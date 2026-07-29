@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 5%
+source-wordcount: '411'
+ht-degree: 18%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 **[!UICONTROL Stop]**&#x200B;和&#x200B;**[!UICONTROL Close to new entrances]**&#x200B;选项允许您终止&#x200B;**实时**&#x200B;历程。 关闭历程涉及&#x200B;**新客户在历程中的到达被阻止**，并且已进入历程的客户能够体验到历程的结尾。 这是终止历程的最推荐方法，因为它为客户提供最佳体验。 停止历程涉及已进入历程的人员都在进程中停止。 旅程基本上是关闭的。
@@ -51,7 +51,7 @@ ht-degree: 5%
 
    ![](../assets/finish_drop_down_list.png)
 
-1. 单击 **[!UICONTROL Close to new entrances]**。出现一个对话框。
+1. 单击 **[!UICONTROL Close to new entrances]**。 出现一个对话框。
 1. 单击 **[!UICONTROL Close to new entrances]** 确认。
 
 ## 停止旅程
@@ -73,5 +73,5 @@ ht-degree: 5%
 
 ![](../assets/finish_drop_down_list.png)
 
-1. 单击 **[!UICONTROL Stop]**。出现一个对话框。
+1. 单击 **[!UICONTROL Stop]**。 出现一个对话框。
 1. 单击 **[!UICONTROL Stop]** 确认。

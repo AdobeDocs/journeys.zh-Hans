@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
 source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '719'
 ht-degree: 12%
 
 ---
@@ -18,10 +18,10 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->**希望了解 Adobe Journey Optimizer**？请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 从技术上讲，常量始终包含数据类型。 在文本表达式中，我们仅指定值。 可以从值推断数据类型（例如字符串、整数、小数等）。 对于日期时间等具体情况，我们使用专门的函数进行表示。
@@ -90,7 +90,7 @@ JSON格式：数字
 
 JSON格式：数字
 
-序列化格式：使用“。” 作为小数分隔符。
+序列化格式：使用“。”作为小数分隔符。
 
 **文本呈现**
 
@@ -172,7 +172,7 @@ json格式：字符串。
 
 序列化格式：ISO-8601扩展偏移日期时间格式。
 
-它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化该值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME")
+它使用DateTimeFormatter ISO_LOCAL_DATE_TIME反序列化和序列化该值。 [了解详情](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME”)
 
 **文本呈现**
 

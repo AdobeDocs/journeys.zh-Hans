@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 9%
+source-wordcount: '412'
+ht-degree: 22%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 9%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 在我们的方案中，每当有人靠近位于spa旁边的信标时，我们都需要接收一个事件。 **技术用户**&#x200B;需要配置系统将在我们的历程中侦听的事件。
@@ -44,7 +44,7 @@ ht-degree: 9%
    >
    >字段列表因架构而异。 根据架构定义，某些字段可能是必填字段，并且已预先选择。
 
-1. 我们需要选择命名空间。根据架构属性预先选择命名空间。您可以使命名空间保持处于预选状态。有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
+1. 我们需要选择命名空间。 根据架构属性预先选择命名空间。 您可以使命名空间保持处于预选状态。 有关命名空间的更多信息，请参阅[此页面](../event/selecting-the-namespace.md)。
 
    ![](../assets/journeyuc1_6.png)
 

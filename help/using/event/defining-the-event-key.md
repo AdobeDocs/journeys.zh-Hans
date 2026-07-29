@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 2%
+source-wordcount: '381'
+ht-degree: 18%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
 键值是字段或字段组合是事件有效负载数据的一部分，这将允许系统识别与事件关联的个人。 例如，密钥可以是Experience Cloud ID、CRM ID或电子邮件地址。
@@ -44,7 +44,7 @@ ht-degree: 2%
 
    ![](../assets/journey20.png)
 
-当收到事件时，键的值将允许系统识别与事件相关联的人员。 与命名空间关联（请参阅[此页面](../event/selecting-the-namespace.md)），密钥可用于在Adobe Experience Platform上执行查询。 查看[此页面](../building-journeys/about-orchestration-activities.md)。
-密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
+当收到事件时，键的值将允许系统识别与事件相关联的人员。与命名空间关联（请参阅[此页面](../event/selecting-the-namespace.md)），密钥可用于在Adobe Experience Platform上执行查询。请参阅[此页面](../building-journeys/about-orchestration-activities.md)。
+密钥还用于检查人员是否正在旅程中。事实上，一个人在同一历程中不能位于两个不同的位置。因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
 如果要执行其他操作，还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询的值，例如更改格式、执行字段连接，同时仅考虑字段的一部分（例如，前10个字符）。 请参阅[此页](../expression/expressionadvanced.md)。

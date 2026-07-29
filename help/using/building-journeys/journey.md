@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 13%
+source-wordcount: '617'
+ht-degree: 28%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 13%
 
 >[!CAUTION]
 >
->**正在查找Adobe Journey Optimizer**？ 单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取Journey Optimizer文档。
+>**希望了解 Adobe Journey Optimizer**？ 请单击[此处](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/ajo-home){target="_blank"}获取 Journey Optimizer 文档。
 >
 >
->_本文档参考已被Journey Optimizer替换的旧版Journey Orchestration资料。 如果您对访问Journey Orchestration或Journey Optimizer有任何疑问，请联系您的帐户团队。_
+>_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-此步骤由&#x200B;**业务用户**&#x200B;执行。 这是创建历程的位置。 结合不同的事件、编排和操作活动，构建多步骤跨渠道方案。
+此步骤由&#x200B;**业务用户**&#x200B;执行。 这是创建历程的位置。 结合不同的事件、编排和操作活动，构建多步跨渠道方案。
 
-历程界面让您可以轻松地将活动从调色板拖放到画布中。在下一步可用时，您也可以双击活动以将其添加到画布中。 每个活动在进程中都具有特定的角色和位置。 活动将进行排序。 当活动完成后，该流会继续并处理下一个活动，依此类推。
+历程界面让您可以轻松地将活动从调色板拖放到画布中。 您还可以双击一个活动，以便在可以进行后续步骤时将其添加到画布中。 每个活动在进程中都具有特定的角色和位置。 活动将进行排序。 当活动完成后，该流会继续并处理下一个活动，依此类推。
 
-每个历程只允许一个命名空间。 放置第一个事件时，具有不同命名空间的事件将灰显。 如果第一个事件没有命名空间，则所有具有命名空间的事件都将灰显。 查看[此页面](../event/selecting-the-namespace.md)。 此外，如果历程具有没有命名空间的事件，Adobe Experience Platform字段组将灰显。 最后，如果您在同一历程中使用多个事件，则它们需要使用相同的命名空间。
+每个历程只允许一个命名空间。 放置第一个事件时，具有不同命名空间的事件将灰显。 如果第一个事件没有命名空间，则所有具有命名空间的事件都将灰显。 请参阅[此页](../event/selecting-the-namespace.md)。 此外，如果历程具有没有命名空间的事件，Adobe Experience Platform字段组将灰显。 最后，如果您在同一历程中使用多个事件，则它们需要使用相同的命名空间。
 
 开始新历程时，无法在第一步操作中放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
 
@@ -46,7 +46,7 @@ ht-degree: 13%
 
    ![](../assets/journey31.png)
 
-1. 编辑右侧显示的配置窗格中的历程属性。请参阅[此页](../building-journeys/changing-properties.md)。
+1. 编辑右侧显示的配置窗格中的历程属性。 请参阅[此页](../building-journeys/changing-properties.md)。
 
    ![](../assets/journey32.png)
 
