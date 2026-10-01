@@ -6,13 +6,11 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+source-git-commit: c80acc261853108edccb40d120c8fe16023770e8
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '610'
 ht-degree: 3%
-
 ---
-
 # 集合管理函数 {#collection-management-functions}
 
 表达式语言还引入了一组查询集合的函数。
@@ -171,8 +169,9 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**&#x200B;仅在处理事件集合和&#x200B;**currentDataPackField**&#x200B;时可用
->处理数据源集合时>。处理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**&#x200B;的集合时，我们>逐个循环处理集合的每个元素。**[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
+>**[!UICONTROL currentEventField]**&#x200B;仅在处理事件集合和&#x200B;**currentDataPackField时可用**
+>处理数据源集合时。 处理具有&#x200B;**[!UICONTROL all]**、**[!UICONTROL first]**&#x200B;和&#x200B;**[!UICONTROL last]**的集合时，我们
+>逐个循环集合的每个元素。 **[!UICONTROL currentEventField]**&#x200B;和&#x200B;**currentDataPackField**
 >对应于正在循环的元素。
 
 **函数“first(`<condition>`)”和“last(`<condition>`)”**
@@ -221,7 +220,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **函数“at(`<index>`)”**
 
-**[!UICONTROL at]**&#x200B;函数允许您根据索引引用集合中的特定元素。
+**[!UICONTROL at]**函数允许您根据索引引用集合中的特定元素。
 索引0是集合的第一个索引。
 
 _`<listExpression>`.at(`<index>`)_
@@ -244,6 +243,6 @@ _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.
 ```
 
 ```json
- #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
