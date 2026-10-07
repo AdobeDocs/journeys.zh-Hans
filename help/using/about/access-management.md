@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 80%
-
+source-wordcount: '933'
+ht-degree: 88%
 ---
-
 # 访问管理{#concept_rfj_wpt_52b}
 
 
@@ -58,7 +68,7 @@ ht-degree: 80%
   * 管理报告
   * 读取事件、数据源和操作
 
-如果现成的用户档案不足以管理用户，您还可以创建自己的产品用户档案。
+如果现成的轮廓不足以管理用户，您还可以创建自己的产品配置文件。
 用户必须始终链接到产品配置文件，以便您为他们分配特定的内置权限，例如：
 
 * **[!UICONTROL Read journeys]**
@@ -120,8 +130,8 @@ ht-degree: 80%
 
 ## 分配产品配置文件 {#assigning-product-profile}
 
-产品配置文件将分配给组织内共享相同权限的一组用户。
-本部分提供每个现成产品用户档案及已分配权限的列表。
+产品配置文件会分配给您组织内共享相同权限的一组用户。
+本部分提供每个现成产品配置文件及已分配权限的列表。
 
 要为用户分配产品配置文件以访问 [!DNL Journey Orchestration]，请执行以下操作：
 
@@ -147,10 +157,10 @@ ht-degree: 80%
 
 ## 使用沙盒 {#sandboxes}
 
-[!DNL Journey Orchestration]允许您将实例分区为称为沙箱的分隔虚拟环境。
-沙盒通过Admin Console中的产品配置文件进行分配。有关如何分配沙箱的详细信息，请参阅此[部分](../about/access-management.md#create-product-profile)。
+[!DNL Journey Orchestration] 允许您将实例分区为称为沙盒的分隔虚拟环境。
+沙盒通过Admin Console中的产品配置文件进行分配。 有关如何分配沙盒的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration]反映为给定组织创建的Adobe Experience Platform沙箱。
-可从Adobe Experience Platform实例创建或重置Adobe Experience Platform沙盒。有关详细步骤，请参阅[沙盒用户指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
+[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙盒。
+可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。 有关详细步骤，请参阅[沙盒用户指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
 
 您可以在屏幕左上角找到沙盒切换器控件。 要从一个沙盒切换到另一个沙盒，请单击切换器中当前活动的沙盒，然后从下拉列表中选择另一个沙盒。

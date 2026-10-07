@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 86%
-
+source-wordcount: '925'
+ht-degree: 83%
 ---
-
 # 历程 API 入门
 
 
@@ -39,7 +49,7 @@ ht-degree: 86%
 >
 >**上限规则**&#x200B;在沙盒级别针对特定端点（调用的 URL）配置，但在全局范围内应用于该沙盒的所有历程。
 >
->**限制规则**&#x200B;仅在生产沙盒上针对特定端点配置，但在全局范围内应用于所有沙盒中的所有历程。 只能为每个组织使用一个限制配置。
+>**限制规则**&#x200B;仅在生产沙盒上针对特定端点配置，但在全局范围内应用于所有沙盒中的所有历程。 每个组织只能有一个节流配置。
 
 有关如何使用这些 API 的更多信息，请参阅以下部分：
 
@@ -50,7 +60,7 @@ Swagger 文件中也对这两个 API 进行了说明，请点击[此处](https:/
 
 ## 数据源和自定义操作容量 {#capacity}
 
-对于&#x200B;**外部数据源**，每秒的最大调用数限制为 15。 如果超出此限制，则会根据所使用的 API，丢弃或排入任何其他调用。 联系 Adobe 以将端点包含在允许列表中，这样可以增加专用外部数据源的此限制，但对于公共外部数据源不可以这样操作。 * [了解如何配置数据源](../datasource/about-data-sources.md)。
+对于&#x200B;**外部数据源**，每秒的最大调用数限制为 15。 如果超出此限制，则任何额外调用都会根据所使用的 API 被丢弃或排队。 联系 Adobe 以将端点包含在允许列表中，这样可以增加专用外部数据源的此限制，但对于公共外部数据源不可以这样操作。 * [了解如何配置数据源](../datasource/about-data-sources.md)。
 
 >[!NOTE]
 >
@@ -73,7 +83,10 @@ Swagger 文件中也对这两个 API 进行了说明，请点击[此处](https:/
 >
 >已弃用用于生成访问令牌的JWT方法。 必须使用[OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hans#select-oauth-server-to-server)创建所有新集成。 Adobe 还建议您将现有集成迁移到 OAuth 方法。
 >
->请阅读以下重要文档：>[应用程序从JWT迁移到OAuth的迁移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，>[新旧应用程序与OAuth的实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)，>[使用OAuth服务器到服务器凭据方法的优势](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>请阅读以下重要文档：
+>[应用程序从JWT到OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的迁移指南，
+>[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的新旧应用程序的实施指南，
+>[使用OAuth服务器到服务器凭据方法的优势](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 要建立安全的服务到服务 Adobe I/O API 会话，对 Adobe 服务提出的每个请求都必须在“Authorization”标头中包含以下信息。
 

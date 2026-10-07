@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
-
 ---
-
 # 关于 [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 
@@ -49,7 +59,7 @@ ht-degree: 100%
 
 使用操作活动，您随后可以通过第三方系统发送消息。 如果您有 Adobe Campaign Standard，请发送实时个性化短信、推送通知或电子邮件。
 
-由于 [!DNL Journey Orchestration] 是多步操作，您可以创建高级方案。 例如，在执行第一个事件和操作后，可以拖动其他事件。 然后，您可以添加第二个操作，放置等待活动以等待一段时间，添加拆分条件以将人推送到两个不同的路径，然后发送不同的消息。
+由于 [!DNL Journey Orchestration] 是多步操作，您可以创建高级方案。 例如，在执行第一个事件和操作后，可以拖动其他事件。 然后，您可以添加第二个操作，放置等待活动以等待一段时间，添加拆分条件以将人员分流到两条不同的路径，然后发送不同的消息。
 
 >[!NOTE]
 >

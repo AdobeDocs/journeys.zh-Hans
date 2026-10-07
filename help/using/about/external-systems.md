@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 10%
-
 ---
-
 # 与外部系统集成 {#external-systems}
 
 
@@ -52,7 +62,7 @@ Journey Orchestration允许您通过自定义数据源和自定义操作配置�
 
 上限规则特定于一个端点，但全局适用于沙盒的所有历程。 这意味着沙盒的所有历程之间共享上限插槽。
 
-例如，假设您为外部系统定义了每秒100次调用的上限规则。 在 10 个不同历程中，系统由自定义操作调用。 如果一个历程每秒接收200次调用，它将使用可用的100个插槽并放弃剩余的100个插槽。 由于超出了最大使用率，因此其他 9 个历程将没有任何位置。 此粒度有助于避免使外部系统出现过载和崩溃。
+例如，假设您为外部系统定义了每秒100次调用的上限规则。 在 10 个不同历程中，系统由自定义操作调用。 如果一个历程每秒接收200次调用，它将使用可用的100个插槽并放弃剩余的100个插槽。 由于已超出最大速率，因此其他 9 个历程将没有任何可用配额。 此粒度有助于避免使外部系统出现过载和崩溃。
 
 要了解有关API上限以及如何配置上限规则的更多信息，请参阅[此页面](../api/capping.md)。
 

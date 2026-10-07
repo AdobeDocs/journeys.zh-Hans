@@ -7,17 +7,27 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
-
+source-wordcount: '1001'
+ht-degree: 100%
 ---
-
 # 文档更新
 
-此页面列出了[!DNL Journey Orchestration]的所有文档更新。
-您还可以查阅[!DNL Journey Orchestration] [发行说明](../release-notes/release-notes.md)。
+此页面列出了 [!DNL Journey Orchestration] 的所有文档更新。
+您还可以参阅 [!DNL Journey Orchestration][发行说明。](../release-notes/release-notes.md)
 
 ## 2022 年 7 月 {#july-2022}
 
@@ -30,7 +40,7 @@ ht-degree: 98%
 
 ## 2022 年 3 月 {#march-2022}
 
-* 添加了一个示例，说明如何在表达式编辑器中添加默认表达式。 [了解详情](../expression/field-references.md#default-value)
+* 添加了一个示例，说明如何在表达式编辑器中将表达式添加为默认值。 [了解详情](../expression/field-references.md#default-value)
 
 ## 2022 年 2 月 {#feb-2022}
 
@@ -67,32 +77,32 @@ ht-degree: 98%
 ## 2020 年 9 月 {#september-2020}
 
 * 更新了接口描述部分，以反映新的&#x200B;**全选器**&#x200B;菜单。 [了解详情](../about/user-interface.md)
-* 添加了基于区段的历程的不重复新版本的有关注释。
+* 添加了有关基于区段的非重复历程新版本的注释。
 
 ## 2020 年 8 月 {#august-2020}
 
 * 添加了有关如何对要在区段列表中显示的列进行排序和选择的信息。 [了解详情](../building-journeys/segment-qualification-events.md)
 * 添加了有关在选择区段后如何复制区段名称和 ID 的信息。 [了解详情](../building-journeys/segment-qualification-events.md)
-* Experience Platform 事件已在不同页面上得到协调。
+* 不同页面中的 Experience Platform 表述已统一。
 
 ## 2020 年 7 月 {#july-2020}
 
 * 事件活动部分已重新组织为每种事件类型的专用子部分。 [了解详情](../building-journeys/event-activities.md)
 * 添加了避免细分资格筛选过载的最佳实践。 [了解详情](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * 添加了注释，以说明如何在操作或条件出现错误后继续历程。 [了解详情](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* 新增了 Alpha 功能部分，这些功能在有限的一组客户中进行测试。
+* 新增了一个关于 Alpha 功能的部分，这些功能仅在有限的一组客户中进行测试。
 * 添加了有关与智能服务集成的新部分。 [了解详情](../ai-services/ai-services-overview.md)
-* 在创建测试轮廓时添加了新部分。 [了解详情](../building-journeys/testing-the-journey.md)
+* 添加了一个关于测试轮廓创建的新部分。 [了解详情](../building-journeys/testing-the-journey.md)
 * 添加了有关如何在历程条件或操作中使用 **[!UICONTROL SegmentQualification]** 节点的信息。 [了解详情](../building-journeys/segment-qualification-events.md)
 * 已在 Campaign 事务性消息和事件出版中添加注释。 请参阅[使用 Adobe Campaign](../action/working-with-adobe-campaign.md) 和 [使用 Adobe Campaign 操作](../building-journeys/using-adobe-campaign-actions.md)。
 * 已在测试 Campaign Standard 实例 URL 时执行的检查中添加了信息。 [了解详情](../action/working-with-adobe-campaign.md)
 * 已添加有关与 AWS 或 Azure 服务器上托管的 Campaign Standard 实例兼容的反应事件的信息。 [了解详情](../building-journeys/reaction-events.md)
 * 在处理 Campaign Standard 事务性消息传递时，需要设置上限规则这一点已添加注释。 [了解详情](../action/working-with-adobe-campaign.md)
-* 在使用测试模式触发事件时，在生成实际事件时添加了注释。 [了解详情](../building-journeys/testing-the-journey.md#firing_events)
+* 已添加有关使用测试模式触发事件时生成实际事件的注释。 [了解详情](../building-journeys/testing-the-journey.md#firing_events)
 
 ## 2020 年 6 月 {#june-2020}
 
-* 添加了有关如何更改自定义身份验证数据源的令牌缓存时间的信息。 [了解详情](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* 添加了有关如何更改自定义身份验证数据源的令牌缓存持续时间的信息。 [了解详情](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * 更新了屏幕截图和文本，以反映已更改为 **[!UICONTROL Closed (no entrance)]** 的 **[!UICONTROL Finished]** 历程状态的重命名。
 * 添加了有关如何为界面定义语言的信息。 [了解详情](../about/user-interface.md)
 * 个人历程的状态列表已移至[测试模式日志](../building-journeys/testing-the-journey.md#viewing_logs)部分。
@@ -106,15 +116,15 @@ ht-degree: 98%
 
 * 在测试日志部分，添加了 _actionExecutionErrors_ 和 _fetchErrors_ 参数描述。 [了解详情](../building-journeys/testing-the-journey.md#viewing_logs)
 * 历程中使用的自定义操作的限制已更新。 您还可以修改 **[!UICONTROL URL]** 字段和 **[!UICONTROL Authentication]** 参数。 [了解详情](../action/about-custom-action-configuration.md)
-* 添加了新的情景式帮助条目。 自定义身份验证有效负载窗格（在操作和数据源中）现包含一个链接到此[部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)的帮助图标。
+* 添加了新的上下文帮助条目。 自定义身份验证有效负载窗格（在操作和数据源中）现包含一个链接到此[部分](../datasource/external-data-sources.md#section_wjp_nl5_nhb)的帮助图标。
 * 现在可以停止已关闭的历程。 [了解详情](../building-journeys/using-the-journey-designer.md)
 * 界面描述部分已重新组织。 [了解详情](../about/user-interface.md)
 * 多个事件的触发已添加到测试模式部分[阅读更多](../building-journeys/testing-the-journey.md#firing_events)
 * 与新的 **[!UICONTROL Wait time in test]** 参数有关的“测试模式”模式部分已更新。 [了解详情](../building-journeys/testing-the-journey.md)
-* 测试日志部分已更新为外部调用错误代码和响应。 [了解详情](../building-journeys/testing-the-journey.md#viewing_logs)
+* 测试日志部分已更新，添加了外部调用错误代码和响应。 [了解详情](../building-journeys/testing-the-journey.md#viewing_logs)
 * 时区管理现在集中在历程属性面板中。 在[此处](../building-journeys/changing-properties.md#timezone)和[此处](../building-journeys/timezone-management.md)了解更多信息
 * 历程设计器部分已更新以反映最近的增强功能。 [了解详情](../building-journeys/using-the-journey-designer.md)
-* 界面描述已更新，其中包含有关情景帮助的信息。 [了解详情](../about/user-interface.md#section_ksq_zr1_ffb)
+* 界面描述已更新，其中包含有关上下文帮助的信息。 [了解详情](../about/user-interface.md#section_ksq_zr1_ffb)
 * 浏览 **XDM 字段**&#x200B;时，将显示友好名称。 相关部分已更新。 [了解详情](../about/user-interface.md#friendly-names-display)
 
 ## 2020 年 2 月 {#february-2020}
@@ -130,7 +140,7 @@ ht-degree: 98%
 ## 2019 年 12 月 {#december-2019}
 
 * 所有屏幕截图都已更新，以反映界面的更改。
-* 测试模式部分已更新。[阅读更多](../building-journeys/testing-the-journey.md)
+* 测试模式部分已更新。 [了解更多信息](../building-journeys/testing-the-journey.md)
   <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hans).-->
 * 现在可删除已停止的历程。 相关文档页面已更新。
 * 在历程中检测到问题时，会显示两种颜色。 红色表示错误，橙色表示警告。 [了解详情](../about/troubleshooting.md)

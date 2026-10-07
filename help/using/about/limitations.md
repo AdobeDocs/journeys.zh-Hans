@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 54%
-
+source-wordcount: '637'
+ht-degree: 60%
 ---
-
 # 限制 {#limitations}
 
 
@@ -34,8 +44,8 @@ ht-degree: 54%
 
 ## 常规操作限制
 
-* 如果出现错误，将系统地执行三次重试。您无法根据收到的错误消息调整重试次数。 
-* 内置&#x200B;**反应**&#x200B;事件允许您对开箱即用的操作做出反应（请参阅此[页面](../building-journeys/reaction-events.md)）。如果要对通过自定义操作发送的消息做出反应，则需要配置专用事件。 
+* 如果出现错误，系统将执行三次重试。 无法根据收到的错误消息调整重试次数。 
+* 内置&#x200B;**反应**&#x200B;事件允许您对开箱即用的操作做出反应（请参阅此[页面](../building-journeys/reaction-events.md)）。 如果要对通过自定义操作发送的消息做出反应，则需要配置专用事件。 
 
 ## 历程版本限制 {#journey-versions-limitations}
 
@@ -46,26 +56,26 @@ ht-degree: 54%
 
 ## 细分资格筛选 {#segment-qualification}
 
-* 由于吞吐量限制，**区段鉴别**&#x200B;活动不能与Adobe Campaign Standard事务性消息结合使用。请参阅[Adobe Campaign Standard产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)。 
+* 由于吞吐量限制，**区段鉴别**&#x200B;活动不能与Adobe Campaign Standard事务性消息结合使用。 请参阅[Adobe Campaign Standard产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)。 
  
 
 ## 自定义操作限制
 
 * 自定义操作 URL 不支持动态参数。 
 * 仅支持POST和PUT调用方法。 
-* 查询参数或标头的名称不得以“。”或“$”开头。 
+* 查询参数或标头的名称不得以“.” 或“$”开始。 
 * 不允许使用IP地址。 
-* 不允许使用内部Adobe地址(.adobe.)。
+* Adobe内部地址(.adobe.) 是不允许的。
  
 
 ## Adobe Campaign操作限制
 
-* 对于给定实例，Adobe Campaign Standard事务性消息传递在各个渠道上的规模为每小时最多50,000条消息。请参阅[Adobe Campaign Standard产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)。 
+* 对于给定实例，Adobe Campaign Standard事务性消息传递在各个渠道上的规模为每小时最多50,000条消息。 请参阅[Adobe Campaign Standard产品说明](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html)。 
  
 
 ## 事件限制
 
-* 对于系统生成的事件，必须先在Journey Orchestration中配置用于启动客户历程的流数据，才能获取唯一的编排ID。 此编排ID必须附加到传入Adobe Experience Platform的流有效负载中。此限制不适用于基于规则的事件。
+* 对于系统生成的事件，必须先在Journey Orchestration中配置用于启动客户历程的流数据，才能获取唯一的编排ID。 此编排 ID 必须附加到传入 Adobe Experience Platform 的流有效负载中。 此限制不适用于基于规则的事件。
  
 
 ## 数据源限制

@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 10%
-
 ---
-
 # 关于[!DNL Journey Orchestration]事件的ExperienceEvent架构
 
 
@@ -63,7 +73,7 @@ ht-degree: 10%
 
 ## 利用架构关系{#leverage_schema_relationships}
 
-Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。
+Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查找表。
 
 假设您的品牌数据模型具有一个用于捕获购买的架构。 此外，您还有一个产品目录架构。 您可以捕获购买架构中的产品ID，并使用关系从产品目录中查找更完整的产品详细信息。 例如，这样，您就可以为购买笔记本电脑的所有客户创建一个区段，而无需明确列出所有笔记本电脑ID或在事务系统中捕获每个产品详细信息。
 
