@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 63%
-
+source-wordcount: '602'
+ht-degree: 60%
 ---
-
 # 创建新事件 {#section_tbk_5qt_pgb}
 
 
@@ -55,7 +65,7 @@ ht-degree: 63%
    >
    >选择&#x200B;**[!UICONTROL System Generated]**&#x200B;类型时，只有具有eventID类型mixin的架构可用。 当您选择&#x200B;**[!UICONTROL Rule Based]**&#x200B;类型时，所有体验事件架构都可用。
 
-1. 对于基于规则的事件，请单击&#x200B;**[!UICONTROL Event ID condition]**&#x200B;字段中的。使用简单表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
+1. 对于基于规则的事件，请单击&#x200B;**[!UICONTROL Event ID condition]**字段中的。 使用简单表达式编辑器，定义系统将使用的条件，以识别将触发历程的事件。
    ![](../assets/alpha-event6.png)
 
    在我们的示例中，我们根据用户档案所在的城市编写了条件。 这意味着每当系统收到与此条件（**[!UICONTROL City]**&#x200B;字段和&#x200B;**[!UICONTROL Paris]**&#x200B;值）匹配的事件，它就会将其传递到Journey Orchestration。

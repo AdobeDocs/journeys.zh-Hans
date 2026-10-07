@@ -2,13 +2,14 @@
 product: adobe campaign
 title: 利用疲劳分数
 description: 了解如何在历程中利用疲劳分数
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 7%
-
 ---
-
 
 # 利用历程人工智能 {#concept_dsh_1ry_wfb}
 
@@ -16,7 +17,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->预测疲劳得分功能仅适用于使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=zh-Hans)的客户。
+>预测疲劳得分功能仅适用于使用[Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html)的客户。
 
 ## 配置事件 {#section_ptb_ws1_ffb}
 

@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 89%
-
 ---
-
 # 用户界面{#concept_rcq_lqt_52b}
 
 
@@ -46,7 +56,7 @@ ht-degree: 89%
 
 ![](../assets/journey2.png)
 
-单击屏幕右上角的![](../assets/icon-context.png)图标以显示情景帮助。 它可以在不同的 [!DNL Journey Orchestration] 列表屏幕（历程、事件、操作和数据源）中使用。 通过此情景帮助，您可以查看当前功能的快速说明，并访问相关文章和视频。
+单击屏幕右上角的![](../assets/icon-context.png)图标以显示情景帮助。 它可以在不同的 [!DNL Journey Orchestration] 列表屏幕（历程、事件、操作和数据源）中使用。 这样，您可以查看当前功能的快速说明，并访问相关文章和视频。
 
 ![](../assets/journey2bis.png)
 
@@ -88,7 +98,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->从架构组合中选择字段时，不会检索友好名称。
+>从架构并集中选择字段时，不会检索友好名称。
 
 ## 辅助功能{#accessibility}
 

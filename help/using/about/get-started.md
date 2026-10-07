@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
-
 ---
-
 # 快速入门{#concept_y4b_4qt_52b}
 
 
@@ -40,7 +50,7 @@ ht-degree: 100%
 
 1. **配置数据源**
 
-   您需要定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 在预配时还会配置内置 Adobe Experience Platform 数据源。 如果您仅利用历程中事件的数据，则不需要执行此步骤。 此步骤由&#x200B;**技术用户**&#x200B;执行。
+   您需要定义与系统的连接，以检索将在您的历程中使用的其他信息，例如在您的条件中。 在设置时还会配置内置 Adobe Experience Platform 数据源。 如果您仅利用历程中事件的数据，则不需要执行此步骤。 此步骤由&#x200B;**技术用户**&#x200B;执行。
 
    有关详细信息，请参见[此页面](../datasource/about-data-sources.md)。
 

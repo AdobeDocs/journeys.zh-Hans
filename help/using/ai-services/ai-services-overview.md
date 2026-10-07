@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 58%
-
 ---
-
 # 关于 AI 集成 {#ai-overview}
 
 
@@ -26,7 +36,7 @@ ht-degree: 58%
 
 与智能服务集成允许您在客户体验用例中利用人工智能和机器学习的强大功能。 借助此功能，营销分析人员可使用商业级别配置来设置特定于公司需求的预测，而无需具备数据科学专业知识。
 
-有关Intelligent Services的详细信息，请参阅[文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=zh-Hans)。
+有关Intelligent Services的详细信息，请参阅[文档](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html)。
 
 此集成允许您利用客户预测，请参阅[利用客户人工智能](../ai-services/leveraging-customer-ai.md)
 

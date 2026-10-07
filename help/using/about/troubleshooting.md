@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 87%
-
 ---
-
 # 疑难解答{#concept_nlv_bcv_2fb}
 
 
@@ -25,7 +35,7 @@ ht-degree: 87%
 
 
 
-在本部分中，您将了解如何在测试或发布之前对历程进行故障排除。 当历程处于测试模式或历程处于实时状态时，可以执行以下列出的所有检查。 建议在测试模式下进行以下所有检查，然后继续发布。 请参阅[此页](../building-journeys/testing-the-journey.md)。
+在本部分中，您将了解如何在测试或发布之前对历程进行故障排除。 当历程处于测试模式或已上线时，可以执行以下列出的所有检查。 建议在测试模式下进行以下所有检查，然后继续发布。 请参阅[此页](../building-journeys/testing-the-journey.md)。
 
 ## 测试前检查错误{#section_h3q_kqk_fhb}
 
@@ -41,7 +51,7 @@ ht-degree: 87%
 
 在 **[!UICONTROL Test]** 切换和 **[!UICONTROL Publish]**&#x200B;按钮旁边，会显示一个警告标记。 此警告标记显示系统检测到的错误，并阻止测试模式激活或历程发布。 大多数时间，系统检测到的错误都与活动上可见的错误相关，但有时它们也与其他问题相关。 在这种情况下，您可以显示它们，尝试使用错误描述来识别问题。 如果您无法识别问题，则可以复制详细信息并将其发送给管理员或支持人员。 请注意，阻止测试的错误和阻止发布的错误是相似的。
 
-系统检测到两种问题：错误和警告。 错误阻止发布和测试激活。 警告指示未阻止测试激活或发布的潜在问题。 您将看到问题的描述和 ERR_XXX_XXX 类型的问题日志 ID。 这将帮助技术支持人员确定问题。
+系统检测到两种问题：错误和警告。 错误阻止发布和测试激活。 警告表示潜在问题，但不会阻止测试激活或发布。 您将看到问题的描述和 ERR_XXX_XXX 类型的问题日志 ID。 这将帮助技术支持人员确定问题。
 
 **[!UICONTROL Test]** 切换和 **[!UICONTROL Publish]** 按钮旁边的符号上可以显示两种不同的颜色。 出现错误时，该符号以红色显示。 出现警告时，以橙色显示。
 
@@ -55,9 +65,9 @@ ht-degree: 87%
 
 历程的起点永远是事件。 您可以使用 Postman 等工具执行测试。
 
-您可以检查通过这些工具发送的 API 调用是否正确发送。 如果返回错误，则表示您的调用有问题。 再次检查有效负载、标题（特别是组织 ID）以及目标 URL。 您可以询问管理员要点击的正确 URL。
+您可以检查通过这些工具发送的 API 调用是否正确发送。 如果返回错误，则表示您的调用有问题。 再次检查负载、标头（特别是组织 ID）以及目标 URL。 您可以询问管理员应访问的正确 URL。
 
-事件不会直接从源推送到 [!DNL Journey Orchestration]。 事实上，[!DNL Journey Orchestration]依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=zh-Hans)，以了解流摄取 API 故障排除。
+事件不会直接从源推送到 [!DNL Journey Orchestration]。 事实上，[!DNL Journey Orchestration]依赖于Adobe Experience Platform的流摄取API。 因此，如果出现与事件相关的问题，您可以参阅[此页面](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)，以了解流摄取 API 故障排除。
 
 ## 检查人员是否进入历程{#section_x4v_zzs_dgb}
 
@@ -86,7 +96,7 @@ ht-degree: 87%
 以下是一些要检查的内容：
 
 * 是因为除人员外的情况吗？ 例如，条件为“性别=男性”，而该人员为女性。 如果条件不太复杂，此检查可由商业用户执行。
-* 是由于调用数据源时没有响应吗？ 当历程正在测试时，此信息可在测试模式日志中查看。 当历程处于实时状态时，管理员可以测试对数据源的直接调用并检查收到的答案。 管理员还可以重复历程并进行测试。
+* 是由于调用数据源时没有响应吗？ 当历程处于测试状态时，可在测试模式日志中查看此信息。 当历程处于上线状态时，管理员可以测试对数据源的直接调用并检查收到的响应。 管理员还可以重复历程并进行测试。
 
 ## 检查消息是否发送成功{#section_qb1_yzs_dgb}
 

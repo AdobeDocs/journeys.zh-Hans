@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 83%
-
+source-wordcount: '601'
+ht-degree: 88%
 ---
-
 # 关于高级表达式编辑器 {#concept_uyj_trt_52b}
 
 
@@ -24,8 +34,8 @@ ht-degree: 83%
 >_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-使用高级表达式编辑器在界面的各种屏幕中构建高级表达式。例如，您可以在配置和使用历程以及定义数据源条件时构建表达式。
-它还可在您每次需要定义需要特定数据操作的操作参数时使用。您可以利用来自事件的数据或从数据源检索的其他信息。在历程中，显示的事件字段列表是符合上下文的，并根据历程中添加的事件而有所不同。
+使用高级表达式编辑器可以在界面的各个屏幕中构建高级表达式。 例如，您可以在配置和使用历程时以及在定义数据源条件时构建表达式。
+它还可在您每次需要定义需要特定数据操作的操作参数时使用。 您可以利用来自事件的数据或从数据源检索的其他信息。 在历程中，显示的事件字段列表具有上下文相关性，并会根据历程中添加的事件而有所不同。
 
 高级表达式编辑器提供一组内置函数和运算符，让您处理值并定义一个专门满足您需求的表达式。 高级表达式编辑器还允许您定义外部数据源参数的值、处理映射字段和集合，如体验事件。
 
@@ -43,9 +53,9 @@ _高级表达式编辑器界面_
 
 >[!NOTE]
 >
->条件可以在简单或高级表达式编辑器中定义。 它们始终返回布尔类型。
+>条件可以在简单表达式编辑器或高级表达式编辑器中定义。 它们始终返回布尔类型。
 >
->操作参数可以通过选择字段或通过高级表达式编辑器来定义。 他们根据表达式返回特定数据类型。
+>操作参数可以通过选择字段或使用高级表达式编辑器来定义。 他们根据表达式返回特定数据类型。
 
 ## 访问高级表达式编辑器 {#section_fdz_4nj_cjb}
 

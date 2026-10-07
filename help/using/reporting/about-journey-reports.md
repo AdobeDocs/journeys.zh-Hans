@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '796'
 ht-degree: 7%
-
 ---
-
 # 关于历程报告 {#concept_rfj_wpt_52b}
 
 
@@ -71,7 +81,7 @@ ht-degree: 7%
 ## 历程摘要模板 {#ootb-template}
 
 报告分为两类：现成模板和自定义报告。
-现成模板&#x200B;**[!UICONTROL Journey summary]**&#x200B;为您提供了最重要的跟踪数据的清晰视图。
+现成模板**[!UICONTROL Journey summary]**&#x200B;为您提供了最重要的跟踪数据的清晰视图。
 
 ![](../assets/dynamic_report_journey_8.png)
 

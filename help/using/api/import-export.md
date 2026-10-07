@@ -3,17 +3,18 @@ product: adobe campaign
 title: 导入导出API描述
 description: 了解有关导入导出API的更多信息。
 products: journeys
-source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 21%
-
+source-wordcount: '1162'
+ht-degree: 19%
 ---
-
 
 # 使用Export-Import API
 
-通过单个API调用导出历程版本及其所有相关对象（历程、事件、数据源、字段组、自定义操作）。导出结果有效负载可用于轻松将历程导入其他环境（实例或沙盒）。
+通过单个API调用导出历程版本及其所有相关对象（历程、事件、数据源、字段组、自定义操作）。 导出结果有效负载可用于轻松将历程导入其他环境（实例或沙盒）。
 此功能允许您跨多个实例或针对多个测试环境工作流管理历程。
 
 
@@ -30,16 +31,16 @@ ht-degree: 21%
 
 我们建议按照以下步骤跨环境导出和导入您的历程：
 
-1. 在启动环境中创建旅程并为其参数。 [更多信息在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=zh-Hans)
-1. 检查历程版本是否没有错误。 [更多信息在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=zh-Hans)
+1. 在启动环境中创建旅程并为其参数。 [更多信息在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. 检查历程版本是否没有错误。 [更多信息在此](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. 调用&#x200B;**/list/journeys** API以检索您的最新历程版本的UID历程和UID。 如果需要，您可以调用&#x200B;**/journeys/`{uid}`/latest**&#x200B;来查找您的最新历程版本的UID。
 1. 使用启动环境参数（orgID和sandboxName）调用&#x200B;**export** API。
 1. 打开返回有效负载，然后选中以下项：
    * 如果导出的历程包含&#x200B;**特定凭据**，则需要将这些凭据替换为与新环境对应的凭据。
-   * 如果导出的历程包含指向&#x200B;**XDM架构**&#x200B;的&#x200B;**事件**，并且如果ID值不同，则需要在xdmEntity节点中手动使用新环境的架构ID更新架构ID引用。 需要对每个事件进行此更新。 [更多信息在此](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=zh-Hans)
+   * 如果导出的历程包含指向&#x200B;**XDM架构**&#x200B;的&#x200B;**事件**，并且如果ID值不同，则需要在xdmEntity节点中手动使用新环境的架构ID更新架构ID引用。 需要对每个事件进行此更新。 [更多信息在此](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * 如果您的历程包含电子邮件、短信或推送操作，并且目标环境中的名称与启动环境中的名称不同，则您可能需要更新模板名称或mobileApp名称。
 1. 使用目标环境参数（orgID和sandboxName）调用&#x200B;**Import** API。 请注意，您可以根据需要多次调用导入API。 每次调用导入API时，都会生成历程中包含的每个对象的UUID和名称。
-1. 导入历程后，您可以在Journey Orchestration应用程序中发布该变量。 [此处](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=zh-Hans)了解更多信息
+1. 导入历程后，您可以在Journey Orchestration应用程序中发布该变量。 [此处](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)了解更多信息
 
 
 ## 身份验证
@@ -57,9 +58,12 @@ Journey Orchestration API访问可通过以下步骤进行设置。 有关每个
 
 >[!CAUTION]
 >
->已弃用用于生成访问令牌的JWT方法。 必须使用[OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=zh-Hans#select-oauth-server-to-server)创建所有新集成。 Adobe 还建议您将现有集成迁移到 OAuth 方法。
+>已弃用用于生成访问令牌的JWT方法。 必须使用[OAuth服务器到服务器身份验证方法](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server)创建所有新集成。 Adobe 还建议您将现有集成迁移到 OAuth 方法。
 >
->请阅读以下重要文档：>[应用程序从JWT迁移到OAuth的迁移指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)，>[新旧应用程序与OAuth的实施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)，>[使用OAuth服务器到服务器凭据方法的优势](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>请阅读以下重要文档：
+>[应用程序从JWT到OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)的迁移指南，
+>[OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)的新旧应用程序的实施指南，
+>[使用OAuth服务器到服务器凭据方法的优势](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
 要建立安全的服务到服务 Adobe I/O API 会话，对 Adobe 服务提出的每个请求都必须在“Authorization”标头中包含以下信息。

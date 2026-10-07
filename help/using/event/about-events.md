@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 100%
-
 ---
-
 # 一般原则 {#concept_gfj_fqt_52b}
 
 
@@ -36,7 +46,7 @@ ht-degree: 100%
 
 事件配置允许您定义 [!DNL Journey Orchestration] 将作为事件接收的信息。 您可以使用多个事件（在历程的不同步骤中），而多个历程可以使用相同的事件。
 
-如果您编辑在草稿或实时历程中使用的事件，则只能更改名称、描述或添加有效负载字段。 我们严格限制草稿或实时历程的版本，以避免中断历程。
+如果您编辑在草稿或实时历程中使用的事件，则只能更改名称、描述或添加有效负载字段。 我们严格限制对草稿或实时历程的编辑，以避免中断历程。
 
 您可以定义两种类型的事件：
 
@@ -48,6 +58,6 @@ ht-degree: 100%
 
 * **系统生成**&#x200B;的事件：这些事件需要 eventID。 创建事件时会自动生成此 eventID 字段。 推送事件的系统不应生成 ID，它应传递有效负荷预览中可用的 ID。
 
-Journey Orchestration 需要将事件流式传输或成批发送到 Adobe Experience Platform 中。 此数据不一定需要转至实时轮廓。 如果要在单独的历程中使用事件进行分段或查找，我们建议您为轮廓启用数据集。
+历程编排需要将事件流式传输或成批发送到 Adobe Experience Platform 中。 此数据不一定需要转至实时轮廓。 如果要在单独的历程中使用事件进行分段或查找，我们建议您为轮廓启用数据集。
 
 要了解如何创建事件，请参阅此[页面](../event/about-creating.md)。

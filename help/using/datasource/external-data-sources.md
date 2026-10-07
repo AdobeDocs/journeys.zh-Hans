@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 92%
-
 ---
-
 # 外部数据源 {#concept_t2s_kqt_52b}
 
 
@@ -24,9 +34,9 @@ ht-degree: 92%
 >_本文档参考已被 Journey Optimizer 取代的旧版 Journey Orchestration 资料。 如果您对访问 Journey Orchestration 或 Journey Optimizer 有任何疑问，请联系帐户团队。_
 
 
-外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查人员是否已注册了房间。 与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。
+外部数据源允许您定义与第三方系统的连接，例如，如果您使用酒店预订系统来检查此人是否已预订房间。 与内置 Adobe Experience Platform 数据源相反，您可以根据需要创建尽可能多的外部数据源。
 
-支持使用 POST 或 GET 的 REST API 和返回 JSON。 支持 API 密钥、基本和自定义身份验证模式。
+支持使用 POST 或 GET 并返回 JSON 的 REST API。 支持 API 密钥、基本和自定义身份验证模式。
 
 让我们举一个天气 API 服务的例子，我想借助该服务根据实时天气数据定制我的历程的行为。
 
@@ -78,14 +88,14 @@ ht-degree: 92%
 
 * **[!UICONTROL Used in]**：显示使用字段组的历程数。 您可以单击 **[!UICONTROL View journeys]**&#x200B;图标以显示使用此字段组的历程列表。
 * **[!UICONTROL Method]**：选择 POST 或 GET 方法。 在我们的示例中，我们选择 GET 方法。
-* **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的有效负载。 验证字段类型是否正确。 每次调用 API 时，系统将检索有效负载示例中包含的所有字段。 请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
+* **[!UICONTROL Response Payload]**：单击&#x200B;**[!UICONTROL Payload]** 字段并粘贴由调用返回的有效负载示例。 例如，我们使用了在天气 API 网站上找到的负载。 验证字段类型是否正确。 每次调用 API 时，系统将检索有效负载示例中包含的所有字段。 请注意，如果要更改当前传递的有效负载，可以单击 **[!UICONTROL Paste a new payload]**。
 * **[!UICONTROL Dynamic Values]**：在我们的示例中，输入以逗号分隔的不同参数“long,lat”。 由于参数值取决于执行上下文，因此将在历程中进行定义。 请参阅[此页](../expression/expressionadvanced.md)。
-* **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。 粘贴将发送到第三方系统的有效负载。
+* **[!UICONTROL Sent Payload]**：在我们的示例中不显示此字段。 仅当选择 POST 方法时才可用。 粘贴将发送到第三方系统的负载。
 
 如果 GET 调用需要参数，则在&#x200B;**[!UICONTROL Dynamic Values]**&#x200B;字段中输入参数，这些参数将在调用结束时自动添加。 如果是 POST 调用，您需要：
 
 * 在&#x200B;**[!UICONTROL Dynamic Values]**&#x200B;字段中列出调用时要传递的参数（在以下示例中：“identifier”）。
-* 在发送的有效负载主体中使用完全相同的语法指定它们。 为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
+* 在发送的负载正文中使用完全相同的语法指定它们。 为此，您需要添加“param”：“您的参数名称”（在以下示例中为“identifier”）。 请遵循以下语法：
 
   ```
   {"id":{"param":"identifier"}}
@@ -95,16 +105,16 @@ ht-degree: 92%
 
 单击 **[!UICONTROL Save]**。
 
-数据源现已配置完毕，可随时用于您的历程，例如在您的条件下或个性化电子邮件时。 如果温度高于 30°C，您可以决定发送特定通信。
+数据源现已配置完毕，可随时用于您的历程，例如用于您的条件或个性化电子邮件。 如果温度高于 30°C，您可以决定发送特定的通信内容。
 
 ## 自定义身份验证模式{#section_wjp_nl5_nhb}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="关于自定义身份验证"
->abstract="自定义身份验证模式用于复杂身份验证，以调用 OAuth2 等 API 封装协议。 操作执行分为两步。 首先，执行对端点的调用以生成访问令牌。 然后，访问令牌将插入操作的 HTTP 请求中。"
+>abstract="自定义身份验证模式用于复杂身份验证，以调用 OAuth2 等 API 封装协议。 操作执行分为两步。 首先，执行对端点的调用以生成访问令牌。 然后，将访问令牌注入到操作的 HTTP 请求中。"
 
-此身份验证模式用于复杂的身份验证，通常用于调用 OAuth2 等 API 封装协议，以检索要插入到操作的实际 HTTP 请求中的访问令牌。
+此身份验证模式用于复杂的身份验证，通常用于调用 OAuth2 等 API 封装协议，以检索要注入到操作的实际 HTTP 请求中的访问令牌。
 
 配置自定义身份验证时，可以单击以下按钮检查自定义身份验证有效负载是否正确配置。
 
@@ -117,16 +127,16 @@ ht-degree: 92%
 通过此身份验证，操作执行分为两步：
 
 1. 调用端点以生成访问令牌。
-1. 通过以正确的方式插入访问令牌以调用 REST API。
+1. 以适当的方式注入访问令牌来调用 REST API。
 
 此身份验证分为两部分。
 
-要调用以生成访问令牌端点的定义：
+用于生成访问令牌而要调用的端点定义：
 
 * 端点：用于生成端点的 URL
 * 端点上 HTTP 请求的方法（GET 或 POST）
 * 标头：键/值对将作为标头插入此调用（如果需要）
-* 主体：描述在方法为 POST 时调用的主体。 我们支持一个有限的主体结构，在 bodyParams（键/值对）中定义。 bodyType 描述调用中主体的格式和编码：
+* 主体：描述在方法为 POST 时调用的主体。 我们支持有限的请求正文结构，该结构在 bodyParams（键/值对）中定义。 bodyType 描述调用中主体的格式和编码：
   * “form”：表示内容类型将为 application/x-www-form-urlencoded (charset UTF-8)，键/值对将按如下方式序列化：key1=value1&amp;key2=value2&amp;...
   * “json”：表示内容类型将为 application/json (charset UTF-8)，并且键值对将序列化为 json 对象，如下所示：_{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
@@ -167,7 +177,7 @@ ht-degree: 92%
 }
 ```
 
-您可以更改自定义身份验证数据源的令牌的缓存时间。 以下是自定义身份验证有效负载的示例。 缓存时间在“cacheDuration”参数中定义。 它指定缓存中生成的令牌的保留持续时间。 单位可以是毫秒、秒、分钟、小时、天、月、年。
+您可以更改自定义身份验证数据源的令牌的缓存持续时间。 以下是自定义身份验证负载的示例。 缓存持续时间在“cacheDuration”参数中定义。 它指定缓存中生成的令牌的保留持续时间。 单位可以是毫秒、秒、分钟、小时、天、月、年。
 
 ```
 "authentication": {

@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 80%
-
+source-wordcount: '933'
+ht-degree: 88%
 ---
-
 # 访问管理{#concept_rfj_wpt_52b}
 
 
@@ -34,7 +44,7 @@ ht-degree: 80%
 要能够访问 [!DNL Journey Orchestration]，用户必须是：
 
 * 与权限 [!DNL Journey Orchestration]关联&#x200B;**[!UICONTROL product profile]**&#x200B;的一 [!DNL Journey Orchestration]部分。
-* [!DNL Adobe Experience Platform]&#x200B;**[!UICONTROL product profile]** 的一部分。 无需强制许可。 用户应具有从 [!DNL Journey Orchestration] 界面创建和编辑 Platform 区段的 **[!UICONTROL profile management]** 权限。 有关详细信息，请参见此 [&#x200B; 页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=zh-Hans#adobe-admin-console)。
+* [!DNL Adobe Experience Platform]**[!UICONTROL product profile]** 的一部分。 无需强制许可。 用户应具有从 [!DNL Journey Orchestration] 界面创建和编辑 Platform 区段的 **[!UICONTROL profile management]** 权限。 有关详细信息，请参见此 [ 页面](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console)。
 
 在Admin Console中，您可以将以下现成的产品配置文件之一分配给用户：
 
@@ -58,7 +68,7 @@ ht-degree: 80%
   * 管理报告
   * 读取事件、数据源和操作
 
-如果现成的用户档案不足以管理用户，您还可以创建自己的产品用户档案。
+如果现成的轮廓不足以管理用户，您还可以创建自己的产品配置文件。
 用户必须始终链接到产品配置文件，以便您为他们分配特定的内置权限，例如：
 
 * **[!UICONTROL Read journeys]**
@@ -93,7 +103,7 @@ ht-degree: 80%
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. 选择您的新产品配置文件以开始管理权限。 在选项卡 **[!UICONTROL Users]** 中，将用户添加到您的产品配置文件。 有关详细信息，请参见此 [&#x200B; 页面](../about/access-management.md#assigning-product-profile)。
+1. 选择您的新产品配置文件以开始管理权限。 在选项卡 **[!UICONTROL Users]** 中，将用户添加到您的产品配置文件。 有关详细信息，请参见此 [ 页面](../about/access-management.md#assigning-product-profile)。
 
 1. 执行与上述步骤相同的步骤，以将 **[!UICONTROL Admin]** 添加到您的产品配置文件。
 
@@ -120,8 +130,8 @@ ht-degree: 80%
 
 ## 分配产品配置文件 {#assigning-product-profile}
 
-产品配置文件将分配给组织内共享相同权限的一组用户。
-本部分提供每个现成产品用户档案及已分配权限的列表。
+产品配置文件会分配给您组织内共享相同权限的一组用户。
+本部分提供每个现成产品配置文件及已分配权限的列表。
 
 要为用户分配产品配置文件以访问 [!DNL Journey Orchestration]，请执行以下操作：
 
@@ -135,7 +145,7 @@ ht-degree: 80%
 
 1. 单击 **[!UICONTROL Add user]**。
 
-   您还可以将新用户添加到用户组以微调共享的权限集。 有关详细信息，请参见此 [&#x200B; 页面](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
+   您还可以将新用户添加到用户组以微调共享的权限集。 有关详细信息，请参见此 [ 页面](https://helpx.adobe.com/cn/enterprise/using/user-groups.html)。
 
    ![](../assets/do-not-localize/user_management_3.png)
 
@@ -147,10 +157,10 @@ ht-degree: 80%
 
 ## 使用沙盒 {#sandboxes}
 
-[!DNL Journey Orchestration]允许您将实例分区为称为沙箱的分隔虚拟环境。
-沙盒通过Admin Console中的产品配置文件进行分配。有关如何分配沙箱的详细信息，请参阅此[部分](../about/access-management.md#create-product-profile)。
+[!DNL Journey Orchestration] 允许您将实例分区为称为沙盒的分隔虚拟环境。
+沙盒通过Admin Console中的产品配置文件进行分配。 有关如何分配沙盒的详细信息，请参阅此 [部分](../about/access-management.md#create-product-profile)。
 
-[!DNL Journey Orchestration]反映为给定组织创建的Adobe Experience Platform沙箱。
-可从Adobe Experience Platform实例创建或重置Adobe Experience Platform沙盒。有关详细步骤，请参阅[沙盒用户指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
+[!DNL Journey Orchestration] 反映为给定组织创建的 Adobe Experience Platform 沙盒。
+可以从 Adobe Experience Platform 实例创建或重置 Adobe Experience Platform 沙盒。 有关详细步骤，请参阅[沙盒用户指南](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=zh-Hans)。
 
 您可以在屏幕左上角找到沙盒切换器控件。 要从一个沙盒切换到另一个沙盒，请单击切换器中当前活动的沙盒，然后从下拉列表中选择另一个沙盒。

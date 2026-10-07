@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 95%
-
 ---
-
 # 使用 API 限制
 
 
@@ -43,14 +53,14 @@ ht-degree: 95%
 | [!DNL POST] | /throttlingConfigs | 创建限制配置 |
 | [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | 部署限制配置 |
 | [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | 取消部署限制配置 |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | 检查是否可以部署限制配置 |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | 检查是否可以部署节流配置 |
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | 更新限制配置 |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | 检索限制配置 |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | 删除限制配置 |
 
 ## 限制配置 {#configuration}
 
-以下是限制配置的结构。 **name** 和 **description** 属性是可选项。
+以下是节流配置的结构。 **name** 和 **description** 属性是可选项。
 
 ```
 {
@@ -88,7 +98,7 @@ ht-degree: 95%
 >
 >**maxThroughput** 的值必须在 200-5000 范围内。
 
-创建、删除或部署限制配置时，可能会出现以下错误：
+创建、删除或部署节流配置时，可能会出现以下错误：
 
 * **ERR_THROTTLING_CONFIG_100**：限制配置：`<mandatory attribute>`必需
 * **ERR_THROTTLING_CONFIG_101**：限制配置：maxThroughput 是必填项，且必须大于或等于 200 且小于或等于 5000

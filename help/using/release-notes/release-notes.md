@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '4593'
-ht-degree: 96%
-
+source-wordcount: '4770'
+ht-degree: 100%
 ---
-
 # 发行说明 {#release-notes}
 
 >[!CAUTION]
@@ -36,7 +46,7 @@ ht-degree: 96%
 * **正在停止**&#x200B;状态介于&#x200B;**实时**&#x200B;状态和&#x200B;**已停止**&#x200B;状态
 * **激活测试模式**&#x200B;或&#x200B;**停用测试模式**&#x200B;状态介于&#x200B;**草稿**&#x200B;状态和&#x200B;**草稿（测试）**&#x200B;状态
 
-当历程处于中间状态时，只可读取。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter){target="_blank"}
+当历程处于中间状态时，它是只读的。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter){target="_blank"}
 
 ## 2024 年 2 月版 {#feb-rn-2024}
 
@@ -45,7 +55,7 @@ ht-degree: 96%
 * **筛选您的历程** - 您现在可以使用&#x200B;**自定义日期筛选历程**&#x200B;库存，以及现有的预定义日期筛选器。 这允许您通过显示特定日期、特定月内、全年或指定时间范围内创建或发布的历程来优化列表。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hans#filter){target="_blank"}
 * **自定义操作** - 您现在可以更新 **content-type** 标头。 此新 **content-type** 标头应引用 JSON 内容。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hans#url-configuration){target="_blank"}
 * **配置** - stepEvents 中的 identityMap 属性现在会预填充。 主身份标识被定义为“primary = true”。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=zh-Hans){target="_blank"}
-* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。 在不同的更新中，请注意，用于访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hans#change-properties){target="_blank"}
+* **用户界面** - 历程屏幕中的顶部栏已重新组织，以改善体验。 在这些更新中，请注意，用于访问历程属性的“铅笔”图标现在显示在顶部栏的左侧，位于历程名称的旁边。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=zh-Hans#change-properties){target="_blank"}
 
 ## 2024 年 1 月版 {#jan-rn-2024}
 
@@ -59,7 +69,7 @@ ht-degree: 96%
 
 ### 改进 {#aug-2023-improvements}
 
-* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。 此功能目前作为独享 Beta 版提供。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=zh-Hans){target="_blank"}。
+* 您现在可以在自定义操作中利用 API 调用响应，并根据这些响应编排历程。 此功能目前作为封测版提供。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=zh-Hans){target="_blank"}。
 
 ## 2023 年 4 月版 {#apr-rn-2023}
 
@@ -67,19 +77,19 @@ ht-degree: 96%
 
 * 配置窗格的布局（显示在操作、数据源、事件和历程中）已得到改进。
 * 您现在可以在自定义操作中定义静态或动态查询参数。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=zh-Hans#url-configuration){target="_blank"}。
-* 用于管理历程体验增长的新护栏：
-  * 我们建议您将节点数量限制为 50 个或以下，以保证历程的性能、易读性、QA 和故障排除功能的流畅运行。 活动数显示在历程画布的左上角部分。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#journeys-guardrails-journeys){target="_blank"}
-  * 当您开发和发布历程时，我们会在接近达成 100 个实时历程的里程碑时向您发送通知。 如果计划一次发布 100 个以上的历程，请在收到通知后创建支持工单，我们将为您提供帮助。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#journeys-guardrails-journeys){target="_blank"}
+* 用于管理历程所传递体验增长的新护栏：
+  * 我们建议您将节点数量限制为 50 个或以下，以保持历程的性能，并使其易于阅读、QA 和故障排除。 活动数显示在历程画布的左上角部分。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#journeys-guardrails-journeys){target="_blank"}
+  * 当您开发和发布历程时，我们会在接近达成 100 个实时历程的里程碑时向您发送通知。 如果您的计划一次需要 100 个以上的历程，请在收到通知后创建支持工单，我们将为您提供帮助。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=zh-Hans#journeys-guardrails-journeys){target="_blank"}
 
 ## 2023 年 3 月版 {#mar-2023}
 
 ### 改进 {#mar-2023-improvements}
 
-* 借助全新的&#x200B;**限制 API** 功能，您可以对每秒发送的事件数量设置限制，以防止外部系统或 API 出现流量激增。 达到设置限制后，所有后续 API 调用将按接收到的顺序尽快排入队列并进行处理。 请注意，此功能仅支持在所有沙盒中配置一个限制。 [了解详情](../api/throttling.md)
+* 借助全新的&#x200B;**限制 API** 功能，您可以对每秒发送的事件数量设置限制，以防止外部系统或 API 出现流量激增。 达到设置限制后，所有后续 API 调用将按接收到的顺序尽快排入队列并进行处理。 请注意，此功能仅支持在所有沙盒中使用一个节流配置。 [了解详情](../api/throttling.md)
 * 历程画布已得到改进，可提供更简单、更优质的用户体验。 移除了在画布中每个路径的末尾的空占位符。 现在，您只需将活动拖动到路径末尾即可添加活动。
 * 在历程画布中，**结束**&#x200B;标记的标签不再使用之前的活动名称自动设置。 用户可以根据需要手动添加自定义标签。
 * 历程属性中的默认超时和错误持续时间已从 5 秒更改为 30 秒。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=zh-Hans#timeout){target="_blank"}。
-* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。 不会侦听通过外部工具发送的事件。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=zh-Hans){target="_blank"}。
+* 测试模式中添加了护栏，以仅侦听通过界面发送的事件。 通过外部工具发送的事件不会被纳入考虑。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=zh-Hans){target="_blank"}。
 
 ## 2023 年 2 月版 {#feb-2023}
 
@@ -127,7 +137,7 @@ ht-degree: 96%
 
 ### 改进
 
-* **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。 现在，会默认将结束标记添加到每个路径的末尾，且无法移除。 这项改进可更好地报告客户从历程中退出的位置，而无需历程参与者执行任何操作。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=zh-Hans){target="_blank"}。
+* **结束历程** - 在历程画布中，已从面板中移除&#x200B;**结束**&#x200B;活动。 现在，会默认将结束标记添加到每个路径的末尾，且无法移除。 这项改进可更好地报告客户从历程中退出的位置，而无需历程从业者执行任何操作。 请参阅 Journey Optimizer [文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=zh-Hans){target="_blank"}。
 
 * 现在，历程属性中的&#x200B;**轮廓时区**&#x200B;选项默认处于未选中状态。 [了解详情](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=zh-Hans#timezone-from-profiles){target="_blank"}。
 
@@ -177,7 +187,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>您现在可以在自定义操作参数中传递集合或数据列表，这些参数将在运行时动态填充。 支持两种集合：简单集合和对象集合。 之前创建的自定义操作将继续运行。 </p>
+<p>您现在可以在自定义操作参数中传递集合或数据列表，这些集合或数据列表将在运行时动态填充。 支持两种集合：简单集合和对象集合。 之前创建的自定义操作将继续运行。 </p>
 <p>有关详细信息，请参阅<a href="../usecase/collections.md">详细文档</a>。 </p>
 <p>筛选条件和交集函数已添加到高级表达式编辑器的可用函数列表中。 这为集合筛选和比较提供了更多可能性。</p>
 <p>请查阅有关<a href="../functions/functionfilter.md">筛选条件</a>和<a href="../functions/functionintersect.md">交集</a>函数的文档。</p>
@@ -199,7 +209,7 @@ ht-degree: 96%
 
 **历程**
 
-* **动态标头** - 您现在可以在 HTTP 标头参数中传递动态数据。 集成系统可以使用这些参数接收历程操作 HTTP 调用，例如时间戳或跟踪 ID。 [了解详情](../action/url-configuration.md)
+* **动态标头** - 您现在可以在 HTTP 标头参数中传递动态数据。 这些参数可由接收历程操作 HTTP 调用的集成系统使用，例如时间戳或跟踪 ID。 [了解详情](../action/url-configuration.md)
 * **动态 URL 路径** - 您现在可为自定义操作设置动态 URL 路径。 [了解详情](../action/url-configuration.md)
 
 ## 2021 年 7 月版 {#july-2021-release}
@@ -213,7 +223,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查询表。 Journey Orchestration 现在可以利用来自链接架构的数据。</p>
+<p>Adobe Experience Platform 让您可以定义架构之间的关系，以便将一个数据集用作另一个数据集的查找表。 Journey Orchestration 现在可以利用来自链接架构的数据。</p>
 <p>这些字段在统一事件配置、历程条件和自定义操作个性化中可用。
 <p>有关更多信息，请参阅<a href="../event/experience-event-schema.md#leverage_schema_relationships">详细文档</a>。</p>
 </td>
@@ -236,7 +246,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>正式发布版中已推出与 Adobe Campaign Classic 的集成。 它让您可以使用 Adobe Campaign v7 或 v8 事务性消息传递功能发送电子邮件、推送通知和短信。</p>
+<p>与 Adobe Campaign Classic 的集成现已正式发布（GA）。 它让您可以使用 Adobe Campaign v7 或 v8 事务性消息传递功能发送电子邮件、推送通知和短信。</p>
 <p>Journey Orchestration 实例和 Campaign 实例之间的连接是在配置时通过 Adobe 来设置的。</p>
 <p>有关更多信息，请参阅<a href="../action/acc-action.md">详细文档</a>。</p>
 </td>
@@ -249,7 +259,7 @@ ht-degree: 96%
 * 对于外部数据源，现在会自动定义每秒 15 次调用的上限规则。 [了解详情](../about/external-systems.md#capping)
 * 简单和高级表达式编辑器现在支持 XDM 日期格式。
 * 在历程列表屏幕中，添加了新的筛选器。 您现在可以按历程类型筛选：**[!UICONTROL Unitary event]** 或 **[!UICONTROL Segment qualification]**。 [了解详情](../about/user-interface.md#section_lgm_hpz_pgb)
-* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 在复制历程的技术详情时，也可以使用此信息。 [了解详情](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* 对于实时历程，历程属性屏幕现在显示发布日期和发布历程的用户名称。 复制历程的技术详情时，也可以获取此信息。 [了解详情](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## 2021 年 4 月版 {#april-2021-release}
 
@@ -261,7 +271,7 @@ ht-degree: 96%
 
 ### 改进
 
-* 历程中添加了新状态。 当历程结束或被手动关闭时，其状态会在关闭 30 天后从 **Closed** 切换为 **Finished**。 这样，您就可以更轻松地识别非活动的历程，同时确保所有仍然存在的人员有时间完成历程。 [了解详情](../building-journeys/journey.md#ending_a_journey)
+* 历程中添加了新状态。 当历程结束或被手动关闭时，其状态会在关闭 30 天后从 **Closed** 切换为 **Finished**。 这样，您就可以更轻松地识别非活动的历程，同时确保所有仍在历程中的人员有时间完成历程。 [了解详情](../building-journeys/journey.md#ending_a_journey)
 * 在草稿历程的显示活动的右侧窗格中，默认情况下隐藏只读字段。 这种界面简化将帮助您更轻松地配置活动。 要显示它们，请单击 **Show read-only fields** 图标（位于活动配置窗格的左上角）。 [了解详情](../building-journeys/using-the-journey-designer.md#configuration_pane)
 * 在测试模式的&#x200B;**事件配置**&#x200B;屏幕上，用于定义测试用户档案 ID 的&#x200B;**关键**&#x200B;字段已重命名为&#x200B;**轮廓标识符**&#x200B;以提供更好的用户体验。 [了解详情](../building-journeys/testing-the-journey.md)。
 * 对于反应事件，超时持续时间现在只能设置为 40 秒到 30 天之间。 测试使用反应事件的历程时，测试模式 **[!UICONTROL Wait time]** 的默认值和最小值现在为 40 秒。 [了解详情](../building-journeys/reaction-events.md)。
@@ -287,8 +297,8 @@ ht-degree: 96%
 ### 其他改进
 
 * 现在，在配置事件时，默认情况下只会预先选择 XDM 验证中必填的字段。 无法取消选择这些字段。
-* 在历程调板中，添加了新筛选器。 除了开箱即用型事件和操作之外，它还允许您仅显示最近使用的五个事件和操作。 这具体取决于每个用户。 默认情况下，将显示所有项目。 [了解详情](../building-journeys/using-the-journey-designer.md#palette)
-* 现在，在开始新历程时，无法在第一步操作中放入画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
+* 在历程调板中，添加了新筛选器。 除了开箱即用型的事件和操作之外，它还允许您仅显示最近使用的五个事件和操作。 这具体取决于每个用户。 默认情况下，将显示所有项目。 [了解详情](../building-journeys/using-the-journey-designer.md#palette)
+* 现在，在开始新历程时，无法作为第一步拖放到画布中的元素会被隐藏。 这涉及所有操作、条件活动、等待和反应。
 * 在高级表达式编辑器的左部，函数现在重新组合到了列表末尾的 **Functions** 部分。
 
 ## 2021 年 1 月版 {#january-2021-release}
@@ -301,7 +311,7 @@ ht-degree: 96%
 
 为了与 Adobe Campaign Standard SLA 保持一致，现在设置 Adobe Campaign Standard 集成后，就会为 Adobe Campaign Standard 操作自动定义每秒 13 次调用的上限规则。 [了解详情](../action/working-with-adobe-campaign.md)
 
-现在，可在超时路径上更明确地指定事件超时持续时间。 [了解详情](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+现在，超时路径上的事件超时持续时间说明得更清楚了。 [了解详情](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 [getListItem](../functions/functiongetlistitem.md) 和 [split](../functions/functionsplit.md) 函数已添加到高级表达式编辑器的可用函数列表中。 这将在字符串计算用例中提供更多可能性。
 
@@ -316,7 +326,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>通过新的操作活动，可将个人从一个历程推送到另一个历程。<strong>跳转</strong>活动允许您：
+<p>新的操作活动允许将个体从一个历程推送到另一个历程。 <strong>跳转</strong>活动允许您：
 </p>
 <ul>
 <li>通过将非常复杂的历程分成若干个历程来简化其设计 </li>
@@ -337,7 +347,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>在高级表达式编辑器中，我们在字段和函数列表中添加了新类别。这是系统从实时历程中检索到的信息，例如历程ID或遇到的特定错误。这将为您在构建历程时提供更多可能性。例如，如果在条件或操作中遇到错误，您将能够提醒第三方系统。
+<p>在高级表达式编辑器中，我们在字段和函数列表中添加了新类别。 这是系统从实时历程中检索到的信息，如历程 ID 或遇到的特定错误。 这将为您在构建历程时提供更多可能性。 例如，在条件或操作中遇到错误的情况下，您将能够提醒第三方系统。
 </p>
 <p>有关更多信息，请参阅<a href="../expression/journey-properties.md">详细文档</a>。</p>
 </td>
@@ -354,7 +364,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>现在有一种新方法可用于更轻松地设置事件，而无需使用eventID：基于规则的事件会根据条件来评估是否应触发事件。您仍然可以使用现有方法，现在称为“系统生成”。这项功能已经通过Alpha程序在有限的客户群中进行测试，现在所有客户都可以在Beta中使用此功能。
+<p>现在有一种新方法可用于更轻松地设置事件，而无需使用 eventID：基于规则的事件会根据条件来评估是否应触发事件。 您仍可以使用现有方法，现在称为“系统生成”。 该功能已通过 Alpha 程序在有限的客户群中进行测试，现在所有客户都可以在测试版中使用该功能。
 </p>
 </td>
 </tr>
@@ -378,7 +388,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>现在，您可以为事件配置超时，以便使历程仅在特定时间内侦听事件。您不再需要添加与事件路径平行的“等待”活动来实现此目的。
+<p>现在，您可以为事件配置超时，以便使历程仅在特定时间内侦听事件。 您不再需要添加与事件路径平行的“等待”活动来实现此目的。
 </p>
 <p>有关更多信息，请参阅<a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">详细文档</a>。</p>
 </td>
@@ -403,7 +413,7 @@ ht-degree: 96%
 <tbody>
 <tr>
 <td>
-<p>在向历程中添加条件时，您现在可以定义标签。如果您在历程中使用多个条件，则通过此标签可以更轻松地对其进行识别。
+<p>在向历程中添加条件时，您现在可以定义标签。 如果您在历程中使用多个条件，则通过此标签可以更轻松地对其进行识别。
 </p>
 <p>有关更多信息，请参阅<a href="../building-journeys/condition-activity.md#about_condition">详细文档</a>。</p>
 </td>
@@ -425,9 +435,9 @@ ht-degree: 96%
 <p>已对<strong>读取客户细分</strong>活动进行以下改进：
 </p>
 <ul>
-<li><p>基于客户细分的历程现在在画布上方显示历程的计划类型提醒。 您可以单击此提醒以访问计划配置菜单。</p>
+<li><p>基于区段的历程现在在画布上方显示历程的计划类型提醒。 您可以单击此提醒以访问计划配置菜单。</p>
 </li>
-<li><p>测试模式日志的粒度已得到改进，可显示客户细分导出进度状态。</p>
+<li><p>测试模式日志的粒度已得到改进，可显示区段导出进度状态。</p>
 </li>
 </ul>
 </td>
@@ -457,7 +467,7 @@ ht-degree: 96%
 <ul>
 <li><p>活动的名称已更改为“读取区段”。 </p>
 </li>
-<li><p>已从活动的属性中移除历程调度程序的配置。 现在可直接从历程的属性访问该活动，该活动位于在“读取区段”活动放入画布后将显示的专用部分中。 </p>
+<li><p>已从活动的属性中移除历程调度程序的配置。 现在可直接从历程的属性中访问它；如果已将“读取区段”活动放入画布，则会显示一个专用部分。 </p>
 </li>
 <li><p>您现在可以在单一轮廓上测试历程，并使用视觉流跟踪其在历程中的进度。</p>
 </li>
@@ -526,7 +536,7 @@ Alpha 程序提供目前在有限的一组客户中经过测试的功能。 这�
 <tbody>
 <tr>
 <td>
-<p>“区段触发”活动允许属于Adobe Experience Platform区段的所有个人进入旅程。进入历程的操作可以执行一次，也可以定期执行。 
+<p>“区段触发”活动允许属于 Adobe Experience Platform 区段的所有个人进入历程。 进入历程的操作可以执行一次，也可以定期执行。 
 </p>
 </td>
 </tr>
@@ -542,7 +552,7 @@ Alpha 程序提供目前在有限的一组客户中经过测试的功能。 这�
 <tbody>
 <tr>
 <td>
-<p>我们简化了您设置Experience事件的方式。我们正在引入一种不需要使用eventID的新方法。在Journey Orchestration中设置事件时，您现在可以定义基于规则的事件。<a href="../event/about-events.md">阅读更多</a>
+<p>我们简化了您设置体验事件的方式。 我们正在引入一种无需使用 eventID 的新方法。 在 Journey Orchestration 中设置事件时，现在可以定义基于规则的事件。 <a href="../event/about-events.md">了解详情</a>
 </p>
 </td>
 </tr>
@@ -563,7 +573,7 @@ Alpha 程序提供目前在有限的一组客户中经过测试的功能。 这�
 <td>
 <p>已进行以下 Adobe Experience Platform 集成增强：</p>
 <ul>
-<li><p>新活动允许侦听 Adobe Experience Platform 区段入口/出口，以使人员进入历程或在历程中前进。 <a href="../building-journeys/segment-qualification-events.md">了解详情</a></p>
+<li><p>新活动允许侦听 Adobe Experience Platform 区段入口/出口，从而使人员进入历程或在历程中继续前进。 <a href="../building-journeys/segment-qualification-events.md">了解详情</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
 <li><p>由于新增了<strong>区段</strong>选项卡，现在无需离开 Journey Orchestration 界面即可创建和编辑 Adobe Experience Platform 区段。 <a href="../segment/about-segments.md">了解详情</a></p>
@@ -586,18 +596,18 @@ Alpha 程序提供目前在有限的一组客户中经过测试的功能。 这�
 <table>
 <thead>
 <tr>
-<th><strong>历程设计人员和测试模式增强功能</strong><br/></th>
+<th><strong>历程设计器和测试模式增强功能</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>对历程设计人员和测试模式进行了以下增强：</p>
+<p>对历程设计器和测试模式进行了以下增强：</p>
 <ul>
 <li><p>您现在可以选中 1 个或 N 个历程活动，将活动从一个历程复制粘贴到另一个历程。 <a href="../building-journeys/using-the-journey-designer.md#copy-paste">了解详情</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>在启动一个事件以使测试轮廓进入历程后，您现在可以看到其在历程中的进度，这用彩色的视觉流显示。 如果历程中出错，系统还会显示错误的详细信息。 <a href="../building-journeys/testing-the-journey.md#firing_events">了解详情</a></p>
+<li><p>在触发事件使测试轮廓进入历程后，您现在可以通过彩色可视化流程查看其在历程中的进度。 如果历程中出错，系统还会显示错误的详细信息。 <a href="../building-journeys/testing-the-journey.md#firing_events">了解详情</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
 <li><strong>已完成</strong>的历程状态已更名为<strong>已关闭（禁止进入）</strong>，以更好地反映此状态的含义。</li>
@@ -611,13 +621,13 @@ Alpha 程序提供目前在有限的一组客户中经过测试的功能。 这�
 
 为避免向第三方系统发送过多 API 调用，我们引入了新的公共 API 来设置“上限”规则。 上限规则允许定义每毫秒对 API 端点的最大调用数。 [了解详情](../api/capping.md)
 
-访问控制现在允许在用户访问管理中实现更大粒度。 可用起始日期：2020 年 6 月 30 日。 [了解详情](../about/access-management.md#create-product-profile)
+访问控制现在可在用户访问管理中提供更细粒度的控制。 可用起始日期：2020 年 6 月 30 日。 [了解详情](../about/access-management.md#create-product-profile)
 
 Journey Orchestration 现已在 APAC（澳大利亚数据中心）提供。 可用起始日期：2020 年 6 月 30 日
 
 Journey Orchestration 界面提供日语版。
 
-## 1 季度版 - 2020 年 3 月 {#q1-release---march-2020}
+## 第一季度版本 - 2020 年 3 月 {#q1-release---march-2020}
 
 <table>
 <thead>
@@ -633,7 +643,7 @@ Journey Orchestration 界面提供日语版。
 <li>当历程使用多个事件时，您现在可以从测试模式的<strong>事件配置</strong>屏幕中的下拉列表单独触发每个事件。 <a href="../building-journeys/testing-the-journey.md#firing_events">了解详情</a></p></li>
 <li><p>当在历程中使用一个或多个<strong>等待</strong>活动时，您现在可以定义每个活动在测试模式下的停留时间。 默认时间为 10 秒。 可以使用左下角的<strong>测试中的等待时间</strong>参数更改此设置。 <a href="../building-journeys/testing-the-journey.md">了解详情</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>在<strong>测试日志</strong>中，如果调用第三方系统（数据源或操作）时出错，则现在将显示错误代码和错误响应。<a href="../building-journeys/testing-the-journey.md#viewing_logs">阅读更多</a>
+<li>在<strong>测试日志</strong>中，如果调用第三方系统（数据源或操作）时出错，则现在将显示错误代码和错误响应。 <a href="../building-journeys/testing-the-journey.md#viewing_logs">了解详情</a>
 </li>
 </ul>
 </td>
@@ -695,7 +705,7 @@ Journey Orchestration 界面提供日语版。
 <tbody>
 <tr>
 <td>
-<p>现在，可以跨不同的 Journey Orchestration 列表屏幕（历程、事件、操作和数据源）提供情景帮助。 通过此情景帮助，您可以查看当前功能的快速说明，并访问相关文章和视频。</p>
+<p>现在，不同的 Journey Orchestration 列表屏幕（历程、事件、操作和数据源）中均提供了上下文帮助。 通过此情景帮助，您可以查看当前功能的快速说明，并访问相关文章和视频。</p>
 <p>要显示情景帮助，请单击屏幕右上角的 <img src="../assets/icon-context.png"/>图标。 </p>
 <img src="../assets/rn-context.png"/>
 </td>
@@ -707,7 +717,7 @@ Journey Orchestration 界面提供日语版。
 
 * 除美国以外，现在&#x200B;**欧洲、中东和非洲地区**&#x200B;也提供 Journey Orchestration。 应用程序和文档提供法语和德语两个版本。
 
-* Experience League 现已集成到产品中。 这简化了对相关内容的访问，并有助于您充分利用 Experience Cloud。 直接访问“帮助”选项卡底部的 Journey Orchestration 文档。 此外，单击“帮助”>“反馈”，可回报问题或与 Adobe 分享您的意见。
+* Experience League 现已集成到产品中。 这简化了对相关内容的访问，并有助于您充分利用 Experience Cloud。 可在“帮助”选项卡底部直接访问 Journey Orchestration 文档。 此外，单击“帮助”>“反馈”，可报告问题或与 Adobe 分享您的意见。
 
 * 现在，所有列表屏幕中都提供 **C** 键盘快捷键，它允许您创建新项目：历程、数据源、操作和事件。 [了解详情](../about/user-interface.md#section_ksq_zr1_ffb)
 
@@ -721,6 +731,6 @@ Journey Orchestration 现已正式推出。
 
 利用存储在事件或数据源中的上下文数据构建实时编排用例。
 
-Journey Orchestration 允许由事件的情境数据、Adobe Experience Platform 信息或第三方 API 服务数据提供支持的实时编排。 应用程序根据消费者的轮廓和行为确定在称为历程的多步流中特定于消费者的下一个最佳操作。 这包括最佳时间和操作类型，如通过 Adobe Campaign Standard 事务性消息传送功能（需要 Adobe Campaign Standard）向消费者发送推送通知或第三方系统通知。 这些决策是根据规则和 AI 得分做出的。
+Journey Orchestration 允许由事件的情境数据、Adobe Experience Platform 信息或第三方 API 服务数据提供支持的实时编排。 应用程序根据消费者的轮廓和行为，在称为历程的多步流程中确定特定于消费者的下一个最佳操作。 这包括最佳时间和操作类型，如通过 Adobe Campaign Standard 事务性消息传送功能（需要 Adobe Campaign Standard）向消费者发送推送通知或第三方系统通知。 这些决策是根据规则和 AI 得分做出的。
 
 [详细了解](../action/working-with-adobe-campaign.md) Journey Orchestration。

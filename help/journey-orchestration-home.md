@@ -7,13 +7,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 9154a81a257f51820e71334880e58b56ec39676e
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 98%
-
+source-wordcount: '270'
+ht-degree: 100%
 ---
-
 # Journey Orchestration 指南 {#journeys-documentation}
 
 >[!CAUTION]
@@ -25,8 +35,8 @@ ht-degree: 98%
 
 ## 快速入门
 
-* **[什么是Journey Orchestration？](using/about/about-journey-orchestration.md)**<br/>
-了解有关Journey Orchestration的更多信息。
+* **[Journey Orchestration 是什么？](using/about/about-journey-orchestration.md)**<br/>
+详细了解 Journey Orchestration。
 
 * **[构建您的第一个历程](using/about/get-started.md)**<br/>
 了解设置 Journey Orchestration 的主要步骤并构建您的第一个历程。
@@ -58,7 +68,7 @@ ht-degree: 98%
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>用例</strong></a>
     </div>
-    <em>了解如何分步创建高级历程。</em>
+    <em>了解创建高级历程的分步操作。</em>
     <br>
   </td>
   <td valign="top">
@@ -76,11 +86,11 @@ ht-degree: 98%
 
 ## 其他资源
 
-* [Journey Orchestration 产品页](https://www.adobe.com/cn/experience-platform/journey-orchestration.html)
+* [Journey Orchestration 产品页面](https://www.adobe.com/cn/experience-platform/journey-orchestration.html)
 * [Experience Platform 文档](https://www.adobe.com/cn/experience-platform/documentation-and-developer-resources.html)
 * [实时客户轮廓文档](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hans)
 * [Experience Cloud XDM 字段定义](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hans)
-* [身份命名空间文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
+* [身份标识命名空间文档](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=zh-Hans)
 * [流式引入 API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=zh-Hans)
 * [Campaign Standard 事务性消息文档](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=zh-Hans)
 

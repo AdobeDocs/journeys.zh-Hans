@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 18%
-
+source-wordcount: '445'
+ht-degree: 16%
 ---
-
 # 定义事件键 {#concept_ond_hqt_52b}
 
 
@@ -44,7 +54,7 @@ ht-degree: 18%
 
    ![](../assets/journey20.png)
 
-当收到事件时，键的值将允许系统识别与事件相关联的人员。与命名空间关联（请参阅[此页面](../event/selecting-the-namespace.md)），密钥可用于在Adobe Experience Platform上执行查询。请参阅[此页面](../building-journeys/about-orchestration-activities.md)。
-密钥还用于检查人员是否正在旅程中。事实上，一个人在同一历程中不能位于两个不同的位置。因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
+当收到事件时，键的值将允许系统识别与事件相关联的人员。 与命名空间关联（请参阅[此页面](../event/selecting-the-namespace.md)），密钥可用于在Adobe Experience Platform上执行查询。 请参阅[此页](../building-journeys/about-orchestration-activities.md)。
+密钥还用于检查人员是否正在旅程中。 事实上，一个人在同一历程中不能位于两个不同的位置。 因此，系统不允许相同的键（例如键CRMID=3224）位于同一历程的不同位置。
 
 如果要执行其他操作，还可以访问高级表达式函数(**[!UICONTROL Advanced mode]**)。 利用这些函数，可处理用于执行特定查询的值，例如更改格式、执行字段连接，同时仅考虑字段的一部分（例如，前10个字符）。 请参阅[此页](../expression/expressionadvanced.md)。
